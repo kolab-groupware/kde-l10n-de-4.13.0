@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_help4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-13 06:19+0000\n"
+"POT-Creation-Date: 2014-07-25 07:22+0000\n"
 "PO-Revision-Date: 2007-08-26 19:20+0200\n"
 "Last-Translator: Stephan Johach <hunsum@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -115,7 +115,7 @@ msgstr "XML-Umsetzung"
 msgid "KDE Translator for XML"
 msgstr "KDE-Umsetzung für XML"
 
-#: meinproc.cpp:245
+#: meinproc.cpp:235
 #, kde-format
 msgid "Could not write to cache file %1."
 msgstr "Schreiben in Zwischenspeicher-Datei %1 nicht möglich."
@@ -128,10 +128,10 @@ msgstr "Stilvorlage wird eingelesen"
 msgid "Parsing document"
 msgstr "Dokument wird eingelesen"
 
-#: xslt.cpp:168
+#: xslt.cpp:186
 msgid "Applying stylesheet"
 msgstr "Stilvorlage wird angewendet"
 
-#: xslt.cpp:176
+#: xslt.cpp:194
 msgid "Writing document"
 msgstr "Dokument wird geschrieben"

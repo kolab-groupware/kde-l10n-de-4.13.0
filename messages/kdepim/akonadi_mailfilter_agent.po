@@ -1,12 +1,12 @@
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013, 2014.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
 # Frederik Schwarzer <schwarzer@kde.org>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: mailfilteragent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-30 06:05+0000\n"
-"PO-Revision-Date: 2013-07-23 12:20+0200\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-11-08 21:26+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -136,16 +136,19 @@ msgstr "<b>Filterung beginnt bei Nachricht „%1“ von „%2“ um „%3“ :</
 msgid "Filtering messages"
 msgstr "Nachrichten werden gefiltert"
 
-#: mailfilteragent.cpp:104
+#: mailfilteragent.cpp:103
 msgctxt "Notification when the filter log was enabled"
 msgid "Mail Filter Log Enabled"
 msgstr "E-Mail-Filter-Protokoll aktiviert"
 
-#: mailfilteragent.cpp:147
+#: mailfilteragent.cpp:146
 msgid "Ready"
 msgstr "Bereit"
 
-#: mailfilteragent.cpp:214
+#: mailfilteragent.cpp:213
 #, kde-format
 msgid "Filtering in %1"
 msgstr "%1 wird gefiltert"
+
+#~ msgid "Error applying mail filter move"
+#~ msgstr "Fehler beim Anwenden des E-Mail-Filters „verschieben“"

@@ -2637,7 +2637,7 @@ drop down box.</para
 >Wiederholungszeitraum</title>
 
 <para
->Als Voreinstellung werden sich wiederholende Termine ewig wiederholt, es gibt keine letzte Ausführung. Das ist aber vielleicht nicht immer gewünscht, deshalb gibt es zwei Wege, wie Sie die Wiederholung beenden können: entweder mit einem Enddatum, oder durch Angabe der Gesamtzahl an Wiederholungen.</para>
+>Als Voreinstellung werden sich wiederholende Termine ewig wiederholt, es gibt keine letzte Ausführung. Das ist aber vielleicht nicht immer gewünscht, deshalb gibt es zwei Wege, wie Sie die Wiederholung beenden können: entweder mit einem Enddatum, oder durch Angabe der Gesamtzahl an Vorkommen.</para>
 
 </sect3>
 

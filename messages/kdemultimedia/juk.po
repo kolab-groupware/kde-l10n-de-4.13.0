@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-04 02:01+0000\n"
-"PO-Revision-Date: 2014-03-04 07:24+0100\n"
+"POT-Creation-Date: 2014-10-11 01:49+0000\n"
+"PO-Revision-Date: 2014-10-11 17:43+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -214,7 +214,7 @@ msgstr ""
 msgid "Import playlists"
 msgstr "Wiedergabelisten importieren"
 
-#: exampleoptions.cpp:56 main.cpp:53 playermanager.cpp:531 playlist.cpp:417
+#: exampleoptions.cpp:56 main.cpp:53 playermanager.cpp:529 playlist.cpp:417
 #: systemtray.cpp:478 systemtray.cpp:489
 msgid "JuK"
 msgstr "JuK"
@@ -294,12 +294,12 @@ msgstr "Album"
 msgid "Genre"
 msgstr "Genre"
 
-#: filerenamer.cpp:67
+#: filerenamer.cpp:68
 msgctxt "warning about mass file rename"
 msgid "Warning"
 msgstr "Warnung"
 
-#: filerenamer.cpp:77
+#: filerenamer.cpp:78
 msgid ""
 "You are about to rename the following files. Are you sure you want to "
 "continue?"
@@ -307,51 +307,51 @@ msgstr ""
 "Sie sind dabei, die folgenden Dateien umzubenennen. Sind Sie sicher, dass "
 "Sie damit fortfahren möchten?"
 
-#: filerenamer.cpp:83
+#: filerenamer.cpp:85
 msgid "Original Name"
 msgstr "Ursprünglicher Name"
 
-#: filerenamer.cpp:84
+#: filerenamer.cpp:86
 msgid "New Name"
 msgstr "Neuer Name"
 
-#: filerenamer.cpp:92
+#: filerenamer.cpp:103
 msgid "No Change"
 msgstr "Keine Änderung"
 
-#: filerenamer.cpp:372
+#: filerenamer.cpp:387
 msgctxt "remove music genre from file renamer"
 msgid "Remove"
 msgstr "Entfernen"
 
-#: filerenamer.cpp:377
+#: filerenamer.cpp:392
 msgctxt "file renamer genre options"
 msgid "Options"
 msgstr "Optionen"
 
-#: filerenamer.cpp:475
+#: filerenamer.cpp:490
 msgid "Insert folder separator"
 msgstr "Ordnertrenner einfügen"
 
-#: filerenamer.cpp:568
+#: filerenamer.cpp:583
 msgid "No file selected, or selected file has no tags."
 msgstr "Es ist keine Datei ausgewählt oder die Datei enthält keine Metadaten."
 
-#: filerenamer.cpp:811
+#: filerenamer.cpp:826
 msgid "Hide Renamer Test Dialog"
 msgstr "Umbenennungs-Testdialog ausblenden"
 
 #. i18n: ectx: property (text), widget (KPushButton, m_showExample)
-#: filerenamer.cpp:816 filerenamerbase.ui:212
+#: filerenamer.cpp:831 filerenamerbase.ui:212
 msgid "Show Renamer Test Dialog"
 msgstr "Testdialog zum Umbenennen anzeigen"
 
-#: filerenamer.cpp:898
+#: filerenamer.cpp:913
 #, kde-format
 msgid "%1 to %2"
 msgstr "%1 nach %2"
 
-#: filerenamer.cpp:905
+#: filerenamer.cpp:920
 msgid "The following rename operations failed:\n"
 msgstr "Die folgenden Umbenennungen sind fehlgeschlagen:\n"
 
@@ -645,7 +645,7 @@ msgstr "Titelposition"
 msgid "Volume"
 msgstr "Lautstärke"
 
-#: juk.cpp:536
+#: juk.cpp:518
 msgid ""
 "<qt>Closing the main window will keep JuK running in the system tray. Use "
 "Quit from the File menu to quit the application.</qt>"
@@ -653,7 +653,7 @@ msgstr ""
 "<qt>JuK bleibt auch nach dem Schließen in der Kontrollleiste geladen. Zum "
 "Beenden verwenden Sie bitte den Eintrag „Beenden“ im Menü „Datei“.</qt>"
 
-#: juk.cpp:538
+#: juk.cpp:520
 msgid "Docking in System Tray"
 msgstr "Angedockt in der Kontrollleiste"
 
@@ -868,8 +868,8 @@ msgid "MPRIS2 Interface implementation."
 msgstr "Implementierung der MPRIS2-Schnittstelle."
 
 #: main.cpp:55
-msgid "© 2002–2013, Scott Wheeler, Michael Pyne, and others"
-msgstr "© 2002–2013, Scott Wheeler, Michael Pyne und Andere"
+msgid "© 2002–2014, Scott Wheeler, Michael Pyne, and others"
+msgstr "© 2002–2014, Scott Wheeler, Michael Pyne und Andere"
 
 #: main.cpp:59
 msgid "Scott Wheeler"
@@ -993,7 +993,7 @@ msgstr "Die Verbindung mit dem MusicBrainz-Server ist fehlgeschlagen."
 msgid "back to playlist"
 msgstr "Zurück zur Wiedergabeliste"
 
-#: playermanager.cpp:495
+#: playermanager.cpp:493
 #, kde-format
 msgctxt ""
 "%1 will be the /path/to/file, %2 will be some string from Phonon describing "
@@ -1319,38 +1319,50 @@ msgstr "&Suchleiste anzeigen"
 msgid "Edit Track Search"
 msgstr "Suche bearbeiten"
 
-#: scrobbleconfigdlg.cpp:31
+#: scrobbleconfigdlg.cpp:37
 msgid "Configure scrobbling..."
 msgstr "Last.fm einrichten ..."
 
-#: scrobbleconfigdlg.cpp:38
+#: scrobbleconfigdlg.cpp:44
 msgid "Test login..."
 msgstr "Testanmeldung ..."
 
-#: scrobbleconfigdlg.cpp:44
+#: scrobbleconfigdlg.cpp:50
 msgid ""
 "Please enter your <a href=\"http://last.fm/\">last.fm</a> login credentials:"
 msgstr ""
 "Geben Sie bitte Ihre <a href=\"http://last.fm/\">last.fm</a>-Benutzerdaten "
 "ein:"
 
-#: scrobbleconfigdlg.cpp:48
+#: scrobbleconfigdlg.cpp:54
 msgid "Username:"
 msgstr "Benutzername:"
 
-#: scrobbleconfigdlg.cpp:49
+#: scrobbleconfigdlg.cpp:55
 msgid "Password:"
 msgstr "Passwort:"
 
-#: scrobbleconfigdlg.cpp:84
+#: scrobbleconfigdlg.cpp:82
+msgid ""
+"KWallet is unavailable, your Last.fm credentials will be stored without "
+"encryption."
+msgstr ""
+"Der Passwortspeicher KWallet ist nicht verfügbar, Ihre Anmeldedaten für Last."
+"fm werden unverschlüsselt gespeichert."
+
+#: scrobbleconfigdlg.cpp:82
+msgid "KWallet is unavailable"
+msgstr "KWallet ist nicht verfügbar"
+
+#: scrobbleconfigdlg.cpp:136
 msgid "Validating login..."
 msgstr "Benutzerdaten werden geprüft ..."
 
-#: scrobbleconfigdlg.cpp:94
+#: scrobbleconfigdlg.cpp:146
 msgid "Login invalid."
 msgstr "Benutzerkennung ungültig."
 
-#: scrobbleconfigdlg.cpp:102
+#: scrobbleconfigdlg.cpp:154
 msgid "Login valid."
 msgstr "Benutzerkennung gültig."
 
@@ -1753,19 +1765,15 @@ msgstr "Stumm ein/aus"
 msgid "%1%"
 msgstr "%1 %"
 
-#: volumepopupbutton.cpp:118
-#, kde-format
-msgid "Volume: %1% %2"
-msgstr "Volume: %1 % %2"
-
-#: volumepopupbutton.cpp:119
-msgid "(muted)"
-msgstr "(stumm)"
-
-#: volumepopupbutton.cpp:129
+#: volumepopupbutton.cpp:118 volumepopupbutton.cpp:129
 #, kde-format
 msgid "Volume: %1% (muted)"
 msgstr "Lautstärke: %1 % (stumm)"
+
+#: volumepopupbutton.cpp:118
+#, kde-format
+msgid "Volume: %1%"
+msgstr "Lautstärke: %1 %"
 
 #: webimagefetcher.cpp:87
 msgid "Searching for cover. Please Wait..."
@@ -1786,6 +1794,9 @@ msgstr "Speichern"
 #: webimagefetcher.cpp:192
 msgid "Cover fetched from <a href='http://last.fm/'>last.fm</a>."
 msgstr "Das Cover ist von <a href='http://last.fm/'>last.fm</a> geholt worden."
+
+#~ msgid "(muted)"
+#~ msgstr "(stumm)"
 
 #~ msgid "Last.fm scrobbling support."
 #~ msgstr "Unterstützung für Last.fm-Übermittlung."

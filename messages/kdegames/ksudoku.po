@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksudoku\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-01 01:32+0000\n"
+"POT-Creation-Date: 2015-01-05 05:18+0000\n"
 "PO-Revision-Date: 2013-12-18 15:27+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -45,8 +45,8 @@ msgstr ""
 "Beim Verwenden des aktuellen Rätsels kann das Ändern auf „Keine Symmetrie“ "
 "oder eine geringe Symmetrie sowie Erstellen eines anderen Rätsels helfen."
 
-#: src/generator/sudokuboard.cpp:161 src/generator/sudokuboard.cpp:181
-#: src/generator/sudokuboard.cpp:197
+#: src/generator/sudokuboard.cpp:161 src/generator/sudokuboard.cpp:180
+#: src/generator/sudokuboard.cpp:194
 msgid "Difficulty Level"
 msgstr "Schwierigkeitsgrad"
 
@@ -58,7 +58,7 @@ msgstr "&Erneut versuchen"
 msgid "&Accept"
 msgstr "&Annehmen"
 
-#: src/generator/sudokuboard.cpp:174
+#: src/generator/sudokuboard.cpp:175
 #, kde-format
 msgid ""
 "It will be possible to solve the generated puzzle by logic alone. No "
@@ -72,15 +72,15 @@ msgstr ""
 "Der interne Schwierigkeitsgrad liegt bei %1 wobei zu Beginn %2 Felder "
 "vorgegeben sowie %3 Felder auszufüllen sind."
 
-#: src/generator/sudokuboard.cpp:182 src/generator/sudokuboard.cpp:198
+#: src/generator/sudokuboard.cpp:181 src/generator/sudokuboard.cpp:195
 msgid "&OK"
 msgstr "&OK"
 
-#: src/generator/sudokuboard.cpp:182 src/generator/sudokuboard.cpp:198
+#: src/generator/sudokuboard.cpp:181 src/generator/sudokuboard.cpp:195
 msgid "&Retry"
 msgstr "E&rneut versuchen"
 
-#: src/generator/sudokuboard.cpp:186
+#: src/generator/sudokuboard.cpp:187
 #, kde-format
 msgid ""
 "Solving the generated puzzle will require an average of %1 guesses or branch "

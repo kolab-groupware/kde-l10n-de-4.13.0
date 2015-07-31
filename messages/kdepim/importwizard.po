@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: importwizard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-04 01:34+0000\n"
-"PO-Revision-Date: 2014-01-04 11:48+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-10-08 15:54+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -316,6 +316,21 @@ msgstr "Bitte wählen Sie das Programm für den Import aus:"
 #: ui/selectprogrampage.ui:44
 msgid "No program found"
 msgstr "Kein Programm gefunden"
+
+#~ msgid "Imported from \"%1\""
+#~ msgstr "Importiert von „%1“"
+
+#~ msgid "Import filter was canceled."
+#~ msgstr "Der Filterfilter wurde abgebrochen."
+
+#~ msgid "No addressbook found"
+#~ msgstr "Kein Adressbuch gefunden"
+
+#~ msgid "Ldap created"
+#~ msgstr "LDAP erstellt"
+
+#~ msgid "New addressbook created: %1"
+#~ msgstr "Neues Adressbuch erstellt: %1"
 
 #~ msgid "Resource type '%1' is not available."
 #~ msgstr "Ressource vom Typ „%1“ ist nicht verfügbar."

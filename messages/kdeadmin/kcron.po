@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-30 01:33+0000\n"
+"POT-Creation-Date: 2014-06-22 01:43+0000\n"
 "PO-Revision-Date: 2010-10-22 19:10+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -478,23 +478,23 @@ msgstr "Cron&tab drucken"
 msgid "Print &all users"
 msgstr "&Alle Benutzer drucken"
 
-#: src/crontabWidget.cpp:164
+#: src/crontabWidget.cpp:159
 msgid "Show the following Cron:"
 msgstr "Folgenden Cron anzeigen:"
 
-#: src/crontabWidget.cpp:168
+#: src/crontabWidget.cpp:163
 msgid "Personal Cron"
 msgstr "Persönliches Cron"
 
-#: src/crontabWidget.cpp:173
+#: src/crontabWidget.cpp:168
 msgid "System Cron"
 msgstr "System-Cron"
 
-#: src/crontabWidget.cpp:177
+#: src/crontabWidget.cpp:172
 msgid "Cron of User:"
 msgstr "Cron des Benutzers:"
 
-#: src/crontabWidget.cpp:200
+#: src/crontabWidget.cpp:195
 msgid "Show All Personal Crons"
 msgstr "Alle persönlichen Crons anzeigen"
 

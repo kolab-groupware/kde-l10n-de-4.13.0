@@ -1,13 +1,13 @@
 # Stephan Johach <hunsum@gmx.de>, 2004.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2007.
-# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013, 2014.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: messageviewer_text_vcard_plugin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-19 01:33+0000\n"
-"PO-Revision-Date: 2013-01-04 16:22+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-09-10 08:22+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -79,3 +79,19 @@ msgstr "Visitenkarten speichern"
 #, kde-format
 msgid "%1 already exists. Do you want to overwrite it?"
 msgstr "%1 existiert bereits. Möchten Sie es überschreiben?"
+
+#~ msgid "The VCard's primary email address is already in addressbook."
+#~ msgstr "Die primäre Adresse der VCard ist bereits im Adressbuch."
+
+#~ msgid "There is two or more contact with same email stored in addressbook."
+#~ msgstr ""
+#~ "Es sind bereits zwei oder mehr Kontakte mit der gleichen E-Mail-Adresse "
+#~ "im Adressbuch gespeichert."
+
+#~ msgid ""
+#~ "The VCard was updated to your address book; you can add more information "
+#~ "to this entry by opening the address book."
+#~ msgstr ""
+#~ "Die VCard wurde in Ihrem Adressbuch aktualisiert: Sie können weitere "
+#~ "Informationen zu diesem Eintrag hinzufügen, indem Sie das Adressbuch "
+#~ "öffnen."

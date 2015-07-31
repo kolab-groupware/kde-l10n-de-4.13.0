@@ -661,7 +661,7 @@ Context menu actions like Rename Bookmarks etc.)
 ><guimenu
 >Datei</guimenu
 ><guimenuitem
->Speicher unter ...</guimenuitem
+>Speichern unter ...</guimenuitem
 ></menuchoice
 > vor dem Schließen speichern. Vergessen Sie das, wird ein Dialog angezeigt und Sie können das Dokument dann speichern. </para>
 				</note>

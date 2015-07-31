@@ -2,13 +2,13 @@
 # Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2012, 2013.
 # Björn Ricks <bjoern.ricks@intevation.de>, 2010.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_kolabproxy_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-01 01:37+0000\n"
-"PO-Revision-Date: 2013-12-03 06:53+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-09-29 10:32+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -107,11 +107,11 @@ msgstr "Kolab"
 msgid "An error occured while writing the item to the backend."
 msgstr "Es ist ein Fehler beim Schreiben des Eintrags zum Backend aufgetreten."
 
-#: kolabproxyresource.cpp:776
+#: kolabproxyresource.cpp:778
 msgid "My Data"
 msgstr "Meine Daten"
 
-#: kolabproxyresource.cpp:781 kolabproxyresource.cpp:789
+#: kolabproxyresource.cpp:783 kolabproxyresource.cpp:791
 #, kde-format
 msgid "Kolab (%1)"
 msgstr "Kolab (%1)"
@@ -243,6 +243,10 @@ msgstr ""
 #: setupkolab.cpp:209
 msgid "Unable to start account wizard"
 msgstr "Der Konto-Assistent kann nicht gestartet werden"
+
+#~ msgid "Failed to convert item %1 to kolab format"
+#~ msgstr ""
+#~ "Das Umwandeln des Eintrags %1 in das Kolab-Format ist fehlgeschlagen"
 
 #~ msgid "Copy of: %1"
 #~ msgstr "Kopie von: %1"

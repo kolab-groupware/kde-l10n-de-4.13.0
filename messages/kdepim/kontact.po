@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-18 06:53+0000\n"
-"PO-Revision-Date: 2014-04-15 18:21+0200\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-08-05 14:34+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -628,15 +628,15 @@ msgstr "Notizen"
 msgid "No note found"
 msgstr "Keine Notiz gefunden"
 
-#: plugins/knotes/summarywidget.cpp:158
+#: plugins/knotes/summarywidget.cpp:159
 msgid "Modify Note..."
 msgstr "Notiz ändern ..."
 
-#: plugins/knotes/summarywidget.cpp:162
+#: plugins/knotes/summarywidget.cpp:163
 msgid "Delete Note..."
 msgstr "Notiz löschen ..."
 
-#: plugins/knotes/summarywidget.cpp:237
+#: plugins/knotes/summarywidget.cpp:233
 #, kde-format
 msgid "Read Popup Note: \"%1\""
 msgstr "Notiz lesen: „%1“"
@@ -821,16 +821,16 @@ msgstr "&Jahrestage anzeigen"
 msgid "Groupware Settings"
 msgstr "Groupware-Einstellungen"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMineOnly)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowMineOnly)
 #: plugins/korganizer/apptsummaryconfig_base.ui:163
 #: plugins/planner/plannerconfig_base.ui:253
 #: plugins/specialdates/sdsummaryconfig_base.ui:250
 msgid "Show events belonging to my calendars only"
 msgstr "Nur Ereignisse aus dem eigenen Kalender anzeigen"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMineOnly)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowMineOnly)
 #: plugins/korganizer/apptsummaryconfig_base.ui:166
 #: plugins/planner/plannerconfig_base.ui:256
 #: plugins/specialdates/sdsummaryconfig_base.ui:253
@@ -841,8 +841,8 @@ msgstr ""
 "Aktivieren Sie diese Einstellung, so wird die Übersicht nur noch Ereignisse "
 "aus Ihrem eigenen Kalender anzeigen."
 
-#. i18n: ectx: property (text), widget (QCheckBox, mShowMineOnly)
 #. i18n: ectx: property (text), widget (QCheckBox, mShowMyEventsOnly)
+#. i18n: ectx: property (text), widget (QCheckBox, mShowMineOnly)
 #: plugins/korganizer/apptsummaryconfig_base.ui:169
 #: plugins/planner/plannerconfig_base.ui:259
 #: plugins/specialdates/sdsummaryconfig_base.ui:256
@@ -1685,8 +1685,8 @@ msgstr "Besondere Termine"
 msgid "Show these Special Dates"
 msgstr "Diese besonderen Termine anzeigen"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromKABBox)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mBirthdayConList)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromKABBox)
 #: plugins/planner/plannerconfig_base.ui:418
 #: plugins/specialdates/sdsummaryconfig_base.ui:209
 msgid "Show birthdays from your address book"
@@ -1706,8 +1706,8 @@ msgstr ""
 msgid "Show birthdays from address book"
 msgstr "Geburtstage aus dem Adressbuch anzeigen"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromKABBox)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mAnniversariesConList)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromKABBox)
 #: plugins/planner/plannerconfig_base.ui:434
 #: plugins/specialdates/sdsummaryconfig_base.ui:225
 msgid "Show anniversaries from your address book"
@@ -1727,8 +1727,8 @@ msgstr ""
 msgid "Show anniversaries from address book"
 msgstr "Jahrestage aus dem Adressbuch anzeigen"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowHolidaysFromCalBox)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mHolidaysCal)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowHolidaysFromCalBox)
 #: plugins/planner/plannerconfig_base.ui:450
 #: plugins/specialdates/sdsummaryconfig_base.ui:168
 msgid "Show holidays from your calendar"
@@ -1751,15 +1751,15 @@ msgstr ""
 msgid "Show holidays from calendar"
 msgstr "Feiertage aus dem Kalender anzeigen"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowSpecialsFromCalBox)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mSpecialOccasionsCal)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowSpecialsFromCalBox)
 #: plugins/planner/plannerconfig_base.ui:466
 #: plugins/specialdates/sdsummaryconfig_base.ui:184
 msgid "Show special occasions from your calendar"
 msgstr "Besondere Anlässe aus dem Kalender anzeigen"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowSpecialsFromCalBox)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mSpecialOccasionsCal)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowSpecialsFromCalBox)
 #: plugins/planner/plannerconfig_base.ui:469
 #: plugins/specialdates/sdsummaryconfig_base.ui:187
 msgid ""
@@ -2141,51 +2141,81 @@ msgid "<p><b>Translators:</b></p>"
 msgstr "<p><b>Übersetzer:</b></p>"
 
 #: src/aboutdialog.cpp:167
+#, fuzzy
+#| msgid ""
+#| "<br /><br />                     <i>This Free Software product was "
+#| "improved as part of a commercial project:</i>                     "
+#| "<h3>Credits</h3>                     Project Kowi (March 2007 - )<br /"
+#| "><br />                                          <b>Production / Project "
+#| "Coordination</b><br />                     Bernhard Reiter<br /"
+#| ">                     <b>Director of Development</b><br /"
+#| ">                     Till Adam                     <br /><br /"
+#| ">                                          <table border=\"0\" width="
+#| "\"100%\">                 <tr>                <td colspan="
+#| "\"2\">                <b>Osnabr&uuml;ck Unit, Intevation GmbH</"
+#| "b>                </td>                </tr>                "
+#| "<tr>                <td width=\"60%\">                Unit Lead<br /"
+#| ">                Senior QA, Packaging<br />                QA, "
+#| "Packaging<br />                Additional NSIS<br />                "
+#| "Backup Coordinator                </td>                "
+#| "<td>                Bernhard Reiter<br />                Bernhard "
+#| "Herzog<br />                Ludwig Reiter<br />                Emanuel "
+#| "Sch&uuml;tze<br />                Dr. Jan-Oliver Wagner                </"
+#| "td>                </tr>                </table>                <br /"
+#| "><br />                                <table border=\"0\" width=\"100%"
+#| "\">                <tr>                <td colspan=\"2\">                "
+#| "<b>Berlin Unit, Klar&auml;lvdalens Datakonsult AB</b>                </"
+#| "td>                </tr>                <tr>                <td width="
+#| "\"60%\">                Unit Lead<br />                Development<br /"
+#| ">                Development<br />                Additional D. + "
+#| "Crypto<br />                Crypto GUI Development                </"
+#| "td>                <td>                Till Adam<br />                "
+#| "Jaroslaw Staniek<br />                Volker Krause<br />                "
+#| "Frank Osterfeld<br />                Marc Mutz                </"
+#| "td>                </tr>                </table>                <br /"
+#| "><br />                                <table border=\"0\" width=\"100%"
+#| "\">                <tr>                <td colspan=\"2\">                "
+#| "<b>D&uuml;sseldorf Unit, g10 Code GmbH</b>                </"
+#| "td>                </tr>                <tr>                <td width="
+#| "\"60%\">                Crypto-Backend Porting<br />                "
+#| "Crypto-Backend                </td>                <td>                "
+#| "Werner Koch<br />                Marcus Brinkmann                </"
+#| "td>                </tr>                </table>                <br /"
+#| "><br />                                <table border=\"0\" width=\"100%"
+#| "\">                <tr>                <td colspan=\"2\">                "
+#| "<b>External QA Darmstadt, basysKom GmbH</b>                </"
+#| "td>                </tr>                <tr>                <td width="
+#| "\"60%\">                Unit-Lead                </td>                "
+#| "<td>                Dr. Stefan Werden                </td>                "
+#| "</tr>                </table><br /><br />"
 msgid ""
-"<br /><br />                     <i>This Free Software product was improved "
-"as part of a commercial project:</i>                     <h3>Credits</"
-"h3>                     Project Kowi (March 2007 - )<br /><br /"
-">                                          <b>Production / Project "
-"Coordination</b><br />                     Bernhard Reiter<br /"
-">                     <b>Director of Development</b><br /"
-">                     Till Adam                     <br /><br /"
-">                                          <table border=\"0\" width=\"100%"
-"\">                 <tr>                <td colspan=\"2\">                "
-"<b>Osnabr&uuml;ck Unit, Intevation GmbH</b>                </"
-"td>                </tr>                <tr>                <td width=\"60%"
-"\">                Unit Lead<br />                Senior QA, Packaging<br /"
-">                QA, Packaging<br />                Additional NSIS<br /"
-">                Backup Coordinator                </td>                "
-"<td>                Bernhard Reiter<br />                Bernhard Herzog<br /"
-">                Ludwig Reiter<br />                Emanuel Sch&uuml;tze<br /"
-">                Dr. Jan-Oliver Wagner                </td>                </"
-"tr>                </table>                <br /><br /"
-">                                <table border=\"0\" width=\"100%"
-"\">                <tr>                <td colspan=\"2\">                "
-"<b>Berlin Unit, Klar&auml;lvdalens Datakonsult AB</b>                </"
-"td>                </tr>                <tr>                <td width=\"60%"
-"\">                Unit Lead<br />                Development<br /"
-">                Development<br />                Additional D. + Crypto<br /"
-">                Crypto GUI Development                </td>                "
-"<td>                Till Adam<br />                Jaroslaw Staniek<br /"
-">                Volker Krause<br />                Frank Osterfeld<br /"
-">                Marc Mutz                </td>                </"
-"tr>                </table>                <br /><br /"
-">                                <table border=\"0\" width=\"100%"
-"\">                <tr>                <td colspan=\"2\">                "
-"<b>D&uuml;sseldorf Unit, g10 Code GmbH</b>                </"
-"td>                </tr>                <tr>                <td width=\"60%"
-"\">                Crypto-Backend Porting<br />                Crypto-"
-"Backend                </td>                <td>                Werner "
-"Koch<br />                Marcus Brinkmann                </"
-"td>                </tr>                </table>                <br /><br /"
-">                                <table border=\"0\" width=\"100%"
-"\">                <tr>                <td colspan=\"2\">                "
-"<b>External QA Darmstadt, basysKom GmbH</b>                </"
-"td>                </tr>                <tr>                <td width=\"60%"
-"\">                Unit-Lead                </td>                "
-"<td>                Dr. Stefan Werden                </td>                </"
-"tr>                </table><br /><br />"
+"<br /><br />    <i>This Free Software product was improved as part of a "
+"commercial project:</i>    <h3>Credits</h3>    Project Kowi (March 2007 "
+"- )<br /><br />        <b>Production / Project Coordination</b><br />    "
+"Bernhard Reiter<br />    <b>Director of Development</b><br />    Till "
+"Adam    <br /><br />        <table border=\"0\" width=\"100%\">     <tr>     "
+"<td colspan=\"2\">      <b>Osnabr&uuml;ck Unit, Intevation GmbH</b>     </"
+"td>    </tr>    <tr>     <td width=\"60%\">      Unit Lead<br />      Senior "
+"QA, Packaging<br />      QA, Packaging<br />      Additional NSIS<br />      "
+"Backup Coordinator     </td>     <td>      Bernhard Reiter<br />      "
+"Bernhard Herzog<br />      Ludwig Reiter<br />      Emanuel Sch&uuml;tze<br /"
+">      Dr. Jan-Oliver Wagner     </td>    </tr>    </table>    <br /><br /"
+">        <table border=\"0\" width=\"100%\">    <tr>     <td colspan="
+"\"2\">        <b>Berlin Unit, Klar&auml;lvdalens Datakonsult AB</b>     </"
+"td>    </tr>    <tr>     <td width=\"60%\">      Unit Lead<br />      "
+"Development<br />      Development<br />      Additional D. + Crypto<br /"
+">      Crypto GUI Development     </td>     <td>      Till Adam<br />      "
+"Jaroslaw Staniek<br />      Volker Krause<br />      Frank Osterfeld<br /"
+">      Marc Mutz     </td>    </tr>    </table>    <br /><br />        "
+"<table border=\"0\" width=\"100%\">    <tr>     <td colspan=\"2\">      "
+"<b>D&uuml;sseldorf Unit, g10 Code GmbH</b>     </td>    </tr>    <tr>     "
+"<td width=\"60%\">      Crypto-Backend Porting<br />      Crypto-Backend     "
+"</td>     <td>      Werner Koch<br />      Marcus Brinkmann     </td>    </"
+"tr>    </table>    <br /><br />        <table border=\"0\" width=\"100%"
+"\">    <tr>     <td colspan=\"2\">      <b>External QA Darmstadt, basysKom "
+"GmbH</b>     </td>    </tr>    <tr>     <td width=\"60%\">      Unit-"
+"Lead     </td>     <td>      Dr. Stefan Werden     </td>    </tr>    </"
+"table><br /><br />"
 msgstr ""
 "<br /><br />    <i>Diese Freie Softwareprodukt wurde als Teil eines "
 "kommerziellen Projekts verbessert:</i>    <h3>Mitwirkende</h3>    Project "
@@ -2663,8 +2693,23 @@ msgctxt "@item:intext"
 msgid "Prepare Kontact for use"
 msgstr "Kontact auf den Einsatz vorbereiten"
 
+#~ msgid "New Note From Text File..."
+#~ msgstr "Neue Notiz aus einer Textdatei ..."
+
 #~ msgid "Set Focus to Quick Search"
 #~ msgstr "Fokus auf die Schnellsuche einstellen"
+
+#~ msgid "Select Text File"
+#~ msgstr "Textdatei auswählen"
+
+#~ msgid "Error during open text file: %1"
+#~ msgstr "Fehler beim Öffnen der Textdatei: %1"
+
+#~ msgid "Open Text File"
+#~ msgstr "Textdatei öffnen"
+
+#~ msgid "Note from file '%1'"
+#~ msgstr "Notiz aus Datei „%1“"
 
 #~ msgid "Search notes...<%1>"
 #~ msgstr "Notizen suchen ...<%1>"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_davgroupware_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-30 02:02+0000\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
 "PO-Revision-Date: 2014-03-14 08:21+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -396,12 +396,12 @@ msgstr "eine Person namens"
 msgid "a contact with email"
 msgstr "Ein Kontakt mit E-Mail-Adresse"
 
-#: settings.cpp:544
+#: settings.cpp:543
 #, kde-format
 msgid "A password is required for user %1"
 msgstr "Für den Benutzer „%1“ ist ein Passwort erforderlich"
 
-#: settings.cpp:550
+#: settings.cpp:549
 msgid "Password: "
 msgstr "Passwort: "
 

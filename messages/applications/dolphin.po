@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-20 06:11+0000\n"
-"PO-Revision-Date: 2014-06-28 12:29+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"POT-Creation-Date: 2014-10-17 01:34+0000\n"
+"PO-Revision-Date: 2014-10-18 20:21+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "Wiederherstellen"
 
-#: dolphincontextmenu.cpp:209 dolphinmainwindow.cpp:1491
+#: dolphincontextmenu.cpp:209 dolphinmainwindow.cpp:981
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "Neu erstellen"
@@ -65,280 +65,267 @@ msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "Zu „Orte“ hinzufügen"
 
-#: dolphincontextmenu.cpp:432
+#: dolphincontextmenu.cpp:433
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "In Ordner einfügen"
 
-#: dolphinmainwindow.cpp:318
+#: dolphinmainwindow.cpp:198
 msgctxt "@info:status"
 msgid "Successfully copied."
 msgstr "Erfolgreich kopiert"
 
-#: dolphinmainwindow.cpp:321
+#: dolphinmainwindow.cpp:201
 msgctxt "@info:status"
 msgid "Successfully moved."
 msgstr "Erfolgreich verschoben"
 
-#: dolphinmainwindow.cpp:324
+#: dolphinmainwindow.cpp:204
 msgctxt "@info:status"
 msgid "Successfully linked."
 msgstr "Erfolgreich verknüpft"
 
-#: dolphinmainwindow.cpp:327
+#: dolphinmainwindow.cpp:207
 msgctxt "@info:status"
 msgid "Successfully moved to trash."
 msgstr "Erfolgreich in den Papierkorb geworfen"
 
-#: dolphinmainwindow.cpp:330
+#: dolphinmainwindow.cpp:210
 msgctxt "@info:status"
 msgid "Successfully renamed."
 msgstr "Erfolgreich umbenannt"
 
-#: dolphinmainwindow.cpp:334
+#: dolphinmainwindow.cpp:214
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "Ordner erstellt"
 
-#: dolphinmainwindow.cpp:419
+#: dolphinmainwindow.cpp:287
 msgctxt "@info"
 msgid "Go back"
 msgstr "Zurück"
 
-#: dolphinmainwindow.cpp:425
+#: dolphinmainwindow.cpp:293
 msgctxt "@info"
 msgid "Go forward"
 msgstr "Vorwärts"
 
-#: dolphinmainwindow.cpp:601
+#: dolphinmainwindow.cpp:382
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "Bestätigung"
 
-#: dolphinmainwindow.cpp:605
+#: dolphinmainwindow.cpp:386
 msgid "C&lose Current Tab"
 msgstr "A&ktuelles Unterfenster schließen"
 
-#: dolphinmainwindow.cpp:613
+#: dolphinmainwindow.cpp:394
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "Das Fenster enthält mehrere Unterfenster. Sind Sie sicher, dass Sie das "
 "Fenster schließen möchten?"
 
-#: dolphinmainwindow.cpp:615
+#: dolphinmainwindow.cpp:396
 msgid "Do not ask again"
 msgstr "Diese Nachfrage nicht mehr anzeigen"
 
-#: dolphinmainwindow.cpp:1173
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr "Neues Unterfenster"
-
-#: dolphinmainwindow.cpp:1176
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr "Unterfenster verselbständigen"
-
-#: dolphinmainwindow.cpp:1178
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr "&Andere Unterfenster schließen"
-
-#: dolphinmainwindow.cpp:1180
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "Unterfenster schließen"
-
-#: dolphinmainwindow.cpp:1357
+#: dolphinmainwindow.cpp:838
 msgctxt "@action:inmenu"
 msgid "Location Bar"
 msgstr "Adressleiste"
 
-#: dolphinmainwindow.cpp:1365
+#: dolphinmainwindow.cpp:846
 msgctxt "@action:inmenu"
 msgid "Go"
 msgstr "Gehe zu"
 
-#: dolphinmainwindow.cpp:1375
+#: dolphinmainwindow.cpp:856
 msgctxt "@action:inmenu"
 msgid "Tools"
 msgstr "Extras"
 
-#: dolphinmainwindow.cpp:1389
+#: dolphinmainwindow.cpp:870
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr "Hilfe"
 
-#: dolphinmainwindow.cpp:1499
+#: dolphinmainwindow.cpp:989
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "Neues &Fenster"
 
-#: dolphinmainwindow.cpp:1505
+#: dolphinmainwindow.cpp:995
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "Neues Unterfenster"
 
-#: dolphinmainwindow.cpp:1511
+#: dolphinmainwindow.cpp:1001
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "Unterfenster schließen"
 
-#: dolphinmainwindow.cpp:1534
+#: dolphinmainwindow.cpp:1024
 msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "Einfügen"
 
-#: dolphinmainwindow.cpp:1539
+#: dolphinmainwindow.cpp:1029
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "Alle auswählen"
 
-#: dolphinmainwindow.cpp:1544 dolphinpart.cpp:197
+#: dolphinmainwindow.cpp:1034 dolphinpart.cpp:197
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "Auswahl umkehren"
 
-#: dolphinmainwindow.cpp:1557
+#: dolphinmainwindow.cpp:1046
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "Aktualisieren"
 
-#: dolphinmainwindow.cpp:1563
+#: dolphinmainwindow.cpp:1052
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "Stopp"
 
-#: dolphinmainwindow.cpp:1564
+#: dolphinmainwindow.cpp:1053
 msgctxt "@info"
 msgid "Stop loading"
 msgstr "Ladevorgang abbrechen"
 
-#: dolphinmainwindow.cpp:1569
+#: dolphinmainwindow.cpp:1058
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "Editierbare Adressleiste"
 
-#: dolphinmainwindow.cpp:1574
+#: dolphinmainwindow.cpp:1063
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "Adresse ändern"
 
-#: dolphinmainwindow.cpp:1585
-msgid "Recently Closed Tabs"
-msgstr "Kürzlich geschlossene Unterfenster"
+#: dolphinmainwindow.cpp:1084
+msgctxt "@action:inmenu File"
+msgid "Undo close tab"
+msgstr "Unterfenster wieder herstellen"
 
-#: dolphinmainwindow.cpp:1592
-msgid "Empty Recently Closed Tabs"
-msgstr "Liste kürzlich geschlossener Unterfenster leeren"
-
-#: dolphinmainwindow.cpp:1610
+#: dolphinmainwindow.cpp:1101
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "Filterleiste anzeigen"
 
-#: dolphinmainwindow.cpp:1616
+#: dolphinmainwindow.cpp:1107
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "Dateien vergleichen"
 
-#: dolphinmainwindow.cpp:1622
+#: dolphinmainwindow.cpp:1113
 msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "Terminal öffnen"
 
-#: dolphinmainwindow.cpp:1643
+#: dolphinmainwindow.cpp:1134
+msgctxt "@action:inmenu"
+msgid "Next Tab"
+msgstr "Nächstes Unterfenster"
+
+#: dolphinmainwindow.cpp:1135
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "Nächstes Unterfenster aktivieren"
 
-#: dolphinmainwindow.cpp:1649
+#: dolphinmainwindow.cpp:1141
+msgctxt "@action:inmenu"
+msgid "Previous Tab"
+msgstr "Vorheriges Unterfenster"
+
+#: dolphinmainwindow.cpp:1142
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "Vorheriges Unterfenster aktivieren"
 
-#: dolphinmainwindow.cpp:1656
+#: dolphinmainwindow.cpp:1149
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "In neuem Unterfenster öffnen"
 
-#: dolphinmainwindow.cpp:1661
+#: dolphinmainwindow.cpp:1154
 msgctxt "@action:inmenu"
 msgid "Open in New Tabs"
 msgstr "In neuen Unterfenstern öffnen"
 
-#: dolphinmainwindow.cpp:1666
+#: dolphinmainwindow.cpp:1159
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "In neuem Fenster öffnen"
 
-#: dolphinmainwindow.cpp:1676
+#: dolphinmainwindow.cpp:1169
 msgctxt "@action:inmenu Panels"
 msgid "Unlock Panels"
 msgstr "Seitenleisten entsperren"
 
-#: dolphinmainwindow.cpp:1678
+#: dolphinmainwindow.cpp:1171
 msgctxt "@action:inmenu Panels"
 msgid "Lock Panels"
 msgstr "Seitenleisten sperren"
 
-#: dolphinmainwindow.cpp:1684
+#: dolphinmainwindow.cpp:1177
 msgctxt "@title:window"
 msgid "Information"
 msgstr "Informationen"
 
-#: dolphinmainwindow.cpp:1705
+#: dolphinmainwindow.cpp:1198
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "Ordner"
 
-#: dolphinmainwindow.cpp:1728
+#: dolphinmainwindow.cpp:1221
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "Terminal"
 
-#: dolphinmainwindow.cpp:1758
+#: dolphinmainwindow.cpp:1251
 msgctxt "@title:window"
 msgid "Places"
 msgstr "Orte"
 
-#: dolphinmainwindow.cpp:1785
+#: dolphinmainwindow.cpp:1280
 msgctxt "@action:inmenu View"
 msgid "Panels"
 msgstr "Seitenleisten"
 
-#: dolphinmainwindow.cpp:1855
+#: dolphinmainwindow.cpp:1350
 msgctxt "@action"
 msgid "Control"
 msgstr "Einstellungen"
 
-#: dolphinmainwindow.cpp:2024
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "Schließen"
-
-#: dolphinmainwindow.cpp:2025
-msgctxt "@info"
-msgid "Close right view"
-msgstr "Rechte Ansicht schließen"
-
-#: dolphinmainwindow.cpp:2028
+#: dolphinmainwindow.cpp:1461
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "Schließen"
 
-#: dolphinmainwindow.cpp:2029
+#: dolphinmainwindow.cpp:1462
 msgctxt "@info"
 msgid "Close left view"
 msgstr "Linke Ansicht schließen"
 
-#: dolphinmainwindow.cpp:2033
+#: dolphinmainwindow.cpp:1465
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "Schließen"
+
+#: dolphinmainwindow.cpp:1466
+msgctxt "@info"
+msgid "Close right view"
+msgstr "Rechte Ansicht schließen"
+
+#: dolphinmainwindow.cpp:1470
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "Teilen"
 
-#: dolphinmainwindow.cpp:2034
+#: dolphinmainwindow.cpp:1471
 msgctxt "@info"
 msgid "Split view"
 msgstr "Ansicht teilen"
@@ -454,6 +441,14 @@ msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "Dolphin-Werkzeugleiste"
 
+#: dolphinrecenttabsmenu.cpp:28
+msgid "Recently Closed Tabs"
+msgstr "Kürzlich geschlossene Unterfenster"
+
+#: dolphinrecenttabsmenu.cpp:33
+msgid "Empty Recently Closed Tabs"
+msgstr "Liste kürzlich geschlossener Unterfenster leeren"
+
 #: dolphinremoveaction.cpp:50
 msgctxt "@action:inmenu"
 msgid "&Delete"
@@ -464,50 +459,70 @@ msgctxt "@action:inmenu"
 msgid "&Move to Trash"
 msgstr "In den &Papierkorb werfen"
 
+#: dolphintabbar.cpp:127
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "Neues Unterfenster"
+
+#: dolphintabbar.cpp:128
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "Unterfenster verselbständigen"
+
+#: dolphintabbar.cpp:129
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "&Andere Unterfenster schließen"
+
+#: dolphintabbar.cpp:130
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Unterfenster schließen"
+
 #. i18n: ectx: Menu (location_bar)
-#: dolphinui.rc:34
+#: dolphinui.rc:35
 msgctxt "@title:menu"
 msgid "Location Bar"
 msgstr "Adresse"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: dolphinui.rc:88
+#: dolphinui.rc:89
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "Haupt-Werkzeugleiste"
 
-#: dolphinviewcontainer.cpp:403
+#: dolphinviewcontainer.cpp:408
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "Ordner wird geladen ..."
 
-#: dolphinviewcontainer.cpp:411
+#: dolphinviewcontainer.cpp:416
 msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "Wird sortiert ..."
 
-#: dolphinviewcontainer.cpp:422
+#: dolphinviewcontainer.cpp:427
 msgctxt "@info"
 msgid "Searching..."
 msgstr "Suchvorgang ..."
 
-#: dolphinviewcontainer.cpp:442
+#: dolphinviewcontainer.cpp:447
 msgctxt "@info:status"
 msgid "No items found."
 msgstr "Keine Elemente gefunden."
 
-#: dolphinviewcontainer.cpp:557
+#: dolphinviewcontainer.cpp:571
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "Dolphin unterstützt keine Webseiten; der Webbrowser wurde gestartet."
 
-#: dolphinviewcontainer.cpp:571
+#: dolphinviewcontainer.cpp:585
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 "Das Protokoll wird von Dolphin nicht unterstützt; Konqueror wurde gestartet."
 
-#: dolphinviewcontainer.cpp:579
+#: dolphinviewcontainer.cpp:593
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "Ungültiges Protokoll"
@@ -540,275 +555,275 @@ msgid_plural "%1 items"
 msgstr[0] "%1 Element"
 msgstr[1] "%1 Elemente"
 
-#: kitemviews/kfileitemmodel.cpp:1851
+#: kitemviews/kfileitemmodel.cpp:1853
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr "0 - 9"
 
-#: kitemviews/kfileitemmodel.cpp:1853
+#: kitemviews/kfileitemmodel.cpp:1855
 msgctxt "@title:group"
 msgid "Others"
 msgstr "Weitere"
 
-#: kitemviews/kfileitemmodel.cpp:1884
+#: kitemviews/kfileitemmodel.cpp:1886
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "Ordner"
 
-#: kitemviews/kfileitemmodel.cpp:1886
+#: kitemviews/kfileitemmodel.cpp:1888
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "Klein"
 
-#: kitemviews/kfileitemmodel.cpp:1888
+#: kitemviews/kfileitemmodel.cpp:1890
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "Mittel"
 
-#: kitemviews/kfileitemmodel.cpp:1890
+#: kitemviews/kfileitemmodel.cpp:1892
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "Groß"
 
-#: kitemviews/kfileitemmodel.cpp:1933
+#: kitemviews/kfileitemmodel.cpp:1935
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "Heute"
 
-#: kitemviews/kfileitemmodel.cpp:1934
+#: kitemviews/kfileitemmodel.cpp:1936
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "Gestern"
 
-#: kitemviews/kfileitemmodel.cpp:1935
+#: kitemviews/kfileitemmodel.cpp:1937
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1939
+#: kitemviews/kfileitemmodel.cpp:1941
 msgctxt "@title:group Date"
 msgid "One Week Ago"
 msgstr "Vor einer Woche"
 
-#: kitemviews/kfileitemmodel.cpp:1942
+#: kitemviews/kfileitemmodel.cpp:1944
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "Vor zwei Wochen"
 
-#: kitemviews/kfileitemmodel.cpp:1945
+#: kitemviews/kfileitemmodel.cpp:1947
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "Vor drei Wochen"
 
-#: kitemviews/kfileitemmodel.cpp:1949
+#: kitemviews/kfileitemmodel.cpp:1951
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "Diesen Monat"
 
-#: kitemviews/kfileitemmodel.cpp:1958
+#: kitemviews/kfileitemmodel.cpp:1960
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "Gestern (%B %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1960
+#: kitemviews/kfileitemmodel.cpp:1962
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%A (%B %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1962
+#: kitemviews/kfileitemmodel.cpp:1964
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "One Week Ago (%B, %Y)"
 msgstr "Vor einer Woche (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1964
+#: kitemviews/kfileitemmodel.cpp:1966
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "Vor zwei Wochen (%B %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1966
+#: kitemviews/kfileitemmodel.cpp:1968
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "Vor drei Wochen (%B %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1968
+#: kitemviews/kfileitemmodel.cpp:1970
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "Vorher, im %B %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1971
+#: kitemviews/kfileitemmodel.cpp:1973
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:2010 kitemviews/kfileitemmodel.cpp:2023
-#: kitemviews/kfileitemmodel.cpp:2036
+#: kitemviews/kfileitemmodel.cpp:2012 kitemviews/kfileitemmodel.cpp:2025
+#: kitemviews/kfileitemmodel.cpp:2038
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "Lesen, "
 
-#: kitemviews/kfileitemmodel.cpp:2013 kitemviews/kfileitemmodel.cpp:2026
-#: kitemviews/kfileitemmodel.cpp:2039
+#: kitemviews/kfileitemmodel.cpp:2015 kitemviews/kfileitemmodel.cpp:2028
+#: kitemviews/kfileitemmodel.cpp:2041
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "Schreiben, "
 
-#: kitemviews/kfileitemmodel.cpp:2016 kitemviews/kfileitemmodel.cpp:2029
-#: kitemviews/kfileitemmodel.cpp:2042
+#: kitemviews/kfileitemmodel.cpp:2018 kitemviews/kfileitemmodel.cpp:2031
+#: kitemviews/kfileitemmodel.cpp:2044
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "Ausführen, "
 
-#: kitemviews/kfileitemmodel.cpp:2018 kitemviews/kfileitemmodel.cpp:2031
-#: kitemviews/kfileitemmodel.cpp:2044
+#: kitemviews/kfileitemmodel.cpp:2020 kitemviews/kfileitemmodel.cpp:2033
+#: kitemviews/kfileitemmodel.cpp:2046
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "Unzulässig"
 
-#: kitemviews/kfileitemmodel.cpp:2046
+#: kitemviews/kfileitemmodel.cpp:2048
 #, kde-format
 msgctxt "@title:group Files and folders by permissions"
 msgid "User: %1 | Group: %2 | Others: %3"
 msgstr "Benutzer: %1 | Gruppe: %2 | Andere: %3"
 
-#: kitemviews/kfileitemmodel.cpp:2135
+#: kitemviews/kfileitemmodel.cpp:2137
 msgctxt "@label"
 msgid "Name"
 msgstr "Name"
 
-#: kitemviews/kfileitemmodel.cpp:2136
+#: kitemviews/kfileitemmodel.cpp:2138
 msgctxt "@label"
 msgid "Size"
 msgstr "Größe"
 
-#: kitemviews/kfileitemmodel.cpp:2137
+#: kitemviews/kfileitemmodel.cpp:2139
 msgctxt "@label"
 msgid "Date"
 msgstr "Datum"
 
-#: kitemviews/kfileitemmodel.cpp:2138
+#: kitemviews/kfileitemmodel.cpp:2140
 msgctxt "@label"
 msgid "Type"
 msgstr "Typ"
 
-#: kitemviews/kfileitemmodel.cpp:2139
+#: kitemviews/kfileitemmodel.cpp:2141
 msgctxt "@label"
 msgid "Rating"
 msgstr "Bewertung"
 
-#: kitemviews/kfileitemmodel.cpp:2140
+#: kitemviews/kfileitemmodel.cpp:2142
 msgctxt "@label"
 msgid "Tags"
 msgstr "Stichwörter"
 
-#: kitemviews/kfileitemmodel.cpp:2141
+#: kitemviews/kfileitemmodel.cpp:2143
 msgctxt "@label"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: kitemviews/kfileitemmodel.cpp:2142
+#: kitemviews/kfileitemmodel.cpp:2144
 msgctxt "@label"
 msgid "Word Count"
 msgstr "Wortanzahl"
 
-#: kitemviews/kfileitemmodel.cpp:2142 kitemviews/kfileitemmodel.cpp:2143
+#: kitemviews/kfileitemmodel.cpp:2144 kitemviews/kfileitemmodel.cpp:2145
 msgctxt "@label"
 msgid "Document"
 msgstr "Dokument"
 
-#: kitemviews/kfileitemmodel.cpp:2143
+#: kitemviews/kfileitemmodel.cpp:2145
 msgctxt "@label"
 msgid "Line Count"
 msgstr "Zeilenanzahl"
 
-#: kitemviews/kfileitemmodel.cpp:2144
+#: kitemviews/kfileitemmodel.cpp:2146
 msgctxt "@label"
 msgid "Image Size"
 msgstr "Bildgröße"
 
-#: kitemviews/kfileitemmodel.cpp:2144 kitemviews/kfileitemmodel.cpp:2145
+#: kitemviews/kfileitemmodel.cpp:2146 kitemviews/kfileitemmodel.cpp:2147
 msgctxt "@label"
 msgid "Image"
 msgstr "Bild"
 
-#: kitemviews/kfileitemmodel.cpp:2145
+#: kitemviews/kfileitemmodel.cpp:2147
 msgctxt "@label"
 msgid "Orientation"
 msgstr "Ausrichtung"
 
-#: kitemviews/kfileitemmodel.cpp:2146
+#: kitemviews/kfileitemmodel.cpp:2148
 msgctxt "@label"
 msgid "Artist"
 msgstr "Künstler"
 
-#: kitemviews/kfileitemmodel.cpp:2146 kitemviews/kfileitemmodel.cpp:2147
 #: kitemviews/kfileitemmodel.cpp:2148 kitemviews/kfileitemmodel.cpp:2149
+#: kitemviews/kfileitemmodel.cpp:2150 kitemviews/kfileitemmodel.cpp:2151
 msgctxt "@label"
 msgid "Audio"
 msgstr "Audio"
 
-#: kitemviews/kfileitemmodel.cpp:2147
+#: kitemviews/kfileitemmodel.cpp:2149
 msgctxt "@label"
 msgid "Album"
 msgstr "Album"
 
-#: kitemviews/kfileitemmodel.cpp:2148
+#: kitemviews/kfileitemmodel.cpp:2150
 msgctxt "@label"
 msgid "Duration"
 msgstr "Dauer"
 
-#: kitemviews/kfileitemmodel.cpp:2149
+#: kitemviews/kfileitemmodel.cpp:2151
 msgctxt "@label"
 msgid "Track"
 msgstr "Stück"
 
-#: kitemviews/kfileitemmodel.cpp:2150
+#: kitemviews/kfileitemmodel.cpp:2152
 msgctxt "@label"
 msgid "Path"
 msgstr "Pfad"
 
-#: kitemviews/kfileitemmodel.cpp:2150 kitemviews/kfileitemmodel.cpp:2151
 #: kitemviews/kfileitemmodel.cpp:2152 kitemviews/kfileitemmodel.cpp:2153
 #: kitemviews/kfileitemmodel.cpp:2154 kitemviews/kfileitemmodel.cpp:2155
+#: kitemviews/kfileitemmodel.cpp:2156 kitemviews/kfileitemmodel.cpp:2157
 msgctxt "@label"
 msgid "Other"
 msgstr "Weitere"
 
-#: kitemviews/kfileitemmodel.cpp:2151
+#: kitemviews/kfileitemmodel.cpp:2153
 msgctxt "@label"
 msgid "Link Destination"
 msgstr "Verknüpfungsziel"
 
-#: kitemviews/kfileitemmodel.cpp:2152
+#: kitemviews/kfileitemmodel.cpp:2154
 msgctxt "@label"
 msgid "Copied From"
 msgstr "Kopiert von"
 
-#: kitemviews/kfileitemmodel.cpp:2153
+#: kitemviews/kfileitemmodel.cpp:2155
 msgctxt "@label"
 msgid "Permissions"
 msgstr "Berechtigungen"
 
-#: kitemviews/kfileitemmodel.cpp:2154
+#: kitemviews/kfileitemmodel.cpp:2156
 msgctxt "@label"
 msgid "Owner"
 msgstr "Eigentümer"
 
-#: kitemviews/kfileitemmodel.cpp:2155
+#: kitemviews/kfileitemmodel.cpp:2157
 msgctxt "@label"
 msgid "User Group"
 msgstr "Benutzergruppe"
@@ -870,49 +885,54 @@ msgstr "Dateiverwaltung"
 
 #: main.cpp:39
 msgctxt "@info:credit"
-msgid "(C) 2006-2014 Peter Penz and Frank Reininghaus"
-msgstr "© 2006–2014 Peter Penz und Frank Reininghaus"
+msgid "(C) 2006-2014 Peter Penz, Frank Reininghaus, and Emmanuel Pescosta"
+msgstr "© 2006–2014 Peter Penz, Frank Reininghaus und Emmanuel Pescosta"
 
 #: main.cpp:41
+msgctxt "@info:credit"
+msgid "Emmanuel Pescosta"
+msgstr "Emmanuel Pescosta"
+
+#: main.cpp:42
+msgctxt "@info:credit"
+msgid "Maintainer (since 2014) and developer"
+msgstr "Betreuer (seit 2014) und Entwickler"
+
+#: main.cpp:44
 msgctxt "@info:credit"
 msgid "Frank Reininghaus"
 msgstr "Frank Reininghaus"
 
-#: main.cpp:42
+#: main.cpp:45
 msgctxt "@info:credit"
-msgid "Maintainer (since 2012) and developer"
-msgstr "Betreuer (seit 2012) und Entwickler"
+msgid "Maintainer (2012-2014) and developer"
+msgstr "Betreuer (2012-2014) und Entwickler"
 
-#: main.cpp:44
+#: main.cpp:47
 msgctxt "@info:credit"
 msgid "Peter Penz"
 msgstr "Peter Penz"
 
-#: main.cpp:45
+#: main.cpp:48
 msgctxt "@info:credit"
 msgid "Maintainer and developer (2006-2012)"
 msgstr "Betreuer und Entwickler (2006-2012)"
 
-#: main.cpp:47
+#: main.cpp:50
 msgctxt "@info:credit"
 msgid "Sebastian Trüg"
 msgstr "Sebastian Trüg"
 
-#: main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60 main.cpp:63
-#: main.cpp:66 main.cpp:69
+#: main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60 main.cpp:63 main.cpp:66
+#: main.cpp:69
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr "Entwickler"
 
-#: main.cpp:50
+#: main.cpp:53
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Emmanuel Pescosta"
-msgstr "Emmanuel Pescosta"
 
 #: main.cpp:56
 msgctxt "@info:credit"
@@ -984,37 +1004,32 @@ msgctxt "@action:inmenu"
 msgid "Copy"
 msgstr "Kopieren"
 
-#: panels/folders/treeviewcontextmenu.cpp:65
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr "Einfügen"
-
-#: panels/folders/treeviewcontextmenu.cpp:77
+#: panels/folders/treeviewcontextmenu.cpp:76
 msgctxt "@action:inmenu"
 msgid "Rename..."
 msgstr "Umbenennen ..."
 
-#: panels/folders/treeviewcontextmenu.cpp:91
+#: panels/folders/treeviewcontextmenu.cpp:90
 msgctxt "@action:inmenu"
 msgid "Move to Trash"
 msgstr "In den Papierkorb werfen"
 
-#: panels/folders/treeviewcontextmenu.cpp:101
+#: panels/folders/treeviewcontextmenu.cpp:100
 msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "Löschen"
 
-#: panels/folders/treeviewcontextmenu.cpp:111
+#: panels/folders/treeviewcontextmenu.cpp:110
 msgctxt "@action:inmenu"
 msgid "Show Hidden Files"
 msgstr "Versteckte Elemente anzeigen"
 
-#: panels/folders/treeviewcontextmenu.cpp:118
+#: panels/folders/treeviewcontextmenu.cpp:117
 msgctxt "@action:inmenu"
 msgid "Automatic Scrolling"
 msgstr "Automatischer Bildlauf"
 
-#: panels/folders/treeviewcontextmenu.cpp:128
+#: panels/folders/treeviewcontextmenu.cpp:127
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Eigenschaften"
@@ -1081,8 +1096,8 @@ msgstr "Orte"
 
 #: panels/places/placesitem.cpp:157
 msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "Kürzlich Aufgerufene"
+msgid "Recently Saved"
+msgstr "Kürzlich Gespeicherte"
 
 #: panels/places/placesitem.cpp:158
 msgctxt "@item"
@@ -1142,81 +1157,81 @@ msgctxt "@item"
 msgid "Unmount '%1'"
 msgstr "Einhängung von „%1“ lösen"
 
-#: panels/places/placesitemmodel.cpp:320
+#: panels/places/placesitemmodel.cpp:321
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Das Gerät „%1“ ist kein Datenträger und kann nicht ausgeworfen werden."
 
-#: panels/places/placesitemmodel.cpp:609
+#: panels/places/placesitemmodel.cpp:614
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 "Beim Zugriff auf „%1“ ist ein Fehler aufgetreten, die Meldung lautet: %2"
 
-#: panels/places/placesitemmodel.cpp:613
+#: panels/places/placesitemmodel.cpp:618
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
 msgstr "Beim Zugriff auf „%1“ ist ein Fehler aufgetreten"
 
-#: panels/places/placesitemmodel.cpp:902
+#: panels/places/placesitemmodel.cpp:908
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "Persönlicher Ordner"
 
-#: panels/places/placesitemmodel.cpp:905
+#: panels/places/placesitemmodel.cpp:911
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Netzwerk"
 
-#: panels/places/placesitemmodel.cpp:908
+#: panels/places/placesitemmodel.cpp:914
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr "Basisordner"
 
-#: panels/places/placesitemmodel.cpp:911
+#: panels/places/placesitemmodel.cpp:917
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Papierkorb"
 
-#: panels/places/placesitemmodel.cpp:916
+#: panels/places/placesitemmodel.cpp:922
 msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "Heute"
 
-#: panels/places/placesitemmodel.cpp:919
+#: panels/places/placesitemmodel.cpp:925
 msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "Gestern"
 
-#: panels/places/placesitemmodel.cpp:922
+#: panels/places/placesitemmodel.cpp:928
 msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "Diesen Monat"
 
-#: panels/places/placesitemmodel.cpp:925
+#: panels/places/placesitemmodel.cpp:931
 msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "Letzten Monat"
 
-#: panels/places/placesitemmodel.cpp:928
+#: panels/places/placesitemmodel.cpp:934
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Dokumente"
 
-#: panels/places/placesitemmodel.cpp:931
+#: panels/places/placesitemmodel.cpp:937
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "Bilder"
 
-#: panels/places/placesitemmodel.cpp:934
+#: panels/places/placesitemmodel.cpp:940
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr "Audio-Dateien"
 
-#: panels/places/placesitemmodel.cpp:937
+#: panels/places/placesitemmodel.cpp:943
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr "Videos"
@@ -2219,7 +2234,7 @@ msgid "Expandable folders"
 msgstr "Aufklappbare Ordner"
 
 #: settings/viewmodes/viewsettingstab.cpp:283
-#: statusbar/dolphinstatusbar.cpp:344
+#: statusbar/dolphinstatusbar.cpp:345
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -2373,22 +2388,22 @@ msgctxt "@tooltip"
 msgid "Stop loading"
 msgstr "Ladevorgang abbrechen"
 
-#: statusbar/dolphinstatusbar.cpp:263
+#: statusbar/dolphinstatusbar.cpp:264
 msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "Größenregler anzeigen"
 
-#: statusbar/dolphinstatusbar.cpp:267
+#: statusbar/dolphinstatusbar.cpp:268
 msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "Speicherplatz-Informationen anzeigen"
 
-#: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
+#: statusbar/statusbarspaceinfo.cpp:74
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Unbekannte Größe"
 
-#: statusbar/statusbarspaceinfo.cpp:98
+#: statusbar/statusbarspaceinfo.cpp:82
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
@@ -2611,33 +2626,33 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "Ein Ordner kann nicht auf sich selbst fallengelassen werden."
 
-#: views/renamedialog.cpp:59
+#: views/renamedialog.cpp:50
 msgctxt "@title:window"
 msgid "Rename Item"
 msgstr "Element umbenennen"
 
-#: views/renamedialog.cpp:60
+#: views/renamedialog.cpp:51
 msgctxt "@title:window"
 msgid "Rename Items"
 msgstr "Elemente umbenennen"
 
-#: views/renamedialog.cpp:64
+#: views/renamedialog.cpp:55
 msgctxt "@action:button"
 msgid "&Rename"
 msgstr "&Umbenennen"
 
-#: views/renamedialog.cpp:74
+#: views/renamedialog.cpp:65
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the item <filename>%1</filename> to:"
 msgstr "Element <filename>%1</filename> umbenennen zu:"
 
-#: views/renamedialog.cpp:78
+#: views/renamedialog.cpp:69
 msgctxt "@info:status"
 msgid "New name #"
 msgstr "Neuer Name #"
 
-#: views/renamedialog.cpp:80
+#: views/renamedialog.cpp:71
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Rename the %1 selected item to:"
@@ -2645,7 +2660,7 @@ msgid_plural "Rename the %1 selected items to:"
 msgstr[0] "%1 ausgewähltes Element umbenennen zu:"
 msgstr[1] "%1 ausgewählte Elemente umbenennen zu:"
 
-#: views/renamedialog.cpp:123
+#: views/renamedialog.cpp:114
 msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "# wird durch eine aufsteigende Nummer ersetzt, beginnend bei:"
@@ -2654,6 +2669,10 @@ msgstr "# wird durch eine aufsteigende Nummer ersetzt, beginnend bei:"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "Versionsinformationen werden aktualisiert ..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Paste"
+#~ msgstr "Einfügen"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Find:"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksirkskineditor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 03:44+0200\n"
+"POT-Creation-Date: 2014-04-27 14:06+0000\n"
 "PO-Revision-Date: 2011-01-03 00:20+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -1856,20 +1856,20 @@ msgstr "Gaël de Chalendar alias Kleag"
 msgid "file to open"
 msgstr "Zu öffnende Datei"
 
-#: mainwindow.cpp:136 mainwindow.cpp:694 mainwindow.cpp:822
-#: mainwindow.cpp:1209
+#: mainwindow.cpp:136 mainwindow.cpp:688 mainwindow.cpp:816
+#: mainwindow.cpp:1203
 msgid "Cannot load anchor icon<br>Program cannot continue"
 msgstr ""
 "Die Datei „cross.png“ kann nicht gefunden werden.\n"
 "Das Programm wird beendet."
 
-#: mainwindow.cpp:136 mainwindow.cpp:150 mainwindow.cpp:694 mainwindow.cpp:723
-#: mainwindow.cpp:822 mainwindow.cpp:839 mainwindow.cpp:1209 onu.cpp:79
+#: mainwindow.cpp:136 mainwindow.cpp:150 mainwindow.cpp:688 mainwindow.cpp:717
+#: mainwindow.cpp:816 mainwindow.cpp:833 mainwindow.cpp:1203 onu.cpp:79
 #: onu.cpp:112 onu.cpp:131
 msgid "Error"
 msgstr "Fehler"
 
-#: mainwindow.cpp:150 mainwindow.cpp:723 mainwindow.cpp:839
+#: mainwindow.cpp:150 mainwindow.cpp:717 mainwindow.cpp:833
 msgid "Cannot load center icon<br>Program cannot continue"
 msgstr ""
 "Die Datei „target.png“ kann nicht gefunden werden.\n"
@@ -1916,63 +1916,63 @@ msgstr "Speichern"
 msgid "Do not quit"
 msgstr "Nicht beenden"
 
-#: mainwindow.cpp:1321
+#: mainwindow.cpp:1315
 msgid "New country name"
 msgstr "Neuer Ländername"
 
-#: mainwindow.cpp:1321
+#: mainwindow.cpp:1315
 msgid "Enter the name of the new country"
 msgstr "Bitte geben Sie den Namen für das neue Land ein"
 
-#: mainwindow.cpp:1330
+#: mainwindow.cpp:1324
 #, kde-format
 msgid "Do you really want to delete country '%1'?"
 msgstr "Soll das Land „%1“ wirklich gelöscht werden?"
 
-#: mainwindow.cpp:1330
+#: mainwindow.cpp:1324
 msgid "Really delete country?"
 msgstr "Land wirklich löschen?"
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:1343
 msgid "New continent name"
 msgstr "Neuer Kontinentname"
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:1343
 msgid "Enter the name of the new continent"
 msgstr "Bitte geben Sie den Namen des neuen Kontinents ein"
 
-#: mainwindow.cpp:1358
+#: mainwindow.cpp:1352
 #, kde-format
 msgid "Do you really want to delete continent '%1'?"
 msgstr "Soll der Kontinent „%1“ wirklich gelöscht werden?"
 
-#: mainwindow.cpp:1358
+#: mainwindow.cpp:1352
 msgid "Really delete continent?"
 msgstr "Kontinent wirklich löschen?"
 
-#: mainwindow.cpp:1906
+#: mainwindow.cpp:1900
 #, kde-format
 msgid "Do you really want to delete goal '%1'?"
 msgstr "Soll das Spielziel „%1“ wirklich gelöscht werden?"
 
-#: mainwindow.cpp:1906
+#: mainwindow.cpp:1900
 msgid "Really delete goal?"
 msgstr "Spielziel wirklich löschen?"
 
-#: mainwindow.cpp:1965
+#: mainwindow.cpp:1959
 msgid "New nationality name"
 msgstr "Neuer Nationalitätenname"
 
-#: mainwindow.cpp:1965
+#: mainwindow.cpp:1959
 msgid "Enter the name of the new nationality"
 msgstr "Bitte geben Sie den Namen der neuen Nationalität ein"
 
-#: mainwindow.cpp:1974
+#: mainwindow.cpp:1968
 #, kde-format
 msgid "Do you really want to delete nationality '%1'?"
 msgstr "Soll die Nationalität „%1“ wirklich gelöscht werden?"
 
-#: mainwindow.cpp:1974
+#: mainwindow.cpp:1968
 msgid "Really delete nationality?"
 msgstr "Nationalität wirklich löschen?"
 

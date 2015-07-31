@@ -570,7 +570,7 @@
         <listitem>
           <para
 >Das Symbol <guiicon
->Neue Nachricht</guiicon
+>Neue</guiicon
 > in der Haupt-Werkzeugleiste.</para>
         </listitem>
       </itemizedlist>
@@ -812,7 +812,7 @@
 
 <para
 >Um &HTML;-Nachrichten zu erzeugen, müssen Sie zunächst die Auszeichnungswerkzeuge einschalten. Das geschieht durch Anwählen von <guimenuitem
->Formatierung (&HTML;)</guimenuitem
+>Bearbeiten in Rich-Text</guimenuitem
 > im Menü <menuchoice
 ><guimenu
 >Optionen</guimenu
@@ -3346,30 +3346,6 @@ version.)</para>
 </listitem>
 </varlistentry>
 -->
-<varlistentry>
-<term
-><guilabel
->Nachrichten automatisch signieren</guilabel
-></term>
-<listitem
-><para
->Hier kann man einstellen, ob Nachrichten automatisch signiert werden sollen. Natürlich kann man dennoch eine unsignierte Nachricht senden, indem man das entsprechende Symbol im Nachrichten-Editor abwählt.</para
-> 
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><guilabel
->Passwort im Speicher halten</guilabel
-></term>
-<listitem>
-<para
->Wenn dieses Ankreuzfeld nicht aktiviert ist, fragt &kmail; bei jeder Signierung oder der Auswahl einer verschlüsselten Nachricht nach dem Passwort. Sobald man dieses Feld aktiviert, speichert &kmail; das Passwort nach der ersten erfolgreichen Abfrage bis zum Programmende von &kmail;. Das Passwort wird im Arbeitsspeicher gehalten und nicht auf die Festplatte geschrieben. Falls man eines der Kryptografie-Module oder den gpg-agent von <application
->GnuPG</application
-> verwendet, fragt ein externes Programm nach der Passphrase und speichert diese optional für eine gewisse Zeit.</para>
-</listitem>
-</varlistentry>
 
 <varlistentry>
 <term
@@ -3379,18 +3355,6 @@ version.)</para>
 <listitem>
 <para
 >Wenn dieses Ankreuzfeld nicht aktiviert ist, kann man nach dem Versenden einer verschlüsselten Nachricht diese nach der Verschlüsselung selbst auch nicht mehr lesen. Will man selbst die Nachricht noch lesen können, sollte man diese Option aktivieren.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><guilabel
->Signierten/verschlüsselten Text nach der Erstellung anzeigen</guilabel
-></term>
-<listitem>
-<para
->Ist dieses Feld angekreuzt, wird das Resultat der Verschlüsselung oder Signierung noch einmal angezeigt, bevor die Nachricht versandt wird. Auf diese Weise kann man den Versand stoppen, falls ein Fehler passiert ist. Diese Option sollte man möglichst aktivieren.</para
-> 
 </listitem>
 </varlistentry>
 

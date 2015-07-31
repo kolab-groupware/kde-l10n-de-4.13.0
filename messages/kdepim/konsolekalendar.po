@@ -4,15 +4,16 @@
 # Frank Schütte <F.Schuette@t-online.de>, 2004.
 # Stephan Johach <hunsum@gmx.de>, 2005, 2006.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2007.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2013, 2015.
 # Frederik Schwarzer <schwarzer@kde.org>, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: konsolekalendar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-14 01:41+0000\n"
-"PO-Revision-Date: 2013-09-14 22:08+0200\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:06+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -388,6 +389,15 @@ msgid "  Print list of export types supported and exit"
 msgstr "  Die Liste der Export-Dateitypen ausgeben und beenden"
 
 #: main.cpp:172
+#| msgid ""
+#| "Examples:\n"
+#| "  konsolekalendar --view\n"
+#| "  konsolekalendar --list-calendars\n"
+#| "  konsolekalendar --add --collection 42 --date 2003-06-04 --time 10:00 --"
+#| "end-time 12:00 \\\n"
+#| "                  --summary \"Doctor Visit\" --description \"Get My Head "
+#| "Examined\"\n"
+#| "  konsolekalendar --delete --uid KOrganizer-1740326.803"
 msgid ""
 "Examples:\n"
 "  konsolekalendar --view\n"
@@ -400,7 +410,7 @@ msgid ""
 msgstr ""
 "Beispiele:\n"
 "  konsolekalendar --view\n"
-"  konsolekalendar --list-collections\n"
+"  konsolekalendar --list-calendars\n"
 "  konsolekalendar --add --collection 42 --date 2003-06-04 --time 10:00 --end-"
 "time 12:00 \\\n"
 "                  --summary „Arztbesuch“ --description „Kopf untersuchen "

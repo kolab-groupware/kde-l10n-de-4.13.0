@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-31 01:28+0000\n"
-"PO-Revision-Date: 2014-02-08 14:30+0100\n"
+"POT-Creation-Date: 2015-01-24 05:17+0000\n"
+"PO-Revision-Date: 2014-11-02 17:04+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -34,49 +34,49 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "pano_90@gmx.net,thorsten@muerell.de,martin.ereth@arcor.de"
 
-#: compoundviewer/kalziumglpart.cpp:23
+#: compoundviewer/kalziumglpart.cpp:24
 msgid "Kalzium OpenGL Part"
 msgstr "Kalzium-OpenGL-Komponente"
 
-#: compoundviewer/kalziumglpart.cpp:24
+#: compoundviewer/kalziumglpart.cpp:25
 msgid "A cool thing"
 msgstr "Ein tolles Ding"
 
-#: compoundviewer/kalziumglpart.cpp:25
+#: compoundviewer/kalziumglpart.cpp:26
 msgid "(c) 2006, Carsten Niehaus"
 msgstr "© 2006, Carsten Niehaus"
 
-#: compoundviewer/kalziumglpart.cpp:29 src/main.cpp:50
+#: compoundviewer/kalziumglpart.cpp:30 src/main.cpp:49
 msgid "Carsten Niehaus"
 msgstr "Carsten Niehaus"
 
-#: compoundviewer/kalziumglpart.cpp:30
+#: compoundviewer/kalziumglpart.cpp:31
 msgid "Marcus D. Hanwell"
 msgstr "Marcus D. Hanwell"
 
-#: compoundviewer/openbabel2wrapper.cpp:43
+#: compoundviewer/openbabel2wrapper.cpp:44
 msgid "Problem while opening the file"
 msgstr "Problem beim Öffnen der Datei"
 
-#: compoundviewer/openbabel2wrapper.cpp:44
+#: compoundviewer/openbabel2wrapper.cpp:45
 msgid "Cannot open the specified file."
 msgstr "Die angegebene Datei kann nicht geöffnet werden."
 
-#: compoundviewer/openbabel2wrapper.cpp:53
+#: compoundviewer/openbabel2wrapper.cpp:54
 msgid "Cannot read the file format. Check your OpenBabel installation."
 msgstr ""
 "Das Dateiformat kann nicht gelesen werden. Überprüfen Sie die Installation "
 "von OpenBabel."
 
-#: compoundviewer/openbabel2wrapper.cpp:53
+#: compoundviewer/openbabel2wrapper.cpp:55
 msgid "Problem reading file format"
 msgstr "Problem beim Lesen des Dateiformats"
 
-#: compoundviewer/openbabel2wrapper.cpp:73
+#: compoundviewer/openbabel2wrapper.cpp:74
 msgid "Cannot save to the specified file."
 msgstr "Die angegebene Datei kann nicht gespeichert werden."
 
-#: compoundviewer/openbabel2wrapper.cpp:80
+#: compoundviewer/openbabel2wrapper.cpp:79
 msgid ""
 "Unrecognized file format extension. Please append an extension to the file "
 "name, for example \".cml\"."
@@ -84,7 +84,7 @@ msgstr ""
 "Unbekannte Dateiformaterweiterung. Bitte fügen Sie an den Dateinamen eine "
 "Erweiterung wie „.cml“ an."
 
-#: data/knowledge.xml:4 src/kalziumgradienttype.cpp:454
+#: data/knowledge.xml:4 src/kalziumgradienttype.cpp:455
 msgid "State of matter"
 msgstr "Aggregatzustand"
 
@@ -186,8 +186,8 @@ msgstr ""
 
 #: data/knowledge.xml:43
 msgid ""
-"Matter consisting of differentiated matter, combined in non-set ratios. [i]"
-"Homogeneous mixes[/i] have a coherent look, [i]heterogeneous mixes[/i] "
+"Matter consisting of differentiated matter, combined in non-set ratios. "
+"[i]Homogeneous mixes[/i] have a coherent look, [i]heterogeneous mixes[/i] "
 "consist of multiple phases."
 msgstr ""
 "Stoff bestehend aus verschiedenen Stoffen, kombiniert in nicht definierten "
@@ -254,8 +254,8 @@ msgstr "Homogenes Gemisch mehrerer reinen Materialien"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicMassGradient)
 #: data/knowledge.xml:66 data/knowledge.xml:131
 #: src/calculator/nuclearCalculator.ui:334
-#: src/calculator/nuclearCalculator.ui:354 src/detailinfodlg.cpp:333
-#: src/exportdialog.cpp:124 src/settings_gradients.ui:74
+#: src/calculator/nuclearCalculator.ui:354 src/detailinfodlg.cpp:337
+#: src/exportdialog.cpp:133 src/settings_gradients.ui:74
 msgid "Mass"
 msgstr "Masse"
 
@@ -402,8 +402,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
-#: data/knowledge.xml:127 src/elementdataviewer.cpp:228
-#: src/kalziumgradienttype.cpp:290 src/plotsetupwidget.ui:59
+#: data/knowledge.xml:127 src/elementdataviewer.cpp:231
+#: src/kalziumgradienttype.cpp:291 src/plotsetupwidget.ui:59
 #: src/plotsetupwidget.ui:380
 msgid "Atomic Mass"
 msgstr "Atommasse"
@@ -453,7 +453,7 @@ msgstr ""
 "eines ausgedehnten Objekts herrührt, ist der Spin nicht verbunden mit einer "
 "inneren rotierenden Masse, sondern ist dem Teilchen zu eigen."
 
-#: data/knowledge.xml:149 src/detailinfodlg.cpp:345
+#: data/knowledge.xml:149 src/detailinfodlg.cpp:349
 msgid "Magnetic Moment"
 msgstr "Magnetisches Dipolmoment"
 
@@ -587,9 +587,9 @@ msgid ""
 "0.00000049)e-19 C\n"
 "\t\t"
 msgstr ""
-"Das Elektron ist ein subatomares Teilchen mit der Masse m[sub]e[/sub]="
-"(9.1093897 ± 0.0000054)e-31 kg und der negativen Ladung [i]e[/i]=(1.60217733 "
-"± 0.00000049)e-19 C\n"
+"Das Elektron ist ein subatomares Teilchen mit der Masse m[sub]e[/"
+"sub]=(9.1093897 ± 0.0000054)e-31 kg und der negativen Ladung [i]e[/"
+"i]=(1.60217733 ± 0.00000049)e-19 C\n"
 "\t\t"
 
 #: data/knowledge.xml:220
@@ -598,19 +598,19 @@ msgid ""
 "0.0000010) 10[sup]-27[/sup] kg and a positive charge of [i]e[/i]=(1.60217733 "
 "± 0.00000049) 10[sup]-19[/sup] C which occurs in the nucleus of an atom."
 msgstr ""
-"Das Proton ist ein subatomares Teilchen mit der Masse m[sub]e[/sub]="
-"(1.6726231 ± 0.0000010) 10[sup]−27[/sup] kg und der positiven Ladung [i]e[/i]"
-"=(1.60217733 ± 0.00000049) 10[sup]−19[/sup] C, welches sich im Kern des "
-"Atoms befindet."
+"Das Proton ist ein subatomares Teilchen mit der Masse m[sub]e[/"
+"sub]=(1.6726231 ± 0.0000010) 10[sup]−27[/sup] kg und der positiven Ladung "
+"[i]e[/i]=(1.60217733 ± 0.00000049) 10[sup]−19[/sup] C, welches sich im Kern "
+"des Atoms befindet."
 
 #: data/knowledge.xml:229
 msgid ""
 "The neutron is a subatomic particle with a mass of m[sub]e[/sub]=(1.6749286 "
 "± 0.0000010) 10[sup]-27[/sup] kg which occurs in the nucleus of an atom."
 msgstr ""
-"Das Neutron ist ein subatomares Teilchen mit der Masse m[sub]e[/sub]="
-"(1.6749286 ± 0.0000010) 10[sup]−27[/sup] kg, welches sich im Kern des Atoms "
-"befindet."
+"Das Neutron ist ein subatomares Teilchen mit der Masse m[sub]e[/"
+"sub]=(1.6749286 ± 0.0000010) 10[sup]−27[/sup] kg, welches sich im Kern des "
+"Atoms befindet."
 
 #: data/knowledge.xml:237
 msgid "Cathode Rays"
@@ -653,9 +653,9 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicCovalentRadiusGradient)
 #: data/knowledge.xml:247 data/knowledge.xml:256 data/knowledge.xml:265
-#: data/knowledge.xml:271 src/detailinfodlg.cpp:235
-#: src/elementdataviewer.cpp:261 src/exportdialog.cpp:129
-#: src/kalziumgradienttype.cpp:175 src/plotsetupwidget.ui:84
+#: data/knowledge.xml:271 src/detailinfodlg.cpp:239
+#: src/elementdataviewer.cpp:264 src/exportdialog.cpp:138
+#: src/kalziumgradienttype.cpp:176 src/plotsetupwidget.ui:84
 #: src/plotsetupwidget.ui:405 src/settings_gradients.ui:60
 msgid "Covalent Radius"
 msgstr "Kovalenter Radius"
@@ -663,14 +663,14 @@ msgstr "Kovalenter Radius"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #: data/knowledge.xml:248 data/knowledge.xml:257 data/knowledge.xml:262
-#: data/knowledge.xml:274 src/elementdataviewer.cpp:254
+#: data/knowledge.xml:274 src/elementdataviewer.cpp:257
 #: src/plotsetupwidget.ui:79 src/plotsetupwidget.ui:400
 msgid "Atomic Radius"
 msgstr "Atomradius"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicVanDerWaalsRadiusGradient)
 #: data/knowledge.xml:249 data/knowledge.xml:253 data/knowledge.xml:266
-#: data/knowledge.xml:276 src/exportdialog.cpp:130
+#: data/knowledge.xml:276 src/exportdialog.cpp:139
 #: src/settings_gradients.ui:67
 msgid "Van der Waals Radius"
 msgstr "Van-der-Waals-Radius"
@@ -2581,31 +2581,31 @@ msgstr ""
 "Historisch als Eka-Radon, vor 1960 als Eka-Emanation bekannt. Ununoctium ist "
 "ein temporärer Elementname nach dem IUPAC-System."
 
-#: libscience/psetables.cpp:168
+#: libscience/psetables.cpp:169
 msgid "Classic Periodic Table"
 msgstr "Klassisches Periodensystem"
 
-#: libscience/psetables.cpp:217
+#: libscience/psetables.cpp:218
 msgid "Long Periodic Table"
 msgstr "Langperiodensystem"
 
-#: libscience/psetables.cpp:262
+#: libscience/psetables.cpp:263
 msgid "Short Periodic Table"
 msgstr "Kurzperiodensystem"
 
-#: libscience/psetables.cpp:310
+#: libscience/psetables.cpp:311
 msgid "Transition Elements"
 msgstr "Übergangselemente"
 
-#: libscience/psetables.cpp:350
+#: libscience/psetables.cpp:351
 msgid "DZ Periodic Table"
 msgstr "DZ-Periodensystem"
 
-#: src/calculator/calculator.cpp:31
+#: src/calculator/calculator.cpp:30
 msgid "Chemical Calculator"
 msgstr "Chemie-Rechner"
 
-#: src/calculator/calculator.cpp:65 src/calculator/calculator.cpp:114
+#: src/calculator/calculator.cpp:64 src/calculator/calculator.cpp:111
 msgid "Equation Balancer"
 msgstr "Gleichungslöser"
 
@@ -2616,32 +2616,32 @@ msgstr "Einführung"
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, tree)
 #. i18n: ectx: attribute (title), widget (QWidget, nuclear)
-#: src/calculator/calculator.cpp:100 src/calculator/calculator.ui:71
+#: src/calculator/calculator.cpp:99 src/calculator/calculator.ui:71
 #: src/calculator/settings_calc.ui:24
 msgid "Nuclear Calculator"
 msgstr "Nuklear-Rechner"
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, tree)
 #. i18n: ectx: attribute (title), widget (QWidget, gas)
-#: src/calculator/calculator.cpp:104 src/calculator/calculator.ui:76
+#: src/calculator/calculator.cpp:102 src/calculator/calculator.ui:76
 #: src/calculator/settings_calc.ui:51
 msgid "Gas Calculator"
 msgstr "Gas-Rechner"
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, tree)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/calculator/calculator.cpp:108 src/calculator/calculator.ui:66
+#: src/calculator/calculator.cpp:105 src/calculator/calculator.ui:66
 #: src/calculator/settings_calc.ui:119
 msgid "Concentration Calculator"
 msgstr "Konzentrations-Rechner"
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, tree)
-#: src/calculator/calculator.cpp:117 src/calculator/calculator.ui:61
+#: src/calculator/calculator.cpp:116 src/calculator/calculator.ui:61
 msgid "Molecular mass Calculator"
 msgstr "Molekülmassen-Rechner"
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, tree)
-#: src/calculator/calculator.cpp:119 src/calculator/calculator.ui:81
+#: src/calculator/calculator.cpp:118 src/calculator/calculator.ui:81
 msgid "Titration Calculator"
 msgstr "Titrations-Rechner"
 
@@ -2738,81 +2738,81 @@ msgstr ""
 "Rechner auch ein System von Gleichungen lösen und zeigen lassen, wie sich "
 "die Konzentration eines Ions als Funktion eines anderen ändert.</li> </ul>"
 
-#: src/calculator/concCalculator.cpp:946
+#: src/calculator/concCalculator.cpp:944
 msgid "Percentage should be less than 100.0, please enter a valid value."
 msgstr ""
 "Der Prozentwert sollte weniger als 100,0 betragen. Bitte geben Sie einen "
 "gültigen Wert ein."
 
-#: src/calculator/concCalculator.cpp:949
+#: src/calculator/concCalculator.cpp:947
 msgid "Density cannot be zero, please enter a valid value."
 msgstr ""
 "Der Wert der Dichte kann nicht 0 betragen. Bitte geben Sie einen gültigen "
 "Wert ein."
 
-#: src/calculator/concCalculator.cpp:952
+#: src/calculator/concCalculator.cpp:950
 msgid "Mass cannot be zero, please enter a valid value."
 msgstr ""
 "Der Wert der Masse kann nicht 0 betragen. Bitte geben Sie einen gültigen "
 "Wert ein."
 
-#: src/calculator/concCalculator.cpp:955 src/calculator/gasCalculator.cpp:332
+#: src/calculator/concCalculator.cpp:953 src/calculator/gasCalculator.cpp:331
 msgid "Volume cannot be zero, please enter a valid value."
 msgstr ""
 "Der Wert des Volumens kann nicht 0 betragen. Bitte geben Sie einen gültigen "
 "Wert ein."
 
-#: src/calculator/concCalculator.cpp:958
+#: src/calculator/concCalculator.cpp:956
 msgid "Number of moles cannot be zero, please enter a valid value."
 msgstr ""
 "Die Anzahl an Mol kann nicht 0 betragen. Bitte geben Sie einen gültigen Wert "
 "ein."
 
-#: src/calculator/concCalculator.cpp:961
+#: src/calculator/concCalculator.cpp:959
 msgid "Molar mass of solvent is zero, please enter a valid value."
 msgstr ""
 "Der Wert der molaren Masse des Lösungsmittels beträgt 0. Bitte geben Sie "
 "einen gültigen Wert ein."
 
-#: src/calculator/concCalculator.cpp:964
+#: src/calculator/concCalculator.cpp:962
 msgid "Number of equivalents is zero. Cannot calculate equivalent mass."
 msgstr ""
 "Die Anzahl der Äquivalenten ist 0. Die äquivalente Masse kann nicht "
 "berechnet werden."
 
-#: src/calculator/concCalculator.cpp:967
+#: src/calculator/concCalculator.cpp:965
 msgid "Concentration is zero, please enter a valid value."
 msgstr ""
 "Der Wert der Konzentration beträgt 0. Bitte geben Sie einen gültigen Wert "
 "ein."
 
-#: src/calculator/concCalculator.cpp:970
+#: src/calculator/concCalculator.cpp:968
 msgid "The volume of the solvent cannot be zero."
 msgstr "Das Volumen des Lösungsmittels kann nicht 0 betragen."
 
-#: src/calculator/concCalculator.cpp:973
+#: src/calculator/concCalculator.cpp:971
 msgid "The number of moles of the solvent cannot be zero."
 msgstr "Die Anzahl an Mol des Lösungsmittels kann nicht 0 betragen."
 
-#: src/calculator/concCalculator.cpp:976
+#: src/calculator/concCalculator.cpp:974
 msgid "The mass of the solvent cannot be zero."
 msgstr "Die Masse des Lösungsmittels kann nicht 0 betragen."
 
-#: src/calculator/concCalculator.cpp:979
+#: src/calculator/concCalculator.cpp:977
 msgid ""
 "Insufficient data to calculate the required value, please specify normality."
 msgstr ""
 "Es sind nicht genügend Daten vorhanden, um den gewünschten Wert zu "
 "berechnen. Bitte geben Sie die Normalität an."
 
-#: src/calculator/concCalculator.cpp:982
+#: src/calculator/concCalculator.cpp:980
 msgid ""
 "Insufficient data, specify molarity / mole fraction / molality to calculate."
 msgstr ""
 "Es sind nicht genügend Daten vorhanden. Bitte geben Sie die Molarität, den "
 "Stoffmengenanteil oder die Molalität an."
 
-#: src/calculator/concCalculator.cpp:985
+#: src/calculator/concCalculator.cpp:983
 msgid ""
 "The amount is specified in moles, cannot calculate molar/equivalent masses. "
 "Please specify mass/volume."
@@ -2820,7 +2820,7 @@ msgstr ""
 "Die Menge wird in Mol angegeben. Die molare/äquivalente Masse kann nicht "
 "berechnet werden. Bitte geben Sie die Masse/das Volumen an."
 
-#: src/calculator/concCalculator.cpp:988
+#: src/calculator/concCalculator.cpp:986
 msgid ""
 "You can calculate the molar mass of solvent only if the mole fraction is "
 "specified."
@@ -2828,13 +2828,13 @@ msgstr ""
 "Die molare Masse kann nur berechnet werden, wenn der Stoffmengenanteil "
 "angegeben wird."
 
-#: src/calculator/concCalculator.cpp:991
+#: src/calculator/concCalculator.cpp:989
 msgid "Molar mass cannot be zero, please enter a valid value."
 msgstr ""
 "Der Wert der molaren Masse kann nicht 0 betragen. Bitte geben Sie einen "
 "gültigen Wert ein."
 
-#: src/calculator/concCalculator.cpp:994
+#: src/calculator/concCalculator.cpp:992
 msgid "Equivalent mass cannot be zero, please enter a valid value."
 msgstr ""
 "Der Wert der äquivalenten Masse kann nicht 0 betragen. Bitte geben Sie einen "
@@ -3150,7 +3150,7 @@ msgstr "<big>Alle Werte auf die Anfangswerte zurücksetzen</big>"
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: src/calculator/gasCalculator.cpp:335
+#: src/calculator/gasCalculator.cpp:334
 msgid "Molar mass cannot be zero, please enter a non-zero value."
 msgstr ""
 "Der Wert der molaren Masse kann nicht 0 betragen. Bitte geben Sie einen Wert "
@@ -3389,22 +3389,22 @@ msgstr "Liter² Atmosphäre/mol²"
 msgid "Click to reset all values to initial values"
 msgstr "Klicken Sie hier, um die Werte zurückzusetzen."
 
-#: src/calculator/nuclearCalculator.cpp:453
+#: src/calculator/nuclearCalculator.cpp:438
 msgid "Initial amount cannot be zero."
 msgstr "Der Wert der Anfangsmenge kann nicht 0 betragen."
 
 # TODO: Fehlendes „be“ im Originalstring hinzufügen
-#: src/calculator/nuclearCalculator.cpp:456
+#: src/calculator/nuclearCalculator.cpp:441
 msgid "Final amount cannot be zero."
 msgstr "Der Wert der Endmenge kann nicht 0 betragen."
 
-#: src/calculator/nuclearCalculator.cpp:459
+#: src/calculator/nuclearCalculator.cpp:444
 msgid "Time is zero, please enter a valid value."
 msgstr ""
 "Der Wert der Halbwertszeit beträgt 0. Bitte geben Sie einen gültigen Wert "
 "ein."
 
-#: src/calculator/nuclearCalculator.cpp:462
+#: src/calculator/nuclearCalculator.cpp:447
 msgid "The final amount is greater than the initial amount."
 msgstr "Die Endmenge ist größer als die Anfangsmenge."
 
@@ -3844,25 +3844,65 @@ msgstr "Experimentelle Werte"
 msgid "Theoretical equations"
 msgstr "Theoretische Gleichungen"
 
-#: src/calculator/titrationCalculator.cpp:139
+#: src/calculator/titrationCalculator.cpp:115
+msgid "nothing"
+msgstr "Nichts"
+
+#: src/calculator/titrationCalculator.cpp:118
+#: src/calculator/titrationCalculator.cpp:580
+#: src/calculator/titrationCalculator.cpp:597
+#: src/calculator/titrationCalculator.cpp:717 src/kalziumutils.cpp:91
+msgid "Error"
+msgstr "Fehler"
+
+#: src/calculator/titrationCalculator.cpp:118
+msgid "Unable to find an equation for Y-axis variable."
+msgstr ""
+"Eine Gleichung  für die Variable der Y-Achse kann nicht gefunden werden."
+
+#: src/calculator/titrationCalculator.cpp:138
 msgid "Theoretical curve"
 msgstr "Theoretische Kurve"
 
-#: src/calculator/titrationCalculator.cpp:215
+#: src/calculator/titrationCalculator.cpp:232
 msgid "Approximated curve"
 msgstr "Angenäherte Kurve"
 
-#: src/calculator/titrationCalculator.cpp:215
+#: src/calculator/titrationCalculator.cpp:240
 msgid "Equivalence point"
 msgstr "Äquivalenzpunkt"
 
+#: src/calculator/titrationCalculator.cpp:568
+msgid "Save work"
+msgstr "Arbeit speichern"
+
+#: src/calculator/titrationCalculator.cpp:568
+#: src/calculator/titrationCalculator.cpp:591
+msgid "Icee File (*.icee)"
+msgstr "Icee-Datei (*.icee)"
+
+#: src/calculator/titrationCalculator.cpp:580
+#: src/calculator/titrationCalculator.cpp:717
+#, kde-format
+msgid "Unable to create %1"
+msgstr "%1 kann nicht erstellt werden"
+
+#: src/calculator/titrationCalculator.cpp:591
+msgid "Open work"
+msgstr "Arbeit öffnen"
+
+#: src/calculator/titrationCalculator.cpp:597
+#, kde-format
+msgid "Unable to open %1"
+msgstr "%1 kann nicht geöffnet werden"
+
 #. i18n: ectx: property (text), widget (QPushButton, saveimage)
-#: src/calculator/titrationCalculator.cpp:654
+#: src/calculator/titrationCalculator.cpp:705
 #: src/calculator/titrationCalculator.ui:377
 msgid "Save plot"
 msgstr "Graphen speichern"
 
-#: src/calculator/titrationCalculator.cpp:654
+#: src/calculator/titrationCalculator.cpp:705
 msgid "Svg image (*.svg)"
 msgstr "SVG-Grafik (*.svg)"
 
@@ -3975,15 +4015,15 @@ msgstr "Speichern"
 msgid "Example"
 msgstr "Beispiel"
 
-#: src/detailedgraphicaloverview.cpp:85
+#: src/detailedgraphicaloverview.cpp:86
 msgid "No element selected"
 msgstr "Kein Element ausgewählt"
 
-#: src/detailedgraphicaloverview.cpp:104
+#: src/detailedgraphicaloverview.cpp:105
 msgid "No graphic found"
 msgstr "Es wurde kein Bild gefunden"
 
-#: src/detailedgraphicaloverview.cpp:152
+#: src/detailedgraphicaloverview.cpp:153
 #, kde-format
 msgctxt "For example '1.0079u', the mass of an element in units"
 msgid "%1 u"
@@ -4007,17 +4047,17 @@ msgstr "Vorheriges"
 msgid "Goes to the previous element"
 msgstr "Wechselt zum vorherigen Element"
 
-#: src/detailinfodlg.cpp:159
+#: src/detailinfodlg.cpp:164
 #, kde-format
 msgid "Block: %1"
 msgstr "Block: %1"
 
-#: src/detailinfodlg.cpp:173
+#: src/detailinfodlg.cpp:177
 #, kde-format
 msgid "It was discovered by %1."
 msgstr "Wurde von %1 entdeckt."
 
-#: src/detailinfodlg.cpp:180
+#: src/detailinfodlg.cpp:184
 #, kde-format
 msgid "Origin of the name:<br/>%1"
 msgstr "Namensursprung:<br/>%1"
@@ -4025,8 +4065,8 @@ msgstr "Namensursprung:<br/>%1"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicMeltingPointGradient)
-#: src/detailinfodlg.cpp:207 src/elementdataviewer.cpp:240
-#: src/exportdialog.cpp:131 src/kalziumgradienttype.cpp:399
+#: src/detailinfodlg.cpp:211 src/elementdataviewer.cpp:243
+#: src/exportdialog.cpp:140 src/kalziumgradienttype.cpp:400
 #: src/plotsetupwidget.ui:69 src/plotsetupwidget.ui:390
 #: src/settings_gradients.ui:88
 msgid "Melting Point"
@@ -4035,94 +4075,94 @@ msgstr "Schmelzpunkt"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicBoilingPointGradient)
-#: src/detailinfodlg.cpp:214 src/elementdataviewer.cpp:247
-#: src/exportdialog.cpp:132 src/kalziumgradienttype.cpp:343
+#: src/detailinfodlg.cpp:218 src/elementdataviewer.cpp:250
+#: src/exportdialog.cpp:141 src/kalziumgradienttype.cpp:344
 #: src/plotsetupwidget.ui:74 src/plotsetupwidget.ui:395
 #: src/settings_gradients.ui:81
 msgid "Boiling Point"
 msgstr "Siedepunkt"
 
-#: src/detailinfodlg.cpp:221 src/exportdialog.cpp:127
+#: src/detailinfodlg.cpp:225 src/exportdialog.cpp:136
 msgid "Electron Affinity"
 msgstr "Elektronenaffinität"
 
-#: src/detailinfodlg.cpp:228
+#: src/detailinfodlg.cpp:232
 msgid "Electronic configuration"
 msgstr "Elektronenkonfiguration"
 
-#: src/detailinfodlg.cpp:242
+#: src/detailinfodlg.cpp:246
 msgid "van der Waals Radius"
 msgstr "Van-der-Waals-Radius"
 
 #. i18n: ectx: property (text), widget (QTableWidget, table)
-#: src/detailinfodlg.cpp:249 src/molcalcwidgetbase.ui:218
+#: src/detailinfodlg.cpp:253 src/molcalcwidgetbase.ui:218
 msgid "Atomic mass"
 msgstr "Atommasse"
 
-#: src/detailinfodlg.cpp:256
+#: src/detailinfodlg.cpp:260
 msgid "Ionization energy"
 msgstr "Ionisierungsenergie"
 
-#: src/detailinfodlg.cpp:256
+#: src/detailinfodlg.cpp:260
 msgid "First Ionization energy"
 msgstr "Erste Ionisierungsenergie"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicElectronegativityGradient)
-#: src/detailinfodlg.cpp:263 src/elementdataviewer.cpp:234
-#: src/exportdialog.cpp:128 src/plotsetupwidget.ui:64
+#: src/detailinfodlg.cpp:267 src/elementdataviewer.cpp:237
+#: src/exportdialog.cpp:137 src/plotsetupwidget.ui:64
 #: src/plotsetupwidget.ui:385 src/settings_gradients.ui:95
 msgid "Electronegativity"
 msgstr "Elektronegativität"
 
-#: src/detailinfodlg.cpp:270
+#: src/detailinfodlg.cpp:274
 msgid "Oxidation states"
 msgstr "Oxidationsstatus"
 
-#: src/detailinfodlg.cpp:283
+#: src/detailinfodlg.cpp:287
 #, kde-format
 msgctxt "Link to element's Wikipedia page, %1 is localized language name"
 msgid "Wikipedia (%1)"
 msgstr "Wikipedia (%1)"
 
-#: src/detailinfodlg.cpp:331
+#: src/detailinfodlg.cpp:335
 msgid "Isotope-Table"
 msgstr "Isotopentabelle"
 
-#: src/detailinfodlg.cpp:335
+#: src/detailinfodlg.cpp:339
 msgid "Neutrons"
 msgstr "Neutronen"
 
 #. i18n: ectx: property (text), widget (QTableWidget, table)
-#: src/detailinfodlg.cpp:337 src/molcalcwidgetbase.ui:228
+#: src/detailinfodlg.cpp:341 src/molcalcwidgetbase.ui:228
 msgid "Percentage"
 msgstr "Prozent"
 
-#: src/detailinfodlg.cpp:339
+#: src/detailinfodlg.cpp:343
 msgid "Half-life period"
 msgstr "Halbwertszeit"
 
-#: src/detailinfodlg.cpp:341
+#: src/detailinfodlg.cpp:345
 msgid "Energy and Mode of Decay"
 msgstr "Energie und Zerfallsart"
 
-#: src/detailinfodlg.cpp:343
+#: src/detailinfodlg.cpp:347
 msgid "Spin and Parity"
 msgstr "Spin und Parität"
 
-#: src/detailinfodlg.cpp:352
+#: src/detailinfodlg.cpp:355
 #, kde-format
 msgid "%1 u"
 msgstr "%1 u"
 
-#: src/detailinfodlg.cpp:357
+#: src/detailinfodlg.cpp:361
 #, kde-format
 msgctxt "this can for example be '24%'"
 msgid "%1%"
 msgstr "%1 %"
 
-#: src/detailinfodlg.cpp:360
+#: src/detailinfodlg.cpp:365
 #, kde-format
 msgctxt ""
 "The first argument is the value, the second is the unit. For example '17 s' "
@@ -4130,99 +4170,99 @@ msgctxt ""
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: src/detailinfodlg.cpp:364 src/detailinfodlg.cpp:373
-#: src/detailinfodlg.cpp:383 src/detailinfodlg.cpp:387
-#: src/detailinfodlg.cpp:397
+#: src/detailinfodlg.cpp:370 src/detailinfodlg.cpp:382
+#: src/detailinfodlg.cpp:395 src/detailinfodlg.cpp:400
+#: src/detailinfodlg.cpp:411
 #, kde-format
 msgid "%1 MeV"
 msgstr "%1 MeV"
 
-#: src/detailinfodlg.cpp:365
+#: src/detailinfodlg.cpp:372
 #, kde-format
 msgid " %1"
 msgstr " %1"
 
-#: src/detailinfodlg.cpp:367 src/detailinfodlg.cpp:376
-#: src/detailinfodlg.cpp:392 src/detailinfodlg.cpp:400
+#: src/detailinfodlg.cpp:374 src/detailinfodlg.cpp:386
+#: src/detailinfodlg.cpp:405 src/detailinfodlg.cpp:415
 #, kde-format
 msgid "(%1%)"
 msgstr "(%1 %)"
 
-#: src/detailinfodlg.cpp:369 src/detailinfodlg.cpp:379
+#: src/detailinfodlg.cpp:377 src/detailinfodlg.cpp:390
 msgid ", "
 msgstr ", "
 
-#: src/detailinfodlg.cpp:374
+#: src/detailinfodlg.cpp:384
 #, kde-format
 msgid " %1<sup>-</sup>"
 msgstr " %1<sup>−</sup>"
 
-#: src/detailinfodlg.cpp:384
+#: src/detailinfodlg.cpp:397
 #, kde-format
 msgid " %1<sup>+</sup>"
 msgstr " %1<sup>+</sup>"
 
-#: src/detailinfodlg.cpp:389 src/detailinfodlg.cpp:398
+#: src/detailinfodlg.cpp:402 src/detailinfodlg.cpp:413
 msgctxt "Acronym of Electron Capture"
 msgid " EC"
 msgstr " EC"
 
-#: src/detailinfodlg.cpp:406
+#: src/detailinfodlg.cpp:422
 #, kde-format
 msgid "%1 %2<sub>n</sub>"
 msgstr "%1 %2<sub>n</sub>"
 
-#: src/detailinfodlg.cpp:445
+#: src/detailinfodlg.cpp:461
 msgid "Data Overview"
 msgstr "Daten-Übersicht"
 
-#: src/detailinfodlg.cpp:449 src/detailinfodlg.cpp:450
+#: src/detailinfodlg.cpp:465 src/detailinfodlg.cpp:466
 msgid "Atom Model"
 msgstr "Atommodell"
 
-#: src/detailinfodlg.cpp:458
+#: src/detailinfodlg.cpp:474
 msgid "Isotopes"
 msgstr "Isotope"
 
-#: src/detailinfodlg.cpp:459
+#: src/detailinfodlg.cpp:475
 msgid "Miscellaneous"
 msgstr "Sonstiges"
 
-#: src/detailinfodlg.cpp:464 src/detailinfodlg.cpp:465
+#: src/detailinfodlg.cpp:480 src/detailinfodlg.cpp:481
 msgid "Spectrum"
 msgstr "Spektrum"
 
-#: src/detailinfodlg.cpp:478
+#: src/detailinfodlg.cpp:494
 msgid "Extra information"
 msgstr "Zusätzliche Information"
 
-#: src/detailinfodlg.cpp:478
+#: src/detailinfodlg.cpp:494
 msgid "Extra Information"
 msgstr "Zusätzliche Information"
 
-#: src/detailinfodlg.cpp:488
+#: src/detailinfodlg.cpp:504
 #, kde-format
 msgctxt "For example Carbon (6)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: src/detailinfodlg.cpp:530
+#: src/detailinfodlg.cpp:542
 #, kde-format
 msgid "No spectrum of %1 found."
 msgstr "Keine Spektren von %1 gefunden."
 
-#: src/elementdataviewer.cpp:53
+#: src/elementdataviewer.cpp:54
 msgid "Plot Data"
 msgstr "Daten grafisch darstellen"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
-#: src/elementdataviewer.cpp:222 src/exportdialog.cpp:121
+#: src/elementdataviewer.cpp:225 src/exportdialog.cpp:130
 #: src/plotsetupwidget.ui:54 src/plotsetupwidget.ui:375
 msgid "Atomic Number"
 msgstr "Ordnungszahl"
 
-#: src/eqchemview.cpp:86
+#: src/eqchemview.cpp:85
 msgctxt "Help text for the chemical equation solver"
 msgid ""
 "The equation solver allows you to balance a chemical equation.<br> "
@@ -4240,11 +4280,11 @@ msgstr ""
 "<br><br><b>Verwendung von Variablen</b><br>Um variable Mengen eines "
 "Elementes zu kennzeichnen, muss ein einzelnes Zeichen vor das Elementsymbol "
 "gesetzt werden, wie es in diesem Beispiel gezeigt wird:<br><i>aH + bO -> "
-"5H2O</i> (Ergebnis: <b>10</b> H + <b>5</b> O -&gt; <b>5</b> H<sub>2</sub>O)"
-"<br>Das Lösen dieser Gleichung ergibt die nötigen Mengen an Wasser- und "
-"Sauerstoff.<br><br><b>Angeben von elektrischen Ladungen</b><br>Mit eckigen "
-"Klammern können Sie elektrische Ladungen eines Elements angeben, wie in "
-"diesem Beispiel gezeigt wird:<br><i>4H[+] + 2O -> cH2O[2+]</i> (Ergebnis: "
+"5H2O</i> (Ergebnis: <b>10</b> H + <b>5</b> O -&gt; <b>5</b> H<sub>2</"
+"sub>O)<br>Das Lösen dieser Gleichung ergibt die nötigen Mengen an Wasser- "
+"und Sauerstoff.<br><br><b>Angeben von elektrischen Ladungen</b><br>Mit "
+"eckigen Klammern können Sie elektrische Ladungen eines Elements angeben, wie "
+"in diesem Beispiel gezeigt wird:<br><i>4H[+] + 2O -> cH2O[2+]</i> (Ergebnis: "
 "<b>4</b> H<b><sup>+</sup></b> + <b>2</b> O -&gt; <b>2</b> H<b><sub>2</sub></"
 "b>O<b><sup>2+</sub></b>)"
 
@@ -4280,46 +4320,46 @@ msgstr "&Berechnen"
 msgid "Copy to Clipboard"
 msgstr "In die Zwischenablage kopieren"
 
-#: src/exportdialog.cpp:80
+#: src/exportdialog.cpp:83
 msgid "OK"
 msgstr "OK"
 
-#: src/exportdialog.cpp:84
+#: src/exportdialog.cpp:88
 msgid "Export Chemical Data"
 msgstr "Chemische Daten exportieren"
 
-#: src/exportdialog.cpp:104
+#: src/exportdialog.cpp:113
 msgid "Elements"
 msgstr "Elemente"
 
-#: src/exportdialog.cpp:105
+#: src/exportdialog.cpp:114
 msgid "Properties"
 msgstr "Eigenschaften"
 
-#: src/exportdialog.cpp:122
+#: src/exportdialog.cpp:131
 msgid "Symbol"
 msgstr "Symbol"
 
-#: src/exportdialog.cpp:125
+#: src/exportdialog.cpp:134
 msgid "Exact Mass"
 msgstr "Exakte Masse"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicIonizationGradient)
-#: src/exportdialog.cpp:126 src/settings_gradients.ui:116
+#: src/exportdialog.cpp:135 src/settings_gradients.ui:116
 msgid "Ionization"
 msgstr "Ionisation"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabFamily)
-#: src/exportdialog.cpp:133 src/kalziumschemetype.cpp:260
+#: src/exportdialog.cpp:142 src/kalziumschemetype.cpp:257
 #: src/settings_colors.ui:405
 msgid "Family"
 msgstr "Familien"
 
-#: src/exportdialog.cpp:145
+#: src/exportdialog.cpp:154
 msgid "File already exists. Do you want to overwrite it?"
 msgstr "Die Datei existiert bereits. Möchten Sie die Datei überschreiben?"
 
-#: src/exportdialog.cpp:150
+#: src/exportdialog.cpp:159
 msgid "Could not open file for writing."
 msgstr "Die Datei kann nicht zum Schreiben geöffnet werden."
 
@@ -4372,25 +4412,25 @@ msgstr ""
 "Verschieben Sie den Regler, um die Geschwindigkeit der Temperaturerhöhung zu "
 "ändern."
 
-#: src/gradientwidget_impl.cpp:176
+#: src/gradientwidget_impl.cpp:175
 msgid "Elements with melting point around this temperature:"
 msgstr "Elemente mit einem ähnlichen Schmelzpunkt:"
 
-#: src/gradientwidget_impl.cpp:178 src/gradientwidget_impl.cpp:189
+#: src/gradientwidget_impl.cpp:177 src/gradientwidget_impl.cpp:188
 #, kde-format
 msgctxt "For example: Carbon (300K)"
 msgid "%1 (%2%3)"
 msgstr "%1 (%2%3)"
 
-#: src/gradientwidget_impl.cpp:183
+#: src/gradientwidget_impl.cpp:182
 msgid "No elements with a melting point around this temperature"
 msgstr "Keine Elemente mit einem ähnlichen Schmelzpunkt"
 
-#: src/gradientwidget_impl.cpp:187
+#: src/gradientwidget_impl.cpp:186
 msgid "Elements with boiling point around this temperature:"
 msgstr "Elemente mit einem ähnlichen Siedepunkt:"
 
-#: src/gradientwidget_impl.cpp:194
+#: src/gradientwidget_impl.cpp:193
 msgid "No elements with a boiling point around this temperature"
 msgstr "Keine Elemente mit einem ähnlichen Siedepunkt"
 
@@ -4413,155 +4453,155 @@ msgstr ""
 "<p>Mit dem Mausrad wird die Ansicht vergrößert oder verkleinert.</p>\n"
 "<p>Mit gedrückter linker Maustaste kann die Ansicht verschoben werden.</p>"
 
-#: src/isotopetable/isotopeitem.cpp:77
+#: src/isotopetable/isotopeitem.cpp:75
 #, kde-format
 msgid "Isotope of Element %1 (%2)"
 msgstr "Isotop des Elements %1 (%2)"
 
-#: src/isotopetable/isotopetabledialog.cpp:39
+#: src/isotopetable/isotopetabledialog.cpp:36
 msgid "Isotope Table"
 msgstr "Isotopentabelle"
 
-#: src/isotopetable/isotopetabledialog.cpp:55
+#: src/isotopetable/isotopetabledialog.cpp:52
 msgctxt "alpha ray emission"
 msgid "alpha"
 msgstr "Alpha"
 
-#: src/isotopetable/isotopetabledialog.cpp:56
+#: src/isotopetable/isotopetabledialog.cpp:53
 msgctxt "Electron capture method"
 msgid "EC"
 msgstr "EC"
 
-#: src/isotopetable/isotopetabledialog.cpp:57
+#: src/isotopetable/isotopetabledialog.cpp:54
 msgctxt "Many ways"
 msgid "Multiple"
 msgstr "Mehrfach"
 
-#: src/isotopetable/isotopetabledialog.cpp:58
+#: src/isotopetable/isotopetabledialog.cpp:55
 msgctxt "Beta plus ray emission"
 msgid "Beta +"
 msgstr "Beta +"
 
-#: src/isotopetable/isotopetabledialog.cpp:59
+#: src/isotopetable/isotopetabledialog.cpp:56
 msgctxt "Beta minus ray emission"
 msgid "Beta -"
 msgstr "Beta −"
 
-#: src/isotopetable/isotopetabledialog.cpp:60
+#: src/isotopetable/isotopetabledialog.cpp:57
 msgctxt "Stable isotope"
 msgid "Stable"
 msgstr "Stabil"
 
-#: src/isotopetable/isotopetabledialog.cpp:61
+#: src/isotopetable/isotopetabledialog.cpp:58
 msgctxt "Default colour"
 msgid "default"
 msgstr "Standard"
 
-#: src/isotopetable/isotopetabledialog.cpp:81
+#: src/isotopetable/isotopetabledialog.cpp:77
 #, kde-format
 msgid "<h1>%1 (%2)</h1>"
 msgstr "<h1>%1 (%2)</h1>"
 
-#: src/isotopetable/isotopetabledialog.cpp:82
-msgctxt "Unknown magnetic moment"
-msgid "Unknown"
-msgstr "Unbekannt"
-
-#: src/isotopetable/isotopetabledialog.cpp:82
+#: src/isotopetable/isotopetabledialog.cpp:78
 #, kde-format
 msgid "Magnetic moment: %1"
 msgstr "Magnetisches Moment: %1"
 
-#: src/isotopetable/isotopetabledialog.cpp:86
+#: src/isotopetable/isotopetabledialog.cpp:80
+msgctxt "Unknown magnetic moment"
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/isotopetable/isotopetabledialog.cpp:84
 #, kde-format
 msgid "Halflife: %1 %2"
 msgstr "Halbwertszeit: %1 %2"
 
-#: src/isotopetable/isotopetabledialog.cpp:89
+#: src/isotopetable/isotopetabledialog.cpp:86
 msgid "Halflife: Unknown"
 msgstr "Halbwertszeit: unbekannt"
 
-#: src/isotopetable/isotopetabledialog.cpp:92
+#: src/isotopetable/isotopetabledialog.cpp:89
 #, kde-format
 msgid "Abundance: %1 %"
 msgstr "Häufigkeit: %1 %"
 
-#: src/isotopetable/isotopetabledialog.cpp:93
+#: src/isotopetable/isotopetabledialog.cpp:90
 #, kde-format
 msgid "Number of nucleons: %1"
 msgstr "Nukleonenzahl: %1"
 
-#: src/isotopetable/isotopetabledialog.cpp:94
-msgctxt "Unknown spin"
-msgid "Unknown"
-msgstr "Unbekannt"
-
-#: src/isotopetable/isotopetabledialog.cpp:94
+#: src/isotopetable/isotopetabledialog.cpp:91
 #, kde-format
 msgid "Spin: %1"
 msgstr "Spin: %1"
 
-#: src/isotopetable/isotopetabledialog.cpp:95
+#: src/isotopetable/isotopetabledialog.cpp:92
+msgctxt "Unknown spin"
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: src/isotopetable/isotopetabledialog.cpp:93
 #, kde-format
 msgid "Exact mass: %1 u"
 msgstr "Exakte Masse: %1 u"
 
-#: src/kalzium.cpp:133
+#: src/kalzium.cpp:134
 msgid "&Export Data..."
 msgstr "Daten &exportieren ..."
 
-#: src/kalzium.cpp:142
+#: src/kalzium.cpp:143
 msgid "&Scheme"
 msgstr "&Schema"
 
-#: src/kalzium.cpp:150
+#: src/kalzium.cpp:151
 msgid "&Gradients"
 msgstr "&Farbverläufe"
 
-#: src/kalzium.cpp:159
+#: src/kalzium.cpp:160
 msgid "&Tables"
 msgstr "&Tabellen"
 
-#: src/kalzium.cpp:166
+#: src/kalzium.cpp:167
 msgid "&Numeration"
 msgstr "&Nummerierung"
 
-#: src/kalzium.cpp:173
+#: src/kalzium.cpp:174
 msgid "&Plot Data..."
 msgstr "Daten &grafisch darstellen ..."
 
-#: src/kalzium.cpp:179
+#: src/kalzium.cpp:180
 msgid "Perform &Calculations..."
 msgstr "&Berechnungen durchführen ..."
 
-#: src/kalzium.cpp:181
+#: src/kalzium.cpp:182
 msgctxt "WhatsThis Help"
 msgid "This is the calculator, it performs basic chemical calculations."
 msgstr ""
 "Mit diesem Werkzeug können Sie einfache chemische Berechnungen durchführen."
 
-#: src/kalzium.cpp:185
+#: src/kalzium.cpp:186
 msgid "&Isotope Table..."
 msgstr "&Isotopentabelle ..."
 
-#: src/kalzium.cpp:187
+#: src/kalzium.cpp:188
 msgctxt "WhatsThis Help"
 msgid "This table shows all of the known isotopes of the chemical elements."
 msgstr "Diese Tabelle zeigt alle bekannten Isotope der chemischen Elemente."
 
-#: src/kalzium.cpp:191
+#: src/kalzium.cpp:192
 msgid "&Glossary..."
 msgstr "&Glossar ..."
 
-#: src/kalzium.cpp:196
+#: src/kalzium.cpp:197
 msgid "&R/S Phrases..."
 msgstr "&R- und S-Sätze ..."
 
-#: src/kalzium.cpp:201
+#: src/kalzium.cpp:202
 msgid "Convert chemical files..."
 msgstr "Chemiedaten-Dateien umwandeln ..."
 
-#: src/kalzium.cpp:203
+#: src/kalzium.cpp:204
 msgctxt "WhatsThis Help"
 msgid ""
 "With this tool, you can convert files containing chemical data between "
@@ -4570,22 +4610,22 @@ msgstr ""
 "Mit diesem Werkzeug können Sie Dateien mit chemischen Daten zwischen "
 "verschiedenen Dateiformaten umwandeln."
 
-#: src/kalzium.cpp:210
+#: src/kalzium.cpp:211
 msgid "Molecular Editor..."
 msgstr "Moleküleditor ..."
 
-#: src/kalzium.cpp:212
+#: src/kalzium.cpp:213
 msgctxt "WhatsThis Help"
 msgid "This tool allows you to view and edit 3D molecular structures."
 msgstr ""
 "Mit diesem Werkzeug können Sie molekulare Strukturen dreidimensional "
 "betrachten und bearbeiten."
 
-#: src/kalzium.cpp:219
+#: src/kalzium.cpp:220
 msgid "&Tables..."
 msgstr "&Tabellen ..."
 
-#: src/kalzium.cpp:221
+#: src/kalzium.cpp:222
 msgctxt "WhatsThis Help"
 msgid ""
 "This will open a dialog with listings of symbols and numbers related to "
@@ -4594,12 +4634,12 @@ msgstr ""
 "Es wird ein Dialog geöffnet, der Symbole und Zahlenwerte auflistet, die mit "
 "der Chemie in Verbindung stehen."
 
-#: src/kalzium.cpp:229
+#: src/kalzium.cpp:230
 msgctxt "WhatsThis Help"
 msgid "This will show or hide the legend for the periodic table."
 msgstr "Die Legende des Periodensystems wird ein- oder ausgeblendet."
 
-#: src/kalzium.cpp:234
+#: src/kalzium.cpp:235
 msgctxt "WhatsThis Help"
 msgid ""
 "This will show or hide a sidebar with additional information and a set of "
@@ -4608,7 +4648,7 @@ msgstr ""
 "Die Statusleiste mit zusätzlichen Informationen und eine Reihe von "
 "Werkzeugen wird ein- oder ausgeblendet."
 
-#: src/kalzium.cpp:239
+#: src/kalzium.cpp:240
 msgctxt "WhatsThis Help"
 msgid ""
 "This will show or hide a sidebar with additional information about the table."
@@ -4616,68 +4656,68 @@ msgstr ""
 "Dies blendet eine Statusleiste mit zusätzlichen Informationen über die "
 "Tabelle ein bzw. aus."
 
-#: src/kalzium.cpp:270
+#: src/kalzium.cpp:271
 msgid "Legend"
 msgstr "Legende"
 
-#: src/kalzium.cpp:283
+#: src/kalzium.cpp:284
 msgid "Table Information"
 msgstr "Tabelleninformation"
 
-#: src/kalzium.cpp:289
+#: src/kalzium.cpp:290
 msgid "Information"
 msgstr "Informationen"
 
-#: src/kalzium.cpp:301
+#: src/kalzium.cpp:302
 msgid "Overview"
 msgstr "Übersicht"
 
-#: src/kalzium.cpp:313
+#: src/kalzium.cpp:314
 msgid "View"
 msgstr "Anzeigen"
 
-#: src/kalzium.cpp:324
+#: src/kalzium.cpp:325
 msgid "*.png *.xpm *.jpg *.svg"
 msgstr "*.png *.xpm *.jpg *.svg"
 
-#: src/kalzium.cpp:326
+#: src/kalzium.cpp:327
 msgid "Save Kalzium's Table In"
 msgstr "Kalziums Tabelle speichern unter"
 
-#: src/kalzium.cpp:346
+#: src/kalzium.cpp:347
 msgid "Knowledge"
 msgstr "Wissen"
 
-#: src/kalzium.cpp:351
+#: src/kalzium.cpp:352
 msgid "Tools"
 msgstr "Werkzeuge"
 
-#: src/kalzium.cpp:381
+#: src/kalzium.cpp:382
 msgid "This system does not support OpenGL."
 msgstr "Dieses System unterstützt OpenGL nicht."
 
-#: src/kalzium.cpp:381
+#: src/kalzium.cpp:382
 msgid "Kalzium Error"
 msgstr "Kalzium-Fehler"
 
-#: src/kalzium.cpp:507
+#: src/kalzium.cpp:508
 msgid "Schemes"
 msgstr "Schemata"
 
-#: src/kalzium.cpp:514
+#: src/kalzium.cpp:515
 msgid "Gradients"
 msgstr "Verläufe"
 
-#: src/kalzium.cpp:519
+#: src/kalzium.cpp:520
 msgid "Units"
 msgstr "Einheiten"
 
 #. i18n: ectx: attribute (title), widget (QWidget, calcTab)
-#: src/kalzium.cpp:524 src/molcalcwidgetbase.ui:24
+#: src/kalzium.cpp:525 src/molcalcwidgetbase.ui:24
 msgid "Calculator"
 msgstr "Rechner"
 
-#: src/kalzium.cpp:569
+#: src/kalzium.cpp:571
 #, kde-format
 msgctxt "For example: \"Carbon (6), Mass: 12.0107 u\""
 msgid "%1 (%2), Mass: %3 u"
@@ -4691,7 +4731,7 @@ msgstr "Wählt das PSE"
 #. i18n: ectx: whatsthis, entry (schemaPSE), group (Periodic Table)
 #: src/kalzium.kcfg:10
 msgid "Select the PSE you want"
-msgstr "Wählen Sie das PSE, das Sie möchten."
+msgstr "Wählen Sie das gewünschte PSE."
 
 #. i18n: ectx: label, entry (colorschemebox), group (Periodic Table)
 #: src/kalzium.kcfg:14
@@ -5259,31 +5299,29 @@ msgstr "Wahr, wenn der Benutzer Aliase hinzuzufügen möchte"
 msgid "Show or hide the sidebar"
 msgstr "Seitenleiste anzeigen oder ausblenden"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, style2Combo)
-#. i18n: ectx: property (text), item, widget (KComboBox, labelsCombo)
-#: src/kalziumelementproperty.cpp:88 src/tools/moleculeviewerwidget.ui:154
-#: src/tools/moleculeviewerwidget.ui:208
+#: src/kalziumelementproperty.cpp:89
+msgctxt "No Gradient"
 msgid "None"
-msgstr "Keine"
+msgstr "Kein"
 
-#: src/kalziumgradienttype.cpp:232
+#: src/kalziumgradienttype.cpp:233
 msgid "van Der Waals"
 msgstr "Van der Waals"
 
-#: src/kalziumgradienttype.cpp:302
+#: src/kalziumgradienttype.cpp:303
 msgid "u"
 msgstr "u"
 
-#: src/kalziumgradienttype.cpp:510
+#: src/kalziumgradienttype.cpp:511
 msgid "Electronegativity (Pauling)"
 msgstr "Elektronegativität (Pauling)"
 
-#: src/kalziumgradienttype.cpp:565
+#: src/kalziumgradienttype.cpp:566
 msgid "Discovery date"
 msgstr "Datum der Entdeckung"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicElectronaffinityGradient)
-#: src/kalziumgradienttype.cpp:622 src/settings_gradients.ui:109
+#: src/kalziumgradienttype.cpp:623 src/settings_gradients.ui:109
 msgid "Electronaffinity"
 msgstr "Elektronenaffinität"
 
@@ -5291,19 +5329,19 @@ msgstr "Elektronenaffinität"
 msgid "First Ionization"
 msgstr "Erste Ionisation"
 
-#: src/kalziumnumerationtype.cpp:116
+#: src/kalziumnumerationtype.cpp:117
 msgid "No Numeration"
 msgstr "Keine Nummerierung"
 
-#: src/kalziumnumerationtype.cpp:167
+#: src/kalziumnumerationtype.cpp:168
 msgid "IUPAC"
 msgstr "IUPAC"
 
-#: src/kalziumnumerationtype.cpp:207
+#: src/kalziumnumerationtype.cpp:208
 msgid "CAS"
 msgstr "CAS"
 
-#: src/kalziumnumerationtype.cpp:247
+#: src/kalziumnumerationtype.cpp:248
 msgid "Old IUPAC"
 msgstr "IUPAC (alt)"
 
@@ -5320,109 +5358,109 @@ msgstr "Alle Elemente"
 msgid "Blocks"
 msgstr "Blöcke"
 
-#: src/kalziumschemetype.cpp:192
+#: src/kalziumschemetype.cpp:189
 msgid "s-Block"
 msgstr "s-Block"
 
-#: src/kalziumschemetype.cpp:193
+#: src/kalziumschemetype.cpp:190
 msgid "p-Block"
 msgstr "p-Block"
 
-#: src/kalziumschemetype.cpp:194
+#: src/kalziumschemetype.cpp:191
 msgid "d-Block"
 msgstr "d-Block"
 
-#: src/kalziumschemetype.cpp:195
+#: src/kalziumschemetype.cpp:192
 msgid "f-Block"
 msgstr "f-Block"
 
-#: src/kalziumschemetype.cpp:219
+#: src/kalziumschemetype.cpp:216
 msgid "Iconic"
 msgstr "Symbolisch"
 
-#: src/kalziumschemetype.cpp:236
+#: src/kalziumschemetype.cpp:233
 msgid "Each element is represented by an icon which represents its use."
 msgstr ""
 "Jedes Element wird durch ein Symbol dargestellt, das seinen Nutzen zeigt."
 
-#: src/kalziumschemetype.cpp:310
+#: src/kalziumschemetype.cpp:299
 msgid "Alkaline"
 msgstr "Alkalisch"
 
-#: src/kalziumschemetype.cpp:311
+#: src/kalziumschemetype.cpp:300
 msgid "Rare Earth"
 msgstr "Seltene Erde"
 
-#: src/kalziumschemetype.cpp:312
+#: src/kalziumschemetype.cpp:301
 msgid "Non-Metals"
 msgstr "Nicht-Metall"
 
-#: src/kalziumschemetype.cpp:313
+#: src/kalziumschemetype.cpp:302
 msgid "Alkalie Metal"
 msgstr "Alkalimetall"
 
-#: src/kalziumschemetype.cpp:314
+#: src/kalziumschemetype.cpp:303
 msgid "Other Metal"
 msgstr "Anderes Metall"
 
-#: src/kalziumschemetype.cpp:315
+#: src/kalziumschemetype.cpp:304
 msgid "Halogen"
 msgstr "Halogen"
 
-#: src/kalziumschemetype.cpp:316
+#: src/kalziumschemetype.cpp:305
 msgid "Transition Metal"
 msgstr "Übergangsmetall"
 
-#: src/kalziumschemetype.cpp:317
+#: src/kalziumschemetype.cpp:306
 msgid "Noble Gas"
 msgstr "Edelgas"
 
-#: src/kalziumschemetype.cpp:318
+#: src/kalziumschemetype.cpp:307
 msgid "Metalloid"
 msgstr "Halbmetall"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabGroups)
-#: src/kalziumschemetype.cpp:342 src/settings_colors.ui:133
+#: src/kalziumschemetype.cpp:331 src/settings_colors.ui:133
 msgid "Groups"
 msgstr "Gruppen"
 
-#: src/kalziumschemetype.cpp:389
+#: src/kalziumschemetype.cpp:371
 msgid "Group 1"
 msgstr "Gruppe 1"
 
-#: src/kalziumschemetype.cpp:390
+#: src/kalziumschemetype.cpp:372
 msgid "Group 2"
 msgstr "Gruppe 2"
 
-#: src/kalziumschemetype.cpp:391
+#: src/kalziumschemetype.cpp:373
 msgid "Group 3"
 msgstr "Gruppe 3"
 
-#: src/kalziumschemetype.cpp:392
+#: src/kalziumschemetype.cpp:374
 msgid "Group 4"
 msgstr "Gruppe 4"
 
-#: src/kalziumschemetype.cpp:393
+#: src/kalziumschemetype.cpp:375
 msgid "Group 5"
 msgstr "Gruppe 5"
 
-#: src/kalziumschemetype.cpp:394
+#: src/kalziumschemetype.cpp:376
 msgid "Group 6"
 msgstr "Gruppe 6"
 
-#: src/kalziumschemetype.cpp:395
+#: src/kalziumschemetype.cpp:377
 msgid "Group 7"
 msgstr "Gruppe 7"
 
-#: src/kalziumschemetype.cpp:396
+#: src/kalziumschemetype.cpp:378
 msgid "Group 8"
 msgstr "Gruppe 8"
 
-#: src/kalziumschemetype.cpp:421
+#: src/kalziumschemetype.cpp:403
 msgid "Colors"
 msgstr "Farben"
 
-#: src/kalziumschemetype.cpp:442
+#: src/kalziumschemetype.cpp:424
 msgid "Nice colors without meaning. (From the Openbabel project)"
 msgstr "Schöne Farben ohne Bedeutung. (Aus dem Openbabel-Projekt)"
 
@@ -5446,60 +5484,56 @@ msgstr "E&xtras"
 msgid "Main Toolbar"
 msgstr "Haupt-Werkzeugleiste"
 
-#: src/kalziumutils.cpp:88
-msgid "Error"
-msgstr "Fehler"
-
-#: src/kalziumutils.cpp:104
+#: src/kalziumutils.cpp:107
 msgid "Value not defined"
 msgstr "Wert nicht definiert"
 
-#: src/kalziumutils.cpp:106
+#: src/kalziumutils.cpp:109
 #, kde-format
 msgctxt "Just a number"
 msgid "%1"
 msgstr "%1"
 
-#: src/kalziumutils.cpp:118
+#: src/kalziumutils.cpp:122
 msgid "Unknown Value"
 msgstr "Unbekannter Wert"
 
-#: src/kalziumutils.cpp:120
+#: src/kalziumutils.cpp:124
 #, kde-format
 msgctxt "x u (units). The atomic mass."
 msgid "%1 u"
 msgstr "%1 u"
 
-#: src/kalziumutils.cpp:127
+#: src/kalziumutils.cpp:132
 #, kde-format
 msgid "This element was discovered in the year <numid>%1</numid>."
 msgstr "Dieses Element wurde im Jahr <numid>%1</numid> entdeckt."
 
-#: src/kalziumutils.cpp:129
+#: src/kalziumutils.cpp:134
 msgid "The element has not yet been officially recognized by the IUPAC."
 msgstr "Das Element wurde noch nicht offiziell durch die IUPAC anerkannt."
 
-#: src/kalziumutils.cpp:132
+#: src/kalziumutils.cpp:136
 msgid "This element was known to ancient cultures."
 msgstr "Dieses Element war bereits antiken Kulturen bekannt."
 
-#: src/kalziumutils.cpp:165
+#: src/kalziumutils.cpp:169
 msgid "No Data"
 msgstr "Keine Daten"
 
-#: src/kdeeduglossary.cpp:142 src/kdeeduglossary.cpp:320
+#: src/kdeeduglossary.cpp:142 src/kdeeduglossary.cpp:318
 msgid "Glossary"
 msgstr "Glossar"
 
-#: src/kdeeduglossary.cpp:336
+#: src/kdeeduglossary.cpp:334
 msgid "&Search:"
 msgstr "&Suche:"
 
-#: src/kdeeduglossary.cpp:508
+#: src/kdeeduglossary.cpp:502
 msgid "References"
 msgstr "Referenzen"
 
-#: src/kdeeduglossary.cpp:513
+#: src/kdeeduglossary.cpp:506
 #, kde-format
 msgid "Go to '%1'"
 msgstr "Gehe zu „%1“"
@@ -5538,94 +5572,94 @@ msgctxt "one of the two types of gradients available"
 msgid "linear"
 msgstr "linear"
 
-#: src/legendwidget.cpp:92
+#: src/legendwidget.cpp:93
 #, kde-format
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: src/legendwidget.cpp:94
+#: src/legendwidget.cpp:95
 #, kde-format
 msgctxt "Minimum value of the gradient"
 msgid "Minimum: %1"
 msgstr "Minimum: %1"
 
-#: src/legendwidget.cpp:98
+#: src/legendwidget.cpp:99
 #, kde-format
 msgctxt "Maximum value of the gradient"
 msgid "Maximum: %1"
 msgstr "Maximum: %1"
 
-#: src/legendwidget.cpp:103
+#: src/legendwidget.cpp:104
 #, kde-format
 msgid "Scheme: %1"
 msgstr "Schema: %1"
 
-#: src/main.cpp:32
+#: src/main.cpp:31
 msgid "A periodic table of the elements"
 msgstr "Ein Periodensystem der Elemente"
 
-#: src/main.cpp:48 src/tools/moleculeview.cpp:148
-#: src/tools/moleculeview.cpp:440
+#: src/main.cpp:47 src/tools/moleculeview.cpp:151
+#: src/tools/moleculeview.cpp:454
 msgid "Kalzium"
 msgstr "Kalzium"
 
-#: src/main.cpp:49
-msgid "(C) 2002-2011 Carsten Niehaus"
-msgstr "© 2002–2011 Carsten Niehaus"
+#: src/main.cpp:48
+msgid "(C) 2002-2014 Carsten Niehaus"
+msgstr "© 2002–2014 Carsten Niehaus"
 
-#: src/main.cpp:51
+#: src/main.cpp:50
 msgid "Pino Toscano"
 msgstr "Pino Toscano"
 
-#: src/main.cpp:51
+#: src/main.cpp:50
 msgid "Large code contributions; resident guru helping the other developers"
 msgstr ""
 "Viele Quelltextbeiträge, alteingesessener Guru, der den anderen Entwicklern "
 "hilft"
 
-#: src/main.cpp:52
+#: src/main.cpp:51
 msgid "Benoit Jacob"
 msgstr "Benoit Jacob"
 
-#: src/main.cpp:52
+#: src/main.cpp:51
 msgid "Base work on the molecular viewer, mentored Marcus during his SoC"
 msgstr ""
 "Basisarbeit am Molekülbetrachter, hat Marcus während seines SoC (Google "
 "Summer of Code) begleitet"
 
-#: src/main.cpp:53
+#: src/main.cpp:52
 msgid "Marcus Hanwell"
 msgstr "Marcus Hanwell"
 
-#: src/main.cpp:53
+#: src/main.cpp:52
 msgid "SoC on the molecular viewer and libavogadro porting/integration"
 msgstr ""
 "SoC (Google Summer of Code) am Molekülbetrachter und libavogadro-Portierung "
 "und -Integration"
 
-#: src/main.cpp:54
+#: src/main.cpp:53
 msgid "Kashyap R Puranik"
 msgstr "Kashyap R Puranik"
 
-#: src/main.cpp:54
+#: src/main.cpp:53
 msgid "SoC on the calculator widget and a few smaller improvements"
 msgstr ""
 "Berechnungsfunktionen als „Google Summer of Code“-Projekt und einige "
 "kleinere Verbesserungen"
 
-#: src/main.cpp:55
+#: src/main.cpp:54
 msgid "Thomas Nagy"
 msgstr "Thomas Nagy"
 
-#: src/main.cpp:55
+#: src/main.cpp:54
 msgid "EqChem, the equation solver"
 msgstr "EqChem, der Gleichungslöser"
 
-#: src/main.cpp:56
+#: src/main.cpp:55
 msgid "Inge Wallin"
 msgstr "Inge Wallin"
 
-#: src/main.cpp:56
+#: src/main.cpp:55
 msgid ""
 "Code cleaning, parser for the molecule weight calculator, and a lot of "
 "smaller improvements"
@@ -5633,19 +5667,19 @@ msgstr ""
 "Quelltext-Bereinigung, Parser für den Molekülgewichtberechner und viele "
 "kleinere Verbesserungen"
 
-#: src/main.cpp:57
+#: src/main.cpp:56
 msgid "Anne-Marie Mahfouf"
 msgstr "Anne-Marie Mahfouf"
 
-#: src/main.cpp:57
+#: src/main.cpp:56
 msgid "A lot of small things and the documentation"
 msgstr "Viele Kleinigkeiten und die Dokumentation"
 
-#: src/main.cpp:58
+#: src/main.cpp:57
 msgid "Johannes Simon"
 msgstr "Johannes Simon"
 
-#: src/main.cpp:58
+#: src/main.cpp:57
 msgid ""
 "Code and documentation contributions to the equation solver and molecular "
 "viewer"
@@ -5653,120 +5687,120 @@ msgstr ""
 "Quelltext und Beiträge zur Dokumentation von Gleichungslöser und "
 "Molekülbetrachter"
 
-#: src/main.cpp:59
+#: src/main.cpp:58
 msgid "Jarle Akselsen"
 msgstr "Jarle Akselsen"
 
-#: src/main.cpp:59
+#: src/main.cpp:58
 msgid "Many beautiful element icons"
 msgstr "Viele wunderschöne Symbole"
 
-#: src/main.cpp:60
+#: src/main.cpp:59
 msgid "Noémie Scherer"
 msgstr "Noémie Scherer"
 
-#: src/main.cpp:60
+#: src/main.cpp:59
 msgid "Many beautiful element icons, too!"
 msgstr "Auch viele wunderschöne Symbole!"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 msgid "Danny Allen"
 msgstr "Danny Allen"
 
-#: src/main.cpp:61
+#: src/main.cpp:60
 msgid "Several icons"
 msgstr "Verschiedene Symbole"
 
-#: src/main.cpp:62
+#: src/main.cpp:61
 msgid "Lee Olson"
 msgstr "Lee Olson"
 
-#: src/main.cpp:62
+#: src/main.cpp:61
 msgid "Several icons in the information dialog"
 msgstr "Viele Symbole im Informationsdialog"
 
-#: src/main.cpp:64
+#: src/main.cpp:63
 msgid "Jörg Buchwald"
 msgstr "Jörg Buchwald"
 
-#: src/main.cpp:64
+#: src/main.cpp:63
 msgid "Contributed most isotope information"
 msgstr "Steuerte die meisten Isotopen-Informationen bei"
 
-#: src/main.cpp:65
+#: src/main.cpp:64
 msgid "Marco Martin"
 msgstr "Marco Martin"
 
-#: src/main.cpp:65
+#: src/main.cpp:64
 msgid "Some icons and inspiration for others"
 msgstr "Einige Symbole und die Inspiration für andere"
 
-#: src/main.cpp:66
+#: src/main.cpp:65
 msgid "Daniel Haas"
 msgstr "Daniel Haas"
 
-#: src/main.cpp:66
+#: src/main.cpp:65
 msgid "The design of the information dialog"
 msgstr "Das Design des Informationsdialogs"
 
-#: src/main.cpp:67
+#: src/main.cpp:66
 msgid "Brian Beck"
 msgstr "Brian Beck"
 
-#: src/main.cpp:67
+#: src/main.cpp:66
 msgid "The orbits icon"
 msgstr "Das Orbital-Symbol"
 
-#: src/main.cpp:69
+#: src/main.cpp:68
 msgid "Paulo Cattai"
 msgstr "Paulo Cattai"
 
-#: src/main.cpp:69 src/main.cpp:70 src/main.cpp:71 src/main.cpp:72
-#: src/main.cpp:73
+#: src/main.cpp:68 src/main.cpp:69 src/main.cpp:70 src/main.cpp:71
+#: src/main.cpp:72
 msgid "New interface design and usability improvements"
 msgstr "Neues Oberflächendesign und Verbesserung der Benutzbarkeit"
 
-#: src/main.cpp:70
+#: src/main.cpp:69
 msgid "Danilo Balzaque"
 msgstr "Danilo Balzaque"
 
-#: src/main.cpp:71
+#: src/main.cpp:70
 msgid "Roberto Cunha"
 msgstr "Roberto Cunha"
 
-#: src/main.cpp:72
+#: src/main.cpp:71
 msgid "Tadeu Araujo"
 msgstr "Tadeu Araujo"
 
-#: src/main.cpp:73
+#: src/main.cpp:72
 msgid "Tiago Porangaba"
 msgstr "Tiago Porangaba"
 
-#: src/main.cpp:74
+#: src/main.cpp:73
 msgid "Etienne Rebetez"
 msgstr "Etienne Rebetez"
 
-#: src/main.cpp:74
+#: src/main.cpp:73
 msgid "Adding new sizable Periodic System"
 msgstr "Neues, in der Größe veränderbares Periodensystem"
 
-#: src/main.cpp:80
+#: src/main.cpp:79
 msgid "Open the given molecule file"
 msgstr "Angegebene Molekül-Datei öffnen"
 
-#: src/main.cpp:109
+#: src/main.cpp:102
 msgid "Can't open more than one molecule at a time"
 msgstr "Es kann nicht mehr als ein Molekül gleichzeitig geöffnet werden."
 
-#: src/molcalcwidget.cpp:104 src/molcalcwidget.cpp:146
-#: src/molcalcwidget.cpp:207 src/molcalcwidget.cpp:209
-#: src/molcalcwidget.cpp:211 src/molcalcwidget.cpp:213
-#: src/molcalcwidget.cpp:215
+#: src/molcalcwidget.cpp:102 src/molcalcwidget.cpp:138
+#: src/molcalcwidget.cpp:195 src/molcalcwidget.cpp:197
+#: src/molcalcwidget.cpp:199 src/molcalcwidget.cpp:201
+#: src/molcalcwidget.cpp:203
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: src/molcalcwidget.cpp:176
+#: src/molcalcwidget.cpp:166
 msgid ""
 "Enter a formula in the\n"
 "widget above and\n"
@@ -5778,37 +5812,37 @@ msgstr ""
 "klicken Sie auf „Berechnen“.\n"
 "Beispiel: #Et#OH"
 
-#: src/molcalcwidget.cpp:232
+#: src/molcalcwidget.cpp:220
 msgid "Molecular mass: "
 msgstr "Molekülmasse: "
 
-#: src/molcalcwidget.cpp:248 src/molcalcwidget.cpp:252
-#: src/molcalcwidget.cpp:253 src/molcalcwidget.cpp:254
+#: src/molcalcwidget.cpp:235 src/molcalcwidget.cpp:239
+#: src/molcalcwidget.cpp:240 src/molcalcwidget.cpp:241
 msgid "Invalid input"
 msgstr "Ungültige Eingabe"
 
-#: src/molcalcwidget.cpp:263
+#: src/molcalcwidget.cpp:250
 #, kde-format
 msgid "%1<sub>%2</sub> "
 msgstr "%1<sub>%2</sub> "
 
-#: src/molcalcwidget.cpp:311
+#: src/molcalcwidget.cpp:294
 msgid "Symbol should consist of two or more letters."
 msgstr "Das Symbol sollte aus zwei oder mehr Buchstaben bestehen."
 
-#: src/molcalcwidget.cpp:318
+#: src/molcalcwidget.cpp:300
 msgid "Symbol already being used"
 msgstr "Das Symbol wird bereits verwendet."
 
-#: src/molcalcwidget.cpp:325
+#: src/molcalcwidget.cpp:306
 msgid "Expansion is invalid, please specify a valid expansion"
 msgstr "Die Ausdehnung ist falsch. Bitte geben Sie eine gültige Ausdehnung an."
 
-#: src/molcalcwidget.cpp:339
+#: src/molcalcwidget.cpp:319
 msgid "done!"
 msgstr "Fertig"
 
-#: src/molcalcwidget.cpp:345
+#: src/molcalcwidget.cpp:323
 msgid "Unable to find the user defined alias file."
 msgstr ""
 "Die Datei mit den benutzerdefinierten Aliasen kann nicht gefunden werden."
@@ -5988,7 +6022,7 @@ msgstr ""
 "Dies ist die Liste der Aliase, die von Ihnen oder einem anderen Benutzer "
 "hinzugefügt worden sind."
 
-#: src/orbitswidget.cpp:208
+#: src/orbitswidget.cpp:209
 msgid "Unknown Electron Distribution"
 msgstr "Unbekannte Elektronen-Verteilung"
 
@@ -6128,56 +6162,56 @@ msgstr "Elementsymbole"
 msgid "Y-Axis"
 msgstr "Y-Achse"
 
-#: src/psetable/elementitem.cpp:136
+#: src/psetable/elementitem.cpp:135
 msgid "n/a"
 msgstr "n/v"
 
-#: src/rsdialog.cpp:37
+#: src/rsdialog.cpp:35
 msgid "Risks/Security Phrases"
 msgstr "Risiko- und Sicherheitssätze"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/rsdialog.cpp:95 src/rswidget.ui:38
+#: src/rsdialog.cpp:94 src/rswidget.ui:38
 msgid "R-Phrases:"
 msgstr "R-Sätze:"
 
-#: src/rsdialog.cpp:104
+#: src/rsdialog.cpp:102
 msgid "S-Phrases:"
 msgstr "S-Sätze:"
 
-#: src/rsdialog.cpp:113
+#: src/rsdialog.cpp:110
 msgid "You asked for no R/S-Phrases."
 msgstr "Sie haben nach keinen R/S-Sätzen gefragt."
 
-#: src/rsdialog.cpp:156
+#: src/rsdialog.cpp:153
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S1: Keep locked up"
 msgstr "S1: Unter Verschluss aufbewahren"
 
-#: src/rsdialog.cpp:157
+#: src/rsdialog.cpp:154
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S2: Keep out of the reach of children"
 msgstr "S2: Darf nicht in die Hände von Kindern gelangen"
 
-#: src/rsdialog.cpp:158
+#: src/rsdialog.cpp:155
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S3: Keep in a cool place"
 msgstr "S3: Kühl aufbewahren"
 
-#: src/rsdialog.cpp:159
+#: src/rsdialog.cpp:156
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S4: Keep away from living quarters"
 msgstr "S4: Von Wohnplätzen fernhalten"
 
-#: src/rsdialog.cpp:160
+#: src/rsdialog.cpp:157
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6187,49 +6221,49 @@ msgid ""
 msgstr ""
 "S5: Unter ... aufbewahren (geeignete Flüssigkeit vom Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:161
+#: src/rsdialog.cpp:158
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S6: Keep under ... ( inert gas to be specified by the manufacturer )"
 msgstr "S6: Unter ... aufbewahren (inertes Gas vom Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:162
+#: src/rsdialog.cpp:159
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S7: Keep container tightly closed"
 msgstr "S7: Behälter dicht geschlossen halten"
 
-#: src/rsdialog.cpp:163
+#: src/rsdialog.cpp:160
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S8: Keep container dry"
 msgstr "S8: Behälter trocken halten"
 
-#: src/rsdialog.cpp:164
+#: src/rsdialog.cpp:161
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S9: Keep container in a well-ventilated place"
 msgstr "S9: Behälter an einem gut gelüfteten Ort aufbewahren"
 
-#: src/rsdialog.cpp:165
+#: src/rsdialog.cpp:162
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S12: Do not keep the container sealed"
 msgstr "S12: Behälter nicht gasdicht verschließen"
 
-#: src/rsdialog.cpp:166
+#: src/rsdialog.cpp:163
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S13: Keep away from food, drink and animal feedingstuffs"
 msgstr "S13: Von Nahrungsmitteln, Getränken und Futtermitteln fernhalten"
 
-#: src/rsdialog.cpp:167
+#: src/rsdialog.cpp:164
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6240,56 +6274,56 @@ msgstr ""
 "S14: Von ... fernhalten (inkompatible Substanzen sind vom Hersteller "
 "anzugeben)"
 
-#: src/rsdialog.cpp:168
+#: src/rsdialog.cpp:165
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S15: Keep away from heat"
 msgstr "S15: Vor Hitze schützen"
 
-#: src/rsdialog.cpp:169
+#: src/rsdialog.cpp:166
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S16: Keep away from sources of ignition - No smoking"
 msgstr "S16: Von Zündquellen fernhalten – Nicht rauchen"
 
-#: src/rsdialog.cpp:170
+#: src/rsdialog.cpp:167
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S17: Keep away from combustible material"
 msgstr "S17: Von brennbaren Stoffen fernhalten"
 
-#: src/rsdialog.cpp:171
+#: src/rsdialog.cpp:168
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S18: Handle and open container with care"
 msgstr "S18: Behälter mit Vorsicht öffnen und handhaben"
 
-#: src/rsdialog.cpp:172
+#: src/rsdialog.cpp:169
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S20: When using do not eat or drink"
 msgstr "S20: Bei der Arbeit nicht essen und trinken"
 
-#: src/rsdialog.cpp:173
+#: src/rsdialog.cpp:170
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S21: When using do not smoke"
 msgstr "S21: Bei der Arbeit nicht rauchen"
 
-#: src/rsdialog.cpp:174
+#: src/rsdialog.cpp:171
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S22: Do not breathe dust"
 msgstr "S22: Staub nicht einatmen"
 
-#: src/rsdialog.cpp:175
+#: src/rsdialog.cpp:172
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6300,21 +6334,21 @@ msgstr ""
 "S23: Gas/Rauch/Dampf/Aerosol nicht einatmen (geeignete Bezeichnung(en) vom "
 "Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:176
+#: src/rsdialog.cpp:173
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S24: Avoid contact with skin"
 msgstr "S24: Berührung mit der Haut vermeiden"
 
-#: src/rsdialog.cpp:177
+#: src/rsdialog.cpp:174
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S25: Avoid contact with eyes"
 msgstr "S25: Berührung mit den Augen vermeiden"
 
-#: src/rsdialog.cpp:178
+#: src/rsdialog.cpp:175
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6325,14 +6359,14 @@ msgstr ""
 "S26: Bei Berührung mit den Augen sofort gründlich mit Wasser abspülen und "
 "Arzt konsultieren"
 
-#: src/rsdialog.cpp:179
+#: src/rsdialog.cpp:176
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S27: Take off immediately all contaminated clothing"
 msgstr "S27: Beschmutzte, getränkte Kleidung sofort ausziehen"
 
-#: src/rsdialog.cpp:180
+#: src/rsdialog.cpp:177
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6343,49 +6377,49 @@ msgstr ""
 "S29: Bei Berührung mit der Haut sofort abwaschen mit viel ... (vom "
 "Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:181
+#: src/rsdialog.cpp:178
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S29: Do not empty into drains"
 msgstr "S29: Nicht in die Kanalisation gelangen lassen"
 
-#: src/rsdialog.cpp:182
+#: src/rsdialog.cpp:179
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S30: Never add water to this product"
 msgstr "S30: Niemals Wasser hinzugießen"
 
-#: src/rsdialog.cpp:183
+#: src/rsdialog.cpp:180
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S33: Take precautionary measures against static discharges"
 msgstr "S33: Maßnahmen gegen elektrostatische Aufladungen treffen"
 
-#: src/rsdialog.cpp:184
+#: src/rsdialog.cpp:181
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S35: This material and its container must be disposed of in a safe way"
 msgstr "S35: Abfälle und Behälter müssen in gesicherter Weise beseitigt werden"
 
-#: src/rsdialog.cpp:185
+#: src/rsdialog.cpp:182
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S36: Wear suitable protective clothing"
 msgstr "S36: Bei der Arbeit geeignete Schutzkleidung tragen"
 
-#: src/rsdialog.cpp:186
+#: src/rsdialog.cpp:183
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S37: Wear suitable gloves"
 msgstr "S37: Geeignete Schutzhandschuhe tragen"
 
-#: src/rsdialog.cpp:187
+#: src/rsdialog.cpp:184
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6393,14 +6427,14 @@ msgid ""
 "S38: In case of insufficient ventilation wear suitable respiratory equipment"
 msgstr "S38: Bei unzureichender Belüftung Atemschutzgerät anlegen"
 
-#: src/rsdialog.cpp:188
+#: src/rsdialog.cpp:185
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S39: Wear eye/face protection"
 msgstr "S39: Schutzbrille/Gesichtsschutz tragen"
 
-#: src/rsdialog.cpp:189
+#: src/rsdialog.cpp:186
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6411,14 +6445,14 @@ msgstr ""
 "S40: Fußboden und verunreinigte Gegenstände mit ... reinigen (Material vom "
 "Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:190
+#: src/rsdialog.cpp:187
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S41: In case of fire and/or explosion do not breathe fumes"
 msgstr "S41: Explosions- und Brandgase nicht einatmen"
 
-#: src/rsdialog.cpp:191
+#: src/rsdialog.cpp:188
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6429,7 +6463,7 @@ msgstr ""
 "S42: Beim Räuchern/Versprühen geeignetes Atemschutzgerät anlegen (geeignete "
 "Bezeichnung(en) vom Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:192
+#: src/rsdialog.cpp:189
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6440,7 +6474,7 @@ msgstr ""
 "S43: Zum Löschen ... (vom Hersteller anzugeben) verwenden. (Wenn Wasser die "
 "Gefahr erhöht, anfügen: „Kein Wasser verwenden“.)"
 
-#: src/rsdialog.cpp:193
+#: src/rsdialog.cpp:190
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6451,7 +6485,7 @@ msgstr ""
 "S45: Bei Unfall oder Unwohlsein sofort Arzt konsultieren (wenn möglich, "
 "dieses Etikett vorzeigen)"
 
-#: src/rsdialog.cpp:194
+#: src/rsdialog.cpp:191
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6462,7 +6496,7 @@ msgstr ""
 "S46: Bei Verschlucken sofort ärztlichen Rat einholen und Verpackung oder "
 "Etikett vorzeigen"
 
-#: src/rsdialog.cpp:195
+#: src/rsdialog.cpp:192
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6473,7 +6507,7 @@ msgstr ""
 "S47: Nicht bei Temperaturen über ... °C aufbewahren (vom Hersteller "
 "anzugeben)"
 
-#: src/rsdialog.cpp:196
+#: src/rsdialog.cpp:193
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6483,35 +6517,35 @@ msgid ""
 msgstr ""
 "S48: Feucht halten mit ... (geeignetes Mittel vom Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:197
+#: src/rsdialog.cpp:194
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S49: Keep only in the original container"
 msgstr "S49: Nur im Originalbehälter aufbewahren"
 
-#: src/rsdialog.cpp:198
+#: src/rsdialog.cpp:195
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S50: Do not mix with ... ( to be specified by the manufacturer )"
 msgstr "S50: Nicht mischen mit ... (vom Hersteller anzugeben)"
 
-#: src/rsdialog.cpp:199
+#: src/rsdialog.cpp:196
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S51: Use only in well-ventilated areas"
 msgstr "S51: Nur in gut gelüfteten Bereichen verwenden"
 
-#: src/rsdialog.cpp:200
+#: src/rsdialog.cpp:197
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "S52: Not recommended for interior use on large surface areas"
 msgstr "S52: Nicht großflächig für Wohn- und Aufenthaltsräume zu verwenden"
 
-#: src/rsdialog.cpp:201
+#: src/rsdialog.cpp:198
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6519,7 +6553,7 @@ msgid "S53: Avoid exposure - obtain special instructions before use"
 msgstr ""
 "S53: Exposition vermeiden – vor Gebrauch besondere Anweisungen einholen"
 
-#: src/rsdialog.cpp:202
+#: src/rsdialog.cpp:199
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6529,7 +6563,7 @@ msgid ""
 msgstr ""
 "S56: Dieses Produkt und seinen Behälter der Problemabfallentsorgung zuführen"
 
-#: src/rsdialog.cpp:203
+#: src/rsdialog.cpp:200
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6538,7 +6572,7 @@ msgstr ""
 "S57: Zur Vermeidung einer Kontamination der Umwelt geeigneten Behälter "
 "verwenden"
 
-#: src/rsdialog.cpp:204
+#: src/rsdialog.cpp:201
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6548,7 +6582,7 @@ msgstr ""
 "S59: Informationen zur Wiederverwendung/Wiederverwertung beim Hersteller/"
 "Lieferanten erfragen"
 
-#: src/rsdialog.cpp:205
+#: src/rsdialog.cpp:202
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6558,7 +6592,7 @@ msgstr ""
 "S60: Dieses Produkt und sein Behälter sind als gefährlicher Abfall zu "
 "entsorgen"
 
-#: src/rsdialog.cpp:206
+#: src/rsdialog.cpp:203
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6569,7 +6603,7 @@ msgstr ""
 "S61: Freisetzung in die Umwelt vermeiden. Besondere Anweisungen einholen/"
 "Sicherheitsdatenblatt zu Rate ziehen"
 
-#: src/rsdialog.cpp:207
+#: src/rsdialog.cpp:204
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6580,7 +6614,7 @@ msgstr ""
 "S62: Bei Verschlucken kein Erbrechen herbeiführen. Sofort ärztlichen Rat "
 "einholen und Verpackung oder dieses Etikett vorzeigen"
 
-#: src/rsdialog.cpp:208
+#: src/rsdialog.cpp:205
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6591,7 +6625,7 @@ msgstr ""
 "S63: Bei Unfall durch Einatmen: Verunfallten an die frische Luft bringen und "
 "ruhigstellen"
 
-#: src/rsdialog.cpp:209
+#: src/rsdialog.cpp:206
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6601,14 +6635,14 @@ msgstr ""
 "S64: Bei Verschlucken Mund mit Wasser ausspülen (nur, wenn Verunfallter bei "
 "Bewusstsein ist)"
 
-#: src/rsdialog.cpp:234
+#: src/rsdialog.cpp:229
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R1: Explosive when dry"
 msgstr "R1: In trockenem Zustand explosionsgefährlich"
 
-#: src/rsdialog.cpp:235
+#: src/rsdialog.cpp:230
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6617,7 +6651,7 @@ msgid ""
 msgstr ""
 "R2: Durch Schlag, Reibung, Feuer oder andere Zündquellen explosionsgefährlich"
 
-#: src/rsdialog.cpp:236
+#: src/rsdialog.cpp:231
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6628,98 +6662,98 @@ msgstr ""
 "R3: Durch Schlag, Reibung, Feuer oder andere Zündquellen besonders "
 "explosionsgefährlich"
 
-#: src/rsdialog.cpp:237
+#: src/rsdialog.cpp:232
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R4: Forms very sensitive explosive metallic compounds"
 msgstr "R4: Bildet hochempfindliche explosionsgefährliche Metallverbindungen"
 
-#: src/rsdialog.cpp:238
+#: src/rsdialog.cpp:233
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R5: Heating may cause an explosion"
 msgstr "R5: Beim Erwärmen explosionsfähig"
 
-#: src/rsdialog.cpp:239
+#: src/rsdialog.cpp:234
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R6: Explosive with or without contact with air"
 msgstr "R6: Mit und ohne Luft explosionsfähig"
 
-#: src/rsdialog.cpp:240
+#: src/rsdialog.cpp:235
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R7: May cause fire"
 msgstr "R7: Kann Brand verursachen"
 
-#: src/rsdialog.cpp:241
+#: src/rsdialog.cpp:236
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R8: Contact with combustible material may cause fire"
 msgstr "R8: Feuergefahr bei Berührung mit brennbaren Stoffen"
 
-#: src/rsdialog.cpp:242
+#: src/rsdialog.cpp:237
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R9: Explosive when mixed with combustible material"
 msgstr "R9: Explosionsgefahr bei Mischung mit brennbaren Stoffen"
 
-#: src/rsdialog.cpp:243
+#: src/rsdialog.cpp:238
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R10: Flammable"
 msgstr "R10: Entzündlich"
 
-#: src/rsdialog.cpp:244
+#: src/rsdialog.cpp:239
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R11: Highly flammable"
 msgstr "R11: Leichtentzündlich"
 
-#: src/rsdialog.cpp:245
+#: src/rsdialog.cpp:240
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R12: Extremely flammable"
 msgstr "R12: Hochentzündlich"
 
-#: src/rsdialog.cpp:246
+#: src/rsdialog.cpp:241
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R14: Reacts violently with water"
 msgstr "R14: Reagiert heftig mit Wasser"
 
-#: src/rsdialog.cpp:247
+#: src/rsdialog.cpp:242
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R15: Contact with water liberates extremely flammable gases"
 msgstr "R15: Reagiert mit Wasser unter Bildung hochentzündlicher Gase"
 
-#: src/rsdialog.cpp:248
+#: src/rsdialog.cpp:243
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R16: Explosive when mixed with oxidising substances"
 msgstr "R16: Explosionsgefährlich in Mischung mit brandfördernden Stoffen"
 
-#: src/rsdialog.cpp:249
+#: src/rsdialog.cpp:244
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R17: Spontaneously flammable in air"
 msgstr "R17: Selbstentzündlich an der Luft"
 
-#: src/rsdialog.cpp:250
+#: src/rsdialog.cpp:245
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -6728,322 +6762,322 @@ msgstr ""
 "R18: Bei Gebrauch Bildung explosionsfähiger/leichtentzündlicher Dampf/Luft-"
 "Gemische möglich"
 
-#: src/rsdialog.cpp:251
+#: src/rsdialog.cpp:246
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R19: May form explosive peroxides"
 msgstr "R19: Kann explosionsfähige Peroxide bilden"
 
-#: src/rsdialog.cpp:252
+#: src/rsdialog.cpp:247
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R20: Harmful by inhalation"
 msgstr "R20: Gesundheitsschädlich beim Einatmen"
 
-#: src/rsdialog.cpp:253
+#: src/rsdialog.cpp:248
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R21: Harmful in contact with skin"
 msgstr "R21: Gesundheitsschädlich bei Berührung mit der Haut"
 
-#: src/rsdialog.cpp:254
+#: src/rsdialog.cpp:249
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R22: Harmful if swallowed"
 msgstr "R22: Gesundheitsschädlich beim Verschlucken"
 
-#: src/rsdialog.cpp:255
+#: src/rsdialog.cpp:250
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R23: Toxic by inhalation"
 msgstr "R23: Giftig beim Einatmen"
 
-#: src/rsdialog.cpp:256
+#: src/rsdialog.cpp:251
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R24: Toxic in contact with skin"
 msgstr "R24: Giftig bei Berührung mit der Haut"
 
-#: src/rsdialog.cpp:257
+#: src/rsdialog.cpp:252
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R25: Toxic if swallowed"
 msgstr "R25: Giftig beim Verschlucken"
 
-#: src/rsdialog.cpp:258
+#: src/rsdialog.cpp:253
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R26: Very toxic by inhalation"
 msgstr "R26: Sehr giftig beim Einatmen"
 
-#: src/rsdialog.cpp:259
+#: src/rsdialog.cpp:254
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R27: Very toxic in contact with skin"
 msgstr "R27: Sehr giftig bei Berührung mit der Haut"
 
-#: src/rsdialog.cpp:260
+#: src/rsdialog.cpp:255
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R28: Very toxic if swallowed"
 msgstr "R28: Sehr giftig beim Verschlucken"
 
-#: src/rsdialog.cpp:261
+#: src/rsdialog.cpp:256
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R29: Contact with water liberates toxic gas."
 msgstr "R29: Entwickelt bei Berührung mit Wasser giftige Gase."
 
-#: src/rsdialog.cpp:262
+#: src/rsdialog.cpp:257
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R30: Can become highly flammable in use"
 msgstr "R30: Kann bei Gebrauch leichtentzündlich werden"
 
-#: src/rsdialog.cpp:263
+#: src/rsdialog.cpp:258
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R31: Contact with acids liberates toxic gas"
 msgstr "R31: Entwickelt bei Berührung mit Säure giftige Gase"
 
-#: src/rsdialog.cpp:264
+#: src/rsdialog.cpp:259
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R32: Contact with acids liberates very toxic gas"
 msgstr "R32: Entwickelt bei Berührung mit Säure sehr giftige Gase"
 
-#: src/rsdialog.cpp:265
+#: src/rsdialog.cpp:260
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R33: Danger of cumulative effects"
 msgstr "R33: Gefahr kumulativer Wirkungen"
 
-#: src/rsdialog.cpp:266
+#: src/rsdialog.cpp:261
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R34: Causes burns"
 msgstr "R34: Verursacht Verätzungen"
 
-#: src/rsdialog.cpp:267
+#: src/rsdialog.cpp:262
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R35: Causes severe burns"
 msgstr "R35: Verursacht schwere Verätzungen"
 
-#: src/rsdialog.cpp:268
+#: src/rsdialog.cpp:263
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R36: Irritating to eyes"
 msgstr "R36: Reizt die Augen"
 
-#: src/rsdialog.cpp:269
+#: src/rsdialog.cpp:264
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R37: Irritating to respiratory system"
 msgstr "R37: Reizt die Atmungsorgane"
 
-#: src/rsdialog.cpp:270
+#: src/rsdialog.cpp:265
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R38: Irritating to skin"
 msgstr "R38: Reizt die Haut"
 
-#: src/rsdialog.cpp:271
+#: src/rsdialog.cpp:266
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R39: Danger of very serious irreversible effects"
 msgstr "R39: Ernste Gefahr irreversiblen Schadens"
 
-#: src/rsdialog.cpp:272
+#: src/rsdialog.cpp:267
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R40: Limited evidence of a carcinogenic effect"
 msgstr "R40: Verdacht auf krebserzeugende Wirkung"
 
-#: src/rsdialog.cpp:273
+#: src/rsdialog.cpp:268
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R41: Risk of serious damage to eyes"
 msgstr "R41: Gefahr ernster Augenschäden"
 
-#: src/rsdialog.cpp:274
+#: src/rsdialog.cpp:269
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R42: May cause sensitisation by inhalation"
 msgstr "R42: Sensibilisierung durch Einatmen möglich"
 
-#: src/rsdialog.cpp:275
+#: src/rsdialog.cpp:270
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R43: May cause sensitisation by skin contact"
 msgstr "R43: Sensibilisierung durch Hautkontakt möglich"
 
-#: src/rsdialog.cpp:276
+#: src/rsdialog.cpp:271
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R44: Risk of explosion if heated under confinement"
 msgstr "R44: Explosionsgefahr bei Erhitzen unter Einschluss"
 
-#: src/rsdialog.cpp:277
+#: src/rsdialog.cpp:272
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R45: May cause cancer"
 msgstr "R45: Kann Krebs erzeugen"
 
-#: src/rsdialog.cpp:278
+#: src/rsdialog.cpp:273
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R46: May cause heritable genetic damage"
 msgstr "R46: Kann vererbbare Schäden verursachen"
 
-#: src/rsdialog.cpp:279
+#: src/rsdialog.cpp:274
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R48: Danger of serious damage to health by prolonged exposure"
 msgstr "R48: Gefahr ernster Gesundheitsschäden bei längerer Exposition"
 
-#: src/rsdialog.cpp:280
+#: src/rsdialog.cpp:275
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R49: May cause cancer by inhalation"
 msgstr "R49: Kann Krebs erzeugen beim Einatmen"
 
-#: src/rsdialog.cpp:281
+#: src/rsdialog.cpp:276
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R50: Very toxic to aquatic organisms"
 msgstr "R50: Sehr giftig für Wasserorganismen"
 
-#: src/rsdialog.cpp:282
+#: src/rsdialog.cpp:277
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R51: Toxic to aquatic organisms"
 msgstr "R51: Giftig für Wasserorganismen"
 
-#: src/rsdialog.cpp:283
+#: src/rsdialog.cpp:278
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R52: Harmful to aquatic organisms"
 msgstr "R52: Schädlich für Wasserorganismen"
 
-#: src/rsdialog.cpp:284
+#: src/rsdialog.cpp:279
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R53: May cause long-term adverse effects in the aquatic environment"
 msgstr "R53: Kann in Gewässern längerfristig schädliche Wirkungen haben"
 
-#: src/rsdialog.cpp:285
+#: src/rsdialog.cpp:280
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R54: Toxic to flora"
 msgstr "R54: Giftig für Pflanzen"
 
-#: src/rsdialog.cpp:286
+#: src/rsdialog.cpp:281
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R55: Toxic to fauna"
 msgstr "R55: Giftig für Tiere"
 
-#: src/rsdialog.cpp:287
+#: src/rsdialog.cpp:282
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R56: Toxic to soil organisms"
 msgstr "R56: Giftig für Bodenorganismen"
 
-#: src/rsdialog.cpp:288
+#: src/rsdialog.cpp:283
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R57: Toxic to bees"
 msgstr "R57: Giftig für Bienen"
 
-#: src/rsdialog.cpp:289
+#: src/rsdialog.cpp:284
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R58: May cause long-term adverse effects in the environment"
 msgstr "R58: Kann längerfristig schädliche Wirkungen auf die Umwelt haben"
 
-#: src/rsdialog.cpp:290
+#: src/rsdialog.cpp:285
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R59: Dangerous for the ozone layer"
 msgstr "R59: Gefährlich für die Ozonschicht"
 
-#: src/rsdialog.cpp:291
+#: src/rsdialog.cpp:286
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R60: May impair fertility"
 msgstr "R60: Kann die Fortpflanzungsfähigkeit beeinträchtigen"
 
-#: src/rsdialog.cpp:292
+#: src/rsdialog.cpp:287
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R61: May cause harm to the unborn child"
 msgstr "R61: Kann das Kind im Mutterleib schädigen"
 
-#: src/rsdialog.cpp:293
+#: src/rsdialog.cpp:288
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R62: Possible risk of impaired fertility"
 msgstr "R62: Kann möglicherweise die Fortpflanzungsfähigkeit beeinträchtigen"
 
-#: src/rsdialog.cpp:294
+#: src/rsdialog.cpp:289
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R63: Possible risk of harm to the unborn child"
 msgstr "R63: Kann das Kind im Mutterleib möglicherweise schädigen"
 
-#: src/rsdialog.cpp:295
+#: src/rsdialog.cpp:290
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R64: May cause harm to breast-fed babies"
 msgstr "R64: Kann Säuglinge über die Muttermilch schädigen"
 
-#: src/rsdialog.cpp:296
+#: src/rsdialog.cpp:291
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
@@ -7051,28 +7085,28 @@ msgid "R65: Harmful: may cause lung damage if swallowed"
 msgstr ""
 "R65: Gesundheitsschädlich: Kann beim Verschlucken Lungenschäden verursachen."
 
-#: src/rsdialog.cpp:297
+#: src/rsdialog.cpp:292
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R66: Repeated exposure may cause skin dryness or cracking"
 msgstr "R66: Wiederholter Kontakt kann zu spröder oder rissiger Haut führen"
 
-#: src/rsdialog.cpp:298
+#: src/rsdialog.cpp:293
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R67: Vapours may cause drowsiness and dizziness"
 msgstr "R67: Dämpfe können Schläfrigkeit und Benommenheit verursachen"
 
-#: src/rsdialog.cpp:299
+#: src/rsdialog.cpp:294
 msgctxt ""
 "Please take the official translations! You find them here: http://eur-lex."
 "europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32001L0059:EN:HTML"
 msgid "R68: Possible risk of irreversible effects"
 msgstr "R68: Irreversibler Schaden möglich"
 
-#: src/rsdialog.cpp:328
+#: src/rsdialog.cpp:321
 msgid "At least one of the specified phrases is invalid."
 msgstr "Mindestens eine der angegebenen Formulierungen ist ungültig."
 
@@ -7130,7 +7164,7 @@ msgstr ""
 msgid "&Filter"
 msgstr "&Filtern"
 
-#: src/searchwidget.cpp:38
+#: src/searchwidget.cpp:37
 msgid "Search:"
 msgstr "Suche:"
 
@@ -7385,15 +7419,15 @@ msgstr "Wellenlänge"
 msgid "Intensity"
 msgstr "Intensität"
 
-#: src/tablesdialog.cpp:49 src/tablesdialog.cpp:50
+#: src/tablesdialog.cpp:48 src/tablesdialog.cpp:49
 msgid "Greek alphabet"
 msgstr "Griechisches Alphabet"
 
-#: src/tablesdialog.cpp:60
+#: src/tablesdialog.cpp:59
 msgid "Uppercase"
 msgstr "Großschrift"
 
-#: src/tablesdialog.cpp:61
+#: src/tablesdialog.cpp:60
 msgid "Lowercase"
 msgstr "Kleinschrift"
 
@@ -7404,280 +7438,280 @@ msgctxt ""
 msgid "Name"
 msgstr "Name"
 
-#: src/tablesdialog.cpp:117
+#: src/tablesdialog.cpp:118
 msgid "alpha"
 msgstr "Alpha"
 
-#: src/tablesdialog.cpp:118
+#: src/tablesdialog.cpp:119
 msgid "beta"
 msgstr "Beta"
 
-#: src/tablesdialog.cpp:119
+#: src/tablesdialog.cpp:120
 msgid "gamma"
 msgstr "Gamma"
 
-#: src/tablesdialog.cpp:120
+#: src/tablesdialog.cpp:121
 msgid "delta"
 msgstr "Delta"
 
-#: src/tablesdialog.cpp:121
+#: src/tablesdialog.cpp:122
 msgid "epsilon"
 msgstr "Epsilon"
 
-#: src/tablesdialog.cpp:122
+#: src/tablesdialog.cpp:123
 msgid "zeta"
 msgstr "Zeta"
 
-#: src/tablesdialog.cpp:123
+#: src/tablesdialog.cpp:124
 msgid "eta"
 msgstr "Eta"
 
-#: src/tablesdialog.cpp:124
+#: src/tablesdialog.cpp:125
 msgid "theta"
 msgstr "Theta"
 
-#: src/tablesdialog.cpp:125
+#: src/tablesdialog.cpp:126
 msgid "iota"
 msgstr "Iota"
 
-#: src/tablesdialog.cpp:126
+#: src/tablesdialog.cpp:127
 msgid "kappa"
 msgstr "Kappa"
 
-#: src/tablesdialog.cpp:127
+#: src/tablesdialog.cpp:128
 msgid "lambda"
 msgstr "Lambda"
 
-#: src/tablesdialog.cpp:128
+#: src/tablesdialog.cpp:129
 msgid "mu"
 msgstr "Mu"
 
-#: src/tablesdialog.cpp:129
+#: src/tablesdialog.cpp:130
 msgid "nu"
 msgstr "Nu"
 
-#: src/tablesdialog.cpp:130
+#: src/tablesdialog.cpp:131
 msgid "xi"
 msgstr "Xi"
 
-#: src/tablesdialog.cpp:131
+#: src/tablesdialog.cpp:132
 msgid "omicron"
 msgstr "Omicron"
 
-#: src/tablesdialog.cpp:132
+#: src/tablesdialog.cpp:133
 msgid "pi"
 msgstr "Pi"
 
-#: src/tablesdialog.cpp:133
+#: src/tablesdialog.cpp:134
 msgid "rho"
 msgstr "Rho"
 
-#: src/tablesdialog.cpp:134
+#: src/tablesdialog.cpp:135
 msgid "sigma"
 msgstr "Sigma"
 
-#: src/tablesdialog.cpp:135
+#: src/tablesdialog.cpp:136
 msgid "tau"
 msgstr "Tau"
 
-#: src/tablesdialog.cpp:136
+#: src/tablesdialog.cpp:137
 msgid "upsilon"
 msgstr "Ypsilon"
 
-#: src/tablesdialog.cpp:137
+#: src/tablesdialog.cpp:138
 msgid "phi"
 msgstr "Phi"
 
-#: src/tablesdialog.cpp:138
+#: src/tablesdialog.cpp:139
 msgid "chi"
 msgstr "Chi"
 
-#: src/tablesdialog.cpp:139
+#: src/tablesdialog.cpp:140
 msgid "psi"
 msgstr "Psi"
 
-#: src/tablesdialog.cpp:140
+#: src/tablesdialog.cpp:141
 msgid "omega"
 msgstr "Omega"
 
-#: src/tablesdialog.cpp:149
+#: src/tablesdialog.cpp:151
 msgid "Numbers"
 msgstr "Nummern"
 
-#: src/tablesdialog.cpp:150
+#: src/tablesdialog.cpp:152
 msgid "Numeric Prefixes and Roman Numerals"
 msgstr "Numerische Präfixe und römische Ziffern"
 
-#: src/tablesdialog.cpp:160
+#: src/tablesdialog.cpp:162
 msgid "Number"
 msgstr "Nummer"
 
-#: src/tablesdialog.cpp:160
+#: src/tablesdialog.cpp:163
 msgctxt "For example 'Mono' for 1 and 'Tri' for 3"
 msgid "Prefix"
 msgstr "Präfix"
 
-#: src/tablesdialog.cpp:160
+#: src/tablesdialog.cpp:163
 msgid "Roman Numerals"
 msgstr "Römische Ziffern"
 
-#: src/tablesdialog.cpp:164
+#: src/tablesdialog.cpp:167
 msgid "0.5"
 msgstr "0,5"
 
-#: src/tablesdialog.cpp:165
+#: src/tablesdialog.cpp:168
 msgid "1"
 msgstr "1"
 
-#: src/tablesdialog.cpp:166
+#: src/tablesdialog.cpp:169
 msgid "1.5"
 msgstr "1,5"
 
-#: src/tablesdialog.cpp:167
+#: src/tablesdialog.cpp:170
 msgid "2"
 msgstr "2"
 
-#: src/tablesdialog.cpp:168
+#: src/tablesdialog.cpp:171
 msgid "2.5"
 msgstr "2,5"
 
-#: src/tablesdialog.cpp:169
+#: src/tablesdialog.cpp:172
 msgid "3"
 msgstr "3"
 
-#: src/tablesdialog.cpp:170
+#: src/tablesdialog.cpp:173
 msgid "4"
 msgstr "4"
 
-#: src/tablesdialog.cpp:171
+#: src/tablesdialog.cpp:174
 msgid "5"
 msgstr "5"
 
-#: src/tablesdialog.cpp:172
+#: src/tablesdialog.cpp:175
 msgid "6"
 msgstr "6"
 
-#: src/tablesdialog.cpp:173
+#: src/tablesdialog.cpp:176
 msgid "7"
 msgstr "7"
 
-#: src/tablesdialog.cpp:174
+#: src/tablesdialog.cpp:177
 msgid "8"
 msgstr "8"
 
-#: src/tablesdialog.cpp:175
+#: src/tablesdialog.cpp:178
 msgid "9"
 msgstr "9"
 
-#: src/tablesdialog.cpp:176
+#: src/tablesdialog.cpp:179
 msgid "10"
 msgstr "10"
 
-#: src/tablesdialog.cpp:177
+#: src/tablesdialog.cpp:180
 msgid "11"
 msgstr "11"
 
-#: src/tablesdialog.cpp:178
+#: src/tablesdialog.cpp:181
 msgid "12"
 msgstr "12"
 
-#: src/tablesdialog.cpp:179
+#: src/tablesdialog.cpp:182
 msgid "13"
 msgstr "13"
 
-#: src/tablesdialog.cpp:180
+#: src/tablesdialog.cpp:183
 msgid "14"
 msgstr "14"
 
-#: src/tablesdialog.cpp:181
+#: src/tablesdialog.cpp:184
 msgid "15"
 msgstr "15"
 
-#: src/tablesdialog.cpp:182
+#: src/tablesdialog.cpp:185
 msgid "16"
 msgstr "16"
 
-#: src/tablesdialog.cpp:183
+#: src/tablesdialog.cpp:186
 msgid "17"
 msgstr "17"
 
-#: src/tablesdialog.cpp:184
+#: src/tablesdialog.cpp:187
 msgid "18"
 msgstr "18"
 
-#: src/tablesdialog.cpp:185
+#: src/tablesdialog.cpp:188
 msgid "19"
 msgstr "19"
 
-#: src/tablesdialog.cpp:186
+#: src/tablesdialog.cpp:189
 msgid "20"
 msgstr "20"
 
-#: src/tablesdialog.cpp:187
+#: src/tablesdialog.cpp:190
 msgid "40"
 msgstr "40"
 
-#: src/tablesdialog.cpp:188
+#: src/tablesdialog.cpp:191
 msgid "50"
 msgstr "50"
 
-#: src/tablesdialog.cpp:189
+#: src/tablesdialog.cpp:192
 msgid "60"
 msgstr "60"
 
-#: src/tablesdialog.cpp:190
+#: src/tablesdialog.cpp:193
 msgid "90"
 msgstr "90"
 
-#: src/tablesdialog.cpp:191
+#: src/tablesdialog.cpp:194
 msgid "100"
 msgstr "100"
 
-#: src/tablesdialog.cpp:266
+#: src/tablesdialog.cpp:270
 msgid "&Copy"
 msgstr "&Kopieren"
 
-#: src/tools/moleculeview.cpp:53
+#: src/tools/moleculeview.cpp:55
 msgid "Molecular Editor"
 msgstr "Moleküleditor"
 
-#: src/tools/moleculeview.cpp:58
+#: src/tools/moleculeview.cpp:60
 msgid "Load Molecule"
 msgstr "Molekül laden"
 
-#: src/tools/moleculeview.cpp:58
+#: src/tools/moleculeview.cpp:60
 msgid "Loading a molecule"
 msgstr "Laden des Moleküls"
 
-#: src/tools/moleculeview.cpp:60
+#: src/tools/moleculeview.cpp:62
 msgid "Download New Molecules"
 msgstr "Neue Moleküle herunterladen"
 
-#: src/tools/moleculeview.cpp:60
+#: src/tools/moleculeview.cpp:62
 msgid "Download new molecule files"
 msgstr "Neue Molekül-Dateien herunterladen"
 
-#: src/tools/moleculeview.cpp:62
+#: src/tools/moleculeview.cpp:64
 msgid "Save Molecule"
 msgstr "Molekül speichern"
 
-#: src/tools/moleculeview.cpp:62
+#: src/tools/moleculeview.cpp:64
 msgid "Saving a molecule"
 msgstr "Speichern des Moleküls"
 
-#: src/tools/moleculeview.cpp:90
+#: src/tools/moleculeview.cpp:93
 msgid "Single"
 msgstr "Einfach"
 
-#: src/tools/moleculeview.cpp:91
+#: src/tools/moleculeview.cpp:94
 msgid "Double"
 msgstr "Doppelt"
 
-#: src/tools/moleculeview.cpp:92
+#: src/tools/moleculeview.cpp:95
 msgid "Triple"
 msgstr "Dreifach"
 
-#: src/tools/moleculeview.cpp:142
+#: src/tools/moleculeview.cpp:144
 msgid ""
 "No tools or engines loaded - it is likely that the Avogadro plugins could "
 "not be located."
@@ -7685,7 +7719,7 @@ msgstr ""
 "Keine Werkzeuge oder Treiber geladen – es könnte sein, dass die Avogadro-"
 "Module nicht gefunden wurden."
 
-#: src/tools/moleculeview.cpp:144
+#: src/tools/moleculeview.cpp:146
 msgid ""
 "No engines loaded - it is likely that the Avogadro plugins could not be "
 "located."
@@ -7693,7 +7727,7 @@ msgstr ""
 "Keine Treiber geladen – es könnte sein, dass die Avogadro-Module nicht "
 "gefunden wurden."
 
-#: src/tools/moleculeview.cpp:146
+#: src/tools/moleculeview.cpp:148
 msgid ""
 "No tools loaded - it is likely that the Avogadro plugins could not be "
 "located."
@@ -7701,7 +7735,7 @@ msgstr ""
 "Keine Werkzeuge geladen – es könnte sein, dass die Avogadro-Module nicht "
 "gefunden wurden."
 
-#: src/tools/moleculeview.cpp:158
+#: src/tools/moleculeview.cpp:162
 msgid ""
 "No tools or engines loaded - it is likely that the Avogadro plugins could "
 "not be located. No molecules can be viewed until this issue is resolved."
@@ -7710,7 +7744,7 @@ msgstr ""
 "Module nicht gefunden wurden. Es können keine Moleküle betrachtet werden, "
 "bis dieser Fehler behoben ist."
 
-#: src/tools/moleculeview.cpp:160
+#: src/tools/moleculeview.cpp:164
 msgid ""
 "No engines loaded - it is likely that the Avogadro plugins could not be "
 "located. No molecules can be viewed until this issue is resolved."
@@ -7719,7 +7753,7 @@ msgstr ""
 "gefunden wurden. Es können keine Moleküle betrachtet werden, bis dieser "
 "Fehler behoben ist."
 
-#: src/tools/moleculeview.cpp:162
+#: src/tools/moleculeview.cpp:166
 msgid ""
 "No tools loaded - it is likely that the Avogadro plugins could not be "
 "located. No molecules can be viewed until this issue is resolved."
@@ -7728,23 +7762,23 @@ msgstr ""
 "gefunden wurden. Es können keine Moleküle betrachtet werden, bis dieser "
 "Fehler behoben ist."
 
-#: src/tools/moleculeview.cpp:169 src/tools/moleculeview.cpp:217
+#: src/tools/moleculeview.cpp:175 src/tools/moleculeview.cpp:226
 msgid "Common molecule formats"
 msgstr "Gängige Molekül-Formate"
 
-#: src/tools/moleculeview.cpp:170 src/tools/moleculeview.cpp:218
+#: src/tools/moleculeview.cpp:176 src/tools/moleculeview.cpp:227
 msgid "All files"
 msgstr "Alle Dateien"
 
-#: src/tools/moleculeview.cpp:180
+#: src/tools/moleculeview.cpp:186
 msgid "Choose a file to open"
 msgstr "Wählen Sie eine Datei zum Öffnen aus"
 
-#: src/tools/moleculeview.cpp:226
+#: src/tools/moleculeview.cpp:235
 msgid "Choose a file to save to"
 msgstr "Wählen Sie eine Datei zum Speichern aus"
 
-#: src/tools/moleculeview.cpp:257
+#: src/tools/moleculeview.cpp:271
 #, kde-format
 msgctxt ""
 "This 'u' stands for the chemical unit (u for 'units'). Most likely this does "
@@ -7752,35 +7786,35 @@ msgctxt ""
 msgid "%1 u"
 msgstr "%1 u"
 
-#: src/tools/moleculeview.cpp:294
+#: src/tools/moleculeview.cpp:309
 #, kde-format
 msgid "Failed to download molecule %1 to %2."
 msgstr "Fehler beim Herunterladen von Molekül %1 nach %2."
 
-#: src/tools/moleculeview.cpp:302
+#: src/tools/moleculeview.cpp:317
 #, kde-format
 msgid "The molecules that could be downloaded have been saved to %1."
 msgstr "Die heruntergeladenen Moleküle wurden unter %1 gespeichert."
 
-#: src/tools/moleculeview.cpp:304
+#: src/tools/moleculeview.cpp:319
 #, kde-format
 msgid "The molecules have been saved to %1."
 msgstr "Die Moleküle wurden in %1 gespeichert."
 
-#: src/tools/moleculeview.cpp:334
+#: src/tools/moleculeview.cpp:349
 msgctxt "Other element"
 msgid "Other..."
 msgstr "Weitere ..."
 
-#: src/tools/moleculeview.cpp:414
+#: src/tools/moleculeview.cpp:429
 msgid "Remove hydrogens"
 msgstr "Wasserstoff entfernen"
 
-#: src/tools/moleculeview.cpp:419
+#: src/tools/moleculeview.cpp:433
 msgid "Add hydrogens"
 msgstr "Wasserstoff hinzufügen"
 
-#: src/tools/moleculeview.cpp:439
+#: src/tools/moleculeview.cpp:453
 msgid "Could not set up force field for this molecule"
 msgstr "Für dieses Molekül kann kein Kraftfeld aufgestellt werden"
 
@@ -7840,6 +7874,12 @@ msgid "2nd Style:"
 msgstr "Zweiter Stil:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, style2Combo)
+#: src/tools/moleculeviewerwidget.ui:154
+msgctxt "No 2nd Style"
+msgid "None"
+msgstr "Kein"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, style2Combo)
 #: src/tools/moleculeviewerwidget.ui:159
 msgid "Ribbon"
 msgstr "Band"
@@ -7858,6 +7898,12 @@ msgstr "Molekülorbital"
 #: src/tools/moleculeviewerwidget.ui:192
 msgid "Labels:"
 msgstr "Bezeichner:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, labelsCombo)
+#: src/tools/moleculeviewerwidget.ui:208
+msgctxt "No element labels"
+msgid "None"
+msgstr "Keine"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, labelsCombo)
 #: src/tools/moleculeviewerwidget.ui:213
@@ -7938,15 +7984,15 @@ msgstr "Formel:"
 msgid "Weight:"
 msgstr "Masse:"
 
-#: src/tools/obconverter.cpp:41
+#: src/tools/obconverter.cpp:42
 msgid "OpenBabel Frontend"
 msgstr "Grafische Oberfläche für OpenBabel"
 
-#: src/tools/obconverter.cpp:49
+#: src/tools/obconverter.cpp:50
 msgid "Convert"
 msgstr "Umwandeln"
 
-#: src/tools/obconverter.cpp:49
+#: src/tools/obconverter.cpp:50
 msgid "Convert selected files"
 msgstr "Ausgewählte Dateien umwandeln"
 
@@ -7954,27 +8000,27 @@ msgstr "Ausgewählte Dateien umwandeln"
 msgid "All Files"
 msgstr "Alle Dateien"
 
-#: src/tools/obconverter.cpp:188
+#: src/tools/obconverter.cpp:186
 msgid "You must select some files first."
 msgstr "Sie müssen zuerst einige Dateien auswählen."
 
-#: src/tools/obconverter.cpp:189
+#: src/tools/obconverter.cpp:187
 msgid "No files selected"
 msgstr "Keine Dateien ausgewählt"
 
-#: src/tools/obconverter.cpp:208
+#: src/tools/obconverter.cpp:206
 #, kde-format
 msgid "The file %1 already exists. Do you want to overwrite if possible?"
 msgstr ""
 "Die Datei %1 existiert bereits. Möchten Sie die Datei überschreiben, falls "
 "möglich?"
 
-#: src/tools/obconverter.cpp:209
+#: src/tools/obconverter.cpp:207
 #, kde-format
 msgid "The File %1 Already Exists -- KOpenBabel"
 msgstr "Die Datei %1 existiert bereits – KOpenBabel"
 
-#: src/tools/obconverter.cpp:229
+#: src/tools/obconverter.cpp:227
 msgid "Is it okay to run these commands? -- KOpenBabel"
 msgstr "Sollen diese Befehle ausgeführt werden? – KOpenBabel"
 
@@ -8031,15 +8077,15 @@ msgstr "Umwandeln von:"
 msgid "Convert to:"
 msgstr "Umwandeln in:"
 
-#: src/unitsettingsdialog.cpp:31
+#: src/unitsettingsdialog.cpp:29
 msgid "Energy:"
 msgstr "Energie:"
 
-#: src/unitsettingsdialog.cpp:37
+#: src/unitsettingsdialog.cpp:36
 msgid "Length:"
 msgstr "Länge:"
 
-#: src/unitsettingsdialog.cpp:43
+#: src/unitsettingsdialog.cpp:42
 msgid "Temperature:"
 msgstr "Temperatur:"
 

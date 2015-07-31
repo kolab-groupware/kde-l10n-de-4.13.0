@@ -1,16 +1,16 @@
 # Stephan Johach <hunsum@gmx.de>, 2007.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2007, 2008, 2009.
 # Burkhard Lück <lueck@hube-lueck.de>, 2009, 2010, 2012, 2013.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013, 2014.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2010.
 # Intevation GmbH, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmailtransport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-24 01:46+0000\n"
-"PO-Revision-Date: 2013-11-22 07:08+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-07-30 18:00+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -323,6 +323,17 @@ msgstr "Sendmail hat sich unerwartet beendet: %1"
 #: sendmailsettings.ui:18
 msgid "Sendmail &Location:"
 msgstr "Pfad zu &Sendmail:"
+
+#: smtpconfigwidget.cpp:303
+msgid ""
+"Failed to check capabilities. Please verify port and authentication mode."
+msgstr ""
+"Funktionstest fehlgeschlagen. Geben Sie bitte den Port und die "
+"Authentifizierungsmethode an."
+
+#: smtpconfigwidget.cpp:303
+msgid "Check Capabilities Failed"
+msgstr "Funktionstest fehlgeschlagen"
 
 #: smtpjob.cpp:183
 msgid "You need to supply a username and a password to use this SMTP server."

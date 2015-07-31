@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-12 01:38+0000\n"
+"POT-Creation-Date: 2014-08-07 01:41+0000\n"
 "PO-Revision-Date: 2014-02-08 14:33+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -528,35 +528,49 @@ msgstr "Spielnummer:"
 msgid "Simple Simon"
 msgstr "Einfach Simon"
 
-#: spider.cpp:135
+#: spider.cpp:137
 msgid "Spider &Options"
 msgstr "Spider-&Einstellungen"
 
-#: spider.cpp:136
+#: spider.cpp:138
 msgid "1 Suit (Easy)"
 msgstr "Eine Farbe (Leicht)"
 
-#: spider.cpp:137
+#: spider.cpp:139
 msgid "2 Suits (Medium)"
 msgstr "Zwei Farben (Mittel)"
 
-#: spider.cpp:138
+#: spider.cpp:140
 msgid "4 Suits (Hard)"
 msgstr "Vier Farben (Schwer)"
 
-#: spider.cpp:480
+#: spider.cpp:149
+#, fuzzy
+#| msgid "Spider &Options"
+msgid "S&tack Options"
+msgstr "Spider-&Einstellungen"
+
+#: spider.cpp:150
+msgid "Face &Down (harder)"
+msgstr ""
+
+#: spider.cpp:151
+msgid "Face &Up (easier)"
+msgstr ""
+
+#: spider.cpp:497
 msgid "Spider"
 msgstr "Spider"
 
-#: spider.cpp:482
+#: spider.cpp:499
 msgid "Spider (1 Suit)"
 msgstr "Spider (1 Farbe)"
 
-#: spider.cpp:483
+#: spider.cpp:500
 msgid "Spider (2 Suit)"
 msgstr "Spider (2 Farben)"
 
-#: spider.cpp:484
+#: spider.cpp:501
 msgid "Spider (4 Suit)"
 msgstr "Spider (4 Farben)"
 

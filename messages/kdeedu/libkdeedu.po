@@ -1,30 +1,24 @@
 # Thorsten Mürell <thorsten@muerell.de>, 2005, 2006, 2007.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2006.
-# Burkhard Lück <lueck@hube-lueck.de>, 2006, 2009, 2011.
+# Burkhard Lück <lueck@hube-lueck.de>, 2006, 2009, 2011, 2014.
 # Martin Ereth <martin.ereth@arcor.de>, 2007, 2008.
-# Frederik Schwarzer <schwarzer@kde.org>, 2008, 2011.
+# Frederik Schwarzer <schwarzer@kde.org>, 2008, 2011, 2014.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Peter Rüthemann <peter.ruethemann@gmail.com>, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: libkdeedu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 01:29+0000\n"
-"PO-Revision-Date: 2011-10-03 17:18+0200\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"POT-Creation-Date: 2015-01-21 05:16+0000\n"
+"PO-Revision-Date: 2014-09-10 12:20+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: keduvocdocument/keduvoccsvreader.cpp:58
-#: keduvocdocument/keduvocpaukerreader.cpp:130
-#: keduvocdocument/keduvocwqlreader.cpp:142
-msgid "Vocabulary"
-msgstr "Vokabular"
 
 #: keduvocdocument/keduvoccsvwriter.cpp:49
 msgctxt "@item:intable the title of the document will be written here"
@@ -36,44 +30,36 @@ msgctxt "@item:intable the author will be written here"
 msgid "Author:"
 msgstr "Autor:"
 
-#: keduvocdocument/keduvocdocument.cpp:115
+#: keduvocdocument/keduvocdocument.cpp:140
 msgctxt ""
 "The top level lesson which contains all other lessons of the document."
 msgid "Document Lesson"
 msgstr "Dokument-Lektion"
 
-#: keduvocdocument/keduvocdocument.cpp:118
+#: keduvocdocument/keduvocdocument.cpp:144
 msgid "Word types"
 msgstr "Wortarten"
 
-#: keduvocdocument/keduvocdocument.cpp:121
+#: keduvocdocument/keduvocdocument.cpp:147
 msgid "Leitner Box"
 msgstr "Leitner Box"
 
-#: keduvocdocument/keduvocdocument.cpp:130
-#: keduvocdocument/keduvocdocument.cpp:278
-#: keduvocdocument/keduvocdocument.cpp:289
-#: keduvocdocument/keduvocdocument.cpp:300
-#: keduvocdocument/keduvocdocument.cpp:321
+#: keduvocdocument/keduvocdocument.cpp:157
 msgid "Untitled"
 msgstr "Unbenannt"
 
-#: keduvocdocument/keduvocdocument.cpp:251
+#: keduvocdocument/keduvocdocument.cpp:181
+#: keduvocdocument/keduvocdocument.cpp:188
+#, kde-format
+msgid "Cannot lock file %1"
+msgstr "Die Datei %1 kann nicht gesperrt werden."
+
+#: keduvocdocument/keduvocdocument.cpp:247
 #, kde-format
 msgid "<qt>Cannot open file<br /><b>%1</b></qt>"
 msgstr "<qt>Die Datei kann nicht geöffnet werden.<br /><b>%1</b></qt>"
 
-#: keduvocdocument/keduvocdocument.cpp:292
-#: keduvocdocument/keduvocdocument.cpp:324
-#, kde-format
-msgid ""
-"Parse error at line %1, column %2:\n"
-"%3"
-msgstr ""
-"Lesefehler in Zeile %1, Spalte %2:\n"
-"%3"
-
-#: keduvocdocument/keduvocdocument.cpp:340
+#: keduvocdocument/keduvocdocument.cpp:273
 #, kde-format
 msgid ""
 "Could not open or properly read \"%1\"\n"
@@ -82,22 +68,18 @@ msgstr ""
 "„%1“ kann nicht geöffnet oder gelesen werden.\n"
 "(Fehlerbericht: %2)"
 
-#: keduvocdocument/keduvocdocument.cpp:341
-msgid "Error Opening File"
-msgstr "Fehler beim Öffnen der Datei"
-
-#: keduvocdocument/keduvocdocument.cpp:378
+#: keduvocdocument/keduvocdocument.cpp:332
 #, kde-format
 msgid "Cannot write to file %1"
 msgstr "Die Datei %1 kann nicht geschrieben werden."
 
-#: keduvocdocument/keduvocdocument.cpp:706
+#: keduvocdocument/keduvocdocument.cpp:696
 msgctxt ""
 "The name of the first language/column of vocabulary, if we have to guess it."
 msgid "Original"
 msgstr "Original"
 
-#: keduvocdocument/keduvocdocument.cpp:708
+#: keduvocdocument/keduvocdocument.cpp:698
 #, kde-format
 msgctxt ""
 "The name of the second, third ... language/column of vocabulary, if we have "
@@ -105,94 +87,77 @@ msgctxt ""
 msgid "Translation %1"
 msgstr "Übersetzung %1"
 
-#: keduvocdocument/keduvocdocument.cpp:868
+#: keduvocdocument/keduvocdocument.cpp:859
 msgid "KDE Vocabulary Document"
 msgstr "KDE-Vokabeldokument"
 
-#: keduvocdocument/keduvocdocument.cpp:869
+#: keduvocdocument/keduvocdocument.cpp:860
 msgid "KWordQuiz Document"
 msgstr "KWordQuiz-Dokument"
 
-#: keduvocdocument/keduvocdocument.cpp:870
+#: keduvocdocument/keduvocdocument.cpp:861
 msgid "Pauker Lesson"
 msgstr "Pauker-Lektion"
 
-#: keduvocdocument/keduvocdocument.cpp:871
+#: keduvocdocument/keduvocdocument.cpp:862
 msgid "Vokabeltrainer"
 msgstr "Vokabeltrainer"
 
-#: keduvocdocument/keduvocdocument.cpp:872
+#: keduvocdocument/keduvocdocument.cpp:863
 msgid "XML Dictionary Exchange Format"
 msgstr "XML-Wörterbuch-Austauschformat"
 
-#: keduvocdocument/keduvocdocument.cpp:873
+#: keduvocdocument/keduvocdocument.cpp:864
 msgid "Comma Separated Values (CSV)"
 msgstr "Kommagetrennte Werte (CSV)"
 
-#: keduvocdocument/keduvocdocument.cpp:887
+#: keduvocdocument/keduvocdocument.cpp:878
 msgid "All supported documents"
 msgstr "Alle unterstützten Dokumente"
 
-#: keduvocdocument/keduvocdocument.cpp:896
+#: keduvocdocument/keduvocdocument.cpp:887
 msgid "No error found."
 msgstr "Es wurde kein Fehler gefunden."
 
-#: keduvocdocument/keduvocdocument.cpp:899
+#: keduvocdocument/keduvocdocument.cpp:890
 msgid "Invalid XML in document."
 msgstr "Ungültiges XML im Dokument."
 
-#: keduvocdocument/keduvocdocument.cpp:901
+#: keduvocdocument/keduvocdocument.cpp:892
 msgid "Unknown file type."
 msgstr "Unbekannter Dateityp."
 
-#: keduvocdocument/keduvocdocument.cpp:903
+#: keduvocdocument/keduvocdocument.cpp:894
 msgid "File is not writeable."
 msgstr "Die Datei kann nicht geschrieben werden."
 
-#: keduvocdocument/keduvocdocument.cpp:905
+#: keduvocdocument/keduvocdocument.cpp:896
 msgid "File writer failed."
 msgstr "Das Schreiben der Datei schlug fehl."
 
-#: keduvocdocument/keduvocdocument.cpp:907
+#: keduvocdocument/keduvocdocument.cpp:898
 msgid "File is not readable."
 msgstr "Die Datei kann nicht gelesen werden."
 
-#: keduvocdocument/keduvocdocument.cpp:909
+#: keduvocdocument/keduvocdocument.cpp:900
 msgid "The file reader failed."
 msgstr "Das Lesen der Datei ist fehlgeschlagen."
 
-#: keduvocdocument/keduvocdocument.cpp:911
+#: keduvocdocument/keduvocdocument.cpp:902
 msgid "The file does not exist."
 msgstr "Die Datei existiert nicht."
 
-#: keduvocdocument/keduvocdocument.cpp:914
+#: keduvocdocument/keduvocdocument.cpp:904
+msgid "The file is locked by another process."
+msgstr "Die Datei wurde durch einen anderen Prozess gesperrt."
+
+#: keduvocdocument/keduvocdocument.cpp:906
+msgid "The lock file can't be created."
+msgstr "Die Sperrdatei kann nicht angelegt werden."
+
+#: keduvocdocument/keduvocdocument.cpp:909
 msgid "Unknown error."
 msgstr "Unbekannter Fehler"
-
-#: keduvocdocument/keduvockvtml2reader.cpp:43
-msgid "file must be opened first"
-msgstr "Die Datei muss zuerst geöffnet werden."
-
-#: keduvocdocument/keduvockvtml2reader.cpp:59
-#: keduvocdocument/keduvockvtmlreader.cpp:58
-msgid "This is not a KDE Vocabulary document."
-msgstr "Dies ist kein KDE-Vokabeldokument."
-
-#: keduvocdocument/keduvockvtml2reader.cpp:164
-msgid "missing identifier elements from identifiers tag"
-msgstr "Fehlende Bezeichnungselemente aus dem Bezeichnungs-Tag"
-
-#: keduvocdocument/keduvockvtml2reader.cpp:213
-msgid "Default Lesson"
-msgstr "Standardlektion"
-
-#: keduvocdocument/keduvockvtml2reader.cpp:239
-msgid "identifier missing id"
-msgstr "Dem Bezeichner fehlt die id"
-
-#: keduvocdocument/keduvockvtml2reader.cpp:288
-msgid "entry missing id"
-msgstr "Dem Eintrag fehlt die id"
 
 #: keduvocdocument/keduvockvtmlcompability.cpp:48
 msgctxt "@item:inlistbox The grammatical type of a word"
@@ -420,24 +385,6 @@ msgctxt "The grammatical type of an entry"
 msgid "Question"
 msgstr "Frage"
 
-#: keduvocdocument/keduvockvtmlreader.cpp:906
-#, kde-format
-msgctxt "A generic name for a new lesson and its number."
-msgid "Lesson %1"
-msgstr "Lektion %1"
-
-#: keduvocdocument/keduvockvtmlreader.cpp:946
-msgid "Data for original language missing"
-msgstr "Die Daten für die Originalsprache fehlen"
-
-#: keduvocdocument/keduvockvtmlreader.cpp:1087
-msgid "Ambiguous definition of language code"
-msgstr "Zweideutige Definition des Sprachkürzels"
-
-#: keduvocdocument/keduvocpaukerreader.cpp:44
-msgid "This is not a Pauker document"
-msgstr "Das ist kein Pauker-Dokument"
-
 #: keduvocdocument/keduvoctext.h:25
 msgid "Not Practiced Yet"
 msgstr "Noch nicht abgefragt"
@@ -470,28 +417,72 @@ msgstr "Stufe 6"
 msgid "Level 7"
 msgstr "Stufe 7"
 
-#: keduvocdocument/keduvocvokabelnreader.cpp:154
-#, kde-format
-msgid "Lesson %1"
-msgstr "Lektion %1"
+#~ msgid "Cannot open tempfile %1"
+#~ msgstr "Die temporäre Datei %1 kann nicht geöffnet werden."
 
-#: keduvocdocument/keduvocwqlreader.cpp:50
-msgid "This does not appear to be a (K)WordQuiz file"
-msgstr "Dies scheint keine Datei von (K)WordQuiz zu sein."
+#~ msgid "Cannot download %1"
+#~ msgstr "%1 kann nicht heruntergeladen werden"
 
-#: keduvocdocument/keduvocwqlreader.cpp:57
-msgid "Only files created by WordQuiz 5.x or later can be opened"
-msgstr ""
-"Nur Dateien, die mit WordQuiz 5.x oder später erstellt wurden, können "
-"geöffnet werden."
+#~ msgid "Vocabulary"
+#~ msgstr "Vokabular"
 
-#: keduvocdocument/keduvocwqlreader.cpp:61
-msgid "Error while reading file"
-msgstr "Fehler beim Lesen der Datei"
+#~ msgid ""
+#~ "Parse error at line %1, column %2:\n"
+#~ "%3"
+#~ msgstr ""
+#~ "Lesefehler in Zeile %1, Spalte %2:\n"
+#~ "%3"
 
-#: keduvocdocument/keduvocxdxfreader.cpp:43
-msgid "This is not a XDXF document"
-msgstr "Dies ist kein XDXF-Dokument"
+#~ msgid "Error Opening File"
+#~ msgstr "Fehler beim Öffnen der Datei"
+
+#~ msgid "file must be opened first"
+#~ msgstr "Die Datei muss zuerst geöffnet werden."
+
+#~ msgid "This is not a KDE Vocabulary document."
+#~ msgstr "Dies ist kein KDE-Vokabeldokument."
+
+#~ msgid "missing identifier elements from identifiers tag"
+#~ msgstr "Fehlende Bezeichnungselemente aus dem Bezeichnungs-Tag"
+
+#~ msgid "Default Lesson"
+#~ msgstr "Standardlektion"
+
+#~ msgid "identifier missing id"
+#~ msgstr "Dem Bezeichner fehlt die id"
+
+#~ msgid "entry missing id"
+#~ msgstr "Dem Eintrag fehlt die id"
+
+#~ msgctxt "A generic name for a new lesson and its number."
+#~ msgid "Lesson %1"
+#~ msgstr "Lektion %1"
+
+#~ msgid "Data for original language missing"
+#~ msgstr "Die Daten für die Originalsprache fehlen"
+
+#~ msgid "Ambiguous definition of language code"
+#~ msgstr "Zweideutige Definition des Sprachkürzels"
+
+#~ msgid "This is not a Pauker document"
+#~ msgstr "Das ist kein Pauker-Dokument"
+
+#~ msgid "Lesson %1"
+#~ msgstr "Lektion %1"
+
+#~ msgid "This does not appear to be a (K)WordQuiz file"
+#~ msgstr "Dies scheint keine Datei von (K)WordQuiz zu sein."
+
+#~ msgid "Only files created by WordQuiz 5.x or later can be opened"
+#~ msgstr ""
+#~ "Nur Dateien, die mit WordQuiz 5.x oder später erstellt wurden, können "
+#~ "geöffnet werden."
+
+#~ msgid "Error while reading file"
+#~ msgstr "Fehler beim Lesen der Datei"
+
+#~ msgid "This is not a XDXF document"
+#~ msgstr "Dies ist kein XDXF-Dokument"
 
 #~ msgid "Glossary"
 #~ msgstr "Glossar"

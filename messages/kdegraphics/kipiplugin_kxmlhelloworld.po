@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-04 06:41+0200\n"
+"POT-Creation-Date: 2014-08-20 01:52+0000\n"
 "PO-Revision-Date: 2013-01-15 22:23+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. i18n: ectx: Menu (Image)
-#: plugin/kipiplugin_kxmlhelloworldui.rc:6
+#: plugin/kipiplugin_kxmlhelloworldui.rc:7
 msgid "&Image"
 msgstr "B&ild"
 
 #. i18n: ectx: Menu (Tools)
-#: plugin/kipiplugin_kxmlhelloworldui.rc:10
+#: plugin/kipiplugin_kxmlhelloworldui.rc:11
 msgid "&Tools"
 msgstr "E&xtras"
 
 #. i18n: ectx: Menu (Import)
-#: plugin/kipiplugin_kxmlhelloworldui.rc:14
+#: plugin/kipiplugin_kxmlhelloworldui.rc:15
 msgid "I&mport"
 msgstr "I&mportieren"
 
 #. i18n: ectx: Menu (Export)
-#: plugin/kipiplugin_kxmlhelloworldui.rc:18
+#: plugin/kipiplugin_kxmlhelloworldui.rc:19
 msgid "&Export"
 msgstr "&Exportieren"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: plugin/kipiplugin_kxmlhelloworldui.rc:24
+#: plugin/kipiplugin_kxmlhelloworldui.rc:25
 msgid "Main Toolbar"
 msgstr "Haupt-Werkzeugleiste"
 

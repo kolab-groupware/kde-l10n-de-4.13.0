@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cantor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-23 05:49+0000\n"
-"PO-Revision-Date: 2014-05-09 15:18+0200\n"
+"POT-Creation-Date: 2014-11-02 18:39+0000\n"
+"PO-Revision-Date: 2014-05-11 22:17+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -261,12 +261,30 @@ msgstr "Wählen Sie das zu verwendende Modul:"
 msgid "Make this the default backend"
 msgstr "Ausgewähltes als Standard-Modul einstellen"
 
-#: backends/kalgebra/kalgebrabackend.cpp:53
+#: backends/kalgebra/kalgebrabackend.cpp:69
 msgctxt ""
 "the url to the documentation of KAlgebra, please check if there is a "
 "translated version and use the correct url"
 msgid "http://docs.kde.org/stable/en/kdeedu/kalgebra/"
 msgstr "help:/kalgebra/"
+
+#. i18n: ectx: label, entry (autorunScripts), group (RBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (MaximaBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (SageBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (PythonBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (ScilabBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (KAlgebraBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (LuaBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (OctaveBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (QalculateBackend)
+#: backends/kalgebra/kalgebrabackend.kcfg:10 backends/lua/luabackend.kcfg:14
+#: backends/maxima/maximabackend.kcfg:22 backends/octave/octavebackend.kcfg:18
+#: backends/python2/python2backend.kcfg:18
+#: backends/qalculate/qalculatebackend.kcfg:130
+#: backends/R/rserver/rserver.kcfg:13 backends/sage/sagebackend.kcfg:14
+#: backends/scilab/scilabbackend.kcfg:18
+msgid "List of scripts to autorun at the beginning of session"
+msgstr "Liste der zu Beginn einer Sitzung automatisch auszuführenden Skripte"
 
 #: backends/kalgebra/kalgebraexpression.cpp:59
 #, kde-format
@@ -277,6 +295,44 @@ msgstr "Fehler: %1"
 #, kde-format
 msgid "<p><b>%1:</b> %2</p>"
 msgstr "<p><b>%1:</b> %2</p>"
+
+#. i18n: ectx: property (title), widget (KEditListBox, kcfg_autorunScripts)
+#: backends/kalgebra/settings.ui:17 backends/lua/settings.ui:31
+#: backends/maxima/settings.ui:48 backends/octave/settings.ui:38
+#: backends/python2/settings.ui:24 backends/qalculate/settings.ui:183
+#: backends/R/settings.ui:24 backends/sage/settings.ui:31
+#: backends/scilab/settings.ui:38
+msgid "Scripts to autorun"
+msgstr "Automatisch auszuführende Skripte"
+
+#: backends/lua/luabackend.cpp:68
+msgctxt "Lua official documentation"
+msgid "http://www.lua.org/docs.html"
+msgstr "http://www.lua.org/docs.html"
+
+#: backends/lua/luabackend.cpp:73
+msgid ""
+"<p> Lua is a fast and lightweight scripting language, with a simple "
+"procedural syntax. There are several libraries in Lua aimed at math and "
+"science.</p><p>This backend supports luajit 2.</p>"
+msgstr ""
+"<p> Lua ist eine schnelle und leichtgewichtige Skript-Sprache mit einer "
+"einfachen prozeduralen Syntax. Es gibt mehrere Bibliotheken für Mathematik "
+"und Wissenschaft in Lua.</p><p>Dieses Modul unterstützt luajit 2.</p>"
+
+#. i18n: ectx: label, entry (Path), group (LuaBackend)
+#: backends/lua/luabackend.kcfg:10
+msgid "Path to luajit command"
+msgstr "Pfad zum Befehl luajit"
+
+#: backends/lua/luaextensions.cpp:37
+msgid "*.lua|Lua script file"
+msgstr "*.lua|Lua-Skriptdatei"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: backends/lua/settings.ui:19
+msgid "Path to luajit command:"
+msgstr "Pfad zum Befehl luajit:"
 
 #: backends/maxima/maximabackend.cpp:89
 msgctxt ""
@@ -346,21 +402,21 @@ msgstr "Warten auf das Bild ...."
 msgid "*.mac|Maxima batch File"
 msgstr "*.mac|Maxima-Stapelverarbeitungs-Datei"
 
-#: backends/maxima/maximasession.cpp:269
+#: backends/maxima/maximasession.cpp:275
 msgid "Failed to start Maxima"
 msgstr "Fehler beim Starten von Maxima"
 
-#: backends/maxima/maximasession.cpp:412
+#: backends/maxima/maximasession.cpp:418
 msgid "Maxima crashed. restarting..."
 msgstr "Maxima ist abgestürzt. Wird neu gestartet ..."
 
-#: backends/maxima/maximasession.cpp:426 cantor_part.cpp:87
-#: cantor_part.cpp:754 worksheet.cpp:828 worksheet.cpp:845 worksheet.cpp:881
+#: backends/maxima/maximasession.cpp:432 cantor_part.cpp:87
+#: cantor_part.cpp:756 worksheet.cpp:828 worksheet.cpp:845 worksheet.cpp:881
 #: worksheet.cpp:893
 msgid "Error - Cantor"
 msgstr "Fehler – Cantor"
 
-#: backends/maxima/maximasession.cpp:426
+#: backends/maxima/maximasession.cpp:432
 msgid "Maxima crashed twice within a short time. Stopping to try starting"
 msgstr ""
 "Maxima ist zweimal innerhalb kurzer Zeit abgestürzt. Es wird nicht neu "
@@ -377,7 +433,7 @@ msgstr "Pfad zu Maxima:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_integratePlots)
 #: backends/maxima/settings.ui:31 backends/octave/settings.ui:31
-#: backends/python2/settings.ui:31 backends/R/settings.ui:17
+#: backends/python2/settings.ui:17 backends/R/settings.ui:17
 #: backends/scilab/settings.ui:31
 msgid "Integrate Plots in Worksheet"
 msgstr "Zeichnungen im Arbeitsblatt integrieren"
@@ -387,14 +443,14 @@ msgstr "Zeichnungen im Arbeitsblatt integrieren"
 msgid "Let Cantor follow the creation/destruction of variables"
 msgstr "Cantor folgt dem Erstellen und Löschen von Variablen"
 
-#: backends/octave/octavebackend.cpp:71
+#: backends/octave/octavebackend.cpp:72
 msgctxt ""
 "the url to the documentation of Octave, please check if there is a "
 "translated version (currently Czech and Japanese) and use the correct url"
 msgid "http://www.gnu.org/software/octave/doc/interpreter/"
 msgstr "http://www.gnu.org/software/octave/doc/interpreter/"
 
-#: backends/octave/octavebackend.cpp:76
+#: backends/octave/octavebackend.cpp:77
 msgid ""
 "GNU Octave is a high-level language, primarily intended for numerical "
 "computations. <br/>It provides a convenient command line interface for "
@@ -422,12 +478,12 @@ msgstr "*.m|Octave-Skriptdatei"
 msgid "Path to Octave:"
 msgstr "Pfad zu Octave:"
 
-#: backends/python2/python2backend.cpp:92
+#: backends/python2/python2backend.cpp:98
 msgctxt "the url to the documentation Python 2"
 msgid "http://docs.python.org/2/"
 msgstr "http://docs.python.org/2/"
 
-#: backends/python2/python2backend.cpp:97
+#: backends/python2/python2backend.cpp:103
 msgid ""
 "<p>Python is a remarkably powerful dynamic programming language that is used "
 "in a wide variety of application domains. There are several Python packages "
@@ -443,14 +499,9 @@ msgstr ""
 msgid "Path to python command"
 msgstr "Pfad zum Befehl python:"
 
-#: backends/python2/python2extensions.cpp:44
+#: backends/python2/python2extensions.cpp:178
 msgid "*.py|Python script file"
 msgstr "*.py|Python-Skriptdatei"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: backends/python2/settings.ui:19
-msgid "Path to python2 command:"
-msgstr "Pfad zum Befehl python2:"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, QalculatePlotAssistantBase)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:14
@@ -500,35 +551,35 @@ msgstr "Stil"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:139
-#: backends/qalculate/settings.ui:497
+#: backends/qalculate/settings.ui:504
 msgid "Lines"
 msgstr "Linien"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:144
-#: backends/qalculate/settings.ui:502
+#: backends/qalculate/settings.ui:509
 msgid "Points"
 msgstr "Punkte"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:149
-#: backends/qalculate/settings.ui:507
+#: backends/qalculate/settings.ui:514
 msgid "Points and Lines"
 msgstr "Punkte und Linien"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:154
-#: backends/qalculate/settings.ui:512
+#: backends/qalculate/settings.ui:519
 msgid "Boxes"
 msgstr "Rahmen"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:159
-#: backends/qalculate/settings.ui:517
+#: backends/qalculate/settings.ui:524
 msgid "Histogram"
 msgstr "Histogramm"
 
@@ -540,14 +591,14 @@ msgstr "Stufen"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:169
-#: backends/qalculate/settings.ui:527
+#: backends/qalculate/settings.ui:534
 msgid "Candlesticks"
 msgstr "Kerzenständer"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
 #. i18n: ectx: property (text), item, widget (KComboBox, styleBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:174
-#: backends/qalculate/settings.ui:532
+#: backends/qalculate/settings.ui:539
 msgid "Dots"
 msgstr "Punkte"
 
@@ -562,15 +613,15 @@ msgstr "Glättung"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotSmoothing)
 #. i18n: ectx: property (text), item, widget (KComboBox, smoothingBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:197
-#: backends/qalculate/settings.ui:95 backends/qalculate/settings.ui:237
-#: backends/qalculate/settings.ui:275 backends/qalculate/settings.ui:454
+#: backends/qalculate/settings.ui:95 backends/qalculate/settings.ui:244
+#: backends/qalculate/settings.ui:282 backends/qalculate/settings.ui:461
 msgid "None"
 msgstr "Keine"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotSmoothing)
 #. i18n: ectx: property (text), item, widget (KComboBox, smoothingBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:202
-#: backends/qalculate/settings.ui:459
+#: backends/qalculate/settings.ui:466
 msgid "Monotonic"
 msgstr "Monoton steigend"
 
@@ -582,14 +633,14 @@ msgstr "Natürliche kubische Filterung"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotSmoothing)
 #. i18n: ectx: property (text), item, widget (KComboBox, smoothingBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:212
-#: backends/qalculate/settings.ui:469
+#: backends/qalculate/settings.ui:476
 msgid "Bezier"
 msgstr "Bezier"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotSmoothing)
 #. i18n: ectx: property (text), item, widget (KComboBox, smoothingBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:217
-#: backends/qalculate/settings.ui:474
+#: backends/qalculate/settings.ui:481
 msgid "Bezier (monotonic)"
 msgstr "Bezier (monoton steigend)"
 
@@ -656,49 +707,49 @@ msgstr "Position der Legende"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:397
-#: backends/qalculate/settings.ui:555
+#: backends/qalculate/settings.ui:562
 msgid "Hide legend"
 msgstr "Legende ausblenden"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:402
-#: backends/qalculate/settings.ui:560
+#: backends/qalculate/settings.ui:567
 msgid "Top-left"
 msgstr "Oben links"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:407
-#: backends/qalculate/settings.ui:565
+#: backends/qalculate/settings.ui:572
 msgid "Top-right"
 msgstr "Oben rechts"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:412
-#: backends/qalculate/settings.ui:570
+#: backends/qalculate/settings.ui:577
 msgid "Bottom-left"
 msgstr "Unten links"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:417
-#: backends/qalculate/settings.ui:575
+#: backends/qalculate/settings.ui:582
 msgid "Bottom-right"
 msgstr "Unten rechts"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:422
-#: backends/qalculate/settings.ui:580
+#: backends/qalculate/settings.ui:587
 msgid "Below"
 msgstr "Unten"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotLegend)
 #. i18n: ectx: property (text), item, widget (KComboBox, legendBox)
 #: backends/qalculate/plotassistant/qalculateplotdialog.ui:427
-#: backends/qalculate/settings.ui:585
+#: backends/qalculate/settings.ui:592
 msgid "Outside"
 msgstr "Außerhalb"
 
@@ -1266,9 +1317,9 @@ msgstr "Unendliche Serien kennzeichnen:"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_plotGrid)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_plotBorder)
 #: backends/qalculate/settings.ui:132 backends/qalculate/settings.ui:153
-#: backends/qalculate/settings.ui:174 backends/qalculate/settings.ui:215
-#: backends/qalculate/settings.ui:327 backends/qalculate/settings.ui:348
-#: backends/qalculate/settings.ui:369 backends/qalculate/settings.ui:390
+#: backends/qalculate/settings.ui:174 backends/qalculate/settings.ui:222
+#: backends/qalculate/settings.ui:334 backends/qalculate/settings.ui:355
+#: backends/qalculate/settings.ui:376 backends/qalculate/settings.ui:397
 msgid "Enabled"
 msgstr "Aktiviert"
 
@@ -1283,108 +1334,108 @@ msgid "Use negative exponents:"
 msgstr "Negative Exponenten verwenden:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: backends/qalculate/settings.ui:197
+#: backends/qalculate/settings.ui:204
 msgid "Evaluate"
 msgstr "Auswerten"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: backends/qalculate/settings.ui:205
+#: backends/qalculate/settings.ui:212
 msgid "Convert to best SI units:"
 msgstr "In die besten SI-Einheiten umrechnen:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: backends/qalculate/settings.ui:226
+#: backends/qalculate/settings.ui:233
 msgid "Angle unit:"
 msgstr "Winkel-Einheit:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_angleUnit)
-#: backends/qalculate/settings.ui:242
+#: backends/qalculate/settings.ui:249
 msgid "Radians"
 msgstr "Bogenmaß"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_angleUnit)
-#: backends/qalculate/settings.ui:247
+#: backends/qalculate/settings.ui:254
 msgid "Degrees"
 msgstr "Grad"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_angleUnit)
-#: backends/qalculate/settings.ui:252
+#: backends/qalculate/settings.ui:259
 msgid "Gradians"
 msgstr "Gon"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: backends/qalculate/settings.ui:264
+#: backends/qalculate/settings.ui:271
 msgid "Structuring Mode:"
 msgstr "Struktur-Modus:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_structuring)
-#: backends/qalculate/settings.ui:280
+#: backends/qalculate/settings.ui:287
 msgid "Simplify"
 msgstr "Vereinfachen"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_structuring)
-#: backends/qalculate/settings.ui:285
+#: backends/qalculate/settings.ui:292
 msgid "Factorize"
 msgstr "Faktorisieren"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: backends/qalculate/settings.ui:309
+#: backends/qalculate/settings.ui:316
 msgid "Plotting"
 msgstr "Plotten"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: backends/qalculate/settings.ui:317
+#: backends/qalculate/settings.ui:324
 msgid "Display plots inline:"
 msgstr "Zeichnungen im Arbeitsblatt anzeigen:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: backends/qalculate/settings.ui:338
+#: backends/qalculate/settings.ui:345
 msgid "Colored Plots:"
 msgstr "Farbige Zeichnungen:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: backends/qalculate/settings.ui:359
+#: backends/qalculate/settings.ui:366
 msgid "Show grid:"
 msgstr "Gitter anzeigen:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: backends/qalculate/settings.ui:380
+#: backends/qalculate/settings.ui:387
 msgid "Show full borders:"
 msgstr "Alle Ränder anzeigen:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: backends/qalculate/settings.ui:401
+#: backends/qalculate/settings.ui:408
 msgid "Width of lines:"
 msgstr "Linienbreite:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: backends/qalculate/settings.ui:422
+#: backends/qalculate/settings.ui:429
 msgid "Sampling rate:"
 msgstr "Abtastrate:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: backends/qalculate/settings.ui:443
+#: backends/qalculate/settings.ui:450
 msgid "Smoothing Mode:"
 msgstr "Glättungsmodus:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotSmoothing)
-#: backends/qalculate/settings.ui:464
+#: backends/qalculate/settings.ui:471
 msgid "Natural cubic Splines"
 msgstr "Natürliche kubische Filterung"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: backends/qalculate/settings.ui:486
+#: backends/qalculate/settings.ui:493
 msgid "Plot Style:"
 msgstr "Zeichnungsstil:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_plotStyle)
-#: backends/qalculate/settings.ui:522
+#: backends/qalculate/settings.ui:529
 msgctxt "Plot Style"
 msgid "Steps"
 msgstr "Schrittweite"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: backends/qalculate/settings.ui:544
+#: backends/qalculate/settings.ui:551
 msgid "Legend Position:"
 msgstr "Position der Legende:"
 
@@ -1441,18 +1492,13 @@ msgstr "Cantor-Server für „R“"
 msgid "(C) 2009 Alexander Rieder"
 msgstr "© 2009 Alexander Rieder"
 
-#: backends/R/rserver/main.cpp:44 cantor_part.cpp:342 main.cpp:42
+#: backends/R/rserver/main.cpp:44 cantor_part.cpp:344 main.cpp:42
 msgid "Alexander Rieder"
 msgstr "Alexander Rieder"
 
 #: backends/R/rserver/rserver.cpp:400
 msgid "Error Parsing Command"
 msgstr "Fehler beim Einlesen des Befehls"
-
-#. i18n: ectx: label, entry (autorunScripts), group (RBackend)
-#: backends/R/rserver/rserver.kcfg:13
-msgid "List of scripts to autorun at the beginning of session"
-msgstr "Liste der zu Beginn einer Sitzung automatisch auszuführenden Skripte"
 
 #: backends/R/rsettingswidget.cpp:33
 msgid "Double click to open file selection dialog"
@@ -1462,19 +1508,14 @@ msgstr "Doppelklick zum Öffnen des Dateiauswahldialogs"
 msgid "*.R *.r|R source files (*.R, *.r)"
 msgstr "*.R *.r|R-Quelltextdateien (*.R, *.r)"
 
-#. i18n: ectx: property (title), widget (KEditListBox, kcfg_autorunScripts)
-#: backends/R/settings.ui:24
-msgid "Scripts to autorun"
-msgstr "Automatisch auszuführende Skripte"
-
-#: backends/sage/sagebackend.cpp:93
+#: backends/sage/sagebackend.cpp:94
 msgctxt ""
 "the url to the documentation of Sage, please check if there is a translated "
 "version and use the correct url"
 msgid "http://www.sagemath.org/doc/reference/index.html"
 msgstr "http://www.sagemath.org/doc/reference/index.html"
 
-#: backends/sage/sagebackend.cpp:98
+#: backends/sage/sagebackend.cpp:99
 msgid ""
 "Sage is a free open-source mathematics software system licensed under the "
 "GPL. <br/>It combines the power of many existing open-source packages into a "
@@ -1517,29 +1558,29 @@ msgstr ""
 "*.py|Python-Skriptdatei\n"
 "*.sage|Sage-Skriptdatei"
 
-#: backends/sage/sagesession.cpp:302
+#: backends/sage/sagesession.cpp:307
 msgid "The Sage process crashed while evaluating this expression"
 msgstr "Der Sage-Prozess ist beim Auswerten dieses Ausdrucks abgestürzt"
 
-#: backends/sage/sagesession.cpp:306 backends/sage/sagesession.cpp:316
-#: cantor.cpp:179 cantor.cpp:180 cantor_part.cpp:488 main.cpp:36
+#: backends/sage/sagesession.cpp:311 backends/sage/sagesession.cpp:321
+#: cantor.cpp:179 cantor.cpp:180 cantor_part.cpp:490 main.cpp:36
 #: worksheet.cpp:930 worksheet.cpp:938
 msgid "Cantor"
 msgstr "Cantor"
 
-#: backends/sage/sagesession.cpp:306
+#: backends/sage/sagesession.cpp:311
 msgid "The Sage process crashed"
 msgstr "Der Prozess „Sage“ ist abgestürzt"
 
-#: backends/sage/sagesession.cpp:312
+#: backends/sage/sagesession.cpp:317
 msgid "The Sage process exited while evaluating this expression"
 msgstr "Der Sage-Prozess ist beim Auswerten dieses Ausdrucks beendet worden"
 
-#: backends/sage/sagesession.cpp:316
+#: backends/sage/sagesession.cpp:321
 msgid "The Sage process exited"
 msgstr "Der Prozess „Sage“ wurde beendet"
 
-#: backends/sage/sagesession.cpp:326
+#: backends/sage/sagesession.cpp:331
 msgid "Failed to start Sage"
 msgstr "Fehler beim Starten von Sage"
 
@@ -1598,7 +1639,7 @@ msgstr "Beispielarbeitsblatt herunterladen"
 msgid "&Open Example"
 msgstr "&Beispieldatei öffnen "
 
-#: cantor.cpp:189 cantor_part.cpp:384
+#: cantor.cpp:189 cantor_part.cpp:386
 msgid "*.cws|Cantor Worksheet"
 msgstr "*.cws|Cantor-Arbeitsblatt"
 
@@ -1690,7 +1731,7 @@ msgstr "Als einfache Textdatei speichern"
 msgid "Export to LaTeX"
 msgstr "LaTeX-Export"
 
-#: cantor_part.cpp:177 cantor_part.cpp:462 worksheet.cpp:1055
+#: cantor_part.cpp:177 cantor_part.cpp:464 worksheet.cpp:1055
 msgid "Evaluate Worksheet"
 msgstr "Arbeitsblatt auswerten"
 
@@ -1746,7 +1787,7 @@ msgstr "Bild einfügen"
 msgid "Remove current Entry"
 msgstr "Aktuellen Eintrag entfernen"
 
-#: cantor_part.cpp:267 cantor_part.cpp:673
+#: cantor_part.cpp:267 cantor_part.cpp:675
 #, kde-format
 msgid "Show %1 Help"
 msgstr "Hilfe zu %1 anzeigen"
@@ -1763,68 +1804,68 @@ msgstr "Skripteditor anzeigen"
 msgid "Show Completion"
 msgstr "Vervollständigung anzeigen"
 
-#: cantor_part.cpp:341
+#: cantor_part.cpp:343
 msgid "CantorPart"
 msgstr "CantorPart"
 
-#: cantor_part.cpp:415
+#: cantor_part.cpp:417
 msgid "*.tex|LaTeX Document"
 msgstr "*.tex|LaTeX-Dokument"
 
-#: cantor_part.cpp:456 worksheet.cpp:1058
+#: cantor_part.cpp:458 worksheet.cpp:1058
 msgid "Interrupt"
 msgstr "Unterbrechen"
 
-#: cantor_part.cpp:459
+#: cantor_part.cpp:461
 msgid "Calculating..."
 msgstr "Berechnung läuft ..."
 
-#: cantor_part.cpp:465
+#: cantor_part.cpp:467
 msgid "Ready"
 msgstr "Fertig"
 
-#: cantor_part.cpp:473
+#: cantor_part.cpp:475
 #, kde-format
 msgid "Session Error: %1"
 msgstr "Sitzungsfehler: %1"
 
-#: cantor_part.cpp:488
+#: cantor_part.cpp:490
 msgid "Initializing Session"
 msgstr "Sitzung wird initialisiert ..."
 
-#: cantor_part.cpp:500
+#: cantor_part.cpp:502
 msgid "Initialization complete"
 msgstr "Initialisierung abgeschlossen"
 
-#: cantor_part.cpp:536
+#: cantor_part.cpp:538
 msgid "Unnamed"
 msgstr "Unbenannt"
 
-#: cantor_part.cpp:538
+#: cantor_part.cpp:540
 #, kde-format
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: cantor_part.cpp:679
+#: cantor_part.cpp:681
 msgid "Do you want to upload current Worksheet to public web server?"
 msgstr ""
 "Möchten Sie das aktuelle Arbeitsblatt auf den öffentliche Server hochladen?"
 
-#: cantor_part.cpp:680
+#: cantor_part.cpp:682
 msgid "Question - Cantor"
 msgstr "Frage – Cantor"
 
-#: cantor_part.cpp:686
+#: cantor_part.cpp:688
 msgid "The Worksheet is not saved. You should save it before uploading."
 msgstr ""
 "Das Arbeitsblatt ist nicht gespeichert. Sie sollten es speichern, bevor Sie "
 "es hochladen."
 
-#: cantor_part.cpp:687
+#: cantor_part.cpp:689
 msgid "Warning - Cantor"
 msgstr "Warnung – Cantor"
 
-#: cantor_part.cpp:754
+#: cantor_part.cpp:756
 msgid "This backend does not support scripts."
 msgstr "Dieses Modul unterstützt keine Skripte."
 
@@ -2418,6 +2459,9 @@ msgstr "Eintrag ziehen"
 
 #~ msgid "Do you also want to export the images?"
 #~ msgstr "Sollen auch die Bilder exportiert werden?"
+
+#~ msgid "Path to python2 command:"
+#~ msgstr "Pfad zum Befehl python2:"
 
 #~ msgid " Enable Variable Management"
 #~ msgstr " Variablenverwaltung aktivieren"

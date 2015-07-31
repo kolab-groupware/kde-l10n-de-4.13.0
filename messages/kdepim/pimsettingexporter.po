@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: backupmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-12 06:32+0000\n"
-"PO-Revision-Date: 2014-04-09 14:51+0200\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-11-27 21:56+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -81,9 +81,10 @@ msgstr "Datei kopieren"
 #: abstractimportexportjob.cpp:452 addressbook/exportaddressbookjob.cpp:91
 #: alarm/exportalarmjob.cpp:94 calendar/exportcalendarjob.cpp:97
 #: jot/exportjotjob.cpp:90 mail/exportmailjob.cpp:488
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mail \"%1\" was backuped."
 msgid "\"%1\" was backuped."
-msgstr "„%1“ ist gesichert."
+msgstr "E-Mail „%1“ wurde gesichert."
 
 #: abstractimportexportjob.cpp:283 abstractimportexportjob.cpp:288
 #: abstractimportexportjob.cpp:318 abstractimportexportjob.cpp:322
@@ -220,7 +221,7 @@ msgstr "Das Importieren der Einstellungen von KAlarm wird gestartet ..."
 msgid "Archive cannot be opened in write mode."
 msgstr "Archiv kann nicht zum Schreiben geöffnet werden."
 
-#: archivestorage.cpp:56 dialog/showarchivestructuredialog.cpp:63
+#: archivestorage.cpp:56 dialog/showarchivestructuredialog.cpp:62
 #: utils.cpp:271
 msgid "Archive cannot be opened in read mode."
 msgstr "Archiv kann nicht zum Lesen geöffnet werden."
@@ -274,19 +275,19 @@ msgstr "Archiv-Inhalt anzeigen für Datei „%1“ anzeigen"
 msgid "Save As Text..."
 msgstr "Als Text speichern ..."
 
-#: dialog/showarchivestructuredialog.cpp:63
+#: dialog/showarchivestructuredialog.cpp:62
 msgid "Cannot open archive"
 msgstr "Archiv kann nicht geöffnet werden"
 
-#: dialog/showarchivestructuredialog.cpp:68
+#: dialog/showarchivestructuredialog.cpp:67
 msgid "Info"
 msgstr "Informationen"
 
-#: dialog/showarchivestructuredialog.cpp:70
+#: dialog/showarchivestructuredialog.cpp:69
 msgid "This is not kdepim archive."
 msgstr "Dies ist kein KDEPIM-Archiv."
 
-#: dialog/showarchivestructuredialog.cpp:70
+#: dialog/showarchivestructuredialog.cpp:69
 msgid "Show information"
 msgstr "Information anzeigen"
 
@@ -666,6 +667,18 @@ msgstr "Akonadi-Datenbank"
 msgid "Data"
 msgstr "Daten"
 
+#~ msgid "\"%1\" was backed up."
+#~ msgstr "„%1“ wurde gesichert."
+
+#~ msgid "Save as Template..."
+#~ msgstr "Als Vorlage speichern ..."
+
+#~ msgid "Load Template..."
+#~ msgstr "Vorlage laden ..."
+
+#~ msgid "Export Log File"
+#~ msgstr "Protokolldatei exportieren"
+
 #~ msgid ""
 #~ "Archive is newer that apps can import. Perhaps some features will not "
 #~ "correctly import. Do you want to import it?"
@@ -704,9 +717,6 @@ msgstr "Daten"
 
 #~ msgid "Mail \"%1\" file cannot be added to backup file."
 #~ msgstr "Die E-Mail „%1“ kann nicht zur Sicherungsdatei hinzugefügt werden."
-
-#~ msgid "Mail \"%1\" was backuped."
-#~ msgstr "E-Mail „%1“ wurde gesichert."
 
 #~ msgid "MBox \"%1\" was backuped."
 #~ msgstr "MBox „%1“ ist gesichert."

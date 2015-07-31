@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-03 07:13+0000\n"
-"PO-Revision-Date: 2014-02-28 14:24+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-08-03 15:59+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -161,11 +161,11 @@ msgstr "Die Nachricht kann nicht gesendet werden."
 msgid "Message sent"
 msgstr "Nachricht wurde versendet"
 
-#: sendlatermanager.cpp:188
+#: sendlatermanager.cpp:185
 msgid "An error was found. Do you want to resend it?"
 msgstr "Es ist ein Fehler aufgetreten. Möchten Sie es erneut versuchen?"
 
-#: sendlatermanager.cpp:188
+#: sendlatermanager.cpp:185
 msgid "Error found"
 msgstr "Es wurde ein Fehler gefunden"
 
@@ -192,6 +192,10 @@ msgstr "Senden am:"
 #: ui/sendlaterwidget.ui:27
 msgid "Repeat every:"
 msgstr "Wiederholung alle:"
+
+#~ msgctxt "@title:window"
+#~ msgid "Send Later"
+#~ msgstr "Später senden"
 
 #~ msgid "Put in outbox"
 #~ msgstr "In Postausgang verschieben"

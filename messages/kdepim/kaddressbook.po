@@ -4,13 +4,14 @@
 # Markus Slopianka <kamikazow@fishmouth.net>, 2010.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2012, 2013.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-27 06:10+0000\n"
-"PO-Revision-Date: 2014-02-28 12:21+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:30+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -387,7 +388,7 @@ msgstr "vCard 3.0 exportieren ..."
 
 #: mainwidget.cpp:630
 msgid "Export contacts to a vCard 3.0 file."
-msgstr "Kontakte in eine vCard-Datei 3.0 exportieren."
+msgstr "Exportiert Kontakte in eine vCard-Datei 4.0."
 
 #: mainwidget.cpp:634
 msgid "Export vCard 2.1..."
@@ -395,7 +396,7 @@ msgstr "vCard 2.1 exportieren ..."
 
 #: mainwidget.cpp:635
 msgid "Export contacts to a vCard 2.1 file."
-msgstr "Kontakte in eine vCard-Datei 2.1 exportieren."
+msgstr "Exportiert Kontakte in eine vCard-Datei 2.1."
 
 #: mainwidget.cpp:639
 msgid "Export CSV file..."
@@ -433,11 +434,11 @@ msgstr "Doppelte Kontakte suchen ..."
 msgid "Set Focus to Quick Search"
 msgstr "Fokus auf die Schnellsuche einstellen"
 
-#: mainwidget.cpp:675 mainwidget.cpp:696
+#: mainwidget.cpp:675 mainwidget.cpp:692
 msgid "Address Book"
 msgstr "Adressbuch"
 
-#: mainwidget.cpp:702 printing/printingwizard.cpp:59
+#: mainwidget.cpp:699 printing/printingwizard.cpp:59
 msgid "Print Contacts"
 msgstr "Kontakt drucken"
 
@@ -470,8 +471,9 @@ msgid "You selected %1"
 msgstr "Sie haben %1 ausgewählt"
 
 #: merge/potentialduplicatecontactswidget.cpp:81
+#| msgid "No contact duplicated found."
 msgid "No duplicate contact found."
-msgstr "Es wurden keine doppelten Kontakte gefunden"
+msgstr "Es wurden keine doppelten Kontakte gefunden."
 
 #: merge/searchduplicatecontactwizard.cpp:32
 msgid "Search potential duplicate contacts"
@@ -1396,12 +1398,16 @@ msgid "Export to Several Files"
 msgstr "In mehrere Dateien exportieren"
 
 #: xxport/vcard/vcard_xxport.cpp:208
+#, fuzzy
+#| msgid ""
+#| "*.vcf|vCard (*.vcf)\n"
+#| "*|all files (*)"
 msgid ""
 "*.vcf|Vcard (*.vcf)\n"
 "*|all files (*)"
 msgstr ""
-"*.vcf|Vcard (*.vcf)\n"
-"*|alle Dateien (*)"
+"*.vcf|vCard (*.vcf)\n"
+"*|Alle Dateien (*)"
 
 #: xxport/vcard/vcard_xxport.cpp:214
 msgctxt "@title:window"
@@ -1616,6 +1622,81 @@ msgstr "Welchen Kontakt möchten Sie exportieren?"
 msgid "You have not selected any contacts to export."
 msgstr "Sie haben keine Kontakte zum Exportieren ausgewählt."
 
+#~ msgctxt "@action:button"
+#~ msgid "Reset category filter"
+#~ msgstr "Kategoriefilter zurücksetzen"
+
+#~ msgctxt "@action:button"
+#~ msgid "Clear category filter"
+#~ msgstr "Kategoriefilter leeren"
+
+#~ msgid "(Untagged)"
+#~ msgstr "(Ohne Stichwort)"
+
+#~ msgid "(Groups)"
+#~ msgstr "(Gruppen)"
+
+#~ msgid "(All)"
+#~ msgstr "(Alle)"
+
+#~ msgid "(None)"
+#~ msgstr "(Keine)"
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "<qt>Category filter: %1"
+#~ msgstr "<qt>Kategoriefilter: %1"
+
+#~ msgid "&Action"
+#~ msgstr "&Aktion"
+
+#~ msgid "Category filter"
+#~ msgstr "Kategoriefilter"
+
+#~ msgid "Export vCard 4.0..."
+#~ msgstr "vCard 4.0 exportieren ..."
+
+#~ msgid "Export contacts to a vCard 4.0 file."
+#~ msgstr "Exportiert Kontakte in eine vCard-Datei 4.0."
+
+#~ msgid "Send an email..."
+#~ msgstr "Eine E-Mail senden ..."
+
+#~ msgid "You have not selected any contacts."
+#~ msgstr "Sie haben keine Kontakte ausgewählt."
+
+#~ msgid "No contacts selected."
+#~ msgstr "Es wurden keine Kontakte ausgewählt."
+
+#~ msgid "Error during merge contacts."
+#~ msgstr "Fehler beim Zusammenführen der Kontakte."
+
+#~ msgid "Merge contact"
+#~ msgstr "Kontakt zusammenführen"
+
+#~ msgid "Select Which Information to Use for new Contact"
+#~ msgstr ""
+#~ "Wählen Sie, welche Informationen für den neuen Kontakt verwendet werden "
+#~ "sollen"
+
+#~ msgid "Merged Contact"
+#~ msgstr "Kontakt wurde zusammengeführt"
+
+#~ msgid "Select contacts that you want really to merge:"
+#~ msgstr "Kontakte auswählen, die Sie wirklich zusammenführen möchten:"
+
+#~ msgid "Select addressbook where to store merged contact:"
+#~ msgstr ""
+#~ "Wählen Sie das Adressbuch, indem die ausgewählten Kontakte gespeichert "
+#~ "werden:"
+
+#~ msgid "merge"
+#~ msgstr "Zusammenführen"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
 #~ msgctxt "@label Search contacts in list"
 #~ msgid "Search"
 #~ msgstr "Suchen"
@@ -1679,9 +1760,6 @@ msgstr "Sie haben keine Kontakte zum Exportieren ausgewählt."
 #~ msgctxt "@info"
 #~ msgid "Do you want to overwrite file \"%1\""
 #~ msgstr "Möchten Sie die Datei „%1“ überschreiben?"
-
-#~ msgid "GroupBox"
-#~ msgstr "GroupBox"
 
 #~ msgid "Show Simple View"
 #~ msgstr "Einfache Ansicht anzeigen"
@@ -2216,9 +2294,6 @@ msgstr "Sie haben keine Kontakte zum Exportieren ausgewählt."
 #~ "Nur Kontakte drucken, die dem gewählten Filter entsprechen.\n"
 #~ "Diese Einstellung ist nur verfügbar, wenn ein Filter definiert ist."
 
-#~ msgid "Category &members"
-#~ msgstr "&Kontakte dieser Kategorie(n)"
-
 #~ msgid ""
 #~ "Only print contacts who are members of a category that is checked on the "
 #~ "list to the left.\n"
@@ -2415,9 +2490,6 @@ msgstr "Sie haben keine Kontakte zum Exportieren ausgewählt."
 #~ msgid "Custom"
 #~ msgstr "Benutzerdefiniert"
 
-#~ msgid "Contact"
-#~ msgstr "Kontakt"
-
 #~ msgid "Name"
 #~ msgstr "Name"
 
@@ -2450,9 +2522,6 @@ msgstr "Sie haben keine Kontakte zum Exportieren ausgewählt."
 
 #~ msgid "Messaging:"
 #~ msgstr "Instant Messaging:"
-
-#~ msgid "Location"
-#~ msgstr "Adresse"
 
 #~ msgid "Coordinates"
 #~ msgstr "Koordinaten"

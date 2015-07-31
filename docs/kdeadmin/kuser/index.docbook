@@ -122,7 +122,7 @@
 <para
 >Wird &kuser; nicht mit Systemverwalterrechten gestartet, erscheint eine Warnung, dass die Datei <filename
 >/etc/shadow</filename
-> nicht zum Lesen geöffnet werden kann..</para>
+> nicht zum Lesen geöffnet werden kann.</para>
 
 <!--not in 4.4>
 para
@@ -395,7 +395,7 @@ Filesystem</guilabel
 > 
 <para
 >Wählen Sie einen Benutzer in einer der beiden Listen und benutzen Sie die Knöpfe <guibutton
->Hinzufügen-</guibutton
+>Hinzufügen</guibutton
 > und <guibutton
 >Entfernen</guibutton
 >, um die Mitglieder einer Gruppe zu verwalten.</para>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadicontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-18 06:54+0000\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
 "PO-Revision-Date: 2014-02-20 08:44+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -835,34 +835,34 @@ msgstr "E-Mail-Adressen bearbeiten"
 msgid "Set as Standard"
 msgstr "Als Standard festlegen"
 
-#: editor/emaileditwidget.cpp:289
+#: editor/emaileditwidget.cpp:288
 msgid "Add Email"
 msgstr "E-Mail-Adresse hinzufügen"
 
-#: editor/emaileditwidget.cpp:289
+#: editor/emaileditwidget.cpp:288
 msgid "New Email:"
 msgstr "Neue E-Mail-Adresse:"
 
-#: editor/emaileditwidget.cpp:316
+#: editor/emaileditwidget.cpp:315
 msgid "Edit Email"
 msgstr "E-Mail-Adresse bearbeiten"
 
-#: editor/emaileditwidget.cpp:317
+#: editor/emaileditwidget.cpp:316
 msgctxt "@label:textbox Inputfield for an email address"
 msgid "Email:"
 msgstr "E-Mail:"
 
-#: editor/emaileditwidget.cpp:343
+#: editor/emaileditwidget.cpp:342
 #, kde-format
 msgid ""
 "<qt>Are you sure that you want to remove the email address <b>%1</b>?</qt>"
 msgstr "<qt>Möchten Sie die E-Mail-Adresse <b>%1</b> wirklich löschen?</qt>"
 
-#: editor/emaileditwidget.cpp:344
+#: editor/emaileditwidget.cpp:343
 msgid "Confirm Remove"
 msgstr "Löschen bestätigen"
 
-#: editor/emaileditwidget.cpp:346
+#: editor/emaileditwidget.cpp:345
 msgid "&Delete"
 msgstr "&Löschen"
 
@@ -1199,7 +1199,7 @@ msgctxt "Name and email address of a contact"
 msgid "%1 <%2>"
 msgstr "%1 <%2>"
 
-#: emailaddressselectionwidget.cpp:137
+#: emailaddressselectionwidget.cpp:138
 msgctxt "@label Search in a list of contacts"
 msgid "Search:"
 msgstr "Suchen:"

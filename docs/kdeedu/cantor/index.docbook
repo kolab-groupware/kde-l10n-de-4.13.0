@@ -56,9 +56,9 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2013-10-27</date>
+>2014-05-09</date>
 <releaseinfo
->0.5 (&kde; 4.12)</releaseinfo>
+>0.5 (&kde; 4.14)</releaseinfo>
 
 <abstract>
 <para
@@ -80,6 +80,8 @@
 >Sage</keyword>
 <keyword
 >Python</keyword>
+<keyword
+>Lua</keyword>
 <keyword
 >Scilab</keyword>
 <keyword
@@ -264,6 +266,22 @@
 >Matlab</ulink
 >. Weitere Informationen finden Sie unter <ulink url="http://www.gnu.org/software/octave/"
 >http://www.gnu.org/software/octave/</ulink
+>. </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+>Lua:</term>
+      <listitem>
+  <para
+>Lua ist eine schnelle und leichtgewichtige Skript-Sprache mit einer einfachen prozeduralen Syntax. Es gibt mehrere Bibliotheken für Mathematik und Wissenschaft in Lua. </para>
+  <para
+>Weitere Informationen dazu finden Sie auf <ulink url="http://www.lua.org/"
+>http://www.lua.org/</ulink
+>. </para>
+  <para
+>Dieses Modul unterstützt <ulink url="http://luajit.org/"
+>luajit 2</ulink
 >. </para>
       </listitem>
     </varlistentry>

@@ -5,12 +5,13 @@
 # Stephan Johach <hunsum@gmx.de>, 2004, 2005, 2006.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2007, 2008, 2009, 2010.
 # Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2013, 2014.
+# Frederik Schwarzer <schwarzer@kde.org>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-03 05:45+0000\n"
-"PO-Revision-Date: 2014-03-12 06:58+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-11-23 22:05+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -68,108 +69,108 @@ msgid "Settings"
 msgstr "Einstellungen"
 
 #. i18n: ectx: Menu (knotes_context)
-#: apps/main.cpp:45 data/knotesappui.rc:5 data/knotesappui.rc:6
+#: apps/main.cpp:44 data/knotesappui.rc:5 data/knotesappui.rc:6
 msgid "KNotes"
 msgstr "KNotes"
 
-#: apps/main.cpp:47
+#: apps/main.cpp:46
 msgid "KDE Notes"
 msgstr "KDE-Notizen"
 
-#: apps/main.cpp:49
+#: apps/main.cpp:48
 msgid "Copyright © 1997–2014 KNotes authors"
 msgstr "Copyright © 1997–2014 KNotes-Autoren"
 
-#: apps/main.cpp:109
+#: apps/main.cpp:104
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:110
+#: apps/main.cpp:105
 msgid "Maintainer"
 msgstr "Betreuer"
 
-#: apps/main.cpp:112
+#: apps/main.cpp:107
 msgid "Guillermo Antonio Amaral Bastidas"
 msgstr "Guillermo Antonio Amaral Bastidas"
 
-#: apps/main.cpp:113 apps/main.cpp:116
+#: apps/main.cpp:108 apps/main.cpp:111
 msgid "Previous Maintainer"
-msgstr "Früherer Betreuer"
+msgstr "Ehemaliger Betreuer"
 
-#: apps/main.cpp:115
+#: apps/main.cpp:110
 msgid "Michael Brade"
 msgstr "Michael Brade"
 
-#: apps/main.cpp:118
+#: apps/main.cpp:113
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: apps/main.cpp:119
+#: apps/main.cpp:114
 msgid "Original KNotes Author"
 msgstr "Ursprünglicher KNotes-Autor"
 
-#: apps/main.cpp:121
+#: apps/main.cpp:116
 msgid "Wynn Wilkes"
 msgstr "Wynn Wilkes"
 
-#: apps/main.cpp:122
+#: apps/main.cpp:117
 msgid "Ported KNotes to KDE 2"
 msgstr "Portierung von KNotes auf KDE 2"
 
-#: apps/main.cpp:124
+#: apps/main.cpp:119
 msgid "Daniel Martin"
 msgstr "Daniel Martin"
 
-#: apps/main.cpp:125
+#: apps/main.cpp:120
 msgid "Network Interface"
 msgstr "Netzwerkschnittstelle"
 
-#: apps/main.cpp:127
+#: apps/main.cpp:122
 msgid "Bo Thorsen"
 msgstr "Bo Thorsen"
 
-#: apps/main.cpp:128
+#: apps/main.cpp:123
 msgid "Started KDE Resource Framework Integration"
 msgstr "Integration in das KDE-Ressourcen-Grundgerüst"
 
-#: apps/main.cpp:130
+#: apps/main.cpp:125
 msgid "Bera Debajyoti"
 msgstr "Bera Debajyoti"
 
-#: apps/main.cpp:131
+#: apps/main.cpp:126
 msgid "Idea and initial code for the new look & feel"
 msgstr ""
 "Idee und ursprünglicher Code für das neue Erscheinungsbild und Verhalten"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:128
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: apps/main.cpp:136
+#: apps/main.cpp:131
 msgid "David Faure"
 msgstr "David Faure"
 
-#: apps/main.cpp:139
+#: apps/main.cpp:134
 msgid "Matthias Kiefer"
 msgstr "Matthias Kiefer"
 
-#: apps/main.cpp:142
+#: apps/main.cpp:137
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: apps/main.cpp:145
+#: apps/main.cpp:140
 msgid "Dirk A. Mueller"
 msgstr "Dirk A. Mueller"
 
-#: apps/main.cpp:148
+#: apps/main.cpp:143
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: apps/main.cpp:151
+#: apps/main.cpp:146
 msgid "Harri Porten"
 msgstr "Harri Porten"
 
-#: apps/main.cpp:154
+#: apps/main.cpp:149
 msgid "Espen Sand"
 msgstr "Espen Sand"
 
@@ -378,32 +379,32 @@ msgstr "Datum einfügen"
 msgid "Change case..."
 msgstr "Groß-/Kleinschreibung ändern ..."
 
-#: notes/knote.cpp:170
+#: notes/knote.cpp:169
 #, kde-format
 msgid "<qt>Do you really want to delete note <b>%1</b>?</qt>"
 msgstr "<qt>Möchten Sie die Notiz <b>%1</b> wirklich löschen?</qt>"
 
-#: notes/knote.cpp:172
+#: notes/knote.cpp:171
 msgid "Confirm Delete"
 msgstr "Löschen bestätigen"
 
-#: notes/knote.cpp:173
+#: notes/knote.cpp:172
 msgid "&Delete"
 msgstr "&Löschen"
 
-#: notes/knote.cpp:301
+#: notes/knote.cpp:298
 msgid "Please enter the new name:"
 msgstr "Bitte den neuen Namen eingeben:"
 
-#: notes/knote.cpp:525
+#: notes/knote.cpp:512
 msgid "Save note as plain text"
 msgstr "Notiz als Textdatei speichern"
 
-#: notes/knote.cpp:530
+#: notes/knote.cpp:517
 msgid "Save As"
 msgstr "Speichern unter"
 
-#: notes/knote.cpp:547
+#: notes/knote.cpp:534
 #, kde-format
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
@@ -412,82 +413,82 @@ msgstr ""
 "<qt>Eine Datei namens <b>%1</b> existiert bereits.<br />Soll sie "
 "überschrieben werden?</qt>"
 
-#: notes/knote.cpp:657
+#: notes/knote.cpp:644
 msgid "&All Desktops"
 msgstr "Auf a&lle Arbeitsflächen"
 
-#: notes/knote.cpp:698
+#: notes/knote.cpp:685
 msgid "New"
 msgstr "Neu"
 
-#: notes/knote.cpp:702
+#: notes/knote.cpp:689
 msgid "Rename..."
 msgstr "Umbenennen ..."
 
-#: notes/knote.cpp:707
+#: notes/knote.cpp:694
 msgid "Lock"
 msgstr "Sperren"
 
-#: notes/knote.cpp:711
+#: notes/knote.cpp:698
 msgid "Unlock"
 msgstr "Entsperren"
 
-#: notes/knote.cpp:713
+#: notes/knote.cpp:700
 msgid "Hide"
 msgstr "Ausblenden"
 
-#: notes/knote.cpp:718
+#: notes/knote.cpp:705
 msgid "Delete"
 msgstr "Löschen"
 
-#: notes/knote.cpp:722
+#: notes/knote.cpp:709
 msgid "Set Alarm..."
 msgstr "Erinnerung einstellen ..."
 
-#: notes/knote.cpp:727
+#: notes/knote.cpp:714
 msgid "Send..."
 msgstr "Versenden ..."
 
-#: notes/knote.cpp:731
+#: notes/knote.cpp:718
 msgid "Mail..."
 msgstr "Via E-Mail versenden ..."
 
-#: notes/knote.cpp:735
+#: notes/knote.cpp:722
 msgid "Save As..."
 msgstr "Speichern unter ..."
 
-#: notes/knote.cpp:746
+#: notes/knote.cpp:733
 msgid "Preferences..."
 msgstr "Einstellungen ..."
 
-#: notes/knote.cpp:752
+#: notes/knote.cpp:739
 msgid "Keep Above Others"
 msgstr "Immer im Vordergrund"
 
-#: notes/knote.cpp:758
+#: notes/knote.cpp:745
 msgid "Keep Below Others"
 msgstr "Immer im Hintergrund"
 
-#: notes/knote.cpp:764
+#: notes/knote.cpp:751
 msgid "To Desktop"
 msgstr "Auf Arbeitsfläche"
 
-#: notes/knote.cpp:774
+#: notes/knote.cpp:761
 msgid "Walk Through Notes"
 msgstr "Notizen durchblättern"
 
-#: print/knoteprinter.cpp:144
+#: print/knoteprinter.cpp:142
 #, kde-format
 msgid "Print Note"
 msgid_plural "Print %1 notes"
 msgstr[0] "Notiz drucken"
 msgstr[1] "%1 Notizen drucken"
 
-#: print/knoteprinter.cpp:151
+#: print/knoteprinter.cpp:149
 msgid "Printing theme was not found."
 msgstr "Es wurde kein Druckstil gefunden."
 
-#: print/knoteprinter.cpp:151
+#: print/knoteprinter.cpp:149
 msgid "Printing error"
 msgstr "Fehler beim Drucken"
 
@@ -557,6 +558,76 @@ msgstr ""
 msgid "Migration Failed"
 msgstr "Die Migration ist fehlgeschlagen"
 
+#~ msgid "New Note From Text File..."
+#~ msgstr "Neue Notiz aus einer Textdatei ..."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Delete Selected Notes..."
+#~ msgstr "Ausgewählte Notizen löschen ..."
+
+#~ msgid "Select Text File"
+#~ msgstr "Textdatei auswählen"
+
+#~ msgid "Error during open text file: %1"
+#~ msgstr "Fehler beim Öffnen der Textdatei: %1"
+
+#~ msgid "Open Text File"
+#~ msgstr "Textdatei öffnen"
+
+#~ msgid "Note from file '%1'"
+#~ msgstr "Notiz aus Datei „%1“"
+
+#~ msgid "Folders"
+#~ msgstr "Ordner"
+
+#~ msgid "Rename notes..."
+#~ msgstr "Notiz umbenennen ..."
+
+#~ msgid "Accounts"
+#~ msgstr "Zugänge"
+
+#~ msgid "Rename Notes"
+#~ msgstr "Notizen umbenennen"
+
+#~ msgid "Name:"
+#~ msgstr "Name:"
+
+#~ msgid "An error was occurred during renaming: %1"
+#~ msgstr "Beim Umbenennen ist ein Fehler aufgetreten: %1"
+
+#~ msgid "Rename note"
+#~ msgstr "Notiz umbenennen"
+
+#~ msgid "Default Title:"
+#~ msgstr "Standardtitel:"
+
+#~ msgid "<a href=\"whatsthis\">How does this work?</a>"
+#~ msgstr "<a href=\"whatsthis\">Wie funktioniert das?</a>"
+
+#~ msgid ""
+#~ "<qt><p>You can customize title note. You can use:</p><ul><li>%d current "
+#~ "date (short format)</li><li>%l current date (long format)</li><li>%t "
+#~ "current time</li></ul></qt>"
+#~ msgstr ""
+#~ "<qt><p>Sie können die Titel der Notiz anpassen und dabei folgende "
+#~ "Platzhalter verwenden:</p><ul><li>%d - das aktuelle Datum in Kurzform</"
+#~ "li><li>%t - die aktuelle Zeit</li></ul></qt>"
+
+#~ msgid "Select notes to delete"
+#~ msgstr "Notizen zum Löschen auswählen"
+
+#~ msgid "Sentence case"
+#~ msgstr "Groß-/Kleinschreibung"
+
+#~ msgid "Insert Checkmark"
+#~ msgstr "Prüfmarkierung einfügen"
+
+#~ msgid "Alarm:"
+#~ msgstr "Erinnerung:"
+
+#~ msgid "Note is locked"
+#~ msgstr "Die Notiz ist gesperrt"
+
 #~ msgid "Debug nepomuk..."
 #~ msgstr "Nepomuk-Fehlersuche:"
 
@@ -569,21 +640,8 @@ msgstr "Die Migration ist fehlgeschlagen"
 #~ msgid "Alarm &at:"
 #~ msgstr "Erinnerung &um:"
 
-#~ msgid "Note was not created."
-#~ msgstr "Die Notiz wurde nicht erstellt."
-
-#~ msgid "Create new note"
-#~ msgstr "Neue Notiz erstellen"
-
-#~ msgctxt "@title:window"
-#~ msgid "Select Note Folder"
-#~ msgstr "Notizordner auswählen"
-
 #~ msgid "The following notes triggered alarms:"
 #~ msgstr "Nachfolgende Notizen haben eine Erinnerung ausgelöst:"
-
-#~ msgid "Alarm"
-#~ msgstr "Erinnerung"
 
 #~ msgid "Nepomuk Debug"
 #~ msgstr "Nepomuk-Fehlersuche"
@@ -620,17 +678,6 @@ msgstr "Die Migration ist fehlgeschlagen"
 
 #~ msgid "&Mail action:"
 #~ msgstr "E-&Mail-Aktion:"
-
-#~ msgid "<a href=\"whatsthis\">How does this work?</a>"
-#~ msgstr "<a href=\"whatsthis\">Wie funktioniert das?</a>"
-
-#~ msgid ""
-#~ "<qt><p>You can customize command line. You can use:</p><ul><li>%t returns "
-#~ "current note title</li><li>%f returns current note text</li></ul></qt>"
-#~ msgstr ""
-#~ "<qt><p>Sie können die Befehlszeile anpassen und folgende Platzhalter "
-#~ "verwenden:</p><ul><li>%t gibt den Titel der aktuellen Notiz zurück</"
-#~ "li><li>%f gibt den Text der aktuellen Notiz zurück</li></ul></qt>"
 
 #~ msgid "Incoming Notes"
 #~ msgstr "Eingehende Notizen"

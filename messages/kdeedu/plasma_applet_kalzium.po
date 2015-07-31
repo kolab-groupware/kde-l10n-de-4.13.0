@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:49+0200\n"
+"POT-Creation-Date: 2014-09-18 01:47+0000\n"
 "PO-Revision-Date: 2009-06-04 11:29+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -30,29 +30,29 @@ msgstr "testtube.svg"
 msgid "Select Font..."
 msgstr "Schriftart auswählen ..."
 
-#: kalzium_plasma.cpp:37
+#: kalzium_plasma.cpp:38
 msgid "Enter the atomic number."
 msgstr "Ordnungszahl eingeben."
-
-#: kalzium_plasma.cpp:103
-#, kde-format
-msgid ""
-"\n"
-"Name: %1"
-msgstr ""
-"\n"
-"Name: %1"
 
 #: kalzium_plasma.cpp:104
 #, kde-format
 msgid ""
 "\n"
+"Name: %1"
+msgstr ""
+"\n"
+"Name: %1"
+
+#: kalzium_plasma.cpp:105
+#, kde-format
+msgid ""
+"\n"
 "Symbol: %1"
 msgstr ""
 "\n"
 "Symbol: %1"
 
-#: kalzium_plasma.cpp:105
+#: kalzium_plasma.cpp:106
 #, kde-format
 msgid ""
 "\n"
@@ -61,7 +61,7 @@ msgstr ""
 "\n"
 "Siedepunkt: %1"
 
-#: kalzium_plasma.cpp:106
+#: kalzium_plasma.cpp:107
 #, kde-format
 msgid ""
 "\n"
@@ -70,7 +70,7 @@ msgstr ""
 "\n"
 "Schmelzpunkt: %1"
 
-#: kalzium_plasma.cpp:107
+#: kalzium_plasma.cpp:108
 #, kde-format
 msgid ""
 "\n"
@@ -79,6 +79,6 @@ msgstr ""
 "\n"
 "Masse: %1"
 
-#: kalzium_plasma.cpp:137
+#: kalzium_plasma.cpp:138
 msgid "KalziumPlasma Configuration"
 msgstr "KalziumPlasma einrichten"

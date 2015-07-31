@@ -4,16 +4,16 @@
 # Thomas Diehl <thd@kde.org>, 2004.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2008, 2009.
 # Frederik Schwarzer <schwarzer@kde.org>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2012, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2012, 2013, 2014.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2011.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcachegrind_qt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-24 07:08+0000\n"
-"PO-Revision-Date: 2013-11-06 00:45+0100\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"POT-Creation-Date: 2014-10-15 01:53+0000\n"
+"PO-Revision-Date: 2014-10-05 20:22+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -289,7 +289,7 @@ msgstr "Aufruf(e) von %1"
 msgid "(unknown call)"
 msgstr "(unbekannter Aufruf)"
 
-#: libviews/callgraphview.cpp:1548
+#: libviews/callgraphview.cpp:1550
 msgid ""
 "<b>Call Graph around active Function</b><p>Depending on configuration, this "
 "view shows the call graph environment of the active function. Note: the "
@@ -316,7 +316,7 @@ msgstr ""
 "eine Übersicht angezeigt. Ähnliche Darstellungsmöglichkeiten gibt es für die "
 "Aufrufbaumansicht; die gewählte Funktion wird hervorgehoben.</p>"
 
-#: libviews/callgraphview.cpp:1960
+#: libviews/callgraphview.cpp:1962
 msgid ""
 "Warning: a long lasting graph layouting is in progress.\n"
 "Reduce node/edge limits for speedup.\n"
@@ -325,21 +325,21 @@ msgstr ""
 "Zur Beschleunigung verringern Sie die Grenzwerte für Knoten und Kanten im "
 "Kontextmenü.\n"
 
-#: libviews/callgraphview.cpp:1963
+#: libviews/callgraphview.cpp:1965
 msgid "Layouting stopped.\n"
 msgstr "Berechnung des Graphenlayouts gestoppt.\n"
 
-#: libviews/callgraphview.cpp:1965
+#: libviews/callgraphview.cpp:1967
 #, qt-format
 msgid "The call graph has %1 nodes and %2 edges.\n"
 msgstr "Der Aufrufgraph hat %1 Knoten und %2 Kanten.\n"
 
-#: libviews/callgraphview.cpp:1974
+#: libviews/callgraphview.cpp:1976
 msgid "No graph available because the layouting process failed.\n"
 msgstr ""
 "Es wird kein Graph gezeichnet, da der Layout-Prozess fehlgeschlagen ist.\n"
 
-#: libviews/callgraphview.cpp:1976
+#: libviews/callgraphview.cpp:1978
 #, qt-format
 msgid ""
 "Trying to run the following command did not work:\n"
@@ -348,24 +348,24 @@ msgstr ""
 "Der Versuch, den folgenden Befehl auszuführen, ist fehlgeschlagen:\n"
 "„%1“\n"
 
-#: libviews/callgraphview.cpp:1978 libviews/callgraphview.cpp:2495
+#: libviews/callgraphview.cpp:1980 libviews/callgraphview.cpp:2497
 msgid "Please check that 'dot' is installed (package GraphViz)."
 msgstr ""
 "Bitte überprüfen Sie, ob „dot“ installiert ist (aus dem Paket GraphViz)."
 
-#: libviews/callgraphview.cpp:2020
+#: libviews/callgraphview.cpp:2022
 msgid "No item activated for which to draw the call graph."
 msgstr "Es ist kein Element aktiviert, um den Aufrufgraph zu zeichnen."
 
-#: libviews/callgraphview.cpp:2032
+#: libviews/callgraphview.cpp:2034
 msgid "No call graph can be drawn for the active item."
 msgstr "Für das aktive Element kann kein Aufrufgraph gezeichnet werden."
 
-#: libviews/callgraphview.cpp:2494
+#: libviews/callgraphview.cpp:2496
 msgid "Error running the graph layouting tool.\n"
 msgstr "Bei der Berechnung des Graphenlayouts ist ein Fehler aufgetreten.\n"
 
-#: libviews/callgraphview.cpp:2499
+#: libviews/callgraphview.cpp:2501
 #, qt-format
 msgid ""
 "There is no call graph available for function\n"
@@ -376,140 +376,140 @@ msgstr ""
 "\t„%1“,\n"
 "da sie bezüglich des gewählten Ereignistypen keine Kosten aufweist."
 
-#: libviews/callgraphview.cpp:2713
+#: libviews/callgraphview.cpp:2715
 msgid "Caller Depth"
 msgstr "Tiefe in Richtung Aufrufer"
 
-#: libviews/callgraphview.cpp:2714 libviews/callgraphview.cpp:2753
+#: libviews/callgraphview.cpp:2716 libviews/callgraphview.cpp:2755
 msgid "Unlimited"
 msgstr "Unbegrenzt"
 
-#: libviews/callgraphview.cpp:2717 libviews/callgraphview.cpp:2756
+#: libviews/callgraphview.cpp:2719 libviews/callgraphview.cpp:2758
 msgctxt "None"
 msgid "Depth 0"
 msgstr "Tiefe 0"
 
-#: libviews/callgraphview.cpp:2718 libviews/callgraphview.cpp:2757
+#: libviews/callgraphview.cpp:2720 libviews/callgraphview.cpp:2759
 msgid "max. 2"
 msgstr "max. 2"
 
-#: libviews/callgraphview.cpp:2719 libviews/callgraphview.cpp:2758
+#: libviews/callgraphview.cpp:2721 libviews/callgraphview.cpp:2760
 msgid "max. 5"
 msgstr "max. 5"
 
-#: libviews/callgraphview.cpp:2720 libviews/callgraphview.cpp:2759
+#: libviews/callgraphview.cpp:2722 libviews/callgraphview.cpp:2761
 msgid "max. 10"
 msgstr "max. 10"
 
-#: libviews/callgraphview.cpp:2721 libviews/callgraphview.cpp:2760
+#: libviews/callgraphview.cpp:2723 libviews/callgraphview.cpp:2762
 msgid "max. 15"
 msgstr "max. 15"
 
-#: libviews/callgraphview.cpp:2752
+#: libviews/callgraphview.cpp:2754
 msgid "Callee Depth"
 msgstr "Tiefe in Richtung Aufgerufener"
 
-#: libviews/callgraphview.cpp:2791
+#: libviews/callgraphview.cpp:2793
 msgid "Min. Node Cost"
 msgstr "Min. Knotenkosten"
 
-#: libviews/callgraphview.cpp:2792
+#: libviews/callgraphview.cpp:2794
 msgid "No Minimum"
 msgstr "Kein Minimum"
 
-#: libviews/callgraphview.cpp:2798
+#: libviews/callgraphview.cpp:2800
 msgid "50 %"
 msgstr "50 %"
 
-#: libviews/callgraphview.cpp:2799
+#: libviews/callgraphview.cpp:2801
 msgid "20 %"
 msgstr "20 %"
 
-#: libviews/callgraphview.cpp:2800
+#: libviews/callgraphview.cpp:2802
 msgid "10 %"
 msgstr "10 %"
 
-#: libviews/callgraphview.cpp:2801
+#: libviews/callgraphview.cpp:2803
 msgid "5 %"
 msgstr "5 %"
 
-#: libviews/callgraphview.cpp:2802
+#: libviews/callgraphview.cpp:2804
 msgid "2 %"
 msgstr "2 %"
 
-#: libviews/callgraphview.cpp:2803
+#: libviews/callgraphview.cpp:2805
 msgid "1 %"
 msgstr "1 %"
 
-#: libviews/callgraphview.cpp:2833
+#: libviews/callgraphview.cpp:2835
 msgid "Min. Call Cost"
 msgstr "Min. Aufrufkosten"
 
-#: libviews/callgraphview.cpp:2834
+#: libviews/callgraphview.cpp:2836
 msgid "Same as Node"
 msgstr "Wie Knoten"
 
-#: libviews/callgraphview.cpp:2836
+#: libviews/callgraphview.cpp:2838
 #, no-c-format
 msgid "50 % of Node"
 msgstr "50 % des Knotens"
 
-#: libviews/callgraphview.cpp:2838
+#: libviews/callgraphview.cpp:2840
 #, no-c-format
 msgid "20 % of Node"
 msgstr "20 % des Knotens"
 
-#: libviews/callgraphview.cpp:2840
+#: libviews/callgraphview.cpp:2842
 #, no-c-format
 msgid "10 % of Node"
 msgstr "10 % des Knotens"
 
-#: libviews/callgraphview.cpp:2869
+#: libviews/callgraphview.cpp:2871
 msgid "Birds-eye View"
 msgstr "Vogelperspektive"
 
-#: libviews/callgraphview.cpp:2870
+#: libviews/callgraphview.cpp:2872
 msgid "Top Left"
 msgstr "Oben links"
 
-#: libviews/callgraphview.cpp:2871
+#: libviews/callgraphview.cpp:2873
 msgid "Top Right"
 msgstr "Oben rechts"
 
-#: libviews/callgraphview.cpp:2872
+#: libviews/callgraphview.cpp:2874
 msgid "Bottom Left"
 msgstr "Unten links"
 
-#: libviews/callgraphview.cpp:2873
+#: libviews/callgraphview.cpp:2875
 msgid "Bottom Right"
 msgstr "Unten rechts"
 
-#: libviews/callgraphview.cpp:2874
+#: libviews/callgraphview.cpp:2876
 msgid "Automatic"
 msgstr "Automatisch"
 
-#: libviews/callgraphview.cpp:2875
+#: libviews/callgraphview.cpp:2877
 msgid "Hide"
 msgstr "Ausblenden"
 
-#: libviews/callgraphview.cpp:2905
+#: libviews/callgraphview.cpp:2907
 msgid "Layout"
 msgstr "Layout"
 
-#: libviews/callgraphview.cpp:2906
+#: libviews/callgraphview.cpp:2908
 msgid "Top to Down"
 msgstr "Oben nach Unten"
 
-#: libviews/callgraphview.cpp:2907
+#: libviews/callgraphview.cpp:2909
 msgid "Left to Right"
 msgstr "Links nach Rechts"
 
-#: libviews/callgraphview.cpp:2908
+#: libviews/callgraphview.cpp:2910
 msgid "Circular"
 msgstr "Kreisförmig"
 
-#: libviews/callgraphview.cpp:2948 libviews/callgraphview.cpp:2953
-#: libviews/callgraphview.cpp:2973 libviews/callview.cpp:128
+#: libviews/callgraphview.cpp:2950 libviews/callgraphview.cpp:2955
+#: libviews/callgraphview.cpp:2975 libviews/callview.cpp:128
 #: libviews/callview.cpp:133 libviews/coverageview.cpp:170
 #: libviews/functionselection.cpp:295 libviews/instrview.cpp:240
 #: libviews/partselection.cpp:371 libviews/sourceview.cpp:121
@@ -517,68 +517,68 @@ msgstr "Kreisförmig"
 msgid "Go to '%1'"
 msgstr "Gehe zu „%1“"
 
-#: libviews/callgraphview.cpp:2984
+#: libviews/callgraphview.cpp:2986
 msgid "Stop Layouting"
 msgstr "Anhalten der Berechnung des Graphlayouts"
 
-#: libviews/callgraphview.cpp:2991
+#: libviews/callgraphview.cpp:2993
 msgid "Export Graph"
 msgstr "Graph exportieren"
 
-#: libviews/callgraphview.cpp:2992
+#: libviews/callgraphview.cpp:2994
 msgid "As DOT file..."
 msgstr "Als DOT-Datei ..."
 
-#: libviews/callgraphview.cpp:2993
+#: libviews/callgraphview.cpp:2995
 msgid "As Image..."
 msgstr "Als Bild ..."
 
-#: libviews/callgraphview.cpp:2996
+#: libviews/callgraphview.cpp:2998
 msgid "Graph"
 msgstr "Graph"
 
-#: libviews/callgraphview.cpp:3004
+#: libviews/callgraphview.cpp:3006
 msgid "Arrows for Skipped Calls"
 msgstr "Pfeile für übersprungene Aufrufe"
 
-#: libviews/callgraphview.cpp:3009
+#: libviews/callgraphview.cpp:3011
 msgid "Inner-cycle Calls"
 msgstr "Innerzyklische Aufrufe"
 
-#: libviews/callgraphview.cpp:3014
+#: libviews/callgraphview.cpp:3016
 msgid "Cluster Groups"
 msgstr "Gruppe zusammenziehen"
 
-#: libviews/callgraphview.cpp:3018 libviews/callmapview.cpp:337
+#: libviews/callgraphview.cpp:3020 libviews/callmapview.cpp:337
 #: libviews/partselection.cpp:380
 msgid "Visualization"
 msgstr "Darstellung"
 
-#: libviews/callgraphview.cpp:3019
+#: libviews/callgraphview.cpp:3021
 msgid "Compact"
 msgstr "Kompakt"
 
-#: libviews/callgraphview.cpp:3022
+#: libviews/callgraphview.cpp:3024
 msgid "Normal"
 msgstr "Normal"
 
-#: libviews/callgraphview.cpp:3025
+#: libviews/callgraphview.cpp:3027
 msgid "Tall"
 msgstr "Groß"
 
-#: libviews/callgraphview.cpp:3050
+#: libviews/callgraphview.cpp:3052
 msgid "Export Graph As DOT file"
 msgstr "Graph als DOT-Datei exportieren"
 
-#: libviews/callgraphview.cpp:3051
+#: libviews/callgraphview.cpp:3053
 msgid "Graphviz (*.dot)"
 msgstr "Graphviz (*.dot)"
 
-#: libviews/callgraphview.cpp:3066
+#: libviews/callgraphview.cpp:3068
 msgid "Export Graph As Image"
 msgstr "Graph als Bild exportieren"
 
-#: libviews/callgraphview.cpp:3068
+#: libviews/callgraphview.cpp:3070
 msgid "Images (*.png *.jpg)"
 msgstr "Bilder (*.png *.jpg)"
 
@@ -744,7 +744,7 @@ msgstr "Verdopple Flächenbeschränkung auf %1"
 #: libviews/callmapview.cpp:287
 #, qt-format
 msgid "Half Area Limit (to %1)"
-msgstr "Bereichsgebrenzung halbieren (auf %1)"
+msgstr "Bereichsbegrenzung halbieren (auf %1)"
 
 #: libviews/callmapview.cpp:338
 msgid "Split Direction"
@@ -1077,8 +1077,8 @@ msgid ""
 msgstr ""
 "<b>Das Kostenprofil</b><p>Das Kostenprofil umfasst eine sortierte Liste für "
 "Funktionsgruppen und Funktionen. Die Gruppenliste enthält alle Gruppen mit "
-"den darin aufgewendeten Kosten, abhängig vom gewählten Gruppentyp. Ist "
-"derGruppentyp „Funktion“ gewählt, wird die Gruppenliste ausgeblendet.</p> "
+"den darin aufgewendeten Kosten, abhängig vom gewählten Gruppentyp. Ist der "
+"Gruppentyp „Funktion“ gewählt, wird die Gruppenliste ausgeblendet.</p> "
 "<p>Die Funktionsliste enthält alle Funktionen der gewählten Gruppe (oder "
 "alle Funktionen, wenn der Gruppentyp „Funktion“ gewählt wurde), "
 "standardmäßig sortiert nach den in den Funktionen aufgewendeten "
@@ -1157,77 +1157,77 @@ msgstr "Gehe zu Adresse %1"
 msgid "Hex Code"
 msgstr "Hexadezimalwert"
 
-#: libviews/instrview.cpp:555
+#: libviews/instrview.cpp:551
 msgid "There is no instruction info in the profile data file."
 msgstr ""
 "Es existieren keine Informationen auf Assemblerbefehlsebene in der "
 "Profildatei."
 
-#: libviews/instrview.cpp:557
+#: libviews/instrview.cpp:553
 msgid "Tip: For Callgrind, rerun with option"
 msgstr ""
 "Tipp: Bei Nutzung von Callgrind nehmen Sie die Messung bitte erneut unter "
 "Angabe der Option vor"
 
-#: libviews/instrview.cpp:558
+#: libviews/instrview.cpp:554
 msgid "      --dump-instr=yes"
 msgstr "      --dump-instr=yes"
 
-#: libviews/instrview.cpp:559
+#: libviews/instrview.cpp:555
 msgid "To see (conditional) jumps, additionally specify"
 msgstr "Um (bedingte) Sprünge zu sehen, verwendet Sie zusätzlich"
 
-#: libviews/instrview.cpp:560
+#: libviews/instrview.cpp:556
 msgid "      --collect-jumps=yes"
 msgstr "      --collect-jumps=yes"
 
-#: libviews/instrview.cpp:780
+#: libviews/instrview.cpp:776
 msgid "For annotated machine code, the following object file is needed:"
 msgstr ""
 "Für kommentierten Maschinencode wird die folgende Objektdatei benötigt:"
 
-#: libviews/instrview.cpp:785
+#: libviews/instrview.cpp:781
 msgid "This file can not be found."
 msgstr "Diese Datei kann nicht gefunden werden."
 
-#: libviews/instrview.cpp:808
+#: libviews/instrview.cpp:804
 msgid "There is an error trying to execute the command"
 msgstr "Es ist ein Fehler bei der Ausführung des Befehls aufgetreten"
 
-#: libviews/instrview.cpp:812 libviews/instrview.cpp:1102
+#: libviews/instrview.cpp:808 libviews/instrview.cpp:1098
 msgid "Check that you have installed 'objdump'."
 msgstr "Überprüfen Sie, ob „objdump“ installiert ist."
 
-#: libviews/instrview.cpp:814 libviews/instrview.cpp:1104
+#: libviews/instrview.cpp:810 libviews/instrview.cpp:1100
 msgid "This utility can be found in the 'binutils' package."
 msgstr "Dieser Befehl stammt aus dem Paket „binutils“."
 
-#: libviews/instrview.cpp:914
+#: libviews/instrview.cpp:910
 msgid "(No Instruction)"
 msgstr "(Keine Instruktion)"
 
-#: libviews/instrview.cpp:1080
+#: libviews/instrview.cpp:1076
 msgid "This happens because the code of"
 msgstr "Das passiert, weil der Quelltext von"
 
-#: libviews/instrview.cpp:1083
+#: libviews/instrview.cpp:1079
 msgid "does not seem to match the profile data file."
 msgstr "scheinbar nicht zur Profildatei passt."
 
-#: libviews/instrview.cpp:1086
+#: libviews/instrview.cpp:1082
 msgid "Are you using an old profile data file or is the above mentioned"
 msgstr "Benutzen Sie eine alte Profildatei oder ist das oben erwähnte"
 
-#: libviews/instrview.cpp:1088
+#: libviews/instrview.cpp:1084
 msgid "ELF object from an updated installation/another machine?"
 msgstr "Binärobjekt von einer neuen Installation oder einer anderen Maschine?"
 
-#: libviews/instrview.cpp:1096
+#: libviews/instrview.cpp:1092
 msgid "There seems to be an error trying to execute the command"
 msgstr ""
 "Es scheint einen Fehler bei der Ausführung des folgenden Befehls zu geben:"
 
-#: libviews/instrview.cpp:1100
+#: libviews/instrview.cpp:1096
 msgid "Check that the ELF object used in the command exists."
 msgstr "Überprüfen sie, ob das im Befehl angegebene Binärobjekt existiert."
 
@@ -1397,7 +1397,7 @@ msgstr ""
 "Prozentuale Angaben sind immer relativ zu den Gesamtkosten in der "
 "Profildatei und nicht zur Summe der Kosten aller Profildateien. Weiterhin "
 "werden die Aufrufe in/aus der Funktion innerhalb einer Profildatei angezeigt."
-"</p> <p>Nach Ändern derAuswahl einer oder mehreren Profildateien beziehen "
+"</p> <p>Nach Ändern der Auswahl einer oder mehreren Profildateien beziehen "
 "sich die Kosten überall in KCachegrind immer auf die ausgewählten Dateien. "
 "Wurde kein Teil ausgewählt, werden implizit alle Dateien als ausgewählt "
 "behandelt.</p> <p>Diese Liste unterstützt Mehrfachauswahl. Sie können "
@@ -1416,7 +1416,7 @@ msgstr "Springe %1 mal nach %3 bei %2 Ausführungen "
 msgid "Jump %1 times to %2"
 msgstr "Springe %1 mal nach %2"
 
-#: libviews/sourceview.cpp:66 libviews/sourceview.cpp:671
+#: libviews/sourceview.cpp:66 libviews/sourceview.cpp:663
 msgid "Source (unknown)"
 msgstr "Quelle (unbekannt)"
 
@@ -1444,64 +1444,64 @@ msgstr ""
 msgid "Go to Line %1"
 msgstr "Gehe zu Zeile %1"
 
-#: libviews/sourceview.cpp:327
+#: libviews/sourceview.cpp:317
 msgid "(No Source)"
 msgstr "(Keine Quelle)"
 
-#: libviews/sourceview.cpp:640
+#: libviews/sourceview.cpp:632
 msgid "There is no cost of current selected type associated"
 msgstr "Es existieren keine Kosten für den aktuell ausgewählten Kostentyp"
 
-#: libviews/sourceview.cpp:642
+#: libviews/sourceview.cpp:634
 msgid "with any source line of this function in file"
 msgstr "für irgendeine Quelltextzeile dieser Funktion in der Datei"
 
-#: libviews/sourceview.cpp:646
+#: libviews/sourceview.cpp:638
 msgid "Thus, no annotated source can be shown."
 msgstr "Deshalb kann kein kommentierter Quelltext angezeigt werden."
 
-#: libviews/sourceview.cpp:670
+#: libviews/sourceview.cpp:662
 #, qt-format
 msgid "Source ('%1')"
 msgstr "Quelle („%1“)"
 
-#: libviews/sourceview.cpp:676
+#: libviews/sourceview.cpp:668
 #, qt-format
 msgid "--- Inlined from '%1' ---"
 msgstr "--- Direkt eingefügt aus „%1“ ---"
 
-#: libviews/sourceview.cpp:677
+#: libviews/sourceview.cpp:669
 msgid "--- Inlined from unknown source ---"
 msgstr "--- Direkt eingefügt aus unbekannter Quelle ---"
 
-#: libviews/sourceview.cpp:682
+#: libviews/sourceview.cpp:674
 msgid "There is no source available for the following function:"
 msgstr "Es kann kein Quelltext für die folgende Funktion angezeigt werden:"
 
-#: libviews/sourceview.cpp:687
+#: libviews/sourceview.cpp:679
 msgid "This is because no debug information is present."
 msgstr "Es sind keine Debug-Informationen verfügbar."
 
-#: libviews/sourceview.cpp:689
+#: libviews/sourceview.cpp:681
 msgid "Recompile source and redo the profile run."
 msgstr ""
 "Kompilieren Sie das Programm mit Debug-Informationen neu und starten Sie die "
 "Profil-Messung erneut."
 
-#: libviews/sourceview.cpp:692
+#: libviews/sourceview.cpp:684
 msgid "The function is located in this ELF object:"
 msgstr "Die Funktion gehört zu folgendem Binärobjekt:"
 
-#: libviews/sourceview.cpp:700
+#: libviews/sourceview.cpp:692
 msgid "This is because its source file cannot be found:"
 msgstr "Folgende Quelldatei kann nicht gefunden werden:"
 
-#: libviews/sourceview.cpp:704
+#: libviews/sourceview.cpp:696
 msgid "Add the folder of this file to the source folder list."
 msgstr ""
 "Fügen Sie den Ordner dieser Datei der Ordnerliste der Quelldateien hinzu."
 
-#: libviews/sourceview.cpp:706
+#: libviews/sourceview.cpp:698
 msgid "The list can be found in the configuration dialog."
 msgstr "Diese Liste ist zu finden in der Konfiguration von KCachegrind."
 
@@ -1677,7 +1677,7 @@ msgstr ""
 msgid "(No function selected)"
 msgstr "(Keine Funktion ausgewählt)"
 
-#: libviews/traceitemview.cpp:76
+#: libviews/traceitemview.cpp:77
 msgid "No description available"
 msgstr "Keine Beschreibung verfügbar"
 
@@ -2071,11 +2071,12 @@ msgstr "Senkrecht"
 #~ "die Prozentangaben auf die Kosten des übergeordneten Elements nach "
 #~ "folgender Tabelle.</p><ul><table><tr><td><b>Element</b></"
 #~ "td><td><b>Übergeordnetes Element</b></td></tr><tr><td>Funktion "
-#~ "(Inklusivkosten)</td><td>Gesamt</td></tr><tr><td>Funktion (Exklusivkosten)"
-#~ "</td><td>Funktionsgruppe (*) / Gesamt</td></tr><tr><td>Aufruf</"
-#~ "td><td>Funktion (Inklusivkosten)</td></tr><tr><td>Quelltextzeile</"
-#~ "td><td>Funktion (Inklusivkosten)</td></tr></table></ul><p>(*) Nur wenn "
-#~ "Funktionsgruppierung aktiviert ist (z. B. bei ELF-Objekt-Gruppierung).</p>"
+#~ "(Inklusivkosten)</td><td>Gesamt</td></tr><tr><td>Funktion "
+#~ "(Exklusivkosten)</td><td>Funktionsgruppe (*) / Gesamt</td></"
+#~ "tr><tr><td>Aufruf</td><td>Funktion (Inklusivkosten)</td></"
+#~ "tr><tr><td>Quelltextzeile</td><td>Funktion (Inklusivkosten)</td></tr></"
+#~ "table></ul><p>(*) Nur wenn Funktionsgruppierung aktiviert ist (z. B. bei "
+#~ "ELF-Objekt-Gruppierung).</p>"
 
 #~ msgid "Do Cycle Detection"
 #~ msgstr "Zykluserkennung durchführen"
@@ -2653,8 +2654,8 @@ msgstr "Senkrecht"
 #~ "aufgerufen wurde.</p>\n"
 #~ "<p>Ein Eintrag in der unteren Liste für Funktion foo2() mit einem Wert "
 #~ "von 50 % bei ausgewählter Funktion bar() bedeutet, dass 50 % der in "
-#~ "Funktion bar() verursachten Kosten entstanden sind, wenn sie Funktion foo2"
-#~ "() aufgerufen hat.</p>\n"
+#~ "Funktion bar() verursachten Kosten entstanden sind, wenn sie Funktion "
+#~ "foo2() aufgerufen hat.</p>\n"
 
 #~ msgid ""
 #~ "<p>...that waiting for the tool tip inside of a tree map\n"

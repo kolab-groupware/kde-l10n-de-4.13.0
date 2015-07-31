@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail-mobile\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-10 01:34+0000\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
 "PO-Revision-Date: 2014-04-02 08:34+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -523,26 +523,26 @@ msgstr "Lesebestätigung"
 msgid "Send policy:"
 msgstr "Versandregelung:"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #. i18n: ectx: label, entry (MDNPolicy), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #: configwidget.ui:559 settings.kcfg.cmake:106
 msgid "Ignore"
 msgstr "Ignorieren"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #. i18n: ectx: label, entry (MDNPolicy), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #: configwidget.ui:564 settings.kcfg.cmake:109
 msgid "Ask"
 msgstr "Nachfragen"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #. i18n: ectx: label, entry (MDNPolicy), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #: configwidget.ui:569 settings.kcfg.cmake:112
 msgid "Deny"
 msgstr "Ablehnen"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #. i18n: ectx: label, entry (MDNPolicy), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNPolicy)
 #: configwidget.ui:574 settings.kcfg.cmake:115
 msgid "Always send"
 msgstr "Immer senden"
@@ -552,20 +552,20 @@ msgstr "Immer senden"
 msgid "Quote original message:"
 msgstr "Ursprüngliche Nachricht zitieren:"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #. i18n: ectx: label, entry (MDNQuoteType), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #: configwidget.ui:590 settings.kcfg.cmake:124
 msgid "Nothing"
 msgstr "Nichts"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #. i18n: ectx: label, entry (MDNQuoteType), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #: configwidget.ui:595 settings.kcfg.cmake:127
 msgid "Full message"
 msgstr "Ganze Nachricht"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #. i18n: ectx: label, entry (MDNQuoteType), group (MDN)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MDNQuoteType)
 #: configwidget.ui:600 settings.kcfg.cmake:130
 msgid "Only headers"
 msgstr "Nur Nachrichtenvorspann"

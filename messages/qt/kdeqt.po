@@ -1,15 +1,15 @@
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2007, 2008, 2009, 2010.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2007, 2010.
 # Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013, 2014.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2009, 2010.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2014-06-19 05:49+0000\n"
-"PO-Revision-Date: 2014-03-28 05:14+0100\n"
+"POT-Creation-Date: 2015-01-15 05:30+0000\n"
+"PO-Revision-Date: 2014-10-21 20:45+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -530,7 +530,7 @@ msgstr "Abspielen beendet"
 msgid "Download error"
 msgstr "Fehler beim Herunterladen"
 
-#: 3rdparty/phonon/mmf/utils.cpp:89 network/ssl/qsslerror.cpp:214
+#: 3rdparty/phonon/mmf/utils.cpp:89 network/ssl/qsslerror.cpp:218
 msgid "No error"
 msgstr "Kein Fehler"
 
@@ -1859,85 +1859,85 @@ msgstr "Mehr ..."
 msgid "Invalid configuration."
 msgstr "Ungültige Konfiguration."
 
-#: network/ssl/qsslerror.cpp:217
+#: network/ssl/qsslerror.cpp:221
 msgid "The issuer certificate could not be found"
 msgstr "Das Zertifikat des Ausstellers kann nicht gefunden werden"
 
-#: network/ssl/qsslerror.cpp:220
+#: network/ssl/qsslerror.cpp:224
 msgid "The certificate signature could not be decrypted"
 msgstr "Die Signatur des Zertifikats kann nicht entschlüsselt werden"
 
-#: network/ssl/qsslerror.cpp:223
+#: network/ssl/qsslerror.cpp:227
 msgid "The public key in the certificate could not be read"
 msgstr "Der öffentliche Schlüssel kann nicht gelesen werden"
 
-#: network/ssl/qsslerror.cpp:226
+#: network/ssl/qsslerror.cpp:230
 msgid "The signature of the certificate is invalid"
 msgstr "Die Signatur des Zertifikats ist ungültig"
 
-#: network/ssl/qsslerror.cpp:229
+#: network/ssl/qsslerror.cpp:233
 msgid "The certificate is not yet valid"
 msgstr "Das Zertifikat ist noch nicht gültig"
 
-#: network/ssl/qsslerror.cpp:232
+#: network/ssl/qsslerror.cpp:236
 msgid "The certificate has expired"
 msgstr "Das Zertifikat ist abgelaufen"
 
-#: network/ssl/qsslerror.cpp:235
+#: network/ssl/qsslerror.cpp:239
 msgid "The certificate's notBefore field contains an invalid time"
 msgstr "Das Feld 'notBefore' des Zertifikats enthält eine ungültige Zeit"
 
-#: network/ssl/qsslerror.cpp:238
+#: network/ssl/qsslerror.cpp:242
 msgid "The certificate's notAfter field contains an invalid time"
 msgstr "Das Feld 'notAfter' des Zertifikats enthält eine ungültige Zeit"
 
-#: network/ssl/qsslerror.cpp:241
+#: network/ssl/qsslerror.cpp:245
 msgid "The certificate is self-signed, and untrusted"
 msgstr "Das Zertifikat ist selbstsigniert und daher nicht vertrauenswürdig"
 
-#: network/ssl/qsslerror.cpp:244
+#: network/ssl/qsslerror.cpp:248
 msgid ""
 "The root certificate of the certificate chain is self-signed, and untrusted"
 msgstr ""
 "Das oberste Zertifikat der Kette ist selbstsigniert und daher nicht "
 "vertrauenswürdig"
 
-#: network/ssl/qsslerror.cpp:247
+#: network/ssl/qsslerror.cpp:251
 msgid ""
 "The issuer certificate of a locally looked up certificate could not be found"
 msgstr ""
 "Das Zertifikat des Ausstellers eines lokal gefundenen Zertifikats kann nicht "
 "gefunden werden"
 
-#: network/ssl/qsslerror.cpp:250
+#: network/ssl/qsslerror.cpp:254
 msgid "No certificates could be verified"
 msgstr "Keines der Zertifikate kann verifiziert werden"
 
-#: network/ssl/qsslerror.cpp:253
+#: network/ssl/qsslerror.cpp:257
 msgid "One of the CA certificates is invalid"
 msgstr "Eines der Zertifikate der Zertifizierungsstelle ist ungültig"
 
-#: network/ssl/qsslerror.cpp:256
+#: network/ssl/qsslerror.cpp:260
 msgid "The basicConstraints path length parameter has been exceeded"
 msgstr "Die Länge des basicConstraints-Pfades wurde überschritten"
 
-#: network/ssl/qsslerror.cpp:259
+#: network/ssl/qsslerror.cpp:263
 msgid "The supplied certificate is unsuitable for this purpose"
 msgstr "Das Zertifikat ist für diesen Zweck ungeeignet."
 
-#: network/ssl/qsslerror.cpp:262
+#: network/ssl/qsslerror.cpp:266
 msgid "The root CA certificate is not trusted for this purpose"
 msgstr ""
 "Das oberste Zertifikat der Zertifizierungsstelle ist für diesen Fall nicht "
 "vertrauenswürdig"
 
-#: network/ssl/qsslerror.cpp:265
+#: network/ssl/qsslerror.cpp:269
 msgid "The root CA certificate is marked to reject the specified purpose"
 msgstr ""
 "Das oberste Zertifikat der Zertifizierungsstelle weist diesen Fall auf Grund "
 "einer speziellen Kennzeichnung zurück"
 
-#: network/ssl/qsslerror.cpp:268
+#: network/ssl/qsslerror.cpp:272
 msgid ""
 "The current candidate issuer certificate was rejected because its subject "
 "name did not match the issuer name of the current certificate"
@@ -1946,7 +1946,7 @@ msgstr ""
 "Subjektname nicht dem Namen des Ausstellers des aktuellen Zertifikats "
 "entspricht"
 
-#: network/ssl/qsslerror.cpp:272
+#: network/ssl/qsslerror.cpp:276
 msgid ""
 "The current candidate issuer certificate was rejected because its issuer "
 "name and serial number was present and did not match the authority key "
@@ -1956,21 +1956,21 @@ msgstr ""
 "Ausstellername und Seriennummer vorhanden sind und nicht dem Bezeichner der "
 "Zertifizierungsstelle des aktuellen Zertifikats entsprechen"
 
-#: network/ssl/qsslerror.cpp:277
+#: network/ssl/qsslerror.cpp:281
 msgid "The peer did not present any certificate"
 msgstr "Die Gegenstelle hat kein Zertifikat vorgelegt."
 
-#: network/ssl/qsslerror.cpp:280
+#: network/ssl/qsslerror.cpp:284
 msgid "The host name did not match any of the valid hosts for this certificate"
 msgstr ""
 "Der Name des Hosts ist keiner aus der Liste der für dieses Zertifikat "
 "gültigen Hosts"
 
-#: network/ssl/qsslerror.cpp:286
+#: network/ssl/qsslerror.cpp:290
 msgid "The peer certificate is blacklisted"
 msgstr "Das Zertifikat befindet sich auf einer Sperrliste"
 
-#: network/ssl/qsslerror.cpp:289 network/socket/qnativesocketengine.cpp:276
+#: network/ssl/qsslerror.cpp:293 network/socket/qnativesocketengine.cpp:276
 #: network/socket/qsymbiansocketengine.cpp:1435
 #: network/kernel/qhostinfo_unix.cpp:301 corelib/plugin/qpluginloader.cpp:367
 #: corelib/plugin/qlibrary.cpp:1236 corelib/io/qiodevice.cpp:1630
@@ -1978,67 +1978,67 @@ msgstr "Das Zertifikat befindet sich auf einer Sperrliste"
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
-#: network/ssl/qsslsocket_openssl.cpp:288
+#: network/ssl/qsslsocket_openssl.cpp:292
 #, qt-format
 msgid "Error creating SSL context (%1)"
 msgstr "SSL-Kontext kann nicht erstellt werden (%1)"
 
-#: network/ssl/qsslsocket_openssl.cpp:342
+#: network/ssl/qsslsocket_openssl.cpp:346
 #, qt-format
 msgid "Invalid or empty cipher list (%1)"
 msgstr "Ungültige oder leere Verschlüsselungsliste (%1)"
 
-#: network/ssl/qsslsocket_openssl.cpp:383
+#: network/ssl/qsslsocket_openssl.cpp:380
 #, qt-format
 msgid "Cannot provide a certificate with no key, %1"
 msgstr "Es kann kein Zertifikat ohne Schlüssel bereitgestellt werden, %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:390
+#: network/ssl/qsslsocket_openssl.cpp:387
 #, qt-format
 msgid "Error loading local certificate, %1"
 msgstr "Fehler beim Laden des lokalen Zertifikats, %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:405
+#: network/ssl/qsslsocket_openssl.cpp:402
 #, qt-format
 msgid "Error loading private key, %1"
 msgstr "Fehler beim Laden des privaten Schlüssels, %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:412
+#: network/ssl/qsslsocket_openssl.cpp:409
 #, qt-format
 msgid "Private key does not certify public key, %1"
 msgstr "Der private Schlüssel passt nicht zum öffentlichen Schlüssel, %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:432
+#: network/ssl/qsslsocket_openssl.cpp:429
 #, qt-format
 msgid "Error creating SSL session, %1"
 msgstr "SSL-Sitzung kann nicht erzeugt werden, %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:468
+#: network/ssl/qsslsocket_openssl.cpp:465
 #, qt-format
 msgid "Error creating SSL session: %1"
 msgstr "SSL-Sitzung kann nicht erzeugt werden: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1023
+#: network/ssl/qsslsocket_openssl.cpp:1020
 #, qt-format
 msgid "Unable to write data: %1"
 msgstr "Schreiben nicht möglich: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1093
+#: network/ssl/qsslsocket_openssl.cpp:1090
 #, qt-format
 msgid "Unable to decrypt data: %1"
 msgstr "Die Daten können nicht entschlüsselt werden: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1166
+#: network/ssl/qsslsocket_openssl.cpp:1163
 msgid "The TLS/SSL connection has been closed"
 msgstr "Die TLS-/SSL-Verbindung wurde geschlossen"
 
-#: network/ssl/qsslsocket_openssl.cpp:1174
-#: network/ssl/qsslsocket_openssl.cpp:1184
+#: network/ssl/qsslsocket_openssl.cpp:1171
+#: network/ssl/qsslsocket_openssl.cpp:1181
 #, qt-format
 msgid "Error while reading: %1"
 msgstr "Lesefehler: %1"
 
-#: network/ssl/qsslsocket_openssl.cpp:1279
+#: network/ssl/qsslsocket_openssl.cpp:1276
 #, qt-format
 msgid "Error during SSL handshake: %1"
 msgstr "Fehler bei der SSL-Aushandlung: %1"
@@ -2386,18 +2386,18 @@ msgstr "Ungültiger URI: %1"
 msgid "Cannot open %1: is a directory"
 msgstr "%1 kann nicht geöffnet werden: Es handelt sich um einen Ordner."
 
-#: network/access/qnetworkaccessftpbackend.cpp:243
+#: network/access/qnetworkaccessftpbackend.cpp:248
 #, qt-format
 msgid "Logging in to %1 failed: authentication required"
 msgstr ""
 "Die Anmeldung an %1 ist fehlgeschlagen: Authentifizierung erforderlich."
 
-#: network/access/qnetworkaccessftpbackend.cpp:282
+#: network/access/qnetworkaccessftpbackend.cpp:280
 #, qt-format
 msgid "Error while downloading %1: %2"
 msgstr "Fehler beim Herunterladen von %1: %2"
 
-#: network/access/qnetworkaccessftpbackend.cpp:284
+#: network/access/qnetworkaccessftpbackend.cpp:282
 #, qt-format
 msgid "Error while uploading %1: %2"
 msgstr "Fehler beim Hochladen von %1: %2"
@@ -2569,22 +2569,22 @@ msgctxt "QSystemSemaphore"
 msgid "%1: ftok failed"
 msgstr "%1: ftok fehlgeschlagen"
 
-#: corelib/kernel/qsystemerror.cpp:112 corelib/global/qglobal.cpp:2211
+#: corelib/kernel/qsystemerror.cpp:112 corelib/global/qglobal.cpp:2272
 msgctxt "QIODevice"
 msgid "Permission denied"
 msgstr "Zugriff verweigert"
 
-#: corelib/kernel/qsystemerror.cpp:115 corelib/global/qglobal.cpp:2214
+#: corelib/kernel/qsystemerror.cpp:115 corelib/global/qglobal.cpp:2275
 msgctxt "QIODevice"
 msgid "Too many open files"
 msgstr "Zu viele offene Dateien"
 
-#: corelib/kernel/qsystemerror.cpp:118 corelib/global/qglobal.cpp:2217
+#: corelib/kernel/qsystemerror.cpp:118 corelib/global/qglobal.cpp:2278
 msgctxt "QIODevice"
 msgid "No such file or directory"
 msgstr "Datei oder Ordner nicht gefunden"
 
-#: corelib/kernel/qsystemerror.cpp:121 corelib/global/qglobal.cpp:2220
+#: corelib/kernel/qsystemerror.cpp:121 corelib/global/qglobal.cpp:2281
 msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr "Kein Speicherplatz mehr vorhanden"
@@ -2797,17 +2797,17 @@ msgstr "Ressourcenfehler (fork-Fehler): %1"
 #: corelib/io/qprocess_win.cpp:717 corelib/io/qprocess_win.cpp:759
 #: corelib/io/qprocess_win.cpp:813
 msgid "Process operation timed out"
-msgstr "Die Wartezeit für Prozess-Operation ist abgelaufen."
+msgstr "Die Wartezeit für Prozess-Operation ist abgelaufen"
 
 #: corelib/io/qprocess.cpp:905 corelib/io/qprocess.cpp:957
 #: corelib/io/qprocess_win.cpp:602 corelib/io/qprocess_win.cpp:652
 msgid "Error reading from process"
-msgstr "Fehler beim Lesen vom Prozess."
+msgstr "Fehler beim Lesen vom Prozess"
 
 #: corelib/io/qprocess.cpp:1004 corelib/io/qprocess.cpp:1873
 #: corelib/io/qprocess_win.cpp:792
 msgid "Error writing to process"
-msgstr "Fehler beim Schreiben zum Prozess."
+msgstr "Fehler beim Schreiben zum Prozess"
 
 #: corelib/io/qprocess.cpp:1073
 msgid "Process crashed"
@@ -2819,7 +2819,7 @@ msgstr "Kein Programm festgelegt"
 
 #: corelib/io/qfile.cpp:736 corelib/io/qfile.cpp:890
 msgid "Destination file exists"
-msgstr "Die Zieldatei existiert bereits."
+msgstr "Die Zieldatei existiert bereits"
 
 #: corelib/io/qfile.cpp:751
 msgid "Will not rename sequential file using block copy"
@@ -3101,7 +3101,7 @@ msgstr "Fehler %1 in %2: %3"
 msgid "Network timeout."
 msgstr "Netzwerk-Zeitüberschreitung"
 
-#: xmlpatterns/api/qxmlserializer.cpp:321
+#: xmlpatterns/api/qxmlserializer.cpp:337
 #, qt-format
 msgid ""
 "Element %1 can't be serialized because it appears outside the document "
@@ -3110,7 +3110,7 @@ msgstr ""
 "Element %1 kann nicht serialisiert werden, weil es außerhalb des Dokument-"
 "Elementes erscheint."
 
-#: xmlpatterns/api/qxmlserializer.cpp:381
+#: xmlpatterns/api/qxmlserializer.cpp:397
 #, qt-format
 msgid "Attribute %1 can't be serialized because it appears at the top level."
 msgstr ""
@@ -5175,17 +5175,17 @@ msgstr ""
 "Ein %1-Attribut muss einen gültigen Wert %2 enthalten (%3 erfüllt dieses "
 "Kriterium nicht)."
 
-#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:344
+#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:345
 #, qt-format
 msgid "%1 is an unsupported encoding."
 msgstr "Das Encoding %1 wird nicht unterstützt."
 
-#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:360
+#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:361
 #, qt-format
 msgid "%1 contains octets which are disallowed in the requested encoding %2."
 msgstr "%1 enthält Oktette, die im Encoding %2 nicht zulässig sind."
 
-#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:378
+#: xmlpatterns/acceltree/qacceltreeresourceloader.cpp:383
 #, qt-format
 msgid ""
 "The codepoint %1, occurring in %2 using encoding %3, is an invalid XML "
@@ -8037,6 +8037,7 @@ msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
 msgstr "<h3>Über Qt</h3><p>Dieses Programm verwendet Qt in der Version %1.</p>"
 
 #: gui/dialogs/qmessagebox.cpp:1767
+#, qt-format
 msgid ""
 "<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
 "provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
@@ -8046,42 +8047,39 @@ msgid ""
 "the needs of our various users.</p><p>Qt licensed under our commercial "
 "license agreement is appropriate for development of proprietary/commercial "
 "software where you do not want to share any source code with third parties "
-"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
-"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
-"appropriate for the development of Qt applications (proprietary or open "
-"source) provided you can comply with the terms and conditions of the GNU "
-"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
-"version 3.0 is appropriate for the development of Qt applications where you "
-"wish to use such applications in combination with software subject to the "
-"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
-"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
-"\"http://qt.digia.com/product/licensing\">qt.digia.com/product/licensing</a> "
-"for an overview of Qt licensing.</p><p>Copyright (C) 2014 Digia Plc and/or "
-"its subsidiary(-ies).</p><p>Qt is a Digia product. See <a href=\"http://qt."
-"digia.com/\">qt.digia.com</a> for more information.</p>"
+"or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU LGPL version 3 is "
+"appropriate for the development of Qt applications provided you can comply "
+"with the terms and conditions of the GNU LGPL version 3.</p><p>Qt licensed "
+"under the GNU LGPL version 2.1 is appropriate for the development of Qt "
+"applications provided you can comply with the terms and conditions of the "
+"GNU LGPL version 2.1.</p><p>Please see <a href=\"http://%2/\">%2</a> for an "
+"overview of Qt licensing.</p><p>Copyright (C) %1 Digia Plc and/or its "
+"subsidiary(-ies) and other contributors.</p><p>Qt and the Qt logo are "
+"trademarks of Digia Plc and/or its subsidiary(-ies).</p><p>Qt is a Digia "
+"product developed as an open source project. See <a href=\"http://%3/\">%3</"
+"a> for more information.</p>"
 msgstr ""
 "<p>Qt ist ein C++-Toolkit zur plattformübergreifenden Anwendungsentwicklung."
-"</p><p>Qt bietet Single-Source-Übertragbarkeit von MS&nbsp;Windows über "
-"Mac&nbsp;OS&nbsp;X bis zu Linux und alle großen kommerziellen Unix-"
-"Varianten. Zudem ist Qt für Embedded Linux und Windows CE für eingebettete "
-"Systeme verfügbar.</p><p>Qt wird unter drei verschiedenen Lizenzen "
-"angeboten, um den Wünschen unserer Kunden zu entsprechen.</p><p>Qt unter "
-"unserer kommerziellen Lizenz dient der Entwicklung proprietärer/"
+"</p><p>Qt bietet Übertragbarkeit eines einzigen Quelltexts von MS&nbsp;"
+"Windows über Mac&nbsp;OS&nbsp;X bis zu Linux und alle großen kommerziellen "
+"Unix-Varianten. Zudem ist Qt für Embedded Linux und Windows CE für "
+"eingebettete Systeme verfügbar.</p><p>Qt wird unter drei verschiedenen "
+"Lizenzen angeboten, um den Wünschen unserer Kunden zu entsprechen.</p><p>Qt "
+"unter unserer kommerziellen Lizenz dient der Entwicklung proprietärer/"
 "kommerzieller Software, deren Quelltexte Sie nicht offenlegen möchten, oder "
-"wenn sie auf andere Weise nicht den Vereinbarungen der GNU LGPL Version 2.1 "
-"oder der GNU GPL Version 3.0 erfüllen können.</p><p>Qt unter der GNU LGPL "
-"Version 2.1 dient der Entwicklung von Qt-Anwendungen (proprietär oder "
-"quelloffen), sofern Sie den Vereinbarungen der GNU LGPL Version 2.1 "
-"entsprechen können.</p><p>Qt unter der GNU General Public License Version "
-"3.0 dient der Entwicklung von Qt-Anwendungen, die in Verbindung mit Software "
-"verwendet werden soll, die den Vereinbarungen der GNU GPL Version 3.0 "
-"entspricht, oder die aus anderen Gründen den Bestimmungen der GNU GPL "
-"Version 3.0 unterliegen soll.</p><p>Auf <a href=\"http://qt.digia.com/"
-"product/licensing\">qt.digia.com/product/licensing</a> finden Sie eine "
-"Übersicht der Lizenzen.</p><p>Copyright © 2014 Digia Plc und/oder ihre "
-"Tochtergesellschaft (en).</p><p>Qt ist ein Produkt der Firma Digia. Auf <a "
-"href=\"http://qt.digia.com/\">qt.digia.com</a> erhalten Sie weitere "
-"Informationen.</p>"
+"wenn sie auf andere Weise nicht die Vereinbarungen der GNU LGPL Version 3 "
+"oder der GNU LGPL Version 2.1 erfüllen können.</p><p>Qt unter der GNU LGPL "
+"Version 3 dient der Entwicklung von Qt-Anwendungen, sofern Sie den "
+"Vereinbarungen der GNU LGPL Version 3 entsprechen können.</p><p>Qt unter der "
+"GNU LGPL Version 2.1 dient der Entwicklung von Qt-Anwendungen, die in "
+"Verbindung mit Software verwendet werden soll, die den Vereinbarungen der "
+"GNU GPL Version 2.1 entspricht.</p><p>Auf <a href=\"http://%2/\">%2</a> "
+"finden Sie eine Übersicht der Lizenzen für Qt.</p><p>Copyright © %1 Digia "
+"Plc und/oder ihre Tochtergesellschaft (en) und anderer Beteiligter.</p><p>Qt "
+"und das Qt-Logo sind ein Produkt der Firma Digia, die als „Open Source“-"
+"Projekt entwickelt werden. Auf <a href=\"http://%3/\">%3</a> erhalten Sie "
+"weitere Informationen.</p>"
 
 #: gui/dialogs/qmessagebox.cpp:1797
 msgid "About Qt"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-04 01:40+0000\n"
+"POT-Creation-Date: 2014-10-30 01:44+0000\n"
 "PO-Revision-Date: 2013-03-16 15:33+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -169,7 +169,7 @@ msgstr "Datei im Papierkorb am Ursprungsort wiederherstellen"
 msgid "Ignored"
 msgstr "Ignoriert"
 
-#: trashimpl.cpp:1126
+#: trashimpl.cpp:1124
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
@@ -177,7 +177,7 @@ msgstr ""
 "Der Papierkorb hat seine maximale Größe erreicht!\n"
 "Bitte leeren Sie ihn von Hand."
 
-#: trashimpl.cpp:1137
+#: trashimpl.cpp:1135
 msgid "The file is too large to be trashed."
 msgstr "Diese Datei ist zu groß für den Papierkorb."
 

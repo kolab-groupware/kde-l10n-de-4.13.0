@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-15 04:29+0200\n"
+"POT-Creation-Date: 2014-05-05 01:52+0000\n"
 "PO-Revision-Date: 2014-01-19 18:07+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -905,7 +905,7 @@ msgstr ""
 "Es gibt bereits eine Datei namens „%1“.\n"
 "Soll sie überschrieben werden?"
 
-#: document/kpDocument_Save.cpp:338 lgpl/generic/kpColorCollection.cpp:298
+#: document/kpDocument_Save.cpp:338 lgpl/generic/kpColorCollection.cpp:301
 msgid "Overwrite"
 msgstr "Überschreiben"
 
@@ -960,7 +960,7 @@ msgstr "Automatisches Zuschneiden unmöglich"
 msgid "Set as Image"
 msgstr "Als Bild festlegen"
 
-#: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:255
+#: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:263
 #: mainWindow/kpMainWindow_Edit.cpp:367 mainWindow/kpMainWindow_Image.cpp:314
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:73
 msgid "Selection: Create"
@@ -1097,8 +1097,8 @@ msgctxt "@title:window"
 msgid "Thumbnail"
 msgstr "Vorschaubild"
 
-#: kpViewScrollableContainer.cpp:160 kpViewScrollableContainer.cpp:826
-#: kpViewScrollableContainer.cpp:830 kpViewScrollableContainer.cpp:834
+#: kpViewScrollableContainer.cpp:160 kpViewScrollableContainer.cpp:848
+#: kpViewScrollableContainer.cpp:852 kpViewScrollableContainer.cpp:856
 msgid "Left drag the handle to resize the image."
 msgstr "Ziehen Sie an dem Kontrollpunkt, um die Bildgröße zu ändern."
 
@@ -1115,12 +1115,12 @@ msgstr "Bildgröße ändern: zum Abbrechen rechts klicken."
 msgid "Text"
 msgstr "Text"
 
-#: lgpl/generic/kpColorCollection.cpp:118
+#: lgpl/generic/kpColorCollection.cpp:121
 #, kde-format
 msgid "Could not open color palette \"%1\"."
 msgstr "Farbpalette „%1“ lässt sich nicht öffnen."
 
-#: lgpl/generic/kpColorCollection.cpp:157
+#: lgpl/generic/kpColorCollection.cpp:160
 #, kde-format
 msgid ""
 "Could not open color palette \"%1\" - unsupported format.\n"
@@ -1129,17 +1129,17 @@ msgstr ""
 "Farbpalette „%1“ lässt sich nicht öffnen – nicht unterstütztes Format.\n"
 "Die Datei könnte beschädigt sein."
 
-#: lgpl/generic/kpColorCollection.cpp:208
+#: lgpl/generic/kpColorCollection.cpp:211
 #, kde-format
 msgid "Could not open KDE color palette \"%1\"."
 msgstr "KDE-Farbpalette „%1“ lässt sich nicht öffnen."
 
-#: lgpl/generic/kpColorCollection.cpp:257
+#: lgpl/generic/kpColorCollection.cpp:260
 #, kde-format
 msgid "Could not save color palette as \"%1\"."
 msgstr "Die Farbpalette kann nicht unter „%1“ gespeichert werden."
 
-#: lgpl/generic/kpColorCollection.cpp:294
+#: lgpl/generic/kpColorCollection.cpp:297
 #, kde-format
 msgid ""
 "A color palette called \"%1\" already exists.\n"
@@ -1613,7 +1613,7 @@ msgstr ""
 "und es kann zu weiteren Problemen mit anderen Programmen führen.</p><p>Sind "
 "Sie sicher, dass Sie die Größe ändern möchten?</p></qt>"
 
-#: mainWindow/kpMainWindow_View.cpp:76
+#: mainWindow/kpMainWindow_View.cpp:73
 msgid "Show &Grid"
 msgstr "&Gitter anzeigen"
 
@@ -1687,8 +1687,8 @@ msgid "Click or drag to erase."
 msgstr "Klicken oder ziehen Sie, um zu radieren."
 
 #: tools/flow/kpToolFlowBase.cpp:302 tools/kpToolColorPicker.cpp:112
-#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:205
-#: tools/polygonal/kpToolPolygonalBase.cpp:437
+#: tools/kpToolFloodFill.cpp:144 tools/kpToolZoom.cpp:206
+#: tools/polygonal/kpToolPolygonalBase.cpp:439
 #: tools/rectangular/kpToolRectangularBase.cpp:356
 #: tools/selection/kpAbstractSelectionTool.cpp:260
 #: tools/selection/kpAbstractSelectionTool.cpp:518
@@ -1711,7 +1711,7 @@ msgstr "Sprühdose"
 msgid "Sprays graffiti"
 msgstr "Sprüht Graffiti"
 
-#: tools/flow/kpToolSpraycan.cpp:75
+#: tools/flow/kpToolSpraycan.cpp:76
 msgid "Click or drag to spray graffiti."
 msgstr "Klicken oder ziehen Sie, um Graffiti zu sprühen."
 
@@ -1750,15 +1750,15 @@ msgstr "Füllt Bereiche des Bildes"
 msgid "Click to fill a region."
 msgstr "Klicken Sie, um einen Bildbereich zu füllen."
 
-#: tools/kpToolZoom.cpp:74
+#: tools/kpToolZoom.cpp:75
 msgid "Zoom"
 msgstr "Zoom"
 
-#: tools/kpToolZoom.cpp:74
+#: tools/kpToolZoom.cpp:75
 msgid "Zooms in and out of the image"
 msgstr "Zoomt in das Bild hinein oder heraus"
 
-#: tools/kpToolZoom.cpp:118
+#: tools/kpToolZoom.cpp:119
 msgid "Click to zoom in/out or left drag to zoom into a specific area."
 msgstr ""
 "Klicken Sie, um hinein oder heraus zu zoomen, oder ziehen Sie mit der linken "

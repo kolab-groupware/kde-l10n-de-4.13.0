@@ -5,13 +5,14 @@
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Björn Ricks <bjoern.ricks@intevation.de>, 2010.
 # Intevation GmbH, 2010, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-08 05:46+0000\n"
-"PO-Revision-Date: 2014-05-08 15:17+0200\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:49+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +21,19 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: addcollectiontask.cpp:48
+#: addcollectiontask.cpp:49
 #, kde-format
 msgid "Cannot add IMAP folder '%1' for a non-existing parent folder '%2'."
 msgstr ""
 "Der IMAP-Ordner „%1“ kann nicht hinzugefügt werden, da der Eltern-Ordner "
 "„%2“ nicht existiert."
 
-#: addcollectiontask.cpp:84
+#: addcollectiontask.cpp:86
 #, kde-format
 msgid "Failed to create the folder '%1' on the IMAP server. "
 msgstr "Fehler beim Erstellen des Ordners „%1“ auf dem IMAP-Server."
 
-#: addcollectiontask.cpp:104 movecollectiontask.cpp:145
+#: addcollectiontask.cpp:107 movecollectiontask.cpp:145
 #, kde-format
 msgid ""
 "Failed to subscribe to the folder '%1' on the IMAP server. It will disappear "
@@ -42,27 +43,27 @@ msgstr ""
 "nächsten Abgleich wird dieser wieder verschwinden. Benutzen Sie den "
 "Abonnierungsdialog, um dieses Problem zu beheben."
 
-#: addcollectiontask.cpp:147 changecollectiontask.cpp:278
+#: addcollectiontask.cpp:151 changecollectiontask.cpp:301
 #, kde-format
 msgid "Failed to write some annotations for '%1' on the IMAP server. %2"
 msgstr ""
 "Fehler beim Schreiben einiger Annotationen für „%1“ auf dem IMAP-Server. %2"
 
-#: additemtask.cpp:136 changeitemtask.cpp:199 changeitemtask.cpp:224
-#: moveitemstask.cpp:217
+#: additemtask.cpp:141 changeitemtask.cpp:210 changeitemtask.cpp:237
+#: moveitemstask.cpp:226
 msgid "Could not determine the UID for the newly created message on the server"
 msgstr ""
 "Die UID für die neu auf dem Server erzeugte Nachricht kann nicht bestimmt "
 "werden"
 
-#: changecollectiontask.cpp:48
+#: changecollectiontask.cpp:54
 #, kde-format
 msgid "Cannot modify IMAP folder '%1', it does not exist on the server."
 msgstr ""
 "Der IMAP-Ordner „%1“ kann nicht modifiziert werden; er ist auf dem Server "
 "nicht vorhanden."
 
-#: changecollectiontask.cpp:61
+#: changecollectiontask.cpp:67
 #, kde-format
 msgid ""
 "ACLs for '%1' need to be retrieved from the IMAP server first. Skipping ACL "
@@ -71,12 +72,12 @@ msgstr ""
 "Die Zugriffskontrolllisten für „%1“ müssen zunächst vom IMAP-Server "
 "abgerufen werden. Änderungen an der Zugriffskontrolle werden übersprungen."
 
-#: changecollectiontask.cpp:238
+#: changecollectiontask.cpp:261
 msgid "Failed to rename the folder, restoring folder list."
 msgstr ""
 "Fehler beim Umbenennen des Ordners; die Ordnerliste wird wiederhergestellt."
 
-#: changecollectiontask.cpp:257
+#: changecollectiontask.cpp:280
 #, kde-format
 msgid ""
 "Failed to subscribe to the renamed folder '%1' on the IMAP server. It will "
@@ -86,102 +87,16 @@ msgstr ""
 "Änderung wird beim nächsten Abgleich wieder verschwinden. Benutzen Sie den "
 "Abonnierungsdialog, um dieses Problem zu beheben."
 
-#: changecollectiontask.cpp:268
+#: changecollectiontask.cpp:291
 #, kde-format
 msgid "Failed to write some ACLs for '%1' on the IMAP server. %2"
 msgstr ""
 "Fehler beim Schreiben einiger Zugriffskontrollen für „%1“ auf dem IMAP-"
 "Server. %2"
 
-#: imapresource.cpp:112
-#, kde-format
-msgid "IMAP Account %1"
-msgstr "IMAP-Konto %1"
-
-#: imapresource.cpp:114
+#: imapresource.cpp:50
 msgid "IMAP Account"
 msgstr "IMAP-Konto"
-
-#: imapresource.cpp:297
-msgid "No server configured yet."
-msgstr "Es ist noch kein Server eingerichtet."
-
-#: imapresource.cpp:330
-msgctxt "@title:window"
-msgid "Serverside Subscription"
-msgstr "Serverseitiges Abonnement"
-
-#: imapresource.cpp:352
-msgid "Connection established."
-msgstr "Verbindung aufgebaut."
-
-#: imapresource.cpp:407
-#, kde-format
-msgctxt "@info:status"
-msgid "Adding item in '%1'"
-msgstr "Element wird in „%1“ wird hinzugefügt"
-
-#: imapresource.cpp:417
-#, kde-format
-msgctxt "@info:status"
-msgid "Updating item in '%1'"
-msgstr "Element in „%1“ wird aktualisiert"
-
-#: imapresource.cpp:428
-msgctxt "@info:status"
-msgid "Updating items"
-msgstr "Elemente werden aktualisiert"
-
-#: imapresource.cpp:447
-msgctxt "@info:status"
-msgid "Removing items"
-msgstr "Elemente werden entfernt"
-
-#: imapresource.cpp:467
-#, kde-format
-msgctxt "@info:status"
-msgid "Moving items from '%1' to '%2'"
-msgstr "Elemente werden von „%1“ nach „%2“ verschoben"
-
-#: imapresource.cpp:481
-msgctxt "@info:status"
-msgid "Retrieving folders"
-msgstr "Ordner empfangen"
-
-#: imapresource.cpp:492
-#, kde-format
-msgctxt "@info:status"
-msgid "Retrieving extra folder information for '%1'"
-msgstr "Zusätzliche Ordnerinformationen für „%1“ werden abgeholt"
-
-#: imapresource.cpp:524
-#, kde-format
-msgctxt "@info:status"
-msgid "Creating folder '%1'"
-msgstr "Ordner „%1“ wird erstellt"
-
-#: imapresource.cpp:533
-#, kde-format
-msgctxt "@info:status"
-msgid "Updating folder '%1'"
-msgstr "Ordner „%1“ wird aktualisiert"
-
-#: imapresource.cpp:550
-#, kde-format
-msgctxt "@info:status"
-msgid "Removing folder '%1'"
-msgstr "Ordner „%1“ wird gelöscht"
-
-#: imapresource.cpp:561
-#, kde-format
-msgctxt "@info:status"
-msgid "Moving folder '%1' from '%2' to '%3'"
-msgstr "Ordner „%1“ wird von „%2“ nach „%3“ verschoben"
-
-#: imapresource.cpp:593
-msgctxt "@info:status"
-msgid "Searching..."
-msgstr "Suche läuft ..."
 
 #. i18n: ectx: label, entry (ImapServer), group (network)
 #: imapresource.kcfg:10
@@ -275,7 +190,7 @@ msgstr "Festlegen, ob der Zugang die vorgegebene Identität verwendet"
 #. i18n: ectx: label, entry (AccountIdentity), group (cache)
 #: imapresource.kcfg:74
 msgid "Identity account"
-msgstr "Identitätszugang"
+msgstr "Konto der Identität"
 
 #. i18n: ectx: label, entry (KnownMailBoxes), group (cache)
 #: imapresource.kcfg:77
@@ -327,6 +242,91 @@ msgstr ""
 "Legt die Art der Identifizierung fest, die vom benutzerdefinierten Sieve-"
 "Server verwendet werden"
 
+#: imapresourcebase.cpp:243
+msgid "No server configured yet."
+msgstr "Es ist noch kein Server eingerichtet."
+
+#: imapresourcebase.cpp:277
+msgctxt "@title:window"
+msgid "Serverside Subscription"
+msgstr "Serverseitiges Abonnement"
+
+#: imapresourcebase.cpp:300
+msgid "Connection established."
+msgstr "Verbindung aufgebaut."
+
+#: imapresourcebase.cpp:313
+msgid "Server is not available."
+msgstr "Der Server ist nicht verfügbar."
+
+#: imapresourcebase.cpp:368
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding item in '%1'"
+msgstr "Element wird in „%1“ wird hinzugefügt"
+
+#: imapresourcebase.cpp:375
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating item in '%1'"
+msgstr "Element in „%1“ wird aktualisiert"
+
+#: imapresourcebase.cpp:383
+msgctxt "@info:status"
+msgid "Updating items"
+msgstr "Elemente werden aktualisiert"
+
+#: imapresourcebase.cpp:397
+msgctxt "@info:status"
+msgid "Removing items"
+msgstr "Elemente werden entfernt"
+
+#: imapresourcebase.cpp:416
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving items from '%1' to '%2'"
+msgstr "Elemente werden von „%1“ nach „%2“ verschoben"
+
+#: imapresourcebase.cpp:428
+msgctxt "@info:status"
+msgid "Retrieving folders"
+msgstr "Ordner empfangen"
+
+#: imapresourcebase.cpp:435
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving extra folder information for '%1'"
+msgstr "Zusätzliche Ordnerinformationen für „%1“ werden abgeholt"
+
+#: imapresourcebase.cpp:453
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating folder '%1'"
+msgstr "Ordner „%1“ wird erstellt"
+
+#: imapresourcebase.cpp:459
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating folder '%1'"
+msgstr "Ordner „%1“ wird aktualisiert"
+
+#: imapresourcebase.cpp:472
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing folder '%1'"
+msgstr "Ordner „%1“ wird gelöscht"
+
+#: imapresourcebase.cpp:480
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving folder '%1' from '%2' to '%3'"
+msgstr "Ordner „%1“ wird von „%2“ nach „%3“ verschoben"
+
+#: imapresourcebase.cpp:509
+msgctxt "@info:status"
+msgid "Searching..."
+msgstr "Suche läuft ..."
+
 #: movecollectiontask.cpp:47
 #, kde-format
 msgid "Cannot move IMAP folder '%1', it does not exist on the server."
@@ -350,34 +350,34 @@ msgstr ""
 "Der IMAP-Ordner „%1“ kann nicht nach „%2“ verschoben werden; „%2“ ist auf "
 "dem Server nicht vorhanden."
 
-#: moveitemstask.cpp:53
+#: moveitemstask.cpp:54
 msgid "Cannot move message, it does not exist on the server."
 msgstr ""
 "Die Nachricht kann nicht verschoben werden; sie nicht auf dem Server "
 "vorhanden."
 
-#: moveitemstask.cpp:59
+#: moveitemstask.cpp:61
 #, kde-format
 msgid "Cannot move message out of '%1', '%1' does not exist on the server."
 msgstr ""
 "Die Nachricht kann nicht aus „%1“ verschoben werden; „%1“ ist nicht auf dem "
 "Server vorhanden."
 
-#: moveitemstask.cpp:66
+#: moveitemstask.cpp:69
 #, kde-format
 msgid "Cannot move message to '%1', '%1' does not exist on the server."
 msgstr ""
 "Die Nachricht kann nicht nach „%1“ verschoben werden; „%1“ ist nicht auf dem "
 "Server vorhanden."
 
-#: moveitemstask.cpp:122
+#: moveitemstask.cpp:128
 #, kde-format
 msgid "Failed to copy item, it has no message payload. Remote id: %1"
 msgstr ""
 "Element kann nicht kopiert werden; es enthält keine Nachrichtendaten. Remote "
 "id: %1"
 
-#: moveitemstask.cpp:169
+#: moveitemstask.cpp:177
 #, kde-format
 msgid ""
 "Failed to mark the message from '%1' for deletion on the IMAP server. It "
@@ -398,23 +398,23 @@ msgstr ""
 "Der zu löschende Ordner kann nicht gefunden werden, die Ordnerliste wird "
 "wiederhergestellt."
 
-#: resourcetask.cpp:68
+#: resourcetask.cpp:72
 msgid "There is currently no connection to the IMAP server."
 msgstr "Derzeit besteht keine Verbindung zu dem IMAP-Server."
 
-#: resourcetask.cpp:99
+#: resourcetask.cpp:104
 msgid "There is currently no session to the IMAP server available."
 msgstr "Derzeit besteht keine Verbindung zu dem IMAP-Server."
 
-#: resourcetask.cpp:129 resourcetask.cpp:140
+#: resourcetask.cpp:137 resourcetask.cpp:149
 msgid "Connection lost"
 msgstr "Verbindung abgebrochen"
 
-#: resourcetask.cpp:426
+#: resourcetask.cpp:502
 msgid "killed"
 msgstr "Abgebrochen"
 
-#: retrievecollectionmetadatatask.cpp:232
+#: retrievecollectionmetadatatask.cpp:198
 #, kde-format
 msgid ""
 "<p>Your access rights to folder <b>%1</b> have been restricted, it will no "
@@ -423,7 +423,7 @@ msgstr ""
 "<p>Die Zugriffsrechte zum Ordner <b>%1</b> sind eingeschränkt. Sie können "
 "keine weiteren Nachrichten zu diesem Ordner hinzufügen.</p>"
 
-#: retrievecollectionmetadatatask.cpp:235
+#: retrievecollectionmetadatatask.cpp:201
 msgid "Access rights revoked"
 msgstr "Zugriffsrechte wurden widerrufen"
 
@@ -435,17 +435,21 @@ msgstr "Posteingang"
 msgid "Shared Folders"
 msgstr "Freigegebene Ordner"
 
-#: retrieveitemstask.cpp:426
+#: retrieveitemstask.cpp:482
 #, kde-format
 msgctxt "@info:status"
 msgid "Fetching missing mail bodies in %3: %1/%2"
 msgstr "Fehlende Nachrichtentexte in %3 werden abgerufen: %1/%2"
 
-#: retrieveitemtask.cpp:50
+#: retrieveitemtask.cpp:51
 msgid "Remote id is empty or invalid"
 msgstr "Die entfernte Kennung ist leer oder ungültig"
 
-#: retrieveitemtask.cpp:136
+#: retrieveitemtask.cpp:122
+msgid "No message retrieved, failed to read the message."
+msgstr "Keine Nachricht erhalten, das Lesen der Nachricht ist fehlgeschlagen."
+
+#: retrieveitemtask.cpp:142
 msgid "No message retrieved, server reply was empty."
 msgstr "Keine Nachricht erhalten. Die Serverantwort enthielt keine Daten."
 
@@ -462,7 +466,7 @@ msgctxt ""
 msgid "Server Info"
 msgstr "Serverinfo"
 
-#: sessionpool.cpp:228 sessionpool.cpp:371
+#: sessionpool.cpp:256 sessionpool.cpp:405
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server %1.\n"
@@ -471,7 +475,7 @@ msgstr ""
 "Die Verbindung zum IMAP-Server %1 kann nicht hergestellt werden.\n"
 "%2"
 
-#: sessionpool.cpp:232
+#: sessionpool.cpp:260
 #, kde-format
 msgid ""
 "Could not connect to the IMAP server.\n"
@@ -480,27 +484,27 @@ msgstr ""
 "Die Verbindung zum IMAP-Server kann nicht hergestellt werden.\n"
 "%1"
 
-#: sessionpool.cpp:271
+#: sessionpool.cpp:299
 #, kde-format
 msgid "Could not create another extra connection to the IMAP-server %1."
 msgstr ""
 "Es kann keine zusätzliche Verbindung zum IMAP-Server %1 hergestellt werden."
 
-#: sessionpool.cpp:289
+#: sessionpool.cpp:317
 msgid "Disconnected from server during login."
 msgstr "Die Verbindung wurde während der Anmeldung unterbrochen."
 
-#: sessionpool.cpp:303
+#: sessionpool.cpp:331
 msgid "Could not read the password: user rejected wallet access"
 msgstr ""
 "Das Passwort kann nicht gelesen werden: Der Benutzer hat den Zugriff auf den "
 "Passwortspeicher verweigert."
 
-#: sessionpool.cpp:311
+#: sessionpool.cpp:339
 msgid "Empty password"
 msgstr "Leeres Passwort"
 
-#: sessionpool.cpp:323
+#: sessionpool.cpp:351
 #, kde-format
 msgid ""
 "You requested TLS/SSL to connect to %1, but your system does not seem to be "
@@ -509,7 +513,12 @@ msgstr ""
 "Sie haben TLS/SSL für die Verbindung zu %1 eingestellt, Ihr System scheint "
 "jedoch nicht für diese Verbindungsmethode eingerichtet zu sein."
 
-#: sessionpool.cpp:377
+#: sessionpool.cpp:387 sessionpool.cpp:428 sessionpool.cpp:487
+#| msgid "Disconnected from server during login."
+msgid "Disconnected during login."
+msgstr "Die Verbindung wurde während der Anmeldung unterbrochen."
+
+#: sessionpool.cpp:411
 #, kde-format
 msgid ""
 "Could not connect to the IMAP-server.\n"
@@ -518,7 +527,7 @@ msgstr ""
 "Die Verbindung zum IMAP-Server kann nicht hergestellt werden.\n"
 "%1"
 
-#: sessionpool.cpp:397
+#: sessionpool.cpp:436
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server %1.\n"
@@ -528,7 +537,7 @@ msgstr ""
 "werden.\n"
 "%2"
 
-#: sessionpool.cpp:404
+#: sessionpool.cpp:443
 #, kde-format
 msgid ""
 "Could not test the capabilities supported by the IMAP server.\n"
@@ -538,7 +547,7 @@ msgstr ""
 "werden.\n"
 "%1"
 
-#: sessionpool.cpp:424
+#: sessionpool.cpp:463
 #, kde-format
 msgid ""
 "Cannot use the IMAP server %1, some mandatory capabilities are missing: %2. "
@@ -548,7 +557,7 @@ msgstr ""
 "Fähigkeiten nicht unterstützt werden: %2. Bitten Sie Ihren Systemverwalter, "
 "den Server entsprechend zu aktualisieren."
 
-#: settings.cpp:170
+#: settings.cpp:146
 #, kde-format
 msgid "Please enter password for user '%1' on IMAP server '%2'."
 msgstr ""
@@ -690,7 +699,7 @@ msgstr "Der Benutzername."
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: setupserverview_desktop.ui:70 setupserverview_desktop.ui:271
+#: setupserverview_desktop.ui:70 setupserverview_desktop.ui:278
 #: setupserverview_mobile.ui:166
 msgid "Username:"
 msgstr "Benutzername:"
@@ -702,7 +711,7 @@ msgstr "Das Passwort."
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: setupserverview_desktop.ui:90 setupserverview_desktop.ui:264
+#: setupserverview_desktop.ui:90 setupserverview_desktop.ui:271
 #: setupserverview_mobile.ui:182
 msgid "Password:"
 msgstr "Passwort:"
@@ -712,33 +721,38 @@ msgstr "Passwort:"
 msgid "Mail Checking Options"
 msgstr "Einstellungen zur Nachrichtenaktualisierung"
 
+#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
+#: setupserverview_desktop.ui:120 setupserverview_mobile.ui:311
+msgid "&Download all messages for offline use"
+msgstr "Alle Nachrichten zur Offline-Verwendung herunterla&den"
+
 #. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
-#: setupserverview_desktop.ui:120
+#: setupserverview_desktop.ui:127
 msgid "Enable &interval mail checking"
 msgstr "Posteingang regelmäßig überprüfen"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: setupserverview_desktop.ui:129
+#: setupserverview_desktop.ui:136
 msgid "Check mail interval:"
 msgstr "Prüfintervall:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: setupserverview_desktop.ui:171
+#: setupserverview_desktop.ui:178
 msgid "Filtering"
 msgstr "Filtern"
 
 #. i18n: ectx: property (text), widget (QCheckBox, managesieveCheck)
-#: setupserverview_desktop.ui:177 setupserverview_mobile.ui:392
+#: setupserverview_desktop.ui:184 setupserverview_mobile.ui:392
 msgid "Server supports Sieve"
 msgstr "Der Server unterstützt Sieve"
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameConfigCheck)
-#: setupserverview_desktop.ui:184 setupserverview_mobile.ui:399
+#: setupserverview_desktop.ui:191 setupserverview_mobile.ui:399
 msgid "Reuse host and login configuration"
 msgstr "Rechner- und Anmeldeinformationen wieder verwenden"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: setupserverview_desktop.ui:191
+#: setupserverview_desktop.ui:198
 msgid ""
 "The server port changed when ManageSieve turned into a full RFC Standard. "
 "Old server implementations still use port 2000, while newer standard conform "
@@ -750,59 +764,54 @@ msgstr ""
 "4190 erreicht werden können."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: setupserverview_desktop.ui:203 setupserverview_mobile.ui:421
+#: setupserverview_desktop.ui:210 setupserverview_mobile.ui:421
 msgid "Managesieve port:"
 msgstr "Sieve-Verwaltungs-Port:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: setupserverview_desktop.ui:221 setupserverview_mobile.ui:408
+#: setupserverview_desktop.ui:228 setupserverview_mobile.ui:408
 msgid "Alternate URL:"
 msgstr "Alternativadresse:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, authentification)
-#: setupserverview_desktop.ui:238
-msgid "Authentification"
+#: setupserverview_desktop.ui:245
+msgid "Authentication"
 msgstr "Authentifizierung"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noAuthentification)
-#: setupserverview_desktop.ui:254
-msgid "No authentification"
+#: setupserverview_desktop.ui:261
+msgid "No authentication"
 msgstr "Keine Authentifizierung"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customUserPassword)
-#: setupserverview_desktop.ui:278
+#: setupserverview_desktop.ui:285
 msgid "Username and Password"
 msgstr "Benutzername und Passwort"
 
 #. i18n: ectx: property (text), widget (QRadioButton, imapUserPassword)
-#: setupserverview_desktop.ui:295
+#: setupserverview_desktop.ui:302
 msgid "IMAP Username and Password"
 msgstr "IMAP-Benutzername und -Passwort"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: setupserverview_desktop.ui:325
+#: setupserverview_desktop.ui:332
 msgid "Advanced"
 msgstr "Erweitert"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: setupserverview_desktop.ui:331
+#: setupserverview_desktop.ui:338
 msgid "IMAP Settings"
 msgstr "IMAP-Einstellungen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
-#: setupserverview_desktop.ui:339
+#: setupserverview_desktop.ui:346
 msgid "Enable server-side subscriptions"
 msgstr "Serverseitiges Abonnement aktivieren"
 
 #. i18n: ectx: property (text), widget (KPushButton, subscriptionButton)
-#: setupserverview_desktop.ui:349 setupserverview_mobile.ui:328
+#: setupserverview_desktop.ui:356 setupserverview_mobile.ui:328
 msgid "Serverside Subscription..."
 msgstr "Serverseitiges Abonnement ..."
-
-#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
-#: setupserverview_desktop.ui:358
-msgid "Enable disconnected mode"
-msgstr "Offline-Modus aktivieren"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
 #: setupserverview_desktop.ui:365
@@ -1058,11 +1067,6 @@ msgstr "Prüfintervall:"
 msgid " minutes"
 msgstr " Minuten"
 
-#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
-#: setupserverview_mobile.ui:311
-msgid "Enable Disconnected Mode"
-msgstr "Offline-Modus aktivieren"
-
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
 #: setupserverview_mobile.ui:318
 msgid "Enable Server-Side Subscriptions"
@@ -1093,6 +1097,24 @@ msgctxt "@option:check"
 msgid "Subscribed only"
 msgstr "Nur abonnierte"
 
+#~ msgid "Failed to collect metadata."
+#~ msgstr "Fehler beim Zusammenstellen der Metadaten."
+
+#~ msgid "Failed to retrieve items."
+#~ msgstr "Die Elemente können nicht geladen werden."
+
+#~ msgid "Enable disconnected mode"
+#~ msgstr "Offline-Modus aktivieren"
+
+#~ msgid "Enable Disconnected Mode"
+#~ msgstr "Offline-Modus aktivieren"
+
+#~ msgid "IMAP Account %1"
+#~ msgstr "IMAP-Konto %1"
+
+#~ msgid "Authentification"
+#~ msgstr "Authentifizierung"
+
 #~| msgid ""
 #~| "Cannot move IMAP folder '%1' to '%2', '%2' does not exist on the server."
 #~ msgid ""
@@ -1112,9 +1134,6 @@ msgstr "Nur abonnierte"
 #~ msgctxt "Dialog title for dialog showing information about a server"
 #~ msgid "Server Info"
 #~ msgstr "Serverinfo"
-
-#~ msgid "Failed to connect to server"
-#~ msgstr "Fehler beim Verbinden zum Server"
 
 #~ msgid "Settings"
 #~ msgstr "Einstellungen anzeigen"

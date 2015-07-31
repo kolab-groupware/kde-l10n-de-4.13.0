@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-12 01:40+0000\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
 "PO-Revision-Date: 2013-10-21 21:11+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -95,7 +95,7 @@ msgstr "Ungültiges Dateiformat."
 msgid "Unable to parse data file: %1"
 msgstr "Datei kann nicht verarbeitet werden: %1"
 
-#: xmldocument.cpp:309
+#: xmldocument.cpp:314
 #, kde-format
 msgid "Unable to find collection %1"
 msgstr "Die Sammlung %1 wurde nicht gefunden"

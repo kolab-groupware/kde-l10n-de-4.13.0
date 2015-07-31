@@ -21,9 +21,9 @@
 >Quelltext erzeugen</title>
 <para
 >Um Quelltext mit &umbrello; zu erzeugen, muss man zuerst ein Modell laden, das mindestens eine Klasse enthält. Wenn man Quelltext erzeugen will, muss man den <guimenuitem
->Assistent für die Erzeugung des Quelltextes ...</guimenuitem
-> aus dem <guimenuitem
->Quelltextmenü</guimenuitem
+>Assistent für Quelltext-Erstellung ...</guimenuitem
+> aus dem Menü <guimenu
+>Quelltext</guimenu
 > auswählen. Dadurch wird der Assistent gestartet, der dann durch den Prozess zur Quelltexterzeugung führt. </para>
 <para
 >Im ersten Schritt muss man die Klassen auswählen, für die Quelltext erzeugt werden soll. Am Anfang sind alle Klassen des Modells ausgewählt und man kann nun einzelne entfernen. Dazu muss man sie aus der rechten Liste in die linke Liste verschieben. </para>

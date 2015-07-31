@@ -2,7 +2,7 @@
 # Stephan Johach <hunsum@gmx.de>, 2004, 2005, 2006, 2007.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2007.
 # Stephan Johach <lucardus@onlinehome.de>, 2006.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2013, 2014.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2009, 2010.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012, 2013.
@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jovie\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-30 01:33+0000\n"
-"PO-Revision-Date: 2013-10-01 05:38+0200\n"
+"POT-Creation-Date: 2014-04-24 01:36+0000\n"
+"PO-Revision-Date: 2014-04-28 10:55+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -41,11 +41,11 @@ msgstr "Ein Programm zum Testen von Filtermodulen für Jovie."
 msgid "Copyright 2005, Gary Cramblitt &lt;garycramblitt@comcast.net&gt;"
 msgstr "Copyright 2005, Gary Cramblitt &lt;garycramblitt@comcast.net&gt;"
 
-#: filters/main.cpp:39 jovie/main.cpp:45 kcmkttsmgr/kcmkttsmgr.cpp:678
+#: filters/main.cpp:39 jovie/main.cpp:45 kcmkttsmgr/kcmkttsmgr.cpp:675
 msgid "Gary Cramblitt"
 msgstr "Gary Cramblitt"
 
-#: filters/main.cpp:39 kcmkttsmgr/kcmkttsmgr.cpp:678
+#: filters/main.cpp:39 kcmkttsmgr/kcmkttsmgr.cpp:675
 msgid "Maintainer"
 msgstr "Betreuer"
 
@@ -117,6 +117,20 @@ msgstr "..."
 #: filters/stringreplacer/editreplacementwidget.ui:133
 msgid "Match &case"
 msgstr "&Groß-/Kleinschreibung beachten"
+
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: filters/stringreplacer/selectlanguagedlg.cpp:56
+#: kcmkttsmgr/talkerwidget.ui:65 libkttsd/talkerlistmodel.cpp:137
+msgid "Language"
+msgstr "Sprache"
+
+#: filters/stringreplacer/selectlanguagedlg.cpp:57
+msgid "Code"
+msgstr "Code"
+
+#: filters/stringreplacer/selectlanguagedlg.h:66
+msgid "Select Language"
+msgstr "Sprache auswählen"
 
 #: filters/stringreplacer/stringreplacerconf.cpp:128
 msgid "Unable to open file."
@@ -436,14 +450,44 @@ msgstr "Übereinstimmung"
 msgid "Replace With"
 msgstr "Ersetzen durch"
 
-#: filters/talkerchooser/talkerchooserconf.cpp:135
-msgid "Talker Chooser"
+#. i18n: ectx: property (windowTitle), widget (QWidget, SelectTalkerWidget)
+#: filters/talkerchooser/selecttalkerdlg.h:59
+#: filters/talkerchooser/selecttalkerwidget.ui:21
+#: filters/talkerchooser/talkerchooserconf.cpp:196 jovie/jovietrayicon.cpp:106
+msgid "Select Talker"
 msgstr "Sprecherauswahl"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, SelectTalkerWidget)
-#: filters/talkerchooser/talkerchooserconf.cpp:196 jovie/jovietrayicon.cpp:103
-#: libkttsd/selecttalkerdlg.h:59 libkttsd/selecttalkerwidget.ui:21
-msgid "Select Talker"
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useDefaultRadioButton)
+#: filters/talkerchooser/selecttalkerwidget.ui:58
+msgid ""
+"When checked, will use the default Talker, which is the topmost Talker "
+"listed in the Talkers tab."
+msgstr ""
+"Ist diese Einstellung markiert, wird der Standardsprecher benutzt. Dies ist "
+"der auf der Karteikarte Sprecher zuerst in der Liste aufgeführte Sprecher."
+
+#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRadioButton)
+#: filters/talkerchooser/selecttalkerwidget.ui:61
+msgid "&Use default Talker"
+msgstr "&Standardsprecher verwenden"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: filters/talkerchooser/selecttalkerwidget.ui:68
+msgid ""
+"When checked, will use the specific Talker (if it is still configured), "
+"otherwise the Talker most closely matching."
+msgstr ""
+"Ist diese Einstellung markiert, wird der ausgewählte Sprecher verwendet "
+"(sofern er noch eingerichtet ist), anderenfalls der Sprecher, der diesem am "
+"ehesten entspricht."
+
+#. i18n: ectx: property (text), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: filters/talkerchooser/selecttalkerwidget.ui:71
+msgid "Use specific &Talker"
+msgstr "&Sprecherauswahl"
+
+#: filters/talkerchooser/talkerchooserconf.cpp:135
+msgid "Talker Chooser"
 msgstr "Sprecherauswahl"
 
 #: filters/talkerchooser/talkerchooserconf.cpp:212
@@ -679,31 +723,31 @@ msgstr "oder DOC&TYPE ist:"
 msgid "and Application &ID contains:"
 msgstr "und Anwendungs-&ID enthält:"
 
-#: jovie/jovie.cpp:480 jovie/jovietrayicon.cpp:224
+#: jovie/jovie.cpp:485 jovie/jovietrayicon.cpp:224
 msgid "KDE Text-to-Speech"
 msgstr "KDE-Sprachausgabe"
 
-#: jovie/jovietrayicon.cpp:64
+#: jovie/jovietrayicon.cpp:67
 msgid "KDE Text-to-Speech Manager"
 msgstr "KDE-Sprachausgabeverwaltung"
 
-#: jovie/jovietrayicon.cpp:72
+#: jovie/jovietrayicon.cpp:75
 msgid "&Stop/Delete"
 msgstr "&Stopp/Löschen"
 
-#: jovie/jovietrayicon.cpp:78
+#: jovie/jovietrayicon.cpp:81
 msgid "&Pause"
 msgstr "&Anhalten"
 
-#: jovie/jovietrayicon.cpp:84
+#: jovie/jovietrayicon.cpp:87
 msgid "&Resume"
 msgstr "&Fortfahren"
 
-#: jovie/jovietrayicon.cpp:90
+#: jovie/jovietrayicon.cpp:93
 msgid "R&epeat"
 msgstr "&Wiederholen"
 
-#: jovie/jovietrayicon.cpp:99
+#: jovie/jovietrayicon.cpp:102
 msgid "Spea&k Clipboard Contents"
 msgstr "&Inhalt der Zwischenablage vorsprechen"
 
@@ -727,7 +771,7 @@ msgstr "Jeremy Whiting"
 msgid "Current Maintainer"
 msgstr "Aktueller Betreuer"
 
-#: jovie/main.cpp:44 kcmkttsmgr/kcmkttsmgr.cpp:677
+#: jovie/main.cpp:44 kcmkttsmgr/kcmkttsmgr.cpp:674
 msgid "José Pablo Ezequiel Fernández"
 msgstr "José Pablo Ezequiel Fernández"
 
@@ -744,15 +788,15 @@ msgid "Gunnar Schmi Dt"
 msgstr "Gunnar Schmi Dt"
 
 #: jovie/main.cpp:46 jovie/main.cpp:47 jovie/main.cpp:48 jovie/main.cpp:49
-#: kcmkttsmgr/kcmkttsmgr.cpp:679 kcmkttsmgr/kcmkttsmgr.cpp:680
+#: kcmkttsmgr/kcmkttsmgr.cpp:676 kcmkttsmgr/kcmkttsmgr.cpp:677
 msgid "Contributor"
 msgstr "Beiträge"
 
-#: jovie/main.cpp:47 kcmkttsmgr/kcmkttsmgr.cpp:679
+#: jovie/main.cpp:47 kcmkttsmgr/kcmkttsmgr.cpp:676
 msgid "Olaf Schmidt"
 msgstr "Olaf Schmidt"
 
-#: jovie/main.cpp:48 kcmkttsmgr/kcmkttsmgr.cpp:680
+#: jovie/main.cpp:48 kcmkttsmgr/kcmkttsmgr.cpp:677
 msgid "Paul Giannaros"
 msgstr "Paul Giannaros"
 
@@ -776,11 +820,11 @@ msgstr "David Powell"
 msgid "Add Talker"
 msgstr "Sprecher hinzufügen"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:184 kcmkttsmgr/kcmkttsmgr.cpp:804
+#: kcmkttsmgr/kcmkttsmgr.cpp:181 kcmkttsmgr/kcmkttsmgr.cpp:801
 msgid "Filter"
 msgstr "Filter"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:623
+#: kcmkttsmgr/kcmkttsmgr.cpp:620
 msgid ""
 "You have made changes to the configuration but have not saved them yet.  "
 "Click Apply to save the changes or Cancel to abandon the changes."
@@ -789,7 +833,7 @@ msgstr ""
 "gespeichert. Klicken Sie auf „Anwenden“, um die Änderungen zu übernehmen "
 "oder „Abbrechen“, um die Änderungen zu verwerfen."
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:664
+#: kcmkttsmgr/kcmkttsmgr.cpp:661
 msgid ""
 "<h1>Text-to-Speech</h1><p>This is the configuration for the text-to-speech D-"
 "Bus service</p><p>This allows other applications to access text-to-speech "
@@ -802,42 +846,42 @@ msgstr ""
 "Sie eine Standardsprache für die von Ihnen verwendete Sprache einrichten, da "
 "diese von den meisten Anwendungen benutzt werden wird.</p>"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:673
+#: kcmkttsmgr/kcmkttsmgr.cpp:670
 msgid "jovie"
 msgstr "Jovie"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:673
+#: kcmkttsmgr/kcmkttsmgr.cpp:670
 msgid "KCMKttsMgr"
 msgstr "KCMKttsMgr"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:675
+#: kcmkttsmgr/kcmkttsmgr.cpp:672
 msgid "(c) 2010, Jeremy Whiting"
 msgstr "© 2010, Jeremy Whiting"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:677
+#: kcmkttsmgr/kcmkttsmgr.cpp:674
 msgid "Author"
 msgstr "Autor"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:803
+#: kcmkttsmgr/kcmkttsmgr.cpp:800
 msgid "Select Filter"
 msgstr "Filter auswählen"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, kttsjobmgr)
-#: kcmkttsmgr/kcmkttsmgr.cpp:1098 kcmkttsmgr/kttsjobmgr.ui:14
+#: kcmkttsmgr/kcmkttsmgr.cpp:1095 kcmkttsmgr/kttsjobmgr.ui:14
 msgid "Jobs"
 msgstr "Aufträge"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:1120
+#: kcmkttsmgr/kcmkttsmgr.cpp:1117
 #, kde-format
 msgid "Jovie Version: %1"
 msgstr "Jovie-Version: %1"
 
 #. i18n: ectx: property (text), widget (QLabel, kttsdVersion)
-#: kcmkttsmgr/kcmkttsmgr.cpp:1160 kcmkttsmgr/kcmkttsmgrwidget.ui:40
+#: kcmkttsmgr/kcmkttsmgr.cpp:1157 kcmkttsmgr/kcmkttsmgrwidget.ui:40
 msgid "Jovie not running"
 msgstr "Jovie läuft nicht"
 
-#: kcmkttsmgr/kcmkttsmgr.cpp:1269
+#: kcmkttsmgr/kcmkttsmgr.cpp:1266
 msgid "Filter Configuration"
 msgstr "Filter-Einrichtung"
 
@@ -1035,198 +1079,195 @@ msgid "Spea&k File"
 msgstr "&Datei vorsprechen"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: kcmkttsmgr/talkerwidget.ui:21
+#: kcmkttsmgr/talkerwidget.ui:18
 msgid "&Name"
 msgstr "&Name"
 
 #. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
-#: kcmkttsmgr/talkerwidget.ui:68 libkttsd/selectlanguagedlg.cpp:56
-#: libkttsd/talkerlistmodel.cpp:132
-msgid "Language"
-msgstr "Sprache"
-
-#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
-#: kcmkttsmgr/talkerwidget.ui:73 libkttsd/talkerlistmodel.cpp:133
+#: kcmkttsmgr/talkerwidget.ui:70 libkttsd/talkerlistmodel.cpp:138
 msgid "Synthesizer"
 msgstr "Synthesizer"
 
 #. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
-#: kcmkttsmgr/talkerwidget.ui:78
+#: kcmkttsmgr/talkerwidget.ui:75
 msgid "Voice Name"
 msgstr "Stimmenname"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcmkttsmgr/talkerwidget.ui:86
+#: kcmkttsmgr/talkerwidget.ui:87
 msgid "Voice &Type"
 msgstr "Stimm&typ"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:97
+#: kcmkttsmgr/talkerwidget.ui:104
 msgid "Male 1"
 msgstr "Männlich 1"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:102 libkttsd/talkercode.cpp:252
+#: kcmkttsmgr/talkerwidget.ui:109 libkttsd/talkercode.cpp:317
 msgid "Male 2"
 msgstr "Männlich 2"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:107 libkttsd/talkercode.cpp:253
+#: kcmkttsmgr/talkerwidget.ui:114 libkttsd/talkercode.cpp:318
 msgid "Male 3"
 msgstr "Männlich 3"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:112
+#: kcmkttsmgr/talkerwidget.ui:119
 msgid "Female 1"
 msgstr "Weiblich 1"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:117 libkttsd/talkercode.cpp:255
+#: kcmkttsmgr/talkerwidget.ui:124 libkttsd/talkercode.cpp:320
 msgid "Female 2"
 msgstr "Weiblich 2"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:122 libkttsd/talkercode.cpp:256
+#: kcmkttsmgr/talkerwidget.ui:129 libkttsd/talkercode.cpp:321
 msgid "Female 3"
 msgstr "Weiblich 3"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:127
+#: kcmkttsmgr/talkerwidget.ui:134
 msgid "Male Child"
 msgstr "Junge"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
-#: kcmkttsmgr/talkerwidget.ui:132
+#: kcmkttsmgr/talkerwidget.ui:139
 msgid "Female Child"
 msgstr "Mädchen"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcmkttsmgr/talkerwidget.ui:164 libkttsd/talkerlistmodel.cpp:143
+msgid "Punctuation"
+msgstr "Interpunktion"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, punctuationComboBox)
+#: kcmkttsmgr/talkerwidget.ui:174
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600; font-style:italic; "
+"text-decoration: underline;\">All</span> means speak all punctuation "
+"characters.</p><p><span style=\" font-weight:600; font-style:italic; text-"
+"decoration: underline;\">None</span> means speak no punctuation characters.</"
+"p><p><span style=\" font-weight:600; font-style:italic; text-decoration: "
+"underline;\">Some</span> means speak only punctuation characters given in "
+"the speech-dispatcher configuration.</p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600; font-style:italic; "
+"text-decoration: underline;\">Alle</span> Es werden alle Interpunktions-"
+"Zeichen vorgelesen.</p><p><span style=\" font-weight:600; font-style:italic; "
+"text-decoration: underline;\">Keine</span> Es werden keine Interpunktions-"
+"Zeichen vorgelesen.</p><p><span style=\" font-weight:600; font-style:italic; "
+"text-decoration: underline;\">Einige</span>  Es werden nur Interpunktions-"
+"Zeichen vorgelesen, die in den Einstellungen für „speech-dispatcher“ "
+"angegeben sind.</p></body></html>"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, punctuationComboBox)
+#: kcmkttsmgr/talkerwidget.ui:181 libkttsd/talkercode.cpp:197
+msgid "All"
+msgstr "Alle"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, punctuationComboBox)
+#: kcmkttsmgr/talkerwidget.ui:186 libkttsd/talkercode.cpp:203
+msgid "None"
+msgstr "Keine"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, punctuationComboBox)
+#: kcmkttsmgr/talkerwidget.ui:191 libkttsd/talkercode.cpp:200
+msgid "Some"
+msgstr "Einige"
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcmkttsmgr/talkerwidget.ui:140
+#: kcmkttsmgr/talkerwidget.ui:203
 msgid "&Speed"
 msgstr "&Geschwindigkeit"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: kcmkttsmgr/talkerwidget.ui:186
+#: kcmkttsmgr/talkerwidget.ui:249
 msgid "&Pitch"
 msgstr "&Tonlage"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kcmkttsmgr/talkerwidget.ui:232
+#: kcmkttsmgr/talkerwidget.ui:295
 msgid "&Volume"
 msgstr "&Lautstärke"
 
-#: libkttsd/selectlanguagedlg.cpp:57
-msgid "Code"
-msgstr "Code"
-
-#: libkttsd/selectlanguagedlg.h:66
-msgid "Select Language"
-msgstr "Sprache auswählen"
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, useDefaultRadioButton)
-#: libkttsd/selecttalkerwidget.ui:58
-msgid ""
-"When checked, will use the default Talker, which is the topmost Talker "
-"listed in the Talkers tab."
-msgstr ""
-"Ist diese Einstellung markiert, wird der Standardsprecher benutzt. Dies ist "
-"der auf der Karteikarte Sprecher zuerst in der Liste aufgeführte Sprecher."
-
-#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRadioButton)
-#: libkttsd/selecttalkerwidget.ui:61
-msgid "&Use default Talker"
-msgstr "&Standardsprecher verwenden"
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, useSpecificTalkerRadioButton)
-#: libkttsd/selecttalkerwidget.ui:68
-msgid ""
-"When checked, will use the specific Talker (if it is still configured), "
-"otherwise the Talker most closely matching."
-msgstr ""
-"Ist diese Einstellung markiert, wird der ausgewählte Sprecher verwendet "
-"(sofern er noch eingerichtet ist), anderenfalls der Sprecher, der diesem am "
-"ehesten entspricht."
-
-#. i18n: ectx: property (text), widget (QRadioButton, useSpecificTalkerRadioButton)
-#: libkttsd/selecttalkerwidget.ui:71
-msgid "Use specific &Talker"
-msgstr "&Sprecherauswahl"
-
-#: libkttsd/talkercode.cpp:243
+#: libkttsd/talkercode.cpp:308
 msgctxt "Default language code"
 msgid "default"
 msgstr "Standard"
 
-#: libkttsd/talkercode.cpp:251
+#: libkttsd/talkercode.cpp:316
 msgctxt "The name of the first Male voice"
 msgid "Male 1"
 msgstr "Männlich 1"
 
-#: libkttsd/talkercode.cpp:254
+#: libkttsd/talkercode.cpp:319
 msgctxt "The name of the first Female voice"
 msgid "Female 1"
 msgstr "Weiblich 1"
 
-#: libkttsd/talkercode.cpp:257
+#: libkttsd/talkercode.cpp:322
 msgctxt "The name of the male child voice"
 msgid "Boy"
 msgstr "Junge"
 
-#: libkttsd/talkercode.cpp:258
+#: libkttsd/talkercode.cpp:323
 msgctxt "The name of the female child voice"
 msgid "Girl"
 msgstr "Mädchen"
 
-#: libkttsd/talkercode.cpp:260
+#: libkttsd/talkercode.cpp:325
 msgctxt ""
 "Somehow user has gotten a voice type that is not valid, i.e. not Male1, "
 "Male2, etc."
 msgid "Invalid voice type"
 msgstr "Ungültiger Stimmtyp"
 
-#: libkttsd/talkercode.cpp:288
+#: libkttsd/talkercode.cpp:353
 msgctxt "Other language"
 msgid "Other"
 msgstr "Weitere"
 
-#: libkttsd/talkercode.cpp:298
+#: libkttsd/talkercode.cpp:363
 msgctxt "full country name"
 msgid "United States of America"
 msgstr "Vereinigte Staaten von Amerika"
 
-#: libkttsd/talkercode.cpp:299
+#: libkttsd/talkercode.cpp:364
 msgctxt "abbreviated country name"
 msgid "USA"
 msgstr "USA"
 
-#: libkttsd/talkercode.cpp:300
+#: libkttsd/talkercode.cpp:365
 msgctxt "full country name"
 msgid "United Kingdom"
 msgstr "Vereinigtes Königreich"
 
-#: libkttsd/talkercode.cpp:301
+#: libkttsd/talkercode.cpp:366
 msgctxt "abbreviated country name"
 msgid "UK"
 msgstr "UK"
 
-#: libkttsd/talkerlistmodel.cpp:131
+#: libkttsd/talkerlistmodel.cpp:136
 msgid "Name"
 msgstr "Name"
 
-#: libkttsd/talkerlistmodel.cpp:134
+#: libkttsd/talkerlistmodel.cpp:139
 msgid "Voice Type"
 msgstr "Stimmtyp"
 
-#: libkttsd/talkerlistmodel.cpp:135
+#: libkttsd/talkerlistmodel.cpp:140
 msgctxt "Volume of noise"
 msgid "Volume"
 msgstr "Lautstärke"
 
-#: libkttsd/talkerlistmodel.cpp:136
+#: libkttsd/talkerlistmodel.cpp:141
 msgid "Speed"
 msgstr "Geschwindigkeit"
 
-#: libkttsd/talkerlistmodel.cpp:137
+#: libkttsd/talkerlistmodel.cpp:142
 msgid "Pitch"
 msgstr "Tonlage"
 
@@ -1371,13 +1412,6 @@ msgstr "Tonlage"
 #~ msgctxt "The state is unknown"
 #~ msgid "Unknown"
 #~ msgstr "Unbekannt"
-
-#, fuzzy
-#~| msgctxt "Job priorty: All"
-#~| msgid "All"
-#~ msgctxt "Job priority: All"
-#~ msgid "All"
-#~ msgstr "Alle"
 
 #~ msgid "Screen Reader"
 #~ msgstr "Bildschirmleseprogramm"
@@ -1820,9 +1854,6 @@ msgstr "Tonlage"
 
 #~ msgid "Co&nfigure"
 #~ msgstr "Einrich&ten"
-
-#~ msgid "Interruption"
-#~ msgstr "Unterbrechung"
 
 #~ msgid ""
 #~ "Check the Pre-sound box and choose a Pre-sound audio file, which will "

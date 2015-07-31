@@ -1,14 +1,14 @@
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2008, 2009.
 # Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013, 2014.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
-# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2013, 2014.
 # Benjamin Weis <benjamin.weis@gmx.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwalletd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-13 01:47+0000\n"
-"PO-Revision-Date: 2014-01-16 07:12+0100\n"
+"POT-Creation-Date: 2015-01-11 05:49+0000\n"
+"PO-Revision-Date: 2014-09-05 10:44+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -26,7 +26,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tr@erdfunkstelle.de"
 
-#: backend/backendpersisthandler.cpp:501
+#: backend/backendpersisthandler.cpp:512
 #, kde-format
 msgid ""
 "<qt>Error when attempting to initialize OpenPGP while attempting to save the "
@@ -37,7 +37,7 @@ msgstr ""
 "initialisieren <b>%1</b>. Der Fehlercode lautet <b>%2</b>. Bitte korrigieren "
 "Sie Ihre Systemeinrichtung und versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:509
+#: backend/backendpersisthandler.cpp:520
 #, kde-format
 msgid ""
 "<qt>Error when attempting to initialize OpenPGP while attempting to save the "
@@ -47,7 +47,7 @@ msgstr ""
 "initialisieren <b>%1</b>. Bitte korrigieren Sie Ihre Systemeinrichtung und "
 "versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:560
+#: backend/backendpersisthandler.cpp:571
 #, kde-format
 msgid ""
 "<qt>Encryption error while attempting to save the wallet <b>%1</b>. Error "
@@ -58,7 +58,7 @@ msgstr ""
 "%1</b>. Der Fehlercode lautet <b>%2 (%3)</b>. Bitte korrigieren Sie Ihre "
 "Systemeinrichtung und versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:572
+#: backend/backendpersisthandler.cpp:583
 #, kde-format
 msgid ""
 "<qt>File handling error while attempting to save the wallet <b>%1</b>. Error "
@@ -68,7 +68,7 @@ msgstr ""
 "speichern <b>%1</b>. Der Fehler lautet <b>%2</b>. Bitte korrigieren Sie Ihre "
 "Systemeinrichtung und versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:585
+#: backend/backendpersisthandler.cpp:596
 #, kde-format
 msgid ""
 "<qt>Error when attempting to initialize OpenPGP while attempting to open the "
@@ -79,21 +79,21 @@ msgstr ""
 "initialisieren <b>%1</b>. Der Fehlercode lautet <b>%2</b>. Bitte korrigieren "
 "Sie Ihre Systemeinrichtung und versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:603
+#: backend/backendpersisthandler.cpp:614
 #, kde-format
 msgid ""
 "<qt>Error when attempting to initialize OpenPGP while attempting to open the "
 "wallet <b>%1</b>. Please fix your system configuration, then try again!</qt>"
 msgstr ""
-"<qt>Fehler beim Versuch OpenPGP für das Öffnen des Passwortspeicher zu "
+"<qt>Fehler beim Versuch OpenPGP für das Öffnen des Passwortspeichers zu "
 "initialisieren <b>%1</b>. Bitte korrigieren Sie Ihre Systemeinrichtung und "
 "versuchen es dann erneut.</qt>"
 
-#: backend/backendpersisthandler.cpp:613
+#: backend/backendpersisthandler.cpp:624
 msgid "Retry"
 msgstr "Erneut versuchen"
 
-#: backend/backendpersisthandler.cpp:615
+#: backend/backendpersisthandler.cpp:626
 #, kde-format
 msgid ""
 "<qt>Error when attempting to decrypt the wallet <b>%1</b> using GPG. If "
@@ -105,11 +105,11 @@ msgstr ""
 "richtig eingesteckt ist und versuchen es erneut.<br><br>Die GPG-"
 "Fehlermeldung lautet <b>%2</b></qt>"
 
-#: backend/backendpersisthandler.cpp:616
+#: backend/backendpersisthandler.cpp:627
 msgid "kwalletd GPG backend"
 msgstr "GPG-Backend für KWalletd"
 
-#: backend/backendpersisthandler.cpp:660
+#: backend/backendpersisthandler.cpp:671
 #, kde-format
 msgid ""
 "<qt>Error when attempting to open the wallet <b>%1</b>. The wallet was "
@@ -239,18 +239,28 @@ msgstr ""
 msgid "Please select the signing key from the list below:"
 msgstr "Bitte wählen Sie den Schlüssel zum Signieren aus der folgenden Liste:"
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: knewwalletdialoggpg.ui:24
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">NOTE:</span> this "
+"list shows only \"ultimate-level\" trusted keys</p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Hinweis:</span> "
+"Diese Liste enthält nur \"sehr\" vertrauenswürdige Schlüssel</p></body></"
+"html>"
+
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
-#: knewwalletdialoggpg.ui:52
+#: knewwalletdialoggpg.ui:59
 msgid "Name"
 msgstr "Name"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
-#: knewwalletdialoggpg.ui:57
+#: knewwalletdialoggpg.ui:64
 msgid "E-Mail"
 msgstr "E-Mail"
 
 #. i18n: ectx: property (text), widget (QTableWidget, listCertificates)
-#: knewwalletdialoggpg.ui:62
+#: knewwalletdialoggpg.ui:69
 msgid "Key-ID"
 msgstr "Schlüssel-Kennung"
 
@@ -307,7 +317,7 @@ msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
-"<qt>Das Programm „<b>%1</b>“ hat die Öffnung des Passwortspeicher „<b>%2</"
+"<qt>Das Programm „<b>%1</b>“ hat die Öffnung des Passwortspeichers „<b>%2</"
 "b>“ angefordert. Bitte geben Sie unten das Passwort dafür ein.</qt>"
 
 #: kwalletd.cpp:537
@@ -420,7 +430,7 @@ msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
-"Das Öffnen des Passwortspeicher ist nicht möglich. Die Öffnung muss "
+"Das Öffnen des Passwortspeichers ist nicht möglich. Die Öffnung muss "
 "erfolgen, um das Passwort ändern zu können."
 
 #: kwalletd.cpp:842
@@ -509,7 +519,8 @@ msgid ""
 "securely encrypt data on disk. The key must be available when decrypting is "
 "needed or your wallet will not be accessible. For example, if you choose a "
 "SmartCard-based encryption key, the GPG system will prompt you to enter it "
-"and its associated PIN when attempting to open the wallet.</p></body></html>"
+"and its associated PIN when attempting to open the wallet. <b>NOTE:</b> only "
+"\"ultimate-level\" trusted keys are shown in this list.</p></body></html>"
 msgstr ""
 "<html><head/><body><p>Der Passwortspeicher mit GPG-Verschlüsselung benutzt "
 "einen GPG-Schlüssel, um Daten sicher auf der Festplatte zu verschlüsseln. "
@@ -517,7 +528,8 @@ msgstr ""
 "wird, ansonsten haben Sie keinen Zugriff auf Ihren Passwortspeicher. "
 "Verwenden Sie zum Beispiel einen Schlüssel auf einer Chipkarte, benötigen "
 "Sie diese Chipkarte und die zugehörige PIN, um den Passwortspeicher zu "
-"öffnen.</p></body></html>"
+"öffnen. <b>Hinweis:</b> Diese Liste enthält nur \"sehr\" vertrauenswürdige "
+"Schlüssel</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kwalletwizardpagegpgkey.ui:39

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-06 01:30+0000\n"
+"POT-Creation-Date: 2014-10-30 01:30+0000\n"
 "PO-Revision-Date: 2014-04-11 21:51+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -62,37 +62,37 @@ msgstr "Sie können Ordner nicht auf sich selbst verschieben."
 msgid "File name for dropped contents:"
 msgstr "Dateiname für abgelegte Inhalte:"
 
-#: konq_operations.cpp:569
+#: konq_operations.cpp:579
 msgid "&Move Here"
 msgstr "Hierher &verschieben"
 
-#: konq_operations.cpp:573
+#: konq_operations.cpp:583
 msgid "&Copy Here"
 msgstr "Hierher &kopieren"
 
-#: konq_operations.cpp:577
+#: konq_operations.cpp:587
 msgid "&Link Here"
 msgstr "Hiermit &verknüpfen"
 
-#: konq_operations.cpp:579
+#: konq_operations.cpp:589
 msgid "Set as &Wallpaper"
 msgstr "Als &Hintergrundbild verwenden"
 
-#: konq_operations.cpp:581
+#: konq_operations.cpp:591
 msgid "C&ancel"
 msgstr "&Abbrechen"
 
-#: konq_operations.cpp:910
+#: konq_operations.cpp:920
 msgctxt "@action:button"
 msgid "Create directory"
 msgstr "Ordner erstellen"
 
-#: konq_operations.cpp:912
+#: konq_operations.cpp:922
 msgctxt "@action:button"
 msgid "Enter a different name"
 msgstr "Einen anderen Namen eingeben"
 
-#: konq_operations.cpp:915
+#: konq_operations.cpp:925
 #, kde-format
 msgid ""
 "The name \"%1\" starts with a dot, so the directory will be hidden by "
@@ -100,37 +100,37 @@ msgid ""
 msgstr ""
 "Der Name „%1“ beginnt mit einem Punkt, daher wird der Ordner versteckt sein."
 
-#: konq_operations.cpp:916
+#: konq_operations.cpp:926
 msgctxt "@title:window"
 msgid "Create hidden directory?"
 msgstr "Versteckten Ordner erstellen?"
 
-#: konq_operations.cpp:931
+#: konq_operations.cpp:941
 msgctxt "@label Default name when creating a folder"
 msgid "New Folder"
 msgstr "Neuer Ordner"
 
-#: konq_operations.cpp:938
+#: konq_operations.cpp:948
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Neuer Ordner"
 
-#: konq_operations.cpp:939
+#: konq_operations.cpp:949
 msgctxt "@label:textbox"
 msgid "Enter folder name:"
 msgstr "Ordnernamen eingeben:"
 
-#: konq_operations.cpp:1043
+#: konq_operations.cpp:1062
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "Einen Ordner einfügen"
 
-#: konq_operations.cpp:1044
+#: konq_operations.cpp:1063
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "Eine Datei einfügen"
 
-#: konq_operations.cpp:1047
+#: konq_operations.cpp:1066
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -138,12 +138,12 @@ msgid_plural "Paste %1 Items"
 msgstr[0] "Ein Element einfügen"
 msgstr[1] "%1 Elemente einfügen"
 
-#: konq_operations.cpp:1049
+#: konq_operations.cpp:1068
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents..."
 msgstr "Inhalt der Zwischenablage einfügen ..."
 
-#: konq_operations.cpp:1053
+#: konq_operations.cpp:1072
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "Einfügen"

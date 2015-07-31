@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_audiocd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:10+0200\n"
+"POT-Creation-Date: 2014-08-07 01:43+0000\n"
 "PO-Revision-Date: 2010-04-29 13:18+0200\n"
 "Last-Translator: Panagiotis Papadopoulos <pano_90@gmx.net>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -59,7 +59,7 @@ msgstr ""
 "Bei diesem Protokoll ist eine Serverangabe nicht möglich. Bitte benutzen Sie "
 "dafür das Format „audiocd:/“."
 
-#: audiocd.cpp:786
+#: audiocd.cpp:819
 msgid ""
 "Device does not have read permissions for this account.  Check the read "
 "permissions on the device."
@@ -67,7 +67,7 @@ msgstr ""
 "Sie haben nicht die nötigen Rechte zum Lesen von diesem Gerät. Bitte prüfen "
 "Sie die Leserechte für dieses Gerät."
 
-#: audiocd.cpp:788
+#: audiocd.cpp:821
 msgid ""
 "Device does not have write permissions for this account.  Check the write "
 "permissions on the device."
@@ -75,7 +75,7 @@ msgstr ""
 "Sie haben nicht die nötigen Rechte zum Schreiben auf das Gerät. Bitte prüfen "
 "Sie die Schreibrechte für das Gerät."
 
-#: audiocd.cpp:792
+#: audiocd.cpp:825
 msgid ""
 "Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
 "yourself (not root). Do you see a track list? If not, make sure you have "
@@ -97,23 +97,23 @@ msgstr ""
 "audiocd:/?device=/dev/sg0 (mit dem passenden Gerät) dem Ein-/Ausgabemodul "
 "für Audio-CDs Ihr Gerät bekannt zu machen."
 
-#: audiocd.cpp:866
+#: audiocd.cpp:899
 msgid "AudioCD: Disk damage detected on this track, risk of data corruption."
 msgstr ""
 "AudioCD: Das Medium ist offenbar beschädigt. Die geschriebenen Daten könnten "
 "fehlerhaft sein."
 
-#: audiocd.cpp:872
+#: audiocd.cpp:905
 #, kde-format
 msgid "Error reading audio data for %1 from the CD"
 msgstr "Beim Lesen der Audiodaten von CD für %1 ist ein Fehler aufgetreten."
 
-#: audiocd.cpp:882 audiocd.cpp:960
+#: audiocd.cpp:915 audiocd.cpp:993
 #, kde-format
 msgid "Could not read %1: encoding failed"
 msgstr "%1 kann nicht gelesen werden: Die Kodierung ist fehlgeschlagen"
 
-#: audiocd.cpp:1093
+#: audiocd.cpp:1123
 #, kde-format
 msgid "Track %1"
 msgstr "Stück %1"

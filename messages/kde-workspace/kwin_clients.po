@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-12-18 05:19+0000\n"
-"PO-Revision-Date: 2014-01-31 08:23+0100\n"
+"PO-Revision-Date: 2014-12-28 15:28+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -282,11 +282,11 @@ msgstr "Animationen"
 
 #: oxygen/config/oxygenexceptionlistwidget.cpp:190
 msgid "Remove selected exception?"
-msgstr "Ausgewählte Auswahl entfernen?"
+msgstr "Ausgewählte Ausnahme entfernen?"
 
 #: oxygen/config/oxygenexceptionlistwidget.cpp:331
 msgid "Regular Expression syntax is incorrect"
-msgstr "Die Syntax des regulären Ausdrucks ist korrekt."
+msgstr "Die Syntax des regulären Ausdrucks ist nicht korrekt."
 
 #: oxygen/config/oxygenexceptionmodel.cpp:35
 msgid "Exception Type"

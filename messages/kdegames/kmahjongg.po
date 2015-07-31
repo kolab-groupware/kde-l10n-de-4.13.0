@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-12 01:38+0000\n"
+"POT-Creation-Date: 2014-12-24 05:13+0000\n"
 "PO-Revision-Date: 2013-11-16 14:57+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -29,48 +29,48 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "swinter@kde.org"
 
-#: boardwidget.cpp:483
+#: boardwidget.cpp:487
 msgid "Undo operation done successfully."
 msgstr "Zug wurde rückgängig gemacht."
 
-#: boardwidget.cpp:487
+#: boardwidget.cpp:491
 msgid "What do you want to undo? You have done nothing!"
 msgstr ""
 "Was möchten Sie rückgängig machen? Sie haben doch noch gar nichts getan!"
 
-#: boardwidget.cpp:504
+#: boardwidget.cpp:508
 msgid "Sorry, you have lost the game."
 msgstr "Sie haben das Spiel verloren."
 
-#: boardwidget.cpp:544
+#: boardwidget.cpp:548
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Demomodus. Klicken Sie eine Maustaste, um zu stoppen."
 
-#: boardwidget.cpp:553
+#: boardwidget.cpp:557
 msgid "Now it is you again."
 msgstr "Jetzt sind Sie wieder dran."
 
-#: boardwidget.cpp:569
+#: boardwidget.cpp:573
 msgid "Your computer has lost the game."
 msgstr "Ihr Rechner hat das Spiel verloren."
 
-#: boardwidget.cpp:669
+#: boardwidget.cpp:673
 msgid "Congratulations. You have won!"
 msgstr "Gratulation. Sie haben gewonnen!"
 
-#: boardwidget.cpp:730
+#: boardwidget.cpp:734
 msgid "Calculating new game..."
 msgstr "Neues Spiel wird berechnet ..."
 
-#: boardwidget.cpp:733
+#: boardwidget.cpp:737
 msgid "Error converting board information!"
 msgstr "Fehler beim Konvertieren der Spielfeldinformationen!"
 
-#: boardwidget.cpp:758
+#: boardwidget.cpp:762
 msgid "Ready. Now it is your turn."
 msgstr "Fertig. Sie sind dran."
 
-#: boardwidget.cpp:767
+#: boardwidget.cpp:771
 msgid "Error generating new game!"
 msgstr "Fehler beim Erstellen des Spiels!"
 
@@ -163,7 +163,7 @@ msgstr "Sie können nur mit einer geraden Anzahl Steine abspeichern."
 msgid "Save Board Layout"
 msgstr "Spielfeldaufbau speichern"
 
-#: Editor.cpp:394 kmahjongg.cpp:564
+#: Editor.cpp:394 kmahjongg.cpp:565
 msgid "Only saving to local files currently supported."
 msgstr "Im Moment wird nur das Speichern in lokale Dateien unterstützt."
 
@@ -267,41 +267,41 @@ msgstr "Allgemein"
 msgid "Board Layout"
 msgstr "Spielfeldaufbau"
 
-#: kmahjongg.cpp:359
+#: kmahjongg.cpp:360
 msgid "You have won!"
 msgstr "Sie haben gewonnen!"
 
-#: kmahjongg.cpp:406
+#: kmahjongg.cpp:407
 #, kde-format
 msgid "Game number: %1"
 msgstr "Spielnummer: %1"
 
-#: kmahjongg.cpp:414
+#: kmahjongg.cpp:415
 #, kde-format
 msgid "Removed: %1/%2  Combinations left: %3"
 msgstr "Entfernt: %1 / %2 Restliche Paare: %3"
 
-#: kmahjongg.cpp:477
+#: kmahjongg.cpp:478
 msgid "Load Game"
 msgstr "Spiel laden"
 
-#: kmahjongg.cpp:489
+#: kmahjongg.cpp:490
 msgid "Could not read from file. Aborting."
 msgstr "Datei kann nicht gelesen werden. Abbruch."
 
-#: kmahjongg.cpp:500
+#: kmahjongg.cpp:501
 msgid "File is not a KMahjongg game."
 msgstr "Die Datei ist kein KMahjongg Spiel."
 
-#: kmahjongg.cpp:513
+#: kmahjongg.cpp:514
 msgid "File format not recognized."
 msgstr "Unbekanntes Dateiformat."
 
-#: kmahjongg.cpp:555
+#: kmahjongg.cpp:556
 msgid "Save Game"
 msgstr "Spiel speichern"
 
-#: kmahjongg.cpp:573
+#: kmahjongg.cpp:574
 msgid "Could not write saved game."
 msgstr "In Datei kann nicht geschrieben werden."
 

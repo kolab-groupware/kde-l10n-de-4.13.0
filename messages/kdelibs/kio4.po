@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-02 05:56+0000\n"
+"POT-Creation-Date: 2014-11-11 06:49+0000\n"
 "PO-Revision-Date: 2014-02-15 10:48+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -997,12 +997,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5374
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5368
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Für diesen Rechner müssen Sie einen Benutzernamen und ein Passwort angeben."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5376
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5370
 msgid "Site:"
 msgstr "Rechner:"
 
@@ -1020,8 +1020,8 @@ msgstr "Anmeldung erfolgt"
 msgid "Could not login to %1."
 msgstr "Anmeldung nicht möglich auf %1"
 
-#: ../kioslave/ftp/ftp.cpp:2632 ../kioslave/http/http.cpp:5264
-#: ../kioslave/http/http.cpp:5386
+#: ../kioslave/ftp/ftp.cpp:2639 ../kioslave/http/http.cpp:5258
+#: ../kioslave/http/http.cpp:5380
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -1029,101 +1029,101 @@ msgstr ""
 "Sie müssen für den unten angegebenen Proxy-Server einen Benutzernamen und "
 "ein Passwort angeben, bevor Sie auf Adressen zugreifen können."
 
-#: ../kioslave/ftp/ftp.cpp:2636 ../kioslave/http/http.cpp:5268
-#: ../kioslave/http/http.cpp:5389
+#: ../kioslave/ftp/ftp.cpp:2643 ../kioslave/http/http.cpp:5262
+#: ../kioslave/http/http.cpp:5383
 msgid "Proxy:"
 msgstr "Proxy:"
 
-#: ../kioslave/ftp/ftp.cpp:2637 ../kioslave/http/http.cpp:5269
-#: ../kioslave/http/http.cpp:5469
+#: ../kioslave/ftp/ftp.cpp:2644 ../kioslave/http/http.cpp:5263
+#: ../kioslave/http/http.cpp:5463
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> auf <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2638 ../kioslave/http/http.cpp:5271
-#: ../kioslave/http/http.cpp:5406
+#: ../kioslave/ftp/ftp.cpp:2645 ../kioslave/http/http.cpp:5265
+#: ../kioslave/http/http.cpp:5400
 msgid "Proxy Authentication Failed."
 msgstr "Proxy-Authentifizierung fehlgeschlagen"
 
-#: ../kioslave/http/http.cpp:648
+#: ../kioslave/http/http.cpp:658
 msgid "No host specified."
 msgstr "Kein Rechner angegeben"
 
-#: ../kioslave/http/http.cpp:1607
+#: ../kioslave/http/http.cpp:1595
 msgid "Otherwise, the request would have succeeded."
 msgstr "Anderenfalls wäre die Anforderung erfolgreich abgeschlossen worden."
 
-#: ../kioslave/http/http.cpp:1611
+#: ../kioslave/http/http.cpp:1599
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "Werte für Eigenschaften abfragen"
 
-#: ../kioslave/http/http.cpp:1614
+#: ../kioslave/http/http.cpp:1602
 msgctxt "request type"
 msgid "set property values"
 msgstr "Werte für Eigenschaften festlegen"
 
-#: ../kioslave/http/http.cpp:1617
+#: ../kioslave/http/http.cpp:1605
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "angegebenen Ordner erstellen"
 
-#: ../kioslave/http/http.cpp:1620
+#: ../kioslave/http/http.cpp:1608
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "Angegebene Datei/Ordner kopieren"
 
-#: ../kioslave/http/http.cpp:1623
+#: ../kioslave/http/http.cpp:1611
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "angegebene Datei/Ordner verschieben"
 
-#: ../kioslave/http/http.cpp:1626
+#: ../kioslave/http/http.cpp:1614
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "im angegebenen Ordner suchen"
 
-#: ../kioslave/http/http.cpp:1629
+#: ../kioslave/http/http.cpp:1617
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "angegebene Datei/Ordner sperren"
 
-#: ../kioslave/http/http.cpp:1632
+#: ../kioslave/http/http.cpp:1620
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "Sperrung für angegebenen Ordner/Datei aufheben"
 
-#: ../kioslave/http/http.cpp:1635
+#: ../kioslave/http/http.cpp:1623
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "angegebene Datei(en) oder Ordner löschen"
 
-#: ../kioslave/http/http.cpp:1638
+#: ../kioslave/http/http.cpp:1626
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "Server-Eigenschaften abfragen"
 
-#: ../kioslave/http/http.cpp:1641
+#: ../kioslave/http/http.cpp:1629
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "Inhalt der angegebenen Datei/des Ordners übernehmen"
 
-#: ../kioslave/http/http.cpp:1644
+#: ../kioslave/http/http.cpp:1632
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "Einen Bericht im angegebenen Ordner ausführen"
 
-#: ../kioslave/http/http.cpp:1655
+#: ../kioslave/http/http.cpp:1643
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Bei der Aktion „%2“ ist der unerwartete Fehler %1 aufgetreten."
 
-#: ../kioslave/http/http.cpp:1663
+#: ../kioslave/http/http.cpp:1651
 msgid "The server does not support the WebDAV protocol."
 msgstr "Server unterstützt das WebDAV-Protokoll nicht"
 
-#: ../kioslave/http/http.cpp:1705
+#: ../kioslave/http/http.cpp:1693
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -1133,13 +1133,13 @@ msgstr ""
 "Es ist ein Fehler aufgetreten bei der Aktion „%1“, %2. Eine Zusammenfassung "
 "der Ursachen ist unten aufgeführt."
 
-#: ../kioslave/http/http.cpp:1719 ../kioslave/http/http.cpp:1851
+#: ../kioslave/http/http.cpp:1707 ../kioslave/http/http.cpp:1839
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Zugriff verweigert bei der Aktion „%1“"
 
-#: ../kioslave/http/http.cpp:1732 ../kioslave/http/http.cpp:1857
+#: ../kioslave/http/http.cpp:1720 ../kioslave/http/http.cpp:1845
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -1147,7 +1147,7 @@ msgstr ""
 "Eine Ressource lässt sich am angegebenen Bestimmungsort nicht erstellen, bis "
 "eine oder mehrere Zwischenglieder (Ordner) erstellt wurden."
 
-#: ../kioslave/http/http.cpp:1740
+#: ../kioslave/http/http.cpp:1728
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -1159,26 +1159,26 @@ msgstr ""
 "eine Datei zu überschreiben, obwohl Sie ein solches Überschreiben zuvor für "
 "unzulässig erklärt haben. %1"
 
-#: ../kioslave/http/http.cpp:1748
+#: ../kioslave/http/http.cpp:1736
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Die angeforderte Sperrung ist nicht durchführbar: %1"
 
-#: ../kioslave/http/http.cpp:1754
+#: ../kioslave/http/http.cpp:1742
 msgid "The server does not support the request type of the body."
 msgstr "Der Server unterstützt den angeforderten Typ nicht."
 
-#: ../kioslave/http/http.cpp:1759 ../kioslave/http/http.cpp:1865
+#: ../kioslave/http/http.cpp:1747 ../kioslave/http/http.cpp:1853
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Ausführung der Aktion „%1“ nicht möglich, die Ressource ist gesperrt."
 
-#: ../kioslave/http/http.cpp:1763
+#: ../kioslave/http/http.cpp:1751
 msgid "This action was prevented by another error."
 msgstr "Ausführung wurde durch einen anderen Fehler verhindert."
 
-#: ../kioslave/http/http.cpp:1769 ../kioslave/http/http.cpp:1871
+#: ../kioslave/http/http.cpp:1757 ../kioslave/http/http.cpp:1859
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -1188,7 +1188,7 @@ msgstr ""
 "Aktion „%1“ nicht möglich: Der Zielserver verweigert die Annahme der Datei "
 "oder des Ordners."
 
-#: ../kioslave/http/http.cpp:1776 ../kioslave/http/http.cpp:1878
+#: ../kioslave/http/http.cpp:1764 ../kioslave/http/http.cpp:1866
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -1196,28 +1196,28 @@ msgstr ""
 "Die Ziel-Ressource bietet nicht genug Speicherplatz, um den Status der "
 "Ressource nach Ausführung dieser Methode aufzuzeichnen."
 
-#: ../kioslave/http/http.cpp:1829
+#: ../kioslave/http/http.cpp:1817
 msgid "The resource cannot be deleted."
 msgstr "Die Ressource kann nicht gelöscht werden."
 
-#: ../kioslave/http/http.cpp:1842
+#: ../kioslave/http/http.cpp:1830
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "%1 hochladen"
 
-#: ../kioslave/http/http.cpp:1892
+#: ../kioslave/http/http.cpp:1880
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "Bei der Aktion „%2“ ist der unerwartete Fehler %1 aufgetreten."
 
-#: ../kioslave/http/http.cpp:2726
+#: ../kioslave/http/http.cpp:2714
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "Kontaktaufnahme zu %1. Warten auf Antwort ..."
 
-#: ../kioslave/http/http.cpp:3059
+#: ../kioslave/http/http.cpp:3047
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -1230,34 +1230,34 @@ msgstr ""
 "Versuch sein, Sie zu betrügen..</p><p>Möchten Sie wirklich die Seite „%1“ "
 "besuchen?</p>"
 
-#: ../kioslave/http/http.cpp:3065
+#: ../kioslave/http/http.cpp:3053
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr "Internetseitenzugriff bestätigen"
 
-#: ../kioslave/http/http.cpp:3153
+#: ../kioslave/http/http.cpp:3141
 msgid "Server processing request, please wait..."
 msgstr "Server verarbeitet die Anfrage, bitte warten Sie ..."
 
-#: ../kioslave/http/http.cpp:3865 ../kioslave/http/http.cpp:3919
+#: ../kioslave/http/http.cpp:3853 ../kioslave/http/http.cpp:3913
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Senden der Daten an %1"
 
-#: ../kioslave/http/http.cpp:4385
+#: ../kioslave/http/http.cpp:4379
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Übertragung läuft für %1 von %2 ..."
 
-#: ../kioslave/http/http.cpp:5405
+#: ../kioslave/http/http.cpp:5399
 msgid "Authentication Failed."
 msgstr "Authentifizierung fehlgeschlagen"
 
-#: ../kioslave/http/http.cpp:5502
+#: ../kioslave/http/http.cpp:5496
 msgid "Authorization failed."
 msgstr "Authentifizierung fehlgeschlagen."
 
-#: ../kioslave/http/http.cpp:5518
+#: ../kioslave/http/http.cpp:5512
 msgid "Unknown Authorization method."
 msgstr "Unbekannte Autorisierungsmethode."
 
@@ -1375,7 +1375,7 @@ msgstr "Informationen zu Cookies anzeigen oder bearbeiten"
 msgid "Cookie Details"
 msgstr "Cookie-Details"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:228 kio/kfileitem.cpp:1241
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:228 kio/kfileitem.cpp:1235
 msgid "Name:"
 msgstr "Name:"
 
@@ -2894,7 +2894,7 @@ msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "&Allgemein"
 
-#: kfile/kpropertiesdialog.cpp:940 kio/kfileitem.cpp:1242
+#: kfile/kpropertiesdialog.cpp:940 kio/kfileitem.cpp:1236
 msgid "Type:"
 msgstr "Typ:"
 
@@ -2914,7 +2914,7 @@ msgstr "Inhalt:"
 msgid "Location:"
 msgstr "Adresse:"
 
-#: kfile/kpropertiesdialog.cpp:988 kio/kfileitem.cpp:1251
+#: kfile/kpropertiesdialog.cpp:988 kio/kfileitem.cpp:1245
 msgid "Size:"
 msgstr "Größe:"
 
@@ -2938,7 +2938,7 @@ msgstr "Verweist auf:"
 msgid "Created:"
 msgstr "Erstellt:"
 
-#: kfile/kpropertiesdialog.cpp:1049 kio/kfileitem.cpp:1255
+#: kfile/kpropertiesdialog.cpp:1049 kio/kfileitem.cpp:1249
 msgid "Modified:"
 msgstr "Geändert:"
 
@@ -3376,7 +3376,7 @@ msgstr ""
 msgid "Advanced Options for %1"
 msgstr "Erweiterte Einstellungen für %1"
 
-#: kfile/kurlrequester.cpp:246
+#: kfile/kurlrequester.cpp:264
 msgid "Open file dialog"
 msgstr "Dateiauswahl"
 
@@ -3406,16 +3406,16 @@ msgstr "Datei ü&berspringen"
 msgid "Unable to create io-slave: %1"
 msgstr "Erstellung des Ein-/Ausgabemoduls nicht möglich: %1"
 
-#: kio/copyjob.cpp:1074 kio/global.cpp:679
+#: kio/copyjob.cpp:1076 kio/global.cpp:679
 msgid "Folder Already Exists"
 msgstr "Ordner existiert bereits"
 
-#: kio/copyjob.cpp:1399 kio/copyjob.cpp:1982 kio/global.cpp:669
+#: kio/copyjob.cpp:1401 kio/copyjob.cpp:1984 kio/global.cpp:669
 #: kio/job.cpp:2239 kio/paste.cpp:101
 msgid "File Already Exists"
 msgstr "Datei existiert bereits"
 
-#: kio/copyjob.cpp:1399 kio/copyjob.cpp:1982
+#: kio/copyjob.cpp:1401 kio/copyjob.cpp:1984
 msgid "Already Exists as Folder"
 msgstr "Existiert bereits als Ordner"
 
@@ -5593,31 +5593,31 @@ msgstr "Typ"
 msgid "Default"
 msgstr "Standard"
 
-#: kio/kfileitem.cpp:1203
+#: kio/kfileitem.cpp:1197
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Symbolische Verknüpfung zu %1)"
 
-#: kio/kfileitem.cpp:1205
+#: kio/kfileitem.cpp:1199
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, Verknüpfung mit %2)"
 
-#: kio/kfileitem.cpp:1209
+#: kio/kfileitem.cpp:1203
 #, kde-format
 msgid " (Points to %1)"
 msgstr "(Verweist auf %1)"
 
-#: kio/kfileitem.cpp:1246
+#: kio/kfileitem.cpp:1240
 #, kde-format
 msgid "Link to %1 (%2)"
 msgstr "Verknüpfung mit %1 (%2)"
 
-#: kio/kfileitem.cpp:1258
+#: kio/kfileitem.cpp:1252
 msgid "Owner:"
 msgstr "Eigentümer:"
 
-#: kio/kfileitem.cpp:1259
+#: kio/kfileitem.cpp:1253
 msgid "Permissions:"
 msgstr "Berechtigungen:"
 
@@ -6016,19 +6016,19 @@ msgstr "&Ja"
 msgid "&No"
 msgstr "&Nein"
 
-#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:81
+#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:822 kssl/sslui.cpp:81
 msgid "&Details"
 msgstr "&Details"
 
-#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:841 kssl/sslui.cpp:120
+#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:835 kssl/sslui.cpp:120
 msgid "&Forever"
 msgstr "&Dauerhaft"
 
-#: kio/slaveinterface.cpp:428 kio/tcpslavebase.cpp:821 kssl/sslui.cpp:82
+#: kio/slaveinterface.cpp:428 kio/tcpslavebase.cpp:822 kssl/sslui.cpp:82
 msgid "Co&ntinue"
 msgstr "&Fortsetzen"
 
-#: kio/slaveinterface.cpp:430 kio/tcpslavebase.cpp:842 kssl/sslui.cpp:121
+#: kio/slaveinterface.cpp:430 kio/tcpslavebase.cpp:836 kssl/sslui.cpp:121
 msgid "&Current Session only"
 msgstr "Nur &aktuelle Sitzung"
 
@@ -6105,19 +6105,19 @@ msgstr ""
 "Die Echtheitsprüfung des Servers (%1) ist fehlgeschlagen.\n"
 "\n"
 
-#: kio/tcpslavebase.cpp:820 kio/tcpslavebase.cpp:840 kio/tcpslavebase.cpp:942
-#: kio/tcpslavebase.cpp:954 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+#: kio/tcpslavebase.cpp:821 kio/tcpslavebase.cpp:834 kio/tcpslavebase.cpp:948
+#: kio/tcpslavebase.cpp:960 kssl/sslui.cpp:80 kssl/sslui.cpp:119
 msgid "Server Authentication"
 msgstr "Server-Authentifizierung"
 
-#: kio/tcpslavebase.cpp:837 kssl/sslui.cpp:116
+#: kio/tcpslavebase.cpp:831 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Möchten Sie dieses Zertifikat dauerhaft, ohne künftige Nachfragen "
 "akzeptieren?"
 
-#: kio/tcpslavebase.cpp:941
+#: kio/tcpslavebase.cpp:947
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -6126,7 +6126,7 @@ msgstr ""
 "ist nicht für den Server ausgestellt, der es anzeigt. Möchten Sie den "
 "Ladevorgang trotzdem fortsetzen?"
 
-#: kio/tcpslavebase.cpp:953
+#: kio/tcpslavebase.cpp:959
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE System Settings."

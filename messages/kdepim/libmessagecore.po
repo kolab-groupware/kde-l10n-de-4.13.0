@@ -2,14 +2,14 @@
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2009.
 # Intevation GmbH, 2010.
 # Torbjörn Klatt <torbjoern@torbjoern-klatt.de>, 2011.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2013, 2014.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2013, 2014, 2015.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmessagecore\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-08 08:22+0000\n"
-"PO-Revision-Date: 2014-02-24 08:30+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-13 20:31+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -333,35 +333,45 @@ msgstr ""
 "Dies ist die Farbe, die zum Hervorheben aller verschlüsselten Nachrichten "
 "verwendet wird"
 
-#: widgets/annotationdialog.cpp:57
-msgid "Edit Note"
-msgstr "Notiz bearbeiten"
-
-#: widgets/annotationdialog.cpp:59
-msgid "Delete Note"
-msgstr "Notiz löschen"
-
-#: widgets/annotationdialog.cpp:62
-msgid "Add Note"
-msgstr "Notiz hinzufügen"
-
-#: widgets/annotationdialog.cpp:68
-msgid "Enter the text that should be stored as a note to the mail:"
-msgstr ""
-"Geben Sie den Text ein, der als Notiz mit der E-Mail gespeichert werden soll."
-
-#: widgets/annotationdialog.cpp:108
-msgid "Do you really want to delete this note?"
-msgstr "Möchten Sie diese Notiz wirklich löschen?"
-
-#: widgets/annotationdialog.cpp:109
-msgid "Delete Note?"
-msgstr "Notiz löschen?"
-
-#: widgets/annotationdialog.cpp:109
-msgid "Delete"
-msgstr "Löschen"
-
 #: widgets/emailaddressrequester.cpp:87
 msgid "Open Address Book"
 msgstr "Adressbuch öffnen"
+
+#~ msgid ""
+#~ "The maximum size in bits that email attachments are allowed to have (-1 "
+#~ "for no limit)"
+#~ msgstr ""
+#~ "Die maximale Größe in Bit, die ein Anhang besitzen darf (-1 für keine "
+#~ "Begrenzung)."
+
+#~ msgid "Edit Note"
+#~ msgstr "Notiz bearbeiten"
+
+#~ msgid "Delete Note"
+#~ msgstr "Notiz löschen"
+
+#~ msgid "Add Note"
+#~ msgstr "Notiz hinzufügen"
+
+#~ msgid "Enter the text that should be stored as a note to the mail:"
+#~ msgstr ""
+#~ "Geben Sie den Text ein, der als Notiz mit der E-Mail gespeichert werden "
+#~ "soll."
+
+#~ msgid "Note type:"
+#~ msgstr "Notizart:"
+
+#~ msgid "Private note"
+#~ msgstr "Private Notiz"
+
+#~ msgid "Shared note"
+#~ msgstr "Gemeinsame Notiz"
+
+#~ msgid "Do you really want to delete this note?"
+#~ msgstr "Möchten Sie diese Notiz wirklich löschen?"
+
+#~ msgid "Delete Note?"
+#~ msgstr "Notiz löschen?"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"

@@ -10,9 +10,7 @@
 >Fenstermenü der Kontaktliste</title>
 <sect2 id="menus-contactlist-file">
 <title
->Menü <guimenu
->Datei</guimenu
-></title>
+>Das Menü Datei</title>
 
 <variablelist>
 <varlistentry>
@@ -121,9 +119,7 @@
 </sect2>
 <sect2 id="menus-contactlist-edit">
 <title
->Menü <guimenu
->Bearbeiten</guimenu
-></title>
+>Das Menü Bearbeiten</title>
 <variablelist>
 <!--FIXME not in Edit menu
 <varlistentry>
@@ -371,65 +367,15 @@
 </sect2>
 <sect2 id="menus-settings">
 <title
->Menü <guimenu
+>Das Menü Einstellungen</title>
+<para
+>&kopete; hat das bekannten &kde;-Menü <guimenu
 >Einstellungen</guimenu
-></title>
+> aus den <ulink url="help:/fundamentals/ui.html#menus-settings"
+>&kde;-Grundlagen</ulink
+> mit zusätzlichen Einträgen:</para>
+
 <variablelist>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guisubmenu
->Werkzeugleisten</guisubmenu
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt die <guimenuitem
->Hauptwerkzeug-Leiste</guimenuitem
-> und die    <guimenuitem
->Schnellsuchleiste</guimenuitem
-> an oder blendet sie aus.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><shortcut
-><keycombo action="simul"
->&Ctrl;<keycap
->M</keycap
-></keycombo
-></shortcut
-> <guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Menüleiste anzeigen</guimenuitem
->  </menuchoice>
-</term>
-<listitem>
-<para
->Blendet die Menüleiste ein/aus.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Statusleiste anzeigen</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Blendet die Statusleiste ein/aus.</para>
-</listitem>
-</varlistentry>
 
 <varlistentry>
 <term>
@@ -467,35 +413,8 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Werkzeugleisten einrichten ...</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt den &kde;-Standarddialog zur Einrichtung der Werkzeugleisten. Hier können die Werkzeugleisten der Kontaktliste geändert werden.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term
-><menuchoice
-><guimenuitem
->Benachrichtigungen festlegen ...</guimenuitem
-></menuchoice
-></term>
-<listitem
-><para
->Der Dialog, der Ihnen durch einen Klick auf diesen Menü-Eintrag geöffnet wird, lässt Sie die Benachrichtigungsoptionen für die &kopete;  ändern (wie zum Beispiel Klänge, Fehlermeldungen &etc;). </para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
+<varlistentry
+><!--FIXME no global Shortcuts dialog, it is the app shortcuts dialog-->
 <term>
 <menuchoice
 ><guimenu
@@ -510,50 +429,18 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Kurzbefehle festlegen ...</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt den &kde;-Standarddialog zur Einrichtung von Kurzbefehlen an. Dort können die Tastenzuordnungen für das Kontaktlistenfenster geändert werden.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Einrichten ...</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt den Dialog <link linkend="configure-dialog"
->Kopete einrichten</link
-> an. </para>
-</listitem>
-</varlistentry>
-
 </variablelist>
 </sect2>
 <sect2 id="menus-help">
 <title
->Menü <guimenu
->Hilfe</guimenu
-></title>
+>Das Menü Hilfe</title>
 <para
->Die &kde;-Standardeinträge des Menüs <guimenu
+>Das Kontaktlistenfenster benutzt die bekannten &kde;-Einträge im Menü <guimenu
 >Hilfe</guimenu
-> lauten:</para>
-&help.menu.documentation; </sect2>
+>, weitere Informationen dazu finden Sie im Abschnitt über das Menü <ulink url="help:/fundamentals/uihtml#menus-help"
+>Hilfe</ulink
+> der &kde;-Grundlagen. </para>
+</sect2>
 </sect1
 >  <!-- menus-contactlist -->
 
@@ -562,9 +449,7 @@
 >Die Menüs des Chatfensters</title>
 <sect2 id="menus-chatwindow-chat">
 <title
->Menü <guimenu
->Chat</guimenu
-></title>
+>Das Menü Chat</title>
 <variablelist>
 <varlistentry>
 <term>
@@ -696,9 +581,7 @@
 </sect2>
 <sect2 id="menus-chatwindow-edit">
 <title
->Menü <guimenu
->Bearbeiten</guimenu
-></title>
+>Das Menü Bearbeiten</title>
 <variablelist>
 <varlistentry>
 <term>
@@ -766,9 +649,7 @@
 </sect2>
 <sect2 id="menus-chatwindow-format">
 <title
->Menü <guimenu
->Format</guimenu
-></title>
+>Das Menü Format</title>
 <variablelist>
 <varlistentry>
 <term>
@@ -852,9 +733,7 @@
 </sect2>
 <sect2 id="menus-chatwindow-tabs">
 <title
->Menü <guimenu
->Unterfenster</guimenu
-></title>
+>Das Menü Unterfenster</title>
 <variablelist>
 <varlistentry>
 <term>
@@ -911,9 +790,7 @@
 </sect2>
 <sect2 id="menus-chatwindow-tools">
 <title
->Menü <guimenu
->Extras</guimenu
-></title>
+>Das Menü Extras</title>
 <para
 >Dieses Menü enthält die Einträge, die durch geladene Module hinzugefügt wurden. Genauere Informationen finden Sie im <link linkend="plugins"
 >Kapitel Module</link
@@ -921,96 +798,15 @@
 </sect2>
 <sect2 id="menus-chatwindow-settings">
 <title
->Menü <guimenu
+>Das Menü Einstellungen</title>
+<para
+>&kopete; hat das bekannten &kde;-Menü <guimenu
 >Einstellungen</guimenu
-></title>
+> aus den <ulink url="help:/fundamentals/ui.html#menus-settings"
+>&kde;-Grundlagen</ulink
+> mit zusätzlichen Einträgen:</para>
+
 <variablelist>
-<varlistentry>
-<term>
-<menuchoice
-><shortcut
-><keycombo action="simul"
->&Ctrl;<keycap
->M</keycap
-></keycombo
-></shortcut
-> <guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Menüleiste anzeigen</guimenuitem
->  </menuchoice>
-</term>
-<listitem>
-<para
->Koppelt den aktuellen Chat in ein eigenes Fenster ab.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-><guisubmenu
-> Werkzeugleisten</guisubmenu
-><guimenuitem
->Haupt-Werkzeugleiste</guimenuitem
-></menuchoice>
-</term>
-<listitem>
-<para
->Blendet die Hauptwerkzeugleiste ein/aus.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guisubmenu
->Werkzeugleisten</guisubmenu
-> <guimenuitem
->Status (Kopete)</guimenuitem
-></menuchoice>
-</term>
-<listitem>
-<para
->Blendet die Statuswerkzeugleiste von &kopete; ein/aus. Hier werden die Bilder der Kontakte angezeigt.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guisubmenu
->Werkzeugleisten</guisubmenu
-> <guimenuitem
->Format-Werkzeugleiste (Kopete)</guimenuitem
-></menuchoice>
-</term>
-<listitem>
-<para
->Blendet die Werkzeugleiste zur Textformatierung ein/aus.</para>
-</listitem>
-</varlistentry>
-	
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Statusleiste anzeigen</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Koppelt den aktuellen Chat in ein eigenes Fenster ab.</para>
-</listitem>
-</varlistentry>
 
 <varlistentry>
 <term>
@@ -1027,48 +823,19 @@
 </listitem>
 </varlistentry>
 
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Kurzbefehle festlegen ...</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt die &kde;-Standarddialog zur Festlegung von Tastaturzuordnungen. Hier können die Zuordnungen für das hatfenster  geändert werden.</para>
-</listitem>
-</varlistentry>
-
-<varlistentry>
-<term>
-<menuchoice
-><guimenu
->Einstellungen</guimenu
-> <guimenuitem
->Werkzeugleisten einrichten ...</guimenuitem
-> </menuchoice>
-</term>
-<listitem>
-<para
->Zeigt den &kde;-Standarddialog zur Einrichtung der Werkzeugleisten an. Hier können die Werkzeugleisten des hatfensterss verändert werden.</para>
-</listitem>
-</varlistentry>
-
 </variablelist>
 </sect2>
 <sect2 id="menus-chatwindow-help">
 <title
->Menü <guimenu
->Hilfe</guimenu
-></title>
+>Das Menü Hilfe</title>
 <para
->Die &kde;-Standardeinträge des Menüs <guimenu
+>Das Chat-Fenster benutzt die bekannten &kde;-Einträge im Menü <guimenu
 >Hilfe</guimenu
-> lauten:</para>
-&help.menu.documentation; </sect2>
+>, weitere Informationen dazu finden Sie im Abschnitt über das Menü <ulink url="help:/fundamentals/uihtml#menus-help"
+>Hilfe</ulink
+> der &kde;-Grundlagen. </para>
+
+</sect2>
 <!--
 <varlistentry>
 <term>

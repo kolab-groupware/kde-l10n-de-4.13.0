@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: step\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:47+0000\n"
+"POT-Creation-Date: 2015-01-20 06:45+0000\n"
 "PO-Revision-Date: 2011-07-09 13:37+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -285,9 +285,9 @@ msgstr ""
 "Ecke eines Bereichs für %1 zu positionieren."
 
 #: step/gasgraphics.cc:57 step/motorgraphics.cc:41 step/motorgraphics.cc:222
-#: step/polygongraphics.cc:162 step/polygongraphics.cc:287
-#: step/polygongraphics.cc:432 step/softbodygraphics.cc:57
-#: step/worldgraphics.cc:73 step/worldgraphics.cc:123
+#: step/polygongraphics.cc:173 step/polygongraphics.cc:307
+#: step/polygongraphics.cc:452 step/softbodygraphics.cc:57
+#: step/worldgraphics.cc:72 step/worldgraphics.cc:122
 #, kde-format
 msgid "Create %1"
 msgstr "%1 erzeugen"
@@ -305,10 +305,10 @@ msgstr ""
 msgid "Please fill in the parameters for the gas particles."
 msgstr "Bitte geben Sie Parameter für die Gasteilchen ein."
 
-#: step/gasgraphics.cc:108 step/polygongraphics.cc:197
-#: step/polygongraphics.cc:327 step/polygongraphics.cc:482
-#: step/softbodygraphics.cc:74 step/worldgraphics.cc:90
-#: step/worldgraphics.cc:137 step/worldgraphics.cc:172
+#: step/gasgraphics.cc:108 step/polygongraphics.cc:208
+#: step/polygongraphics.cc:347 step/polygongraphics.cc:502
+#: step/softbodygraphics.cc:74 step/worldgraphics.cc:89
+#: step/worldgraphics.cc:136 step/worldgraphics.cc:171
 #, kde-format
 msgid "%1 named '%2' created"
 msgstr "%1 mit dem Namen „%2“ erzeugt"
@@ -680,25 +680,25 @@ msgid "General"
 msgstr "Allgemein"
 
 #: step/motorgraphics.cc:111 step/motorgraphics.cc:289
-#: step/worldgraphics.cc:336 step/worldgraphics.cc:348
+#: step/stepgraphicsitem.cc:207 step/stepgraphicsitem.cc:219
 #, kde-format
 msgid "Move %1"
 msgstr "%1 verschieben"
 
-#: step/polygongraphics.cc:150
+#: step/polygongraphics.cc:161
 #, kde-format
 msgid "Press left mouse button to position a center of a %1"
 msgstr ""
 "Drücken Sie die linke Maustaste, um den Mittelpunkt einer %1 zu positionieren"
 
-#: step/polygongraphics.cc:171
+#: step/polygongraphics.cc:182
 #, kde-format
 msgid "Move mouse and release left mouse button to define a radius of the %1"
 msgstr ""
 "Bewegen Sie die Maus und lassen Sie dann die linke Maustaste los, um den "
 "Radius der %1 festzulegen"
 
-#: step/polygongraphics.cc:275
+#: step/polygongraphics.cc:295
 #, kde-format
 msgid ""
 "Press left mouse button to position\n"
@@ -707,7 +707,7 @@ msgstr ""
 "Drücken Sie die linke Maustaste, um die linke\n"
 "obere Ecke eines %1 zu positionieren"
 
-#: step/polygongraphics.cc:297
+#: step/polygongraphics.cc:317
 #, kde-format
 msgid ""
 "Move mouse and release left mouse button to position\n"
@@ -716,13 +716,13 @@ msgstr ""
 "Bewegen Sie die Maus und lassen Sie dann die linke Maustaste\n"
 "los, um die rechte untere Ecke des %1 zu positionieren"
 
-#: step/polygongraphics.cc:420
+#: step/polygongraphics.cc:440
 #, kde-format
 msgid "Click on the scene to create a first vertex of %1"
 msgstr ""
 "Klicken Sie in das Versuchsfenster, um den ersten Eckpunkt des %1 zu erzeugen"
 
-#: step/polygongraphics.cc:468
+#: step/polygongraphics.cc:488
 msgid "Click on the scene to add new vertex or press Enter to finish"
 msgstr ""
 "Klicken Sie in das Versuchsfenster, um einen neuen Eckpunkt hinzuzufügen\n"
@@ -736,7 +736,7 @@ msgstr "Lösungstyp ändern"
 #: step/propertiesbrowser.cc:298 step/propertiesbrowser.cc:304
 #: step/propertiesbrowser.cc:311 step/propertiesbrowser.cc:320
 #: step/propertiesbrowser.cc:404 step/propertiesbrowser.cc:421
-#: step/worldgraphics.cc:529 step/worldgraphics.cc:668
+#: step/stepgraphicsitem.cc:402 step/stepgraphicsitem.cc:547
 #, kde-format
 msgid "Change %1.%2"
 msgstr "%1.%2 ändern"
@@ -766,8 +766,8 @@ msgstr "wahr"
 msgid "Properties"
 msgstr "Eigenschaften"
 
-#: step/softbodygraphics.cc:44 step/worldgraphics.cc:65
-#: step/worldgraphics.cc:109
+#: step/softbodygraphics.cc:44 step/worldgraphics.cc:64
+#: step/worldgraphics.cc:108
 #, kde-format
 msgid "Click on the scene to create a %1"
 msgstr "Klicken Sie in das Versuchsfenster, um ein %1 zu erzeugen"
@@ -821,6 +821,15 @@ msgstr "Wikipedia in externem Browser anzeigen"
 #: step/step.kcfg:40 step/step.kcfg:41
 msgid "Show text beside icon"
 msgstr "Text neben Symbol anzeigen"
+
+#: step/stepgraphicsitem.cc:219
+msgid "several objects"
+msgstr "Mehrere Objekte"
+
+#: step/stepgraphicsitem.cc:403 step/stepgraphicsitem.cc:549
+#, kde-format
+msgid "Change %1"
+msgstr "%1 ändern"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: step/stepui.rc:7
@@ -1050,7 +1059,7 @@ msgctxt "Object list"
 msgid "World"
 msgstr "Welt"
 
-#: step/worldgraphics.cc:105
+#: step/worldgraphics.cc:104
 #, kde-format
 msgid ""
 "Press left mouse button to position first end of a %1\n"
@@ -1059,21 +1068,12 @@ msgstr ""
 "Drücken Sie die linke Maustaste, um das erste Ende von %1 zu positionieren.\n"
 "Ziehen Sie den Mauszeiger dann zum zweiten Ende und lassen Sie los."
 
-#: step/worldgraphics.cc:133
+#: step/worldgraphics.cc:132
 #, kde-format
 msgid "Release left mouse button to position second end of the %1"
 msgstr ""
 "Lassen Sie die linke Maustaste los, um das zweite Ende von %1 zu "
 "positionieren."
-
-#: step/worldgraphics.cc:348
-msgid "several objects"
-msgstr "Mehrere Objekte"
-
-#: step/worldgraphics.cc:530 step/worldgraphics.cc:670
-#, kde-format
-msgid "Change %1"
-msgstr "%1 ändern"
 
 #: step/worldmodel.cc:622
 #, kde-format
@@ -1130,11 +1130,11 @@ msgstr "%1 eingefügt"
 msgid "Pasted several items"
 msgstr "Mehrere Objekte eingefügt"
 
-#: step/worldscene.cc:265
+#: step/worldscene.cc:267
 msgid "Objects under mouse:"
 msgstr "Objekte unter dem Mauszeiger:"
 
-#: step/worldscene.cc:270
+#: step/worldscene.cc:272
 #, kde-format
 msgid "... (1 more item)"
 msgid_plural "... (%1 more items)"

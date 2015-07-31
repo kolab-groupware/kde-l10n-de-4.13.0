@@ -1,4 +1,4 @@
-# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2012.
+# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2012, 2014.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2009.
 # Markus Slopianka <markus.s@kdemail.net>, 2010.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011.
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_singlefile_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-16 01:36+0000\n"
-"PO-Revision-Date: 2012-10-30 07:00+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-09-02 21:38+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -204,6 +204,15 @@ msgstr "&Anzeigename:"
 msgctxt "@info:status"
 msgid "Checking file information..."
 msgstr "Dateiinformationen werden überprüft ..."
+
+#~ msgid "Could not find account"
+#~ msgstr "Das Konto wurde nicht gefunden"
+
+#~ msgid "Could not find credentials"
+#~ msgstr "Die Anmeldedaten wurden nicht gefunden"
+
+#~ msgid "The resource not configured yet"
+#~ msgstr "Die Ressource ist noch nicht eingerichtet"
 
 #~ msgid "Tuning"
 #~ msgstr "Feinheiten"

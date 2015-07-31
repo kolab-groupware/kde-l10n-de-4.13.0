@@ -14,13 +14,14 @@
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Bjoern Ricks <bjoern.ricks@intevation.de>, 2010, 2011.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmailcommon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-04 05:40+0000\n"
-"PO-Revision-Date: 2014-01-13 05:07+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:23+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1243,13 +1244,17 @@ msgid "Filters which were imported:"
 msgstr "Importierte Filter:"
 
 #: filter/kmfilterdialog.cpp:1722
+#| msgctxt "@info"
+#| msgid ""
+#| "Some filters were changed and not saved yet.<br>You must save your "
+#| "filters before they can be exported."
 msgctxt "@info"
 msgid ""
 "Some filters were changed and not saved yet. You must save your filters "
 "before they can be exported."
 msgstr ""
-"Einige Filter wurden geändert aber noch nicht gespeichert. Sie müssen die "
-"Änderungen speichern, bevor Sie die Filter exportieren können."
+"Einige Filter wurden geändert aber noch nicht gespeichert. <br>Sie müssen "
+"die Änderungen speichern, bevor Sie die Filter exportieren können."
 
 #: filter/kmfilterdialog.cpp:1727
 msgid "We cannot convert all KMail filters to sieve scripts but we can try :)"
@@ -2289,7 +2294,7 @@ msgstr "&Kurzbefehl:"
 msgid "Enable &toolbar button"
 msgstr "&Werkzeugleisten-Knopf aktivieren"
 
-#: util/mailutil.cpp:273
+#: util/mailutil.cpp:275
 #, kde-format
 msgid ""
 "From: %1\n"
@@ -2300,17 +2305,17 @@ msgstr ""
 "An: %2\n"
 "Betreff: %3"
 
-#: util/mailutil.cpp:329
+#: util/mailutil.cpp:331
 msgid "Removing attachments from an email might invalidate its signature."
 msgstr ""
 "Das Entfernen von Anhängen aus E-Mails kann deren Signatur ungültig machen."
 
-#: util/mailutil.cpp:330
+#: util/mailutil.cpp:332
 msgid "Remove Attachments"
 msgstr "Anhänge entfernen"
 
-#: util/mailutil.cpp:365 util/mailutil.cpp:378 util/mailutil.cpp:403
-#: util/mailutil.cpp:413
+#: util/mailutil.cpp:367 util/mailutil.cpp:380 util/mailutil.cpp:405
+#: util/mailutil.cpp:415
 #, kde-format
 msgid "Mail: %1"
 msgstr "E-Mail: %1"
@@ -2351,7 +2356,7 @@ msgstr "Listenmodus"
 msgid "Icon Mode"
 msgstr "Symbolmodus"
 
-#: widgets/favoritecollectionwidget.cpp:238
+#: widgets/favoritecollectionwidget.cpp:231
 msgid "Drop your favorite folders here..."
 msgstr "Ziehen Sie Ihre bevorzugten Ordner hier hinein ..."
 
@@ -2360,8 +2365,9 @@ msgid "Redirect Message"
 msgstr "Nachricht umleiten"
 
 #: widgets/redirectdialog.cpp:133
+#| msgid "Select the recipient addresses to redirect:"
 msgid "Select the recipient &addresses to redirect to:"
-msgstr "Wählen Sie die &Zieladressen für die Umleitung:"
+msgstr "Wählen Sie die Empfänger für die Weiterleitung:"
 
 #: widgets/redirectdialog.cpp:147
 msgid "Use the Address-Selection Dialog"
@@ -2402,6 +2408,48 @@ msgstr "Fehlende Umleitungsadresse"
 #: widgets/regexplineedit.cpp:81
 msgid "Edit..."
 msgstr "Bearbeiten ..."
+
+#~ msgid "Convert to Script Sieve"
+#~ msgstr "In Sieve-Skript umwandeln"
+
+#, fuzzy
+#~| msgid "Import Sylpheed Filters"
+#~ msgid "Import Icedove Filters"
+#~ msgstr "Sylpheed-Filter importieren"
+
+#, fuzzy
+#~| msgid "KMail filters"
+#~ msgid "Icedove Mail filters"
+#~ msgstr "KMail-Filter"
+
+#~ msgid "Edit Accounts Order"
+#~ msgstr "Zugangsreihenfolge bearbeiten"
+
+#~ msgid "Use custom order"
+#~ msgstr "Eigenen Ordner benutzen"
+
+#~ msgctxt "Move selected account up."
+#~ msgid "Up"
+#~ msgstr "Nach oben"
+
+#~ msgctxt "Move selected account down."
+#~ msgid "Down"
+#~ msgstr "Nach unten"
+
+#~ msgctxt "Unit suffix where units are days."
+#~ msgid " day"
+#~ msgid_plural " days"
+#~ msgstr[0] " Tag"
+#~ msgstr[1] " Tage"
+
+#~ msgid "Resend-To:"
+#~ msgstr "Adresse für erneut versenden:"
+
+#~ msgid "Resend-Cc:"
+#~ msgstr "Kopie für erneut versenden:"
+
+#~ msgid "Resend-Bcc:"
+#~ msgstr "Blindkopie für erneut versenden:"
 
 #~ msgid "Search..."
 #~ msgstr "Suchen ..."
@@ -6898,9 +6946,6 @@ msgstr "Bearbeiten ..."
 #~ msgid "HTML Status Bar Foreground - HTML Message"
 #~ msgstr "Vordergrund HTML-Statusleiste – HTML-Nachricht"
 
-#~ msgid "&Use custom colors"
-#~ msgstr "E&igene Farben benutzen"
-
 #~ msgid "Recycle colors on deep &quoting"
 #~ msgstr "Farben bei tief verschachtelten &Zitaten wiederholen"
 
@@ -6961,16 +7006,16 @@ msgstr "Bearbeiten ..."
 #~ "li><li>dd - the day as a number with a leading zero (01-31)</li><li>ddd - "
 #~ "the abbreviated day name (Mon - Sun)</li><li>dddd - the long day name "
 #~ "(Monday - Sunday)</li><li>M - the month as a number without a leading "
-#~ "zero (1-12)</li><li>MM - the month as a number with a leading zero (01-12)"
-#~ "</li><li>MMM - the abbreviated month name (Jan - Dec)</li><li>MMMM - the "
-#~ "long month name (January - December)</li><li>yy - the year as a two digit "
-#~ "number (00-99)</li><li>yyyy - the year as a four digit number (0000-9999)"
-#~ "</li></ul><p><strong>These expressions may be used for the time:</"
-#~ "strong></p> <ul><li>h - the hour without a leading zero (0-23 or 1-12 if "
-#~ "AM/PM display)</li><li>hh - the hour with a leading zero (00-23 or 01-12 "
-#~ "if AM/PM display)</li><li>m - the minutes without a leading zero (0-59)</"
-#~ "li><li>mm - the minutes with a leading zero (00-59)</li><li>s - the "
-#~ "seconds without a leading zero (0-59)</li><li>ss - the seconds with a "
+#~ "zero (1-12)</li><li>MM - the month as a number with a leading zero "
+#~ "(01-12)</li><li>MMM - the abbreviated month name (Jan - Dec)</li><li>MMMM "
+#~ "- the long month name (January - December)</li><li>yy - the year as a two "
+#~ "digit number (00-99)</li><li>yyyy - the year as a four digit number "
+#~ "(0000-9999)</li></ul><p><strong>These expressions may be used for the "
+#~ "time:</strong></p> <ul><li>h - the hour without a leading zero (0-23 or "
+#~ "1-12 if AM/PM display)</li><li>hh - the hour with a leading zero (00-23 "
+#~ "or 01-12 if AM/PM display)</li><li>m - the minutes without a leading zero "
+#~ "(0-59)</li><li>mm - the minutes with a leading zero (00-59)</li><li>s - "
+#~ "the seconds without a leading zero (0-59)</li><li>ss - the seconds with a "
 #~ "leading zero (00-59)</li><li>z - the milliseconds without leading zeroes "
 #~ "(0-999)</li><li>zzz - the milliseconds with leading zeroes (000-999)</"
 #~ "li><li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" "
@@ -7233,11 +7278,6 @@ msgstr "Bearbeiten ..."
 #~ msgstr ""
 #~ "Eine Änderung der globalen HTML-Einstellungen hat Vorrang vor allen "
 #~ "ordnerspezifischen Einstellungen."
-
-#~ msgid " day"
-#~ msgid_plural " days"
-#~ msgstr[0] " Tag"
-#~ msgstr[1] " Tage"
 
 #~ msgid "This option requires dirmngr >= 0.9.0"
 #~ msgstr "Diese Einstellung erfordert dirmng >= 0.9.0"
@@ -7960,11 +8000,11 @@ msgstr "Bearbeiten ..."
 #~ msgstr "S/MIME-Zertifikat abgelaufen"
 
 #~ msgid ""
-#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>expires in less than a day.</p>"
+#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>expires in less than a day.</p>"
 #~ msgid_plural ""
-#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>expires in less than %1 days.</p>"
+#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>expires in less than %1 days.</p>"
 #~ msgstr[0] ""
 #~ "<p>Ihr OpenPGP-Signaturschlüssel</p><p align=\"center\"><b>%2</b> (KeyID "
 #~ "0x%3)</p><p>läuft in weniger als einem Tag ab.</p>"
@@ -7992,8 +8032,8 @@ msgstr "Bearbeiten ..."
 #~ "<p>The OpenPGP key for</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
 #~ "p><p>expires in less than %1 days.</p>"
 #~ msgstr[0] ""
-#~ "<p>Der OpenPGP-Schlüssel für</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>läuft in weniger als einem Tag ab.</p>"
+#~ "<p>Der OpenPGP-Schlüssel für</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>läuft in weniger als einem Tag ab.</p>"
 #~ msgstr[1] ""
 #~ "<p>Der OpenPGP-Signaturschlüssel für</p><p align=\"center\"><b>%2</b> "
 #~ "(KeyID 0x%3)</p><p>läuft in weniger als %1 Tagen ab.</p>"
@@ -10997,9 +11037,6 @@ msgstr "Bearbeiten ..."
 #~ msgid "Unable to locate account"
 #~ msgstr "Das Postfach kann nicht gefunden werden"
 
-#~ msgid "Modify Account"
-#~ msgstr "Postfach ändern"
-
 #~ msgid "<qt>Unable to locate account <b>%1</b>.</qt>"
 #~ msgstr "<qt>Das Postfach <b>%1</b> kann nicht gefunden werden.</qt>"
 
@@ -12530,8 +12567,8 @@ msgstr "Bearbeiten ..."
 #~ "          Der Dateiname-Trenner für Maildir-Dateien „uniq:info“ - siehe "
 #~ "auch die Spezifikation von Maildir unter http://cr.yp.to/proto/maildir."
 #~ "html\n"
-#~ "          Die Voreinstellung ist vom Betriebssystem abhängig. Windows="
-#~ "„!“, alle anderen Betriebssysteme nutzen „:“.\n"
+#~ "          Die Voreinstellung ist vom Betriebssystem abhängig. "
+#~ "Windows=„!“, alle anderen Betriebssysteme nutzen „:“.\n"
 #~ "        "
 
 #~ msgid "Enable groupware functionality"

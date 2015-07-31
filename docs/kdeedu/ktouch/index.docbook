@@ -93,9 +93,9 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2013-11-07</date>
+>2014-05-01</date>
 <releaseinfo
->2.2.0</releaseinfo>
+>2.3.0</releaseinfo>
 
 <abstract>
 <para
@@ -605,6 +605,10 @@ format="PNG"/></imageobject>
 ></textobject>
 </mediaobject>
 </screenshot>
+<para
+>Mit dem Ankreuzfeld <guilabel
+>Korrektur von Tippfehlern erzwingen</guilabel
+> können Sie einstellen, dass Tippfehler korrigiert werden müssen. </para>
 <para
 >Die Anzeige des Statistik- und Tastaturbereichs während der Übungen können Sie mit den Ankreuzfeldern <guilabel
 >Tastatur anzeigen</guilabel

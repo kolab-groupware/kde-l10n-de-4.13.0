@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: filelight\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-07 01:42+0000\n"
+"POT-Creation-Date: 2014-07-24 01:56+0000\n"
 "PO-Revision-Date: 2013-01-08 21:41+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -179,7 +179,7 @@ msgstr "Ordner einlesen"
 msgid "&Recent Scans"
 msgstr "&Kürzlich eingelesene"
 
-#: src/app/mainWindow.cpp:188 src/part/settingsDialog.cpp:155
+#: src/app/mainWindow.cpp:185 src/part/settingsDialog.cpp:155
 msgid "Select Folder to Scan"
 msgstr "Bitte wählen Sie den einzulesenden Ordner aus"
 
@@ -457,12 +457,12 @@ msgstr "Öff&nen"
 msgid "&Copy to clipboard"
 msgstr "In die Zwischenablage &kopieren"
 
-#: src/part/radialMap/widgetEvents.cpp:236
-#: src/part/radialMap/widgetEvents.cpp:260
+#: src/part/radialMap/widgetEvents.cpp:237
+#: src/part/radialMap/widgetEvents.cpp:262
 msgid "&Delete"
 msgstr "&Löschen"
 
-#: src/part/radialMap/widgetEvents.cpp:256
+#: src/part/radialMap/widgetEvents.cpp:258
 #, kde-format
 msgid ""
 "<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
@@ -471,12 +471,12 @@ msgstr ""
 "<qt>Der Ordner <i>„%1“</i> wird <b>vollständig</b> und <b>unwiderruflich</b> "
 "gelöscht.</qt> "
 
-#: src/part/radialMap/widgetEvents.cpp:257
+#: src/part/radialMap/widgetEvents.cpp:259
 #, kde-format
 msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
 msgstr "<qt><i>„%1t“</i> wird <b>unwiderruflich</b> gelöscht.</qt>"
 
-#: src/part/radialMap/widgetEvents.cpp:306
+#: src/part/radialMap/widgetEvents.cpp:308
 msgid "Error while deleting"
 msgstr "Beim Löschen ist ein Fehler aufgetreten"
 

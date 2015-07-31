@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-24 01:45+0000\n"
+"POT-Creation-Date: 2014-07-31 01:57+0000\n"
 "PO-Revision-Date: 2014-02-24 07:47+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -1574,7 +1574,7 @@ msgstr "Priorität verringern"
 msgid "Decrease priority for selected transfer"
 msgstr "Priorität des ausgewählten Transfers verringern"
 
-#: mainwindow.cpp:198 ui/contextmenu.cpp:141
+#: mainwindow.cpp:198 ui/contextmenu.cpp:137
 msgid "Delete Group"
 msgid_plural "Delete Groups"
 msgstr[0] "Gruppe entfernen"
@@ -1584,7 +1584,7 @@ msgstr[1] "Gruppen entfernen"
 msgid "Delete selected group"
 msgstr "Ausgewählte Gruppe löschen"
 
-#: mainwindow.cpp:204 ui/contextmenu.cpp:145
+#: mainwindow.cpp:204 ui/contextmenu.cpp:141
 msgid "Rename Group..."
 msgid_plural "Rename Groups..."
 msgstr[0] "Gruppe umbenennen ..."
@@ -3039,7 +3039,7 @@ msgstr "Nach Verifizierungsinformationen suchen"
 msgid "Failed to write to the file."
 msgstr "Fehler beim Schreiben in die Datei."
 
-#: ui/contextmenu.cpp:77
+#: ui/contextmenu.cpp:75
 msgid "Semantic Desktop"
 msgstr "Nepomuk-Semantik-Dienste"
 

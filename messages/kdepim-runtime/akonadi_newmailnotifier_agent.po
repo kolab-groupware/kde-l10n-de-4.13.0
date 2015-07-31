@@ -1,12 +1,12 @@
 # Bjoern Ricks <bjoern.ricks@intevation.de>, 2011.
 # Frederik Schwarzer <schwarzer@kde.org>, 2013.
-# Burkhard Lück <lueck@hube-lueck.de>, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: newmailnotifieragent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-03 05:33+0000\n"
-"PO-Revision-Date: 2013-12-17 04:48+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-09-02 21:37+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -33,15 +33,15 @@ msgstr ""
 "Wählen Sie die Ordner aus, die auf neue E-Mail-Nachrichten überwacht werden "
 "sollen."
 
-#: newmailnotifierselectcollectionwidget.cpp:85
+#: newmailnotifierselectcollectionwidget.cpp:83
 msgid "Search..."
 msgstr "Suchen ..."
 
-#: newmailnotifierselectcollectionwidget.cpp:102
+#: newmailnotifierselectcollectionwidget.cpp:100
 msgid "&Select All"
 msgstr "Alles au&swählen"
 
-#: newmailnotifierselectcollectionwidget.cpp:106
+#: newmailnotifierselectcollectionwidget.cpp:104
 msgid "&Unselect All"
 msgstr "Auswahl &aufheben"
 
@@ -160,6 +160,16 @@ msgstr "In: %1"
 #, kde-format
 msgid "Starting Jovie Text-to-Speech Service Failed %1"
 msgstr "Das Starten des Sprachausgabedienstes Jovie ist fehlgeschlagen %1"
+
+#~ msgctxt "%s is a variable for agent. Do not change it"
+#~ msgid "A message was received from %s"
+#~ msgstr "Eine Nachricht wurde von %s erhalten"
+
+#~ msgid "Show button to display mail"
+#~ msgstr "Knopf zur Ansicht der E-Mail anzeigen"
+
+#~ msgid "Show mail..."
+#~ msgstr "E-Mail anzeigen ..."
 
 #~ msgid "from: %1 <br>Subject: %2<br>In: %3"
 #~ msgstr "von: %1 <br>Betreff: %2<br>In: %3"

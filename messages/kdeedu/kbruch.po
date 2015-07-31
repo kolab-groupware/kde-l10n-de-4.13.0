@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbruch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-04 01:54+0000\n"
+"POT-Creation-Date: 2014-04-02 01:43+0000\n"
 "PO-Revision-Date: 2014-01-15 17:03+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -38,7 +38,7 @@ msgstr "KBruch-Modi:"
 msgid "Open standard KBruch"
 msgstr "KBruch im Übungsmodus öffnen"
 
-#: AppMenuWidget.cpp:125 mainqtwidget.cpp:86
+#: AppMenuWidget.cpp:125 MainQtWidget.cpp:86
 msgid "Exercise"
 msgstr "Übung"
 
@@ -55,46 +55,46 @@ msgstr "Lernen"
 msgid "&File"
 msgstr "&Datei"
 
-#: exercisecompare.cpp:97
+#: ExerciseCompare.cpp:97
 msgid ">"
 msgstr ">"
 
-#: exercisecompare.cpp:101
+#: ExerciseCompare.cpp:101
 msgid "Click on this button to select the 'greater than' sign."
 msgstr "Drücke auf diesen Knopf, um das Größer-Zeichen auszuwählen."
 
-#: exercisecompare.cpp:106
+#: ExerciseCompare.cpp:106
 msgid "<"
 msgstr "<"
 
-#: exercisecompare.cpp:110
+#: ExerciseCompare.cpp:110
 msgid "Click on this button to select the 'less than' sign."
 msgstr "Drücke auf diesen Knopf, um das Kleiner-Zeichen auszuwählen."
 
-#: exercisecompare.cpp:115
+#: ExerciseCompare.cpp:115
 msgid "="
 msgstr "="
 
-#: exercisecompare.cpp:119
+#: ExerciseCompare.cpp:119
 msgid "Click on this button to select the 'equals' sign."
 msgstr "Drücke auf diesen Knopf, um das Gleich-Zeichen auszuwählen."
 
-#: exercisecompare.cpp:131 exercisecompare.cpp:294 exerciseconvert.cpp:149
-#: exercisefactorize.cpp:179 ExerciseMixedNumbers.cpp:170
-#: exercisepercentage.cpp:131 taskview.cpp:166
+#: ExerciseCompare.cpp:131 ExerciseCompare.cpp:294 ExerciseConvert.cpp:149
+#: ExerciseFactorize.cpp:179 ExerciseMixedNumbers.cpp:170
+#: ExercisePercentage.cpp:131 TaskView.cpp:166
 msgid "&Skip"
 msgstr "&Überspringen"
 
-#: exercisecompare.cpp:132 exerciseconvert.cpp:150 exercisefactorize.cpp:180
-#: ExerciseMixedNumbers.cpp:171 exercisepercentage.cpp:132
+#: ExerciseCompare.cpp:132 ExerciseConvert.cpp:150 ExerciseFactorize.cpp:180
+#: ExerciseMixedNumbers.cpp:171 ExercisePercentage.cpp:132
 msgid "Click on this button to skip this question."
 msgstr "Drücke auf diesen Knopf, um diese Frage zu überspringen."
 
-#: exercisecompare.cpp:147 mainqtwidget.cpp:511
+#: ExerciseCompare.cpp:147 MainQtWidget.cpp:511
 msgid "In this exercise you have to compare two given fractions."
 msgstr "Bei dieser Übung müssen 2 gegebene Brüche verglichen werden."
 
-#: exercisecompare.cpp:148
+#: ExerciseCompare.cpp:148
 msgid ""
 "In this exercise you have to compare two given fractions and choose the "
 "correct comparison sign."
@@ -102,35 +102,35 @@ msgstr ""
 "In dieser Übung musst du zwei vorgegebene Brüche vergleichen und das "
 "richtige Vergleichszeichen auswählen."
 
-#: exercisecompare.cpp:260 exercisecompare.cpp:261 exercisecompare.cpp:262
+#: ExerciseCompare.cpp:260 ExerciseCompare.cpp:261 ExerciseCompare.cpp:262
 msgid "Click on this button to check your result."
 msgstr "Drücke diesen Knopf, um das Ergebnis zu überprüfen."
 
-#: exercisecompare.cpp:309 exercisecompare.cpp:323 exercisecompare.cpp:337
+#: ExerciseCompare.cpp:309 ExerciseCompare.cpp:323 ExerciseCompare.cpp:337
 msgid "&Next"
 msgstr "&Weiter"
 
-#: exerciseconvert.cpp:103 taskview.cpp:120
+#: ExerciseConvert.cpp:103 TaskView.cpp:120
 msgid "Enter the numerator of your result"
 msgstr "Gib den Zähler deines Ergebnisses ein."
 
-#: exerciseconvert.cpp:121 taskview.cpp:138
+#: ExerciseConvert.cpp:121 TaskView.cpp:138
 msgid "Enter the denominator of your result"
 msgstr "Gib den Nenner deines Ergebnisses ein."
 
-#: exerciseconvert.cpp:139 exerciseconvert.cpp:188 exerciseconvert.cpp:425
-#: exercisefactorize.cpp:188 exercisefactorize.cpp:293
-#: exercisefactorize.cpp:522 ExerciseMixedNumbers.cpp:160
+#: ExerciseConvert.cpp:139 ExerciseConvert.cpp:188 ExerciseConvert.cpp:425
+#: ExerciseFactorize.cpp:188 ExerciseFactorize.cpp:293
+#: ExerciseFactorize.cpp:522 ExerciseMixedNumbers.cpp:160
 #: ExerciseMixedNumbers.cpp:201 ExerciseMixedNumbers.cpp:258
-#: exercisepercentage.cpp:121 exercisepercentage.cpp:175
-#: exercisepercentage.cpp:403 taskview.cpp:156 taskview.cpp:261
-#: taskview.cpp:458
+#: ExercisePercentage.cpp:121 ExercisePercentage.cpp:175
+#: ExercisePercentage.cpp:403 TaskView.cpp:156 TaskView.cpp:261
+#: TaskView.cpp:458
 msgid "&Check"
 msgstr "&Überprüfen"
 
-#: exerciseconvert.cpp:141 exerciseconvert.cpp:387 exercisefactorize.cpp:189
-#: exercisefactorize.cpp:420 ExerciseMixedNumbers.cpp:162
-#: exercisepercentage.cpp:123 exercisepercentage.cpp:367
+#: ExerciseConvert.cpp:141 ExerciseConvert.cpp:387 ExerciseFactorize.cpp:189
+#: ExerciseFactorize.cpp:420 ExerciseMixedNumbers.cpp:162
+#: ExercisePercentage.cpp:123 ExercisePercentage.cpp:367
 msgid ""
 "Click on this button to check your result. The button will not work if you "
 "have not entered a result yet."
@@ -138,11 +138,11 @@ msgstr ""
 "Drücke diesen Knopf, um dein Ergebnis zu überprüfen. Fall noch kein Ergebnis "
 "eingegeben wurde, hat das Drücken dieses Knopfes keine Wirkung."
 
-#: exerciseconvert.cpp:160 mainqtwidget.cpp:517
+#: ExerciseConvert.cpp:160 MainQtWidget.cpp:517
 msgid "In this exercise you have to convert a number into a fraction."
 msgstr "In dieser Übung muss eine Zahl in einen Bruch umgewandelt werden."
 
-#: exerciseconvert.cpp:161
+#: ExerciseConvert.cpp:161
 msgid ""
 "In this exercise you have to convert a given number into a fraction by "
 "entering a numerator and denominator. Do not forget to reduce the result."
@@ -151,12 +151,12 @@ msgstr ""
 "Zähler und Nenner ein. Vergiss nicht, das Ergebnis zu kürzen, wenn die "
 "gekürzte Form gefordert ist."
 
-#: exerciseconvert.cpp:325 exercisefactorize.cpp:369
-#: exercisepercentage.cpp:333
+#: ExerciseConvert.cpp:325 ExerciseFactorize.cpp:369
+#: ExercisePercentage.cpp:333
 msgid "Click on this button to get to the next question."
 msgstr "Drücke auf diesen Knopf, um zur nächsten Aufgabe zu kommen."
 
-#: exerciseconvert.cpp:370
+#: ExerciseConvert.cpp:370
 msgid ""
 "You entered a 0 as the denominator. This means division by zero, which is "
 "not allowed. This question will be counted as not correctly solved."
@@ -165,7 +165,7 @@ msgstr ""
 "werden müsste, was man nicht darf. Die Aufgabe wird daher als falsch gelöst "
 "gewertet."
 
-#: exerciseconvert.cpp:376
+#: ExerciseConvert.cpp:376
 msgid ""
 "You entered the correct result, but not reduced.\n"
 "Always enter your results as reduced. This question will be counted as not "
@@ -175,88 +175,88 @@ msgstr ""
 "Ergebnisse sind immer gekürzt einzugeben. Diese Aufgabe wird daher als "
 "falsch gelöst gewertet."
 
-#: exerciseconvert.cpp:421 exercisefactorize.cpp:518
-#: ExerciseMixedNumbers.cpp:299 exercisepercentage.cpp:399 taskview.cpp:454
+#: ExerciseConvert.cpp:421 ExerciseFactorize.cpp:518
+#: ExerciseMixedNumbers.cpp:299 ExercisePercentage.cpp:399 TaskView.cpp:454
 msgid "N&ext"
 msgstr "&Weiter"
 
-#: exercisefactorize.cpp:172
+#: ExerciseFactorize.cpp:172
 msgid "Backspace"
 msgstr "Löschen"
 
-#: exercisefactorize.cpp:216
+#: ExerciseFactorize.cpp:216
 msgid "2"
 msgstr "2"
 
-#: exercisefactorize.cpp:217
+#: ExerciseFactorize.cpp:217
 msgid "3"
 msgstr "3"
 
-#: exercisefactorize.cpp:218
+#: ExerciseFactorize.cpp:218
 msgid "5"
 msgstr "5"
 
-#: exercisefactorize.cpp:219
+#: ExerciseFactorize.cpp:219
 msgid "7"
 msgstr "7"
 
-#: exercisefactorize.cpp:220
+#: ExerciseFactorize.cpp:220
 msgid "11"
 msgstr "11"
 
-#: exercisefactorize.cpp:221
+#: ExerciseFactorize.cpp:221
 msgid "13"
 msgstr "13"
 
-#: exercisefactorize.cpp:222
+#: ExerciseFactorize.cpp:222
 msgid "17"
 msgstr "17"
 
-#: exercisefactorize.cpp:223
+#: ExerciseFactorize.cpp:223
 msgid "19"
 msgstr "19"
 
-#: exercisefactorize.cpp:234
+#: ExerciseFactorize.cpp:234
 msgid "Add prime factor 2."
 msgstr "Primfaktor 2 hinzufügen."
 
-#: exercisefactorize.cpp:235
+#: ExerciseFactorize.cpp:235
 msgid "Add prime factor 3."
 msgstr "Primfaktor 3 hinzufügen."
 
-#: exercisefactorize.cpp:236
+#: ExerciseFactorize.cpp:236
 msgid "Add prime factor 5."
 msgstr "Primfaktor 5 hinzufügen."
 
-#: exercisefactorize.cpp:237
+#: ExerciseFactorize.cpp:237
 msgid "Add prime factor 7."
 msgstr "Primfaktor 7 hinzufügen."
 
-#: exercisefactorize.cpp:238
+#: ExerciseFactorize.cpp:238
 msgid "Add prime factor 11."
 msgstr "Primfaktor 11 hinzufügen."
 
-#: exercisefactorize.cpp:239
+#: ExerciseFactorize.cpp:239
 msgid "Add prime factor 13."
 msgstr "Primfaktor 13 hinzufügen."
 
-#: exercisefactorize.cpp:240
+#: ExerciseFactorize.cpp:240
 msgid "Add prime factor 17."
 msgstr "Primfaktor 17 hinzufügen."
 
-#: exercisefactorize.cpp:241
+#: ExerciseFactorize.cpp:241
 msgid "Add prime factor 19."
 msgstr "Primfaktor 19 hinzufügen."
 
-#: exercisefactorize.cpp:246
+#: ExerciseFactorize.cpp:246
 msgid "Removes the last entered prime factor."
 msgstr "Entfernt den zuletzt eingefügten Primfaktor."
 
-#: exercisefactorize.cpp:263 mainqtwidget.cpp:529
+#: ExerciseFactorize.cpp:263 MainQtWidget.cpp:529
 msgid "In this exercise you have to factorize a given number."
 msgstr "In dieser Übung muss eine gegebene Zahl faktorisiert werden."
 
-#: exercisefactorize.cpp:264
+#: ExerciseFactorize.cpp:264
 msgid ""
 "In this exercise you have to factorize a given number. You have to enter all "
 "prime factors of the number. You can add a prime factor by clicking on the "
@@ -272,7 +272,7 @@ msgstr ""
 "wenn sich einige Primfaktoren wiederholen. Drücke den Knopf „Löschen“, um "
 "den zuletzt eingegebenen Primfaktor wieder zu entfernen."
 
-#: ExerciseMixedNumbers.cpp:105 taskview.cpp:108
+#: ExerciseMixedNumbers.cpp:105 TaskView.cpp:108
 msgid "Enter the integer part of the fraction"
 msgstr "Gib den ganzzahligen Anteil des Bruchs ein"
 
@@ -284,7 +284,7 @@ msgstr "Gib den Zähler des Bruchs ein"
 msgid "Enter the denominator of the fraction"
 msgstr "Gib den Nenner des Bruchs ein"
 
-#: ExerciseMixedNumbers.cpp:177 mainqtwidget.cpp:523
+#: ExerciseMixedNumbers.cpp:177 MainQtWidget.cpp:523
 msgid ""
 "In this exercise you have to convert a mixed number into a ratio and vice "
 "versa."
@@ -300,7 +300,7 @@ msgstr ""
 "In dieser Übung muss ein gemischter Bruch in ein Verhältnis und umgekehrt "
 "umgewandelt werden. Vergiss nicht, das Ergebnis zu kürzen."
 
-#: ExerciseMixedNumbers.cpp:257 taskview.cpp:158 taskview.cpp:399
+#: ExerciseMixedNumbers.cpp:257 TaskView.cpp:158 TaskView.cpp:399
 msgid ""
 "Click this button to check your result. The button will not work if you have "
 "not entered a result yet."
@@ -308,11 +308,11 @@ msgstr ""
 "Drücke diesen Knopf, um das Ergebnis zu überprüfen. Der Knopf funktioniert "
 "nicht, falls Du noch kein Ergebnis eingegeben hast."
 
-#: ExerciseMixedNumbers.cpp:298 taskview.cpp:283
+#: ExerciseMixedNumbers.cpp:298 TaskView.cpp:283
 msgid "Click this button to get the next question."
 msgstr "Drücke auf diesen Knopf, um die nächste Aufgabe zu bekommen."
 
-#: ExerciseMixedNumbers.cpp:352 taskview.cpp:372
+#: ExerciseMixedNumbers.cpp:352 TaskView.cpp:372
 msgid ""
 "You entered 0 as the denominator. This means division by zero, which is not "
 "allowed. This question will be counted as not correctly solved."
@@ -321,7 +321,7 @@ msgstr ""
 "Null, was nicht zulässig ist. Die Aufgabe wird daher als falsch gelöst "
 "gewertet."
 
-#: ExerciseMixedNumbers.cpp:359 taskview.cpp:382
+#: ExerciseMixedNumbers.cpp:359 TaskView.cpp:382
 msgid ""
 "You entered the correct result, but not in the mixed number notation. This "
 "question will be counted as not correctly solved."
@@ -329,7 +329,7 @@ msgstr ""
 "Du hast zwar das richtige Ergebnis, aber als gemischter Bruch eingegeben. "
 "Diese Aufgabe wird daher als falsch gelöst gewertet."
 
-#: ExerciseMixedNumbers.cpp:362 taskview.cpp:379
+#: ExerciseMixedNumbers.cpp:362 TaskView.cpp:379
 msgid ""
 "You entered the correct result, but not reduced. This question will be "
 "counted as not correctly solved."
@@ -337,21 +337,21 @@ msgstr ""
 "Du hast zwar das richtige Ergebnis, aber ungekürzt eingegeben. Diese Aufgabe "
 "wird daher als falsch gelöst gewertet."
 
-#: exercisepercentage.cpp:97 exercisepercentage.cpp:384
+#: ExercisePercentage.cpp:97 ExercisePercentage.cpp:384
 #, kde-format
 msgctxt "%1 percentage of %2"
 msgid "%1% of %2 = "
 msgstr "%1 % von %2 ="
 
-#: exercisepercentage.cpp:104
+#: ExercisePercentage.cpp:104
 msgid "Enter the result of percentage question"
 msgstr "Gib das Ergebnis der Prozent-Frage ein"
 
-#: exercisepercentage.cpp:146 mainqtwidget.cpp:535
+#: ExercisePercentage.cpp:146 MainQtWidget.cpp:535
 msgid "In this exercise you have to work with percentage questions."
 msgstr "In dieser Übung musst Du Prozentaufgaben lösen."
 
-#: exercisepercentage.cpp:147
+#: ExercisePercentage.cpp:147
 msgid "In this exercise you have to enter the fraction of the given number."
 msgstr "In dieser Übung muss der Bruch der gegebenen Zahl angegeben werden."
 
@@ -363,16 +363,16 @@ msgctxt ""
 msgid "Expand"
 msgstr "Erweitern"
 
-#: FractionRingWidget.cpp:146 mainqtwidget.cpp:490
+#: FractionRingWidget.cpp:146 MainQtWidget.cpp:490
 msgid "New"
 msgstr "Neu"
 
-#: FractionRingWidget.cpp:199 mainqtwidget.cpp:539
+#: FractionRingWidget.cpp:199 MainQtWidget.cpp:539
 msgctxt "@action opens a new question"
 msgid "&New"
 msgstr "&Neu"
 
-#: FractionRingWidget.cpp:205 mainqtwidget.cpp:554
+#: FractionRingWidget.cpp:205 MainQtWidget.cpp:554
 msgctxt "@action go to the main screen"
 msgid "Back"
 msgstr "Zurück"
@@ -383,11 +383,11 @@ msgid "Hint"
 msgstr "Tipp"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: FractionRingWidget.cpp:238 mainqtwidget.cpp:804 taskcolorsbase.ui:16
+#: FractionRingWidget.cpp:238 MainQtWidget.cpp:804 taskcolorsbase.ui:16
 msgid "Colors"
 msgstr "Farben"
 
-#: FractionRingWidget.cpp:361 FractionRingWidget.cpp:389
+#: FractionRingWidget.cpp:359 FractionRingWidget.cpp:387
 msgid ""
 "Now the parts of the inside ring and outside ring have the same size, and we "
 "can add the fractions!\n"
@@ -401,11 +401,11 @@ msgstr ""
 "Dies wird „Finden des Hauptnenners“ genannt. Der Hauptnenner teilt den Ring "
 "in gleich große Teile."
 
-#: FractionRingWidget.cpp:367 FractionRingWidget.cpp:395
+#: FractionRingWidget.cpp:365 FractionRingWidget.cpp:393
 msgid "There is a smaller main denominator. Can you find it?"
 msgstr "Es gibt einen kleineren Hauptnenner. Kannst Du ihn finden?"
 
-#: FractionRingWidget.cpp:372
+#: FractionRingWidget.cpp:370
 #, kde-format
 msgid ""
 "You have just expanded the first fraction by %1. Our main goal is to make "
@@ -416,7 +416,7 @@ msgstr ""
 "alle Teile gleich groß sind. Versuche, den ersten Bruch mit %2 und den "
 "zweiten mit %3 zu erweitern."
 
-#: FractionRingWidget.cpp:400
+#: FractionRingWidget.cpp:398
 #, kde-format
 msgid ""
 "You have just expanded the second fraction by %1. Our main goal is to make "
@@ -427,7 +427,7 @@ msgstr ""
 "alle Teile gleich groß sind. Versuche, den ersten Bruch mit %2 und den "
 "zweiten mit %3 zu erweitern."
 
-#: FractionRingWidget.cpp:438
+#: FractionRingWidget.cpp:436
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
 msgid "%2 of 1 painted part."
@@ -435,7 +435,7 @@ msgid_plural "%2 of %1 painted parts."
 msgstr[0] "%2 von einem gezeichneten Teil."
 msgstr[1] "%2 von %1 gezeichneten Teilen."
 
-#: FractionRingWidget.cpp:441
+#: FractionRingWidget.cpp:439
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
 msgid "%2 of 1 painted part."
@@ -443,7 +443,7 @@ msgid_plural "%2 of %1 painted parts."
 msgstr[0] "%2 von einem gezeichneten Teil."
 msgstr[1] "%2 von %1 gezeichneten Teilen."
 
-#: FractionRingWidget.cpp:444
+#: FractionRingWidget.cpp:442
 #, kde-format
 msgctxt "%1 and %2 are the two messages translated above."
 msgid ""
@@ -461,48 +461,48 @@ msgstr ""
 "Mit der Zahl im Drehfeld „Erweitern“ wird jeder Bruch erweitert. Versuche, "
 "die Zahlen in den Drehfeldern zu ändern."
 
-#: kbruch.cpp:45
+#: KBruch.cpp:45
 msgid "Learn calculating with fractions"
 msgstr "Rechnen mit Brüchen lernen"
 
-#: kbruch.cpp:47
+#: KBruch.cpp:47
 msgid "(c) 2002-2011, Sebastian Stein"
 msgstr "© 2002–2011, Sebastian Stein"
 
-#: kbruch.cpp:48
+#: KBruch.cpp:48
 msgid "Sebastian Stein"
 msgstr "Sebastian Stein"
 
-#: kbruch.cpp:48
+#: KBruch.cpp:48
 msgid "Current maintainer, original author"
 msgstr "Aktueller Betreuer, Ursprünglicher Autor"
 
-#: kbruch.cpp:49
+#: KBruch.cpp:49
 msgid "Paulo Cattai"
 msgstr "Paulo Cattai"
 
-#: kbruch.cpp:49 kbruch.cpp:50 kbruch.cpp:51 kbruch.cpp:52 kbruch.cpp:53
+#: KBruch.cpp:49 KBruch.cpp:50 KBruch.cpp:51 KBruch.cpp:52 KBruch.cpp:53
 msgid "New interface design and usability improvements"
 msgstr ""
 "Design der neuen Oberfläche und Verbesserung der Benutzerfreundlichkeit"
 
-#: kbruch.cpp:50
+#: KBruch.cpp:50
 msgid "Danilo Balzaque"
 msgstr "Danilo Balzaque"
 
-#: kbruch.cpp:51
+#: KBruch.cpp:51
 msgid "Roberto Cunha"
 msgstr "Roberto Cunha"
 
-#: kbruch.cpp:52
+#: KBruch.cpp:52
 msgid "Tadeu Araujo"
 msgstr "Tadeu Araujo"
 
-#: kbruch.cpp:53
+#: KBruch.cpp:53
 msgid "Tiago Porangaba"
 msgstr "Tiago Porangaba"
 
-#: kbruch.h:34
+#: KBruch.h:34
 msgid "KBruch"
 msgstr "KBruch"
 
@@ -681,31 +681,31 @@ msgstr ""
 "Aktiviert bzw. deaktiviert die Darstellung des Ergebnisses als gemischter "
 "Bruch."
 
-#: mainqtwidget.cpp:117
+#: MainQtWidget.cpp:117
 msgid "Question:"
 msgstr "Frage:"
 
-#: mainqtwidget.cpp:118
+#: MainQtWidget.cpp:118
 msgid "Answer:"
 msgstr "Antwort:"
 
-#: mainqtwidget.cpp:119
+#: MainQtWidget.cpp:119
 msgid "Operations:"
 msgstr "Rechenarten:"
 
-#: mainqtwidget.cpp:125 mainqtwidget.cpp:905
+#: MainQtWidget.cpp:125 MainQtWidget.cpp:905
 msgid "Arithmetic"
 msgstr "Arithmetik"
 
-#: mainqtwidget.cpp:167
+#: MainQtWidget.cpp:167
 msgid "Options:"
 msgstr "Optionen:"
 
-#: mainqtwidget.cpp:168
+#: MainQtWidget.cpp:168
 msgid "Set the options to solve the exercises."
 msgstr "Wähle hier die Einstellungen für die Lösung der Aufgaben."
 
-#: mainqtwidget.cpp:169
+#: MainQtWidget.cpp:169
 msgid ""
 "This part of the window shows the options to solve the exercises. Use the "
 "handle between the options and main window to change the size of this window "
@@ -717,11 +717,11 @@ msgstr ""
 "Hauptfenster kannst du die Größe des Fensters ändern oder das Fenster auch "
 "ganz ausblenden, indem du den Trennbalken ganz nach links ziehst."
 
-#: mainqtwidget.cpp:173 mainqtwidget.cpp:184
+#: MainQtWidget.cpp:173 MainQtWidget.cpp:184
 msgid "Mixed number:"
 msgstr "Gemischte Brüche:"
 
-#: mainqtwidget.cpp:174
+#: MainQtWidget.cpp:174
 msgid ""
 "Set if the fractions will appear as mixed numbers or not in the question "
 "expression (mixed number example: 1 4/5 = 9/5 )."
@@ -729,7 +729,7 @@ msgstr ""
 "Festlegen, ob die Brüche in der Frage als gemischte Brüche oder nicht "
 "erscheinen sollen (Beispiel für einen gemischten Bruch: 1 4/5 = 9/5)."
 
-#: mainqtwidget.cpp:185
+#: MainQtWidget.cpp:185
 msgid ""
 "Set if the fractions will appear as mixed numbers or not in the answer "
 "(mixed number example: 1 4/5 = 9/5 )."
@@ -737,51 +737,51 @@ msgstr ""
 "Festlegen, ob die Brüche in der Antwort als gemischte Brüche oder nicht "
 "erscheinen sollen (Beispiel für einen gemischten Bruch: 1 4/5 = 9/5)."
 
-#: mainqtwidget.cpp:195
+#: MainQtWidget.cpp:195
 msgid "Addition:"
 msgstr "Addition:"
 
-#: mainqtwidget.cpp:196
+#: MainQtWidget.cpp:196
 msgid "Check this to use addition operator."
 msgstr "Auswählen, um den Additionsoperator zu verwenden."
 
-#: mainqtwidget.cpp:205
+#: MainQtWidget.cpp:205
 msgid "Subtraction:"
 msgstr "Subtraktion:"
 
-#: mainqtwidget.cpp:206
+#: MainQtWidget.cpp:206
 msgid "Check this to use subtraction operator."
 msgstr "Auswählen, um den Subtraktionsoperator zu verwenden."
 
-#: mainqtwidget.cpp:215
+#: MainQtWidget.cpp:215
 msgid "Multiplication:"
 msgstr "Multiplikation:"
 
-#: mainqtwidget.cpp:216
+#: MainQtWidget.cpp:216
 msgid "Check this to use multiplication operator."
 msgstr "Auswählen, um den Multiplikationsoperator zu verwenden."
 
-#: mainqtwidget.cpp:225
+#: MainQtWidget.cpp:225
 msgid "Division:"
 msgstr "Division:"
 
-#: mainqtwidget.cpp:226
+#: MainQtWidget.cpp:226
 msgid "Check this to use division operator."
 msgstr "Auswählen, um den Divisionsoperator zu verwenden."
 
-#: mainqtwidget.cpp:235
+#: MainQtWidget.cpp:235
 msgid "Reduced form:"
 msgstr "Gekürzte Form:"
 
-#: mainqtwidget.cpp:236
+#: MainQtWidget.cpp:236
 msgid "Check this to force the use of the reduced form."
 msgstr "Auswählen, um die gekürzte Form zu erzwingen."
 
-#: mainqtwidget.cpp:246
+#: MainQtWidget.cpp:246
 msgid "Number of terms:"
 msgstr "Anzahl der Terme:"
 
-#: mainqtwidget.cpp:247 mainqtwidget.cpp:257
+#: MainQtWidget.cpp:247 MainQtWidget.cpp:257
 msgid ""
 "The number of \n"
 "terms you want"
@@ -789,39 +789,39 @@ msgstr ""
 "Die Anzahl der \n"
 "gewünschten Terme"
 
-#: mainqtwidget.cpp:258
+#: MainQtWidget.cpp:258
 msgid ""
 "Choose the number of terms (2, 3, 4 or 5) you \n"
 "want for calculating fractions."
 msgstr "Wähle die Anzahl der Termen (2, 3, 4 oder 5) für die Bruchaufgaben."
 
-#: mainqtwidget.cpp:261
+#: MainQtWidget.cpp:261
 msgid "Maximum denominator:"
 msgstr "Maximaler Hauptnenner:"
 
-#: mainqtwidget.cpp:271
+#: MainQtWidget.cpp:271
 msgid "The maximum number you can have as main denominator"
 msgstr "Der maximale Wert für den Hauptnenner"
 
-#: mainqtwidget.cpp:272
+#: MainQtWidget.cpp:272
 msgid ""
 "Choose the number which will be the maximum for the main denominator: 10, "
 "20, 30, 40 or 50."
 msgstr "Wähle den maximalen Wert für den Hauptnenner: 10, 20, 30, 40 oder 50."
 
-#: mainqtwidget.cpp:492
+#: MainQtWidget.cpp:492
 msgid "Reset statistics and set a new task."
 msgstr "Statistik zurücksetzen und neue Aufgabe erstellen."
 
-#: mainqtwidget.cpp:497
+#: MainQtWidget.cpp:497
 msgid "Back"
 msgstr "Zurück"
 
-#: mainqtwidget.cpp:499
+#: MainQtWidget.cpp:499
 msgid "Go back to Modes screen."
 msgstr "Zurück zur Modusauswahl."
 
-#: mainqtwidget.cpp:504
+#: MainQtWidget.cpp:504
 msgid ""
 "\n"
 "\n"
@@ -831,11 +831,11 @@ msgstr ""
 "\n"
 "Arithmetik"
 
-#: mainqtwidget.cpp:505 taskview.cpp:176
+#: MainQtWidget.cpp:505 TaskView.cpp:176
 msgid "In this exercise you have to solve a given question with fractions."
 msgstr "In dieser Übung musst Du eine Frage mit Brüchen lösen."
 
-#: mainqtwidget.cpp:510
+#: MainQtWidget.cpp:510
 msgid ""
 "\n"
 "\n"
@@ -845,7 +845,7 @@ msgstr ""
 "\n"
 "Vergleich"
 
-#: mainqtwidget.cpp:516
+#: MainQtWidget.cpp:516
 msgid ""
 "\n"
 "\n"
@@ -855,7 +855,7 @@ msgstr ""
 "\n"
 "Umwandeln"
 
-#: mainqtwidget.cpp:522
+#: MainQtWidget.cpp:522
 msgid ""
 "\n"
 "\n"
@@ -865,7 +865,7 @@ msgstr ""
 "\n"
 "Gemischter Bruch"
 
-#: mainqtwidget.cpp:528
+#: MainQtWidget.cpp:528
 msgid ""
 "\n"
 "\n"
@@ -875,7 +875,7 @@ msgstr ""
 "\n"
 "Faktorisieren"
 
-#: mainqtwidget.cpp:534
+#: MainQtWidget.cpp:534
 msgid ""
 "\n"
 "\n"
@@ -885,122 +885,122 @@ msgstr ""
 "\n"
 "Prozentaufgaben"
 
-#: mainqtwidget.cpp:544
+#: MainQtWidget.cpp:544
 msgctxt "@action opens a new question"
 msgid "New"
 msgstr "Neu"
 
-#: mainqtwidget.cpp:549
+#: MainQtWidget.cpp:549
 msgctxt "@action go to the main screen"
 msgid "&Back"
 msgstr "&Zurück"
 
-#: mainqtwidget.cpp:559
+#: MainQtWidget.cpp:559
 msgctxt "Arithmetic Exercise"
 msgid "Arithmetic"
 msgstr "Arithmetik"
 
-#: mainqtwidget.cpp:564
+#: MainQtWidget.cpp:564
 msgctxt "Comparison Exercise"
 msgid "Comparison"
 msgstr "Vergleich"
 
-#: mainqtwidget.cpp:569
+#: MainQtWidget.cpp:569
 msgctxt "Conversion Exercise"
 msgid "Conversion"
 msgstr "Umwandeln"
 
-#: mainqtwidget.cpp:574
+#: MainQtWidget.cpp:574
 msgctxt "Mixed Numbers Exercise"
 msgid "MixedNumbers"
 msgstr "Gemischter Bruch"
 
-#: mainqtwidget.cpp:579
+#: MainQtWidget.cpp:579
 msgctxt "Factorization Exercise"
 msgid "Factorization"
 msgstr "Faktorisieren"
 
-#: mainqtwidget.cpp:584
+#: MainQtWidget.cpp:584
 msgctxt "Percentage Exercise"
 msgid "Percentage"
 msgstr "Prozentaufgaben"
 
-#: mainqtwidget.cpp:807
+#: MainQtWidget.cpp:807
 msgid "Fonts"
 msgstr "Schriftarten"
 
-#: mainqtwidget.cpp:889
+#: MainQtWidget.cpp:889
 msgid "Percentage"
 msgstr "Prozentaufgaben"
 
-#: mainqtwidget.cpp:921
+#: MainQtWidget.cpp:921
 msgid "Comparison"
 msgstr "Vergleichen"
 
-#: mainqtwidget.cpp:937
+#: MainQtWidget.cpp:937
 msgid "Conversion"
 msgstr "Umwandeln"
 
-#: mainqtwidget.cpp:953
+#: MainQtWidget.cpp:953
 msgid "Mixed Numbers"
 msgstr "Gemischter Bruch"
 
-#: mainqtwidget.cpp:969
+#: MainQtWidget.cpp:969
 msgid "Factorization"
 msgstr "Faktorisieren"
 
-#: resultwidget.cpp:101
+#: ResultWidget.cpp:101
 msgid "Solution:"
 msgstr "Lösung:"
 
-#: resultwidget.cpp:139
+#: ResultWidget.cpp:139
 msgid "Correct!"
 msgstr "Richtig!"
 
-#: resultwidget.cpp:146 resultwidget.cpp:153
+#: ResultWidget.cpp:146 ResultWidget.cpp:153
 msgid "Incorrect!"
 msgstr "Falsch!"
 
-#: statisticsview.cpp:72
+#: StatisticsView.cpp:72
 msgid "This is the current total number of solved tasks."
 msgstr "Dies ist die aktuelle Gesamtzahl aller bisher gelösten Aufgaben."
 
-#: statisticsview.cpp:78
+#: StatisticsView.cpp:78
 msgid "Questions:"
 msgstr "Fragen:"
 
-#: statisticsview.cpp:84
+#: StatisticsView.cpp:84
 msgctxt "@info:status the number of correct answers"
 msgid "Correct:"
 msgstr "Richtig:"
 
-#: statisticsview.cpp:90
+#: StatisticsView.cpp:90
 msgctxt "@info:status the number of incorrect answers"
 msgid "Incorrect:"
 msgstr "Falsch:"
 
-#: statisticsview.cpp:96
+#: StatisticsView.cpp:96
 msgctxt "@info:status the number of skipped answers"
 msgid "Skipped:"
 msgstr "Übersprungen:"
 
-#: statisticsview.cpp:107
+#: StatisticsView.cpp:107
 msgid "This is the current total number of correctly solved tasks."
 msgstr "Dies ist die aktuelle Gesamtzahl aller richtig gelösten Aufgaben."
 
-#: statisticsview.cpp:113
+#: StatisticsView.cpp:113
 msgid "This is the current total number of unsolved tasks."
 msgstr "Dies ist die aktuelle Gesamtzahl aller ungelösten Aufgaben."
 
-#: statisticsview.cpp:119
+#: StatisticsView.cpp:119
 msgid "This is the current total number of skipped tasks."
 msgstr "Dies ist die aktuelle Gesamtzahl aller übersprungenen Aufgaben."
 
-#: statisticsview.cpp:122
+#: StatisticsView.cpp:122
 msgid "This part of the window shows the statistics."
 msgstr "Dieser Teil des Fensters zeigt die aktuelle Statistik."
 
-#: statisticsview.cpp:123
+#: StatisticsView.cpp:123
 msgid ""
 "This part of the window shows the statistics. Each exercise you do is "
 "counted. You can reset the statistics by clicking on the 'New' button in the "
@@ -1010,11 +1010,11 @@ msgstr ""
 "gezählt. Die Statistik kann mit dem Knopf „Neu“ in der Werkzeugleiste oder "
 "mit „Neu“ aus den Menü „Datei“ zurückgesetzt werden."
 
-#: statisticsview.cpp:134
+#: StatisticsView.cpp:134
 msgid "&Reset"
 msgstr "&Zurücksetzen"
 
-#: statisticsview.cpp:135
+#: StatisticsView.cpp:135
 msgid "Click this button to reset the statistics."
 msgstr "Hiermit wird die Statistik zurückgesetzt."
 
@@ -1053,11 +1053,11 @@ msgstr "Die Farbe für Bruchstriche in der Anzeige ändern."
 msgid "Change the font of the numbers"
 msgstr "Schriftart für die Zahlen ändern."
 
-#: taskview.cpp:167
+#: TaskView.cpp:167
 msgid "Click this button to skip this question."
 msgstr "Drücke diesen Knopf, um diese Frage zu überspringen."
 
-#: taskview.cpp:177
+#: TaskView.cpp:177
 msgid ""
 "In this exercise you have to solve the generated question. You have to enter "
 "the integer part of the fraction and the numerator and the denominator. You "
@@ -1070,7 +1070,7 @@ msgstr ""
 "darfst nicht vergessen, das Ergebnis zu kürzen, wenn die gekürzte Form "
 "gefordert ist."
 
-#: taskwidget.cpp:117
+#: TaskWidget.cpp:117
 msgctxt "division symbol"
 msgid "/"
 msgstr ":"

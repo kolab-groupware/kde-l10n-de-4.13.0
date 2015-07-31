@@ -3,17 +3,17 @@
 # Thomas Diehl <thd@kde.org>, 2003.
 # Stephan Johach <hunsum@gmx.de>, 2004, 2005.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2007, 2008, 2009, 2010.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2013, 2014.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2009.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2014.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2009, 2010.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: krdc\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-23 01:48+0000\n"
-"PO-Revision-Date: 2013-11-22 06:55+0100\n"
+"POT-Creation-Date: 2015-01-06 06:29+0000\n"
+"PO-Revision-Date: 2014-10-16 07:37+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -53,7 +53,7 @@ msgstr "Passwörter speichern (KWallet)"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SystemTrayIcon)
 #: config/general.ui:38
 msgid "Enable system tray icon"
-msgstr "Symbol in der Kontrollleiste anzeigen"
+msgstr "Symbol im Systemabschnitt der Kontrollleiste anzeigen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatusBar)
 #: config/general.ui:45
@@ -161,11 +161,11 @@ msgstr "Einrichten ..."
 msgid "Remove"
 msgstr "Entfernen"
 
-#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:661
+#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:669
 msgid "The selected host cannot be handled."
 msgstr "Der ausgewählte Rechner wird nicht unterstützt."
 
-#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:319 mainwindow.cpp:662
+#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:327 mainwindow.cpp:670
 msgid "Unusable URL"
 msgstr "Adresse nicht verwendbar"
 
@@ -409,8 +409,8 @@ msgstr "Adressen zur sofortigen Verbindungen nach dem Programmstart"
 msgid "KDE Remote Desktop Client started"
 msgstr "Client für Verbindung zu entferntem Rechner gestartet"
 
-#: mainwindow.cpp:136 mainwindow.cpp:149 mainwindow.cpp:1048
-#: mainwindow.cpp:1152
+#: mainwindow.cpp:136 mainwindow.cpp:149 mainwindow.cpp:1056
+#: mainwindow.cpp:1161
 msgid "New Connection"
 msgstr "Neue Verbindung"
 
@@ -422,11 +422,11 @@ msgstr "Bildschirmfoto in die Zwischenablage kopieren"
 msgid "Screenshot"
 msgstr "Bildschirmfoto"
 
-#: mainwindow.cpp:160 mainwindow.cpp:501
+#: mainwindow.cpp:160 mainwindow.cpp:509
 msgid "Switch to Full Screen Mode"
 msgstr "Zum Vollbildmodus wechseln"
 
-#: mainwindow.cpp:161 mainwindow.cpp:502
+#: mainwindow.cpp:161 mainwindow.cpp:510
 msgid "Full Screen"
 msgstr "Vollbild"
 
@@ -466,7 +466,7 @@ msgstr "Skalieren"
 msgid "Bookmarks"
 msgstr "Lesezeichen"
 
-#: mainwindow.cpp:294
+#: mainwindow.cpp:302
 msgid ""
 "The entered address does not have the required form.\n"
 " Syntax: [username@]host[:port]"
@@ -474,119 +474,119 @@ msgstr ""
 "Die eingegebene Adresse liegt nicht in der benötigten Form vor.\n"
 "Syntax: [benutzername@]host[:port]"
 
-#: mainwindow.cpp:295
+#: mainwindow.cpp:303
 msgid "Malformed URL"
 msgstr "Ungültige Adresse"
 
-#: mainwindow.cpp:318
+#: mainwindow.cpp:326
 msgid "The entered address cannot be handled."
 msgstr "Die eingegebene Adresse kann nicht verarbeitet werden."
 
-#: mainwindow.cpp:427
+#: mainwindow.cpp:435
 #, kde-format
 msgid "Connecting to %1"
 msgstr "Verbindung zu %1 wird aufgebaut"
 
-#: mainwindow.cpp:431
+#: mainwindow.cpp:439
 #, kde-format
 msgid "Authenticating at %1"
 msgstr "Authentifizierung an %1"
 
-#: mainwindow.cpp:435
+#: mainwindow.cpp:443
 #, kde-format
 msgid "Preparing connection to %1"
 msgstr "Verbindungsaufbau zu %1"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:447
 #, kde-format
 msgid "Connected to %1"
 msgstr "Verbunden mit %1"
 
-#: mainwindow.cpp:510
+#: mainwindow.cpp:518
 msgctxt ""
 "window title when in full screen mode (for example displayed in tasklist)"
 msgid "KDE Remote Desktop Client (Full Screen)"
 msgstr "Verbindungsclient zu entferntem Rechner (Vollbild)"
 
-#: mainwindow.cpp:538
+#: mainwindow.cpp:546
 msgid "Switch to Window Mode"
 msgstr "Zum Fenstermodus wechseln"
 
-#: mainwindow.cpp:539
+#: mainwindow.cpp:547
 msgid "Window Mode"
 msgstr "Zum Fenstermodus wechseln"
 
-#: mainwindow.cpp:683
+#: mainwindow.cpp:691
 msgid "Connect"
 msgstr "Verbinden"
 
-#: mainwindow.cpp:684
+#: mainwindow.cpp:692
 msgid "Rename"
 msgstr "Umbenennen"
 
-#: mainwindow.cpp:685
+#: mainwindow.cpp:693
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: mainwindow.cpp:686
+#: mainwindow.cpp:694
 msgid "Delete"
 msgstr "Löschen"
 
-#: mainwindow.cpp:689 remotedesktopsmodel.cpp:119
+#: mainwindow.cpp:697 remotedesktopsmodel.cpp:119
 msgctxt "Where each displayed link comes from"
 msgid "Bookmarks"
 msgstr "Lesezeichen"
 
-#: mainwindow.cpp:690 remotedesktopsmodel.cpp:121
+#: mainwindow.cpp:698 remotedesktopsmodel.cpp:121
 msgctxt "Where each displayed link comes from"
 msgid "History"
 msgstr "Verlauf"
 
-#: mainwindow.cpp:702
+#: mainwindow.cpp:710
 #, kde-format
 msgid "Rename %1"
 msgstr "%1 umbenennen"
 
-#: mainwindow.cpp:702
+#: mainwindow.cpp:710
 #, kde-format
 msgid "Rename %1 to"
 msgstr "%1 umbenennen in"
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:718
 #, kde-format
 msgid "Are you sure you want to delete %1?"
 msgstr "Sind Sie sicher, dass Sie %1 löschen möchten?"
 
-#: mainwindow.cpp:710
+#: mainwindow.cpp:718
 #, kde-format
 msgid "Delete %1"
 msgstr "%1 löschen"
 
-#: mainwindow.cpp:731
+#: mainwindow.cpp:739
 msgid "Add Bookmark"
 msgstr "Lesezeichen hinzufügen"
 
-#: mainwindow.cpp:732
+#: mainwindow.cpp:740
 msgid "Close Tab"
 msgstr "Unterfenster schließen"
 
-#: mainwindow.cpp:813
+#: mainwindow.cpp:821
 msgid "Minimize Full Screen Window"
 msgstr "Vollbildfenster minimieren"
 
-#: mainwindow.cpp:828
+#: mainwindow.cpp:836
 msgid "Stick Toolbar"
 msgstr "Werkzeugleiste anheften"
 
-#: mainwindow.cpp:942
+#: mainwindow.cpp:950
 msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
 msgstr "Soll KRDC wirklich beendet werden?"
 
-#: mainwindow.cpp:943
+#: mainwindow.cpp:951
 msgid "Confirm Quit"
 msgstr "Beenden bestätigen"
 
-#: mainwindow.cpp:1064
+#: mainwindow.cpp:1072
 msgid ""
 "<h1>KDE Remote Desktop Client</h1><br />Enter or select the address of the "
 "desktop you would like to connect to."
@@ -595,16 +595,16 @@ msgstr ""
 "entfernten Rechners, zu dem eine Verbindung hergestellt werden soll, "
 "eingeben oder auswählen"
 
-#: mainwindow.cpp:1082
+#: mainwindow.cpp:1090
 msgid "Connect to:"
 msgstr "Verbinden mit:"
 
-#: mainwindow.cpp:1086
+#: mainwindow.cpp:1094
 msgid "Type here to connect to an address and filter the list."
 msgstr ""
 "Tippen Sie hier zum Verbinden mit einer Adresse und zum Filtern der Liste."
 
-#: mainwindow.cpp:1094
+#: mainwindow.cpp:1102
 msgid ""
 "Type an IP or DNS Name here. Clear the line to get a list of connection "
 "methods."
@@ -612,15 +612,15 @@ msgstr ""
 "Geben Sie hier eine IP oder einen DNS-Namen ein. Leeren Sie die Zeile, um "
 "eine Liste der Verbindungsmethoden zu erhalten."
 
-#: mainwindow.cpp:1097
+#: mainwindow.cpp:1105
 msgid "Goto Address"
 msgstr "Gehe zu Adresse"
 
-#: mainwindow.cpp:1188
+#: mainwindow.cpp:1197
 msgid "Remote Desktops"
 msgstr "Entfernte Arbeitsflächen"
 
-#: mainwindow.cpp:1219
+#: mainwindow.cpp:1228
 msgid "Filter"
 msgstr "Filter"
 
@@ -796,7 +796,7 @@ msgstr "Deutsch (de)"
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
 #: nx/nxpreferences.ui:254 rdp/rdppreferences.ui:251
 msgid "Swiss German (de-ch)"
-msgstr "Schweitzer Deutsch (de-ch)"
+msgstr "Schweizerdeutsch (de-ch)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
@@ -1303,17 +1303,17 @@ msgstr "Kein Standard-Benutzername"
 msgid "Automatically recognize \"LDAP\"-Logins and share passwords"
 msgstr "„LDAP“-Anmeldung automatisch erkennen und Passwörter gemeinsam nutzen"
 
-#: rdp/rdpview.cpp:311
+#: rdp/rdpview.cpp:412
 msgid "Could not start \"xfreerdp\"; make sure xfreerdp is properly installed."
 msgstr ""
 "„xfreerdp“ kann nicht gestartet werden. Überprüfen Sie, ob das Programm "
 "korrekt installiert ist."
 
-#: rdp/rdpview.cpp:312 rdp/rdpview.cpp:337
+#: rdp/rdpview.cpp:413 rdp/rdpview.cpp:438
 msgid "RDP Failure"
 msgstr "RDP-Fehler"
 
-#: rdp/rdpview.cpp:335
+#: rdp/rdpview.cpp:436
 msgid ""
 "The version of \"xfreerdp\" you are using is too old.\n"
 "xfreerdp 1.0.2 or greater is required."
@@ -1321,15 +1321,16 @@ msgstr ""
 "Die von Ihnen verwendete Version von „xfreerdp“ (%1) ist zu alt:\n"
 "Benötigt wird Version 1.0.2 oder neuer."
 
-#: rdp/rdpview.cpp:355
+#: rdp/rdpview.cpp:454
 msgid "Name or service not known."
 msgstr "Der Name oder Dienst ist unbekannt."
 
-#: rdp/rdpview.cpp:356 rdp/rdpview.cpp:363 rdp/rdpview.cpp:371
+#: rdp/rdpview.cpp:455 rdp/rdpview.cpp:462 rdp/rdpview.cpp:468
+#: rdp/rdpview.cpp:477
 msgid "Connection Failure"
 msgstr "Verbindung fehlgeschlagen"
 
-#: rdp/rdpview.cpp:362 rdp/rdpview.cpp:370
+#: rdp/rdpview.cpp:461 rdp/rdpview.cpp:467 rdp/rdpview.cpp:476
 msgid "Connection attempt to host failed."
 msgstr "Verbindungsversuch zu Fremdrechner fehlgeschlagen"
 

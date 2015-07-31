@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmouth\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 04:30+0200\n"
+"POT-Creation-Date: 2014-04-27 01:54+0000\n"
 "PO-Revision-Date: 2012-03-11 19:29+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -214,42 +214,42 @@ msgstr "Auswahl a&ller Einträge aufheben"
 msgid "Deselects all phrases in the history"
 msgstr "Die Auswahl von Textpassagen im Verlauf wird aufgehoben."
 
-#: kmouth.cpp:244 kmouth.cpp:262 kmouth.cpp:370 kmouth.cpp:378 kmouth.cpp:396
-#: kmouth.cpp:446 kmouth.cpp:463 kmouth.cpp:480 kmouth.cpp:497
+#: kmouth.cpp:244 kmouth.cpp:262 kmouth.cpp:365 kmouth.cpp:373 kmouth.cpp:391
+#: kmouth.cpp:441 kmouth.cpp:458 kmouth.cpp:475 kmouth.cpp:492
 msgctxt "The job is done"
 msgid "Ready."
 msgstr "Fertig"
 
-#: kmouth.cpp:259 kmouth.cpp:366
+#: kmouth.cpp:259 kmouth.cpp:361
 msgid "Opening file..."
 msgstr "Datei wird geöffnet ..."
 
-#: kmouth.cpp:374
+#: kmouth.cpp:369
 msgid "Saving history with a new filename..."
 msgstr "Den Verlauf unter einem neuen Dateinamen speichern ..."
 
-#: kmouth.cpp:383
+#: kmouth.cpp:378
 msgid "Printing..."
 msgstr "Druckvorgang läuft ..."
 
-#: kmouth.cpp:401
+#: kmouth.cpp:396
 msgctxt "Shutting down the application"
 msgid "Exiting..."
 msgstr "Wird beendet ..."
 
-#: kmouth.cpp:439
+#: kmouth.cpp:434
 msgid "Toggling menubar..."
 msgstr "Menüleiste an/aus ..."
 
-#: kmouth.cpp:451
+#: kmouth.cpp:446
 msgid "Toggling toolbar..."
 msgstr "Werkzeugleiste an/aus ..."
 
-#: kmouth.cpp:468
+#: kmouth.cpp:463
 msgid "Toggling phrasebook bar..."
 msgstr "Leiste für Textpassagen-Buch an/aus ..."
 
-#: kmouth.cpp:485
+#: kmouth.cpp:480
 msgid "Toggle the statusbar..."
 msgstr "Statusleiste an/aus ..."
 

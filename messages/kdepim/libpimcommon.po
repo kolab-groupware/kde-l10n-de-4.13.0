@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-24 06:34+0000\n"
-"PO-Revision-Date: 2014-02-21 07:31+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-10-16 13:15+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -480,14 +480,14 @@ msgstr "Abgekürzte URL:"
 msgid "Open Short Url"
 msgstr "Abgekürzte URL öffnen"
 
+#: shorturl/shorturlwidget.cpp:168 translator/translatorwidget.cpp:377
+msgid "No network"
+msgstr "Kein Netzwerk"
+
 #: shorturl/shorturlwidget.cpp:168
 msgid "No network connection detected, we cannot shorten url."
 msgstr ""
 "Es wurde keine Netzwerkverbindung erkannt, die URL kann nicht gekürzt werden."
-
-#: shorturl/shorturlwidget.cpp:168 translator/translatorwidget.cpp:377
-msgid "No network"
-msgstr "Kein Netzwerk"
 
 #: shorturl/shorturlwidget.cpp:207
 #, kde-format
@@ -852,43 +852,43 @@ msgstr "Kontingent: %1"
 msgid "Shared: %1"
 msgstr "Freigegeben: %1"
 
-#: storageservice/storageservicemanager.cpp:151
+#: storageservice/storageservicemanager.cpp:145
 msgid "Storage service"
 msgstr "Speicherdienst"
 
-#: storageservice/storageservicemanager.cpp:153
+#: storageservice/storageservicemanager.cpp:147
 msgid "No Storage service configured"
 msgstr "Kein Speicherdienst eingerichtet"
 
-#: storageservice/storageservicemanager.cpp:180
+#: storageservice/storageservicemanager.cpp:174
 msgid "Delete Folder..."
 msgstr "Ordner löschen ..."
 
-#: storageservice/storageservicemanager.cpp:184
+#: storageservice/storageservicemanager.cpp:178
 msgid "Download File..."
 msgstr "Datei herunterladen ..."
 
-#: storageservice/storageservicemanager.cpp:188
+#: storageservice/storageservicemanager.cpp:182
 msgid "Upload File..."
 msgstr "Datei hochladen ..."
 
-#: storageservice/storageservicemanager.cpp:192
+#: storageservice/storageservicemanager.cpp:186
 msgid "Share File..."
 msgstr "Datei freigeben ..."
 
-#: storageservice/storageservicemanager.cpp:196
+#: storageservice/storageservicemanager.cpp:190
 msgid "Delete File..."
 msgstr "Datei löschen ..."
 
-#: storageservice/storageservicemanager.cpp:200
+#: storageservice/storageservicemanager.cpp:194
 msgid "Account Info..."
 msgstr "Zugangsinformation ..."
 
-#: storageservice/storageservicemanager.cpp:220
+#: storageservice/storageservicemanager.cpp:214
 msgid "There is still an upload in progress."
 msgstr "Es werden immer noch Daten hochgeladen."
 
-#: storageservice/storageservicemanager.cpp:222
+#: storageservice/storageservicemanager.cpp:216
 msgid "File to upload"
 msgstr "Hochzuladende Datei"
 
@@ -897,7 +897,7 @@ msgid "Type:"
 msgstr "Typ:"
 
 #: storageservice/utils/storageserviceutils.cpp:61
-#: templatewidgets/templateeditdialog.cpp:46
+#: templatewidgets/templateeditdialog.cpp:45
 msgid "Name:"
 msgstr "Name:"
 
@@ -1014,11 +1014,11 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nein"
 
-#: templatewidgets/templateeditdialog.cpp:35
+#: templatewidgets/templateeditdialog.cpp:34
 msgid "Default template"
 msgstr "Standardvorlage"
 
-#: templatewidgets/templateeditdialog.cpp:35
+#: templatewidgets/templateeditdialog.cpp:34
 msgid "Template"
 msgstr "Vorlage"
 
@@ -1612,6 +1612,27 @@ msgstr "Neuer Wert"
 #: widgets/simplestringlisteditor.cpp:257
 msgid "Change Value"
 msgstr "Wert ändern"
+
+#~ msgid "Go to Line:"
+#~ msgstr "Gehe zu Zeile:"
+
+#~ msgid "Go"
+#~ msgstr "Geh zu"
+
+#~ msgid "Do you want to remove account '%1'?"
+#~ msgstr "Möchten Sie das Konto „%1“ löschen?"
+
+#~ msgid "Remove account?"
+#~ msgstr "Konto entfernen?"
+
+#~ msgid "Incoming accounts (add at least one):"
+#~ msgstr "Eingangspostfächer (fügen Sie mindestens eines hinzu):"
+
+#~ msgid "A&dd..."
+#~ msgstr "&Hinzufügen ..."
+
+#~ msgid "Restart"
+#~ msgstr "Neu starten"
 
 #~ msgid "UbuntuOne"
 #~ msgstr "UbuntuOne"

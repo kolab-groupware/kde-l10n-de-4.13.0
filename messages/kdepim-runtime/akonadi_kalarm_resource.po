@@ -1,20 +1,20 @@
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2011.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
 # Frederik Schwarzer <schwarzer@kde.org>, 2011.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_kalarm_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-07 01:43+0000\n"
-"PO-Revision-Date: 2012-02-03 18:07+0100\n"
-"Last-Translator: Torbjörn Klatt <opensource@torbjoern-klatt.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-09-02 21:36+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: kalarm/kalarmresource.cpp:90
@@ -165,20 +165,20 @@ msgstr "Erinnerungstypen"
 msgid "Select which alarm type this resource should contain."
 msgstr "Wählen Sie, welchen Erinnerungstyp diese Ressource beinhalten soll."
 
-#. i18n: ectx: property (text), widget (QCheckBox, activeCheckBox)
 #. i18n: ectx: property (text), widget (QRadioButton, activeRadio)
+#. i18n: ectx: property (text), widget (QCheckBox, activeCheckBox)
 #: shared/alarmtyperadiowidget.ui:17 shared/alarmtypewidget.ui:17
 msgid "Active Alarms"
 msgstr "Aktive Erinnerungen"
 
-#. i18n: ectx: property (text), widget (QCheckBox, archivedCheckBox)
 #. i18n: ectx: property (text), widget (QRadioButton, archivedRadio)
+#. i18n: ectx: property (text), widget (QCheckBox, archivedCheckBox)
 #: shared/alarmtyperadiowidget.ui:27 shared/alarmtypewidget.ui:27
 msgid "Archived Alarms"
 msgstr "Abgelaufene Erinnerungen"
 
-#. i18n: ectx: property (text), widget (QCheckBox, templateCheckBox)
 #. i18n: ectx: property (text), widget (QRadioButton, templateRadio)
+#. i18n: ectx: property (text), widget (QCheckBox, templateCheckBox)
 #: shared/alarmtyperadiowidget.ui:37 shared/alarmtypewidget.ui:37
 msgid "Alarm Templates"
 msgstr "Erinnerungsvorlagen"
@@ -224,6 +224,12 @@ msgstr "Ereignis mit Kennung „%1“ enthält keine verwendbaren Erinnerungen."
 msgctxt "@info"
 msgid "Event with uid '%1' is read only"
 msgstr "Ereignis mit Kennung „%1“ ist schreibgeschützt"
+
+#~ msgctxt "@info"
+#~ msgid "Failed to add event with uid '%1' to calendar"
+#~ msgstr ""
+#~ "Das Ereignis mit der Kennung „%1“ kann nicht zum Kalender hinzugefügt "
+#~ "werden werden."
 
 #~ msgctxt "@title:column"
 #~ msgid "Changed Alarm"

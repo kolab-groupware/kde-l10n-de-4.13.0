@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-27 06:09+0000\n"
+"POT-Creation-Date: 2014-11-07 05:43+0000\n"
 "PO-Revision-Date: 2014-02-18 07:51+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -22,10 +22,10 @@ msgctxt "@info:status"
 msgid "No indexers available"
 msgstr "Keine Indizierungsmodule verfügbar"
 
-#: agent.cpp:287
+#: agent.cpp:288
 msgid "Indexing PIM data"
 msgstr "PIM-Daten werden indiziert"
 
-#: agent.cpp:476 agent.cpp:500
+#: agent.cpp:477 agent.cpp:501
 msgid "Ready"
 msgstr "Fertig"

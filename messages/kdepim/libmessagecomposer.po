@@ -1,15 +1,16 @@
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012, 2013.
 # Bjoern Ricks <bjoern.ricks@intevation.de>, 2010, 2011.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013, 2014.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2012, 2013, 2014, 2015.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: libmessagecomposer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-19 16:00+0000\n"
-"PO-Revision-Date: 2014-01-25 11:40+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:24+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -89,10 +90,12 @@ msgid "Add Attachment..."
 msgstr "Anhang hinzufügen ..."
 
 #: attachment/attachmentcontrollerbase.cpp:443
+#| msgid "Attach Own vCard"
 msgid "Attach Own Vcard"
 msgstr "Eigene vCard anhängen"
 
 #: attachment/attachmentcontrollerbase.cpp:444
+#| msgid "Own vCard"
 msgid "Own Vcard"
 msgstr "Eigene vCard"
 
@@ -262,20 +265,29 @@ msgstr "Automatische Anzeige vorschlagen"
 msgid "No key data for recipients found."
 msgstr "Keine Schlüsseldaten für die Empfänger gefunden."
 
-#: composer/composerlineedit.cpp:166
+#: composer/composerlineedit.cpp:174
 msgid "vCard Import Failed"
 msgstr "vCard-Import fehlgeschlagen"
 
-#: composer/composerlineedit.cpp:167
+#: composer/composerlineedit.cpp:175
 #, kde-format
 msgid "<qt>Unable to access <b>%1</b>.</qt>"
 msgstr "<qt>Auf <b>%1</b> kann nicht zugegriffen werden.</qt>"
 
-#: composer/composerlineedit.cpp:207
+#: composer/composerlineedit.cpp:282
 msgid "Edit Recent Addresses..."
 msgstr "Zuletzt verwendete Adressen bearbeiten ..."
 
-#: composer/composerlineedit.cpp:232
+#: composer/composerlineedit.cpp:286
+#| msgid "Automatically resize images"
+msgid "Automatically expand groups"
+msgstr "Gruppen automatisch auflösen"
+
+#: composer/composerlineedit.cpp:292
+msgid "Expand Groups..."
+msgstr "Gruppen auflösen..."
+
+#: composer/composerlineedit.cpp:318
 msgid "Recent Addresses"
 msgstr "Zuletzt verwendete Adressen"
 
@@ -526,8 +538,8 @@ msgid "Sign && &Encrypt"
 msgstr "Signieren && V&erschlüsseln"
 
 #: composer/composerviewbase.cpp:1784 composer/composerviewbase.cpp:1811
-#: composer/composerviewbase.cpp:1862 composer/keyresolver.cpp:1515
-#: composer/keyresolver.cpp:1555
+#: composer/composerviewbase.cpp:1862 composer/keyresolver.cpp:1516
+#: composer/keyresolver.cpp:1556
 msgid "&Encrypt"
 msgstr "V&erschlüsseln"
 
@@ -566,7 +578,7 @@ msgstr ""
 msgid "Send Unencrypted?"
 msgstr "Unverschlüsselt senden?"
 
-#: composer/composerviewbase.cpp:1836 composer/keyresolver.cpp:1539
+#: composer/composerviewbase.cpp:1836 composer/keyresolver.cpp:1540
 msgid "Send &Unencrypted"
 msgstr "&Unverschlüsselt senden"
 
@@ -650,7 +662,7 @@ msgstr ""
 msgid "Not Fully Trusted Encryption Keys"
 msgstr "Nicht voll vertrauenswürdige Verschlüsselungsschlüssel"
 
-#: composer/keyresolver.cpp:653
+#: composer/keyresolver.cpp:654
 #, kde-format
 msgid ""
 "<p>Your OpenPGP signing key</p><p align=center><b>%2</b> (KeyID 0x%3)</"
@@ -665,7 +677,7 @@ msgstr[1] ""
 "<p>Ihr OpenPGP-Signaturschlüssel</p><p align=\"center\"><b>%2</b> (KeyID 0x"
 "%3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:657
+#: composer/keyresolver.cpp:658
 #, kde-format
 msgid ""
 "<p>Your OpenPGP encryption key</p><p align=center><b>%2</b> (KeyID 0x%3)</"
@@ -680,7 +692,7 @@ msgstr[1] ""
 "<p>Ihr OpenPGP-Schlüssel zum Verschlüsseln</p><p align=\"center\"><b>%2</b> "
 "(KeyID 0x%3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:661
+#: composer/keyresolver.cpp:662
 #, kde-format
 msgid ""
 "<p>The OpenPGP key for</p><p align=center><b>%2</b> (KeyID 0x%3)</"
@@ -695,7 +707,7 @@ msgstr[1] ""
 "<p>Der OpenPGP-Schlüssel für</p><p align=center><b>%2</b> (KeyID 0x%3)</"
 "p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:672
+#: composer/keyresolver.cpp:673
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=center><b>%4</b></p><p>for your S/MIME "
@@ -714,7 +726,7 @@ msgstr[1] ""
 "Signieren verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:678
+#: composer/keyresolver.cpp:679
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=center><b>%4</b></p><p>for your S/MIME "
@@ -733,7 +745,7 @@ msgstr[1] ""
 "Verschlüsseln verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</"
 "b> (Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:684
+#: composer/keyresolver.cpp:685
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=center><b>%4</b></p><p>for S/MIME "
@@ -752,7 +764,7 @@ msgstr[1] ""
 "Zertifikats</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</p><p>ist vor "
 "%1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:691
+#: composer/keyresolver.cpp:692
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%4</b></p><p>for "
@@ -771,7 +783,7 @@ msgstr[1] ""
 "zum Signieren verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</"
 "b> (Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:697
+#: composer/keyresolver.cpp:698
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%4</b></p><p>for "
@@ -791,7 +803,7 @@ msgstr[1] ""
 "zum Verschlüsseln verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>"
 "%2</b> (Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:703
+#: composer/keyresolver.cpp:704
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%4</b></p><p>for S/"
@@ -810,7 +822,7 @@ msgstr[1] ""
 "MIME-Zertifikats</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</"
 "p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:715
+#: composer/keyresolver.cpp:716
 #, kde-format
 msgid ""
 "<p>Your S/MIME signing certificate</p><p align=center><b>%2</b> (serial "
@@ -825,7 +837,7 @@ msgstr[1] ""
 "<p>Ihr S/MIME-Signaturzertifikat</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:719
+#: composer/keyresolver.cpp:720
 #, kde-format
 msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=center><b>%2</b> (serial "
@@ -840,14 +852,14 @@ msgstr[1] ""
 "<p>Ihr S/MIME-Verschlüsselungszertifikat</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:723
+#: composer/keyresolver.cpp:724
 #, kde-format
 msgid ""
-"<p>The S/MIME certificate for</p><p align=center><b>%2</b> (serial number %3)"
-"</p><p>expired less than a day ago.</p>"
+"<p>The S/MIME certificate for</p><p align=center><b>%2</b> (serial number "
+"%3)</p><p>expired less than a day ago.</p>"
 msgid_plural ""
-"<p>The S/MIME certificate for</p><p align=center><b>%2</b> (serial number %3)"
-"</p><p>expired %1 days ago.</p>"
+"<p>The S/MIME certificate for</p><p align=center><b>%2</b> (serial number "
+"%3)</p><p>expired %1 days ago.</p>"
 msgstr[0] ""
 "<p>Das S/MIME-Zertifikat</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</"
 "p><p>ist innerhalb des letzten Tages abgelaufeng.</p>"
@@ -855,15 +867,15 @@ msgstr[1] ""
 "<p>Das S/MIME-Zertifikat</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</"
 "p><p>ist vor %1 Tagen abgelaufen.</p>"
 
-#: composer/keyresolver.cpp:734
+#: composer/keyresolver.cpp:735
 msgid "OpenPGP Key Expired"
 msgstr "OpenPGP-Schlüssel abgelaufen"
 
-#: composer/keyresolver.cpp:735
+#: composer/keyresolver.cpp:736
 msgid "S/MIME Certificate Expired"
 msgstr "S/MIME-Zertifikat abgelaufen"
 
-#: composer/keyresolver.cpp:758
+#: composer/keyresolver.cpp:759
 #, kde-format
 msgid ""
 "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
@@ -878,14 +890,14 @@ msgstr[1] ""
 "<p>Ihr OpenPGP-Signaturschlüssel</p><p align=\"center\"><b>%2</b> (KeyID 0x"
 "%3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:762
+#: composer/keyresolver.cpp:763
 #, kde-format
 msgid ""
-"<p>Your OpenPGP encryption key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-"</p><p>expires in less than a day.</p>"
+"<p>Your OpenPGP encryption key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+"%3)</p><p>expires in less than a day.</p>"
 msgid_plural ""
-"<p>Your OpenPGP encryption key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-"</p><p>expires in less than %1 days.</p>"
+"<p>Your OpenPGP encryption key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+"%3)</p><p>expires in less than %1 days.</p>"
 msgstr[0] ""
 "<p>Ihr OpenPGP-Schlüssel zum Verschlüsseln</p><p align=\"center\"><b>%2</b> "
 "(KeyID 0x%3)</p><p>wird in weniger als einem Tag ablaufen.</p>"
@@ -893,7 +905,7 @@ msgstr[1] ""
 "<p>Ihr OpenPGP-Schlüssel zum Verschlüsseln</p><p align=\"center\"><b>%2</b> "
 "(KeyID 0x%3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:766
+#: composer/keyresolver.cpp:767
 #, kde-format
 msgid ""
 "<p>The OpenPGP key for</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
@@ -908,16 +920,16 @@ msgstr[1] ""
 "<p>Der OpenPGP-Schlüssel für</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
 "p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:777
+#: composer/keyresolver.cpp:778
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
-"MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial number %3)"
-"</p><p>expires in less than a day.</p>"
+"MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial number "
+"%3)</p><p>expires in less than a day.</p>"
 msgid_plural ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
-"MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial number %3)"
-"</p><p>expires in less than %1 days.</p>"
+"MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial number "
+"%3)</p><p>expires in less than %1 days.</p>"
 msgstr[0] ""
 "<p>Das Wurzelzertifikat</p><p align=\"center\"><b>%4</b></p> <p>Ihres zum "
 "Signieren verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</b> "
@@ -927,7 +939,7 @@ msgstr[1] ""
 "Signieren verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:783
+#: composer/keyresolver.cpp:784
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for your S/"
@@ -946,7 +958,7 @@ msgstr[1] ""
 "Verschlüsseln verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</"
 "b> (Seriennummer %3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:789
+#: composer/keyresolver.cpp:790
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=\"center\"><b>%4</b></p><p>for S/MIME "
@@ -965,7 +977,7 @@ msgstr[1] ""
 "Zertifikats</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</p><p>wird in "
 "weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:796
+#: composer/keyresolver.cpp:797
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
@@ -984,7 +996,7 @@ msgstr[1] ""
 "zum Signieren verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>%2</"
 "b> (Seriennummer %3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:802
+#: composer/keyresolver.cpp:803
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
@@ -1003,7 +1015,7 @@ msgstr[1] ""
 "zum Verschlüsseln verwendeten S/MIME-Zertifikats</p><p align=\"center\"><b>"
 "%2</b> (Seriennummer %3)</p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:808
+#: composer/keyresolver.cpp:809
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=\"center\"><b>%4</b></"
@@ -1022,7 +1034,7 @@ msgstr[1] ""
 "S/MIME-Zertifikat</p><p align=\"center\"><b>%2</b> (Seriennummer %3)</"
 "p><p>wird in weniger als %1 Tagen ablaufen.</p>"
 
-#: composer/keyresolver.cpp:820
+#: composer/keyresolver.cpp:821
 #, kde-format
 msgid ""
 "<p>Your S/MIME signing certificate</p><p align=\"center\"><b>%2</b> (serial "
@@ -1037,7 +1049,7 @@ msgstr[1] ""
 "<p>Ihr S/MIME-Signaturzertifikat</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>läuft in weniger als %1 Tagen ab.</p>"
 
-#: composer/keyresolver.cpp:824
+#: composer/keyresolver.cpp:825
 #, kde-format
 msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=\"center\"><b>%2</b> "
@@ -1052,7 +1064,7 @@ msgstr[1] ""
 "<p>Ihr S/MIME-Verschlüsselungszertifikat</p><p align=\"center\"><b>%2</b> "
 "(Seriennummer %3)</p><p>läuft in weniger als %1 Tagen ab.</p>"
 
-#: composer/keyresolver.cpp:828
+#: composer/keyresolver.cpp:829
 #, kde-format
 msgid ""
 "<p>The S/MIME certificate for</p><p align=\"center\"><b>%2</b> (serial "
@@ -1067,15 +1079,15 @@ msgstr[1] ""
 "<p>Das S/MIME-Zertifikat für</p><p align=\"center\"><b>%2</b> (Seriennummer "
 "%3)</p><p>läuft in weniger als %1 Tagen ab.</p>"
 
-#: composer/keyresolver.cpp:839
+#: composer/keyresolver.cpp:840
 msgid "OpenPGP Key Expires Soon"
 msgstr "OpenPGP-Schlüssel läuft bald ab"
 
-#: composer/keyresolver.cpp:840
+#: composer/keyresolver.cpp:841
 msgid "S/MIME Certificate Expires Soon"
 msgstr "S/MIME-Zertifikat läuft bald ab"
 
-#: composer/keyresolver.cpp:875
+#: composer/keyresolver.cpp:876
 msgid ""
 "One or more of your configured OpenPGP encryption keys or S/MIME "
 "certificates is not usable for encryption. Please reconfigure your "
@@ -1090,12 +1102,12 @@ msgstr ""
 "Wenn Sie nun fortfahren und die Schlüssel später benötigt werden, so werden "
 "Sie aufgefordert, die zu verwendenden Schlüssel von Hand auszuwählen."
 
-#: composer/keyresolver.cpp:883 composer/keyresolver.cpp:1219
-#: composer/keyresolver.cpp:1246
+#: composer/keyresolver.cpp:884 composer/keyresolver.cpp:1220
+#: composer/keyresolver.cpp:1247
 msgid "Unusable Encryption Keys"
 msgstr "Unbrauchbare Verschlüsselungs-Schlüssel"
 
-#: composer/keyresolver.cpp:920
+#: composer/keyresolver.cpp:921
 msgid ""
 "One or more of your configured OpenPGP signing keys or S/MIME signing "
 "certificates is not usable for signing. Please reconfigure your signing keys "
@@ -1109,12 +1121,12 @@ msgstr ""
 "Wenn Sie nun fortfahren und die Schlüssel später benötigt werden, so werden "
 "Sie aufgefordert, die zu verwendenden Schlüssel von Hand auszuwählen."
 
-#: composer/keyresolver.cpp:928 composer/keyresolver.cpp:1273
-#: composer/keyresolver.cpp:1290
+#: composer/keyresolver.cpp:929 composer/keyresolver.cpp:1274
+#: composer/keyresolver.cpp:1291
 msgid "Unusable Signing Keys"
 msgstr "Unbrauchbare Signierungs-Schlüssel"
 
-#: composer/keyresolver.cpp:1210
+#: composer/keyresolver.cpp:1211
 msgid ""
 "Examination of recipient's encryption preferences yielded that the message "
 "should be encrypted using OpenPGP, at least for some recipients;\n"
@@ -1131,7 +1143,7 @@ msgstr ""
 "nicht mehr in der Lage sein, Ihre gesendete Nachricht später noch einmal zu "
 "lesen."
 
-#: composer/keyresolver.cpp:1237
+#: composer/keyresolver.cpp:1238
 msgid ""
 "Examination of recipient's encryption preferences yielded that the message "
 "should be encrypted using S/MIME, at least for some recipients;\n"
@@ -1148,7 +1160,7 @@ msgstr ""
 "nicht mehr in der Lage sein, Ihre gesendete Nachricht später noch einmal zu "
 "lesen."
 
-#: composer/keyresolver.cpp:1267
+#: composer/keyresolver.cpp:1268
 msgid ""
 "Examination of recipient's signing preferences yielded that the message "
 "should be signed using OpenPGP, at least for some recipients;\n"
@@ -1160,11 +1172,11 @@ msgstr ""
 "Für Ihre verwendete Identität ist jedoch kein gültiger vertrauenswürdiger "
 "OpenPGP-Schlüssel eingerichtet."
 
-#: composer/keyresolver.cpp:1274
+#: composer/keyresolver.cpp:1275
 msgid "Do Not OpenPGP-Sign"
 msgstr "Nicht mit OpenPGP signieren"
 
-#: composer/keyresolver.cpp:1284
+#: composer/keyresolver.cpp:1285
 msgid ""
 "Examination of recipient's signing preferences yielded that the message "
 "should be signed using S/MIME, at least for some recipients;\n"
@@ -1176,11 +1188,11 @@ msgstr ""
 "Für Ihre verwendete Identität ist jedoch kein gültiges vertrauenswürdiges S/"
 "MIME-Zertifikat eingerichtet."
 
-#: composer/keyresolver.cpp:1291
+#: composer/keyresolver.cpp:1292
 msgid "Do Not S/MIME-Sign"
 msgstr "Nicht mit S/MIME signieren"
 
-#: composer/keyresolver.cpp:1348
+#: composer/keyresolver.cpp:1349
 msgid ""
 "Examination of recipient's signing preferences showed no common type of "
 "signature matching your available signing keys.\n"
@@ -1190,11 +1202,11 @@ msgstr ""
 "auf eine Signatur, die auf einen Ihrer Signatur-Schlüssel passen könnte.\n"
 "Soll die Nachricht gesendet werden, ohne sie zu signieren?"
 
-#: composer/keyresolver.cpp:1352
+#: composer/keyresolver.cpp:1353
 msgid "No signing possible"
 msgstr "Es ist keine Signierung möglich"
 
-#: composer/keyresolver.cpp:1510
+#: composer/keyresolver.cpp:1511
 msgid ""
 "You did not select an encryption key for yourself (encrypt to self). You "
 "will not be able to decrypt your own message if you encrypt it."
@@ -1203,12 +1215,12 @@ msgstr ""
 "Verschlüsselung an Sie selbst). Sie können die gesendete Nachricht daher "
 "später nicht mehr selbst entschlüsseln."
 
-#: composer/keyresolver.cpp:1514 composer/keyresolver.cpp:1538
-#: composer/keyresolver.cpp:1554
+#: composer/keyresolver.cpp:1515 composer/keyresolver.cpp:1539
+#: composer/keyresolver.cpp:1555
 msgid "Missing Key Warning"
 msgstr "Warnung: Fehlender Schlüssel"
 
-#: composer/keyresolver.cpp:1531
+#: composer/keyresolver.cpp:1532
 msgid ""
 "You did not select an encryption key for the recipient of this message; "
 "therefore, the message will not be encrypted."
@@ -1216,7 +1228,7 @@ msgstr ""
 "Sie haben keinen Schlüssel für den Empfänger der Mitteilung ausgewählt; die "
 "Mitteilung wird daher nicht verschlüsselt."
 
-#: composer/keyresolver.cpp:1534
+#: composer/keyresolver.cpp:1535
 msgid ""
 "You did not select an encryption key for any of the recipients of this "
 "message; therefore, the message will not be encrypted."
@@ -1224,7 +1236,7 @@ msgstr ""
 "Sie haben für keinen der Empfänger der Mitteilung einen Schlüssel "
 "ausgewählt; die Mitteilung wird daher nicht verschlüsselt."
 
-#: composer/keyresolver.cpp:1544
+#: composer/keyresolver.cpp:1545
 msgid ""
 "You did not select an encryption key for one of the recipients: this person "
 "will not be able to decrypt the message if you encrypt it."
@@ -1233,7 +1245,7 @@ msgstr ""
 "ausgewählt; der Empfänger der Mitteilung kann diese daher nicht "
 "entschlüsseln."
 
-#: composer/keyresolver.cpp:1547
+#: composer/keyresolver.cpp:1548
 msgid ""
 "You did not select encryption keys for some of the recipients: these persons "
 "will not be able to decrypt the message if you encrypt it."
@@ -1242,11 +1254,11 @@ msgstr ""
 "ausgewählt; diese Empfänger der Mitteilung können diese daher nicht "
 "entschlüsseln."
 
-#: composer/keyresolver.cpp:1611
+#: composer/keyresolver.cpp:1612
 msgid "Encryption Key Selection"
 msgstr "Auswahl des Schlüssels zur Verschlüsselung"
 
-#: composer/keyresolver.cpp:1659
+#: composer/keyresolver.cpp:1660
 #, kde-format
 msgctxt ""
 "if in your language something like 'certificate(s)' is not possible please "
@@ -1259,7 +1271,7 @@ msgstr ""
 "Mit den Verschlüsselungs-Zertifikaten für „%1“ ist ein Problem aufgetreten.\n"
 "Bitte wählen Sie das/die Zertifikate für diesen Empfänger erneut aus."
 
-#: composer/keyresolver.cpp:1700
+#: composer/keyresolver.cpp:1701
 #, kde-format
 msgctxt ""
 "if in your language something like 'certificate(s)' is not possible please "
@@ -1277,7 +1289,7 @@ msgstr ""
 "können, gibt es die Möglichkeit auch nach externen Zertifikaten zu suchen, "
 "indem Sie den Knopf „Suche nach externen Zertifikaten“ drücken.</qt>"
 
-#: composer/keyresolver.cpp:1710
+#: composer/keyresolver.cpp:1711
 #, kde-format
 msgctxt ""
 "if in your language something like 'certificate(s)' is not possible please "
@@ -1291,16 +1303,16 @@ msgstr ""
 "\n"
 "Wählen Sie das/die Zertifikat(e) für diesen Empfänger."
 
-#: composer/keyresolver.cpp:1839
+#: composer/keyresolver.cpp:1840
 msgid "Name Selection"
 msgstr "Auswahl des Namens"
 
-#: composer/keyresolver.cpp:1839
+#: composer/keyresolver.cpp:1840
 #, kde-format
 msgid "Which name shall the contact '%1' have in your address book?"
 msgstr "Welchen Namen soll der Kontakt „%1“ in Ihrem Adressbuch tragen?"
 
-#: composer/keyresolver.cpp:1847
+#: composer/keyresolver.cpp:1848
 msgid "Select the address book folder to store the new contact in:"
 msgstr ""
 "Wählen Sie den Adressbuchordner, in dem der neue Kontakt gespeichert werden "
@@ -1776,16 +1788,16 @@ msgctxt "@label:listbox"
 msgid "<placeholder>Undefined Recipient Type</placeholder>"
 msgstr "<placeholder>Nicht definierter Empfänger-Typ</placeholder>"
 
-#: recipient/recipientline.cpp:83
+#: recipient/recipientline.cpp:84
 msgctxt "@label:listbox"
 msgid "Select type of recipient"
 msgstr "Empfänger-Typ auswählen"
 
-#: recipient/recipientline.cpp:85
+#: recipient/recipientline.cpp:86
 msgid "Set the list of email addresses to receive this message"
 msgstr "Legen Sie die Liste der Empfänger-Adressen für diese Nachricht fest."
 
-#: recipient/recipientseditor.cpp:105
+#: recipient/recipientseditor.cpp:112
 #, kde-format
 msgctxt "@info:status"
 msgid "Truncating recipients list to %2 of %1 entry."
@@ -2092,6 +2104,34 @@ msgstr ""
 #: utils/util.cpp:307
 msgid "Mail dispatcher offline."
 msgstr "Agent zur Nachrichten-Auslieferung ist offline."
+
+#~ msgid "Failed to reload attachment"
+#~ msgstr "Der Anhang kann nicht neu geladen werden"
+
+#~ msgid "&Attach Directory..."
+#~ msgstr "Ordner &anhängen ..."
+
+#, fuzzy
+#~| msgid "&Attach Directory..."
+#~ msgid "&Attach vCards..."
+#~ msgstr "Ordner &anhängen ..."
+
+#~ msgid "Reload"
+#~ msgstr "Neu laden"
+
+#~ msgid "Attach Directory"
+#~ msgstr "Ordner anhängen"
+
+#~ msgid "Use Baloo search for autocompletion"
+#~ msgstr "Baloo-Suche für automatische Vervollständigung verwenden"
+
+#~ msgid ""
+#~ "Disable this option if you do not want baloo search addresses to appear "
+#~ "in the autocompletion list in the composer's address fields."
+#~ msgstr ""
+#~ "Diese Einstellung deaktivieren, damit Adressen aus der Baloo-Suche nicht "
+#~ "mehr in der Autovervollständigungsliste in den Adressfeldern im E-Mail-"
+#~ "Editor auftauchen."
 
 #~ msgid "LibreOffice Autocorrection"
 #~ msgstr "LibreOffice-Autokorrektur"

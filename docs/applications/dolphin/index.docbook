@@ -128,7 +128,7 @@
 <date
 >2013-06-28</date>
 <releaseinfo
->2.3 (&kde; 4.11)</releaseinfo>
+>4.11 (&kde; 4.11)</releaseinfo>
 
 <abstract>
 <para
@@ -268,7 +268,7 @@
 >Wenn die Desktop-Suche und die Dateiindizierung im Modul <guilabel
 >Desktop-Suche</guilabel
 > in den &systemsettings; aktiviert sind, enthält die Seitenleiste <guilabel
->Kürzlich Aufgerufene</guilabel
+>Kürzlich Gespeicherte</guilabel
 > Einträge und ermöglicht die Suche nach <guilabel
 >Dokumente</guilabel
 >n, <guilabel
@@ -909,7 +909,7 @@ has all features from dolphin ?-->
 >Orte</title>
 <!--FIXME difference between places panel in dolphin + kde filedialog + konqueror:
 context menu Icon Size? No different entries ?-->
-<!--Four groups: Places = Folders, Devices, with Nepomuk Recently Accessed and Search For -->
+<!--Four groups: Places = Folders, Devices, with Baloo Recently Saved and Search For -->
 <para
 >Die Seitenleiste <guilabel
 >Orte</guilabel
@@ -957,7 +957,7 @@ context menu Icon Size? No different entries ?-->
 >Terminal</title>
 
 <para
->Diese Seitenleiste beinhaltet ein Terminal, das mit dem in &dolphin; ausgewählten Ordner startet. Wird der angezeigte Ordner in &dolphin; gewechselt, so wechselt auch der Arbeitsordner im Terminal. Umgekehrt bewirkt ein Wechsel des Arbeitsordners im Terminal aber keinen Ordnerwechsel in &dolphin;. Außerdem funktioniert die Ordner-Funktion des Terminals nur mit lokalen Ordnern, nicht über das Netzwerk. </para>
+>Diese Seitenleiste beinhaltet ein Terminal, das mit dem in &dolphin; ausgewählten Ordner startet. Wird der angezeigte Ordner in &dolphin; gewechselt, so wechselt auch der Arbeitsordner im Terminal. Umgekehrt bewirkt ein Wechsel des Arbeitsordners im Terminal auch einen Ordnerwechsel in &dolphin;. Außerdem funktioniert die Ordner-Funktion des Terminals nur mit lokalen Ordnern, nicht über das Netzwerk. </para>
 
 </sect2>
 
@@ -1031,11 +1031,11 @@ context menu Icon Size? No different entries ?-->
 >?</userinput
 > nur für ein einzelnes Zeichen.</para>
 <para
->Diese Funktion kann mit laufenden Nepomuk- und Strigidiensten benutzt werden, ohne diese Dienste wird für die Suche ein zusätzliches Ein-/Ausgabemodul gestartet.</para>
+>Diese Funktion kann mit laufenden Baloo-Diensten benutzt werden, ohne diese Dienste wird für die Suche ein zusätzliches Ein-/Ausgabemodul gestartet.</para>
 <para
 >Die Einstellung von <guilabel
 >Überall</guilabel
-> mit aktivierten Nepomuk- und Strigidiensten sucht in allen indizierten Ordnern, ohne diese Dienste startet die Suche vom <replaceable
+> mit aktivierten Baloo-Diensten sucht in allen indizierten Ordnern, ohne diese Dienste startet die Suche vom <replaceable
 >Persönlichen Ordner</replaceable
 > des Benutzers.</para>
 
@@ -1079,7 +1079,7 @@ context menu Icon Size? No different entries ?-->
 >Orte</guilabel
 > zusammen mit der <guilabel
 >Filterleiste</guilabel
-> benutzen, um Dateien mit Nepomuk zu suchen oder die Suche auf ausgewählte Dateien einzugrenzen.</para>
+> benutzen, um Dateien mit Baloo zu suchen oder die Suche auf ausgewählte Dateien einzugrenzen.</para>
 
 </sect2>
 

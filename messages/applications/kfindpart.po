@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 03:23+0200\n"
+"POT-Creation-Date: 2014-07-22 01:37+0000\n"
 "PO-Revision-Date: 2013-11-29 14:24+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -140,11 +140,11 @@ msgstr "Textdatei"
 msgid "Unable to save results."
 msgstr "Ergebnis lässt sich nicht speichern"
 
-#: kfindtreeview.cpp:482
+#: kfindtreeview.cpp:484
 msgid "KFind Results File"
 msgstr "KFind-Ergebnisdatei"
 
-#: kfindtreeview.cpp:502
+#: kfindtreeview.cpp:504
 #, kde-format
 msgctxt "%1=filename"
 msgid "Results were saved to: %1"
@@ -201,9 +201,9 @@ msgstr ""
 "mehrerer Namen kann durch Semikolon getrennt werden („;“).<br /><br />Für "
 "die Suchbegriffe können folgende Platzhalter verwendet werden:<ul><li><b>?</"
 "b> steht für ein einzelnes beliebiges Zeichen</li><li><b>*</b> bedeutet, "
-"dass hier mehrere beliebige Zeichen erscheinen können oder keines</li><li><b>"
-"[...]</b> sucht nach Übereinstimmungen mit jedem Zeichen innerhalb der "
-"Klammern</li></ul><br />Beispiele:<ul><li><b>*.kwd;*.txt</b> findet alle "
+"dass hier mehrere beliebige Zeichen erscheinen können oder keines</"
+"li><li><b>[...]</b> sucht nach Übereinstimmungen mit jedem Zeichen innerhalb "
+"der Klammern</li></ul><br />Beispiele:<ul><li><b>*.kwd;*.txt</b> findet alle "
 "Dateien, die mit .kwd oder .txt enden</li><li><b>ros[et]</b> findet „rose“ "
 "und „rost“</li><li><b>Hal?o</b> findet alle Dateien, die mit „Hal“ beginnen, "
 "mit „o“ aufhören und dazwischen ein einzelnes Zeichen aufweisen.</"

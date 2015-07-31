@@ -61,9 +61,9 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2012-07-14</date>
+>2014-09-11</date>
 <releaseinfo
->1.2.2 (&kde; 4.9)</releaseinfo>
+>1.2.2 (&kde; 4.14)</releaseinfo>
 
 <abstract>
 <para
@@ -133,12 +133,14 @@
 >Wählen Sie Ihren Tee</title>
 
 <para
->Wenn Sie mit der &RMBn; auf das Symbol klicken, öffnet sich ein Menü. Im oberen Bereich des Menüs befinden sich drei Menüpunkte. Sie können hier auswählen, welchen Tee Sie gerade zubereiten. Es stehen <guimenuitem
+>Wenn Sie mit der &RMBn; auf das Symbol klicken, öffnet sich ein Menü. Im oberen Bereich des Menüs befinden sich vier Menüpunkte. Sie können hier auswählen, welchen Tee Sie gerade zubereiten. Es stehen <guimenuitem
 >Schwarzer Tee</guimenuitem
 >, <guimenuitem
 >Earl Grey</guimenuitem
-> und <guimenuitem
+> <guimenuitem
 >Früchtetee</guimenuitem
+> und <guimenuitem
+>Grüner Tee</guimenuitem
 > zur Verfügung. Diese Teesorten haben eine voreingestellte Standardzeit. Es gab Beschwerden, dass diese Zeiten nicht korrekt sind. Beachten Sie dabei bitte, dass diese Zeiten auf persönlichen Vorlieben beruhen. Die gewählten Zeiten sind Annäherungen. Wenn Sie weiterlesen, erfahren Sie, wie Sie diese Zeiten ändern oder löschen, und Ihre eigenen Zeiten festlegen können. Eine einfache, schnelle Möglichkeit, eine eigene Zeit zu setzen ist, <guimenuitem
 >Anderer ...</guimenuitem
 > aus dem Menü zu wählen.</para>

@@ -7,13 +7,14 @@
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2012.
 # Markus Slopianka <markus.s@kdemail.net>, 2013.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-14 06:33+0000\n"
-"PO-Revision-Date: 2014-02-27 07:52+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:05+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -65,26 +66,26 @@ msgstr "Agent-Instanz löschen?"
 msgid "Do you really want to delete the selected agent instance?"
 msgstr "Möchten Sie die ausgewählte Agent-Instanz wirklich löschen?"
 
-#: agentbase.cpp:338 preprocessorbase_p.cpp:41
+#: agentbase.cpp:376 preprocessorbase_p.cpp:41
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr "Das Objekt kann nicht am D-Bus registriert werden: %1"
 
-#: agentbase.cpp:424
+#: agentbase.cpp:463
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr "%1 vom Typ %2"
 
-#: agentbase.cpp:845 agentbase.cpp:846
+#: agentbase.cpp:927 agentbase.cpp:928
 msgid "Akonadi Agent"
 msgstr "Akonadi-Agent"
 
-#: agentbase.cpp:849
+#: agentbase.cpp:931
 msgid "Agent identifier"
 msgstr "Agent-Bezeichner"
 
-#: agentbase_p.h:63 resourcescheduler.cpp:235
+#: agentbase_p.h:63 resourcescheduler.cpp:259
 msgctxt "@info:status Application ready for work"
 msgid "Ready"
 msgstr "Bereit"
@@ -109,26 +110,26 @@ msgctxt "@info:status"
 msgid "Not configured"
 msgstr "Nicht eingerichtet"
 
-#: agentinstancecreatejob.cpp:88
+#: agentinstancecreatejob.cpp:89
 msgid "Unable to access D-Bus interface of created agent."
 msgstr ""
 "Der Zugriff auf die D-Bus-Schnittstelle des erzeugten Agenten ist nicht "
 "möglich."
 
-#: agentinstancecreatejob.cpp:122
+#: agentinstancecreatejob.cpp:123
 msgid "Agent instance creation timed out."
 msgstr "Zeitüberschreitung beim Erstellen einer Agent-Instanz."
 
-#: agentinstancecreatejob.cpp:188
+#: agentinstancecreatejob.cpp:189
 #, kde-format
 msgid "Unable to obtain agent type '%1'."
 msgstr "Der Agent-Typ „%1“ kann nicht bezogen werden."
 
-#: agentinstancecreatejob.cpp:196
+#: agentinstancecreatejob.cpp:197
 msgid "Unable to create agent instance."
 msgstr "Agent-Instanz kann nicht erstellt werden."
 
-#: agentinstancemodel.cpp:191 collectionmodel_p.h:50
+#: agentinstancemodel.cpp:190 collectionmodel_p.h:54
 msgctxt "@title:column, name of a thing"
 msgid "Name"
 msgstr "Name"
@@ -207,12 +208,12 @@ msgid "Invalid collection instance."
 msgstr "Ungültige Collection-Instanz."
 
 #: collectionattributessynchronizationjob.cpp:97
-#: resourcesynchronizationjob.cpp:97
+#: resourcesynchronizationjob.cpp:98
 msgid "Invalid resource instance."
 msgstr "Ungültige Ressourcen-Instanz."
 
 #: collectionattributessynchronizationjob.cpp:119
-#: resourcesynchronizationjob.cpp:120
+#: resourcesynchronizationjob.cpp:123
 #, kde-format
 msgid "Unable to obtain D-Bus interface for resource '%1'"
 msgstr "D-Bus-Schnittstelle für die Ressource „%1“ kann nicht erhalten werden."
@@ -238,37 +239,37 @@ msgstr "Suchen"
 msgid "Use folder by default"
 msgstr "Ordner als Standard verwenden"
 
-#: collectiondialog_desktop.cpp:200 collectiondialog_mobile.cpp:111
+#: collectiondialog_desktop.cpp:203 collectiondialog_mobile.cpp:111
 msgid "&New Subfolder..."
 msgstr "&Neuer Unterordner ..."
 
-#: collectiondialog_desktop.cpp:201
+#: collectiondialog_desktop.cpp:204
 msgid "Create a new subfolder under the currently selected folder"
 msgstr "Neuen Unterordner im aktuell ausgewählten Ordner erstellen"
 
-#: collectiondialog_desktop.cpp:236 collectiondialog_mobile.cpp:183
-#: standardactionmanager.cpp:246
+#: collectiondialog_desktop.cpp:239 collectiondialog_mobile.cpp:183
+#: standardactionmanager.cpp:247
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Neuer Ordner"
 
-#: collectiondialog_desktop.cpp:237 collectiondialog_mobile.cpp:184
+#: collectiondialog_desktop.cpp:240 collectiondialog_mobile.cpp:184
 msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr "Name"
 
-#: collectiondialog_desktop.cpp:254 collectiondialog_mobile.cpp:201
-#: standardactionmanager.cpp:250
+#: collectiondialog_desktop.cpp:257 collectiondialog_mobile.cpp:201
+#: standardactionmanager.cpp:251
 #, kde-format
 msgid "Could not create folder: %1"
 msgstr "Der Ordner kann nicht angelegt werden: %1"
 
-#: collectiondialog_desktop.cpp:255 collectiondialog_mobile.cpp:202
-#: standardactionmanager.cpp:252
+#: collectiondialog_desktop.cpp:258 collectiondialog_mobile.cpp:202
+#: standardactionmanager.cpp:253
 msgid "Folder creation failed"
 msgstr "Erstellen des Ordners fehlgeschlagen"
 
-#: collectionfetchjob.cpp:220
+#: collectionfetchjob.cpp:231
 msgid "Invalid collection given."
 msgstr "Ungültige Collection angegeben."
 
@@ -333,7 +334,7 @@ msgstr "Größe:"
 msgid "0 Byte"
 msgstr "0 Byte"
 
-#: collectionpathresolver.cpp:91 collectionpathresolver.cpp:108
+#: collectionpathresolver.cpp:110 collectionpathresolver.cpp:129
 msgid "No such collection."
 msgstr "Keine solche Collection vorhanden."
 
@@ -349,38 +350,26 @@ msgstr "Collection-Dialog öffnen"
 msgid "Select a collection"
 msgstr "Wählen Sie eine Collection"
 
-#: collectionselectjob.cpp:72
+#: collectionselectjob.cpp:73
 msgid "Invalid collection specified"
 msgstr "Ungültige Collection angegeben"
 
-#: collectionstatisticsmodel.cpp:162
+#: collectionstatisticsmodel.cpp:176
 msgctxt "@title:column, number of unread messages"
 msgid "Unread"
 msgstr "Ungelesen"
 
-#: collectionstatisticsmodel.cpp:163
+#: collectionstatisticsmodel.cpp:178
 msgctxt "@title:column, total number of messages"
 msgid "Total"
 msgstr "Gesamt"
 
-#: collectionstatisticsmodel.cpp:164
+#: collectionstatisticsmodel.cpp:180
 msgctxt "@title:column, total size (in bytes) of the collection"
 msgid "Size"
 msgstr "Größe"
 
-#: collectionsync.cpp:199
-msgid "Inconsistent local collection tree detected."
-msgstr "Inkonsistenter lokaler Collection-Baum erkannt."
-
-#: collectionsync.cpp:364
-msgid ""
-"Remote collection without root-terminated ancestor chain provided, resource "
-"is broken."
-msgstr ""
-"Es wurde eine Netzwerk-Collection ohne root-terminierte Stammkette "
-"angegeben. Die Ressource ist ungültig."
-
-#: collectionsync.cpp:711
+#: collectionsync.cpp:508 collectionsync.cpp:646
 msgid "Found unresolved orphan collections"
 msgstr "Nicht aufgelöste verwaiste Collections gefunden."
 
@@ -445,35 +434,35 @@ msgstr ""
 msgid "Data"
 msgstr "Daten"
 
-#: control.cpp:239
+#: control.cpp:244
 msgid "Starting Akonadi server..."
 msgstr "Akonadi-Server wird gestartet ..."
 
-#: control.cpp:245
+#: control.cpp:250
 msgid "Stopping Akonadi server..."
 msgstr "Akonadi-Server wird angehalten ..."
 
-#: dragdropmanager.cpp:216
+#: dragdropmanager.cpp:219
 msgid "&Move Here"
 msgstr "Hierher &verschieben"
 
-#: dragdropmanager.cpp:222
+#: dragdropmanager.cpp:225
 msgid "&Copy Here"
 msgstr "Hierher &kopieren"
 
-#: dragdropmanager.cpp:228
+#: dragdropmanager.cpp:231
 msgid "&Link Here"
 msgstr "Hiermit &verknüpfen"
 
-#: dragdropmanager.cpp:232
+#: dragdropmanager.cpp:235
 msgid "C&ancel"
 msgstr "&Abbrechen"
 
-#: entitytreemodel.cpp:191
+#: entitytreemodel.cpp:229
 msgid "Loading..."
 msgstr "Wird geladen ..."
 
-#: entitytreemodel.cpp:523
+#: entitytreemodel.cpp:556
 #, kde-format
 msgid ""
 "The target collection '%1' contains already\n"
@@ -482,48 +471,48 @@ msgstr ""
 "Die Ziel-Collection „%1“ enthält bereits\n"
 "eine Collection mit dem Namen „%2“."
 
-#: entitytreemodel.cpp:703
+#: entitytreemodel.cpp:736
 msgctxt "@title:column Name of a thing"
 msgid "Name"
 msgstr "Name"
 
-#: entitytreemodel_p.cpp:1353
+#: entitytreemodel_p.cpp:1393
 msgid "Could not copy item:"
 msgstr "Element lässt sich nicht kopieren:"
 
-#: entitytreemodel_p.cpp:1355
+#: entitytreemodel_p.cpp:1395
 msgid "Could not copy collection:"
 msgstr "Collection lässt sich nicht kopieren:"
 
-#: entitytreemodel_p.cpp:1357
+#: entitytreemodel_p.cpp:1397
 msgid "Could not move item:"
 msgstr "Element lässt sich nicht verschieben:"
 
-#: entitytreemodel_p.cpp:1359
+#: entitytreemodel_p.cpp:1399
 msgid "Could not move collection:"
 msgstr "Collection lässt sich nicht verschieben:"
 
-#: entitytreemodel_p.cpp:1361
+#: entitytreemodel_p.cpp:1401
 msgid "Could not link entity:"
 msgstr "Entität lässt sich nicht verknüpfen:"
 
-#: erroroverlay.cpp:225 erroroverlay.cpp:226
+#: erroroverlay.cpp:234 erroroverlay.cpp:235
 msgid "Personal information management service is starting..."
 msgstr "Der Dienst zur persönlichen Informationsverwaltung wird gestartet ..."
 
-#: erroroverlay.cpp:230 erroroverlay.cpp:231
+#: erroroverlay.cpp:239 erroroverlay.cpp:240
 msgid "Personal information management service is shutting down..."
 msgstr ""
 "Der Dienst zur persönlichen Informationsverwaltung wird heruntergefahren ..."
 
-#: erroroverlay.cpp:235
+#: erroroverlay.cpp:244
 msgid ""
 "Personal information management service is performing a database upgrade."
 msgstr ""
 "Die Datenbank für den Dienst zur persönlichen Informationsverwaltung wird "
 "aktualisiert."
 
-#: erroroverlay.cpp:236
+#: erroroverlay.cpp:245
 msgid ""
 "Personal information management service is performing a database upgrade.\n"
 "This happens after a software update and is necessary to optimize "
@@ -577,35 +566,31 @@ msgstr ""
 msgid "Details..."
 msgstr "Details ..."
 
-#: favoritecollectionsmodel.cpp:378
+#: favoritecollectionsmodel.cpp:379
 msgid "Favorite Folders"
 msgstr "Bevorzugte Ordner"
 
-#: invalidatecachejob.cpp:60
+#: invalidatecachejob.cpp:65
 msgid "Invalid collection."
 msgstr "Ungültige Collection."
 
-#: itemfetchjob.cpp:197
-msgid "Cannot list root collection."
-msgstr "Haupt-Collection kann nicht aufgelistet werden."
-
-#: itemmodel.cpp:314
+#: itemmodel.cpp:329
 msgid "Id"
 msgstr "Kennung"
 
-#: itemmodel.cpp:316
+#: itemmodel.cpp:331
 msgid "Remote Id"
 msgstr "Entfernte Kennung"
 
-#: itemmodel.cpp:318
+#: itemmodel.cpp:333
 msgid "MimeType"
 msgstr "MIME-Typ"
 
-#: job.cpp:302
+#: job.cpp:308
 msgid "Cannot connect to the Akonadi service."
 msgstr "Verbindung zum Akonadi-Dienst kann nicht hergestellt werden."
 
-#: job.cpp:305
+#: job.cpp:311
 msgid ""
 "The protocol version of the Akonadi server is incompatible. Make sure you "
 "have a compatible version installed."
@@ -613,48 +598,48 @@ msgstr ""
 "Die Protokollversion des Akonadi-Dienstes ist nicht kompatibel. Bitte "
 "stellen Sie sicher, dass Sie eine kompatible Version installiert haben."
 
-#: job.cpp:308
+#: job.cpp:314
 msgid "User canceled operation."
 msgstr "Abbruch durch Benutzer"
 
-#: job.cpp:313
+#: job.cpp:319
 msgid "Unknown error."
 msgstr "Unbekannter Fehler."
 
-#: linkjobimpl_p.h:49 movejobimpl_p.h:49
+#: linkjobimpl_p.h:52 movejobimpl_p.h:52
 msgid "No valid destination specified"
 msgstr "Kein gültiges Ziel angegeben"
 
-#: movejobimpl_p.h:43
+#: movejobimpl_p.h:46
 msgid "No objects specified for moving"
 msgstr "Keine Objekte zum Verschieben angegeben"
 
-#: partfetcher.cpp:63
+#: partfetcher.cpp:65
 msgid "Unable to fetch item for index"
 msgstr "Eintrag für Index kann nicht geholt werden."
 
-#: partfetcher.cpp:78
+#: partfetcher.cpp:80
 msgid "Index is no longer available"
 msgstr "Der Index ist nicht mehr verfügbar."
 
-#: partfetcher.cpp:130
+#: partfetcher.cpp:133
 #, kde-format
 msgid "Payload part '%1' is not available for this index"
 msgstr "Nutzdaten-Teil „%1“ ist für diesen Index nicht verfügbar."
 
-#: partfetcher.cpp:139
+#: partfetcher.cpp:142
 msgid "No session available for this index"
 msgstr "Für diesen Index ist keine Sitzung verfügbar."
 
-#: partfetcher.cpp:148
+#: partfetcher.cpp:151
 msgid "No item available for this index"
 msgstr "Für diesen Index ist kein Eintrag verfügbar."
 
-#: pluginloader.cpp:159
+#: pluginloader.cpp:163
 msgid "Unnamed plugin"
 msgstr "Unbenanntes Modul"
 
-#: pluginloader.cpp:165
+#: pluginloader.cpp:169
 msgid "No description available"
 msgstr "Keine Beschreibung verfügbar"
 
@@ -666,69 +651,91 @@ msgstr "KDE-Test-Programm"
 msgid "Recent Folder"
 msgstr "Zuletzt benutzte Ordner"
 
+#: relationcreatejob.cpp:52 relationdeletejob.cpp:52
+#| msgid "Failed to create tag."
+msgid "Failed to create relation."
+msgstr "Erstellung des Relation ist fehlgeschlagen."
+
 #: renamefavoritedialog.cpp:32
 msgid "Default Name"
 msgstr "Standardname"
 
-#: resourcebase.cpp:541
+#: resourcebase.cpp:576
 msgctxt "@title application name"
 msgid "Akonadi Resource"
 msgstr "Akonadi-Ressource"
 
-#: resourcebase.cpp:542
+#: resourcebase.cpp:577
 msgctxt "@title application description"
 msgid "Akonadi Resource"
 msgstr "Akonadi-Ressource"
 
-#: resourcebase.cpp:546
+#: resourcebase.cpp:581
 msgctxt "@label commandline option"
 msgid "Resource identifier"
 msgstr "Ressourcen-Bezeichner"
 
-#: resourcebase.cpp:574
+#: resourcebase.cpp:609
 msgctxt "@info"
 msgid "Invalid item retrieved"
 msgstr "Ungültigen Eintrag erhalten"
 
-#: resourcebase.cpp:599
+#: resourcebase.cpp:634
 #, kde-format
 msgctxt "@info"
 msgid "Error while creating item: %1"
 msgstr "Fehler beim Erstellen des Eintrags: %1"
 
-#: resourcebase.cpp:624
+#: resourcebase.cpp:659
 #, kde-format
 msgctxt "@info"
 msgid "Error while updating collection: %1"
 msgstr "Aktualisierung der Collection fehlgeschlagen: %1."
 
-#: resourcebase.cpp:701
+#: resourcebase.cpp:745
 #, kde-format
 msgctxt "@info"
 msgid "Updating local collection failed: %1."
 msgstr "Aktualisierung der lokalen Collection fehlgeschlagen: %1."
 
-#: resourcebase.cpp:728
+#: resourcebase.cpp:750
+#, kde-format
+#| msgctxt "@info"
+#| msgid "Updating local collection failed: %1."
+msgctxt "@info"
+msgid "Updating local items failed: %1."
+msgstr "Aktualisierung der lokalen Elemente fehlgeschlagen: %1."
+
+#: resourcebase.cpp:774
 msgctxt "@info"
 msgid "Cannot fetch item in offline mode."
 msgstr "Das Element kann im Offline-Modus nicht geholt werden."
 
-#: resourcebase.cpp:862
+#: resourcebase.cpp:920
 #, kde-format
 msgctxt "@info:status"
 msgid "Syncing folder '%1'"
 msgstr "Abgleich des Ordners „%1“"
 
-#: resourcebase.cpp:903
+#: resourcebase.cpp:939
+msgid "Failed to retrieve collection for sync."
+msgstr "Das Abholen der Sammlung zum Abgleichen ist fehlgeschlagen."
+
+#: resourcebase.cpp:980
+msgid "Failed to retrieve collection for attribute sync."
+msgstr ""
+"Das Abholen der Sammlung zum Abgleich der Attribute ist fehlgeschlagen."
+
+#: resourcebase.cpp:1027
 msgid "The requested item no longer exists"
 msgstr "Das angefragte Element ist nicht mehr vorhanden."
 
-#: resourcescheduler.cpp:389 resourcescheduler.cpp:394
+#: resourcescheduler.cpp:419 resourcescheduler.cpp:424
 msgctxt "@info"
 msgid "Job canceled."
 msgstr "Der Auftrag wurde abgebrochen"
 
-#: resourcesynchronizationjob.cpp:144
+#: resourcesynchronizationjob.cpp:148
 msgid "Resource synchronization timed out."
 msgstr "Zeitüberschreitung beim Abgleich der Ressource."
 
@@ -744,7 +751,7 @@ msgstr "Bericht speichern ..."
 msgid "Copy Report to Clipboard"
 msgstr "Bericht in Zwischenablage kopieren"
 
-#: selftestdialog.cpp:194
+#: selftestdialog.cpp:195
 #, kde-format
 msgid ""
 "The QtSQL driver '%1' is required by your current Akonadi server "
@@ -753,7 +760,7 @@ msgstr ""
 "Der QtSQL-Treiber „%1“ wird von Ihrer aktuellen Akonadi-Serverkonfiguration "
 "benötigt und wurde auch auf Ihrem System gefunden."
 
-#: selftestdialog.cpp:196
+#: selftestdialog.cpp:197
 #, kde-format
 msgid ""
 "The QtSQL driver '%1' is required by your current Akonadi server "
@@ -766,23 +773,23 @@ msgstr ""
 "Folgende Treiber sind installiert: %2.\n"
 "Bitte installieren Sie den benötigten Treiber."
 
-#: selftestdialog.cpp:203
+#: selftestdialog.cpp:204
 msgid "Database driver found."
 msgstr "Datenbank-Treiber gefunden."
 
-#: selftestdialog.cpp:205
+#: selftestdialog.cpp:206
 msgid "Database driver not found."
 msgstr "Datenbank-Treiber nicht gefunden."
 
-#: selftestdialog.cpp:212
+#: selftestdialog.cpp:214
 msgid "MySQL server executable not tested."
 msgstr "MySQL-Server-Programmdatei nicht getestet."
 
-#: selftestdialog.cpp:213 selftestdialog.cpp:253 selftestdialog.cpp:302
+#: selftestdialog.cpp:215 selftestdialog.cpp:256 selftestdialog.cpp:305
 msgid "The current configuration does not require an internal MySQL server."
 msgstr "Die aktuelle Konfiguration benötigt keinen internen MySQL-Server."
 
-#: selftestdialog.cpp:220
+#: selftestdialog.cpp:222
 #, kde-format
 msgid ""
 "You have currently configured Akonadi to use the MySQL server '%1'.\n"
@@ -799,36 +806,36 @@ msgstr ""
 "heißt üblicherweise „mysqld“. Ihr Speicherort ist von der Distribution "
 "abhängig."
 
-#: selftestdialog.cpp:227
+#: selftestdialog.cpp:229
 msgid "MySQL server not found."
 msgstr "MySQL-Server nicht gefunden."
 
-#: selftestdialog.cpp:229
+#: selftestdialog.cpp:231
 msgid "MySQL server not readable."
 msgstr "MySQL-Server nicht lesbar."
 
-#: selftestdialog.cpp:231
+#: selftestdialog.cpp:233
 msgid "MySQL server not executable."
 msgstr "MySQL-Server nicht ausführbar."
 
-#: selftestdialog.cpp:233
+#: selftestdialog.cpp:235
 msgid "MySQL found with unexpected name."
 msgstr "MySQL unter unerwartetem Namen gefunden."
 
-#: selftestdialog.cpp:235
+#: selftestdialog.cpp:237
 msgid "MySQL server found."
 msgstr "MySQL-Server gefunden."
 
-#: selftestdialog.cpp:240
+#: selftestdialog.cpp:243
 #, kde-format
 msgid "MySQL server found: %1"
 msgstr "MySQL-Server gefunden: %1"
 
-#: selftestdialog.cpp:241
+#: selftestdialog.cpp:244
 msgid "MySQL server is executable."
 msgstr "MySQL-Server ist ausführbar."
 
-#: selftestdialog.cpp:243
+#: selftestdialog.cpp:246
 #, kde-format
 msgid ""
 "Executing the MySQL server '%1' failed with the following error message: '%2'"
@@ -836,19 +843,19 @@ msgstr ""
 "Die Ausführung des MySQL-Servers „%1“ ist mit folgender Fehlermeldung "
 "fehlgeschlagen: „%2“"
 
-#: selftestdialog.cpp:245
+#: selftestdialog.cpp:248
 msgid "Executing the MySQL server failed."
 msgstr "Die Ausführung des MySQL-Servers ist fehlgeschlagen."
 
-#: selftestdialog.cpp:252
+#: selftestdialog.cpp:255
 msgid "MySQL server error log not tested."
 msgstr "Das Fehlerprotokoll des MySQL-Servers wurde nicht getestet."
 
-#: selftestdialog.cpp:261
+#: selftestdialog.cpp:264
 msgid "No current MySQL error log found."
 msgstr "Kein aktuelles MySQL-Fehlerprotokoll gefunden."
 
-#: selftestdialog.cpp:262
+#: selftestdialog.cpp:265
 #, kde-format
 msgid ""
 "The MySQL server did not report any errors during this startup. The log can "
@@ -857,52 +864,52 @@ msgstr ""
 "Der MySQL-Server hat bei diesem Start keine Fehler gemeldet. Das Protokoll "
 "kann hier gefunden: %1"
 
-#: selftestdialog.cpp:267
+#: selftestdialog.cpp:270
 msgid "MySQL error log not readable."
 msgstr "MySQL-Fehlerprotokoll nicht lesbar."
 
-#: selftestdialog.cpp:268
+#: selftestdialog.cpp:271
 #, kde-format
 msgid "A MySQL server error log file was found but is not readable: %1"
 msgstr ""
 "Ein MySQL-Fehlerprotokoll wurde gefunden, kann aber nicht gelesen werden: %1"
 
-#: selftestdialog.cpp:276
+#: selftestdialog.cpp:279
 msgid "MySQL server log contains errors."
 msgstr "MySQL-Serverprotokoll enthält Fehler."
 
-#: selftestdialog.cpp:277
+#: selftestdialog.cpp:280
 #, kde-format
 msgid "The MySQL server error log file '%1' contains errors."
 msgstr "Das Fehlerprotokoll des MySQL-Servers „%1“ enthält Fehler."
 
-#: selftestdialog.cpp:286
+#: selftestdialog.cpp:289
 msgid "MySQL server log contains warnings."
 msgstr "MySQL-Serverprotokoll enthält Warnungen."
 
-#: selftestdialog.cpp:287
+#: selftestdialog.cpp:290
 #, kde-format
 msgid "The MySQL server log file '%1' contains warnings."
 msgstr "Das MySQL-Serverprotokoll „%1“ enthält Warnungen."
 
-#: selftestdialog.cpp:289
+#: selftestdialog.cpp:292
 msgid "MySQL server log contains no errors."
 msgstr "MySQL-Serverprotokoll enthält keine Fehler."
 
-#: selftestdialog.cpp:290
+#: selftestdialog.cpp:293
 #, kde-format
 msgid "The MySQL server log file '%1' does not contain any errors or warnings."
 msgstr "Das MySQL-Serverprotokoll „%1“ enthält keine Fehler oder Warnungen."
 
-#: selftestdialog.cpp:301
+#: selftestdialog.cpp:304
 msgid "MySQL server configuration not tested."
 msgstr "MySQL-Serverkonfiguration nicht getestet."
 
-#: selftestdialog.cpp:310
+#: selftestdialog.cpp:313
 msgid "MySQL server default configuration found."
 msgstr "Standard-Konfiguration des MySQL-Servers gefunden."
 
-#: selftestdialog.cpp:311
+#: selftestdialog.cpp:314
 #, kde-format
 msgid ""
 "The default configuration for the MySQL server was found and is readable at "
@@ -911,11 +918,11 @@ msgstr ""
 "Die Standard-Konfiguration für den MySQL-Server wurde unter %1 gefunden und "
 "ist lesbar."
 
-#: selftestdialog.cpp:315
+#: selftestdialog.cpp:318
 msgid "MySQL server default configuration not found."
 msgstr "Standard-Konfiguration des MySQL-Servers nicht gefunden."
 
-#: selftestdialog.cpp:316
+#: selftestdialog.cpp:319
 msgid ""
 "The default configuration for the MySQL server was not found or was not "
 "readable. Check your Akonadi installation is complete and you have all "
@@ -925,22 +932,22 @@ msgstr ""
 "gelesen werden. Überprüfen Sie, ob Ihre Akonadi-Installation vollständig ist "
 "und Sie die nötigen Zugriffsrechte besitzen."
 
-#: selftestdialog.cpp:323
+#: selftestdialog.cpp:326
 msgid "MySQL server custom configuration not available."
 msgstr "Angepasste Konfiguration des MySQL-Server nicht gefunden."
 
-#: selftestdialog.cpp:324
+#: selftestdialog.cpp:327
 msgid ""
 "The custom configuration for the MySQL server was not found but is optional."
 msgstr ""
 "Eine angepasste Konfiguration des MySQL-Server wurde nicht gefunden, sie ist "
 "aber auch nicht vorgeschrieben."
 
-#: selftestdialog.cpp:326
+#: selftestdialog.cpp:329
 msgid "MySQL server custom configuration found."
 msgstr "Angepasste Konfiguration des MySQL-Servers gefunden."
 
-#: selftestdialog.cpp:327
+#: selftestdialog.cpp:330
 #, kde-format
 msgid ""
 "The custom configuration for the MySQL server was found and is readable at %1"
@@ -948,11 +955,11 @@ msgstr ""
 "Die angepasste Konfiguration des MySQL-Servers wurde unter %1 gefunden und "
 "ist lesbar."
 
-#: selftestdialog.cpp:331
+#: selftestdialog.cpp:334
 msgid "MySQL server custom configuration not readable."
 msgstr "Angepasste Konfiguration des MySQL-Servers nicht lesbar."
 
-#: selftestdialog.cpp:332
+#: selftestdialog.cpp:335
 #, kde-format
 msgid ""
 "The custom configuration for the MySQL server was found at %1 but is not "
@@ -961,43 +968,43 @@ msgstr ""
 "Die angepasste Konfiguration des MySQL-Servers wurde unter %1 gefunden, ist "
 "aber nicht lesbar. Überprüfen Sie Ihre Zugriffsrechte."
 
-#: selftestdialog.cpp:339
+#: selftestdialog.cpp:342
 msgid "MySQL server configuration not found or not readable."
 msgstr "Konfiguration des MySQL-Servers nicht gefunden oder nicht lesbar."
 
-#: selftestdialog.cpp:340
+#: selftestdialog.cpp:343
 msgid "The MySQL server configuration was not found or is not readable."
 msgstr ""
 "Die Konfiguration des MySQL-Servers wurde nicht gefunden oder ist nicht "
 "lesbar."
 
-#: selftestdialog.cpp:342
+#: selftestdialog.cpp:345
 msgid "MySQL server configuration is usable."
 msgstr "Konfiguration des MySQL-Servers ist verwendbar."
 
-#: selftestdialog.cpp:343
+#: selftestdialog.cpp:346
 #, kde-format
 msgid "The MySQL server configuration was found at %1 and is readable."
 msgstr ""
 "Die Konfiguration des MySQL-Servers wurde unter %1 gefunden und ist lesbar."
 
-#: selftestdialog.cpp:370
+#: selftestdialog.cpp:375
 msgid "Cannot connect to PostgreSQL server."
 msgstr "Verbindung zum PostgreSQL-Dienst kann nicht hergestellt werden."
 
-#: selftestdialog.cpp:373
+#: selftestdialog.cpp:377
 msgid "PostgreSQL server found."
 msgstr "PostgreSQL-Server gefunden."
 
-#: selftestdialog.cpp:374
+#: selftestdialog.cpp:378
 msgid "The PostgreSQL server was found and connection is working."
 msgstr "Der PostgreSQL-Server wurde gefunden und die Verbindung funktioniert."
 
-#: selftestdialog.cpp:383
+#: selftestdialog.cpp:387
 msgid "akonadictl not found"
 msgstr "akonadictl nicht gefunden"
 
-#: selftestdialog.cpp:384
+#: selftestdialog.cpp:388
 msgid ""
 "The program 'akonadictl' needs to be accessible in $PATH. Make sure you have "
 "the Akonadi server installed."
@@ -1005,11 +1012,11 @@ msgstr ""
 "Das Programm „akonadictl“ muss in Ihrem $PATH liegen. Stellen Sie sicher, "
 "dass Sie den Akonadi-Server installiert haben."
 
-#: selftestdialog.cpp:390
+#: selftestdialog.cpp:394
 msgid "akonadictl found and usable"
 msgstr "akonadictl gefunden und verwendbar."
 
-#: selftestdialog.cpp:391
+#: selftestdialog.cpp:395
 #, kde-format
 msgid ""
 "The program '%1' to control the Akonadi server was found and could be "
@@ -1022,11 +1029,11 @@ msgstr ""
 "Ergebnis:\n"
 "%2"
 
-#: selftestdialog.cpp:394
+#: selftestdialog.cpp:398
 msgid "akonadictl found but not usable"
 msgstr "akonadictl gefunden aber nicht verwendbar."
 
-#: selftestdialog.cpp:395
+#: selftestdialog.cpp:399
 #, kde-format
 msgid ""
 "The program '%1' to control the Akonadi server was found but could not be "
@@ -1041,11 +1048,11 @@ msgstr ""
 "%2\n"
 "Stellen Sie sicher, dass der Akonadi-Server richtig installiert ist."
 
-#: selftestdialog.cpp:404
+#: selftestdialog.cpp:408
 msgid "Akonadi control process registered at D-Bus."
 msgstr "Akonadi-Steuerprogramm am D-Bus registriert."
 
-#: selftestdialog.cpp:405
+#: selftestdialog.cpp:409
 msgid ""
 "The Akonadi control process is registered at D-Bus which typically indicates "
 "it is operational."
@@ -1053,11 +1060,11 @@ msgstr ""
 "Das Akonadi-Steuerprogramm ist am D-Bus registriert, was normalerweise "
 "bedeutet, dass es funktionsfähig ist."
 
-#: selftestdialog.cpp:407
+#: selftestdialog.cpp:411
 msgid "Akonadi control process not registered at D-Bus."
 msgstr "Akonadi-Steuerprogramm nicht am D-Bus registriert."
 
-#: selftestdialog.cpp:408
+#: selftestdialog.cpp:412
 msgid ""
 "The Akonadi control process is not registered at D-Bus which typically means "
 "it was not started or encountered a fatal error during startup."
@@ -1066,11 +1073,11 @@ msgstr ""
 "bedeutet, dass es nicht gestartet wurde oder beim Start ein schwerer Fehler "
 "aufgetreten ist."
 
-#: selftestdialog.cpp:413
+#: selftestdialog.cpp:417
 msgid "Akonadi server process registered at D-Bus."
 msgstr "Akonadi-Serverprogramm am D-Bus registriert."
 
-#: selftestdialog.cpp:414
+#: selftestdialog.cpp:418
 msgid ""
 "The Akonadi server process is registered at D-Bus which typically indicates "
 "it is operational."
@@ -1078,11 +1085,11 @@ msgstr ""
 "Das Akonadi-Serverprogramm ist am D-Bus registriert, was normalerweise "
 "bedeutet, dass es funktionsfähig ist."
 
-#: selftestdialog.cpp:416
+#: selftestdialog.cpp:420
 msgid "Akonadi server process not registered at D-Bus."
 msgstr "Akonadi-Serverprogramm nicht am D-Bus registriert."
 
-#: selftestdialog.cpp:417
+#: selftestdialog.cpp:421
 msgid ""
 "The Akonadi server process is not registered at D-Bus which typically means "
 "it was not started or encountered a fatal error during startup."
@@ -1091,11 +1098,11 @@ msgstr ""
 "bedeutet, dass es nicht gestartet wurde oder beim Start ein schwerer Fehler "
 "aufgetreten ist."
 
-#: selftestdialog.cpp:425
+#: selftestdialog.cpp:429
 msgid "Protocol version check not possible."
 msgstr "Überprüfung der Protokollversion nicht möglich."
 
-#: selftestdialog.cpp:426
+#: selftestdialog.cpp:430
 msgid ""
 "Without a connection to the server it is not possible to check if the "
 "protocol version meets the requirements."
@@ -1103,11 +1110,11 @@ msgstr ""
 "Ohne eine Verbindung zum Server ist es nicht möglich zu prüfen, ob die "
 "Protokollversion den Anforderungen entspricht."
 
-#: selftestdialog.cpp:430
+#: selftestdialog.cpp:434
 msgid "Server protocol version is too old."
 msgstr "Version des Server-Protokolls zu alt."
 
-#: selftestdialog.cpp:431
+#: selftestdialog.cpp:435
 #, kde-format
 msgid ""
 "The server protocol version is %1, but at least version %2 is required. "
@@ -1116,11 +1123,11 @@ msgstr ""
 "Die Version des Server-Protokolls ist %1, es ist aber mindestens Version %2 "
 "erforderlich. Bitte installieren Sie eine neuere Version des Akonadi-Servers."
 
-#: selftestdialog.cpp:436
+#: selftestdialog.cpp:440
 msgid "Server protocol version is recent enough."
 msgstr "Version des Server-Protokolls aktuell genug."
 
-#: selftestdialog.cpp:437
+#: selftestdialog.cpp:441
 #, kde-format
 msgid ""
 "The server Protocol version is %1, which equal or newer than the required "
@@ -1129,19 +1136,19 @@ msgstr ""
 "Die Version des Server-Protokolls ist %1, ist also neuer als oder entspricht "
 "der erforderlichen Version %2."
 
-#: selftestdialog.cpp:457
+#: selftestdialog.cpp:461
 msgid "Resource agents found."
 msgstr "Ressourcen-Vermittler gefunden."
 
-#: selftestdialog.cpp:457
+#: selftestdialog.cpp:461
 msgid "At least one resource agent has been found."
 msgstr "Es wurde mindestens ein Ressourcen-Vermittler gefunden."
 
-#: selftestdialog.cpp:459
+#: selftestdialog.cpp:463
 msgid "No resource agents found."
 msgstr "Keine Ressourcen-Vermittler gefunden."
 
-#: selftestdialog.cpp:460
+#: selftestdialog.cpp:464
 #, kde-format
 msgid ""
 "No resource agents have been found, Akonadi is not usable without at least "
@@ -1157,21 +1164,21 @@ msgstr ""
 "Umgebungsvariable XDG_DATA_DIRS ist auf „%2“ gesetzt. Überprüfen Sie, ob "
 "darin alle Pfade mit installierten Akonadi-Vermittlern enthalten sind."
 
-#: selftestdialog.cpp:478
+#: selftestdialog.cpp:482
 msgid "No current Akonadi server error log found."
 msgstr "Kein aktuelles Fehlerprotokoll des Akonadi-Servers gefunden."
 
-#: selftestdialog.cpp:479
+#: selftestdialog.cpp:483
 msgid ""
 "The Akonadi server did not report any errors during its current startup."
 msgstr ""
 "Der Akonadi-Server hat während des aktuellen Starts keine Fehler gemeldet."
 
-#: selftestdialog.cpp:481
+#: selftestdialog.cpp:485
 msgid "Current Akonadi server error log found."
 msgstr "Aktuelles Fehlerprotokoll des Akonadi-Servers gefunden."
 
-#: selftestdialog.cpp:482
+#: selftestdialog.cpp:486
 #, kde-format
 msgid ""
 "The Akonadi server reported errors during its current startup. The log can "
@@ -1180,20 +1187,20 @@ msgstr ""
 "Der Akonadi-Server hat während des aktuellen Starts Fehler gemeldet. Das "
 "Protokoll kann hier gefunden werden: %1"
 
-#: selftestdialog.cpp:489
+#: selftestdialog.cpp:493
 msgid "No previous Akonadi server error log found."
 msgstr "Kein früheres Fehlerprotokoll des Akonadi-Servers gefunden."
 
-#: selftestdialog.cpp:490
+#: selftestdialog.cpp:494
 msgid ""
 "The Akonadi server did not report any errors during its previous startup."
 msgstr "Der Akonadi-Server hat beim vorherigen Start keine Fehler gemeldet."
 
-#: selftestdialog.cpp:492
+#: selftestdialog.cpp:496
 msgid "Previous Akonadi server error log found."
 msgstr "Früheres Fehlerprotokoll des Akonadi-Servers gefunden."
 
-#: selftestdialog.cpp:493
+#: selftestdialog.cpp:497
 #, kde-format
 msgid ""
 "The Akonadi server reported errors during its previous startup. The log can "
@@ -1202,11 +1209,11 @@ msgstr ""
 "Der Akonadi-Server hat während des letzten Starts Fehler gemeldet. Das "
 "Protokoll kann hier gefunden werden: %1"
 
-#: selftestdialog.cpp:504
+#: selftestdialog.cpp:508
 msgid "No current Akonadi control error log found."
 msgstr "Kein aktuelles Fehlerprotokoll des Akonadi-Steuerprogramms gefunden."
 
-#: selftestdialog.cpp:505
+#: selftestdialog.cpp:509
 msgid ""
 "The Akonadi control process did not report any errors during its current "
 "startup."
@@ -1214,11 +1221,11 @@ msgstr ""
 "Das Akonadi-Steuerprogramm hat während des aktuellen Starts keine Fehler "
 "gemeldet."
 
-#: selftestdialog.cpp:507
+#: selftestdialog.cpp:511
 msgid "Current Akonadi control error log found."
 msgstr "Aktuelles Fehlerprotokoll des Akonadi-Steuerprogramms gefunden."
 
-#: selftestdialog.cpp:508
+#: selftestdialog.cpp:512
 #, kde-format
 msgid ""
 "The Akonadi control process reported errors during its current startup. The "
@@ -1227,22 +1234,22 @@ msgstr ""
 "Das Akonadi-Steuerprogramm hat während des aktuellen Starts Fehler gemeldet. "
 "Das Protokoll kann hier gefunden werden: %1"
 
-#: selftestdialog.cpp:515
+#: selftestdialog.cpp:519
 msgid "No previous Akonadi control error log found."
 msgstr "Kein früheres Fehlerprotokoll des Akonadi-Steuerprogramms gefunden."
 
-#: selftestdialog.cpp:516
+#: selftestdialog.cpp:520
 msgid ""
 "The Akonadi control process did not report any errors during its previous "
 "startup."
 msgstr ""
 "Das Akonadi-Steuerprogramm hat beim vorherigen Start keine Fehler gemeldet."
 
-#: selftestdialog.cpp:518
+#: selftestdialog.cpp:522
 msgid "Previous Akonadi control error log found."
 msgstr "Früheres Fehlerprotokoll des Akonadi-Steuerprogramms gefunden."
 
-#: selftestdialog.cpp:519
+#: selftestdialog.cpp:523
 #, kde-format
 msgid ""
 "The Akonadi control process reported errors during its previous startup. The "
@@ -1251,11 +1258,11 @@ msgstr ""
 "Das Akonadi-Steuerprogramm hat während des letzten Starts Fehler gemeldet. "
 "Das Protokoll kann hier gefunden werden: %1"
 
-#: selftestdialog.cpp:528
+#: selftestdialog.cpp:532
 msgid "Akonadi was started as root"
 msgstr "Akonadi wurde als „root“ gestartet."
 
-#: selftestdialog.cpp:528
+#: selftestdialog.cpp:532
 msgid ""
 "Running Internet-facing applications as root/administrator exposes you to "
 "many security risks. MySQL, used by this Akonadi installation, will not "
@@ -1266,12 +1273,12 @@ msgstr ""
 "installierten Akonadi verwendete MySQL erlaubt selbst kein Ausführen als "
 "„root“, um diese Risiken auszuschließen."
 
-#: selftestdialog.cpp:530
+#: selftestdialog.cpp:534
 msgid "Akonadi is not running as root"
 msgstr "Akonadi läuft nicht als „root“."
 
 # zweideutigkeit...
-#: selftestdialog.cpp:530
+#: selftestdialog.cpp:534
 msgid ""
 "Akonadi is not running as a root/administrator user, which is the "
 "recommended setup for a secure system."
@@ -1279,11 +1286,11 @@ msgstr ""
 "Akonadi wird nicht als „root“ bzw. Administrator ausgeführt. Es nicht als "
 "„root“ auszuführen ist die empfohlene Einstellung für ein sicheres System."
 
-#: selftestdialog.cpp:603
+#: selftestdialog.cpp:613
 msgid "Save Test Report"
 msgstr "Testbericht speichern"
 
-#: selftestdialog.cpp:609
+#: selftestdialog.cpp:620
 #, kde-format
 msgid "Could not open file '%1'"
 msgstr "Datei „%1“ kann nicht geöffnet werden"
@@ -1314,35 +1321,35 @@ msgstr ""
 "<p>Weitere Hilfe bei Problemen finden Sie auf <a href=\"http://userbase.kde."
 "org/Akonadi\">userbase.kde.org/Akonadi</a>.</p>"
 
-#: session.cpp:282
+#: session.cpp:293
 #, kde-format
 msgid "Protocol version %1 found, expected at least %2"
 msgstr ""
 "Protokollversion %1 wurde gefunden, erwartet wurde jedoch mindestens %2."
 
-#: specialcollectionshelperjobs.cpp:151
+#: specialcollectionshelperjobs.cpp:158
 #, kde-format
 msgid "Could not fetch root collection of resource %1."
 msgstr "Die Haupt-Collection der Ressource „%1“ kann nicht geholt werden."
 
-#: specialcollectionshelperjobs.cpp:197
+#: specialcollectionshelperjobs.cpp:204
 msgid "No resource ID given."
 msgstr "Keine Ressourcen-ID angegeben."
 
-#: specialcollectionshelperjobs.cpp:327
+#: specialcollectionshelperjobs.cpp:335
 #, kde-format
 msgid "Invalid resource identifier '%1'"
 msgstr "Ungültiger Ressourcen-Bezeichner „%1“."
 
-#: specialcollectionshelperjobs.cpp:343 specialcollectionshelperjobs.cpp:351
+#: specialcollectionshelperjobs.cpp:352 specialcollectionshelperjobs.cpp:360
 msgid "Failed to configure default resource via D-Bus."
 msgstr "Fehler beim Einrichten der Standard-Ressource über D-Bus."
 
-#: specialcollectionshelperjobs.cpp:412
+#: specialcollectionshelperjobs.cpp:421
 msgid "Failed to fetch the resource collection."
 msgstr "Fehler beim Einholen der Ressourcen-Collection."
 
-#: specialcollectionshelperjobs.cpp:606
+#: specialcollectionshelperjobs.cpp:616
 msgid "Timeout trying to get lock."
 msgstr "Zeitüberschreitung beim Erhalten der Sperre."
 
@@ -1354,7 +1361,7 @@ msgstr "&Neuer Ordner ..."
 msgid "New"
 msgstr "Neu"
 
-#: standardactionmanager.cpp:91 standardactionmanager.cpp:218
+#: standardactionmanager.cpp:91 standardactionmanager.cpp:219
 #, kde-format
 msgid "&Delete Folder"
 msgid_plural "&Delete %1 Folders"
@@ -1365,7 +1372,7 @@ msgstr[1] "%1 Ordner &löschen"
 msgid "Delete"
 msgstr "Löschen"
 
-#: standardactionmanager.cpp:92 standardactionmanager.cpp:220
+#: standardactionmanager.cpp:92 standardactionmanager.cpp:221
 #, kde-format
 msgid "&Synchronize Folder"
 msgid_plural "&Synchronize %1 Folders"
@@ -1373,6 +1380,7 @@ msgstr[0] "Ordner &abgleichen"
 msgstr[1] "%1 Ordner &abgleichen"
 
 #: standardactionmanager.cpp:92 standardactionmanager.cpp:110
+#: standardactionmanager.cpp:126
 msgid "Synchronize"
 msgstr "Abgleichen"
 
@@ -1450,7 +1458,7 @@ msgstr "Verschieben nach"
 msgid "Move Folder To..."
 msgstr "Ordner verschieben nach ..."
 
-#: standardactionmanager.cpp:105 standardactionmanager.cpp:212
+#: standardactionmanager.cpp:105 standardactionmanager.cpp:213
 #, kde-format
 msgid "&Cut Item"
 msgid_plural "&Cut %1 Items"
@@ -1461,7 +1469,7 @@ msgstr[1] "%1 Elemente &ausschneiden"
 msgid "Cut"
 msgstr "Ausschneiden"
 
-#: standardactionmanager.cpp:106 standardactionmanager.cpp:214
+#: standardactionmanager.cpp:106 standardactionmanager.cpp:215
 #, kde-format
 msgid "&Cut Folder"
 msgid_plural "&Cut %1 Folders"
@@ -1472,7 +1480,7 @@ msgstr[1] "%1 Ordner &ausschneiden"
 msgid "Create Resource"
 msgstr "Ressource erstellen"
 
-#: standardactionmanager.cpp:108 standardactionmanager.cpp:241
+#: standardactionmanager.cpp:108 standardactionmanager.cpp:242
 #, kde-format
 msgid "Delete Resource"
 msgid_plural "Delete %1 Resources"
@@ -1483,7 +1491,7 @@ msgstr[1] "%1 Ressourcen löschen"
 msgid "&Resource Properties"
 msgstr "&Ressourcen-Eigenschaften"
 
-#: standardactionmanager.cpp:110 standardactionmanager.cpp:243
+#: standardactionmanager.cpp:110 standardactionmanager.cpp:244
 #, kde-format
 msgid "Synchronize Resource"
 msgid_plural "Synchronize %1 Resources"
@@ -1552,96 +1560,102 @@ msgstr "Bevorzugte Ordner &abgleichen"
 msgid "Synchronize Favorite Folders"
 msgstr "Bevorzugte Ordner abgleichen"
 
-#: standardactionmanager.cpp:208
+#: standardactionmanager.cpp:126
+#| msgid "Synchronize Folder"
+#| msgid_plural "Synchronize %1 Folders"
+msgid "Synchronize Folder Tree"
+msgstr "Ordnerbaum abgleichen"
+
+#: standardactionmanager.cpp:209
 #, kde-format
 msgid "&Copy Folder"
 msgid_plural "&Copy %1 Folders"
 msgstr[0] "Ordner &kopieren"
 msgstr[1] "%1 Ordner &kopieren"
 
-#: standardactionmanager.cpp:210
+#: standardactionmanager.cpp:211
 #, kde-format
 msgid "&Copy Item"
 msgid_plural "&Copy %1 Items"
 msgstr[0] "Element &kopieren"
 msgstr[1] "%1 Elemente &kopieren"
 
-#: standardactionmanager.cpp:216
+#: standardactionmanager.cpp:217
 #, kde-format
 msgid "&Delete Item"
 msgid_plural "&Delete %1 Items"
 msgstr[0] "Element &löschen"
 msgstr[1] "%1 Elemente &löschen"
 
-#: standardactionmanager.cpp:222
+#: standardactionmanager.cpp:223
 #, kde-format
 msgid "&Delete Resource"
 msgid_plural "&Delete %1 Resources"
 msgstr[0] "Resource &löschen"
 msgstr[1] "%1 Ressourcen &löschen"
 
-#: standardactionmanager.cpp:224
+#: standardactionmanager.cpp:225
 #, kde-format
 msgid "&Synchronize Resource"
 msgid_plural "&Synchronize %1 Resources"
 msgstr[0] "Ressource &abgleichen"
 msgstr[1] "%1 Ressourcen &abgleichen"
 
-#: standardactionmanager.cpp:227
+#: standardactionmanager.cpp:228
 #, kde-format
 msgid "Copy Folder"
 msgid_plural "Copy %1 Folders"
 msgstr[0] "Ordner kopieren"
 msgstr[1] "%1 Ordner kopieren"
 
-#: standardactionmanager.cpp:229
+#: standardactionmanager.cpp:230
 #, kde-format
 msgid "Copy Item"
 msgid_plural "Copy %1 Items"
 msgstr[0] "Element kopieren"
 msgstr[1] "%1 Elemente kopieren"
 
-#: standardactionmanager.cpp:231
+#: standardactionmanager.cpp:232
 #, kde-format
 msgid "Cut Item"
 msgid_plural "Cut %1 Items"
 msgstr[0] "Element ausschneiden"
 msgstr[1] "%1 Elemente ausschneiden"
 
-#: standardactionmanager.cpp:233
+#: standardactionmanager.cpp:234
 #, kde-format
 msgid "Cut Folder"
 msgid_plural "Cut %1 Folders"
 msgstr[0] "Ordner ausschneiden"
 msgstr[1] "%1 Ordner ausschneiden"
 
-#: standardactionmanager.cpp:235
+#: standardactionmanager.cpp:236
 #, kde-format
 msgid "Delete Item"
 msgid_plural "Delete %1 Items"
 msgstr[0] "Element löschen"
 msgstr[1] "%1 Elemente löschen"
 
-#: standardactionmanager.cpp:237
+#: standardactionmanager.cpp:238
 #, kde-format
 msgid "Delete Folder"
 msgid_plural "Delete %1 Folders"
 msgstr[0] "Ordner löschen"
 msgstr[1] "%1 Ordner löschen"
 
-#: standardactionmanager.cpp:239
+#: standardactionmanager.cpp:240
 #, kde-format
 msgid "Synchronize Folder"
 msgid_plural "Synchronize %1 Folders"
 msgstr[0] "Ordner abgleichen"
 msgstr[1] "%1 Ordner abgleichen"
 
-#: standardactionmanager.cpp:248
+#: standardactionmanager.cpp:249
 msgctxt "@label:textbox name of a thing"
 msgid "Name"
 msgstr "Name"
 
-#: standardactionmanager.cpp:255
+#: standardactionmanager.cpp:256
 #, kde-format
 msgid "Do you really want to delete this folder and all its sub-folders?"
 msgid_plural ""
@@ -1649,113 +1663,113 @@ msgid_plural ""
 msgstr[0] "Möchten Sie den Ordner und alle Unterordner wirklich löschen?"
 msgstr[1] "Möchten Sie %1 Ordner und all deren Unterordner wirklich löschen?"
 
-#: standardactionmanager.cpp:258
+#: standardactionmanager.cpp:259
 msgctxt "@title:window"
 msgid "Delete folder?"
 msgid_plural "Delete folders?"
 msgstr[0] "Ordner löschen?"
 msgstr[1] "Ordner löschen?"
 
-#: standardactionmanager.cpp:260
+#: standardactionmanager.cpp:261
 #, kde-format
 msgid "Could not delete folder: %1"
 msgstr "Der Ordner kann nicht gelöscht werden: %1"
 
-#: standardactionmanager.cpp:262
+#: standardactionmanager.cpp:263
 msgid "Folder deletion failed"
 msgstr "Löschen des Ordners fehlgeschlagen"
 
-#: standardactionmanager.cpp:265
+#: standardactionmanager.cpp:266
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr "Eigenschaften des Ordners %1"
 
-#: standardactionmanager.cpp:268
+#: standardactionmanager.cpp:269
 #, kde-format
 msgid "Do you really want to delete the selected item?"
 msgid_plural "Do you really want to delete %1 items?"
 msgstr[0] "Möchten Sie das ausgewählte Element wirklich löschen?"
 msgstr[1] "Möchten Sie diese %1 Elemente wirklich löschen?"
 
-#: standardactionmanager.cpp:271
+#: standardactionmanager.cpp:272
 msgctxt "@title:window"
 msgid "Delete item?"
 msgid_plural "Delete items?"
 msgstr[0] "Element löschen?"
 msgstr[1] "Elemente löschen?"
 
-#: standardactionmanager.cpp:273
+#: standardactionmanager.cpp:274
 #, kde-format
 msgid "Could not delete item: %1"
 msgstr "Das Element kann nicht gelöscht werden: %1"
 
-#: standardactionmanager.cpp:275
+#: standardactionmanager.cpp:276
 msgid "Item deletion failed"
 msgstr "Löschen des Elementes fehlgeschlagen"
 
-#: standardactionmanager.cpp:278
+#: standardactionmanager.cpp:279
 msgctxt "@title:window"
 msgid "Rename Favorite"
 msgstr "Favoriten umbenennen"
 
-#: standardactionmanager.cpp:280
+#: standardactionmanager.cpp:281
 msgctxt "@label:textbox name of the folder"
 msgid "Name:"
 msgstr "Name:"
 
-#: standardactionmanager.cpp:283
+#: standardactionmanager.cpp:284
 msgctxt "@title:window"
 msgid "New Resource"
 msgstr "Neue Ressource"
 
-#: standardactionmanager.cpp:285
+#: standardactionmanager.cpp:286
 #, kde-format
 msgid "Could not create resource: %1"
 msgstr "Ressource kann nicht erstellt werden: %1"
 
-#: standardactionmanager.cpp:287
+#: standardactionmanager.cpp:288
 msgid "Resource creation failed"
 msgstr "Erstellen der Ressource fehlgeschlagen"
 
-#: standardactionmanager.cpp:290
+#: standardactionmanager.cpp:291
 #, kde-format
 msgid "Do you really want to delete this resource?"
 msgid_plural "Do you really want to delete %1 resources?"
 msgstr[0] "Möchten Sie die Ressource wirklich entfernen?"
 msgstr[1] "Möchten Sie diese %1 Ressourcen wirklich entfernen?"
 
-#: standardactionmanager.cpp:293
+#: standardactionmanager.cpp:294
 msgctxt "@title:window"
 msgid "Delete Resource?"
 msgid_plural "Delete Resources?"
 msgstr[0] "Ressource löschen?"
 msgstr[1] "Ressourcen löschen?"
 
-#: standardactionmanager.cpp:296
+#: standardactionmanager.cpp:297
 #, kde-format
 msgid "Could not paste data: %1"
 msgstr "Die Daten können nicht eingefügt werden: %1"
 
-#: standardactionmanager.cpp:298
+#: standardactionmanager.cpp:299
 msgid "Paste failed"
 msgstr "Einfügen fehlgeschlagen"
 
-#: standardactionmanager.cpp:603
+#: standardactionmanager.cpp:628
 msgid "We can not add \"/\" in folder name."
 msgstr "Das „/“-Zeichen kann dem Ordnernamen nicht hinzugefügt werden."
 
-#: standardactionmanager.cpp:604 standardactionmanager.cpp:611
+#: standardactionmanager.cpp:629 standardactionmanager.cpp:636
 msgid "Create new folder error"
 msgstr "Fehler beim Erstellen eines neuen Ordners"
 
-#: standardactionmanager.cpp:610
+#: standardactionmanager.cpp:635
 msgid "We can not add \".\" at begin or end of folder name."
 msgstr ""
 "Das „.“-Zeichen kann nicht am Anfang oder Ende des Ordnernamens hinzugefügt "
 "werden."
 
-#: standardactionmanager.cpp:812
+#: standardactionmanager.cpp:855
 #, kde-format
 msgid ""
 "Before syncing folder \"%1\" it is necessary to have the resource online. Do "
@@ -1764,76 +1778,76 @@ msgstr ""
 "Um den Ordner „%1“ abgleichen zu können, muss die Ressource online sein. "
 "Möchten Sie sie jetzt online schalten?"
 
-#: standardactionmanager.cpp:813
+#: standardactionmanager.cpp:856
 #, kde-format
 msgid "Account \"%1\" is offline"
 msgstr "Zugang „%1“ ist offline"
 
-#: standardactionmanager.cpp:814
+#: standardactionmanager.cpp:857
 msgctxt "@action:button"
 msgid "Go Online"
 msgstr "Online gehen"
 
-#: standardactionmanager.cpp:1351
+#: standardactionmanager.cpp:1427
 msgid "Move to This Folder"
 msgstr "In diesen Ordner verschieben"
 
-#: standardactionmanager.cpp:1351
+#: standardactionmanager.cpp:1427
 msgid "Copy to This Folder"
 msgstr "In diesen Ordner kopieren"
 
-#: statisticsproxymodel.cpp:101
+#: statisticsproxymodel.cpp:103
 msgid "Total Messages"
 msgstr "Gesamtzahl Nachrichten"
 
-#: statisticsproxymodel.cpp:102
+#: statisticsproxymodel.cpp:104
 msgid "Unread Messages"
 msgstr "Ungelesene Nachrichten"
 
-#: statisticsproxymodel.cpp:113
+#: statisticsproxymodel.cpp:115
 msgid "Quota"
 msgstr "Kontingent"
 
-#: statisticsproxymodel.cpp:121
+#: statisticsproxymodel.cpp:123
 msgid "Storage Size"
 msgstr "Speicherplatz"
 
-#: statisticsproxymodel.cpp:129
+#: statisticsproxymodel.cpp:131
 msgid "Subfolder Storage Size"
 msgstr "Speicherplatz der Unterordner"
 
-#: statisticsproxymodel.cpp:389
+#: statisticsproxymodel.cpp:388
 msgctxt "collection size"
 msgid "Size"
 msgstr "Größe"
 
-#: statisticsproxymodel.cpp:391
+#: statisticsproxymodel.cpp:390
 msgctxt "number of entities in the collection"
 msgid "Total"
 msgstr "Gesamt"
 
-#: statisticsproxymodel.cpp:393
+#: statisticsproxymodel.cpp:392
 msgctxt "number of unread entities in the collection"
 msgid "Unread"
 msgstr "Ungelesen"
 
-#: subscriptiondialog.cpp:188
+#: subscriptiondialog.cpp:194
 msgid "Local Subscriptions"
 msgstr "Lokale Abonnements"
 
-#: subscriptiondialog.cpp:214
+#: subscriptiondialog.cpp:220
 msgid "Search:"
 msgstr "Suche:"
 
-#: subscriptiondialog.cpp:222
+#: subscriptiondialog.cpp:228
 msgid "Subscribed only"
 msgstr "Nur Abonnierte"
 
-#: subscriptiondialog.cpp:231
+#: subscriptiondialog.cpp:237
 msgid "Subscribe"
 msgstr "Abonnieren"
 
-#: subscriptiondialog.cpp:235
+#: subscriptiondialog.cpp:241
 msgid "Unsubscribe"
 msgstr "Abonnement kündigen"
 
@@ -1841,86 +1855,99 @@ msgstr "Abonnement kündigen"
 msgid "Failed to create tag."
 msgstr "Erstellung des Stichworts ist fehlgeschlagen."
 
-#: tageditwidget.cpp:127
+#: tageditwidget.cpp:126
 msgid "An error occurred while creating a new tag"
 msgstr "Bei der Erstellung eines neuen Stichworts ist ein Fehler aufgetreten"
 
-#: tageditwidget.cpp:128
+#: tageditwidget.cpp:127
 msgid "Failed to create a new tag"
 msgstr "Erstellen des neuen Stichworts ist fehlgeschlagen"
 
-#: tageditwidget.cpp:183
+#: tageditwidget.cpp:182
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to remove the tag <resource>%1</resource>?"
 msgstr "Möchten Sie das Stichwort <resource>%1</resource> wirklich entfernen?"
 
-#: tageditwidget.cpp:185
+#: tageditwidget.cpp:184
 msgctxt "@title"
 msgid "Delete tag"
 msgstr "Stichwort löschen"
 
-#: tageditwidget.cpp:186
+#: tageditwidget.cpp:185
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Löschen"
 
-#: tageditwidget.cpp:187
+#: tageditwidget.cpp:186
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: tageditwidget.cpp:222
+#: tageditwidget.cpp:221
 msgctxt "@label"
 msgid "Create new tag"
 msgstr "Neues Stichwort erstellen"
 
-#: tageditwidget.cpp:233
+#: tageditwidget.cpp:232
 msgctxt "@label:textbox"
 msgid "Configure which tags should be applied."
 msgstr "Richten Sie hier ein, welche Stichwörter hinzugefügt werden sollen."
 
-#: tageditwidget.cpp:246
+#: tageditwidget.cpp:245
 msgctxt "@info"
 msgid "Delete tag"
 msgstr "Stichwort löschen"
 
-#: tagmanagementdialog.cpp:58 tagselectiondialog.cpp:60
+#: tagmanagementdialog.cpp:60 tagselectiondialog.cpp:62
 msgctxt "@title:window"
 msgid "Manage Tags"
 msgstr "Stichwörter verwalten ..."
 
-#: tagmodel.cpp:82
+#: tagmodel.cpp:81
 msgid "Tag"
 msgstr "Stichwort"
 
-#: tagwidget.cpp:58
+#: tagwidget.cpp:59
 msgid "..."
 msgstr "..."
 
-#: trashjob.cpp:163
+#: trashjob.cpp:164
 msgid "Move to trash collection failed, aborting trash operation"
 msgstr ""
 "Das Verschieben in die Papierkorb-Collection ist fehlgeschlagen. Diese "
 "Papierkorb-Aktion wird abgebrochen."
 
-#: trashjob.cpp:218 trashrestorejob.cpp:155
+#: trashjob.cpp:219 trashrestorejob.cpp:156
 msgid "Invalid items passed"
 msgstr "Ungültiger Eintrag übergeben"
 
-#: trashjob.cpp:257 trashrestorejob.cpp:202
+#: trashjob.cpp:258 trashrestorejob.cpp:203
 msgid "Invalid collection passed"
 msgstr "Ungültige Collection übergeben"
 
-#: trashjob.cpp:365 trashrestorejob.cpp:326
+#: trashjob.cpp:366 trashrestorejob.cpp:327
 msgid "No valid collection or empty itemlist"
 msgstr "Keine gültige Collection oder leere Eintragsliste"
 
-#: trashrestorejob.cpp:101
+#: trashrestorejob.cpp:102
 msgid "Could not find restore collection and restore resource is not available"
 msgstr ""
 "Collection zur Wiederherstellung kann nicht gefunden werden und die "
 "Ressource zur Wiederherstellung ist nicht verfügbar"
+
+#~ msgid "Inconsistent local collection tree detected."
+#~ msgstr "Inkonsistenter lokaler Collection-Baum erkannt."
+
+#~ msgid ""
+#~ "Remote collection without root-terminated ancestor chain provided, "
+#~ "resource is broken."
+#~ msgstr ""
+#~ "Es wurde eine Netzwerk-Collection ohne root-terminierte Stammkette "
+#~ "angegeben. Die Ressource ist ungültig."
+
+#~ msgid "Cannot list root collection."
+#~ msgstr "Haupt-Collection kann nicht aufgelistet werden."
 
 #~ msgid "Nepomuk search service registered at D-Bus."
 #~ msgstr "Nepomuk-Suchdienst am D-Bus registriert."

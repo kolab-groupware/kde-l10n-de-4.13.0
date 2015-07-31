@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lskat\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-08 05:43+0000\n"
+"POT-Creation-Date: 2014-08-14 01:56+0000\n"
 "PO-Revision-Date: 2012-05-24 13:35+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -270,95 +270,95 @@ msgstr "Löscht die gesamte bisherige Statistik."
 msgid "Ends a currently played game. No winner will be declared."
 msgstr "Beendet das aktuelle Spiel. Kein Spieler wird zum Sieger erklärt."
 
-#: mainwindow.cpp:410
+#: mainwindow.cpp:409
 msgid "Quits the program."
 msgstr "Beendet das Programm."
 
-#: mainwindow.cpp:413
+#: mainwindow.cpp:412
 msgid "Starting Player"
 msgstr "Startspieler"
 
-#: mainwindow.cpp:416
+#: mainwindow.cpp:415
 msgid "Changing starting player..."
 msgstr "Startspieler wählen ..."
 
-#: mainwindow.cpp:417
+#: mainwindow.cpp:416
 msgid "Chooses which player begins the next game."
 msgstr "Bestimmt den Spieler, der das nächste Spiel beginnen soll."
 
-#: mainwindow.cpp:420
+#: mainwindow.cpp:419
 msgid "Player &1"
 msgstr "Spieler &1"
 
-#: mainwindow.cpp:421
+#: mainwindow.cpp:420
 msgid "Player &2"
 msgstr "Spieler &2"
 
-#: mainwindow.cpp:427
+#: mainwindow.cpp:426
 msgid "Player &1 Played By"
 msgstr "Spieler &1 gespielt von"
 
-#: mainwindow.cpp:430
+#: mainwindow.cpp:429
 msgid "Changing who plays player 1..."
 msgstr "Bestimmen, wer Spieler 1 spielt ..."
 
-#: mainwindow.cpp:431
+#: mainwindow.cpp:430
 msgid "Changing who plays player 1."
 msgstr "Ändern, wer Spieler 1 ist."
 
-#: mainwindow.cpp:433
+#: mainwindow.cpp:432
 msgid "&Mouse"
 msgstr "&Maus"
 
-#: mainwindow.cpp:434
+#: mainwindow.cpp:433
 msgid "&Computer"
 msgstr "&Computer"
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:438
 msgid "Player &2 Played By"
 msgstr "Spieler &2 gespielt von"
 
-#: mainwindow.cpp:442
+#: mainwindow.cpp:441
 msgid "Changing who plays player 2..."
 msgstr "Bestimmen, wer Spieler 2 spielt ..."
 
-#: mainwindow.cpp:443
+#: mainwindow.cpp:442
 msgid "Changing who plays player 2."
 msgstr "Ändern, wer Spieler 2 ist."
 
-#: mainwindow.cpp:451
+#: mainwindow.cpp:450
 msgid "&Theme"
 msgstr "&Design"
 
-#: mainwindow.cpp:457
+#: mainwindow.cpp:456
 msgid "Changing theme..."
 msgstr "Design ändern ..."
 
-#: mainwindow.cpp:458
+#: mainwindow.cpp:457
 msgid "Changing theme."
 msgstr "Design wird geändert."
 
-#: mainwindow.cpp:462
+#: mainwindow.cpp:461
 msgid "Select &Card Deck..."
 msgstr "&Blatt aussuchen ..."
 
-#: mainwindow.cpp:465
+#: mainwindow.cpp:464
 msgid "Configure card decks..."
 msgstr "Karten auswählen ..."
 
-#: mainwindow.cpp:466
+#: mainwindow.cpp:465
 msgid "Choose how the cards should look."
 msgstr "Wählen Sie aus, wie die Karten aussehen sollen."
 
-#: mainwindow.cpp:470
+#: mainwindow.cpp:469
 msgid "&Change Player Names..."
 msgstr "Spielernamen ä&ndern ..."
 
-#: mainwindow.cpp:546
+#: mainwindow.cpp:544
 msgid "Do you really want to clear the all time statistical data?"
 msgstr "Möchten Sie wirklich die Gesamtstatistik zurücksetzen?"
 
-#: mainwindow.cpp:621
+#: mainwindow.cpp:619
 msgid "Dealing cards..."
 msgstr "Karten werden ausgeteilt ..."
 

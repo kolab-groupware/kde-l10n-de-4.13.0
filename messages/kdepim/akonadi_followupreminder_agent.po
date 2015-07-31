@@ -1,0 +1,79 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frederik Schwarzer <schwarzer@kde.org>, 2014.
+# Burkhard Lück <lueck@hube-lueck.de>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-10-05 21:11+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: followupreminderconfiguredialog.cpp:28
+msgid "Configure"
+msgstr "Einrichten"
+
+#~ msgid "Follow Up Reminder Agent"
+#~ msgstr "Agent zur Erinnerung an Folgenachrichten"
+
+#~ msgid "Follow Up Mail."
+#~ msgstr "Folgenachricht"
+
+#~ msgid "Copyright (C) 2014 Laurent Montel"
+#~ msgstr "Copyright © 2014 Laurent Montel"
+
+#~ msgid "Laurent Montel"
+#~ msgstr "Laurent Montel"
+
+#~ msgid "Maintainer"
+#~ msgstr "Betreuer"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Frederik Schwarzer"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "schwarzer@kde.org"
+
+#~ msgid "To"
+#~ msgstr "An"
+
+#~ msgid "Subject"
+#~ msgstr "Betreff"
+
+#~ msgid "Dead Line"
+#~ msgstr "Termin"
+
+#~ msgid "Answer"
+#~ msgstr "Antwort"
+
+#~ msgid "Received"
+#~ msgstr "Empfangen"
+
+#~ msgid "Show Message"
+#~ msgstr "Nachricht anzeigen"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Answer from %1 received"
+#~ msgstr "Antwort von %1 erhalten"
+
+#~ msgid "Follow Up Mail"
+#~ msgstr "Folgenachricht"
+
+#~ msgid "You still wait an answer about this mail:"
+#~ msgstr "Sie warten immer noch auf eine Antwort auf diese E-Mail:"
+
+#~ msgid "Message Id"
+#~ msgstr "Nachrichtenkennung"

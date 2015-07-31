@@ -13,13 +13,14 @@
 # Intevation GmbH, 2010.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2010.
 # Torbjörn Klatt <opensource@torbjoern-klatt.de>, 2011.
+# Sandro Knauß <mail@sandroknauss.de>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-21 05:52+0000\n"
-"PO-Revision-Date: 2014-04-02 09:27+0200\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2015-01-28 18:51+0100\n"
+"Last-Translator: Sandro Knauß <mail@sandroknauss.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -122,7 +123,7 @@ msgid "Multiple encryption keys per address"
 msgstr "Mehrere Schlüssel zur Verschlüsselung pro Adresse"
 
 #: aboutdata.cpp:240 collectionpage/collectionmailinglistpage.cpp:109
-#: editor/kmcomposewin.cpp:2185 kmsystemtray.cpp:71 kmsystemtray.cpp:118
+#: editor/kmcomposewin.cpp:2179 kmsystemtray.cpp:71 kmsystemtray.cpp:116
 msgid "KMail"
 msgstr "KMail"
 
@@ -435,7 +436,7 @@ msgstr "Programm aufrufen"
 msgid "Post to List"
 msgstr "An Liste senden"
 
-#: collectionpage/collectionmailinglistpage.cpp:145 messageactions.cpp:375
+#: collectionpage/collectionmailinglistpage.cpp:145 messageactions.cpp:361
 msgid "Subscribe to List"
 msgstr "Mailingliste abonnieren"
 
@@ -547,8 +548,9 @@ msgstr "%p% belegt"
 
 #: collectionpage/collectionquotapage_p.cpp:75
 #, kde-format
+#| msgid "%1 of %2 used"
 msgid "%1 of %2 KiB used"
-msgstr "%1 von %2 KiB belegt"
+msgstr "%1 von %2 KiB benutzt"
 
 #: collectionpage/collectionshortcutpage.cpp:42
 msgctxt "@title:tab Shortcut settings for a folder."
@@ -729,30 +731,30 @@ msgstr ""
 "<qt><p>Die Standard-Domain wird zur automatischen Vervollständigung einer E-"
 "Mail-Adresse verwendet, falls nur ein Benutzername angegeben wurde.</p></qt>"
 
-#: configuredialog/configureaccountpage.cpp:323
+#: configuredialog/configureaccountpage.cpp:314
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Include in Manual Mail Check"
 msgstr "Bei manueller Prüfung einbeziehen"
 
-#: configuredialog/configureaccountpage.cpp:332
+#: configuredialog/configureaccountpage.cpp:323
 msgctxt "Label to a checkbox, so is either checked/unchecked"
 msgid "Switch offline on KMail Shutdown"
 msgstr "Beim Beenden in Offline-Modus wechseln"
 
-#: configuredialog/configureaccountpage.cpp:341
+#: configuredialog/configureaccountpage.cpp:332
 msgid "Check mail on startup"
 msgstr "Beim Start nach E-Mail sehen"
 
-#: configuredialog/configureaccountpage.cpp:440
+#: configuredialog/configureaccountpage.cpp:431
 #, kde-format
 msgid "Do you want to remove account '%1'?"
 msgstr "Möchten Sie das Konto „%1“ wirklich löschen?"
 
-#: configuredialog/configureaccountpage.cpp:441
+#: configuredialog/configureaccountpage.cpp:432
 msgid "Remove account?"
 msgstr "Zugang entfernen?"
 
-#: configuredialog/configureaccountpage.cpp:459
+#: configuredialog/configureaccountpage.cpp:450
 msgid ""
 "New Mail Notifier Agent not registered. Please contact your administrator."
 msgstr ""
@@ -822,17 +824,17 @@ msgid "Folder List"
 msgstr "Ordnerliste"
 
 #: configuredialog/configureappearancepage.cpp:147
-#: configuredialog/configureappearancepage.cpp:328
+#: configuredialog/configureappearancepage.cpp:322
 msgid "Quoted Text - First Level"
 msgstr "Zitierter Text – Erste Ebene"
 
 #: configuredialog/configureappearancepage.cpp:148
-#: configuredialog/configureappearancepage.cpp:329
+#: configuredialog/configureappearancepage.cpp:323
 msgid "Quoted Text - Second Level"
 msgstr "Zitierter Text – Zweite Ebene"
 
 #: configuredialog/configureappearancepage.cpp:149
-#: configuredialog/configureappearancepage.cpp:330
+#: configuredialog/configureappearancepage.cpp:324
 msgid "Quoted Text - Third Level"
 msgstr "Zitierter Text – Dritte Ebene"
 
@@ -840,7 +842,7 @@ msgstr "Zitierter Text – Dritte Ebene"
 msgid "Fixed Width Font"
 msgstr "Feste Zeichenbreiten"
 
-#: configuredialog/configureappearancepage.cpp:151 editor/kmcomposewin.cpp:416
+#: configuredialog/configureappearancepage.cpp:151 editor/kmcomposewin.cpp:414
 msgid "Composer"
 msgstr "Nachrichten-Editor"
 
@@ -856,170 +858,170 @@ msgstr "E&igene Schriftarten benutzen"
 msgid "Apply &to:"
 msgstr "Anwenden &auf:"
 
-#: configuredialog/configureappearancepage.cpp:331
+#: configuredialog/configureappearancepage.cpp:325
 msgid "Link"
 msgstr "Verknüpfung"
 
-#: configuredialog/configureappearancepage.cpp:332
+#: configuredialog/configureappearancepage.cpp:326
 msgid "Followed Link"
 msgstr "Benutzte Verknüpfung"
 
-#: configuredialog/configureappearancepage.cpp:333
+#: configuredialog/configureappearancepage.cpp:327
 msgid "Misspelled Words"
 msgstr "Fehlerhafte Wörter"
 
-#: configuredialog/configureappearancepage.cpp:334
+#: configuredialog/configureappearancepage.cpp:328
 msgid "Unread Message"
 msgstr "Ungelesene Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:335
+#: configuredialog/configureappearancepage.cpp:329
 msgid "Important Message"
 msgstr "Wichtige Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:336
+#: configuredialog/configureappearancepage.cpp:330
 msgid "Action Item Message"
 msgstr "Aufgaben-Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:337
+#: configuredialog/configureappearancepage.cpp:331
 msgid "OpenPGP Message - Encrypted"
 msgstr "OpenPGP-Nachricht – verschlüsselt"
 
-#: configuredialog/configureappearancepage.cpp:338
+#: configuredialog/configureappearancepage.cpp:332
 msgid "OpenPGP Message - Valid Signature with Trusted Key"
 msgstr "OpenPGP-Nachricht – gültige Signatur mit vertrauenswürdigem Schlüssel"
 
-#: configuredialog/configureappearancepage.cpp:339
+#: configuredialog/configureappearancepage.cpp:333
 msgid "OpenPGP Message - Valid Signature with Untrusted Key"
 msgstr ""
 "OpenPGP-Nachricht – gültige Signatur mit nicht vertrauenswürdigem Schlüssel"
 
-#: configuredialog/configureappearancepage.cpp:340
+#: configuredialog/configureappearancepage.cpp:334
 msgid "OpenPGP Message - Unchecked Signature"
 msgstr "OpenPGP-Nachricht – ungeprüfte Signatur"
 
-#: configuredialog/configureappearancepage.cpp:341
+#: configuredialog/configureappearancepage.cpp:335
 msgid "OpenPGP Message - Bad Signature"
 msgstr "OpenPGP-Nachricht – ungültige Signatur"
 
-#: configuredialog/configureappearancepage.cpp:342
+#: configuredialog/configureappearancepage.cpp:336
 msgid "Border Around Warning Prepending HTML Messages"
 msgstr "Rand um die Warnung vor HTML-Nachrichten"
 
-#: configuredialog/configureappearancepage.cpp:343
+#: configuredialog/configureappearancepage.cpp:337
 msgid "Folder Name and Size When Close to Quota"
 msgstr "Ordnername und -größe bei Kontingent-Annäherung"
 
-#: configuredialog/configureappearancepage.cpp:344
+#: configuredialog/configureappearancepage.cpp:338
 msgid "HTML Status Bar Background - No HTML Message"
 msgstr "Hintergrund HTML-Statusleiste – Keine HTML-Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:345
+#: configuredialog/configureappearancepage.cpp:339
 msgid "HTML Status Bar Foreground - No HTML Message"
 msgstr "Vordergrund HTML-Statusleiste – Keine HTML-Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:346
+#: configuredialog/configureappearancepage.cpp:340
 msgid "HTML Status Bar Background - HTML Message"
 msgstr "Hintergrund HTML-Statusleiste – HTML-Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:347
+#: configuredialog/configureappearancepage.cpp:341
 msgid "HTML Status Bar Foreground - HTML Message"
 msgstr "Vordergrund HTML-Statusleiste – HTML-Nachricht"
 
-#: configuredialog/configureappearancepage.cpp:348
+#: configuredialog/configureappearancepage.cpp:342
 msgid "Broken Account - Folder Text Color"
 msgstr "Defekter Zugang - Ordnertextfarbe"
 
-#: configuredialog/configureappearancepage.cpp:349
+#: configuredialog/configureappearancepage.cpp:343
 msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
-#: configuredialog/configureappearancepage.cpp:360
+#: configuredialog/configureappearancepage.cpp:354
 msgid "&Use custom colors"
 msgstr "E&igene Farben benutzen"
 
-#: configuredialog/configureappearancepage.cpp:374
+#: configuredialog/configureappearancepage.cpp:368
 msgid "Recycle colors on deep &quoting"
 msgstr "Farben bei tief verschachtelten &Zitaten wiederholen"
 
-#: configuredialog/configureappearancepage.cpp:383
+#: configuredialog/configureappearancepage.cpp:377
 msgid "Close to quota threshold:"
 msgstr "Schwellwert für Kontingent-Annäherung:"
 
-#: configuredialog/configureappearancepage.cpp:390
+#: configuredialog/configureappearancepage.cpp:384
 msgid "%"
 msgstr " %"
 
-#: configuredialog/configureappearancepage.cpp:537
+#: configuredialog/configureappearancepage.cpp:525
 msgid "Show folder quick search field"
 msgstr "Ordner-Schnellsuche anzeigen"
 
-#: configuredialog/configureappearancepage.cpp:545
+#: configuredialog/configureappearancepage.cpp:533
 msgid "Show Favorite Folders View"
 msgstr "Bevorzugte Ordner anzeigen"
 
-#: configuredialog/configureappearancepage.cpp:552
-#: configuredialog/configureappearancepage.cpp:580
+#: configuredialog/configureappearancepage.cpp:540
+#: configuredialog/configureappearancepage.cpp:568
 msgid "Never"
 msgstr "Niemals"
 
-#: configuredialog/configureappearancepage.cpp:556
+#: configuredialog/configureappearancepage.cpp:544
 msgid "As icons"
 msgstr "Als Symbole"
 
-#: configuredialog/configureappearancepage.cpp:560
+#: configuredialog/configureappearancepage.cpp:548
 msgid "As list"
 msgstr "Als Liste"
 
-#: configuredialog/configureappearancepage.cpp:569
+#: configuredialog/configureappearancepage.cpp:557
 msgid "Folder Tooltips"
 msgstr "Ordner-Kurzinfos"
 
-#: configuredialog/configureappearancepage.cpp:576
+#: configuredialog/configureappearancepage.cpp:564
 msgid "Always"
 msgstr "Immer"
 
-#: configuredialog/configureappearancepage.cpp:630
+#: configuredialog/configureappearancepage.cpp:618
 #, kde-format
 msgid "Sta&ndard format (%1)"
 msgstr "Stan&dard-Format (%1)"
 
-#: configuredialog/configureappearancepage.cpp:631
+#: configuredialog/configureappearancepage.cpp:619
 #, kde-format
 msgid "Locali&zed format (%1)"
 msgstr "&Regionales Format (%1)"
 
-#: configuredialog/configureappearancepage.cpp:632
+#: configuredialog/configureappearancepage.cpp:620
 #, kde-format
 msgid "Smart for&mat (%1)"
 msgstr "Intelligentes Fo&rmat (%1)"
 
-#: configuredialog/configureappearancepage.cpp:633
+#: configuredialog/configureappearancepage.cpp:621
 msgid "C&ustom format:"
 msgstr "Benutzerdefiniertes Format:"
 
-#: configuredialog/configureappearancepage.cpp:647
+#: configuredialog/configureappearancepage.cpp:635
 msgctxt "General options for the message list."
 msgid "General"
 msgstr "Allgemein"
 
-#: configuredialog/configureappearancepage.cpp:677
+#: configuredialog/configureappearancepage.cpp:665
 msgid "Default aggregation:"
 msgstr "Standard-Zusammenstellung:"
 
-#: configuredialog/configureappearancepage.cpp:698
+#: configuredialog/configureappearancepage.cpp:686
 msgid "Default theme:"
 msgstr "Standard-Design:"
 
-#: configuredialog/configureappearancepage.cpp:719
+#: configuredialog/configureappearancepage.cpp:707
 msgid "Date Display"
 msgstr "Datumsanzeige"
 
-#: configuredialog/configureappearancepage.cpp:747
+#: configuredialog/configureappearancepage.cpp:735
 msgid "<qt><a href=\"whatsthis1\">Custom format information...</a></qt>"
 msgstr ""
 "<qt><a href=\"whatsthis1\">Hilfe zum benutzerdefinierten Format ...</a></qt>"
 
-#: configuredialog/configureappearancepage.cpp:752
+#: configuredialog/configureappearancepage.cpp:740
 msgid ""
 "<qt><p><strong>These expressions may be used for the date:</strong></"
 "p><ul><li>d - the day as a number without a leading zero (1-31)</li><li>dd - "
@@ -1065,7 +1067,7 @@ msgstr ""
 "</li> <li>Z – Zeitzone in nummerischer Form (-0500)</li></ul> "
 "<p><strong>Alle anderen Zeichen werden ignoriert.</strong></p></qt>"
 
-#: configuredialog/configureappearancepage.cpp:909
+#: configuredialog/configureappearancepage.cpp:897
 msgid ""
 "Close the standalone message window after replying or forwarding the message"
 msgstr ""
@@ -1073,55 +1075,55 @@ msgstr ""
 "schließen"
 
 #. i18n: ectx: label, entry (SystemTrayEnabled), group (General)
-#: configuredialog/configureappearancepage.cpp:952
+#: configuredialog/configureappearancepage.cpp:940
 #: settings/kmail.kcfg.cmake:83
 msgid "Enable system tray icon"
 msgstr "Anzeige im Systemabschnitt der Kontrollleiste"
 
-#: configuredialog/configureappearancepage.cpp:957
+#: configuredialog/configureappearancepage.cpp:945
 msgid "Show unread mail in tray icon"
 msgstr "Ungelesene E-Mails im Symbol in der Kontrollleiste anzeigen"
 
-#: configuredialog/configureappearancepage.cpp:968
+#: configuredialog/configureappearancepage.cpp:956
 msgid "System Tray Mode"
 msgstr "Kontrollleistenmodus"
 
-#: configuredialog/configureappearancepage.cpp:977
+#: configuredialog/configureappearancepage.cpp:965
 msgid "Always show KMail in system tray"
 msgstr "KMail immer in der Kontrollleiste anzeigen"
 
-#: configuredialog/configureappearancepage.cpp:978
+#: configuredialog/configureappearancepage.cpp:966
 msgid "Only show KMail in system tray if there are unread messages"
 msgstr ""
 "KMail nur in der Kontrollleiste anzeigen, wenn ungelesene Nachrichten "
 "vorliegen"
 
-#: configuredialog/configureappearancepage.cpp:1043
+#: configuredialog/configureappearancepage.cpp:1031
 msgid "A&vailable Tags"
 msgstr "Verfügbare &Markierungen"
 
-#: configuredialog/configureappearancepage.cpp:1059
+#: configuredialog/configureappearancepage.cpp:1047
 msgid "Add new tag"
 msgstr "Neue Markierung hinzufügen"
 
-#: configuredialog/configureappearancepage.cpp:1064
+#: configuredialog/configureappearancepage.cpp:1052
 msgid "Remove selected tag"
 msgstr "Ausgewählte Markierung entfernen"
 
-#: configuredialog/configureappearancepage.cpp:1073
+#: configuredialog/configureappearancepage.cpp:1061
 msgid "Increase tag priority"
 msgstr "Priorität der Markierung heraufsetzen"
 
-#: configuredialog/configureappearancepage.cpp:1079
+#: configuredialog/configureappearancepage.cpp:1067
 msgid "Decrease tag priority"
 msgstr "Priorität der Markierung herabsetzen"
 
-#: configuredialog/configureappearancepage.cpp:1102
+#: configuredialog/configureappearancepage.cpp:1090
 msgid "Ta&g Settings"
 msgstr "&Einstellungen für Markierungen"
 
-#: configuredialog/configureappearancepage.cpp:1333
-#: configuredialog/configureappearancepage.cpp:1370
+#: configuredialog/configureappearancepage.cpp:1321
+#: configuredialog/configureappearancepage.cpp:1358
 msgid "We cannot create tag. A tag with same name already exists."
 msgstr ""
 "Die Markierung kann nicht erstellt werden. Eine Markierung mit diesem Namen "
@@ -1396,19 +1398,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, mAddAccountButton)
 #: configuredialog/configurecomposerpage.cpp:783
 #: configuredialog/configurecomposerpage.cpp:881
-#: configuredialog/configurecomposerpage.cpp:1281
+#: configuredialog/configurecomposerpage.cpp:1276
 #: ui/accountspagereceivingtab.ui:36
 msgid "A&dd..."
 msgstr "&Hinzufügen ..."
 
 #: configuredialog/configurecomposerpage.cpp:783
-#: configuredialog/configurecomposerpage.cpp:1039
-#: configuredialog/configurecomposerpage.cpp:1281
+#: configuredialog/configurecomposerpage.cpp:1034
+#: configuredialog/configurecomposerpage.cpp:1276
 msgid "Re&move"
 msgstr "&Entfernen"
 
 #: configuredialog/configurecomposerpage.cpp:784
-#: configuredialog/configurecomposerpage.cpp:1282
+#: configuredialog/configurecomposerpage.cpp:1277
 msgid "Mod&ify..."
 msgstr "Ä&ndern ..."
 
@@ -1448,8 +1450,8 @@ msgstr ""
 "Für jede zu versendende E-Mail wird diese Liste von oben nach unten nach "
 "einem Zeichensatz durchsucht, der alle benötigten Zeichen enthält."
 
-#. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
 #. i18n: ectx: property (text), widget (QPushButton, mModifyButton)
+#. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
 #: configuredialog/configurecomposerpage.cpp:882
 #: ui/accountspagereceivingtab.ui:46 ui/identitypage.ui:40
 msgid "&Modify..."
@@ -1465,51 +1467,51 @@ msgstr ""
 "Ursprungs-&Zeichensatz beim Beantworten oder Weiterleiten möglichst "
 "beibehalten"
 
-#: configuredialog/configurecomposerpage.cpp:925
+#: configuredialog/configurecomposerpage.cpp:924
 msgid "This charset is not supported."
 msgstr "Dieser Zeichensatz wird nicht unterstützt."
 
-#: configuredialog/configurecomposerpage.cpp:988
+#: configuredialog/configurecomposerpage.cpp:983
 msgid "&Use custom message-id suffix"
 msgstr "Benutzerdefinierte Endung für Nachrichten&kennung benutzen"
 
-#: configuredialog/configurecomposerpage.cpp:1002
+#: configuredialog/configurecomposerpage.cpp:997
 msgid "Custom message-&id suffix:"
 msgstr "Benut&zerdefinierte Endung für Nachrichtenkennung:"
 
-#: configuredialog/configurecomposerpage.cpp:1017
+#: configuredialog/configurecomposerpage.cpp:1012
 msgid "Define custom mime header fields:"
 msgstr "Definieren Sie eigene MIME-Vorspannfelder:"
 
-#: configuredialog/configurecomposerpage.cpp:1025
+#: configuredialog/configurecomposerpage.cpp:1020
 msgctxt "@title:column Name of the mime header."
 msgid "Name"
 msgstr "Name"
 
-#: configuredialog/configurecomposerpage.cpp:1026
+#: configuredialog/configurecomposerpage.cpp:1021
 msgctxt "@title:column Value of the mimeheader."
 msgid "Value"
 msgstr "Wert"
 
-#: configuredialog/configurecomposerpage.cpp:1035
+#: configuredialog/configurecomposerpage.cpp:1030
 msgctxt "@action:button Add new mime header field."
 msgid "Ne&w"
 msgstr "&Neu"
 
-#: configuredialog/configurecomposerpage.cpp:1049
+#: configuredialog/configurecomposerpage.cpp:1044
 msgctxt "@label:textbox Name of the mime header."
 msgid "&Name:"
 msgstr "&Name:"
 
-#: configuredialog/configurecomposerpage.cpp:1060
+#: configuredialog/configurecomposerpage.cpp:1055
 msgid "&Value:"
 msgstr "&Wert:"
 
-#: configuredialog/configurecomposerpage.cpp:1246
+#: configuredialog/configurecomposerpage.cpp:1241
 msgid "Outlook-compatible attachment naming"
 msgstr "Outlook-kompatible Namensvergabe für Anhänge"
 
-#: configuredialog/configurecomposerpage.cpp:1249
+#: configuredialog/configurecomposerpage.cpp:1244
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
 "containing non-English characters"
@@ -1517,34 +1519,34 @@ msgstr ""
 "Schalten Sie diese Einstellung ein, damit Outlook(tm) die Namen von Anhängen "
 "akzeptiert, die Sonderzeichen enthalten"
 
-#: configuredialog/configurecomposerpage.cpp:1260
+#: configuredialog/configurecomposerpage.cpp:1255
 msgid "E&nable detection of missing attachments"
 msgstr "&Suche nach fehlenden Anhängen aktivieren"
 
-#: configuredialog/configurecomposerpage.cpp:1270
+#: configuredialog/configurecomposerpage.cpp:1265
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr ""
 "Jeder der folgenden Ausdrücke wird als Schlüsselwort für einen Anhang "
 "interpretiert:"
 
-#: configuredialog/configurecomposerpage.cpp:1283
+#: configuredialog/configurecomposerpage.cpp:1278
 msgid "Enter new key word:"
 msgstr "Geben Sie ein neues Schlüsselwort ein:"
 
-#: configuredialog/configurecomposerpage.cpp:1295
+#: configuredialog/configurecomposerpage.cpp:1290
 msgid "Offer to share for files larger than:"
 msgstr "Freigabe anbieten für Dateien größer als:"
 
-#: configuredialog/configurecomposerpage.cpp:1302
+#: configuredialog/configurecomposerpage.cpp:1297
 msgctxt "spinbox suffix: unit for kilobyte"
 msgid " kB"
 msgstr " kB"
 
-#: configuredialog/configurecomposerpage.cpp:1305
+#: configuredialog/configurecomposerpage.cpp:1300
 msgid "No limit"
 msgstr "Keine Begrenzung"
 
-#: configuredialog/configurecomposerpage.cpp:1339
+#: configuredialog/configurecomposerpage.cpp:1334
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
 "in a way that is understood by Outlook(tm) and other mail clients that do "
@@ -1584,8 +1586,9 @@ msgid "Proxy"
 msgstr "Proxy"
 
 #: configuredialog/configuremiscpage.cpp:51
+#| msgid "Ta&g Settings"
 msgid "Agent Settings"
-msgstr "Einstellungen für Agent"
+msgstr "Agent Einstellungen"
 
 #: configuredialog/configuremiscpage.cpp:54
 msgid "Printing"
@@ -1622,27 +1625,27 @@ msgstr ""
 "Eine Änderung der globalen HTML-Einstellungen hat Vorrang vor allen "
 "ordnerspezifischen Einstellungen."
 
-#: configuredialog/configuresecuritypage.cpp:377
+#: configuredialog/configuresecuritypage.cpp:375
+#: configuredialog/configuresecuritypage.cpp:378
 #: configuredialog/configuresecuritypage.cpp:380
 #: configuredialog/configuresecuritypage.cpp:382
-#: configuredialog/configuresecuritypage.cpp:384
+#: configuredialog/configuresecuritypage.cpp:385
 #: configuredialog/configuresecuritypage.cpp:387
-#: configuredialog/configuresecuritypage.cpp:389
 msgid " day"
 msgid_plural " days"
 msgstr[0] " Tag"
 msgstr[1] " Tage"
 
-#: configuredialog/configuresecuritypage.cpp:515
+#: configuredialog/configuresecuritypage.cpp:513
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr "Diese Einstellung erfordert dirmng >= 0.9.0"
 
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: configuredialog/configuresecuritypage.cpp:626 ui/smimeconfiguration.ui:183
+#: configuredialog/configuresecuritypage.cpp:624 ui/smimeconfiguration.ui:183
 msgid "no proxy"
 msgstr "Kein Proxy"
 
-#: configuredialog/configuresecuritypage.cpp:627
+#: configuredialog/configuresecuritypage.cpp:625
 #, kde-format
 msgid "(Current system setting: %1)"
 msgstr "(Derzeitige Systemeinstellung: %1)"
@@ -1651,15 +1654,15 @@ msgstr "(Derzeitige Systemeinstellung: %1)"
 msgid "Manage Storage Service"
 msgstr "Speicherdienst verwalten"
 
-#: configuredialog/configurestorageservicewidget.cpp:71
+#: configuredialog/configurestorageservicewidget.cpp:67
 msgid ""
 "Could not start storage service manager; please check your installation."
 msgstr ""
 "Die Speicherdienstverwaltung kann nicht gestartet werden. Bitte überprüfen "
 "Sie die korrekte Installation."
 
-#: configuredialog/configurestorageservicewidget.cpp:73 kmmainwidget.cpp:2358
-#: kmmainwidget.cpp:2369
+#: configuredialog/configurestorageservicewidget.cpp:69 kmmainwidget.cpp:2361
+#: kmmainwidget.cpp:2372
 msgid "KMail Error"
 msgstr "KMail-Fehler"
 
@@ -1681,7 +1684,7 @@ msgctxt "@title:window for archiving a folder"
 msgid "Archive Folder"
 msgstr "Archiv-Ordner"
 
-#: dialog/archivefolderdialog.cpp:60 kmmainwidget.cpp:3686
+#: dialog/archivefolderdialog.cpp:60 kmmainwidget.cpp:3692
 msgctxt "@action"
 msgid "Archive"
 msgstr "Archivieren"
@@ -1775,349 +1778,349 @@ msgstr "Zi&tatzeichen entfernen"
 msgid "Paste Without Formatting"
 msgstr "Ohne Formatierung einfügen"
 
-#: editor/kmcomposewin.cpp:269
+#: editor/kmcomposewin.cpp:268
 msgid "Select an identity for this message"
 msgstr "Wählen Sie eine Identität für diese Nachricht."
 
-#: editor/kmcomposewin.cpp:276
+#: editor/kmcomposewin.cpp:275
 msgid "Select the dictionary to use when spell-checking this message"
 msgstr ""
 "Wählen Sie das Wörterbuch, das für die Rechtschreibprüfung dieser Nachricht "
 "verwendet werden soll"
 
-#: editor/kmcomposewin.cpp:283
+#: editor/kmcomposewin.cpp:282
 msgid "Select the sent-mail folder where a copy of this message will be saved"
 msgstr ""
 "Wählen Sie den Ordner für versendete Nachrichten, in dem diese Nachricht "
 "gespeichert werden soll"
 
-#: editor/kmcomposewin.cpp:288
+#: editor/kmcomposewin.cpp:287
 msgid "Select the outgoing account to use for sending this message"
 msgstr ""
 "Wählen Sie das Konto für ausgehende Nachrichten, das zum Versenden dieser "
 "Nachricht verwendet werden soll"
 
-#: editor/kmcomposewin.cpp:295
+#: editor/kmcomposewin.cpp:293
 msgid "Set the \"From:\" email address for this message"
 msgstr "Stellen Sie die „Von:“-Adresse für diese Nachricht ein"
 
-#: editor/kmcomposewin.cpp:299
+#: editor/kmcomposewin.cpp:297
 msgid "Set the \"Reply-To:\" email address for this message"
 msgstr "Stellen Sie die „Antwort an:“-Adresse für diese Nachricht ein"
 
-#: editor/kmcomposewin.cpp:313
+#: editor/kmcomposewin.cpp:311
 msgid "Set a subject for this message"
 msgstr "Vergeben Sie einen Betreff für diese Nachricht"
 
-#: editor/kmcomposewin.cpp:315
+#: editor/kmcomposewin.cpp:313
 msgid "&Identity:"
 msgstr "&Identität:"
 
-#: editor/kmcomposewin.cpp:316
+#: editor/kmcomposewin.cpp:314
 msgid "&Dictionary:"
 msgstr "&Wörterbuch:"
 
-#: editor/kmcomposewin.cpp:317
+#: editor/kmcomposewin.cpp:315
 msgid "&Sent-Mail folder:"
 msgstr "Ordner für &versendete Nachrichten:"
 
-#: editor/kmcomposewin.cpp:318
+#: editor/kmcomposewin.cpp:316
 msgid "&Mail transport:"
 msgstr "&Versandweg:"
 
-#: editor/kmcomposewin.cpp:319
+#: editor/kmcomposewin.cpp:317
 msgctxt "sender address field"
 msgid "&From:"
 msgstr "&Von:"
 
-#: editor/kmcomposewin.cpp:320
+#: editor/kmcomposewin.cpp:318
 msgid "&Reply to:"
 msgstr "Antwo&rt an:"
 
-#: editor/kmcomposewin.cpp:321
+#: editor/kmcomposewin.cpp:319
 msgctxt "@label:textbox Subject of email."
 msgid "S&ubject:"
 msgstr "Be&treff:"
 
-#: editor/kmcomposewin.cpp:322
+#: editor/kmcomposewin.cpp:320
 msgctxt "@option:check Sticky identity."
 msgid "Sticky"
 msgstr "Beibehalten"
 
-#: editor/kmcomposewin.cpp:324
+#: editor/kmcomposewin.cpp:322
 msgid "Use the selected value as your identity for future messages"
 msgstr "Die ausgewählte Identität als Standard-Identität festlegen"
 
-#: editor/kmcomposewin.cpp:326
+#: editor/kmcomposewin.cpp:324
 msgid "Use the selected value as your sent-mail folder for future messages"
 msgstr ""
 "Den ausgewählten „Versendete Nachrichten“-Ordner als Standard festlegen"
 
-#: editor/kmcomposewin.cpp:328
+#: editor/kmcomposewin.cpp:326
 msgid "Use the selected value as your outgoing account for future messages"
 msgstr "Den ausgewählten Versand-Zugang als Standard festlegen"
 
-#: editor/kmcomposewin.cpp:330
+#: editor/kmcomposewin.cpp:328
 msgid "Use the selected value as your dictionary for future messages"
 msgstr "Das ausgewählte Wörterbuch als Standard festlegen"
 
-#: editor/kmcomposewin.cpp:1132 editor/kmcomposewin.cpp:1158
+#: editor/kmcomposewin.cpp:1128 editor/kmcomposewin.cpp:1154
 msgid "&Send Mail"
 msgstr "E-Mail ver&senden"
 
-#: editor/kmcomposewin.cpp:1138 editor/kmcomposewin.cpp:1163
+#: editor/kmcomposewin.cpp:1134 editor/kmcomposewin.cpp:1159
 msgid "&Send Mail Via"
 msgstr "E-Mail versenden &mit"
 
-#: editor/kmcomposewin.cpp:1139
+#: editor/kmcomposewin.cpp:1135
 msgid "Send"
 msgstr "Senden"
 
-#: editor/kmcomposewin.cpp:1142 editor/kmcomposewin.cpp:1151
-#: editor/kmcomposewin.cpp:2949
+#: editor/kmcomposewin.cpp:1138 editor/kmcomposewin.cpp:1147
+#: editor/kmcomposewin.cpp:2942
 msgid "Send &Later"
 msgstr "S&päter senden"
 
-#: editor/kmcomposewin.cpp:1145 editor/kmcomposewin.cpp:1155
+#: editor/kmcomposewin.cpp:1141 editor/kmcomposewin.cpp:1151
 msgid "Send &Later Via"
 msgstr "Spä&ter senden mit"
 
-#: editor/kmcomposewin.cpp:1146
+#: editor/kmcomposewin.cpp:1142
 msgctxt "Queue the message for sending at a later date"
 msgid "Queue"
 msgstr "In Postausgang"
 
-#: editor/kmcomposewin.cpp:1190
+#: editor/kmcomposewin.cpp:1186
 msgid "Save as &Draft"
 msgstr "&Als Entwurf speichern"
 
-#: editor/kmcomposewin.cpp:1192
+#: editor/kmcomposewin.cpp:1188
 msgid "Save email in Draft folder"
 msgstr "E-Mail im Ordner Entwürfe speichern"
 
-#: editor/kmcomposewin.cpp:1196
+#: editor/kmcomposewin.cpp:1192
 msgid "Save as &Template"
 msgstr "Als &Vorlage speichern"
 
-#: editor/kmcomposewin.cpp:1197
+#: editor/kmcomposewin.cpp:1193
 msgid "Save email in Template folder"
 msgstr "E-Mail im Ordner Vorlagen speichern"
 
-#: editor/kmcomposewin.cpp:1201
+#: editor/kmcomposewin.cpp:1197
 msgid "Save as &File"
 msgstr "In Datei &speichern "
 
-#: editor/kmcomposewin.cpp:1202
+#: editor/kmcomposewin.cpp:1198
 msgid "Save email as text or html file"
 msgstr "E-Mail als Text- oder HTML-Datei speichern"
 
-#: editor/kmcomposewin.cpp:1206 kmmainwidget.cpp:3537
+#: editor/kmcomposewin.cpp:1202 kmmainwidget.cpp:3543
 msgid "New AddressBook Contact..."
 msgstr "Neuer Adressbuchkontakt ..."
 
-#: editor/kmcomposewin.cpp:1212
+#: editor/kmcomposewin.cpp:1208
 msgid "&Insert Text File..."
 msgstr "Textdatei e&infügen ..."
 
-#: editor/kmcomposewin.cpp:1217
+#: editor/kmcomposewin.cpp:1213
 msgid "&Insert Recent Text File"
 msgstr "&Kürzlich verwendete Textdatei einfügen"
 
-#: editor/kmcomposewin.cpp:1225 kmmainwidget.cpp:3032
+#: editor/kmcomposewin.cpp:1221 kmmainwidget.cpp:3038
 msgid "&Address Book"
 msgstr "Adress&buch"
 
-#: editor/kmcomposewin.cpp:1226
+#: editor/kmcomposewin.cpp:1222
 msgid "Open Address Book"
 msgstr "Adressbuch öffnen"
 
-#: editor/kmcomposewin.cpp:1231
+#: editor/kmcomposewin.cpp:1227
 msgid "&New Composer"
 msgstr "&Neue Nachricht"
 
-#: editor/kmcomposewin.cpp:1235
+#: editor/kmcomposewin.cpp:1231
 msgid "New Main &Window"
 msgstr "Neues &Hauptfenster"
 
-#: editor/kmcomposewin.cpp:1239
+#: editor/kmcomposewin.cpp:1235
 msgid "Select &Recipients..."
 msgstr "E&mpfänger auswählen ..."
 
-#: editor/kmcomposewin.cpp:1243
+#: editor/kmcomposewin.cpp:1239
 msgid "Save &Distribution List..."
 msgstr "&Verteilerliste speichern ..."
 
-#: editor/kmcomposewin.cpp:1267
+#: editor/kmcomposewin.cpp:1263
 msgid "Paste as Attac&hment"
 msgstr "Als An&hang einfügen"
 
-#: editor/kmcomposewin.cpp:1271
+#: editor/kmcomposewin.cpp:1267
 msgid "Cl&ean Spaces"
 msgstr "&Leerräume komprimieren"
 
-#: editor/kmcomposewin.cpp:1275
+#: editor/kmcomposewin.cpp:1271
 msgid "Use Fi&xed Font"
 msgstr "Feste &Zeichenbreiten"
 
-#: editor/kmcomposewin.cpp:1282
+#: editor/kmcomposewin.cpp:1278
 msgctxt "@action:inmenu Mark the email as urgent."
 msgid "&Urgent"
 msgstr "&Dringend"
 
-#: editor/kmcomposewin.cpp:1284
+#: editor/kmcomposewin.cpp:1280
 msgid "&Request Disposition Notification"
 msgstr "E&mpfangsbenachrichtigung anfordern"
 
-#: editor/kmcomposewin.cpp:1290
+#: editor/kmcomposewin.cpp:1286
 msgid "&Wordwrap"
 msgstr "Z&eilenumbruch"
 
-#: editor/kmcomposewin.cpp:1295
+#: editor/kmcomposewin.cpp:1291
 msgid "&Snippets"
 msgstr "&Textbausteine"
 
-#: editor/kmcomposewin.cpp:1302
+#: editor/kmcomposewin.cpp:1298
 msgid "&Automatic Spellchecking"
 msgstr "Automatische &Rechtschreibprüfung"
 
-#: editor/kmcomposewin.cpp:1322
+#: editor/kmcomposewin.cpp:1318
 msgid "Rich Text Editing"
 msgstr "Bearbeiten in Rich-Text"
 
-#: editor/kmcomposewin.cpp:1324
+#: editor/kmcomposewin.cpp:1320
 msgid "Rich Text"
 msgstr "Rich-Text"
 
-#: editor/kmcomposewin.cpp:1325
+#: editor/kmcomposewin.cpp:1321
 msgid "Toggle rich text editing mode"
 msgstr "Bearbeiten in Rich-Text ein-/ausschalten"
 
-#: editor/kmcomposewin.cpp:1329
+#: editor/kmcomposewin.cpp:1325
 msgid "&All Fields"
 msgstr "&Alle Felder"
 
-#: editor/kmcomposewin.cpp:1332
+#: editor/kmcomposewin.cpp:1328
 msgid "&Identity"
 msgstr "&Identität"
 
-#: editor/kmcomposewin.cpp:1335
+#: editor/kmcomposewin.cpp:1331
 msgid "&Dictionary"
 msgstr "&Wörterbuch"
 
-#: editor/kmcomposewin.cpp:1338
+#: editor/kmcomposewin.cpp:1334
 msgid "&Sent-Mail Folder"
 msgstr "Ordner für &versendete Nachrichten"
 
-#: editor/kmcomposewin.cpp:1341
+#: editor/kmcomposewin.cpp:1337
 msgid "&Mail Transport"
 msgstr "Ver&sandweg"
 
-#: editor/kmcomposewin.cpp:1344
+#: editor/kmcomposewin.cpp:1340
 msgid "&From"
 msgstr "&Von"
 
-#: editor/kmcomposewin.cpp:1347
+#: editor/kmcomposewin.cpp:1343
 msgid "&Reply To"
 msgstr "Ant&wort an"
 
-#: editor/kmcomposewin.cpp:1351
+#: editor/kmcomposewin.cpp:1347
 msgctxt "@action:inmenu Show the subject in the composer window."
 msgid "S&ubject"
 msgstr "Be&treff"
 
-#: editor/kmcomposewin.cpp:1356
+#: editor/kmcomposewin.cpp:1352
 msgid "Append S&ignature"
 msgstr "S&ignatur anfügen"
 
-#: editor/kmcomposewin.cpp:1360
+#: editor/kmcomposewin.cpp:1355
 msgid "Pr&epend Signature"
 msgstr "Signatur &voranstellen"
 
-#: editor/kmcomposewin.cpp:1364
+#: editor/kmcomposewin.cpp:1358
 msgid "Insert Signature At C&ursor Position"
 msgstr "Signatur an der &Schreibmarke einfügen"
 
-#: editor/kmcomposewin.cpp:1369
+#: editor/kmcomposewin.cpp:1363
 msgid "Insert Special Character..."
 msgstr "Sonderzeichen einfügen ..."
 
-#: editor/kmcomposewin.cpp:1373
+#: editor/kmcomposewin.cpp:1367
 msgid "Uppercase"
 msgstr "Großschreibung"
 
-#: editor/kmcomposewin.cpp:1377
+#: editor/kmcomposewin.cpp:1371
 msgid "Lowercase"
 msgstr "Kleinschreibung"
 
-#: editor/kmcomposewin.cpp:1381
+#: editor/kmcomposewin.cpp:1375
 msgid "Change Case"
 msgstr "Groß-/Kleinschreibung ändern"
 
-#: editor/kmcomposewin.cpp:1394
+#: editor/kmcomposewin.cpp:1388
 msgid "&Spellchecker..."
 msgstr "Rechtschreib&prüfung ..."
 
-#: editor/kmcomposewin.cpp:1395
+#: editor/kmcomposewin.cpp:1389
 msgid "Spellchecker"
 msgstr "Rechtschreibprüfung"
 
-#: editor/kmcomposewin.cpp:1407 editor/kmcomposewin.cpp:1409
+#: editor/kmcomposewin.cpp:1401 editor/kmcomposewin.cpp:1403
 msgid "Encrypt Message with Chiasmus..."
 msgstr "Nachricht mit Chiasmus verschlüsseln ..."
 
-#: editor/kmcomposewin.cpp:1418
+#: editor/kmcomposewin.cpp:1412
 msgid "&Encrypt Message"
 msgstr "Nachricht &verschlüsseln"
 
-#: editor/kmcomposewin.cpp:1419
+#: editor/kmcomposewin.cpp:1413
 msgid "Encrypt"
 msgstr "Verschlüsseln"
 
-#: editor/kmcomposewin.cpp:1421
+#: editor/kmcomposewin.cpp:1415
 msgid "&Sign Message"
 msgstr "Nachricht &signieren"
 
-#: editor/kmcomposewin.cpp:1422
+#: editor/kmcomposewin.cpp:1416
 msgid "Sign"
 msgstr "Signieren"
 
-#: editor/kmcomposewin.cpp:1446
+#: editor/kmcomposewin.cpp:1440
 msgid "&Cryptographic Message Format"
 msgstr "&Nachrichten-Verschlüsselungsformat"
 
-#: editor/kmcomposewin.cpp:1450
+#: editor/kmcomposewin.cpp:1444
 msgid "Select a cryptographic format for this message"
 msgstr "Bitte wählen Sie ein Verschlüsselungsformat für diese Nachricht aus."
 
-#: editor/kmcomposewin.cpp:1465
+#: editor/kmcomposewin.cpp:1459
 msgid "Configure KMail..."
 msgstr "KMail einrichten ..."
 
-#: editor/kmcomposewin.cpp:1501
+#: editor/kmcomposewin.cpp:1495
 #, kde-format
 msgid " Spellcheck: %1 "
 msgstr " Rechtschreibprüfung: %1 "
 
-#: editor/kmcomposewin.cpp:1502 editor/kmcomposewin.cpp:3327
+#: editor/kmcomposewin.cpp:1496 editor/kmcomposewin.cpp:3315
 #, kde-format
 msgid " Column: %1 "
 msgstr " Spalte: %1 "
 
-#: editor/kmcomposewin.cpp:1504 editor/kmcomposewin.cpp:3325
+#: editor/kmcomposewin.cpp:1498 editor/kmcomposewin.cpp:3313
 #, kde-format
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " Zeile: %1 "
 
-#: editor/kmcomposewin.cpp:1878
+#: editor/kmcomposewin.cpp:1872
 msgid "Re&save as Template"
 msgstr "Als &Vorlage erneut speichern"
 
-#: editor/kmcomposewin.cpp:1879
+#: editor/kmcomposewin.cpp:1873
 msgid "&Save as Draft"
 msgstr "Als &Entwurf speichern"
 
-#: editor/kmcomposewin.cpp:1881
+#: editor/kmcomposewin.cpp:1875
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
@@ -2125,7 +2128,7 @@ msgstr ""
 "Diese Nachricht wieder im Vorlagenordner speichern. Von dort aus kann sie "
 "später benutzt werden."
 
-#: editor/kmcomposewin.cpp:1883
+#: editor/kmcomposewin.cpp:1877
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
@@ -2133,55 +2136,55 @@ msgstr ""
 "Diese Nachricht im Entwurfsordner speichern. Dort kann sie später weiter "
 "bearbeitet und gesendet werden."
 
-#: editor/kmcomposewin.cpp:1887
+#: editor/kmcomposewin.cpp:1881
 msgid "Do you want to save the message for later or discard it?"
 msgstr "Möchten Sie die Nachricht verwerfen oder für später speichern?"
 
-#: editor/kmcomposewin.cpp:1888
+#: editor/kmcomposewin.cpp:1882
 msgid "Close Composer"
 msgstr "Editor schließen"
 
-#: editor/kmcomposewin.cpp:1959
+#: editor/kmcomposewin.cpp:1953
 msgid "Autosave Message Failed"
 msgstr "Automatisches Speichern der Nachricht ist fehlgeschlagen"
 
-#: editor/kmcomposewin.cpp:1959
+#: editor/kmcomposewin.cpp:1953
 msgid "Sending Message Failed"
 msgstr "Das Senden der Nachricht ist fehlgeschlagen"
 
-#: editor/kmcomposewin.cpp:2168
+#: editor/kmcomposewin.cpp:2162
 msgid "Add as &Inline Image"
 msgstr "Als &eingebettetes Bild hinzufügen"
 
-#: editor/kmcomposewin.cpp:2169
+#: editor/kmcomposewin.cpp:2163
 msgid "Add as &Attachment"
 msgstr "Als &Anhang hinzufügen"
 
-#: editor/kmcomposewin.cpp:2185 editor/kmcomposewin.cpp:2262
+#: editor/kmcomposewin.cpp:2179 editor/kmcomposewin.cpp:2256
 msgid "Name of the attachment:"
 msgstr "Name des Anhangs:"
 
-#: editor/kmcomposewin.cpp:2222
+#: editor/kmcomposewin.cpp:2216
 msgid "Add URL into Message"
 msgid_plural "Add URLs into Message"
 msgstr[0] "Adresse zur Nachricht hinzufügen"
 msgstr[1] "Adressen (URLs) zur Nachricht hinzufügen"
 
-#: editor/kmcomposewin.cpp:2223
+#: editor/kmcomposewin.cpp:2217
 msgid "Add File as &Attachment"
 msgid_plural "Add Files as &Attachment"
 msgstr[0] "Datei als &Anhang hinzufügen"
 msgstr[1] "Dateien als &Anhang hinzufügen"
 
-#: editor/kmcomposewin.cpp:2261
+#: editor/kmcomposewin.cpp:2255
 msgid "Insert clipboard text as attachment"
 msgstr "Inhalt der Zwischenablage als Anhang einfügen"
 
-#: editor/kmcomposewin.cpp:2468
+#: editor/kmcomposewin.cpp:2461
 msgid "unnamed"
 msgstr "unbenannt"
 
-#: editor/kmcomposewin.cpp:2496
+#: editor/kmcomposewin.cpp:2489
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -2193,11 +2196,11 @@ msgstr ""
 "(OpenPGP oder S/MIME) Schlüssel hierfür fest.</p> <p>Bitte legen Sie den "
 "Schlüssel für diese Identität fest.</p></qt>"
 
-#: editor/kmcomposewin.cpp:2503
+#: editor/kmcomposewin.cpp:2496
 msgid "Undefined Encryption Key"
 msgstr "Verschlüsselungsschlüssel nicht definiert"
 
-#: editor/kmcomposewin.cpp:2549
+#: editor/kmcomposewin.cpp:2542
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
@@ -2207,18 +2210,18 @@ msgstr ""
 "oder S/MIME-Schlüssel dafür festgelegt werden.</p><p>Legen Sie bitte den für "
 "diese Identität verwendeten Schlüssel fest.</p></qt>"
 
-#: editor/kmcomposewin.cpp:2556
+#: editor/kmcomposewin.cpp:2549
 msgid "Undefined Signing Key"
 msgstr "Signaturschlüssel nicht definiert"
 
-#: editor/kmcomposewin.cpp:2673
+#: editor/kmcomposewin.cpp:2666
 #, kde-format
 msgid "There is %1 file upload in progress."
 msgid_plural "There are %1 file uploads in progress."
 msgstr[0] "Es wird immer noch %1 Datei hochgeladen."
 msgstr[1] "Es werden immer noch %1 Dateien hochgeladen."
 
-#: editor/kmcomposewin.cpp:2694
+#: editor/kmcomposewin.cpp:2687
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
@@ -2228,7 +2231,7 @@ msgstr ""
 "in allen Identitäten Ihre E-Mail-Adresse eintragen, damit Sie diese nicht "
 "für jede Nachricht angeben müssen."
 
-#: editor/kmcomposewin.cpp:2703
+#: editor/kmcomposewin.cpp:2696
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
@@ -2236,33 +2239,33 @@ msgstr ""
 "Sie müssen zumindest einen Empfänger im Feld „An:“ oder unter „Kopie:“ (CC) "
 "oder „Blindkopie:“ (BCC) angeben."
 
-#: editor/kmcomposewin.cpp:2709
+#: editor/kmcomposewin.cpp:2702
 msgid "To: field is empty. Send message anyway?"
 msgstr "Das Feld „An:“ ist leer. Soll die Nachricht trotzdem versendet werden?"
 
-#: editor/kmcomposewin.cpp:2711
+#: editor/kmcomposewin.cpp:2704
 msgid "No To: specified"
 msgstr "Kein Hauptempfänger angegeben"
 
-#: editor/kmcomposewin.cpp:2725
+#: editor/kmcomposewin.cpp:2718
 msgid "You did not specify a subject. Send message anyway?"
 msgstr ""
 "Sie haben keinen Betreff angegeben. Soll die Nachricht trotzdem versendet "
 "werden?"
 
-#: editor/kmcomposewin.cpp:2727
+#: editor/kmcomposewin.cpp:2720
 msgid "No Subject Specified"
 msgstr "Kein Betreff angegeben"
 
-#: editor/kmcomposewin.cpp:2728
+#: editor/kmcomposewin.cpp:2721
 msgid "S&end as Is"
 msgstr "Ohne Änderung &senden"
 
-#: editor/kmcomposewin.cpp:2729
+#: editor/kmcomposewin.cpp:2722
 msgid "&Specify the Subject"
 msgstr "&Betreff angeben"
 
-#: editor/kmcomposewin.cpp:2759
+#: editor/kmcomposewin.cpp:2752
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
@@ -2270,19 +2273,19 @@ msgstr ""
 "Sie müssen zumindest einen Empfänger angeben, um einen Entwurf verschlüsseln "
 "zu können."
 
-#: editor/kmcomposewin.cpp:2946
+#: editor/kmcomposewin.cpp:2939
 msgid "About to send email..."
 msgstr "Nachrichten werden versendet ..."
 
-#: editor/kmcomposewin.cpp:2947
+#: editor/kmcomposewin.cpp:2940
 msgid "Send Confirmation"
 msgstr "Bestätigung senden"
 
-#: editor/kmcomposewin.cpp:2948
+#: editor/kmcomposewin.cpp:2941
 msgid "&Send Now"
 msgstr "&Jetzt senden"
 
-#: editor/kmcomposewin.cpp:2967
+#: editor/kmcomposewin.cpp:2960
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
@@ -2291,19 +2294,19 @@ msgstr ""
 "Sie versenden diese Nachricht an mehr als %1 Empfänger. Soll die Nachricht "
 "trotzdem gesendet werden?"
 
-#: editor/kmcomposewin.cpp:2968
+#: editor/kmcomposewin.cpp:2961
 msgid "Too many recipients"
 msgstr "Zu viele Empfänger"
 
-#: editor/kmcomposewin.cpp:2969
+#: editor/kmcomposewin.cpp:2962
 msgid "&Send as Is"
 msgstr "Ohne Änderung &senden"
 
-#: editor/kmcomposewin.cpp:2970
+#: editor/kmcomposewin.cpp:2963
 msgid "&Edit Recipients"
 msgstr "Empfänger ä&ndern"
 
-#: editor/kmcomposewin.cpp:3013
+#: editor/kmcomposewin.cpp:3006
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
@@ -2311,35 +2314,35 @@ msgstr ""
 "Durch das Abschalten des HTML-Modus wird der Text seine Formatierungen "
 "verlieren. Sind Sie sicher?"
 
-#: editor/kmcomposewin.cpp:3015
+#: editor/kmcomposewin.cpp:3008
 msgid "Lose the formatting?"
 msgstr "Möchten Sie die Formatierungen verwerfen?"
 
-#: editor/kmcomposewin.cpp:3015
+#: editor/kmcomposewin.cpp:3008
 msgid "Lose Formatting"
 msgstr "Formatierungen verwerfen"
 
-#: editor/kmcomposewin.cpp:3015
+#: editor/kmcomposewin.cpp:3008
 msgid "Add Markup Plain Text"
 msgstr "Kennzeichnung für einfachen Text hinzufügen"
 
-#: editor/kmcomposewin.cpp:3079
+#: editor/kmcomposewin.cpp:3072
 msgid "Spellcheck: on"
 msgstr "Rechtschreibprüfung: an"
 
-#: editor/kmcomposewin.cpp:3081
+#: editor/kmcomposewin.cpp:3074
 msgid "Spellcheck: off"
 msgstr "Rechtschreibprüfung: aus"
 
-#: editor/kmcomposewin.cpp:3315
+#: editor/kmcomposewin.cpp:3303
 msgid "OVR"
 msgstr "Überschr"
 
-#: editor/kmcomposewin.cpp:3315
+#: editor/kmcomposewin.cpp:3303
 msgid "INS"
 msgstr "Einf"
 
-#: editor/kmcomposewin.cpp:3372
+#: editor/kmcomposewin.cpp:3360
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
@@ -2350,7 +2353,7 @@ msgstr ""
 "Die entsprechende Einstellung befindet sich im Reiter „Sicherheit“ -> "
 "„Kryptografie-Module“."
 
-#: editor/kmcomposewin.cpp:3376
+#: editor/kmcomposewin.cpp:3364
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
@@ -2358,11 +2361,11 @@ msgstr ""
 "Scheinbar wurde libkleopatra ohne Chiasmus-Unterstützung kompiliert. Sie "
 "sollten libkleopatra mit der Option --enable-chiasmus neu kompilieren."
 
-#: editor/kmcomposewin.cpp:3379
+#: editor/kmcomposewin.cpp:3367
 msgid "No Chiasmus Backend Configured"
 msgstr "Kein Hintergrundgrogramm für Chiasmus eingerichtet"
 
-#: editor/kmcomposewin.cpp:3385
+#: editor/kmcomposewin.cpp:3373
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
@@ -2370,12 +2373,12 @@ msgstr ""
 "Das Chiasmus-Hintergrundprogramm bietet die Funktion „x-obtain-keys“ nicht "
 "an. Bitte melden Sie diesen Fehler."
 
-#: editor/kmcomposewin.cpp:3387 editor/kmcomposewin.cpp:3392
-#: editor/kmcomposewin.cpp:3401
+#: editor/kmcomposewin.cpp:3375 editor/kmcomposewin.cpp:3380
+#: editor/kmcomposewin.cpp:3389
 msgid "Chiasmus Backend Error"
 msgstr "Fehler im Chiasmus-Hintergrundprogramm"
 
-#: editor/kmcomposewin.cpp:3398
+#: editor/kmcomposewin.cpp:3386
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
@@ -2384,7 +2387,7 @@ msgstr ""
 "obtain-keys“ hat keine Liste von Zeichenketten zurückgegeben. Bitte melden "
 "Sie diesen Fehler."
 
-#: editor/kmcomposewin.cpp:3407
+#: editor/kmcomposewin.cpp:3395
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
@@ -2392,52 +2395,52 @@ msgstr ""
 "Es wurden keine Schlüssel gefunden. Bitte überprüfen Sie, ob in der Chiasmus-"
 "Konfiguration ein gültiger Pfad für die Schlüssel eingegeben wurde."
 
-#: editor/kmcomposewin.cpp:3410
+#: editor/kmcomposewin.cpp:3398
 msgid "No Chiasmus Keys Found"
 msgstr "Keine Chiasmus-Schlüssel gefunden"
 
-#: editor/kmcomposewin.cpp:3414
+#: editor/kmcomposewin.cpp:3402
 msgid "Chiasmus Encryption Key Selection"
 msgstr "Auswahl der Schlüssel für die Verschlüsselung mit Chiasmus"
 
-#: editor/kmcomposewin.cpp:3443
+#: editor/kmcomposewin.cpp:3431
 msgid "Message will be signed"
 msgstr "Die Nachricht wird signiert"
 
-#: editor/kmcomposewin.cpp:3444
+#: editor/kmcomposewin.cpp:3432
 msgid "Message will not be signed"
 msgstr "Die Nachricht wird nicht signiert"
 
-#: editor/kmcomposewin.cpp:3446
+#: editor/kmcomposewin.cpp:3434
 msgid "Message will be encrypted"
 msgstr "Die Nachricht wird verschlüsselt"
 
-#: editor/kmcomposewin.cpp:3447
+#: editor/kmcomposewin.cpp:3435
 msgid "Message will not be encrypted"
 msgstr "Die Nachricht wird nicht verschlüsselt"
 
-#: editor/kmcomposewin.cpp:3470
+#: editor/kmcomposewin.cpp:3457
 msgid "Insert Special Character"
 msgstr "Sonderzeichen einfügen"
 
-#: editor/kmcomposewin.cpp:3471
+#: editor/kmcomposewin.cpp:3458
 msgid "Insert"
 msgstr "Einfügen"
 
-#: editor/kmcomposewin.cpp:3593
+#: editor/kmcomposewin.cpp:3580
 msgid "An error occurred while sending the file."
 msgstr "Beim Senden der Datei ist ein Fehler aufgetreten."
 
-#: editor/kmcomposewin.cpp:3593
+#: editor/kmcomposewin.cpp:3580
 msgid "Upload file"
 msgstr "Datei hochladen"
 
-#: editor/kmcomposewin.cpp:3612
+#: editor/kmcomposewin.cpp:3599
 #, kde-format
 msgid "%1 return an error '%2'"
 msgstr "%1 gibt den Fehler „%2“ zurück"
 
-#: editor/kmcomposewin.cpp:3612
+#: editor/kmcomposewin.cpp:3599
 msgid "Error"
 msgstr "Fehler"
 
@@ -3273,29 +3276,29 @@ msgid "&Forward"
 msgstr "&Weiterleiten"
 
 #. i18n: ectx: Menu (apply_filter_actions)
-#: kmail_part.rc:166 kmmainwidget.cpp:3361 kmmainwin.rc:166
+#: kmail_part.rc:166 kmmainwidget.cpp:3367 kmmainwin.rc:166
 msgid "A&pply Filter"
 msgstr "&Filter anwenden"
 
 #. i18n: ectx: Menu (tools)
-#: kmail_part.rc:176 kmmainwin.rc:176
+#: kmail_part.rc:178 kmmainwin.rc:178
 msgid "&Tools"
 msgstr "E&xtras"
 
 #. i18n: ectx: Menu (settings)
-#: kmail_part.rc:197 kmcomposerui.rc:101 kmmainwin.rc:197
-#: kmreadermainwin.rc:70
+#: kmail_part.rc:199 kmcomposerui.rc:101 kmmainwin.rc:199
+#: kmreadermainwin.rc:72
 msgid "&Settings"
 msgstr "&Einstellungen"
 
 #. i18n: ectx: Menu (help)
-#: kmail_part.rc:212 kmmainwin.rc:212
+#: kmail_part.rc:214 kmmainwin.rc:214
 msgid "&Help"
 msgstr "&Hilfe"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kmail_part.rc:289 kmcomposerui.rc:105 kmmainwin.rc:289
-#: kmreadermainwin.rc:79
+#: kmail_part.rc:293 kmcomposerui.rc:105 kmmainwin.rc:293
+#: kmreadermainwin.rc:81
 msgid "Main Toolbar"
 msgstr "Haupt-Werkzeugleiste"
 
@@ -3356,24 +3359,24 @@ msgstr "Als MIME-Katalog senden"
 msgid "Send Individually"
 msgstr "Einzeln senden"
 
-#: kmcommands.cpp:1315
+#: kmcommands.cpp:1305
 msgid "Filtering messages"
 msgstr "Nachrichten werden gefiltert"
 
-#: kmcommands.cpp:1322
+#: kmcommands.cpp:1312
 #, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Nachricht %1 von %2 wird gefiltert."
 
-#: kmcommands.cpp:1474
+#: kmcommands.cpp:1464
 msgid "Moving messages"
 msgstr "Nachrichten werden verschoben"
 
-#: kmcommands.cpp:1474
+#: kmcommands.cpp:1464
 msgid "Deleting messages"
 msgstr "Nachrichten werden gelöscht"
 
-#: kmcommands.cpp:1604
+#: kmcommands.cpp:1594
 msgid "Image"
 msgstr "Bild"
 
@@ -3406,19 +3409,19 @@ msgstr "Möchten Sie diesen Ordner „%1“ wirklich?"
 msgid "Attach Folder"
 msgstr "Ordner anhängen"
 
-#: kmkernel.cpp:919
+#: kmkernel.cpp:977
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 "KMail befindet sich im „Offline-Modus“. Alle Vorgänge, die eine "
 "Netzwerkverbindung erfordern, werden ausgesetzt."
 
-#: kmkernel.cpp:951
+#: kmkernel.cpp:1010
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 "KMail befindet sich im „Online-Modus“. Alle Vorgänge, die eine "
 "Netzwerkverbindung erfordern, werden wiederaufgenommen."
 
-#: kmkernel.cpp:954
+#: kmkernel.cpp:1013
 msgid ""
 "KMail is set to be online; all network jobs will resume when a network "
 "connection is detected"
@@ -3427,31 +3430,31 @@ msgstr ""
 "Netzwerkverbindung erfordern, werden wiederaufgenommen sobald eine "
 "Netzwerkverbindung erkannt wurde."
 
-#: kmkernel.cpp:1029
+#: kmkernel.cpp:1070
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr "KMail ist momentan im Offline-Modus. Wie möchten Sie fortfahren?"
 
-#: kmkernel.cpp:1031
+#: kmkernel.cpp:1072
 msgid "Online/Offline"
 msgstr "Online/Offline"
 
-#: kmkernel.cpp:1032 kmmainwidget.cpp:2445
+#: kmkernel.cpp:1073 kmmainwidget.cpp:2448
 msgid "Work Online"
 msgstr "Online arbeiten"
 
-#: kmkernel.cpp:1033 kmmainwidget.cpp:2442
+#: kmkernel.cpp:1074 kmmainwidget.cpp:2445
 msgid "Work Offline"
 msgstr "Offline arbeiten"
 
-#: kmkernel.cpp:1056
+#: kmkernel.cpp:1097
 msgid "Network connection detected, all network jobs resumed"
 msgstr "Netzwerkverbindung erkannt, alle Netzwerkaufgaben wiederaufgenommen"
 
-#: kmkernel.cpp:1061
+#: kmkernel.cpp:1102
 msgid "No network connection detected, all network jobs are suspended"
 msgstr "Keine Netzwerkverbindung erkannt, alle Netzwerkaufgaben angehalten"
 
-#: kmkernel.cpp:1155
+#: kmkernel.cpp:1196
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
@@ -3460,11 +3463,11 @@ msgstr ""
 "Die Sicherungsdatei in %1 kann nicht geöffnet werden.\n"
 "Grund: %2"
 
-#: kmkernel.cpp:1157
+#: kmkernel.cpp:1198
 msgid "Opening Autosave File Failed"
 msgstr "Das Öffnen der automatischen Sicherung ist fehlgeschlagen."
 
-#: kmkernel.cpp:1662
+#: kmkernel.cpp:1703
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -3476,7 +3479,7 @@ msgstr[1] ""
 "Diese %1 Identitäten wurden geändert. Sie verwenden ab jetzt den Standard-"
 "Versandweg:"
 
-#: kmkernel.cpp:1687
+#: kmkernel.cpp:1728
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -3488,29 +3491,30 @@ msgstr[1] ""
 "Diese %1 Identitäten wurden geändert. Sie verwenden ab jetzt den geänderten "
 "Versandweg:"
 
-#: kmkernel.cpp:1702
+#: kmkernel.cpp:1743
 msgid "Sending messages"
 msgstr "Nachrichten werden versendet"
 
-#: kmkernel.cpp:1703
+#: kmkernel.cpp:1744
 msgid "Initiating sending process..."
 msgstr "Sendevorgang wird eingeleitet ..."
 
-#: kmkernel.cpp:1771
+#: kmkernel.cpp:1812
 msgid "online"
 msgstr "Online"
 
-#: kmkernel.cpp:1771
+#: kmkernel.cpp:1812
 msgid "offline"
 msgstr "Offline"
 
-#: kmkernel.cpp:1771
+#: kmkernel.cpp:1812
 #, kde-format
+#| msgid "Resource %1 is broken."
 msgid "Resource %1 is broken. This resource is now %2"
 msgstr ""
-"Die Ressource „%1“ ist nicht funktionsfähig. Die Ressource ist nun „%2“."
+"Die Ressource „%1“ ist nicht funktionsfähig. Diese Resource ist nun  „%2“"
 
-#: kmkernel.cpp:1944 kmkernel.cpp:1963
+#: kmkernel.cpp:1985 kmkernel.cpp:2004
 #, kde-format
 msgctxt "<source>: <error message>"
 msgid "%1: %2"
@@ -3522,13 +3526,13 @@ msgstr ""
 "Ein anderes E-Mail-Programm wurde auf Ihren System gefunden. Möchten Sie "
 "dessen Daten importieren?"
 
-#: kmmainwidget.cpp:333 kmmainwidget.cpp:4343
+#: kmmainwidget.cpp:333 kmmainwidget.cpp:4349
 msgid "Could not start the import wizard. Please check your installation."
 msgstr ""
 "Der Import-Assistent lässt sich nicht starten. Bitte überprüfen Sie die "
 "korrekte Installation."
 
-#: kmmainwidget.cpp:335 kmmainwidget.cpp:4345
+#: kmmainwidget.cpp:335 kmmainwidget.cpp:4351
 msgid "Unable to start import wizard"
 msgstr "Der Import-Assistent lässt sich nicht starten."
 
@@ -3801,17 +3805,17 @@ msgstr "Das Verschieben der Nachrichten in den Papierkorb ist fehlgeschlagen."
 msgid "Moving messages to trash canceled."
 msgstr "Das Verschieben der Nachrichten in den Papierkorb wurde abgebrochen."
 
-#: kmmainwidget.cpp:2268
+#: kmmainwidget.cpp:2271
 msgid "Jump to Folder"
 msgstr "In Ordner wechseln"
 
-#: kmmainwidget.cpp:2356
+#: kmmainwidget.cpp:2359
 msgid "Could not start certificate manager; please check your installation."
 msgstr ""
 "Die Zertifikatsverwaltung kann nicht gestartet werden. Bitte überprüfen Sie "
 "die korrekte Installation."
 
-#: kmmainwidget.cpp:2367
+#: kmmainwidget.cpp:2370
 msgid ""
 "Could not start GnuPG LogViewer (kwatchgnupg); please check your "
 "installation."
@@ -3819,344 +3823,344 @@ msgstr ""
 "Der GnuPG-Protokollbetrachter (kwatchgnupg) kann nicht gestartet werden. "
 "Bitte überprüfen Sie die korrekte Installation."
 
-#: kmmainwidget.cpp:2974
+#: kmmainwidget.cpp:2980
 msgid "Save &As..."
 msgstr "Speichern &unter ..."
 
-#: kmmainwidget.cpp:2988
+#: kmmainwidget.cpp:2994
 msgid "&Expire All Folders"
 msgstr "Alte Nachrichten aus allen Ordnern löschen"
 
-#: kmmainwidget.cpp:2993
+#: kmmainwidget.cpp:2999
 msgid "Check &Mail"
 msgstr "Na&ch E-Mail sehen"
 
-#: kmmainwidget.cpp:2999
+#: kmmainwidget.cpp:3005
 msgid "Check Mail In"
 msgstr "Nach E-Mail sehen in"
 
-#: kmmainwidget.cpp:3000 kmmainwidget.cpp:3001
+#: kmmainwidget.cpp:3006 kmmainwidget.cpp:3007
 msgid "Check Mail"
 msgstr "Nach E-Mail sehen"
 
-#: kmmainwidget.cpp:3010
+#: kmmainwidget.cpp:3016
 msgid "&Send Queued Messages"
 msgstr "&Postausgang versenden"
 
-#: kmmainwidget.cpp:3019
+#: kmmainwidget.cpp:3025
 msgid "Online status (unknown)"
 msgstr "Online-Status (unbekannt)"
 
-#: kmmainwidget.cpp:3022
+#: kmmainwidget.cpp:3028
 msgid "Send Queued Messages Via"
 msgstr "Postausgang versenden über"
 
-#: kmmainwidget.cpp:3040
+#: kmmainwidget.cpp:3046
 msgid "Certificate Manager"
 msgstr "Zertifikatsverwaltung"
 
-#: kmmainwidget.cpp:3048
+#: kmmainwidget.cpp:3054
 msgid "GnuPG Log Viewer"
 msgstr "GnuPG-Protokollanzeige"
 
-#: kmmainwidget.cpp:3061
+#: kmmainwidget.cpp:3067
 msgid "&Import Messages..."
 msgstr "Nachrichten &importieren ..."
 
-#: kmmainwidget.cpp:3069
+#: kmmainwidget.cpp:3075
 msgid "&Debug Sieve..."
 msgstr "&Fehlersuche im Sieve-Filter ..."
 
-#: kmmainwidget.cpp:3076
+#: kmmainwidget.cpp:3082
 msgid "Filter &Log Viewer..."
 msgstr "Filter&protokoll anzeigen ..."
 
-#: kmmainwidget.cpp:3081
+#: kmmainwidget.cpp:3087
 msgid "&Anti-Spam Wizard..."
 msgstr "&Anti-Spam-Assistent ..."
 
-#: kmmainwidget.cpp:3086
+#: kmmainwidget.cpp:3092
 msgid "&Anti-Virus Wizard..."
 msgstr "Anti-&Virus-Assistent ..."
 
-#: kmmainwidget.cpp:3091
+#: kmmainwidget.cpp:3097
 msgid "&Account Wizard..."
 msgstr "&Postfach-Assistent ..."
 
-#: kmmainwidget.cpp:3096
+#: kmmainwidget.cpp:3102
 msgid "&Import Wizard..."
 msgstr "&Import-Assistent ..."
 
-#: kmmainwidget.cpp:3102
+#: kmmainwidget.cpp:3108
 msgid "Edit \"Out of Office\" Replies..."
 msgstr "Abwesenheitsbenachrichtigungen bearbeiten ..."
 
-#: kmmainwidget.cpp:3108
+#: kmmainwidget.cpp:3114
 msgid "&Configure Automatic Archiving..."
 msgstr "Automatische Archivierung &einrichten ..."
 
-#: kmmainwidget.cpp:3114
+#: kmmainwidget.cpp:3120
 msgid "Message Delayed..."
 msgstr "Nachricht verspätet ..."
 
-#: kmmainwidget.cpp:3130 kmmainwidget.cpp:4138
+#: kmmainwidget.cpp:3136 kmmainwidget.cpp:4144
 msgctxt "@action Hard delete, bypassing trash"
 msgid "&Delete"
 msgstr "&Löschen"
 
-#: kmmainwidget.cpp:3135 kmmainwidget.cpp:4140
+#: kmmainwidget.cpp:3141 kmmainwidget.cpp:4146
 msgid "M&ove Thread to Trash"
 msgstr "Gru&ppe in den Papierkorb werfen"
 
-#: kmmainwidget.cpp:3139
+#: kmmainwidget.cpp:3145
 msgid "Move thread to trashcan"
 msgstr "Gruppe in den Papierkorb werfen"
 
-#: kmmainwidget.cpp:3142 kmmainwidget.cpp:4140
+#: kmmainwidget.cpp:3148 kmmainwidget.cpp:4146
 msgid "Delete T&hread"
 msgstr "Gr&uppe löschen"
 
-#: kmmainwidget.cpp:3148
+#: kmmainwidget.cpp:3154
 msgid "&Find Messages..."
 msgstr "Nachrichten &suchen ..."
 
-#: kmmainwidget.cpp:3154
+#: kmmainwidget.cpp:3160
 msgid "Select &All Messages"
 msgstr "All&e Nachrichten auswählen"
 
-#: kmmainwidget.cpp:3162
+#: kmmainwidget.cpp:3168
 msgid "&Mailing List Management..."
 msgstr "Ver&waltung von Mailinglisten ..."
 
-#: kmmainwidget.cpp:3167
+#: kmmainwidget.cpp:3173
 msgid "&Assign Shortcut..."
 msgstr "Kur&zbefehl festlegen ..."
 
-#: kmmainwidget.cpp:3184
+#: kmmainwidget.cpp:3190
 msgid "&Expiration Settings"
 msgstr "Einstellungen für Aufbewahrungs&frist"
 
-#: kmmainwidget.cpp:3202
+#: kmmainwidget.cpp:3208
 msgid "&Archive Folder..."
 msgstr "Ordner a&rchivieren ..."
 
-#: kmmainwidget.cpp:3206
+#: kmmainwidget.cpp:3212
 msgid "Prefer &HTML to Plain Text"
 msgstr "H&TML-Ansicht vor Klartext bevorzugen"
 
-#: kmmainwidget.cpp:3210
+#: kmmainwidget.cpp:3216
 msgid "Load E&xternal References"
 msgstr "E&xterne Referenzen laden"
 
-#: kmmainwidget.cpp:3233
+#: kmmainwidget.cpp:3239
 msgid "Copy Message To..."
 msgstr "Nachricht kopieren nach ..."
 
-#: kmmainwidget.cpp:3235
+#: kmmainwidget.cpp:3241
 msgid "Move Message To..."
 msgstr "Nachricht verschieben nach ..."
 
-#: kmmainwidget.cpp:3240
+#: kmmainwidget.cpp:3246
 msgid "&New Message..."
 msgstr "&Neue Nachricht ..."
 
-#: kmmainwidget.cpp:3242
+#: kmmainwidget.cpp:3248
 msgctxt "@action:intoolbar New Empty Message"
 msgid "New"
 msgstr "Neu"
 
-#: kmmainwidget.cpp:3250
+#: kmmainwidget.cpp:3256
 msgid "Message From &Template"
 msgstr "Neue Nachricht von &Vorlage"
 
-#: kmmainwidget.cpp:3260
+#: kmmainwidget.cpp:3266
 msgid "New Message t&o Mailing-List..."
 msgstr "Ne&ue Nachricht an Mailingliste ..."
 
-#: kmmainwidget.cpp:3267
+#: kmmainwidget.cpp:3273
 msgid "Send A&gain..."
 msgstr "E&rneut senden ..."
 
-#: kmmainwidget.cpp:3272
+#: kmmainwidget.cpp:3278
 msgid "&Create Filter"
 msgstr "&Filter anlegen"
 
-#: kmmainwidget.cpp:3277
+#: kmmainwidget.cpp:3283
 msgid "Filter on &Subject..."
 msgstr "Nach &Betreff filtern ..."
 
-#: kmmainwidget.cpp:3284
+#: kmmainwidget.cpp:3290
 msgid "Filter on &From..."
 msgstr "Nach &Absender filtern ..."
 
-#: kmmainwidget.cpp:3290
+#: kmmainwidget.cpp:3296
 msgid "Filter on &To..."
 msgstr "Nach Em&pfänger filtern ..."
 
-#: kmmainwidget.cpp:3297
+#: kmmainwidget.cpp:3303
 msgid "New Message From &Template"
 msgstr "Neue Nachricht von &Vorlage"
 
-#: kmmainwidget.cpp:3303
+#: kmmainwidget.cpp:3309
 msgid "Mark &Thread"
 msgstr "&Gruppe markieren"
 
-#: kmmainwidget.cpp:3306
+#: kmmainwidget.cpp:3312
 msgid "Mark Thread as &Read"
 msgstr "Gruppe als ge&lesen markieren"
 
-#: kmmainwidget.cpp:3309
+#: kmmainwidget.cpp:3315
 msgid "Mark all messages in the selected thread as read"
 msgstr "Alle Nachrichten in dieser Gruppe als gelesen markieren"
 
-#: kmmainwidget.cpp:3312
+#: kmmainwidget.cpp:3318
 msgid "Mark Thread as &Unread"
 msgstr "Gruppe als &ungelesen markieren"
 
-#: kmmainwidget.cpp:3315
+#: kmmainwidget.cpp:3321
 msgid "Mark all messages in the selected thread as unread"
 msgstr "Alle Nachrichten der ausgewählten Gruppe als ungelesen markieren"
 
-#: kmmainwidget.cpp:3321
+#: kmmainwidget.cpp:3327
 msgid "Mark Thread as &Important"
 msgstr "Gruppe als w&ichtig markieren"
 
-#: kmmainwidget.cpp:3324
+#: kmmainwidget.cpp:3330
 msgid "Remove &Important Thread Mark"
 msgstr "Gruppen-Markierung „Wichtig“ entfernen"
 
-#: kmmainwidget.cpp:3327
+#: kmmainwidget.cpp:3333
 msgid "Mark Thread as &Action Item"
 msgstr "Gruppe als &Aufgabe markieren"
 
-#: kmmainwidget.cpp:3330
+#: kmmainwidget.cpp:3336
 msgid "Remove &Action Item Thread Mark"
 msgstr "Gruppen-Markierung „Aufgabe“ ent&fernen"
 
-#: kmmainwidget.cpp:3334
+#: kmmainwidget.cpp:3340
 msgid "&Watch Thread"
 msgstr "Gruppe über&wachen"
 
-#: kmmainwidget.cpp:3338
+#: kmmainwidget.cpp:3344
 msgid "&Ignore Thread"
 msgstr "Gruppe &ignorieren"
 
-#: kmmainwidget.cpp:3346 kmreadermainwin.cpp:327
+#: kmmainwidget.cpp:3352 kmreadermainwin.cpp:327
 msgid "Save A&ttachments..."
 msgstr "A&nhänge speichern ..."
 
-#: kmmainwidget.cpp:3355
+#: kmmainwidget.cpp:3361
 msgid "Appl&y All Filters"
 msgstr "A&lle Filter anwenden"
 
-#: kmmainwidget.cpp:3365
+#: kmmainwidget.cpp:3371
 msgctxt "View->"
 msgid "&Expand Thread / Group"
 msgstr "Gruppe &aufklappen"
 
-#: kmmainwidget.cpp:3368
+#: kmmainwidget.cpp:3374
 msgid "Expand the current thread or group"
 msgstr "Aktuelle Gruppe aufklappen"
 
-#: kmmainwidget.cpp:3372
+#: kmmainwidget.cpp:3378
 msgctxt "View->"
 msgid "&Collapse Thread / Group"
 msgstr "Gruppe &einklappen"
 
-#: kmmainwidget.cpp:3375
+#: kmmainwidget.cpp:3381
 msgid "Collapse the current thread or group"
 msgstr "Aktuelle Gruppe einklappen"
 
-#: kmmainwidget.cpp:3379
+#: kmmainwidget.cpp:3385
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr "Alle Gruppen auf&klappen"
 
-#: kmmainwidget.cpp:3382
+#: kmmainwidget.cpp:3388
 msgid "Expand all threads in the current folder"
 msgstr "Alle Gruppen des aktuellen Ordners aufklappen"
 
-#: kmmainwidget.cpp:3386
+#: kmmainwidget.cpp:3392
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr "A&lle Gruppen einklappen"
 
-#: kmmainwidget.cpp:3389
+#: kmmainwidget.cpp:3395
 msgid "Collapse all threads in the current folder"
 msgstr "Alle Gruppen des aktuellen Ordners einklappen"
 
-#: kmmainwidget.cpp:3394
+#: kmmainwidget.cpp:3400
 msgid "&Display Message"
 msgstr "&Nachricht anzeigen"
 
-#: kmmainwidget.cpp:3403
+#: kmmainwidget.cpp:3409
 msgid "&Next Message"
 msgstr "&Nächste Nachricht"
 
-#: kmmainwidget.cpp:3406
+#: kmmainwidget.cpp:3412
 msgid "Go to the next message"
 msgstr "Zur nächsten Nachricht gehen"
 
-#: kmmainwidget.cpp:3410
+#: kmmainwidget.cpp:3416
 msgid "Next &Unread Message"
 msgstr "Nächste &ungelesene Nachricht"
 
-#: kmmainwidget.cpp:3418
+#: kmmainwidget.cpp:3424
 msgctxt "@action:inmenu Goto next unread message"
 msgid "Next"
 msgstr "Nächste"
 
-#: kmmainwidget.cpp:3419
+#: kmmainwidget.cpp:3425
 msgid "Go to the next unread message"
 msgstr "Zur nächsten ungelesenen Nachricht gehen"
 
-#: kmmainwidget.cpp:3423
+#: kmmainwidget.cpp:3429
 msgid "&Previous Message"
 msgstr "&Vorherige Nachricht"
 
-#: kmmainwidget.cpp:3425
+#: kmmainwidget.cpp:3431
 msgid "Go to the previous message"
 msgstr "Zur vorherigen Nachricht gehen"
 
-#: kmmainwidget.cpp:3430
+#: kmmainwidget.cpp:3436
 msgid "Previous Unread &Message"
 msgstr "Vorherige un&gelesene Nachricht"
 
-#: kmmainwidget.cpp:3438
+#: kmmainwidget.cpp:3444
 msgctxt "@action:inmenu Goto previous unread message."
 msgid "Previous"
 msgstr "Vorherige"
 
-#: kmmainwidget.cpp:3439
+#: kmmainwidget.cpp:3445
 msgid "Go to the previous unread message"
 msgstr "Zur vorherigen ungelesenen Nachricht gehen"
 
-#: kmmainwidget.cpp:3443
+#: kmmainwidget.cpp:3449
 msgid "Next Unread &Folder"
 msgstr "Nächster ungelesener O&rdner"
 
-#: kmmainwidget.cpp:3447
+#: kmmainwidget.cpp:3453
 msgid "Go to the next folder with unread messages"
 msgstr "Gehe zum nächsten Ordner mit ungelesenen Nachrichten"
 
-#: kmmainwidget.cpp:3450
+#: kmmainwidget.cpp:3456
 msgid "Previous Unread F&older"
 msgstr "Vorheriger ungelesener Or&dner"
 
-#: kmmainwidget.cpp:3453
+#: kmmainwidget.cpp:3459
 msgid "Go to the previous folder with unread messages"
 msgstr "Vorheriger Ordner mit ungelesenen Nachrichten"
 
-#: kmmainwidget.cpp:3457
+#: kmmainwidget.cpp:3463
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr "Nächster ungelesener &Text"
 
-#: kmmainwidget.cpp:3460
+#: kmmainwidget.cpp:3466
 msgid "Go to the next unread text"
 msgstr "Zum nächsten ungelesen Text springen"
 
-#: kmmainwidget.cpp:3461
+#: kmmainwidget.cpp:3467
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
@@ -4164,172 +4168,172 @@ msgstr ""
 "In der aktuellen Nachricht nach unten blättern. Am Ende der aktuellen "
 "Nachricht zur nächsten ungelesenen Nachricht wechseln."
 
-#: kmmainwidget.cpp:3469
+#: kmmainwidget.cpp:3475
 msgid "Configure &Filters..."
 msgstr "&Filter einrichten ..."
 
-#: kmmainwidget.cpp:3475
+#: kmmainwidget.cpp:3481
 msgid "Manage &Sieve Scripts..."
 msgstr "„Sieve“-&Skripte verwalten ..."
 
-#: kmmainwidget.cpp:3480
+#: kmmainwidget.cpp:3486
 msgid "KMail &Introduction"
 msgstr "&Einführung zu KMail"
 
-#: kmmainwidget.cpp:3482
+#: kmmainwidget.cpp:3488
 msgid "Display KMail's Welcome Page"
 msgstr "Begrüßungsbildschirm von KMail anzeigen"
 
-#: kmmainwidget.cpp:3491
+#: kmmainwidget.cpp:3497
 msgid "Configure &Notifications..."
 msgstr "&Benachrichtigungen festlegen ..."
 
-#: kmmainwidget.cpp:3498
+#: kmmainwidget.cpp:3504
 msgid "&Configure KMail..."
 msgstr "KMail ein&richten ..."
 
-#: kmmainwidget.cpp:3504
+#: kmmainwidget.cpp:3510
 msgid "Expire..."
 msgstr "Aufbewahrungsfrist festlegen ..."
 
-#: kmmainwidget.cpp:3510
+#: kmmainwidget.cpp:3516
 msgid "Add Favorite Folder..."
 msgstr "Bevorzugten Ordner &hinzufügen ..."
 
-#: kmmainwidget.cpp:3516
+#: kmmainwidget.cpp:3522
 msgid "Serverside Subscription..."
 msgstr "Serverseitiges Abonnement ..."
 
-#: kmmainwidget.cpp:3523
+#: kmmainwidget.cpp:3529
 msgid "Appl&y All Filters On Folder"
 msgstr "A&lle Filter auf diesen Ordner anwenden"
 
-#: kmmainwidget.cpp:3531
+#: kmmainwidget.cpp:3537
 msgid "&Export KMail Data..."
 msgstr "KMail-Daten &exportieren ..."
 
-#: kmmainwidget.cpp:3562
+#: kmmainwidget.cpp:3568
 msgid "Copy Message to Folder"
 msgstr "Nachricht in Ordner kopieren"
 
-#: kmmainwidget.cpp:3569
+#: kmmainwidget.cpp:3575
 msgid "Jump to Folder..."
 msgstr "In Ordner wechseln ..."
 
-#: kmmainwidget.cpp:3576
+#: kmmainwidget.cpp:3582
 msgid "Abort Current Operation"
 msgstr "Laufenden Vorgang abbrechen"
 
-#: kmmainwidget.cpp:3583
+#: kmmainwidget.cpp:3589
 msgid "Focus on Next Folder"
 msgstr "Nächsten Ordner aktivieren"
 
-#: kmmainwidget.cpp:3590
+#: kmmainwidget.cpp:3596
 msgid "Focus on Previous Folder"
 msgstr "Vorherigen Ordner aktivieren"
 
-#: kmmainwidget.cpp:3597
+#: kmmainwidget.cpp:3603
 msgid "Select Folder with Focus"
 msgstr "Aktivierten Ordner auswählen"
 
-#: kmmainwidget.cpp:3605
+#: kmmainwidget.cpp:3611
 msgid "Focus on First Folder"
 msgstr "Ersten Ordner aktivieren"
 
-#: kmmainwidget.cpp:3612
+#: kmmainwidget.cpp:3618
 msgid "Focus on Last Folder"
 msgstr "Letzten Ordner aktivieren"
 
-#: kmmainwidget.cpp:3619
+#: kmmainwidget.cpp:3625
 msgid "Focus on Next Message"
 msgstr "Nächste Nachricht aktivieren"
 
-#: kmmainwidget.cpp:3626
+#: kmmainwidget.cpp:3632
 msgid "Focus on Previous Message"
 msgstr "Vorherige Nachricht aktivieren"
 
-#: kmmainwidget.cpp:3633
+#: kmmainwidget.cpp:3639
 msgid "Select First Message"
 msgstr "Erste Nachrichten auswählen"
 
-#: kmmainwidget.cpp:3640
+#: kmmainwidget.cpp:3646
 msgid "Select Last Message"
 msgstr "Letzte Nachrichten auswählen"
 
-#: kmmainwidget.cpp:3647
+#: kmmainwidget.cpp:3653
 msgid "Select Message with Focus"
 msgstr "Aktivierte Nachricht auswählen"
 
-#: kmmainwidget.cpp:3655
+#: kmmainwidget.cpp:3661
 msgid "Set Focus to Quick Search"
 msgstr "Fokus auf die Schnellsuche einstellen"
 
-#: kmmainwidget.cpp:3664
+#: kmmainwidget.cpp:3670
 msgid "Extend Selection to Previous Message"
 msgstr "Auswahl auf vorherige Nachricht ausweiten"
 
-#: kmmainwidget.cpp:3671
+#: kmmainwidget.cpp:3677
 msgid "Extend Selection to Next Message"
 msgstr "Auswahl auf nächste Nachricht ausweiten"
 
-#: kmmainwidget.cpp:3679
+#: kmmainwidget.cpp:3685
 msgid "Move Message to Folder"
 msgstr "Nachricht in Ordner verschieben"
 
-#: kmmainwidget.cpp:3699
+#: kmmainwidget.cpp:3705
 msgid "Add Favorite Folder"
 msgstr "Bevorzugten Ordner hinzufügen"
 
-#: kmmainwidget.cpp:4032
+#: kmmainwidget.cpp:4038
 msgid "E&mpty Trash"
 msgstr "Papierkorb lee&ren"
 
-#: kmmainwidget.cpp:4032
+#: kmmainwidget.cpp:4038
 msgid "&Move All Messages to Trash"
 msgstr "Alle Nachrichten in den &Papierkorb werfen"
 
-#: kmmainwidget.cpp:4133
+#: kmmainwidget.cpp:4139
 msgid "&Delete Search"
 msgstr "Suche e&ntfernen"
 
-#: kmmainwidget.cpp:4138 kmreadermainwin.cpp:330
+#: kmmainwidget.cpp:4144 kmreadermainwin.cpp:330
 msgid "&Move to Trash"
 msgstr "In den &Papierkorb werfen"
 
-#: kmmainwidget.cpp:4280
+#: kmmainwidget.cpp:4286
 #, kde-format
 msgid "Filter %1"
 msgstr "Filter „%1“"
 
-#: kmmainwidget.cpp:4565
+#: kmmainwidget.cpp:4571
 msgid "Network is unconnected. Folder information cannot be updated."
 msgstr ""
 "Das Netzwerk ist nicht verbunden. Die Informationen der Ordner können nicht "
 "aktualisiert werden."
 
-#: kmmainwidget.cpp:4573 kmmainwidget.cpp:4621
+#: kmmainwidget.cpp:4579 kmmainwidget.cpp:4627
 msgid "Retrieving folder properties"
 msgstr "Ordner-Eigenschaften werden bezogen"
 
-#: kmmainwidget.cpp:4652 kmmainwidget.cpp:4720
+#: kmmainwidget.cpp:4658 kmmainwidget.cpp:4726
 msgid "Done"
 msgstr "Abgeschlossen"
 
-#: kmmainwidget.cpp:4676
+#: kmmainwidget.cpp:4682
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr "Eigenschaften des Ordners %1"
 
-#: kmmainwidget.cpp:4688
+#: kmmainwidget.cpp:4694
 msgid "Removing duplicates"
 msgstr "Doppelte Nachrichten löschen"
 
-#: kmmainwidget.cpp:4714
+#: kmmainwidget.cpp:4720
 msgid "Error while removing duplicates"
 msgstr "Fehler beim Löschen von doppelten Nachrichten"
 
-#: kmmainwidget.cpp:4772
+#: kmmainwidget.cpp:4778
 msgid ""
 "IMAP server not configured yet. Please configure the server in the IMAP "
 "account before setting up server-side subscription."
@@ -4338,7 +4342,7 @@ msgstr ""
 "Server für den IMAP-Zugang ein, ehe Sie die serverseitigen Abonnements "
 "einstellen."
 
-#: kmmainwidget.cpp:4774
+#: kmmainwidget.cpp:4780
 msgid ""
 "Log in failed, please configure the IMAP account before setting up server-"
 "side subscription."
@@ -4346,15 +4350,15 @@ msgstr ""
 "Die Anmeldung ist fehlgeschlagen. Bitte stellen Sie den Server für den IMAP-"
 "Zugang ein, ehe Sie die serverseitigen Abonnements einstellen."
 
-#: kmmainwidget.cpp:4792
+#: kmmainwidget.cpp:4798
 msgid "Archive Mail Agent was not registered."
 msgstr "Der Agent zur E-Mail-Archivierung ist noch nicht registriert."
 
-#: kmmainwidget.cpp:4802
+#: kmmainwidget.cpp:4808
 msgid "Send Later Agent was not registered."
 msgstr "Der Agent zur späteren Senden ist noch nicht registriert."
 
-#: kmmainwidget.cpp:4818
+#: kmmainwidget.cpp:4824
 msgid ""
 "Could not start \"PIM Setting Exporter\" program. Please check your "
 "installation."
@@ -4362,11 +4366,11 @@ msgstr ""
 "Das Programm PIM-Einstellungs-Export lässt sich nicht starten. Bitte "
 "überprüfen Sie die korrekte Installation."
 
-#: kmmainwidget.cpp:4820
+#: kmmainwidget.cpp:4826
 msgid "Unable to start \"PIM Setting Exporter\" program"
 msgstr "Das Programm „PIM-Einstellungs-Export“ kann nicht gestartet werden."
 
-#: kmmainwidget.cpp:4860
+#: kmmainwidget.cpp:4866
 #, kde-format
 msgctxt "Show shortcut for focus quick search. Don't change it"
 msgid "Search...<%1>"
@@ -4607,134 +4611,126 @@ msgstr "<li>%1</li>\n"
 msgid "Contact modified successfully"
 msgstr "Der Kontakt wurde erfolgreich geändert"
 
-#: kmsystemtray.cpp:314
+#: kmsystemtray.cpp:306
 msgid "New Messages In"
 msgstr "Neue Nachrichten in"
 
-#: kmsystemtray.cpp:412
+#: kmsystemtray.cpp:404
 msgid "There are no unread messages"
 msgstr "Sie haben keine ungelesenen Nachrichten"
 
-#: kmsystemtray.cpp:413
+#: kmsystemtray.cpp:405
 #, kde-format
 msgid "1 unread message"
 msgid_plural "%1 unread messages"
 msgstr[0] "Eine ungelesene Nachricht"
 msgstr[1] "%1 ungelesene Nachrichten"
 
-#: messageactions.cpp:71
+#: messageactions.cpp:69
 msgctxt "Message->"
 msgid "&Reply"
 msgstr "&Antworten"
 
-#: messageactions.cpp:76 searchdialog/searchwindow.cpp:231
+#: messageactions.cpp:74 searchdialog/searchwindow.cpp:231
 msgid "&Reply..."
 msgstr "&Antworten ..."
 
-#: messageactions.cpp:83
+#: messageactions.cpp:81
 msgid "Reply to A&uthor..."
 msgstr "An&twort an Verfasser ..."
 
-#: messageactions.cpp:90 searchdialog/searchwindow.cpp:235
+#: messageactions.cpp:88 searchdialog/searchwindow.cpp:235
 msgid "Reply to &All..."
 msgstr "Allen ant&worten ..."
 
-#: messageactions.cpp:97 searchdialog/searchwindow.cpp:239
+#: messageactions.cpp:95 searchdialog/searchwindow.cpp:239
 msgid "Reply to Mailing-&List..."
 msgstr "An die Mailing&liste antworten ..."
 
-#: messageactions.cpp:104
+#: messageactions.cpp:102
 msgid "Reply Without &Quote..."
 msgstr "&Ohne Zitat antworten ..."
 
-#: messageactions.cpp:111
+#: messageactions.cpp:109
 msgid "Filter on Mailing-&List..."
 msgstr "Nach Mailing&liste filtern ..."
 
-#: messageactions.cpp:115
+#: messageactions.cpp:113
 msgid "Mar&k Message"
 msgstr "Nachricht &markieren"
 
-#: messageactions.cpp:136
+#: messageactions.cpp:134
 msgid "&Edit Message"
 msgstr "Nachricht &bearbeiten"
 
-#: messageactions.cpp:142 messageactions.cpp:287
-msgid "Add Note..."
-msgstr "Notiz hinzufügen ..."
-
-#: messageactions.cpp:151 searchdialog/searchwindow.cpp:243
+#: messageactions.cpp:144 searchdialog/searchwindow.cpp:243
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&Weiterleiten"
 
-#: messageactions.cpp:156
+#: messageactions.cpp:149
 msgctxt "@action:inmenu Message->Forward->"
 msgid "As &Attachment..."
 msgstr "Al&s Anhang ..."
 
-#: messageactions.cpp:164
+#: messageactions.cpp:157
 msgctxt "@action:inmenu Message->Forward->"
 msgid "&Inline..."
 msgstr "&Im Text ..."
 
-#: messageactions.cpp:172
+#: messageactions.cpp:165
 msgctxt "Message->Forward->"
 msgid "&Redirect..."
 msgstr "&Umleiten ..."
 
-#: messageactions.cpp:181
+#: messageactions.cpp:174
 msgctxt "Message->"
 msgid "Mailing-&List"
 msgstr "Mailing&liste"
 
-#: messageactions.cpp:289
-msgid "Edit Note..."
-msgstr "Notiz bearbeiten ..."
-
-#: messageactions.cpp:327
+#: messageactions.cpp:313
 msgid "Filter on Mailing-List..."
 msgstr "Nach Mailingliste filtern ..."
 
-#: messageactions.cpp:365
+#: messageactions.cpp:351
 msgid "Open Message in List Archive"
 msgstr "Nachricht im Mailinglisten-Archiv öffnen"
 
-#: messageactions.cpp:367
+#: messageactions.cpp:353
 msgid "Post New Message"
 msgstr "Neue Nachricht senden"
 
-#: messageactions.cpp:369
+#: messageactions.cpp:355
 msgid "Go to Archive"
 msgstr "Zum Mailinglisten-Archiv gehen"
 
-#: messageactions.cpp:371
+#: messageactions.cpp:357
 msgid "Request Help"
 msgstr "Mailinglisten-Hilfe anfordern"
 
-#: messageactions.cpp:373
+#: messageactions.cpp:359
 msgctxt "Contact the owner of the mailing list"
 msgid "Contact Owner"
 msgstr "Mailinglisten-Inhaber kontaktieren"
 
-#: messageactions.cpp:377
+#: messageactions.cpp:363
 msgid "Unsubscribe from List"
 msgstr "Abonnement kündigen"
 
-#: messageactions.cpp:385
+#: messageactions.cpp:371
 #, kde-format
 msgid "Filter on Mailing-List %1..."
 msgstr "Nach Mailingliste %1 filtern ..."
 
-#: messageactions.cpp:548
+#: messageactions.cpp:534
 msgid "email"
 msgstr "E-Mail"
 
-#: messageactions.cpp:551
+#: messageactions.cpp:537
 msgid "web"
 msgstr "Web"
 
-#: messageactions.cpp:554
+#: messageactions.cpp:540
 #, kde-format
 msgctxt ""
 "%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
@@ -4742,12 +4738,12 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: messageactions.cpp:617
+#: messageactions.cpp:593
 #, kde-format
 msgid "Search for '%1' with"
 msgstr "Nach „%1“ suchen mit"
 
-#: messageactions.cpp:631
+#: messageactions.cpp:607
 msgid "Configure Web Shortcuts..."
 msgstr "Web-Kürzel einrichten ..."
 
@@ -5369,10 +5365,11 @@ msgstr ""
 
 #: tag/tagactionmanager.cpp:118 tag/tagactionmanager.cpp:266
 #, kde-format
+#| msgid "Message Tag: %1"
 msgid "Message Tag %1"
-msgstr "Nachrichten-Markierung %1"
+msgstr "Nachrichten-Markierung: %1"
 
-#: tag/tagactionmanager.cpp:218 tag/tagselectdialog.cpp:53
+#: tag/tagactionmanager.cpp:218
 msgid "Add new tag..."
 msgstr "Neue Markierung hinzufügen ..."
 
@@ -5382,16 +5379,9 @@ msgstr "Mehr ..."
 
 #: tag/tagactionmanager.cpp:269
 #, kde-format
+#| msgid "Toggle Message Tag: %1"
 msgid "Toggle Message Tag %1"
 msgstr "Nachrichten-Markierung %1 umschalten"
-
-#: tag/tagselectdialog.cpp:51
-msgid "Select Tags"
-msgstr "Stichwörter auswählen"
-
-#: tag/tagselectdialog.cpp:65
-msgid "Search tag"
-msgstr "Markierung suchen"
 
 #. i18n: ectx: @info:tipoftheday
 #: tips:2
@@ -6735,6 +6725,173 @@ msgid_plural "Out of office reply active on servers"
 msgstr[0] "Abwesenheitsbenachrichtigung aktiv auf Server"
 msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Do you want to remove tag '%1'?"
+#~ msgstr "Möchten Sie die Markierung „%1“ entfernen?"
+
+#~ msgid "Plugins Settings"
+#~ msgstr "Modul-Einstellungen"
+
+#~ msgid "Send Mail Using Shortcut"
+#~ msgstr "E-Mail mit Kurzbefehlen versenden"
+
+#~ msgid "Sentence case"
+#~ msgstr "Groß-/Kleinschreibung"
+
+#~ msgid "Follow Up Mail..."
+#~ msgstr "Folgenachrichten ..."
+
+#~ msgid ""
+#~ "This shortcut allows to send mail directly. Mail can be send "
+#~ "accidentally. What do you want to do?"
+#~ msgstr ""
+#~ "Mit diesem Kurzbefehl können Sie E-Mails direkt versenden. E-Mails können "
+#~ "dann versehentlich versendet werden. Möchten Sie dies wirklich aktivieren?"
+
+#~ msgid "Configure shortcut"
+#~ msgstr "Kurzbefehl festlegen"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Kurzbefehl entfernen"
+
+#~ msgid "Ask Before Sending"
+#~ msgstr "Nachfragen vor Senden"
+
+#~ msgid "Sending Without Confirmation"
+#~ msgstr "Ohne Bestätigung senden"
+
+#~ msgid "Select Date"
+#~ msgstr "Datum auswählen"
+
+#~ msgid "Date:"
+#~ msgstr "Datum:"
+
+#~ msgid "Store ToDo in:"
+#~ msgstr "Aufgabe speichern in:"
+
+#~ msgid "The selected date must be greater than the current date."
+#~ msgstr "Das ausgewählte Datum muss nach dem aktuellen Datum liegen."
+
+#~ msgid "Invalid date"
+#~ msgstr "Ungültiges Datum"
+
+#~ msgid "&From existing vCard"
+#~ msgstr "Aus &vorhandene vCard"
+
+#~ msgid ""
+#~ "*.vcf|vCard (*.vcf)\n"
+#~ "*|all files (*)"
+#~ msgstr ""
+#~ "*.vcf|vCard (*.vcf)\n"
+#~ "*|Alle Dateien (*)"
+
+#~ msgid "&VCard path:"
+#~ msgstr "Pfad zur &VCard:"
+
+#~ msgid "Restore default domain name"
+#~ msgstr "Standard-Domainname wiederherstellen"
+
+#~ msgid "Followup Reminder Agent was not registered."
+#~ msgstr ""
+#~ "Der Agent zur Erinnerung an Folgenachrichten ist noch nicht registriert."
+
+#~ msgid "Delayed Messages..."
+#~ msgstr "Verspätete Nachrichten ..."
+
+#, fuzzy
+#~| msgid "&Find Messages..."
+#~ msgid "Followup Reminder Messages..."
+#~ msgstr "Nachrichten &suchen ..."
+
+#~ msgid "Edit Search..."
+#~ msgstr "Suche bearbeiten ..."
+
+#~ msgid "&Undo"
+#~ msgstr "&Rückgängig"
+
+#~ msgid "&Undo: \"%1\""
+#~ msgstr "&Rückgängig: „%1“"
+
+#~ msgid "Attachment"
+#~ msgstr "Anhang"
+
+#~ msgid "Select attachment:"
+#~ msgstr "Anhang auswählen"
+
+#~ msgid "Mail Merge"
+#~ msgstr "Serienbriefe"
+
+#~ msgid "Source:"
+#~ msgstr "Quelle:"
+
+#~ msgid "Address Book"
+#~ msgstr "Adressbuch"
+
+#~ msgid "CSV"
+#~ msgstr "CSV"
+
+#~ msgid "Path:"
+#~ msgstr "Pfad:"
+
+#~ msgid "Attachment:"
+#~ msgstr "Anhang:"
+
+#~ msgid "Add Note..."
+#~ msgstr "Notiz hinzufügen ..."
+
+#, fuzzy
+#~| msgid "&Find Messages..."
+#~ msgid "Add Followup Reminder..."
+#~ msgstr "Nachrichten &suchen ..."
+
+#~ msgid "Edit Note..."
+#~ msgstr "Notiz bearbeiten ..."
+
+#~ msgid "Jump to original folder"
+#~ msgstr "Zum ursprünglichen Ordner wechseln"
+
+#~ msgid "You forgot to add conditions."
+#~ msgstr "Es wurde keine Bedingung hinzugefügt."
+
+#~ msgid "Show crypto label indicator"
+#~ msgstr "Markierung für Verschlüsselung anzeigen"
+
+#~ msgid "Validate Send Default Shortcut"
+#~ msgstr "Standard-Kurzbefehl zum Senden überprüfen"
+
+#~ msgid "Select Tags"
+#~ msgstr "Stichwörter auswählen"
+
+#~ msgid "Search tag"
+#~ msgstr "Markierung suchen"
+
+#~ msgid "Show sign/encrypt indicator in editor"
+#~ msgstr "Markierung für Signieren/Verschlüsseln im Editor anzeigen"
+
+#~ msgid "Move To Trash"
+#~ msgstr "In den Papierkorb werfen"
+
+#~ msgid "Move Message"
+#~ msgid_plural "Move Messages"
+#~ msgstr[0] "Nachricht verschieben"
+#~ msgstr[1] "Nachrichten verschieben"
+
+#~ msgid "Message Default Format"
+#~ msgstr "Standard-Nachrichtenformat"
+
+#~ msgid "Prefer &Plain Text to HTML"
+#~ msgstr "Klartext vor H&TML-Ansicht bevorzugen"
+
+#~ msgid "Use Global Setting"
+#~ msgstr "Globale Einstellung verwenden"
+
+#, fuzzy
+#~| msgid "&Use custom colors"
+#~ msgid "Use custom order"
+#~ msgstr "E&igene Farben benutzen"
+
 #~ msgid "Warn when inserting attachments larger than:"
 #~ msgstr "Warnen beim Einfügen von Anhängen größer als:"
 
@@ -7259,9 +7416,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "Unable to start backupmail"
 #~ msgstr "Der Postfach-Assistent lässt sich nicht starten."
 
-#~ msgid "&View Source"
-#~ msgstr "Nachr&ichtencode ansehen"
-
 #~ msgid "Access Control"
 #~ msgstr "Zugangskontrolle"
 
@@ -7697,13 +7851,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "Crypto"
 #~ msgstr "Verschlüsselung"
 
-#~ msgid ""
-#~ "*.mbox|email messages (*.mbox)\n"
-#~ "*|all files (*)"
-#~ msgstr ""
-#~ "*.mbox|E-Mail-Nachrichten (*.mbox)\n"
-#~ "*|Alle Dateien (*)"
-
 #~ msgid "Found no attachments to save."
 #~ msgstr "Es wurden keine Anhänge zum Speichern gefunden."
 
@@ -8104,9 +8251,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 
 #~ msgid "Delete Script"
 #~ msgstr "Skript löschen"
-
-#~ msgid "Edit Script..."
-#~ msgstr "Skript bearbeiten ..."
 
 #~ msgid "Deactivate Script"
 #~ msgstr "Skript deaktivieren"
@@ -8804,9 +8948,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 
 #~ msgid "BCC"
 #~ msgstr "Blindkopie"
-
-#~ msgid "KMail Filter"
-#~ msgstr "KMail-Filter"
 
 #~ msgid "with category"
 #~ msgstr "mit der Kategorie"
@@ -9605,11 +9746,11 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgstr "S/MIME-Zertifikat abgelaufen"
 
 #~ msgid ""
-#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>expires in less than a day.</p>"
+#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>expires in less than a day.</p>"
 #~ msgid_plural ""
-#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>expires in less than %1 days.</p>"
+#~ "<p>Your OpenPGP signing key</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>expires in less than %1 days.</p>"
 #~ msgstr[0] ""
 #~ "<p>Ihr OpenPGP-Signaturschlüssel</p><p align=\"center\"><b>%2</b> (KeyID "
 #~ "0x%3)</p><p>läuft in weniger als einem Tag ab.</p>"
@@ -9637,8 +9778,8 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ "<p>The OpenPGP key for</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)</"
 #~ "p><p>expires in less than %1 days.</p>"
 #~ msgstr[0] ""
-#~ "<p>Der OpenPGP-Schlüssel für</p><p align=\"center\"><b>%2</b> (KeyID 0x%3)"
-#~ "</p><p>läuft in weniger als einem Tag ab.</p>"
+#~ "<p>Der OpenPGP-Schlüssel für</p><p align=\"center\"><b>%2</b> (KeyID 0x"
+#~ "%3)</p><p>läuft in weniger als einem Tag ab.</p>"
 #~ msgstr[1] ""
 #~ "<p>Der OpenPGP-Signaturschlüssel für</p><p align=\"center\"><b>%2</b> "
 #~ "(KeyID 0x%3)</p><p>läuft in weniger als %1 Tagen ab.</p>"
@@ -11616,9 +11757,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "<b>Bad</b> signature."
 #~ msgstr "Ungültige Signatur."
 
-#~ msgid "Invalid signature."
-#~ msgstr "Ungültige Signatur."
-
 #~ msgid "Not enough information to check signature validity."
 #~ msgstr ""
 #~ "Es sind nicht genügend Informationen zur Überprüfung der Signatur "
@@ -12074,9 +12212,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "Folder"
 #~ msgstr "Ordner"
 
-#~ msgid "Path"
-#~ msgstr "Pfad"
-
 #~ msgid ""
 #~ "<qt><p>Structuring information returned by the Crypto plug-in could not "
 #~ "be processed correctly; the plug-in might be damaged.</p><p>Please "
@@ -12134,9 +12269,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ "Das eingebettete OpenPGP-Kryptografieformat unterstützt die "
 #~ "Verschlüsselung oder Signierung von Anhängen nicht.\n"
 #~ "Möchten Sie wirklich das veraltete eingebettete OpenPGP-Format verwenden?"
-
-#~ msgid "Insecure Message Format"
-#~ msgstr "Unsicheres Nachrichtenformat"
 
 #~ msgid "Use Inline OpenPGP"
 #~ msgstr "Integriertes OpenPGP verwenden"
@@ -12387,9 +12519,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "BCC: "
 #~ msgstr "Blindkopie: "
 
-#~ msgid "Date: "
-#~ msgstr "Datum: "
-
 #~ msgid "From: "
 #~ msgstr "Von: "
 
@@ -12489,9 +12618,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 
 #~ msgid "Save All Attachments..."
 #~ msgstr "Alle A&nhänge speichern ..."
-
-#~ msgid "Delete Attachment"
-#~ msgstr "Anhang entfernen"
 
 #~ msgid "Edit Attachment"
 #~ msgstr "Anhang bearbeiten"
@@ -14123,8 +14249,8 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ "          Der Dateiname-Trenner für Maildir-Dateien „uniq:info“ - siehe "
 #~ "auch die Spezifikation von Maildir unter http://cr.yp.to/proto/maildir."
 #~ "html\n"
-#~ "          Die Voreinstellung ist vom Betriebssystem abhängig. Windows="
-#~ "„!“, alle anderen Betriebssysteme nutzen „:“.\n"
+#~ "          Die Voreinstellung ist vom Betriebssystem abhängig. "
+#~ "Windows=„!“, alle anderen Betriebssysteme nutzen „:“.\n"
 #~ "        "
 
 #~ msgid "Enable groupware functionality"
@@ -14781,9 +14907,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ "Das Bearbeiten eines Anhangs könnte eine digitale Signatur für diese "
 #~ "Nachricht ungültig machen."
 
-#~ msgid "Attachments:"
-#~ msgstr "Anhänge:"
-
 #~ msgid "Address copied to clipboard."
 #~ msgstr "Die Adresse wurde in die Zwischenablage kopiert."
 
@@ -15198,9 +15321,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "&Continue Sending"
 #~ msgstr "Versenden &fortsetzen"
 
-#~ msgid "&Abort Sending"
-#~ msgstr "Versenden &abbrechen"
-
 #~ msgid ""
 #~ "Sending failed:\n"
 #~ "%1\n"
@@ -15588,10 +15708,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgctxt "Size of a message"
 #~ msgid "Size"
 #~ msgstr "Größe"
-
-#~ msgctxt "Attachement indication"
-#~ msgid "Attachment"
-#~ msgstr "Anhang"
 
 #~ msgid "New/Unread"
 #~ msgstr "Neu/Ungelesen"
@@ -16697,9 +16813,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 #~ msgid "Display messa&ge sizes"
 #~ msgstr "&Nachrichtengröße anzeigen"
 
-#~ msgid "Show crypto &icons"
-#~ msgstr "Verschlüsselungss&ymbole anzeigen"
-
 #~ msgid "Threaded Message List Options"
 #~ msgstr "Einstellungen für die gruppierte Nachrichtenliste"
 
@@ -17028,9 +17141,6 @@ msgstr[1] "Abwesenheitsbenachrichtigung aktiv auf Servern"
 
 #~ msgid "&Extras"
 #~ msgstr "&Extras"
-
-#~ msgid "Select Style"
-#~ msgstr "Stil auswählen"
 
 #~ msgid "Align Left"
 #~ msgstr "Linksbündig"

@@ -1,11 +1,11 @@
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2010.
-# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2011, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_toolbox_desktoptoolbox\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-11-05 11:50+0000\n"
-"PO-Revision-Date: 2013-11-14 05:39+0100\n"
+"PO-Revision-Date: 2014-10-23 21:47+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -33,8 +33,8 @@ msgid ""
 "Click to access configuration options and controls, or to add more widgets "
 "to the %1."
 msgstr ""
-"Klicken Sie, um auf die Einstellungen und Kontrollmöglichkeiten zuzugreifen "
-"oder um weitere Miniprogramme zu „%1“ hinzuzufügen."
+"Klicken Sie, um auf Einstellungen und Kontrollmöglichkeiten zuzugreifen oder "
+"um weitere Miniprogramme zu „%1“ hinzuzufügen."
 
 #: paneltoolbox.cpp:252
 msgid "Panel Tool Box"

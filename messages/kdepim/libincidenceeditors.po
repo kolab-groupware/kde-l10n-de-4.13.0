@@ -3,7 +3,7 @@
 # Stephan Johach <hunsum@gmx.de>, 2003, 2004, 2005, 2006.
 # Matthias Kalle Dalheimer <kalle@kdab.net>, 2004.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2007, 2008, 2009, 2010.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
 # Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013.
 # Moritz Baumann <flamingmo@online.de>, 2010.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libincidenceeditors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-27 06:10+0000\n"
-"PO-Revision-Date: 2013-08-27 05:54+0200\n"
+"POT-Creation-Date: 2014-10-29 05:21+0000\n"
+"PO-Revision-Date: 2014-10-15 21:05+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -380,41 +380,63 @@ msgstr ""
 "Geben Sie hier den Text der E-Mail-Nachricht ein, die beim Auslösen der "
 "Erinnerung gesendet wird."
 
-#: alarmpresets.cpp:102
-#, kde-format
+#: alarmpresets.cpp:103
 msgctxt "@item:inlistbox"
-msgid "%1 minutes before start"
-msgstr "%1 Minuten vor Start"
+msgid "At start"
+msgstr "Zu Beginn"
 
-#: alarmpresets.cpp:105
+#: alarmpresets.cpp:106
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "%1 hours before start"
-msgstr "%1 Stunden vor Beginn"
+msgid "%1 minute before start"
+msgid_plural "%1 minutes before start"
+msgstr[0] "%1 Minute vor Beginn"
+msgstr[1] "%1 Minuten vor Beginn"
 
-#: alarmpresets.cpp:108
+#: alarmpresets.cpp:110
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "%1 days before start"
-msgstr "%1 Tage vor Beginn"
+msgid "%1 hour before start"
+msgid_plural "%1 hours before start"
+msgstr[0] "%1 Stunden vor Beginn"
+msgstr[1] "%1 Stunden vor Beginn"
 
-#: alarmpresets.cpp:122
+#: alarmpresets.cpp:114
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "%1 minutes before due"
-msgstr "%1 Minuten vor Fälligkeit"
-
-#: alarmpresets.cpp:126
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "%1 hours before due"
-msgstr "%1 Stunden vor Fälligkeit"
+msgid "%1 day before start"
+msgid_plural "%1 days before start"
+msgstr[0] "%1 Tag vor Beginn"
+msgstr[1] "%1 Tage vor Beginn"
 
 #: alarmpresets.cpp:129
+msgctxt "@item:inlistbox"
+msgid "When due"
+msgstr "Wenn fällig"
+
+#: alarmpresets.cpp:132
 #, kde-format
 msgctxt "@item:inlistbox"
-msgid "%1 days before due"
-msgstr "%1 Tage vor Jahresende"
+msgid "%1 minute before due"
+msgid_plural "%1 minutes before due"
+msgstr[0] "%1 Minute vor Fälligkeit"
+msgstr[1] "%1 Minuten vor Fälligkeit"
+
+#: alarmpresets.cpp:136
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 hour before due"
+msgid_plural "%1 hours before due"
+msgstr[0] "%1 Stunde vor Fälligkeit"
+msgstr[1] "%1 Stunden vor Fälligkeit"
+
+#: alarmpresets.cpp:140
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 day before due"
+msgid_plural "%1 days before due"
+msgstr[0] "%1 Tag vor Fälligkeit"
+msgstr[1] "%1 Tage vor Fälligkeit"
 
 #: attachmenteditdialog.cpp:57
 msgctxt "@label unknown mimetype"
@@ -1215,7 +1237,7 @@ msgstr "Tag(e)"
 #. i18n: ectx: property (text), widget (QCheckBox, mThisAndFutureCheck)
 #: dialogdesktop.ui:1085 dialogmoremobile.ui:768
 msgid "This and future occurrences."
-msgstr "Diese und alle zukünftigen Wiederholungen."
+msgstr "Diese und alle zukünftigen Vorkommen."
 
 #. i18n: ectx: property (text), widget (QLabel, mRecurrenceEndLabel)
 #: dialogdesktop.ui:1256
@@ -1252,7 +1274,7 @@ msgstr ""
 #: dialogdesktop.ui:1398 dialogmoremobile.ui:668
 msgctxt "@label"
 msgid "occurrence(s)"
-msgstr "Wiederholungen"
+msgstr "Vorkommen"
 
 #. i18n: ectx: property (text), widget (QLabel, mExceptionsLabel)
 #: dialogdesktop.ui:1417
@@ -2044,27 +2066,27 @@ msgctxt "@action:inmenu"
 msgid "C&ancel"
 msgstr "&Abbrechen"
 
-#: incidenceattachment.cpp:489
+#: incidenceattachment.cpp:494
 msgctxt "@action:inmenu open the attachment in a viewer"
 msgid "&Open"
 msgstr "Öff&nen"
 
-#: incidenceattachment.cpp:495
+#: incidenceattachment.cpp:500
 msgctxt "@action:inmenu save the attachment to a file"
 msgid "Save As..."
 msgstr "Speichern unter ..."
 
-#: incidenceattachment.cpp:513
+#: incidenceattachment.cpp:518
 msgctxt "@action:inmenu remove the attachment"
 msgid "&Remove"
 msgstr "&Entfernen"
 
-#: incidenceattachment.cpp:521
+#: incidenceattachment.cpp:526
 msgctxt "@action:inmenu show a dialog used to edit the attachment"
 msgid "&Properties..."
 msgstr "&Eigenschaften ..."
 
-#: incidenceattachment.cpp:531
+#: incidenceattachment.cpp:536
 msgctxt "@info:whatsthis"
 msgid ""
 "Displays items (files, mail, etc.) that have been associated with this event "
@@ -2107,56 +2129,56 @@ msgstr ""
 "Sie sind dabei, den Organisator des Termins zu wechseln, der gleichzeitig "
 "auch Teilnehmer daran ist. Soll auch der Teilnehmer gewechselt werden?"
 
-#: incidencedatetime.cpp:268
+#: incidencedatetime.cpp:269
 msgctxt "@action show or hide the time zone widgets"
 msgid "Time zones"
 msgstr "Zeitzonen"
 
-#: incidencedatetime.cpp:678
+#: incidencedatetime.cpp:679
 msgctxt "@label The due date/time of a to-do"
 msgid "Due:"
 msgstr "Fällig:"
 
-#: incidencedatetime.cpp:854 incidencedatetime.cpp:855
+#: incidencedatetime.cpp:855 incidencedatetime.cpp:856
 #, kde-format
 msgid "Starts: %1"
 msgstr "Started: %1"
 
-#: incidencedatetime.cpp:857
+#: incidencedatetime.cpp:858
 msgid "Starting Date"
 msgstr "Anfangsdatum"
 
-#: incidencedatetime.cpp:858
+#: incidencedatetime.cpp:859
 msgid "Starting Time"
 msgstr "Anfangszeit"
 
-#: incidencedatetime.cpp:872 incidencedatetime.cpp:873
+#: incidencedatetime.cpp:873 incidencedatetime.cpp:874
 #, kde-format
 msgid "Due on: %1"
 msgstr "Fällig am: %1"
 
-#: incidencedatetime.cpp:875 incidencedatetime.cpp:876
+#: incidencedatetime.cpp:876 incidencedatetime.cpp:877
 #, kde-format
 msgid "Ends: %1"
 msgstr "Endet: %1"
 
-#: incidencedatetime.cpp:880
+#: incidencedatetime.cpp:881
 msgid "Due Date"
 msgstr "Fälligkeitsdatum"
 
-#: incidencedatetime.cpp:881
+#: incidencedatetime.cpp:882
 msgid "Due Time"
 msgstr "Fälligkeitszeit"
 
-#: incidencedatetime.cpp:883
+#: incidencedatetime.cpp:884
 msgid "Ending Date"
 msgstr "Enddatum"
 
-#: incidencedatetime.cpp:884
+#: incidencedatetime.cpp:885
 msgid "Ending Time"
 msgstr "Endzeit"
 
-#: incidencedatetime.cpp:945
+#: incidencedatetime.cpp:946
 msgctxt "@info"
 msgid ""
 "The event ends before it starts.\n"
@@ -2165,7 +2187,7 @@ msgstr ""
 "Der Termin endet, bevor er beginnt.\n"
 "Bitte korrigieren Sie Datum/Uhrzeit."
 
-#: incidencedatetime.cpp:950
+#: incidencedatetime.cpp:951
 msgctxt "@info"
 msgid ""
 "The to-do is due before it starts.\n"
@@ -2189,97 +2211,101 @@ msgctxt "@label invalid email address marker"
 msgid "invalid@email.address"
 msgstr "Ungültige E-Mail-Adresse"
 
-#: incidencedescription.cpp:139
+#: incidencedescription.cpp:140
 msgctxt "@action Enable or disable rich text editting"
 msgid "Enable rich text"
 msgstr "Rich-Text anzeigen"
 
-#: incidencedescription.cpp:143
+#: incidencedescription.cpp:144
 msgctxt "@action Enable or disable rich text editting"
 msgid "Disable rich text"
 msgstr "Rich-Text nicht anzeigen"
 
-#: incidencedialog.cpp:211
+#: incidencedialog.cpp:203
+msgid "Select a valid collection first."
+msgstr "Wählen Sie zuerst eine gültige Sammlung."
+
+#: incidencedialog.cpp:219
 #, kde-format
 msgctxt "@title:tab Tab to configure the reminders of an event or todo"
 msgid "Reminder (%1)"
 msgstr "Erinnerung (%1)"
 
-#: incidencedialog.cpp:215
+#: incidencedialog.cpp:223
 msgctxt "@title:tab Tab to configure the reminders of an event or todo"
 msgid "Reminder"
 msgstr "Erinnerung"
 
-#: incidencedialog.cpp:225
+#: incidencedialog.cpp:233
 msgctxt "@title:tab Tab to configure the recurrence of an event or todo"
 msgid "Rec&urrence"
 msgstr "&Wiederholung"
 
-#: incidencedialog.cpp:235
+#: incidencedialog.cpp:243
 msgctxt "@title:tab Daily recurring event, capital first letter only"
 msgid " (D)"
 msgstr " (T)"
 
-#: incidencedialog.cpp:238
+#: incidencedialog.cpp:246
 msgctxt "@title:tab Weekly recurring event, capital first letter only"
 msgid " (W)"
 msgstr " (W)"
 
-#: incidencedialog.cpp:241
+#: incidencedialog.cpp:249
 msgctxt "@title:tab Monthly recurring event, capital first letter only"
 msgid " (M)"
 msgstr " (M)"
 
-#: incidencedialog.cpp:244
+#: incidencedialog.cpp:252
 msgctxt "@title:tab Yearly recurring event, capital first letter only"
 msgid " (Y)"
 msgstr " (J)"
 
-#: incidencedialog.cpp:247
+#: incidencedialog.cpp:255
 msgctxt "@title:tab Exception to a recurring event, capital first letter only"
 msgid " (E)"
 msgstr " (E)"
 
-#: incidencedialog.cpp:286
+#: incidencedialog.cpp:294
 #, kde-format
 msgctxt "@info"
 msgid "Unable to find template '%1'."
 msgstr "Die Vorlage „%1“ wurde nicht gefunden."
 
-#: incidencedialog.cpp:294
+#: incidencedialog.cpp:302
 #, kde-format
 msgctxt "@info"
 msgid "Error loading template file '%1'."
 msgstr "Fehler beim Laden der Vorlagendatei „%1“."
 
-#: incidencedialog.cpp:302
+#: incidencedialog.cpp:310
 msgctxt "@info"
 msgid "Template does not contain a valid incidence."
 msgstr "Die Vorlage enthält kein gültiges Ereignis."
 
-#: incidencedialog.cpp:393
+#: incidencedialog.cpp:401
 #, kde-format
 msgctxt "@title:tab Tab to modify attachments of an event or todo"
 msgid "Attac&hments (%1)"
 msgstr "An&hänge (%1)"
 
-#: incidencedialog.cpp:398
+#: incidencedialog.cpp:406
 msgctxt "@title:tab Tab to modify attachments of an event or todo"
 msgid "Attac&hments"
 msgstr "An&hänge"
 
-#: incidencedialog.cpp:408
+#: incidencedialog.cpp:416
 #, kde-format
 msgctxt "@title:tab Tab to modify attendees of an event or todo"
 msgid "&Attendees (%1)"
 msgstr "&Teilnehmer (%1)"
 
-#: incidencedialog.cpp:413
+#: incidencedialog.cpp:421
 msgctxt "@title:tab Tab to modify attendees of an event or todo"
 msgid "&Attendees"
 msgstr "&Teilnehmer"
 
-#: incidencedialog.cpp:438
+#: incidencedialog.cpp:446
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -2292,32 +2318,32 @@ msgstr ""
 "\n"
 "Grund: %1"
 
-#: incidencedialog.cpp:631
+#: incidencedialog.cpp:641
 msgctxt "@info:tooltip"
 msgid "Save current changes"
 msgstr "Aktuelle Änderungen speichern"
 
-#: incidencedialog.cpp:633
+#: incidencedialog.cpp:643
 msgctxt "@action:button"
 msgid "Save changes and close dialog"
 msgstr "Anderungen speichern und Dialog schließen"
 
-#: incidencedialog.cpp:635
+#: incidencedialog.cpp:645
 msgctxt "@action:button"
 msgid "Discard changes and close dialog"
 msgstr "Änderungen verwerfen und Dialog schließen"
 
-#: incidencedialog.cpp:639
+#: incidencedialog.cpp:649
 msgctxt "@action:button"
 msgid "&Templates..."
 msgstr "&Vorlagen ..."
 
-#: incidencedialog.cpp:643
+#: incidencedialog.cpp:653
 msgctxt "@info:tooltip"
 msgid "Manage templates for this item"
 msgstr "Vorlagen für dieses Element verwalten"
 
-#: incidencedialog.cpp:646
+#: incidencedialog.cpp:656
 msgctxt "@info:whatsthis"
 msgid ""
 "Push this button to show a dialog that helps you manage a set of templates. "
@@ -2329,12 +2355,12 @@ msgstr ""
 "Ereignisse, indem Ihre bevorzugten Einträge automatisch in den Editor "
 "eingetragen werden."
 
-#: incidencedialog.cpp:752 incidencedialog.cpp:774
+#: incidencedialog.cpp:780 incidencedialog.cpp:802
 msgctxt "@info"
 msgid "Do you really want to cancel?"
 msgstr "Möchten Sie wirklich abbrechen?"
 
-#: incidencedialog.cpp:753 incidencedialog.cpp:775
+#: incidencedialog.cpp:781 incidencedialog.cpp:803
 msgctxt "@title:window"
 msgid "KOrganizer Confirmation"
 msgstr "KOrganizer-Bestätigung"
@@ -2462,8 +2488,8 @@ msgstr "der %1. Tag des Jahres"
 msgctxt "Recurrence ends after n occurrences"
 msgid "occurrence"
 msgid_plural "occurrences"
-msgstr[0] "Wiederholung"
-msgstr[1] "Wiederholungen"
+msgstr[0] "Vorkommen"
+msgstr[1] "Vorkommen"
 
 #: incidencerecurrence.cpp:625
 msgctxt "repeat every N >weeks<"
@@ -2803,9 +2829,9 @@ msgid ""
 msgstr ""
 "Wählen Sie die Vergrößerungsstufe des Gantt-Diagramms:<nl/>„Stunde“ zeigt "
 "den Inhalt stundenbasiert an,<nl/>„Tage“ zeigt einige Tage an,<nl/>„Wochen“ "
-"zeigt einige Monate an,<nl/>und „Monate“ zeigt einige Jahre an.<nl/>"
-"„Automatisch“ wählt eine Vergrößerungsstufe aus, die am besten zur aktuellen "
-"Aufgabe bzw. zum aktuellen Ereignis passt."
+"zeigt einige Monate an,<nl/>und „Monate“ zeigt einige Jahre an.<nl/"
+">„Automatisch“ wählt eine Vergrößerungsstufe aus, die am besten zur "
+"aktuellen Aufgabe bzw. zum aktuellen Ereignis passt."
 
 #: visualfreebusywidget.cpp:177
 msgctxt "@item:inlistbox range in hours"
@@ -7749,9 +7775,6 @@ msgstr ""
 
 #~ msgid "Page Title"
 #~ msgstr "Seitentitel"
-
-#~ msgid "Date start"
-#~ msgstr "Startdatum"
 
 #~ msgid "First day of the range that shall be exported to HTML."
 #~ msgstr "Der erste Tag des Zeitraumes, der als HTML exportiert werden soll."

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: archivemailagent\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-08 05:45+0000\n"
-"PO-Revision-Date: 2014-01-04 11:47+0100\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-08-05 14:39+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -83,7 +83,7 @@ msgstr "Maximale Anzahl von Archiven:"
 msgid "unlimited"
 msgstr "unbegrenzt"
 
-#: archivejob.cpp:73
+#: archivejob.cpp:67
 #, kde-format
 msgid "Start to archive %1"
 msgstr "Archivierung von %1 wird gestartet"
@@ -201,6 +201,11 @@ msgstr "Ändern ..."
 #: ui/archivemailwidget.ui:33
 msgid "Remove"
 msgstr "Entfernen"
+
+#~ msgid "Directory does not exist. Please verify settings. Archive postponed."
+#~ msgstr ""
+#~ "Der Ordner existiert nicht. Bitte überprüfen Sie die Einstellungen. Die "
+#~ "Archivierung wurde zurückgestellt."
 
 #~ msgid "1 day"
 #~ msgid_plural "%1 days"

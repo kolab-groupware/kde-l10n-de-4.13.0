@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-15 01:27+0000\n"
-"PO-Revision-Date: 2014-01-27 09:58+0100\n"
+"POT-Creation-Date: 2014-08-04 01:39+0000\n"
+"PO-Revision-Date: 2014-08-05 16:27+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -102,71 +102,71 @@ msgstr "Anmeldebild des Benutzers"
 msgid "Password echo type"
 msgstr "Art der Passwortanzeige"
 
-#: main.cpp:74
+#: main.cpp:73
 msgid "Change &Password..."
 msgstr "&Passwort ändern ..."
 
-#: main.cpp:92
+#: main.cpp:91
 msgid "Password & User Information"
 msgstr "Passwort & Benutzerinfo"
 
-#: main.cpp:94
+#: main.cpp:93
 msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
 msgstr "© 2002, Braden MacDonald, © 2004 Ravikiran Rajagopal"
 
-#: main.cpp:97
+#: main.cpp:96
 msgid "Frans Englich"
 msgstr "Frans Englich"
 
-#: main.cpp:97
+#: main.cpp:96
 msgid "Maintainer"
 msgstr "Betreuer"
 
-#: main.cpp:98
+#: main.cpp:97
 msgid "Ravikiran Rajagopal"
 msgstr "Ravikiran Rajagopal"
 
-#: main.cpp:99
+#: main.cpp:98
 msgid "Michael Häckel"
 msgstr "Michael Häckel"
 
-#: main.cpp:101
+#: main.cpp:100
 msgid "Braden MacDonald"
 msgstr "Braden MacDonald"
 
-#: main.cpp:101
+#: main.cpp:100
 msgid "Face editor"
 msgstr "Bildeditor"
 
-#: main.cpp:102
+#: main.cpp:101
 msgid "Geert Jansen"
 msgstr "Geert Jansen"
 
-#: main.cpp:102
+#: main.cpp:101
 msgid "Password changer"
 msgstr "Passwort ändern"
 
-#: main.cpp:104
+#: main.cpp:103
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:105
+#: main.cpp:104
 msgid "Alex Zepeda"
 msgstr "Alex Zepeda"
 
-#: main.cpp:106
+#: main.cpp:105
 msgid "Hans Karlsson"
 msgstr "Hans Karlsson"
 
-#: main.cpp:106 main.cpp:107
+#: main.cpp:105 main.cpp:106
 msgid "Icons"
 msgstr "Symbole"
 
-#: main.cpp:107
+#: main.cpp:106
 msgid "Hermann Thomas"
 msgstr "Hermann Thomas"
 
-#: main.cpp:110
+#: main.cpp:109
 msgid ""
 "<qt>Here you can change your personal information, which will be used, for "
 "instance, in mail programs and word processors. You can change your login "
@@ -177,7 +177,7 @@ msgstr ""
 "Anmeldungs-Passwort durch Anklicken von <em>Passwort ändern ...</em> "
 "bearbeiten.</qt>"
 
-#: main.cpp:124
+#: main.cpp:123
 msgid ""
 "A program error occurred: the internal program 'kdepasswd' could not be "
 "found. You will not be able to change your password."
@@ -185,46 +185,27 @@ msgstr ""
 "Es ist ein interner Fehler aufgetreten: Das Programm „kdepasswd“ ist nicht "
 "auffindbar. Sie können daher Ihr Passwort nicht ändern."
 
-#: main.cpp:185
-msgid "Please enter your password in order to save your settings:"
-msgstr "Bitte geben Sie Ihr Passwort ein, um die Einstellungen zu speichern."
-
-#: main.cpp:188
-msgid "You must enter your password in order to change your information."
-msgstr ""
-"Sie müssen Ihr Passwort eingeben, um die Informationen ändern zu können."
-
-#: main.cpp:198
-msgid "You must enter a correct password."
-msgstr "Sie müssen ein gültiges Passwort eingeben."
-
-#: main.cpp:202
+#: main.cpp:200
 #, kde-format
-msgid ""
-"An error occurred and your name has probably not been changed. The error "
-"message was:\n"
-"%1"
-msgstr ""
-"Es ist ein Fehler aufgetreten, Ihr Name wurde wahrscheinlich nicht geändert. "
-"Die Fehlermeldung lautet:\n"
-"%1"
+msgid "There was an error setting the name: %1"
+msgstr "Beim Einstellen des Namens ist ein Fehler aufgetreten: %1"
 
-#: main.cpp:222
+#: main.cpp:212
 #, kde-format
 msgid "There was an error saving the image: %1"
 msgstr "Beim Speichern des Bildes ist ein Fehler aufgetreten: %1"
 
-#: main.cpp:240
+#: main.cpp:230
 #, kde-format
 msgid "There was an error setting the image: %1"
 msgstr "Beim Einstellen des Bildes ist ein Fehler aufgetreten: %1"
 
-#: main.cpp:247
+#: main.cpp:238
 #, kde-format
 msgid "There was an error deleting the image: %1"
 msgstr "Beim Löschen des Bildes ist ein Fehler aufgetreten: %1"
 
-#: main.cpp:326
+#: main.cpp:318
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"
@@ -299,6 +280,26 @@ msgstr "Drei Punkte pro Buchstabe anzeigen"
 #: main_widget.ui:260
 msgid "Show nothing"
 msgstr "Nichts anzeigen"
+
+#~ msgid "Please enter your password in order to save your settings:"
+#~ msgstr ""
+#~ "Bitte geben Sie Ihr Passwort ein, um die Einstellungen zu speichern."
+
+#~ msgid "You must enter your password in order to change your information."
+#~ msgstr ""
+#~ "Sie müssen Ihr Passwort eingeben, um die Informationen ändern zu können."
+
+#~ msgid "You must enter a correct password."
+#~ msgstr "Sie müssen ein gültiges Passwort eingeben."
+
+#~ msgid ""
+#~ "An error occurred and your name has probably not been changed. The error "
+#~ "message was:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Es ist ein Fehler aufgetreten, Ihr Name wurde wahrscheinlich nicht "
+#~ "geändert. Die Fehlermeldung lautet:\n"
+#~ "%1"
 
 #~ msgid "Your administrator has disallowed changing your image."
 #~ msgstr "Die Systemverwaltung hat die Änderung Ihres Bildes unterbunden."

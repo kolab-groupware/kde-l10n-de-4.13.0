@@ -4,7 +4,7 @@
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006, 2007, 2008.
 # Gregor Zumstein <gz@orchester-bremgarten.ch>, 2007, 2008, 2009.
 # Rolf Eike Beer <kde@opensource.sf-tec.de>, 2008, 2012.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2014.
 # Johannes Obermayr <johannesobermayr@gmx.de>, 2009, 2010.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2009, 2011.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012.
@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-15 05:41+0000\n"
-"PO-Revision-Date: 2012-11-10 17:49+0100\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"POT-Creation-Date: 2014-12-30 06:27+0000\n"
+"PO-Revision-Date: 2014-10-27 08:27+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Translator: Stephan Kulow <coolo@kde.org>\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "NAME OF TRANSLATORS"
@@ -57,7 +57,7 @@ msgstr "Die folgenden Dateien können nicht entpackt werden:"
 msgid "There was an error during extraction."
 msgstr "Beim Entpacken ist ein Fehler aufgetreten."
 
-#: app/extractHereDndPlugin.cpp:64
+#: app/extractHereDndPlugin.cpp:63
 msgctxt ""
 "@action:inmenu Context menu shown when an archive is being drag'n'dropped"
 msgid "Extract here"
@@ -233,25 +233,25 @@ msgstr ""
 "einem Ordner handelt, wird ein Unterordner mit dem Namen des Archivs "
 "erstellt."
 
-#: app/mainwindow.cpp:133
+#: app/mainwindow.cpp:137
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 "Die KPart-Komponente von Ark kann nicht gefunden werden. Bitte überprüfen "
 "Sie die Installation."
 
-#: app/mainwindow.cpp:157
+#: app/mainwindow.cpp:162
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Öff&nen"
 
-#: app/mainwindow.cpp:158
+#: app/mainwindow.cpp:163
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 "Anklicken, um ein Archiv zu öffnen; klicken und gedrückt halten, um ein "
 "zuletzt geöffnetes Archiv zu öffnen"
 
-#: app/mainwindow.cpp:159
+#: app/mainwindow.cpp:164
 msgid "Open an archive"
 msgstr "Archiv öffnen"
 
@@ -573,7 +573,7 @@ msgid "&Action"
 msgstr "&Aktion"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:17
+#: part/ark_part.rc:18
 msgid "&Settings"
 msgstr "&Einstellungen"
 
@@ -694,25 +694,36 @@ msgstr "<b>Aufgabenbeschreibung</b>"
 msgid "Some Information about the job"
 msgstr "Einige Informationen über die Aufgabe"
 
-#: part/part.cpp:232
+#: part/part.cpp:240
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr "Informationsleiste anzeigen"
 
-#: part/part.cpp:241
+#: part/part.cpp:249
+msgctxt "open a file with external program"
+msgid "Open &With..."
+msgstr "Öffnen &mit ..."
+
+#: part/part.cpp:251
+msgid "Click to open the selected file with an external program"
+msgstr ""
+"Klicken Sie hier, um die ausgewählte Datei mit einem externen Programm zu "
+"öffnen"
+
+#: part/part.cpp:255
 msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "&Vorschau"
 
-#: part/part.cpp:243
+#: part/part.cpp:257
 msgid "Click to preview the selected file"
 msgstr "Klicken Sie hier, um eine Vorschau der Datei anzuzeigen"
 
-#: part/part.cpp:248
+#: part/part.cpp:263
 msgid "E&xtract"
 msgstr "En&tpacken"
 
-#: part/part.cpp:250
+#: part/part.cpp:265
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
@@ -720,49 +731,49 @@ msgstr ""
 "Klicken Sie hier, um den „Entpacken“-Dialog zu öffnen, in dem Sie entweder "
 "alle oder ausgewählte Dateien entpacken können"
 
-#: part/part.cpp:257
+#: part/part.cpp:272
 msgid "Add &File..."
 msgstr "&Dateien hinzufügen ..."
 
-#: part/part.cpp:258
+#: part/part.cpp:273
 msgid "Click to add files to the archive"
 msgstr "Klicken Sie hier, um Dateien zum Archiv hinzuzufügen"
 
-#: part/part.cpp:264
+#: part/part.cpp:279
 msgid "Add Fo&lder..."
 msgstr "&Ordner hinzufügen ..."
 
-#: part/part.cpp:265
+#: part/part.cpp:280
 msgid "Click to add a folder to the archive"
 msgstr "Klicken Sie hier, um einen Ordner zum Archiv hinzuzufügen"
 
-#: part/part.cpp:271
+#: part/part.cpp:286
 msgid "De&lete"
 msgstr "&Löschen ..."
 
-#: part/part.cpp:273
+#: part/part.cpp:288
 msgid "Click to delete the selected files"
 msgstr "Klicken Sie hier, um die ausgewählten Dateien zu löschen"
 
-#: part/part.cpp:302
+#: part/part.cpp:319
 msgid "Extract To..."
 msgstr "Entpacken nach ..."
 
-#: part/part.cpp:309
+#: part/part.cpp:326
 msgid "Quick Extract To..."
 msgstr "Express-Entpacken nach ..."
 
-#: part/part.cpp:372
+#: part/part.cpp:389
 msgid "ArkPart"
 msgstr "ArkPart"
 
-#: part/part.cpp:384
+#: part/part.cpp:401
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr "<filename>%1</filename> ist ein Ordner."
 
-#: part/part.cpp:391
+#: part/part.cpp:408
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -772,32 +783,32 @@ msgstr ""
 "Das Archiv <filename>%1</filename> ist bereits vorhanden. Möchten Sie es "
 "stattdessen öffnen?"
 
-#: part/part.cpp:391
+#: part/part.cpp:408
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "Datei schon vorhanden"
 
-#: part/part.cpp:391
+#: part/part.cpp:408
 msgid "Open File"
 msgstr "Datei öffnen"
 
-#: part/part.cpp:399
+#: part/part.cpp:416
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr "Das Archiv <filename>%1</filename> kann nicht gefunden werden."
 
-#: part/part.cpp:399 part/part.cpp:451 part/part.cpp:487
+#: part/part.cpp:416 part/part.cpp:468 part/part.cpp:504
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Fehler beim Öffnen des Archivs"
 
-#: part/part.cpp:431
+#: part/part.cpp:448
 msgctxt "@title:window"
 msgid "Invalid Archive Type"
 msgstr "Ungültiger Archivtyp"
 
-#: part/part.cpp:432
+#: part/part.cpp:449
 msgctxt "@info"
 msgid ""
 "Ark cannot create archives of the type you have chosen.<nl/><nl/>Please "
@@ -806,12 +817,12 @@ msgstr ""
 "Ark kann den Archive des gewählten Typs nicht erstellen.<nl/><nl/>Bitte "
 "wählen Sie einen anderen Archivtyp aus der Liste."
 
-#: part/part.cpp:435
+#: part/part.cpp:452
 msgctxt "@title:window"
 msgid "Unable to Determine Archive Type"
 msgstr "Archivtyp kann nicht ermittelt werden"
 
-#: part/part.cpp:436
+#: part/part.cpp:453
 msgctxt "@info"
 msgid ""
 "Ark was unable to determine the archive type of the filename.<nl/><nl/"
@@ -820,7 +831,7 @@ msgstr ""
 "Der Archivtyp der angegebenen Datei kann nicht ermittelt werden.<nl/><nl/"
 ">Bitte wählen Sie den richtigen Archivtyp aus der Liste."
 
-#: part/part.cpp:451
+#: part/part.cpp:468
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -830,7 +841,7 @@ msgstr ""
 "Das Archiv <filename>%1</filename> kann nicht geöffnet werden. Es ist keine "
 "Bibliothek für diesen Archivtyp vorhanden."
 
-#: part/part.cpp:487
+#: part/part.cpp:504
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -840,28 +851,28 @@ msgstr ""
 "Das Laden des Archivs <filename>%1</filename> ist mit folgender "
 "Fehlermeldung fehlgeschlagen: <message>%2</message>"
 
-#: part/part.cpp:789
+#: part/part.cpp:834
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Dateien hinzufügen"
 
-#: part/part.cpp:797
+#: part/part.cpp:842
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "Ordner hinzufügen"
 
-#: part/part.cpp:826
+#: part/part.cpp:871
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 "Das Löschen dieser Dateien kann nicht rückgängig gemacht werden. Möchten Sie "
 "trotzdem fortfahren?"
 
-#: part/part.cpp:827
+#: part/part.cpp:872
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "Dateien löschen"
 
-#: part/part.cpp:873
+#: part/part.cpp:918
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -871,7 +882,7 @@ msgstr ""
 "Ein Archiv namens <filename>%1</filename> ist bereits vorhanden. Möchten Sie "
 "dieses überschreiben?"
 
-#: part/part.cpp:887
+#: part/part.cpp:932
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -881,7 +892,7 @@ msgstr ""
 "Das Archiv <filename>%1</filename> kann nicht an die angegebene Stelle "
 "kopiert werden. Das Archiv ist nicht mehr vorhanden."
 
-#: part/part.cpp:899
+#: part/part.cpp:944
 #, kde-format
 msgctxt "@info"
 msgid ""

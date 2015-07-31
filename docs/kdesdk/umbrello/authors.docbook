@@ -3,7 +3,7 @@
 >Autoren und Geschichte</title>
 <para
 >Dieses Projekt wurde von Paul Hensgen als eines seiner Universitätsprojekte initiiert. Der Originalname des Projektes lautete <application
->UML Modeller </application
+>UML Modeller</application
 >. Paul hatte die Entwicklung bis Ende 2001, als die Version 1.0 erschien, vorangetrieben. </para>
 <para
 >Version 1.0 bot schon eine Vielzahl von Funktionen. Nachdem Paul bei seiner Universität die Arbeit eingereicht hatte, konnten andere Entwickler dem Projekt beitreten, um es weiter zu verbessern. So wurde das ursprünglich binäre Dateiformat zugunsten von &XML;-Dateien fallen gelassen, es wurde Unterstützung für weitere &UML;-Diagramme hinzugefügt, genauso wie die Quelltexterzeugung und das Einlesen von Quelltext, um nur ein  paar wenige Verbesserungen zu nennen. </para>

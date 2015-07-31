@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbounce\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-14 03:31+0200\n"
+"POT-Creation-Date: 2014-05-15 01:38+0000\n"
 "PO-Revision-Date: 2013-03-17 21:57+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: de <kde-i18n-de@kde.org>\n"
@@ -52,7 +52,7 @@ msgstr "Ordner mit Bildern:"
 msgid "Preview"
 msgstr "Vorschau"
 
-#: gamewidget.cpp:409
+#: gamewidget.cpp:410
 msgid ""
 "Welcome to KBounce.\n"
 " Click to start a game"
@@ -60,7 +60,7 @@ msgstr ""
 "Willkommen zu KBounce.\n"
 "Drücken Sie die linke Maustaste, um ein neues Spiel zu starten."
 
-#: gamewidget.cpp:412
+#: gamewidget.cpp:413
 msgid ""
 "Paused\n"
 " Click to resume"
@@ -68,32 +68,32 @@ msgstr ""
 "Angehalten\n"
 " Klicken Sie, um weiterzuspielen"
 
-#: gamewidget.cpp:415
+#: gamewidget.cpp:416
 #, kde-format
 msgid "You have successfully cleared more than %1% of the board\n"
 msgstr "Sie haben mehr als %1 % des Spielfeldes erfolgreich gefüllt.\n"
 
-#: gamewidget.cpp:416
+#: gamewidget.cpp:417
 #, kde-format
 msgid "%1 points: %2 points per remaining life\n"
 msgstr "%1 Punkte: %2 Punkte pro übrig gebliebenem Leben\n"
 
-#: gamewidget.cpp:417
+#: gamewidget.cpp:418
 #, kde-format
 msgid "%1 points: Bonus\n"
 msgstr "%1 Bonuspunkte\n"
 
-#: gamewidget.cpp:418
+#: gamewidget.cpp:419
 #, kde-format
 msgid "%1 points: Total score for this level\n"
 msgstr "%1 Punkte insgesamt für diese Ebene\n"
 
-#: gamewidget.cpp:419
+#: gamewidget.cpp:420
 #, kde-format
 msgid "On to level %1. Remember you get %2 lives this time!"
 msgstr "Sie haben Spielebene %1 erreicht, dieses Mal haben Sie %2 Leben."
 
-#: gamewidget.cpp:422
+#: gamewidget.cpp:423
 msgid ""
 "Game over.\n"
 " Click to start a game"

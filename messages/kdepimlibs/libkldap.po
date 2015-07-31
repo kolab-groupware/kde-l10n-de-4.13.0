@@ -1,20 +1,20 @@
 # Stephan Johach <hunsum@gmx.de>, 2007.
 # Burkhard Lück <lueck@hube-lueck.de>, 2009.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2009.
-# Frederik Schwarzer <schwarzer@kde.org>, 2010.
+# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: libkldap\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-05 05:54+0000\n"
-"PO-Revision-Date: 2010-04-11 21:16+0200\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-07-30 17:58+0200\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ldapattributeproxymodel.cpp:88 ldapmodel.cpp:151
@@ -141,6 +141,12 @@ msgstr "SASL-Mechanismus:"
 #: ldapconfigwidget.cpp:354
 msgid "LDAP Query"
 msgstr "LDAP-Abfrage"
+
+#: ldapconfigwidget.cpp:367
+#, kde-format
+msgctxt "%1 is a url to ldap server"
+msgid "Unknown error connecting %1"
+msgstr "Unbekannter Fehler beim Verbinden mit %1"
 
 #: ldapconnection.cpp:150
 msgid "LDAP Operations error"

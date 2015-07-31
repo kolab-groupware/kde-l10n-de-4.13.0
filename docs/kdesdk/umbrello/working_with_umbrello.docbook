@@ -95,9 +95,9 @@
 <title
 >Modell speichern</title>
 <para
->Man kann zu jedem Zeitpunkt das Modell speichern indem man den <guimenuitem
+>Man kann zu jedem Zeitpunkt das Modell speichern indem man den Eintrag <guimenuitem
 >Speichern</guimenuitem
->Eintrag aus dem Menü <guimenu
+> aus dem Menü <guimenu
 >Datei</guimenu
 > wählt, oder auf das entsprechende Symbol in der horizontalen Werkzeugleiste klickt. Soll das Modell unter einem anderen Dateinamen gespeichert werden, wählt man den Eintrag <guimenuitem
 >Speichern unter ...</guimenuitem
@@ -161,7 +161,7 @@
 <title
 >Diagramme hinzufügen und entfernen</title>
 <para
->Das &UML; Modell besteht aus &UML; Elementen und den Assoziationen zwischen diesen. Man kann aber das Modell nicht direkt sehen, sondern man nutzt <emphasis
+>Das &UML;-Modell besteht aus &UML;-Elementen und den Assoziationen zwischen diesen. Man kann aber das Modell nicht direkt sehen, sondern man nutzt <emphasis
 >Diagramme</emphasis
 >, um es zu betrachten. </para>
 <sect2 id="create-diagram">
@@ -196,7 +196,7 @@
 <title
 >Diagramme umbenennen</title>
 <para
->Will man ein Diagramm umbenennen, kann man dies durch den Eintrag<guisubmenu
+>Will man ein Diagramm umbenennen, kann man dies durch den Eintrag <guisubmenu
 >Umbenennen</guisubmenu
 > im Kontextmenü des Diagramms in der Baumansicht erreichen. </para>
 <para
@@ -207,7 +207,7 @@
 <title
 >Diagramme bearbeiten</title>
 <para
->Während der Arbeit mit Diagrammen versucht &umbrello; einen durch die Anwendung einfacher Regeln zu unterstützen, indem nur die möglichen Elemente in einem Diagramm zur Verfügung stehen und nur die sinnvollen Beziehungen zwischen diesen angelegt werden können. Als &UML; Experte wird man dies vielleicht gar nicht bemerken, für Anfänger ist es eine große Unterstützung bei der Erstellung von standardkonformen Diagrammen. </para>
+>Während der Arbeit mit Diagrammen versucht &umbrello; einen durch die Anwendung einfacher Regeln zu unterstützen, indem nur die möglichen Elemente in einem Diagramm zur Verfügung stehen und nur die sinnvollen Beziehungen zwischen diesen angelegt werden können. Als &UML;-Experte wird man dies vielleicht gar nicht bemerken, für Anfänger ist es eine große Unterstützung bei der Erstellung von standardkonformen Diagrammen. </para>
 <para
 >Nachdem man ein Diagramm angelegt hat, kann man es bearbeiten. Es ist dabei der Unterschied zwischen Diagramm- und Modellbearbeitung, für Anfänger schwieriger verständlich, zu beachten. Wie bereits dargelegt wurde, sind Diagramme eine <emphasis
 >Sicht</emphasis
@@ -236,7 +236,7 @@
 <para
 >Die Diagramm-Werkzeugleiste befindet sich standardmäßig am oberen Fenster des Anwendungsfensters, man kann sie allerdings an andere Stellen verschieben oder sie über allen anderen Bereichen schwebend positionieren. Die in dieser Werkzeugleiste verfügbaren Werkzeuge, dargestellt durch die verschiedenen Knöpfe, ändern sich je nach momentan bearbeiteten Diagrammtyp. Das momentan gewählte Werkzeug wird hervorgehoben in der Werkzeugleiste dargestellt. Über die Taste &Esc; kann man das Auswahl-Werkzeug auswählen. </para>
 <para
->Hat man ein Bearbeitungswerkzeug aus der Werkzeugleiste ausgewählt, zum Beispiel um eine Klasse einzufügen, ändert sich der Mauszeiger in ein Kreuz. Man kann nun das Element in das Diagramm über einen einzelnen Klick mit der linken Maustaste im Diagramm einfügen. &UML; Elemente müssen immer <emphasis
+>Hat man ein Bearbeitungswerkzeug aus der Werkzeugleiste ausgewählt, zum Beispiel um eine Klasse einzufügen, ändert sich der Mauszeiger in ein Kreuz. Man kann nun das Element in das Diagramm über einen einzelnen Klick mit der linken Maustaste im Diagramm einfügen. &UML;-Elemente müssen immer <emphasis
 >eindeutige Namen</emphasis
 > haben. Gibt es zum Beispiel in einem Diagramm die Klasse <quote
 >KlasseA</quote
@@ -262,12 +262,12 @@
 <title
 >Elemente bearbeiten</title>
 <para
->Man kann die meisten &UML; Elemente des Modells ändern, indem man den Eigenschaftdialog öffnet und die gewünschten Änderungen vornimmt. Um zum Beispiel ein Objekt zu verändern, ist es auszuwählen und dann <guimenuitem
+>Man kann die meisten &UML;-Elemente des Modells ändern, indem man den Eigenschaftendialog öffnet und die gewünschten Änderungen vornimmt. Um zum Beispiel ein Objekt zu verändern, ist es auszuwählen und dann <guimenuitem
 >Eigenschaften</guimenuitem
 > aus seinem Kontextmenü (rechte Maustaste) zu wählen. Jedes Element verfügt über solch einen Dialog, der aus mehreren Seiten besteht, abhängig vom Typ des zu bearbeitenden Elementes. Für einige Elemente, wie Akteure, kann man lediglich einige wenige Parameter wie den Namen oder die Dokumentation ändern. Für andere Elemente hingegen, wie Klassen, kann man viele Einstellungen vornehmen wie Attribute und Operationen, Sichtbarkeit und die Darstellung im Diagramm (nur Operationen oder komplette Signatur der Operationen). Man kann sogar die Linienfarben und die Füllfarbe für die Visualisierung der Klasse im Diagramm einstellen. </para>
 
 <para
->Für die meisten &UML; Elemente kann man diesen Eigenschaftendialog durch einen Doppelklick auf das entsprechende Element mit dem Auswahlwerkzeug (Pfeil) aufrufen. Die Ausnahme bilden Assoziationen. Ein Doppelklick fügt ihnen einen neuen Ankerpunkt hinzu. Den Eigenschaftendialog erreicht man für Assoziationen über das Kontextmenü per rechter Maustaste. </para>
+>Für &UML;-Elemente kann man diesen Eigenschaftendialog durch einen Doppelklick auf das entsprechende Element mit dem Auswahlwerkzeug (Pfeil) aufrufen.  </para>
 
 <para
 >Man kann den Eigenschaftendialog auch über das Kontextmenü in der Baumansicht erreichen. Dadurch kann man die Eigenschaften für Diagramme bearbeiten, zum Beispiel ob der Raster anzuzeigen ist oder nicht. </para>
@@ -276,7 +276,7 @@
 <title
 >Klassen bearbeiten</title>
 <para
->Obwohl das Bearbeiten der Eigenschaften von Objekten bereits im letzten Abschnitt erörtert wurde, folgt ein weiterer Abschnitt zu Klassen, da sie komplizierter als alle anderen &UML; Elemente sind. </para>
+>Obwohl das Bearbeiten der Eigenschaften von Objekten bereits im letzten Abschnitt erörtert wurde, folgt ein weiterer Abschnitt zu Klassen, da sie komplizierter als alle anderen &UML;-Elemente sind. </para>
 <para
 >Im Eigenschaftendialog der Klassen kann man alles von der Farbe bis zu den Operationen und Attributen bearbeiten. </para>
 <sect3 id="class-general-settings">
@@ -307,7 +307,7 @@
 <title
 >Einstellung für parametrisierbare Klasse</title>
 <para
->Auf dieser Seite kann man Klassen-Templates, das sind unspezifizierte Klassen und Datentypen, einfügen. In Java 1.5 werden sie unter der Bezeichnung Generics eingeführt. </para>
+>Auf dieser Seite kann man Klassen-Vorlagen, das sind unspezifizierte Klassen und Datentypen, einfügen. In Java 1.5 werden sie unter der Bezeichnung Generics eingeführt. </para>
 </sect3>
 <sect3 id="class-associations-page">
 <title
@@ -315,7 +315,7 @@
 <para
 >Die Seite <guilabel
 >Assoziationen</guilabel
-> zeigt alle mit der Klasse verbundenen Assoziationen im aktuellen Diagramm. Ein Doppelklick auf eine Assoziation zeigt den entsprechenden Eigenschaftsdialog. Je nach Assoziationstyp kann man einige Parameter wie Multiplizität und Rollennamen ändern. Verfügt die gewählte Assoziation nicht über solche Parameter, dann ist der Eigenschaftdialog nicht änderbar und man kann lediglich die Dokumentation der Assoziation ändern. </para>
+> zeigt alle mit der Klasse verbundenen Assoziationen im aktuellen Diagramm. Ein Doppelklick auf eine Assoziation zeigt den entsprechenden Eigenschaftsdialog. Je nach Assoziationstyp kann man einige Parameter wie Multiplizität und Rollennamen ändern. Verfügt die gewählte Assoziation nicht über solche Parameter, dann ist der Eigenschaftendialog nicht änderbar und man kann lediglich die Dokumentation der Assoziation ändern. </para>
 <para
 >Diese Seite ist nur verfügbar, wenn man die Klasseneigenschaften aus einem Diagramm heraus aufruft. Erfolgt hingegen der Aufruf aus der Baumansicht, ist diese Seite nicht verfügbar. </para>
 </sect3>
@@ -335,10 +335,10 @@
 </sect3>
 <sect3 id="class-color-page">
 <title
->Seite Klassen Farbe</title>
+>Seite Klassenstil</title>
 <para
 >Auf der Seite <guilabel
->Objektfarbe</guilabel
+>Stil der Bedienelemente</guilabel
 > kann man die Linienfarben und die Füllfarbe einstellen. Diese Seite ist nur verfügbar, wenn die Eigenschaften der Klasse aus einem Diagramm aufgerufen wurden und nicht aus der Baumansicht. </para>
 </sect3>
 </sect2>
@@ -347,13 +347,13 @@
 <title
 >Assoziationen</title>
 <para
->Assoziationen bringen zwei &UML; Elemente miteinander in Verbindung. Normalerweise werden Assoziationen zwischen Klassen definiert, aber einige können auch zwischen Anwendungsfällen und Akteuren angelegt werden. </para>
+>Assoziationen bringen zwei &UML;-Elemente miteinander in Verbindung. Normalerweise werden Assoziationen zwischen Klassen definiert, aber einige können auch zwischen Anwendungsfällen und Akteuren angelegt werden. </para>
 <para
 >Um eine Assoziation anzulegen, ist das entsprechende Werkzeug aus der vertikalen Werkzeugleiste auszuwählen (zum Beispiel allgemeine Assoziation, Verallgemeinerung, Aggregation &etc;) und auf das Ausgangselement zu klicken. Danach muss man auf den 2. Partner der Assoziation klicken. Es handelt sich dabei um 2 Klicks und <emphasis
 >nicht</emphasis
 > um einen Klick mit anschließendem Ziehen von einem Element zum anderen! </para>
 <para
->Versucht man eine Assoziation anzulegen, die nicht mit den &UML; Spezifikationen vereinbar ist, dann verhindert dies &umbrello; und gibt einen entsprechenden Hinweis aus. Dies ist zum Beispiel der Fall, wenn zwischen Klasse A und B eine Verallgemeinerung existiert und nun versucht wird, eine Verallgemeinerung von B nach A anzulegen. </para>
+>Versucht man eine Assoziation anzulegen, die nicht mit den &UML;-Spezifikationen vereinbar ist, dann verhindert dies &umbrello; und gibt einen entsprechenden Hinweis aus. Dies ist zum Beispiel der Fall, wenn zwischen Klasse A und B eine Verallgemeinerung existiert und nun versucht wird, eine Verallgemeinerung von B nach A anzulegen. </para>
 <para
 >Durch einen <mousebutton
 >Rechtsklick</mousebutton
@@ -378,7 +378,7 @@
 <para
 >Es ist zu beachten, dass man den Eigenschaftsdialog einer Assoziation lediglich über ihr Kontextmenü aufrufen kann. Ein <mousebutton
 >Doppelklick</mousebutton
->, wie bei anderen &UML; Elementen, fügt einen Ankerpunkt ein. </para>
+>, wie bei anderen &UML;-Elementen, fügt einen Ankerpunkt ein. </para>
 </sect3>
 </sect2>
 
@@ -395,11 +395,11 @@
 <title
 >Anker</title>
 <para
->Mit Ankern kann man ein &UML; Element mit einer Textnotiz verbinden. Möchte man zum Beispiel mit einer Textnotiz einige Hinweise über eine Klasse angeben, dann verbindet man diese Textnotiz mit der Klasse. Dadurch ist ersichtlich, dass die Textnotiz sich auf das entsprechende Element <quote
+>Mit Ankern kann man ein &UML;-Element mit einer Textnotiz verbinden. Möchte man zum Beispiel mit einer Textnotiz einige Hinweise über eine Klasse angeben, dann verbindet man diese Textnotiz mit der Klasse. Dadurch ist ersichtlich, dass die Textnotiz sich auf das entsprechende Element <quote
 >bezieht</quote
 >. </para>
 <para
->Um einen Anker zwischen einer Textnotiz und einem &UML; Element einzufügen, muss man das entsprechende Werkzeug von der vertikalen Werkzeugleiste wählen. Zuerst klickt man auf die gewünschte Textnotiz und mit dem zweiten Klick auf das zu verlinkende &UML; Element. </para>
+>Um einen Anker zwischen einer Textnotiz und einem &UML;-Element einzufügen, muss man das entsprechende Werkzeug von der vertikalen Werkzeugleiste wählen. Zuerst klickt man auf die gewünschte Textnotiz und mit dem zweiten Klick auf das zu verknüpfende &UML;-Element. </para>
 </sect3>
 </sect2>
 </sect1>

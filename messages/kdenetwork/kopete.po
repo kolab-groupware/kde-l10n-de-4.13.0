@@ -6,7 +6,7 @@
 # Jannick Kuhr <jannick.kuhr@kdemail.net>, 2006.
 # Martin Ereth <martin.ereth@arcor.de>, 2007, 2008.
 # Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
-# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010, 2011, 2012, 2013, 2014.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2009, 2010, 2011.
 # Markus Slopianka <markus.s@kdemail.net>, 2010.
 # Michael Skiba <trans@michael-skiba.de>, 2010.
@@ -16,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopete\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-28 05:47+0000\n"
-"PO-Revision-Date: 2014-02-10 16:02+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"POT-Creation-Date: 2014-11-20 05:32+0000\n"
+"PO-Revision-Date: 2014-06-28 12:47+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -227,27 +227,27 @@ msgstr "Datei speichern unter"
 msgid "Wav file (*.wav)"
 msgstr "Wave-Datei (*.wav)"
 
-#: kopete/chatwindow/chattexteditpart.cpp:511
+#: kopete/chatwindow/chattexteditpart.cpp:507
 msgid "Chat Text Edit Part"
 msgstr "Chat-Texteditor-Komponente"
 
-#: kopete/chatwindow/chattexteditpart.cpp:512
+#: kopete/chatwindow/chattexteditpart.cpp:508
 msgid "A simple rich text editor part"
 msgstr "Eine einfache Rich-Text-Editor-Komponente"
 
-#: kopete/chatwindow/chattexteditpart.cpp:514
+#: kopete/chatwindow/chattexteditpart.cpp:510
 msgid "Richard J. Moore"
 msgstr "Richard J. Moore"
 
-#: kopete/chatwindow/chattexteditpart.cpp:515 kopete/main.cpp:45
+#: kopete/chatwindow/chattexteditpart.cpp:511 kopete/main.cpp:45
 msgid "Jason Keirstead"
 msgstr "Jason Keirstead"
 
-#: kopete/chatwindow/chattexteditpart.cpp:516 kopete/main.cpp:48
+#: kopete/chatwindow/chattexteditpart.cpp:512 kopete/main.cpp:48
 msgid "Michaël Larouche"
 msgstr "Michaël Larouche"
 
-#: kopete/chatwindow/chattexteditpart.cpp:517
+#: kopete/chatwindow/chattexteditpart.cpp:513
 msgid "Benson Tsai"
 msgstr "Benson Tsai"
 
@@ -261,7 +261,7 @@ msgstr ""
 "erhalten. Möchten Sie den Chat wirklich leeren?</qt>"
 
 #: kopete/chatwindow/chatview.cpp:256 kopete/chatwindow/chatview.cpp:364
-#: kopete/chatwindow/kopeteemailwindow.cpp:465
+#: kopete/chatwindow/kopeteemailwindow.cpp:469
 msgid "Unread Message"
 msgstr "Ungelesene Nachricht"
 
@@ -271,7 +271,7 @@ msgid "Clear Chat"
 msgstr "Chat leeren"
 
 #: kopete/chatwindow/chatview.cpp:356
-#: kopete/chatwindow/kopeteemailwindow.cpp:457
+#: kopete/chatwindow/kopeteemailwindow.cpp:461
 #, kde-format
 msgid ""
 "<qt>You are about to leave the groupchat session <b>%1</b>.<br />You will "
@@ -281,7 +281,7 @@ msgstr ""
 "weiteren Nachrichten aus diesem Gespräch.</qt>"
 
 #: kopete/chatwindow/chatview.cpp:357
-#: kopete/chatwindow/kopeteemailwindow.cpp:458
+#: kopete/chatwindow/kopeteemailwindow.cpp:462
 msgid "Closing Group Chat"
 msgstr "Gruppenchat schließen"
 
@@ -292,7 +292,7 @@ msgid "Close Chat"
 msgstr "Chat schließen"
 
 #: kopete/chatwindow/chatview.cpp:363
-#: kopete/chatwindow/kopeteemailwindow.cpp:464
+#: kopete/chatwindow/kopeteemailwindow.cpp:468
 #, kde-format
 msgid ""
 "<qt>You have received a message from <b>%1</b> in the last second. Are you "
@@ -302,7 +302,7 @@ msgstr ""
 "erhalten. Möchten Sie den Chat wirklich schließen?</qt>"
 
 #: kopete/chatwindow/chatview.cpp:370
-#: kopete/chatwindow/kopeteemailwindow.cpp:471
+#: kopete/chatwindow/kopeteemailwindow.cpp:475
 msgid ""
 "You have a message send in progress, which will be aborted if this chat is "
 "closed. Are you sure you want to close this chat?"
@@ -311,7 +311,7 @@ msgstr ""
 "Chatfenster geschlossen wird. Möchten Sie den Chat wirklich beenden?"
 
 #: kopete/chatwindow/chatview.cpp:371
-#: kopete/chatwindow/kopeteemailwindow.cpp:472
+#: kopete/chatwindow/kopeteemailwindow.cpp:476
 msgid "Message in Transit"
 msgstr "Nachricht unterwegs"
 
@@ -333,49 +333,49 @@ msgctxt "%1 is a list of names"
 msgid "%1 are typing a message"
 msgstr "%1 schreiben gerade eine Nachricht"
 
-#: kopete/chatwindow/chatview.cpp:543 kopete/chatwindow/chatview.cpp:552
+#: kopete/chatwindow/chatview.cpp:538
 #, kde-format
 msgid "%1 is now known as %2"
 msgstr "%1 nennt sich jetzt %2"
 
-#: kopete/chatwindow/chatview.cpp:565
+#: kopete/chatwindow/chatview.cpp:551
 #, kde-format
 msgctxt "%1 is a contact's name"
 msgid "%1 deleted status message"
 msgstr "Die Statusmeldung von %1 ist gelöscht worden"
 
-#: kopete/chatwindow/chatview.cpp:574
+#: kopete/chatwindow/chatview.cpp:560
 #, kde-format
 msgctxt "%1 is a contact's name"
 msgid "%1 changed status message: %2"
 msgstr "Die Statusmeldung von %1 hat sich geändert: %2"
 
-#: kopete/chatwindow/chatview.cpp:595
+#: kopete/chatwindow/chatview.cpp:581
 #, kde-format
 msgid "%1 has joined the chat."
 msgstr "%1 nimmt nun am Chat teil."
 
-#: kopete/chatwindow/chatview.cpp:618
+#: kopete/chatwindow/chatview.cpp:604
 #, kde-format
 msgid "%1 status message is %2"
 msgstr "Die Statusmeldung von %1 lautet %2"
 
-#: kopete/chatwindow/chatview.cpp:655
+#: kopete/chatwindow/chatview.cpp:641
 #, kde-format
 msgid "%1 has left the chat."
 msgstr "%1 hat den Chat verlassen."
 
-#: kopete/chatwindow/chatview.cpp:657
+#: kopete/chatwindow/chatview.cpp:643
 #, kde-format
 msgid "%1 has left the chat (%2)."
 msgstr "%1 hat den Chat verlassen (%2)."
 
-#: kopete/chatwindow/chatview.cpp:764
+#: kopete/chatwindow/chatview.cpp:750
 #, kde-format
 msgid "You are now marked as %1."
 msgstr "Sie sind jetzt markiert als: %1."
 
-#: kopete/chatwindow/chatview.cpp:776
+#: kopete/chatwindow/chatview.cpp:762
 #, kde-format
 msgid "%2 is now %1."
 msgstr "%2 ist jetzt %1."
@@ -466,7 +466,7 @@ msgid "Co&ntacts"
 msgstr "Ko&ntakte"
 
 #: kopete/chatwindow/kopetechatwindow.cpp:504
-#: kopete/chatwindow/kopeteemailwindow.cpp:271
+#: kopete/chatwindow/kopeteemailwindow.cpp:275
 msgid "Toolbar Animation"
 msgstr "Animation der Werkzeugleiste"
 
@@ -671,42 +671,42 @@ msgstr "<< Zurück"
 msgid "(0) Next >>"
 msgstr "(0) Weiter >>"
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:231
+#: kopete/chatwindow/kopeteemailwindow.cpp:234
 msgid "&Set Font..."
 msgstr "&Schriftart festlegen ..."
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:235
+#: kopete/chatwindow/kopeteemailwindow.cpp:238
 msgid "Set Text &Color..."
 msgstr "Textfarbe &festlegen ..."
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:239
+#: kopete/chatwindow/kopeteemailwindow.cpp:242
 msgid "Set &Background Color..."
 msgstr "Hintergrundfar&be festlegen ..."
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:268
+#: kopete/chatwindow/kopeteemailwindow.cpp:272
 msgid "Spacer for Animation"
 msgstr "Trenner für Animation"
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:379
+#: kopete/chatwindow/kopeteemailwindow.cpp:383
 #, kde-format
 msgid "(%1) Next >>"
 msgstr "(%1) Weiter >>"
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:459
-#: kopete/chatwindow/kopeteemailwindow.cpp:466
-#: kopete/chatwindow/kopeteemailwindow.cpp:473
+#: kopete/chatwindow/kopeteemailwindow.cpp:463
+#: kopete/chatwindow/kopeteemailwindow.cpp:470
+#: kopete/chatwindow/kopeteemailwindow.cpp:477
 msgid "Cl&ose Chat"
 msgstr "Chat s&chließen"
 
 #. i18n: ectx: property (text), widget (QPushButton, send_btn)
-#: kopete/chatwindow/kopeteemailwindow.cpp:498
-#: kopete/chatwindow/kopeteemailwindow.cpp:516
+#: kopete/chatwindow/kopeteemailwindow.cpp:502
+#: kopete/chatwindow/kopeteemailwindow.cpp:520
 #: protocols/jabber/ui/dlgxmppconsole.cpp:32
 #: protocols/wlm/ui/wlmchatsessioninkpopup.ui:43
 msgid "Send"
 msgstr "Senden"
 
-#: kopete/chatwindow/kopeteemailwindow.cpp:505
+#: kopete/chatwindow/kopeteemailwindow.cpp:509
 msgid "Reply"
 msgstr "Antworten"
 
@@ -1269,9 +1269,9 @@ msgstr "Layout-Name:"
 #: kopete/contactlist/kopetecontactlistview.cpp:401
 #: kopete/contactlist/kopetecontactlistview.cpp:416
 #: kopete/contactlist/kopetecontactlistview.cpp:863
-#: libkopete/kopetecontact.cpp:467 plugins/highlight/highlightprefsbase.ui:66
+#: libkopete/kopetecontact.cpp:507 plugins/highlight/highlightprefsbase.ui:66
 #: plugins/privacy/privacydialog.ui:92 plugins/privacy/privacydialog.ui:176
-#: protocols/jabber/jabberprotocol.cpp:468
+#: protocols/jabber/jabberprotocol.cpp:475
 #: protocols/jabber/ui/dlgjabberbookmarkeditor.ui:52
 #: protocols/jabber/ui/privacy.ui:249
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:784
@@ -1640,7 +1640,7 @@ msgstr "Ereignisse"
 #. i18n: ectx: property (title), widget (QGroupBox, notifyGroupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
 #: kopete/config/behavior/behaviorconfig_events.ui:20
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:999
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1013
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
@@ -2031,7 +2031,7 @@ msgstr ""
 #: kopete/config/behavior/behaviorconfig_general.ui:122
 #: kopete/config/status/statusconfig_manager.cpp:68
 #: kopete/kopetewindow.cpp:395 libkopete/kopeteaccountmanager.cpp:171
-#: libkopete/kopeteidentity.cpp:170 libkopete/kopetemetacontact.cpp:502
+#: libkopete/kopeteidentity.cpp:170 libkopete/kopetemetacontact.cpp:508
 #: libkopete/kopeteonlinestatus.cpp:170 libkopete/kopetestatusmanager.cpp:302
 #: plugins/statistics/statisticscontact.cpp:272
 #: plugins/statistics/statisticsdialog.cpp:386
@@ -2044,14 +2044,14 @@ msgstr ""
 #: protocols/oscar/icq/icqstatusmanager.cpp:75 protocols/qq/qqprotocol.cpp:40
 #: protocols/skype/skypeaccount.cpp:930 protocols/skype/skypeprotocol.cpp:76
 #: protocols/sms/smsprotocol.cpp:39 protocols/winpopup/wpprotocol.cpp:57
-#: protocols/wlm/wlmprotocol.cpp:62 protocols/yahoo/yahooprotocol.cpp:44
+#: protocols/wlm/wlmprotocol.cpp:62 protocols/yahoo/yahooprotocol.cpp:45
 msgid "Offline"
 msgstr "Offline"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: kopete/config/behavior/behaviorconfig_general.ui:127
 #: kopete/config/status/statusconfig_manager.cpp:54
-#: libkopete/kopetemetacontact.cpp:496 libkopete/kopeteonlinestatus.cpp:158
+#: libkopete/kopetemetacontact.cpp:502 libkopete/kopeteonlinestatus.cpp:158
 #: libkopete/kopetestatusmanager.cpp:280
 #: plugins/statistics/statisticscontact.cpp:270
 #: plugins/statistics/statisticsdialog.cpp:380
@@ -2066,7 +2066,7 @@ msgstr "Offline"
 #: protocols/skype/skypeaccount.cpp:926 protocols/skype/skypeprotocol.cpp:77
 #: protocols/sms/smsprotocol.cpp:38 protocols/winpopup/wpaccount.cpp:172
 #: protocols/winpopup/wpprotocol.cpp:55 protocols/wlm/wlmprotocol.cpp:43
-#: protocols/yahoo/yahooprotocol.cpp:45
+#: protocols/yahoo/yahooprotocol.cpp:46
 msgid "Online"
 msgstr "Online"
 
@@ -2074,12 +2074,11 @@ msgstr "Online"
 #: kopete/config/behavior/behaviorconfig_general.ui:132
 #: kopete/config/status/statusconfig_manager.cpp:58
 #: libkopete/kopetebehaviorsettings.kcfg:169
-#: libkopete/kopetemetacontact.cpp:498 libkopete/kopeteonlinestatus.cpp:161
+#: libkopete/kopetemetacontact.cpp:504 libkopete/kopeteonlinestatus.cpp:161
 #: libkopete/kopetestatusmanager.cpp:285
 #: plugins/statistics/statisticscontact.cpp:271
 #: plugins/statistics/statisticsdialog.cpp:382
 #: plugins/statistics/statisticsdialog.cpp:675
-#: plugins/statistics/statisticsdialog.cpp:677
 #: protocols/groupwise/gwprotocol.cpp:57
 #: protocols/jabber/jabbercontact.cpp:194
 #: protocols/jabber/jabberprotocol.cpp:69
@@ -2095,13 +2094,14 @@ msgstr "Abwesend"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_initialStatus)
 #: kopete/config/behavior/behaviorconfig_general.ui:137
 #: kopete/config/status/statusconfig_manager.cpp:62
-#: libkopete/kopetemetacontact.cpp:500 libkopete/kopetestatusmanager.cpp:291
+#: libkopete/kopetemetacontact.cpp:506 libkopete/kopetestatusmanager.cpp:291
 #: plugins/statistics/statisticscontact.cpp:273
 #: plugins/statistics/statisticsdialog.cpp:384
+#: plugins/statistics/statisticsdialog.cpp:677
 #: protocols/gadu/gaduprotocol.cpp:68 protocols/gadu/gaduprotocol.cpp:70
 #: protocols/groupwise/gwprotocol.cpp:55
 #: protocols/meanwhile/meanwhileprotocol.cpp:49
-#: protocols/wlm/wlmprotocol.cpp:48 protocols/yahoo/yahooprotocol.cpp:47
+#: protocols/wlm/wlmprotocol.cpp:48 protocols/yahoo/yahooprotocol.cpp:48
 msgid "Busy"
 msgstr "Beschäftigt"
 
@@ -2117,7 +2117,7 @@ msgstr "Beschäftigt"
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:812
 #: protocols/oscar/icq/icqstatusmanager.cpp:92
 #: protocols/skype/skypeaccount.cpp:946 protocols/skype/skypeprotocol.cpp:82
-#: protocols/wlm/wlmprotocol.cpp:59 protocols/yahoo/yahooprotocol.cpp:56
+#: protocols/wlm/wlmprotocol.cpp:59 protocols/yahoo/yahooprotocol.cpp:57
 msgid "Invisible"
 msgstr "Unsichtbar"
 
@@ -2633,7 +2633,7 @@ msgstr "Länger abwesend"
 #: kopete/config/status/statusconfig_manager.cpp:64
 #: protocols/groupwise/gwprotocol.cpp:59
 #: protocols/meanwhile/meanwhileprotocol.cpp:54
-#: protocols/wlm/wlmprotocol.cpp:66 protocols/yahoo/yahooprotocol.cpp:58
+#: protocols/wlm/wlmprotocol.cpp:66 protocols/yahoo/yahooprotocol.cpp:59
 msgid "Idle"
 msgstr "Inaktiv"
 
@@ -2663,7 +2663,7 @@ msgstr "Neue Gruppe"
 #: kopete/config/status/statusconfig_manager.ui:46 kopete/kopetewindow.cpp:387
 #: plugins/highlight/highlightprefsbase.ui:56
 #: plugins/privacy/privacydialog.ui:116 plugins/privacy/privacydialog.ui:183
-#: protocols/jabber/jabberprotocol.cpp:451
+#: protocols/jabber/jabberprotocol.cpp:458
 #: protocols/oscar/aim/aimprotocol.cpp:188
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:777
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:863
@@ -2690,7 +2690,7 @@ msgstr "Kategorie:"
 
 #: kopete/config/status/statusmodel.cpp:122
 #: protocols/groupwise/ui/gwcontactproperties.cpp:113
-#: protocols/yahoo/yahooprotocol.cpp:67
+#: protocols/yahoo/yahooprotocol.cpp:68
 msgid "Title"
 msgstr "Titel"
 
@@ -2705,12 +2705,12 @@ msgid "Display Name"
 msgstr "Anzeigename"
 
 #: kopete/contactlist/contactlistlayoutmanager.cpp:60
-#: libkopete/kopeteglobal.cpp:154
+#: libkopete/kopeteglobal.cpp:155
 msgid "Status Title"
 msgstr "Statustitel"
 
 #: kopete/contactlist/contactlistlayoutmanager.cpp:61
-#: kopete/kopetewindow.cpp:1371 libkopete/kopeteglobal.cpp:160
+#: kopete/kopetewindow.cpp:1371 libkopete/kopeteglobal.cpp:161
 msgid "Status Message"
 msgstr "Statusmeldung"
 
@@ -2751,13 +2751,13 @@ msgstr ""
 msgid "Meta Contact Merge"
 msgstr "Metakontakt zusammenführen"
 
-#: kopete/contactlist/contactlistmodel.cpp:514
+#: kopete/contactlist/contactlistmodel.cpp:530
 #, kde-format
 msgctxt "%1 is display name, %2 is status (connected/away/etc.)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: kopete/contactlist/contactlistmodel.cpp:517
+#: kopete/contactlist/contactlistmodel.cpp:533
 #, kde-format
 msgctxt "%1 is display name, %2 is status and %3 is status message"
 msgid ""
@@ -2767,7 +2767,7 @@ msgstr ""
 "%1 (%2)\n"
 "%3"
 
-#: kopete/contactlist/contactlistmodel.cpp:679
+#: kopete/contactlist/contactlistmodel.cpp:695
 #, kde-format
 msgctxt ""
 "<tr><td>STATUS ICON <b>PROTOCOL NAME</b> (ACCOUNT NAME)</td><td>STATUS "
@@ -2779,7 +2779,7 @@ msgstr ""
 "<tr style='white-space:pre'><td><img src=\"%1\">&nbsp;</td><td><b>%2</"
 "b>&nbsp;(%3)</td><td align=\"right\">%4</td></tr>"
 
-#: kopete/contactlist/contactlistmodel.cpp:690
+#: kopete/contactlist/contactlistmodel.cpp:706
 #, kde-format
 msgctxt "<tr><td><small><i>STATUS MESSAGE</i></small></td></tr>"
 msgid "<tr><td>&nbsp;</td><td colspan='2'><small><i>%1</i></small></td></tr>"
@@ -3053,7 +3053,7 @@ msgid "Rename Contact"
 msgstr "Kontakt umbenennen"
 
 #: kopete/contactlist/kopetecontactlistview.cpp:842
-#: libkopete/kopetecontact.cpp:467
+#: libkopete/kopetecontact.cpp:507
 msgid "Remove Contact"
 msgstr "Kontakt entfernen"
 
@@ -3153,15 +3153,31 @@ msgstr "Eigenschaften von Metakontakt %1"
 msgid "Sync KABC..."
 msgstr "Abgleich mit KABC ..."
 
-#: kopete/contactlist/kopetelviprops.cpp:392
+#: kopete/contactlist/kopetelviprops.cpp:298
+msgid "(custom name)"
+msgstr "(Benutzername)"
+
+#: kopete/contactlist/kopetelviprops.cpp:304
+msgid "(nick name)"
+msgstr "(Spitzname)"
+
+#: kopete/contactlist/kopetelviprops.cpp:310
+msgid "(formatted name)"
+msgstr "(Formatierter Name)"
+
+#: kopete/contactlist/kopetelviprops.cpp:316
+msgid "(contact id)"
+msgstr "(Kontaktnummer)"
+
+#: kopete/contactlist/kopetelviprops.cpp:412
 msgid "No Contacts with Photo Support"
 msgstr "Keine Kontakte mit Unterstützung für Fotos"
 
-#: kopete/contactlist/kopetelviprops.cpp:545
+#: kopete/contactlist/kopetelviprops.cpp:589
 msgid "No contacts were imported from the address book."
 msgstr "Es wurden keine Kontakte aus dem Adressbuch importiert."
 
-#: kopete/contactlist/kopetelviprops.cpp:546
+#: kopete/contactlist/kopetelviprops.cpp:590
 msgid "No Change"
 msgstr "Keine Änderung"
 
@@ -3233,7 +3249,7 @@ msgstr "Adressbuchfoto verwenden (benötigt Adressbuchzuordnung)"
 #. i18n: ectx: property (text), widget (QLabel, photoLabel)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: kopete/contactlist/kopetemetalvipropswidget.ui:250
-#: libkopete/kopeteglobal.cpp:220
+#: libkopete/kopeteglobal.cpp:227
 #: libkopete/ui/addressbookselectorwidget_base.ui:95
 #: protocols/jabber/ui/dlgvcard.ui:146
 msgid "Photo"
@@ -3533,14 +3549,14 @@ msgstr "Andocken im Systemabschnitt der Kontrollleiste"
 #: kopete/kopetewindow.cpp:1135
 #, kde-format
 msgctxt ""
-"Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
-"</nobr><br />"
+"Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
+"i>)</nobr><br />"
 msgid ""
-"<nobr><img src=\"%3\" width=\"16\" height=\"16\" /> <b>%1:</b> %2 (<i>%4</i>)"
-"</nobr><br />"
+"<nobr><img src=\"%3\" width=\"16\" height=\"16\" /> <b>%1:</b> %2 (<i>%4</"
+"i>)</nobr><br />"
 msgstr ""
-"<nobr><img src=\"%3\" width=\"16\" height=\"16\" /> <b>%1:</b> %2 (<i>%4</i>)"
-"</nobr><br />"
+"<nobr><img src=\"%3\" width=\"16\" height=\"16\" /> <b>%1:</b> %2 (<i>%4</"
+"i>)</nobr><br />"
 
 #. i18n: ectx: property (text), widget (QLineEdit, mResource)
 #: kopete/kopetewindow.cpp:1140 kopete/main.cpp:32
@@ -3558,7 +3574,7 @@ msgid "<b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr "<b>Status‑⁠Titel:</b>&nbsp;%1"
 
 # non-breaking hyphen
-#: kopete/kopetewindow.cpp:1361 libkopete/kopetecontact.cpp:670
+#: kopete/kopetewindow.cpp:1361 libkopete/kopetecontact.cpp:709
 #, kde-format
 msgctxt "@label:textbox formatted status message"
 msgid "<br /><b>Status&nbsp;Message:</b>&nbsp;%1"
@@ -3958,7 +3974,7 @@ msgid "Edit Message..."
 msgstr "Nachricht bearbeiten ..."
 
 #: kopete/statusmenu/kopetestatusrootaction.cpp:169
-#: protocols/oscar/icq/icqaccount.cpp:198
+#: protocols/oscar/icq/icqaccount.cpp:197
 msgid "Edit Statuses..."
 msgstr "Status bearbeiten ..."
 
@@ -4335,7 +4351,7 @@ msgstr "Höhen"
 
 #. i18n: ectx: property (text), widget (QPushButton, muteButton)
 #: libkopete/avdevice/videodevice.cpp:3052
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:63
+#: protocols/jabber/libjinglecalldialog.ui:63
 msgid "Mute"
 msgstr "Stumm"
 
@@ -4547,7 +4563,7 @@ msgstr ""
 msgid "Not Connected"
 msgstr "Nicht verbunden"
 
-#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:387
+#: libkopete/kabcpersistence.cpp:380 protocols/jabber/jabberprotocol.cpp:394
 #: protocols/oscar/aim/aimprotocol.cpp:157
 #: protocols/oscar/icq/icqprotocol.cpp:99
 msgid "Choose Account"
@@ -4575,18 +4591,18 @@ msgstr "<qt>Das Hinzufügen des Kontakts ist nicht möglich.</qt>"
 msgid "Could Not Add Contact"
 msgstr "Kontakt ließ sich nicht hinzufügen"
 
-#: libkopete/kopeteaccount.cpp:211
+#: libkopete/kopeteaccount.cpp:212
 msgid "You have been disconnected"
 msgstr "Ihre Verbindung ist getrennt worden"
 
-#: libkopete/kopeteaccount.cpp:211
+#: libkopete/kopeteaccount.cpp:212
 #, kde-format
 msgid "You have connected from another client or computer to the account '%1'"
 msgstr ""
 "Sie sind bereits über einen anderen Client oder Rechner mit dem Zugang „%1“ "
 "verbunden"
 
-#: libkopete/kopeteaccount.cpp:211
+#: libkopete/kopeteaccount.cpp:212
 msgid ""
 "Most proprietary Instant Messaging services do not allow you to connect from "
 "more than one location. Check that nobody is using your account without your "
@@ -4599,7 +4615,7 @@ msgstr ""
 "Verbindungen von verschiedenen Orten aus erlaubt, dann verwenden Sie das "
 "Jabber-Protokoll."
 
-#: libkopete/kopeteaccount.cpp:346 libkopete/kopeteaccount.cpp:420
+#: libkopete/kopeteaccount.cpp:347 libkopete/kopeteaccount.cpp:421
 #, kde-format
 msgid ""
 "You are not allowed to add yourself to the contact list. The addition of "
@@ -4608,21 +4624,21 @@ msgstr ""
 "Der eigene Kontakt kann nicht zur Kontaktliste hinzugefügt werden. „%1“ wird "
 "dem Zugang „%2“ nicht hinzugefügt."
 
-#: libkopete/kopeteaccount.cpp:346 libkopete/kopeteaccount.cpp:420
+#: libkopete/kopeteaccount.cpp:347 libkopete/kopeteaccount.cpp:421
 msgid "Error Creating Contact"
 msgstr "Fehler beim Erstellen des Kontakts"
 
-#: libkopete/kopeteaccount.cpp:480 protocols/jabber/jabbertransport.cpp:136
+#: libkopete/kopeteaccount.cpp:481 protocols/jabber/jabbertransport.cpp:136
 #, kde-format
 msgid "%2 <%1>"
 msgstr "%2 <%1>"
 
-#: libkopete/kopeteaccount.cpp:486 protocols/gadu/gaduaccount.cpp:387
+#: libkopete/kopeteaccount.cpp:487 protocols/gadu/gaduaccount.cpp:383
 #: protocols/skype/skypeaccount.cpp:968 protocols/winpopup/wpaccount.cpp:187
 msgid "Properties"
 msgstr "Eigenschaften"
 
-#: libkopete/kopeteaccount.cpp:691
+#: libkopete/kopeteaccount.cpp:692
 msgid "Edit Account"
 msgstr "Zugang bearbeiten"
 
@@ -5030,8 +5046,8 @@ msgstr "Ein Kontakt hat Ihnen ein Ansummen/Anstupsen gesendet."
 msgid "User <i>%1</i> is typing a message"
 msgstr "<i>%1</i> schreibt gerade eine Nachricht"
 
-#: libkopete/kopetechatsession.cpp:567 libkopete/kopetemetacontact.cpp:1340
-#: libkopete/kopetemetacontact.cpp:1344
+#: libkopete/kopetechatsession.cpp:567 libkopete/kopetemetacontact.cpp:1349
+#: libkopete/kopetemetacontact.cpp:1353
 msgctxt "@action"
 msgid "Chat"
 msgstr "Chat"
@@ -5085,7 +5101,7 @@ msgstr "Sie sind nicht berechtigt den Befehl „%1“ auszuführen."
 msgid "Command Error"
 msgstr "Fehler im Befehl"
 
-#: libkopete/kopetecommandhandler.cpp:132
+#: libkopete/kopetecommandhandler.cpp:112
 msgid ""
 "USAGE: /help [<command>] - Used to list available commands, or show help for "
 "a specified command."
@@ -5093,25 +5109,25 @@ msgstr ""
 "Verwendung: /help [<Befehl>] – Zeigt eine Liste der verfügbaren Befehle oder "
 "die Hilfe für einen bestimmten Befehl an."
 
-#: libkopete/kopetecommandhandler.cpp:135
+#: libkopete/kopetecommandhandler.cpp:115
 msgid "USAGE: /url - Opens last URL for current chat in default browser."
 msgstr ""
 "Verwendung: /url – Öffnet die letzte im Chat vorkommende URL im "
 "Standardbrowser."
 
-#: libkopete/kopetecommandhandler.cpp:138
+#: libkopete/kopetecommandhandler.cpp:118
 msgid "USAGE: /close - Closes the current view."
 msgstr "Verwendung: /close – Schließt die aktuelle Ansicht."
 
-#: libkopete/kopetecommandhandler.cpp:142
+#: libkopete/kopetecommandhandler.cpp:122
 msgid "USAGE: /part - Closes the current view."
 msgstr "Verwendung: /part – Schließt die aktuelle Ansicht."
 
-#: libkopete/kopetecommandhandler.cpp:145
+#: libkopete/kopetecommandhandler.cpp:125
 msgid "USAGE: /clear - Clears the active view's chat buffer."
 msgstr "Verwendung: /clear – Löscht den Chatpuffer der aktuellen Ansicht."
 
-#: libkopete/kopetecommandhandler.cpp:151
+#: libkopete/kopetecommandhandler.cpp:131
 msgid ""
 "USAGE: /away [<reason>] - Marks you as away/back for the current account "
 "only."
@@ -5119,13 +5135,13 @@ msgstr ""
 "Verwendung: /away [<Grund>] – Setzt den Status nur für den aktuellen Zugang "
 "auf Abwesend/Zurück."
 
-#: libkopete/kopetecommandhandler.cpp:154
+#: libkopete/kopetecommandhandler.cpp:134
 msgid "USAGE: /awayall [<reason>] - Marks you as away/back for all accounts."
 msgstr ""
 "Verwendung: /awayall [<Grund>] – Setzt den Status für alle Zugänge auf "
 "Abwesend/Zurück."
 
-#: libkopete/kopetecommandhandler.cpp:157
+#: libkopete/kopetecommandhandler.cpp:137
 msgid ""
 "USAGE: /say <text> - Say text in this chat. This is the same as just typing "
 "a message, but is very useful for scripts."
@@ -5134,7 +5150,7 @@ msgstr ""
 "derselbe, wie beim direkten Eintippen der Nachricht, allerdings ist der "
 "Befehl nützlich für Skripte."
 
-#: libkopete/kopetecommandhandler.cpp:161
+#: libkopete/kopetecommandhandler.cpp:141
 msgid ""
 "USAGE: /exec [-o] <command> - Executes the specified command and displays "
 "the output in the chat buffer. If -o is specified, the output is sent to all "
@@ -5144,11 +5160,11 @@ msgstr ""
 "dessen Ausgabe im Chatpuffer an. Falls -o angegeben wurde, wird die Ausgabe "
 "an alle Teilnehmer des Chats versendet."
 
-#: libkopete/kopetecommandhandler.cpp:272
+#: libkopete/kopetecommandhandler.cpp:252
 msgid "Available Commands:\n"
 msgstr "Verfügbare Befehle:\n"
 
-#: libkopete/kopetecommandhandler.cpp:285
+#: libkopete/kopetecommandhandler.cpp:265
 msgid ""
 "\n"
 "Type /help <command> for more information."
@@ -5156,12 +5172,12 @@ msgstr ""
 "\n"
 "Für weitere Informationen bitte /help <Befehl> eingeben."
 
-#: libkopete/kopetecommandhandler.cpp:294
+#: libkopete/kopetecommandhandler.cpp:274
 #, kde-format
 msgid "There is no help available for '%1'."
 msgstr "Für „%1“ ist keine Hilfe verfügbar."
 
-#: libkopete/kopetecommandhandler.cpp:345
+#: libkopete/kopetecommandhandler.cpp:330
 msgid ""
 "ERROR: Shell access has been restricted on your system. The /exec command "
 "will not function."
@@ -5169,34 +5185,38 @@ msgstr ""
 "Fehler: Auf Ihrem Rechner ist der Shellzugriff beschränkt. Daher wird der /"
 "exec-Befehl nicht funktionieren."
 
+#: libkopete/kopetecommandhandler.cpp:391
+msgid "ERROR: Failed to start process from /exec command."
+msgstr "FEHLER: Prozess kann mit /exec nicht gestartet werden."
+
 #. i18n: ectx: Menu (commandmenu)
 #: libkopete/kopetecommandui.rc:6
 msgid "Commands"
 msgstr "Befehle"
 
-#: libkopete/kopetecontact.cpp:255
+#: libkopete/kopetecontact.cpp:295
 msgid "&Add to Your Contact List"
 msgstr "&Zur Kontaktliste hinzufügen"
 
-#: libkopete/kopetecontact.cpp:299 libkopete/ui/kopetestdaction.cpp:113
+#: libkopete/kopetecontact.cpp:339 libkopete/ui/kopetestdaction.cpp:113
 msgid "Visible when offline"
 msgstr "Sichtbar wenn offline"
 
-#: libkopete/kopetecontact.cpp:330
+#: libkopete/kopetecontact.cpp:370
 msgid "Move Contact"
 msgstr "Kontakt verschieben"
 
-#: libkopete/kopetecontact.cpp:338
+#: libkopete/kopetecontact.cpp:378
 msgid "Select the meta contact to which you want to move this contact:"
 msgstr ""
 "Bitte wählen Sie den Metakontakt, zu dem dieser Kontakt verschoben werden "
 "soll:"
 
-#: libkopete/kopetecontact.cpp:341
+#: libkopete/kopetecontact.cpp:381
 msgid "Create a new metacontact for this contact"
 msgstr "Einen neuen Metakontakt für diesen Kontakt erstellen"
 
-#: libkopete/kopetecontact.cpp:342
+#: libkopete/kopetecontact.cpp:382
 msgid ""
 "If you select this option, a new metacontact will be created in the top-"
 "level group with the name of this contact and the contact will be moved to "
@@ -5206,7 +5226,7 @@ msgstr ""
 "obersten Ebene mit dem Namen dieses Kontakts erstellt und der Kontakt wird "
 "zu diesem Metakontakt verschoben."
 
-#: libkopete/kopetecontact.cpp:458
+#: libkopete/kopetecontact.cpp:498
 msgid ""
 "This user is not reachable at the moment. Please try a protocol that "
 "supports offline sending, or wait until this user comes online."
@@ -5215,137 +5235,141 @@ msgstr ""
 "Protokoll mit Unterstützung für Offline-Nachrichtenversand oder warten Sie, "
 "bis der Benutzer wieder online ist."
 
-#: libkopete/kopetecontact.cpp:459 libkopete/kopetemetacontact.cpp:332
-#: libkopete/kopetemetacontact.cpp:350 libkopete/kopetemetacontact.cpp:427
+#: libkopete/kopetecontact.cpp:499 libkopete/kopetemetacontact.cpp:338
+#: libkopete/kopetemetacontact.cpp:356 libkopete/kopetemetacontact.cpp:433
 msgid "User is Not Reachable"
 msgstr "Benutzer ist nicht erreichbar"
 
-#: libkopete/kopetecontact.cpp:466
+#: libkopete/kopetecontact.cpp:506
 #, kde-format
 msgid ""
 "Are you sure you want to remove the contact  '%1' from your contact list?"
 msgstr "Möchten Sie den Kontakt „%1“ wirklich aus der Kontaktliste entfernen?"
 
-#: libkopete/kopetecontact.cpp:608
+#: libkopete/kopetecontact.cpp:647
 #, kde-format
 msgctxt "@label:textbox %3 is contact-display-name, %1 is its status"
 msgid "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
 msgstr "<b><nobr>%3</nobr></b><br /><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:615
+#: libkopete/kopetecontact.cpp:654
 #, kde-format
 msgctxt ""
 "@label:textbox %4 is contact-display-name, %3 is contact-id, %1 is its status"
 msgid "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 msgstr "<nobr><b>%4</b> (%3)</nobr><br /><img src=\"%2\">&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:633
+#: libkopete/kopetecontact.cpp:672
 #, kde-format
 msgctxt "@label:textbox formatted name"
 msgid "<br /><b>Full Name:</b>&nbsp;<nobr>%1</nobr>"
 msgstr "<br /><b>Vollständiger Name:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:642
+#: libkopete/kopetecontact.cpp:681
 #, kde-format
 msgctxt "@label:textbox formatted idle time"
 msgid "<br /><b>Idle:</b>&nbsp;<nobr>%1</nobr>"
 msgstr "<br /><b>Untätig:</b>&nbsp;<nobr>%1</nobr>"
 
-#: libkopete/kopetecontact.cpp:651
+#: libkopete/kopetecontact.cpp:690
 #, kde-format
 msgctxt "@label:textbox formatted url"
 msgid "<br /><b>Home Page:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 msgstr "<br /><b>Internetseite:</b>&nbsp;<a href=\"%1\"><nobr>%2</nobr></a>"
 
 # non-breaking hyphen
-#: libkopete/kopetecontact.cpp:661
+#: libkopete/kopetecontact.cpp:700
 #, kde-format
 msgctxt "@label:textbox formatted status title"
 msgid "<br /><b>Status&nbsp;Title:</b>&nbsp;%1"
 msgstr "<br /><b>Status‑⁠Titel:</b>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:712
+#: libkopete/kopetecontact.cpp:751
 #, kde-format
 msgctxt "@label:textbox property label %2 is name, %1 is value"
 msgid "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
 msgstr "<br /><nobr><b>%2:</b></nobr>&nbsp;%1"
 
-#: libkopete/kopetecontact.cpp:735
+#: libkopete/kopetecontact.cpp:774
 #, kde-format
 msgctxt "firstName lastName"
 msgid "%2 %1"
 msgstr "%2 %1"
 
-#: libkopete/kopetecontact.cpp:771
+#: libkopete/kopetecontact.cpp:810
 #, kde-format
 msgctxt "<days>d <hours>h <minutes>m <seconds>s"
 msgid "%4d %3h %2m %1s"
 msgstr "%4d %3h %2m %1s"
 
-#: libkopete/kopetecontact.cpp:779
+#: libkopete/kopetecontact.cpp:818
 #, kde-format
 msgctxt "<hours>h <minutes>m <seconds>s"
 msgid "%3h %2m %1s"
 msgstr "%3h %2m %1s"
 
-#: libkopete/kopetecontact.cpp:787
+#: libkopete/kopetecontact.cpp:826
 #, no-c-format, kde-format
 msgctxt "<minutes>m <seconds>s"
 msgid "%2m %1s"
 msgstr "%2m %1s"
 
-#: libkopete/kopeteglobal.cpp:130
+#: libkopete/kopeteglobal.cpp:131
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
-#: libkopete/kopeteglobal.cpp:136
+#: libkopete/kopeteglobal.cpp:137
 msgid "Idle Time"
 msgstr "Inaktivitätszeit"
 
-#: libkopete/kopeteglobal.cpp:142
+#: libkopete/kopeteglobal.cpp:143
 msgid "Online Since"
 msgstr "Online seit"
 
-#: libkopete/kopeteglobal.cpp:148
+#: libkopete/kopeteglobal.cpp:149
 msgid "Last Seen"
 msgstr "Zuletzt gesehen"
 
-#: libkopete/kopeteglobal.cpp:166 protocols/groupwise/ui/gwsearch.cpp:98
+#: libkopete/kopeteglobal.cpp:167 protocols/groupwise/ui/gwsearch.cpp:98
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:63
 msgid "First Name"
 msgstr "Vorname"
 
-#: libkopete/kopeteglobal.cpp:172 protocols/groupwise/ui/gwsearch.cpp:101
+#: libkopete/kopeteglobal.cpp:173 protocols/groupwise/ui/gwsearch.cpp:101
 #: protocols/oscar/icq/ui/icqsearchdialog.cpp:64
 msgid "Last Name"
 msgstr "Nachname"
 
-#: libkopete/kopeteglobal.cpp:178
+#: libkopete/kopeteglobal.cpp:179
 msgid "Private Phone"
 msgstr "Telefon (Privat)"
 
-#: libkopete/kopeteglobal.cpp:184
+#: libkopete/kopeteglobal.cpp:185
 msgid "Private Mobile Phone"
 msgstr "Mobiltelefon (Privat)"
 
-#: libkopete/kopeteglobal.cpp:190
+#: libkopete/kopeteglobal.cpp:191
 msgid "Work Phone"
 msgstr "Telefon (Arbeit)"
 
-#: libkopete/kopeteglobal.cpp:196
+#: libkopete/kopeteglobal.cpp:197
 msgid "Work Mobile Phone"
 msgstr "Mobiltelefon (Arbeit)"
 
-#: libkopete/kopeteglobal.cpp:202
+#: libkopete/kopeteglobal.cpp:203
 #: protocols/groupwise/ui/gwcontactproperties.cpp:115
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
 
-#: libkopete/kopeteglobal.cpp:208
+#: libkopete/kopeteglobal.cpp:209
 msgid "Nick Name"
 msgstr "Spitzname"
 
-#: libkopete/kopeteglobal.cpp:214
+#: libkopete/kopeteglobal.cpp:215
+msgid "Custom Name"
+msgstr "Benutzername"
+
+#: libkopete/kopeteglobal.cpp:221
 msgid "Shown even if offline"
 msgstr "Wird auch im Offline-Modus angezeigt"
 
@@ -5373,8 +5397,8 @@ msgstr ""
 #: libkopete/kopeteidentity.cpp:172
 #, kde-format
 msgctxt ""
-"Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</i>)"
-"</nobr><br />"
+"Account tooltip information: <nobr>ICON <b>PROTOCOL:</b> NAME (<i>STATUS</"
+"i>)</nobr><br />"
 msgid ""
 "<nobr><img src=\"kopete-account-icon:%3:%4\"> <b>%1:</b> %2 (<i>%5</i>)</"
 "nobr><br />"
@@ -5389,8 +5413,8 @@ msgctxt ""
 msgid "Default Identity"
 msgstr "Standard-Identität"
 
-#: libkopete/kopetemetacontact.cpp:331 libkopete/kopetemetacontact.cpp:349
-#: libkopete/kopetemetacontact.cpp:426
+#: libkopete/kopetemetacontact.cpp:337 libkopete/kopetemetacontact.cpp:355
+#: libkopete/kopetemetacontact.cpp:432
 msgid ""
 "This user is not reachable at the moment. Please make sure you are connected "
 "and using a protocol that supports offline sending, or wait until this user "
@@ -5401,11 +5425,11 @@ msgstr ""
 "Nachrichtenversand verwenden, oder warten Sie, bis der Benutzer wieder "
 "online ist."
 
-#: libkopete/kopetemetacontact.cpp:505 protocols/wlm/wlmprotocol.cpp:69
+#: libkopete/kopetemetacontact.cpp:511 protocols/wlm/wlmprotocol.cpp:69
 msgid "Status not available"
 msgstr "Status nicht verfügbar"
 
-#: libkopete/kopetemetacontact.cpp:1353
+#: libkopete/kopetemetacontact.cpp:1362
 #, kde-format
 msgid "<qt><i>%1</i> is now %2.</qt>"
 msgstr "<qt><i>%1</i> ist jetzt: %2</qt>"
@@ -5429,7 +5453,7 @@ msgstr ""
 #: protocols/jabber/jabberprotocol.cpp:74
 #: protocols/skype/skypecalldialog.cpp:216
 #: protocols/skype/skypeprotocol.cpp:83 protocols/sms/smsprotocol.cpp:40
-#: protocols/wlm/wlmprotocol.cpp:71 protocols/yahoo/yahooprotocol.cpp:59
+#: protocols/wlm/wlmprotocol.cpp:71 protocols/yahoo/yahooprotocol.cpp:60
 msgid "Connecting"
 msgstr "Verbindung wird aufgebaut"
 
@@ -5539,16 +5563,16 @@ msgstr "Sie haben die Dateiübertragung %1 abgebrochen"
 msgid "File transfer %1 cancelled."
 msgstr "Dateiübertragung %1 abgebrochen."
 
-#: libkopete/kopetetransfermanager.cpp:488 protocols/gadu/gaducontact.cpp:99
+#: libkopete/kopetetransfermanager.cpp:491 protocols/gadu/gaducontact.cpp:99
 #: protocols/jabber/jabbercontact.cpp:1114
 #: protocols/jabber/jabbergroupcontact.cpp:336
 #: protocols/jabber/jabbergroupmembercontact.cpp:278
-#: protocols/oscar/oscarcontact.cpp:366 protocols/qq/qqcontact.cpp:418
+#: protocols/oscar/oscarcontact.cpp:364 protocols/qq/qqcontact.cpp:418
 #: protocols/wlm/wlmcontact.cpp:175
 msgid "Kopete File Transfer"
 msgstr "Kopete-Dateiübertragung"
 
-#: libkopete/kopetetransfermanager.cpp:509
+#: libkopete/kopetetransfermanager.cpp:512
 msgid ""
 "Sorry, sending files which are not stored locally is not yet supported by "
 "this protocol.\n"
@@ -5558,43 +5582,43 @@ msgstr ""
 "versendet werden.\n"
 "Bitte speichern Sie die Datei lokal und versuchen Sie es erneut."
 
-#: libkopete/kopetetransfermanager.cpp:532
-#: libkopete/kopetetransfermanager.cpp:581
+#: libkopete/kopetetransfermanager.cpp:535
+#: libkopete/kopetetransfermanager.cpp:584
 #: protocols/jabber/jingle/jinglecontentdialog.cpp:35
 msgid "File Transfer"
 msgstr "Dateiübertragung"
 
-#: libkopete/kopetetransfermanager.cpp:538
+#: libkopete/kopetetransfermanager.cpp:541
 msgid "You must provide a valid local filename"
 msgstr "Sie müssen einen gültigen lokalen Dateinamen angeben"
 
-#: libkopete/kopetetransfermanager.cpp:547
+#: libkopete/kopetetransfermanager.cpp:550
 msgid "You do not have permission to write to selected file"
 msgstr "Ihnen fehlt die Berechtigung zum Schreiben in die ausgewählte Datei"
 
-#: libkopete/kopetetransfermanager.cpp:551
+#: libkopete/kopetetransfermanager.cpp:554
 #, kde-format
 msgid ""
 "The file '%1' already exists.\n"
 "Do you want to overwrite it ?"
 msgstr "Die Datei „%1“ existiert bereits. Möchten Sie sie überschreiben?"
 
-#: libkopete/kopetetransfermanager.cpp:552
+#: libkopete/kopetetransfermanager.cpp:555
 msgid "Overwrite File"
 msgstr "Datei überschreiben"
 
-#: libkopete/kopetetransfermanager.cpp:561
-#: libkopete/kopetetransfermanager.cpp:594
+#: libkopete/kopetetransfermanager.cpp:564
+#: libkopete/kopetetransfermanager.cpp:597
 #, kde-format
 msgid "The directory %1 does not exist"
 msgstr "Der Ordner %1 existiert nicht"
 
-#: libkopete/kopetetransfermanager.cpp:566
-#: libkopete/kopetetransfermanager.cpp:599
+#: libkopete/kopetetransfermanager.cpp:569
+#: libkopete/kopetetransfermanager.cpp:602
 msgid "You do not have permission to write to selected directory"
 msgstr "Ihnen fehlt die Berechtigung zum Schreiben in den ausgewählten Ordner"
 
-#: libkopete/kopetetransfermanager.cpp:587
+#: libkopete/kopetetransfermanager.cpp:590
 msgid "You must provide a valid local directory"
 msgstr "Sie müssen einen gültigen lokalen Ordner angeben"
 
@@ -5691,7 +5715,7 @@ msgid "View"
 msgstr "Anzeigen"
 
 #: libkopete/private/kopeteviewmanager.cpp:418
-#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
+#: protocols/wlm/wlmaccount.cpp:1159 protocols/wlm/wlmaccount.cpp:1178
 #: protocols/yahoo/yahooaccount.cpp:1189 protocols/yahoo/yahooaccount.cpp:1635
 #: protocols/yahoo/yahooaccount.cpp:1846
 msgctxt "@action"
@@ -5998,7 +6022,7 @@ msgid "Un&block Contact"
 msgstr "Kontakt &zulassen"
 
 #: libkopete/ui/metacontactselectorwidget.cpp:216
-#: protocols/gadu/gaduaccount.cpp:369
+#: protocols/gadu/gaduaccount.cpp:365
 msgid "Contacts"
 msgstr "Kontakte"
 
@@ -6692,7 +6716,7 @@ msgstr "Fenster hervorheben"
 msgid "Configure Notifications..."
 msgstr "Benachrichtigungen festlegen ..."
 
-#: plugins/history/converter.cpp:42 protocols/jabber/jabberaccount.cpp:1247
+#: plugins/history/converter.cpp:42 protocols/jabber/jabberaccount.cpp:1246
 #: protocols/jabber/jabbercontact.cpp:1010
 msgid "Keep"
 msgstr "Behalten"
@@ -6895,13 +6919,19 @@ msgstr "Einlesen abbrechen"
 msgid "Parsing history"
 msgstr "Verlauf wird eingelesen"
 
-#: plugins/history/historyimport.cpp:299
+#: plugins/history/historyimport.cpp:301
+#: plugins/history2/history2import.cpp:360
+#, kde-format
+msgid "WARNING: There is no equivalent for protocol %1 in kopete.\n"
+msgstr "Achtung: Es gibt kein entsprechendes Protokoll für %1 in Kopete.\n"
+
+#: plugins/history/historyimport.cpp:319
 #: plugins/history2/history2import.cpp:387
 #, kde-format
 msgid "WARNING: Cannot find matching account for %1 (%2).\n"
 msgstr "Achtung: Kein passender Zugang für %1 (%2) gefunden.\n"
 
-#: plugins/history/historyimport.cpp:311
+#: plugins/history/historyimport.cpp:331
 #: plugins/history2/history2import.cpp:399
 #, kde-format
 msgid ""
@@ -6911,23 +6941,14 @@ msgstr ""
 "Achtung: %1 (%2) kann in Ihrer Kontaktliste nicht gefunden werden. Der "
 "entsprechende Verlauf wird nicht importiert.\n"
 
-#: plugins/history/historyimport.cpp:326
+#: plugins/history/historyimport.cpp:346
 #: plugins/history2/history2import.cpp:413
 #, kde-format
 msgid "WARNING: Cannot open file %1. Skipping.\n"
 msgstr ""
 "Achtung: Die Datei %1 kann nicht geöffnet werden. Sie wird ausgelassen.\n"
 
-#: plugins/history/historyimport.cpp:375
-msgid "Cannot Map Nickname to Account"
-msgstr "Spitzname kann keinem Zugang zugeordnet werden"
-
-#: plugins/history/historyimport.cpp:376
-#, kde-format
-msgid "Did you use \"%1\" as nickname in history?"
-msgstr "Haben Sie im Verlauf „%1“ als Spitznamen verwendet?"
-
-#: plugins/history/historyimport.cpp:423
+#: plugins/history/historyimport.cpp:411
 #: plugins/history2/history2import.cpp:478
 #, kde-format
 msgid ""
@@ -6938,13 +6959,39 @@ msgstr ""
 "die Datei, die dieses Datum enthält. (Ein erkanntes Datumsformat ist z. B.:"
 "„%2“.)\n"
 
-#: plugins/history/historyimport.cpp:546
+#: plugins/history/historyimport.cpp:512
+#: plugins/history2/history2import.cpp:573
+#, kde-format
+msgid "INFORMATION: Guessed %1 to be one of your nicks.\n"
+msgstr ""
+"Information: Es wurde angenommen, dass %1 einer Ihrer Spitznamen ist.\n"
+
+#: plugins/history/historyimport.cpp:514
+#: plugins/history2/history2import.cpp:575
+#, kde-format
+msgid "INFORMATION: Guessed %1 to be one of your buddys nicks.\n"
+msgstr ""
+"Information: Es wurde angenommen, dass %1 ein Spitzname eines Ihrer Freunde "
+"ist.\n"
+
+#: plugins/history/historyimport.cpp:531
+#: plugins/history2/history2import.cpp:589
+msgid "Cannot map Nickname to Account"
+msgstr "Spitzname kann keinem Zugang zugeordnet werden"
+
+#: plugins/history/historyimport.cpp:532
+#: plugins/history2/history2import.cpp:590
+#, kde-format
+msgid "Did you ever use \"%1\" as nickname in your history?"
+msgstr "Haben Sie im Ihrem Verlauf jemals „%1“ als Spitznamen verwendet?"
+
+#: plugins/history/historyimport.cpp:613
 #: plugins/history2/history2import.cpp:670
 #, kde-format
 msgid "WARNING: XML parser error in %1 at line %2, character %3: %4"
 msgstr "Achtung: XML-Parser-Fehler in %1 in der Zeile %2 beim Zeichen %3: %4"
 
-#: plugins/history/historyimport.cpp:549
+#: plugins/history/historyimport.cpp:616
 #: plugins/history2/history2import.cpp:673
 #, kde-format
 msgid "\t%1"
@@ -7106,33 +7153,6 @@ msgstr "Verlauf aus &Kopete importieren ..."
 #: plugins/history2/history2import.cpp:272
 msgid "Parsing history from kopete ..."
 msgstr "Verlauf aus Kopete wird eingelesen ..."
-
-#: plugins/history2/history2import.cpp:360
-#, kde-format
-msgid "WARNING: There is no equivalent for protocol %1 in kopete.\n"
-msgstr "Achtung: Es gibt kein entsprechendes Protokoll für %1 in Kopete.\n"
-
-#: plugins/history2/history2import.cpp:573
-#, kde-format
-msgid "INFORMATION: Guessed %1 to be one of your nicks.\n"
-msgstr ""
-"Information: Es wurde angenommen, dass %1 einer Ihrer Spitznamen ist.\n"
-
-#: plugins/history2/history2import.cpp:575
-#, kde-format
-msgid "INFORMATION: Guessed %1 to be one of your buddys nicks.\n"
-msgstr ""
-"Information: Es wurde angenommen, dass %1 ein Spitzname eines Ihrer Freunde "
-"ist.\n"
-
-#: plugins/history2/history2import.cpp:589
-msgid "Cannot map Nickname to Account"
-msgstr "Spitzname kann keinem Zugang zugeordnet werden"
-
-#: plugins/history2/history2import.cpp:590
-#, kde-format
-msgid "Did you ever use \"%1\" as nickname in your history?"
-msgstr "Haben Sie im Ihrem Verlauf jemals „%1“ als Spitznamen verwendet?"
 
 #: plugins/history2/history2plugin.cpp:47
 msgid "History2"
@@ -7836,8 +7856,8 @@ msgid ""
 "<b>The following message received from %1 was <i>not</i> encrypted: [</b>"
 "%2<b>]</b>"
 msgstr ""
-"<b>Die folgende Nachricht von %1 war <i>nicht</i> verschlüsselt:: [</b>%2<b>]"
-"</b>"
+"<b>Die folgende Nachricht von %1 war <i>nicht</i> verschlüsselt:: [</b>"
+"%2<b>]</b>"
 
 #: plugins/otr/otrlchatinterface.cpp:471
 #, kde-format
@@ -9531,115 +9551,115 @@ msgstr "&Abwesend"
 msgid "O&ffline"
 msgstr "&Offline"
 
-#: protocols/gadu/gaduaccount.cpp:203
+#: protocols/gadu/gaduaccount.cpp:199
 msgid "&Search for Friends"
 msgstr "&Suchen nach Freunden"
 
-#: protocols/gadu/gaduaccount.cpp:206
+#: protocols/gadu/gaduaccount.cpp:202
 msgid "Export Contacts to Server"
 msgstr "Kontakte zum Server exportieren"
 
-#: protocols/gadu/gaduaccount.cpp:210
+#: protocols/gadu/gaduaccount.cpp:206
 msgid "Import Contacts from Server"
 msgstr "Kontakte vom Server importieren"
 
-#: protocols/gadu/gaduaccount.cpp:214
+#: protocols/gadu/gaduaccount.cpp:210
 msgid "Delete Contacts from Server"
 msgstr "Kontakte vom Server löschen"
 
-#: protocols/gadu/gaduaccount.cpp:218
+#: protocols/gadu/gaduaccount.cpp:214
 msgid "Export Contacts to File..."
 msgstr "Kontakte in Datei exportieren ..."
 
-#: protocols/gadu/gaduaccount.cpp:222
+#: protocols/gadu/gaduaccount.cpp:218
 msgid "Import Contacts from File..."
 msgstr "Kontakte aus Datei importieren ..."
 
-#: protocols/gadu/gaduaccount.cpp:226
+#: protocols/gadu/gaduaccount.cpp:222
 msgid "Only for Friends"
 msgstr "Nur für Freunde"
 
-#: protocols/gadu/gaduaccount.cpp:288
+#: protocols/gadu/gaduaccount.cpp:284
 #, kde-format
 msgid "%1 <%2> "
 msgstr "%1 <%2> "
 
-#: protocols/gadu/gaduaccount.cpp:329
+#: protocols/gadu/gaduaccount.cpp:325
 msgid "Go O&nline"
 msgstr "Gehe O&nline"
 
-#: protocols/gadu/gaduaccount.cpp:336
+#: protocols/gadu/gaduaccount.cpp:332
 msgid "Set &Busy"
 msgstr "Status auf „&Beschäftigt“ setzen"
 
-#: protocols/gadu/gaduaccount.cpp:343
+#: protocols/gadu/gaduaccount.cpp:339
 msgid "Set &Invisible"
 msgstr "Status „&Unsichtbar“ setzen"
 
-#: protocols/gadu/gaduaccount.cpp:350
+#: protocols/gadu/gaduaccount.cpp:346
 msgid "Go &Offline"
 msgstr "&Offline gehen"
 
-#: protocols/gadu/gaduaccount.cpp:355
+#: protocols/gadu/gaduaccount.cpp:351
 msgid "Set &Description..."
 msgstr "Bes&chreibung festlegen ..."
 
-#: protocols/gadu/gaduaccount.cpp:379
+#: protocols/gadu/gaduaccount.cpp:375
 msgid "Export Contacts on change"
 msgstr "Kontakte bei Veränderung exportieren"
 
-#: protocols/gadu/gaduaccount.cpp:774
+#: protocols/gadu/gaduaccount.cpp:770
 msgid "connection using SSL was not possible, retrying without."
 msgstr ""
 "Es kann über SSL keine Verbindung hergestellt werden. Es wird nun ohne SSL "
 "versucht."
 
-#: protocols/gadu/gaduaccount.cpp:802
+#: protocols/gadu/gaduaccount.cpp:798
 #, kde-format
 msgid "unable to connect to the Gadu-Gadu server(\"%1\")."
 msgstr ""
 "Das Modul kann keine Verbindung zum Gadu-Gadu-Server herstellen („%1“)."
 
-#: protocols/gadu/gaduaccount.cpp:803 protocols/gadu/gaducommands.cpp:325
+#: protocols/gadu/gaduaccount.cpp:799 protocols/gadu/gaducommands.cpp:325
 #: protocols/gadu/gaducommands.cpp:333 protocols/gadu/gaducommands.cpp:381
 msgid "Connection Error"
 msgstr "Verbindungsfehler"
 
-#: protocols/gadu/gaduaccount.cpp:941
+#: protocols/gadu/gaduaccount.cpp:937
 msgid "Imported contacts list is empty."
 msgstr "Die importierte Kontaktliste ist leer."
 
-#: protocols/gadu/gaduaccount.cpp:988
+#: protocols/gadu/gaduaccount.cpp:984
 msgid "Contacts imported."
 msgstr "Kontakte importiert."
 
-#: protocols/gadu/gaduaccount.cpp:997
+#: protocols/gadu/gaduaccount.cpp:993
 msgid "Contacts exported."
 msgstr "Die Kontakte wurden exportiert."
 
-#: protocols/gadu/gaduaccount.cpp:1003
+#: protocols/gadu/gaduaccount.cpp:999
 msgid "Contacts deleted from the server."
 msgstr "Die Kontakte wurden vom Server gelöscht."
 
-#: protocols/gadu/gaduaccount.cpp:1040
+#: protocols/gadu/gaduaccount.cpp:1036
 #, kde-format
 msgid "Save Contacts List for Account %1 As"
 msgstr "Kontaktliste für den Zugang %1 speichern unter"
 
-#: protocols/gadu/gaduaccount.cpp:1048
+#: protocols/gadu/gaduaccount.cpp:1044
 msgid "Unable to create temporary file."
 msgstr "Es lässt sich keine temporäre Datei erzeugen."
 
-#: protocols/gadu/gaduaccount.cpp:1048 protocols/gadu/gaduaccount.cpp:1062
+#: protocols/gadu/gaduaccount.cpp:1044 protocols/gadu/gaduaccount.cpp:1058
 msgid "Save Contacts List Failed"
 msgstr "Speichern der Kontaktliste ist fehlgeschlagen"
 
-#: protocols/gadu/gaduaccount.cpp:1086
+#: protocols/gadu/gaduaccount.cpp:1082
 #, kde-format
 msgid "Load Contacts List for Account %1 As"
 msgstr "Laden der Kontaktliste für den Zugang %1 als"
 
-#: protocols/gadu/gaduaccount.cpp:1106 protocols/gadu/gaduaccount.cpp:1112
+#: protocols/gadu/gaduaccount.cpp:1102 protocols/gadu/gaduaccount.cpp:1108
 msgid "Contacts List Load Has Failed"
 msgstr "Laden der Kontaktliste fehlgeschlagen"
 
@@ -9650,11 +9670,11 @@ msgstr "Abwesenheitsdialog"
 
 #: protocols/gadu/gaducommands.cpp:143 protocols/gadu/gaducommands.cpp:180
 #: protocols/gadu/gaducommands.cpp:196 protocols/gadu/gaducommands.cpp:231
-#: protocols/gadu/gaducommands.cpp:247 protocols/gadu/gadueditaccount.cpp:198
-#: protocols/gadu/gadueditaccount.cpp:219
-#: protocols/gadu/gadueditaccount.cpp:224
-#: protocols/gadu/gadueditaccount.cpp:229
-#: protocols/gadu/gadueditaccount.cpp:263
+#: protocols/gadu/gaducommands.cpp:247 protocols/gadu/gadueditaccount.cpp:192
+#: protocols/gadu/gadueditaccount.cpp:213
+#: protocols/gadu/gadueditaccount.cpp:218
+#: protocols/gadu/gadueditaccount.cpp:223
+#: protocols/gadu/gadueditaccount.cpp:257
 msgid "Gadu-Gadu"
 msgstr "Gadu-Gadu"
 
@@ -9824,28 +9844,28 @@ msgstr "Während der Dateiübertragung ist ein Netzwerkfehler aufgetreten."
 msgid "Unknown File-Transfer error."
 msgstr "Unbekannter Dateiübertragungsfehler"
 
-#: protocols/gadu/gadueditaccount.cpp:91
+#: protocols/gadu/gadueditaccount.cpp:85
 msgctxt "personal information being fetched from server"
 msgid "<p align=\"center\">Fetching from server</p>"
 msgstr "<p align=\"center\">Serverabfrage läuft</p>"
 
-#: protocols/gadu/gadueditaccount.cpp:198
+#: protocols/gadu/gadueditaccount.cpp:192
 msgid "<b>Registration FAILED.</b>"
 msgstr "<b>Registrierung fehlgeschlagen.</b>"
 
-#: protocols/gadu/gadueditaccount.cpp:219
+#: protocols/gadu/gadueditaccount.cpp:213
 msgid "<b>Enter UIN please.</b>"
 msgstr "<b>Bitte UIN eingeben.</b>"
 
-#: protocols/gadu/gadueditaccount.cpp:224
+#: protocols/gadu/gadueditaccount.cpp:218
 msgid "<b>UIN should be a positive number.</b>"
 msgstr "<b>Die UIN muss eine positive Zahl sein.</b>"
 
-#: protocols/gadu/gadueditaccount.cpp:229
+#: protocols/gadu/gadueditaccount.cpp:223
 msgid "<b>Enter password please.</b>"
 msgstr "<b>Bitte geben Sie das Passwort ein.</b>"
 
-#: protocols/gadu/gadueditaccount.cpp:263
+#: protocols/gadu/gadueditaccount.cpp:257
 msgid "<b>Starting DCC listening socket failed; dcc is not working now.</b>"
 msgstr ""
 "<b>Socket für DCC-Empfang kann nicht erstellt werden, DCC funktioniert daher "
@@ -9896,7 +9916,7 @@ msgstr "Benutzer &hinzufügen ..."
 
 #: protocols/gadu/gadupubdir.cpp:121
 #: protocols/gadu/gaduregisteraccount.cpp:170
-#: protocols/oscar/aim/aimuserinfo.cpp:115
+#: protocols/oscar/aim/aimuserinfo.cpp:110
 msgid "&Close"
 msgstr "Schl&ießen"
 
@@ -10614,7 +10634,7 @@ msgstr "Stadt:"
 #. i18n: ectx: property (text), item, widget (QComboBox, cbGender)
 #: protocols/gadu/ui/gadueditaccountui.ui:645
 #: protocols/gadu/ui/gadusearch.ui:269 protocols/oscar/icq/icqprotocol.cpp:197
-#: protocols/qq/ui/qqvcard.ui:223 protocols/skype/skypecontact.cpp:237
+#: protocols/qq/ui/qqvcard.ui:223 protocols/skype/skypecontact.cpp:236
 msgid "Female"
 msgstr "Weiblich"
 
@@ -10623,7 +10643,7 @@ msgstr "Weiblich"
 #. i18n: ectx: property (text), item, widget (QComboBox, cbGender)
 #: protocols/gadu/ui/gadueditaccountui.ui:650
 #: protocols/gadu/ui/gadusearch.ui:264 protocols/oscar/icq/icqprotocol.cpp:198
-#: protocols/qq/ui/qqvcard.ui:218 protocols/skype/skypecontact.cpp:235
+#: protocols/qq/ui/qqvcard.ui:218 protocols/skype/skypecontact.cpp:234
 msgid "Male"
 msgstr "Männlich"
 
@@ -12129,7 +12149,7 @@ msgid "Please enter the name of the channel you want to join:"
 msgstr "Bitte geben Sie den Namen des zu betretenden Kanals ein:"
 
 #. i18n: ectx: Menu (irc)
-#: protocols/irc/ircchatui.rc:5 protocols/yahoo/yahooprotocol.cpp:81
+#: protocols/irc/ircchatui.rc:5 protocols/yahoo/yahooprotocol.cpp:82
 msgid "IRC"
 msgstr "IRC"
 
@@ -12801,7 +12821,7 @@ msgstr "&Rechner:"
 #. i18n: ectx: property (text), widget (QLabel, m_portLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: protocols/irc/ui/networkconfig.ui:184
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:728
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:739
 msgid "Por&t:"
 msgstr "Po&rt:"
 
@@ -12879,73 +12899,6 @@ msgstr "Bitte einen neuen Namen für das Netzwerk eingeben:"
 msgid "A network already exists with that name"
 msgstr "Ein Netzwerk mit diesem Namen existiert bereits"
 
-#: protocols/jabber/googletalk/googletalk.cpp:52
-#, kde-format
-msgid "Cannot start process %1. Check your installation of Kopete."
-msgstr ""
-"Der Prozess %1 kann nicht gestartet werden. Bitte überprüfen Sie Ihre Kopete-"
-"Installation."
-
-#: protocols/jabber/googletalk/googletalk.cpp:314
-msgid "Answer for incoming call"
-msgstr "Eingehenden Anruf beantworten"
-
-#: protocols/jabber/googletalk/googletalk.cpp:324
-msgid "Accepted"
-msgstr "Angenommen"
-
-#: protocols/jabber/googletalk/googletalk.cpp:333
-msgid "Calling..."
-msgstr "Anruf ..."
-
-#: protocols/jabber/googletalk/googletalk.cpp:338
-msgid "Rejected"
-msgstr "Abgelehnt"
-
-#: protocols/jabber/googletalk/googletalk.cpp:350
-msgid "Call in progress"
-msgstr "Anruf wird getätigt"
-
-#: protocols/jabber/googletalk/googletalk.cpp:357
-msgid "Other side hung up"
-msgstr "Gegenseite hat aufgelegt"
-
-#: protocols/jabber/googletalk/googletalk.cpp:404
-msgid "Waiting..."
-msgstr "Warten ..."
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, GoogleTalkCallDialog)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:6
-msgid "Google Talk Voice Call"
-msgstr "Google-Talk-Sprachanruf"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:14
-msgid "Calling with:"
-msgstr "Telefonieren mit:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:28
-msgid "Call Status:"
-msgstr "Anruf-Status:"
-
-#. i18n: ectx: property (text), widget (QPushButton, AcceptButton)
-#. i18n: ectx: property (text), widget (QPushButton, acceptButton)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:42
-#: protocols/skype/ui/skypecalldialogbase.ui:180
-msgid "Accept"
-msgstr "Annehmen"
-
-#. i18n: ectx: property (text), widget (QPushButton, rejectButton)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:49
-msgid "Reject"
-msgstr "Ablehnen"
-
-#. i18n: ectx: property (text), widget (QPushButton, hangupButton)
-#: protocols/jabber/googletalk/googletalkcalldialog.ui:56
-msgid "Hang up"
-msgstr "Auflegen"
-
 #: protocols/jabber/jabberaccount.cpp:206
 msgid ""
 "Could not bind the Jabber file transfer manager to a local port. Please "
@@ -12975,7 +12928,7 @@ msgstr "XML-Konsole"
 
 #: protocols/jabber/jabberaccount.cpp:250
 #: protocols/oscar/aim/aimaccount.cpp:244
-#: protocols/oscar/icq/icqaccount.cpp:139
+#: protocols/oscar/icq/icqaccount.cpp:138
 msgid "Edit User Info..."
 msgstr "Benutzerinformationen bearbeiten ..."
 
@@ -13023,107 +12976,107 @@ msgstr ""
 msgid "Jabber Connection Error"
 msgstr "Jabber-Verbindungsfehler"
 
-#: protocols/jabber/jabberaccount.cpp:820
+#: protocols/jabber/jabberaccount.cpp:819
 msgid "Malformed packet received."
 msgstr "Fehlerhaftes Paket erhalten."
 
-#: protocols/jabber/jabberaccount.cpp:825
+#: protocols/jabber/jabberaccount.cpp:824
 msgid "There was an unrecoverable error in the protocol."
 msgstr "Es ist ein nicht behebbarer Fehler im Protokoll aufgetreten."
 
-#: protocols/jabber/jabberaccount.cpp:832
+#: protocols/jabber/jabberaccount.cpp:831
 msgid "Generic stream error."
 msgstr "Allgemeiner Datenstrom-Fehler."
 
-#: protocols/jabber/jabberaccount.cpp:836
+#: protocols/jabber/jabberaccount.cpp:835
 msgid "There was a conflict in the information received."
 msgstr "Es ist ein Konflikt in den erhaltenen Informationen aufgetreten."
 
-#: protocols/jabber/jabberaccount.cpp:839
+#: protocols/jabber/jabberaccount.cpp:838
 msgid "The stream timed out."
 msgstr "Zeitüberschreitung bei Verbindung."
 
-#: protocols/jabber/jabberaccount.cpp:842
+#: protocols/jabber/jabberaccount.cpp:841
 msgid "Internal server error."
 msgstr "Interner Serverfehler."
 
-#: protocols/jabber/jabberaccount.cpp:845
+#: protocols/jabber/jabberaccount.cpp:844
 msgid "Stream packet received from an invalid address."
 msgstr "Datenstrom-Paket von der falschen Adresse erhalten."
 
-#: protocols/jabber/jabberaccount.cpp:848
+#: protocols/jabber/jabberaccount.cpp:847
 msgid "Malformed stream packet received."
 msgstr "Fehlerhaftes Datenstrom-Paket erhalten."
 
-#: protocols/jabber/jabberaccount.cpp:852
+#: protocols/jabber/jabberaccount.cpp:851
 msgid "Policy violation in the protocol stream."
 msgstr "Verletzung der Regelungen im Protokollstrom."
 
-#: protocols/jabber/jabberaccount.cpp:856
+#: protocols/jabber/jabberaccount.cpp:855
 msgid "Resource constraint."
 msgstr "Ressourcenbegrenzung."
 
-#: protocols/jabber/jabberaccount.cpp:860
+#: protocols/jabber/jabberaccount.cpp:859
 msgid "System shutdown."
 msgstr "System wird heruntergefahren."
 
-#: protocols/jabber/jabberaccount.cpp:863
+#: protocols/jabber/jabberaccount.cpp:862
 msgid "Unknown reason."
 msgstr "Unbekannter Grund."
 
-#: protocols/jabber/jabberaccount.cpp:867
+#: protocols/jabber/jabberaccount.cpp:866
 #, kde-format
 msgid "There was an error in the protocol stream: %1"
 msgstr "Im Protokollstrom ist ein Fehler aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:875
+#: protocols/jabber/jabberaccount.cpp:874
 msgid "Host not found."
 msgstr "Rechner nicht gefunden."
 
-#: protocols/jabber/jabberaccount.cpp:878
+#: protocols/jabber/jabberaccount.cpp:877
 msgid "Address is already in use."
 msgstr "Die Adresse wird bereits verwendet."
 
-#: protocols/jabber/jabberaccount.cpp:881
+#: protocols/jabber/jabberaccount.cpp:880
 msgid "Connection refused."
 msgstr "Verbindung abgelehnt."
 
-#: protocols/jabber/jabberaccount.cpp:884
+#: protocols/jabber/jabberaccount.cpp:883
 msgid "Connection attempt already in progress."
 msgstr "Verbindungsversuch läuft bereits."
 
-#: protocols/jabber/jabberaccount.cpp:887
+#: protocols/jabber/jabberaccount.cpp:886
 msgid "Network failure."
 msgstr "Netzwerkfehler."
 
-#: protocols/jabber/jabberaccount.cpp:890
+#: protocols/jabber/jabberaccount.cpp:889
 msgid "Socket timed out."
 msgstr "Zeitüberschreitung bei Verbindung."
 
-#: protocols/jabber/jabberaccount.cpp:893
+#: protocols/jabber/jabberaccount.cpp:892
 msgid "Remote closed connection."
 msgstr "Die Gegenstelle hat die Verbindung beendet."
 
-#: protocols/jabber/jabberaccount.cpp:897
+#: protocols/jabber/jabberaccount.cpp:896
 #, kde-format
 msgid "Unexpected error condition (%1)."
 msgstr "Unerwartete Fehlerbedingung (%1)."
 
-#: protocols/jabber/jabberaccount.cpp:901
+#: protocols/jabber/jabberaccount.cpp:900
 #, kde-format
 msgid "There was a connection error: %1"
 msgstr "Es ist ein Verbindungsfehler aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:909
+#: protocols/jabber/jabberaccount.cpp:908
 msgid "Unknown host."
 msgstr "Unbekannter Rechner."
 
-#: protocols/jabber/jabberaccount.cpp:913
+#: protocols/jabber/jabberaccount.cpp:912
 msgid "Could not connect to a required remote resource."
 msgstr ""
 "Verbindung zu einer entfernten Ressource kann nicht hergestellt werden."
 
-#: protocols/jabber/jabberaccount.cpp:916
+#: protocols/jabber/jabberaccount.cpp:915
 msgid ""
 "It appears we have been redirected to another server; I do not know how to "
 "handle this."
@@ -13131,120 +13084,120 @@ msgstr ""
 "Die Verbindung wurde anscheinend zu einem anderen Server umgeleitet, diese "
 "Situation kann vom Programm nicht verarbeitet werden."
 
-#: protocols/jabber/jabberaccount.cpp:919
+#: protocols/jabber/jabberaccount.cpp:918
 msgid "Unsupported protocol version."
 msgstr "Protokollversion wird nicht unterstützt."
 
-#: protocols/jabber/jabberaccount.cpp:922
-#: protocols/jabber/jabberaccount.cpp:939
-#: protocols/jabber/jabberaccount.cpp:983
-#: protocols/jabber/jabberaccount.cpp:1000
-#: protocols/jabber/jabberaccount.cpp:1017
-#: protocols/jabber/jabberaccount.cpp:1025
+#: protocols/jabber/jabberaccount.cpp:921
+#: protocols/jabber/jabberaccount.cpp:938
+#: protocols/jabber/jabberaccount.cpp:982
+#: protocols/jabber/jabberaccount.cpp:999
+#: protocols/jabber/jabberaccount.cpp:1016
+#: protocols/jabber/jabberaccount.cpp:1024
 msgid "Unknown error."
 msgstr "Unbekannter Fehler"
 
-#: protocols/jabber/jabberaccount.cpp:926
+#: protocols/jabber/jabberaccount.cpp:925
 #, kde-format
 msgid "There was a negotiation error: %1"
 msgstr "Es ist ein Verhandlungsfehler aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:933
+#: protocols/jabber/jabberaccount.cpp:932
 msgid "Server rejected our request to start the TLS handshake."
 msgstr "Der Server hat die Anfrage zum Aufbau der TLS-Verbindung abgelehnt."
 
-#: protocols/jabber/jabberaccount.cpp:936
+#: protocols/jabber/jabberaccount.cpp:935
 msgid "Failed to establish a secure connection."
 msgstr "Herstellung einer gesicherten Verbindung fehlgeschlagen."
 
-#: protocols/jabber/jabberaccount.cpp:943
+#: protocols/jabber/jabberaccount.cpp:942
 #, kde-format
 msgid "There was a Transport Layer Security (TLS) error: %1"
 msgstr "Es ist ein TLS-Fehler (Transport Layer Security) aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:950
+#: protocols/jabber/jabberaccount.cpp:949
 msgid "Login failed with unknown reason."
 msgstr "Anmeldung aus unbekanntem Grund fehlgeschlagen."
 
-#: protocols/jabber/jabberaccount.cpp:953
+#: protocols/jabber/jabberaccount.cpp:952
 msgid "No appropriate authentication mechanism available."
 msgstr "Es ist keine geeignete Authentifizierungsmethode verfügbar."
 
-#: protocols/jabber/jabberaccount.cpp:956
+#: protocols/jabber/jabberaccount.cpp:955
 msgid "Bad SASL authentication protocol."
 msgstr "Fehlerhaftes SASL-Authentifizierungsprotokoll."
 
-#: protocols/jabber/jabberaccount.cpp:959
+#: protocols/jabber/jabberaccount.cpp:958
 msgid "Server failed mutual authentication."
 msgstr "Gegenseitige Authentifizierung des Servers fehlgeschlagen."
 
-#: protocols/jabber/jabberaccount.cpp:962
+#: protocols/jabber/jabberaccount.cpp:961
 msgid "Encryption is required but not present."
 msgstr "Verschlüsselung ist notwendig aber nicht verfügbar."
 
-#: protocols/jabber/jabberaccount.cpp:965
+#: protocols/jabber/jabberaccount.cpp:964
 msgid "Invalid user ID."
 msgstr "Ungültige Benutzer-ID."
 
-#: protocols/jabber/jabberaccount.cpp:968
+#: protocols/jabber/jabberaccount.cpp:967
 msgid "Invalid mechanism."
 msgstr "Ungültiger Mechanismus."
 
-#: protocols/jabber/jabberaccount.cpp:971
+#: protocols/jabber/jabberaccount.cpp:970
 msgid "Invalid realm."
 msgstr "Ungültiger Bereich (Realm)."
 
-#: protocols/jabber/jabberaccount.cpp:974
+#: protocols/jabber/jabberaccount.cpp:973
 msgid "Mechanism too weak."
 msgstr "Mechanismus zu schwach."
 
-#: protocols/jabber/jabberaccount.cpp:977
+#: protocols/jabber/jabberaccount.cpp:976
 msgid "Wrong credentials supplied. (check your user ID and password)"
 msgstr ""
 "Falsche Benutzerdaten übermittelt. (Benutzer-ID und Passwort überprüfen)"
 
-#: protocols/jabber/jabberaccount.cpp:980
+#: protocols/jabber/jabberaccount.cpp:979
 msgid "Temporary failure, please try again later."
 msgstr "Temporärer Fehler, bitte versuchen Sie es später erneut."
 
-#: protocols/jabber/jabberaccount.cpp:987
+#: protocols/jabber/jabberaccount.cpp:986
 #, kde-format
 msgid "There was an error authenticating with the server: %1"
 msgstr ""
 "Bei der Authentifizierung auf dem Server ist ein Fehler aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:994
+#: protocols/jabber/jabberaccount.cpp:993
 msgid "Transport Layer Security (TLS) problem."
 msgstr "TLS-Problem (Transport Layer Security)."
 
-#: protocols/jabber/jabberaccount.cpp:997
+#: protocols/jabber/jabberaccount.cpp:996
 msgid "Simple Authentication and Security Layer (SASL) problem."
 msgstr "SASL-Problem (Simple Authentication and Security Layer)."
 
-#: protocols/jabber/jabberaccount.cpp:1004
+#: protocols/jabber/jabberaccount.cpp:1003
 #, kde-format
 msgid "There was an error in the security layer: %1"
 msgstr "In der Sicherheitsebene ist ein Fehler aufgetreten: %1"
 
-#: protocols/jabber/jabberaccount.cpp:1011
+#: protocols/jabber/jabberaccount.cpp:1010
 msgid "No permission to bind the resource."
 msgstr "Keine Erlaubnis die Ressource zu binden."
 
-#: protocols/jabber/jabberaccount.cpp:1014
+#: protocols/jabber/jabberaccount.cpp:1013
 msgid "The resource is already in use."
 msgstr "Die Ressource wird bereits verwendet."
 
-#: protocols/jabber/jabberaccount.cpp:1021
+#: protocols/jabber/jabberaccount.cpp:1020
 #, kde-format
 msgid "Could not bind a resource: %1"
 msgstr "Eine Ressource kann nicht gebunden werden: %1"
 
-#: protocols/jabber/jabberaccount.cpp:1034
+#: protocols/jabber/jabberaccount.cpp:1033
 #, kde-format
 msgid "Kopete: Connection problem with Jabber server %1"
 msgstr "Kopete: Verbindungsproblem mit dem Jabber-Server %1"
 
-#: protocols/jabber/jabberaccount.cpp:1244
+#: protocols/jabber/jabberaccount.cpp:1243
 #, kde-format
 msgid ""
 "The Jabber user %1 removed %2's subscription to him/her. This account will "
@@ -13255,42 +13208,42 @@ msgstr ""
 "Zugang lässt sich sein Online/Offline-Status nicht mehr feststellen. Soll "
 "dieser Kontakt gelöscht werden?"
 
-#: protocols/jabber/jabberaccount.cpp:1247
+#: protocols/jabber/jabberaccount.cpp:1246
 #: protocols/jabber/jabbercontact.cpp:1009
 msgid "Notification"
 msgstr "Benachrichtigung"
 
-#: protocols/jabber/jabberaccount.cpp:1433
+#: protocols/jabber/jabberaccount.cpp:1432
 msgid "Waiting for authorization"
 msgstr "Warten auf Autorisierung"
 
-#: protocols/jabber/jabberaccount.cpp:1650
+#: protocols/jabber/jabberaccount.cpp:1649
 #, kde-format
 msgid "A password is required to join the room %1."
 msgstr "Um den Raum %1 zu betreten, ist ein Passwort erforderlich."
 
-#: protocols/jabber/jabberaccount.cpp:1660
+#: protocols/jabber/jabberaccount.cpp:1659
 #, kde-format
 msgid "Error trying to join %1 : nickname %2 is already in use"
 msgstr "Fehler beim Betreten von %1: Der Spitzname %2 wird bereits verwendet"
 
-#: protocols/jabber/jabberaccount.cpp:1661
-#: protocols/jabber/jabberprotocol.cpp:492
+#: protocols/jabber/jabberaccount.cpp:1660
+#: protocols/jabber/jabberprotocol.cpp:499
 msgid "Provide your nickname"
 msgstr "Geben Sie Ihren Spitznamen an"
 
-#: protocols/jabber/jabberaccount.cpp:1674
+#: protocols/jabber/jabberaccount.cpp:1673
 #, kde-format
 msgid "You cannot join the room %1 because you have been banned"
 msgstr "Sie können den Raum %1 nicht betreten, weil Sie verbannt wurden"
 
-#: protocols/jabber/jabberaccount.cpp:1675
-#: protocols/jabber/jabberaccount.cpp:1682
-#: protocols/jabber/jabberaccount.cpp:1692
+#: protocols/jabber/jabberaccount.cpp:1674
+#: protocols/jabber/jabberaccount.cpp:1681
+#: protocols/jabber/jabberaccount.cpp:1691
 msgid "Jabber Group Chat"
 msgstr "Jabber-Gruppenchat"
 
-#: protocols/jabber/jabberaccount.cpp:1681
+#: protocols/jabber/jabberaccount.cpp:1680
 #, kde-format
 msgid ""
 "You cannot join the room %1 because the maximum number of users has been "
@@ -13299,11 +13252,11 @@ msgstr ""
 "Sie können den Raum %1 nicht betreten, da die maximale Anzahl an Benutzern "
 "erreicht ist"
 
-#: protocols/jabber/jabberaccount.cpp:1687
+#: protocols/jabber/jabberaccount.cpp:1686
 msgid "No reason given by the server"
 msgstr "Der Server hat keine Begründung angegeben"
 
-#: protocols/jabber/jabberaccount.cpp:1691
+#: protocols/jabber/jabberaccount.cpp:1690
 #, kde-format
 msgid ""
 "There was an error processing your request for groupchat %1. (Reason: %2, "
@@ -13312,7 +13265,7 @@ msgstr ""
 "Während der Verarbeitung Ihrer Anfrage für den Gruppenchat %1 ist ein Fehler "
 "aufgetreten. (Grund: %2, Code %3)"
 
-#: protocols/jabber/jabberaccount.cpp:1764
+#: protocols/jabber/jabberaccount.cpp:1763
 #, kde-format
 msgid ""
 "Do you want to also unregister \"%1\" from the Jabber server ?\n"
@@ -13323,19 +13276,19 @@ msgstr ""
 "Sollten Sie dies auswählen, wird Ihre Kontaktliste vom Server gelöscht, und "
 "Sie werden sich nicht mehr mit diesem Zugang zum Server verbinden können."
 
-#: protocols/jabber/jabberaccount.cpp:1767
+#: protocols/jabber/jabberaccount.cpp:1766
 msgid "Unregister"
 msgstr "Registrierung löschen"
 
-#: protocols/jabber/jabberaccount.cpp:1768
+#: protocols/jabber/jabberaccount.cpp:1767
 msgid "Remove and Unregister"
 msgstr "Entfernen und Registrierung löschen"
 
-#: protocols/jabber/jabberaccount.cpp:1769
+#: protocols/jabber/jabberaccount.cpp:1768
 msgid "Remove only from Kopete"
 msgstr "Nur aus Kopete entfernen"
 
-#: protocols/jabber/jabberaccount.cpp:1813
+#: protocols/jabber/jabberaccount.cpp:1812
 #, kde-format
 msgid ""
 "An error occurred while trying to remove the account:\n"
@@ -13344,7 +13297,7 @@ msgstr ""
 "Beim Entfernen des Zugangs ist ein Fehler aufgetreten:\n"
 "%1"
 
-#: protocols/jabber/jabberaccount.cpp:1814
+#: protocols/jabber/jabberaccount.cpp:1813
 msgid "Jabber Account Unregistration"
 msgstr "Zugangsregistrierung löschen – Jabber"
 
@@ -13368,64 +13321,64 @@ msgstr ""
 msgid "You can see each others' status."
 msgstr "Sie können den gegenseitigen Status sehen."
 
-#: protocols/jabber/jabberbasecontact.cpp:275
+#: protocols/jabber/jabberbasecontact.cpp:272
 #: protocols/oscar/oscarprotocol.cpp:38
 msgid "Client"
 msgstr "Programm"
 
-#: protocols/jabber/jabberbasecontact.cpp:295
+#: protocols/jabber/jabberbasecontact.cpp:292
 msgid "User Mood"
 msgstr "Benutzer-Stimmung"
 
-#: protocols/jabber/jabberbasecontact.cpp:297
-#: protocols/oscar/icq/icqcontact.cpp:483
+#: protocols/jabber/jabberbasecontact.cpp:294
+#: protocols/oscar/icq/icqcontact.cpp:469
 msgid "Groupchat"
 msgstr "Gruppenchat"
 
-#: protocols/jabber/jabberbasecontact.cpp:299
-#: protocols/oscar/oscarcontact.cpp:253
+#: protocols/jabber/jabberbasecontact.cpp:296
+#: protocols/oscar/oscarcontact.cpp:251
 msgid "Rich text messages"
 msgstr "Rich-Text-Nachricht"
 
-#: protocols/jabber/jabberbasecontact.cpp:301
+#: protocols/jabber/jabberbasecontact.cpp:298
 msgid "Data Forms"
 msgstr "Datenformulare"
 
-#: protocols/jabber/jabberbasecontact.cpp:303
+#: protocols/jabber/jabberbasecontact.cpp:300
 msgid "OpenPGP"
 msgstr "OpenPGP"
 
-#: protocols/jabber/jabberbasecontact.cpp:305
+#: protocols/jabber/jabberbasecontact.cpp:302
 msgid "Message Events"
 msgstr "Nachrichten-Ereignisse"
 
-#: protocols/jabber/jabberbasecontact.cpp:307
+#: protocols/jabber/jabberbasecontact.cpp:304
 msgid "Message Delivery Receipts"
 msgstr "Bestätigung der Nachrichtenzustellung"
 
-#: protocols/jabber/jabberbasecontact.cpp:309
-#: protocols/oscar/oscarcontact.cpp:263
+#: protocols/jabber/jabberbasecontact.cpp:306
+#: protocols/oscar/oscarcontact.cpp:261
 msgid "File transfers"
 msgstr "Dateiübertragungen"
 
-#: protocols/jabber/jabberbasecontact.cpp:311
+#: protocols/jabber/jabberbasecontact.cpp:308
 msgid "Service Discovery"
 msgstr "Diensteerkennung"
 
-#: protocols/jabber/jabberbasecontact.cpp:318
+#: protocols/jabber/jabberbasecontact.cpp:315
 msgid "Supported Features"
 msgstr "Unterstützte Funktionen"
 
-#: protocols/jabber/jabberbasecontact.cpp:323
+#: protocols/jabber/jabberbasecontact.cpp:320
 msgid "Timestamp"
 msgstr "Zeitstempel"
 
-#: protocols/jabber/jabberbasecontact.cpp:330
+#: protocols/jabber/jabberbasecontact.cpp:327
 #: protocols/oscar/icq/xtrazstatusmodel.cpp:131
 msgid "Message"
 msgstr "Nachricht"
 
-#: protocols/jabber/jabberbasecontact.cpp:693
+#: protocols/jabber/jabberbasecontact.cpp:686
 msgid "Failed to download Jabber contact photo."
 msgstr "Das Herunterladen des Jabber-Kontakt-Fotos ist fehlgeschlagen."
 
@@ -13470,9 +13423,9 @@ msgstr "Autorisierungsformular (erneut) anfordern"
 msgid "Remove Authorization From"
 msgstr "Autorisierung entfernen von"
 
-#: protocols/jabber/jabbercontact.cpp:174
-msgid "Call Google Talk contact"
-msgstr "Google-Talk-Kontakt anrufen"
+#: protocols/jabber/jabbercontact.cpp:174 protocols/skype/skypecontact.cpp:101
+msgid "Call contact"
+msgstr "Kontakt anrufen"
 
 #: protocols/jabber/jabbercontact.cpp:183
 msgid "Set Availability"
@@ -13577,7 +13530,7 @@ msgid "Jabber Resource Selector"
 msgstr "Jabber-Ressourcenauswahl"
 
 #: protocols/jabber/jabbergroupchatmanager.cpp:175
-#: protocols/jabber/jabberprotocol.cpp:514
+#: protocols/jabber/jabberprotocol.cpp:521
 #, kde-format
 msgid "You have been invited to %1"
 msgstr "Sie wurden zu %1 eingeladen"
@@ -13631,7 +13584,7 @@ msgstr "Jabber-ID:"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: protocols/jabber/jabberprotocol.cpp:91
 #: protocols/oscar/icq/ui/icqgeneralinfo.ui:206
-#: protocols/yahoo/yahooprotocol.cpp:98
+#: protocols/yahoo/yahooprotocol.cpp:99
 msgid "Birthday"
 msgstr "Geburtstag"
 
@@ -13672,7 +13625,7 @@ msgid "Work PO Box"
 msgstr "Postfach (Arbeitsplatz):"
 
 #: protocols/jabber/jabberprotocol.cpp:101
-#: protocols/yahoo/yahooprotocol.cpp:92
+#: protocols/yahoo/yahooprotocol.cpp:93
 msgid "Work City"
 msgstr "Stadt (Arbeitsplatz)"
 
@@ -13681,7 +13634,7 @@ msgid "Work Postal Code"
 msgstr "Postleitzahl (Arbeitsplatz):"
 
 #: protocols/jabber/jabberprotocol.cpp:103
-#: protocols/yahoo/yahooprotocol.cpp:95
+#: protocols/yahoo/yahooprotocol.cpp:96
 msgid "Work Country"
 msgstr "Land (Arbeitsplatz)"
 
@@ -13722,33 +13675,33 @@ msgstr "Fax:"
 msgid "About"
 msgstr "Über"
 
-#: protocols/jabber/jabberprotocol.cpp:393
+#: protocols/jabber/jabberprotocol.cpp:400
 #, kde-format
 msgid "Choose an account to handle the URL %1"
 msgstr "Wählen Sie einen Zugang, um die URL %1 zu behandeln"
 
-#: protocols/jabber/jabberprotocol.cpp:450
+#: protocols/jabber/jabberprotocol.cpp:457
 #: protocols/oscar/aim/aimprotocol.cpp:187
 #, kde-format
 msgid "Do you want to add '%1' to your contact list?"
 msgstr "Möchten Sie „%1“ zu Ihrer Kontaktliste hinzufügen?"
 
-#: protocols/jabber/jabberprotocol.cpp:451
+#: protocols/jabber/jabberprotocol.cpp:458
 #: protocols/oscar/aim/aimprotocol.cpp:188
 #: protocols/oscar/icq/icqprotocol.cpp:130
 msgid "Do Not Add"
 msgstr "Nicht hinzufügen"
 
-#: protocols/jabber/jabberprotocol.cpp:467
+#: protocols/jabber/jabberprotocol.cpp:474
 #, kde-format
 msgid "Do you want to remove '%1' from your contact list?"
 msgstr "Möchten Sie „%1“ aus Ihrer Kontaktliste entfernen?"
 
-#: protocols/jabber/jabberprotocol.cpp:468
+#: protocols/jabber/jabberprotocol.cpp:475
 msgid "Do Not Remove"
 msgstr "Nicht entfernen"
 
-#: protocols/jabber/jabberprotocol.cpp:491
+#: protocols/jabber/jabberprotocol.cpp:498
 #, kde-format
 msgid "Please enter your nickname for the room %1"
 msgstr "Bitte einen Spitznamen für den Raum %1 eingeben"
@@ -13780,6 +13733,73 @@ msgstr "Neue Jingle-Sitzung von %1"
 #: protocols/jabber/jingle/jinglecontentdialog.ui:19
 msgid "Dialog"
 msgstr "Dialog"
+
+#: protocols/jabber/libjingle.cpp:104
+#, kde-format
+msgid "Cannot start process %1. Check your installation of Kopete."
+msgstr ""
+"Der Prozess %1 kann nicht gestartet werden. Bitte überprüfen Sie Ihre Kopete-"
+"Installation."
+
+#: protocols/jabber/libjingle.cpp:338
+msgid "Answer for incoming call"
+msgstr "Eingehenden Anruf beantworten"
+
+#: protocols/jabber/libjingle.cpp:348
+msgid "Accepted"
+msgstr "Angenommen"
+
+#: protocols/jabber/libjingle.cpp:357
+msgid "Calling..."
+msgstr "Anruf ..."
+
+#: protocols/jabber/libjingle.cpp:362
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#: protocols/jabber/libjingle.cpp:374
+msgid "Call in progress"
+msgstr "Anruf wird getätigt"
+
+#: protocols/jabber/libjingle.cpp:381
+msgid "Other side hung up"
+msgstr "Gegenseite hat aufgelegt"
+
+#: protocols/jabber/libjingle.cpp:428
+msgid "Waiting..."
+msgstr "Warten ..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, LibjingleCallDialog)
+#: protocols/jabber/libjinglecalldialog.ui:6
+msgid "Libjingle Voice Call"
+msgstr "Videoanruf mit LibJingle"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: protocols/jabber/libjinglecalldialog.ui:14
+msgid "Calling with:"
+msgstr "Telefonieren mit:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: protocols/jabber/libjinglecalldialog.ui:28
+msgid "Call Status:"
+msgstr "Anruf-Status:"
+
+#. i18n: ectx: property (text), widget (QPushButton, AcceptButton)
+#. i18n: ectx: property (text), widget (QPushButton, acceptButton)
+#: protocols/jabber/libjinglecalldialog.ui:42
+#: protocols/skype/ui/skypecalldialogbase.ui:180
+msgid "Accept"
+msgstr "Annehmen"
+
+#. i18n: ectx: property (text), widget (QPushButton, rejectButton)
+#: protocols/jabber/libjinglecalldialog.ui:49
+msgid "Reject"
+msgstr "Ablehnen"
+
+#. i18n: ectx: property (text), widget (QPushButton, hangupButton)
+#: protocols/jabber/libjinglecalldialog.ui:56
+msgid "Hang up"
+msgstr "Auflegen"
 
 #: protocols/jabber/tasks/mood.cpp:77
 #: protocols/jabber/ui/privacyruledlg.cpp:46
@@ -14458,8 +14478,10 @@ msgstr "R&essource:"
 msgid "P&riority:"
 msgstr "P&riorität:"
 
+#. i18n: ectx: property (toolTip), widget (QSpinBox, mPriority)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, mPriority)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:584
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:590
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:595
 msgid ""
 "<qt>Each resource can have different <b>priority </b> levels. The messages "
 "will be sent to the resource which has the highest priority level.\n"
@@ -14474,38 +14496,38 @@ msgstr ""
 "zuletzt verbundene gesendet.</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbAdjustPriority)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:604
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:615
 msgid "When absent, adjust priority to:"
 msgstr "Bei Abwesenheit die Priorität ändern zu:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mergeMessages)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:651
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:662
 msgid "Merge all messages from all resources to one window/tab"
 msgstr ""
 "Nachrichten von allen Ressourcen in einem Fenster/Unterfenster anzeigen"
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:678
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:689
 msgid "Fi&le Transfer"
 msgstr "Dateiübertragung"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:690
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:701
 msgid "File Transfer Settings"
 msgstr "Dateiübertragungseinstellungen"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:707
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:718
 msgid "Pro&xy JID:"
 msgstr "Prox&y-JID:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:750
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:761
 msgid "Public &IP address:"
 msgstr "Öffentliche &IP-Adresse:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:766
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:777
 msgid ""
 "<i><ul><li>The information in the \"public IP address\" and \"port\" fields "
 "applies to all Jabber accounts.</li>\n"
@@ -14527,27 +14549,27 @@ msgstr ""
 "festgelegt werden.</li></ul></i>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:799
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:810
 msgid "&Jingle"
 msgstr "&Jingle"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:807
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:818
 msgid "Network"
 msgstr "Netzwerk"
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoDetectIPBox)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:813
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:824
 msgid "Auto-detect external IP address"
 msgstr "Externe IP-Adresse automatisch feststellen"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:822
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:833
 msgid "First port to use:"
 msgstr "Erster zu verwendender Port:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, firstPortEdit)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:836
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:847
 msgid ""
 "Set the first incoming port to use for Jingle sessions.\n"
 "One media type uses 2 ports and each new Jingle session will use the next 2 "
@@ -14558,57 +14580,55 @@ msgstr ""
 "verwendet die nächsten zwei verfügbaren Ports."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:860
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:871
 #: protocols/oscar/icq/icqprotocol.cpp:652
 msgid "Media"
 msgstr "Medien"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:868
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:879
 msgid "Microphone to use:"
 msgstr "Zu verwendendes Mikrofon:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:882
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:893
 msgid "Audio output:"
 msgstr "Audio-Ausgabe:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:913
-msgid "&Google Talk"
-msgstr "&Google Talk"
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:924
+msgid "&Libjingle"
+msgstr "&LibJingle"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_17)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:919
-msgid "Google Talk libjingle settings"
-msgstr "Einstellungen zu Google Talk mit libjingle"
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:930
+msgid "Libjingle settings"
+msgstr "Einstellungen zu LibJingle"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, GoogleTalk)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:925
-msgid "This enable Google Talk libjingle voice call"
-msgstr "Aktiviert Google-Talk-Sprachanruf mit libjingle"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, Libjingle)
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:936
+msgid "This enable libjingle voice call"
+msgstr "Aktiviert Sprachanruf mit LibJingle"
 
-#. i18n: ectx: property (text), widget (QCheckBox, GoogleTalk)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:928
-msgid "Enable Google Talk libjingle support (only for GTalk/Gmail accounts)"
-msgstr ""
-"Unterstützung für „Google Talk“ mit libjingle aktivieren (nur für GTalk/"
-"GMail-Zugänge)"
+#. i18n: ectx: property (text), widget (QCheckBox, Libjingle)
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:939
+msgid "Enable libjingle support"
+msgstr "Unterstützung für LibJingle aktivieren"
 
 #. i18n: ectx: attribute (title), widget (QWidget, privacyTab)
 #. i18n: ectx: attribute (title), widget (QWidget, TabPage)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:946
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:960
 #: protocols/oscar/aim/ui/aimeditaccountui.ui:642
 msgid "Pri&vacy"
 msgstr "Pri&vatsphäre"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:958
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:972
 msgid "General Privacy"
 msgstr "Allgemeine Privatsphäre"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbHideSystemInfo)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:970
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:984
 msgid ""
 "By default, Kopete gives the other users some info about your system and the "
 "client. Checking this box will hide that information."
@@ -14618,12 +14638,12 @@ msgstr ""
 "Senden dieser Informationen verhindert."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbHideSystemInfo)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:973
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:987
 msgid "&Hide system and client info"
 msgstr "System- und Clientinformationen &ausblenden"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbSendEvents)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1014
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1028
 msgid ""
 "Check this box if you always want to send notifications to your contacts."
 msgstr ""
@@ -14631,12 +14651,12 @@ msgstr ""
 "möchten."
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSendEvents)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1017
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1031
 msgid "Always send not&ifications"
 msgstr "Be&nachrichtigungen immer senden"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbSendDeliveredEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1062
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1076
 msgid ""
 "<qt>Check this box to send the <b>Delivered notification</b> to your "
 "contacts : when a message is delivered to Kopete, Kopete can notify your "
@@ -14647,12 +14667,12 @@ msgstr ""
 "empfängt, wird der Absender über die korrekte Zustellung informiert.</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSendDeliveredEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1065
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1079
 msgid "Alwa&ys send delivered notifications"
 msgstr "&Zustellungs-Benachrichtigungen immer senden"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbSendDisplayedEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1078
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1092
 msgid ""
 "<qt>Check this box to send the <b>Displayed notification</b> to your "
 "contacts : when a message is displayed in Kopete, Kopete can notify your "
@@ -14663,12 +14683,12 @@ msgstr ""
 "Absender informiert, dass Sie die Nachricht gelesen haben.</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSendDisplayedEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1081
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1095
 msgid "Al&ways send displayed notifications"
 msgstr "&Anzeige-Benachrichtigungen immer senden"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbSendComposingEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1094
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1108
 msgid ""
 "<qt>Check this box to send the <b>Typing notification</b> to your contacts : "
 "when you are composing a message, you might want your contact to know that "
@@ -14680,26 +14700,28 @@ msgstr ""
 "ihm antworten.</qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSendComposingEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1097
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1111
 msgid "Always send &typing notifications"
 msgstr "Immer &Schreibe-Benachrichtigungen senden"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSendGoneEvent)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1107
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1121
 msgid "Always send &gone notifications (closing the window)"
 msgstr "Immer benachrichtigen, wenn das Chatfenster ges&chlossen wurde"
 
 #. i18n: ectx: property (text), widget (KPushButton, privacyListsButton)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1124
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1138
 msgid "Privacy Lists"
 msgstr "Privatsphäre-Listen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, oldEncrypted)
-#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1131
-msgid "Use old inline PGP format for signed and encrypted messages"
+#: protocols/jabber/ui/dlgjabbereditaccountwidget.ui:1145
+msgid ""
+"When recipient does not support OpenPGP XEP-0027 wrap PGP block to message "
+"body"
 msgstr ""
-"Altes Inline-PGP-Format für signierte und verschlüsselte Nachrichten "
-"verwenden"
+"PGP-Block in Nachrichtentext einbetten, wenn der Empfänger OpenPGP XEP-0027 "
+"nicht unterstützt."
 
 #: protocols/jabber/ui/dlgjabberregister.cpp:53
 #: protocols/jabber/ui/dlgregister.cpp:73
@@ -15114,19 +15136,6 @@ msgstr ""
 msgid "Invalid Jabber ID"
 msgstr "Ungültige Jabber-ID"
 
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:368
-msgid ""
-"Google Talk libjingle support is only for GTalk/Gmail account, which connect "
-"to server talk.google.com."
-msgstr ""
-"Die Unterstützung für Google Talk mit Hilfe von libjingle, kann nur mit "
-"GTalk/GMail-Konten genutzt werden, welche sich mit dem Server talk.google."
-"com verbinden."
-
-#: protocols/jabber/ui/jabbereditaccountwidget.cpp:368
-msgid "Invalid Google Talk"
-msgstr "Ungültiger Google Talk"
-
 #: protocols/jabber/ui/jabberregisteraccount.cpp:54
 msgid "Register New Jabber Account"
 msgstr "Neuen Jabber-Zugang registrieren"
@@ -15357,8 +15366,8 @@ msgstr "<qt>Es muss ein gültiger Spitzname angegeben werden.</qt>"
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:157
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:164
 #: protocols/meanwhile/meanwhileeditaccountwidget.cpp:171
-#: protocols/meanwhile/meanwhilesession.cpp:207
-#: protocols/meanwhile/meanwhilesession.cpp:611
+#: protocols/meanwhile/meanwhilesession.cpp:206
+#: protocols/meanwhile/meanwhilesession.cpp:610
 msgid "Meanwhile Plugin"
 msgstr "Meanwhile-Modul"
 
@@ -15377,16 +15386,16 @@ msgstr "<qt>Bitte Rechnername/IP-Adresse des Servers eingeben.</qt>"
 msgid "<qt>0 is not a valid port number.</qt>"
 msgstr "<qt>„0“ ist keine gültige Port-Nummer.</qt>"
 
-#: protocols/meanwhile/meanwhilesession.cpp:207
+#: protocols/meanwhile/meanwhilesession.cpp:206
 msgid "Could not connect to server"
 msgstr "Die Verbindung zum Server kann nicht hergestellt werden."
 
-#: protocols/meanwhile/meanwhilesession.cpp:610
+#: protocols/meanwhile/meanwhilesession.cpp:609
 msgid "Could not connect to redirected server"
 msgstr ""
 "Die Verbindung zum weitergeleiteten Server kann nicht hergestellt werden"
 
-#: protocols/meanwhile/meanwhilesession.cpp:1002
+#: protocols/meanwhile/meanwhilesession.cpp:1001
 msgid "Meanwhile Plugin: Conference invitation"
 msgstr "Meanwhile-Modul: Konferenzeinladung"
 
@@ -15533,7 +15542,7 @@ msgid "Join Chat..."
 msgstr "Chat beitreten ..."
 
 #: protocols/oscar/aim/aimaccount.cpp:247
-#: protocols/oscar/icq/icqaccount.cpp:142
+#: protocols/oscar/icq/icqaccount.cpp:141
 msgid "In&visible"
 msgstr "&Unsichtbar"
 
@@ -15564,18 +15573,18 @@ msgstr "Benutzer &warnen"
 #: protocols/oscar/aim/aimcontact.cpp:75
 #: protocols/oscar/aim/icqcontact.cpp:151
 #: protocols/oscar/icq/aimcontact.cpp:63
-#: protocols/oscar/icq/icqcontact.cpp:596
+#: protocols/oscar/icq/icqcontact.cpp:582
 msgid "Always &Visible To"
 msgstr "Immer &sichtbar für"
 
 #: protocols/oscar/aim/aimcontact.cpp:79
 #: protocols/oscar/aim/icqcontact.cpp:155
 #: protocols/oscar/icq/aimcontact.cpp:67
-#: protocols/oscar/icq/icqcontact.cpp:600
+#: protocols/oscar/icq/icqcontact.cpp:586
 msgid "Always &Invisible To"
 msgstr "Immer &unsichtbar für"
 
-#: protocols/oscar/aim/aimcontact.cpp:221
+#: protocols/oscar/aim/aimcontact.cpp:217
 #, kde-format
 msgid ""
 "<qt>Would you like to warn %1 anonymously or with your name?<br>(Warning a "
@@ -15589,16 +15598,16 @@ msgstr ""
 "Level einen bestimmten Wert erreicht hat, kann sich der Benutzer nicht mehr "
 "anmelden. Bitte missbrauchen Sie diese Funktion nicht.)</qt>"
 
-#: protocols/oscar/aim/aimcontact.cpp:229
+#: protocols/oscar/aim/aimcontact.cpp:225
 #, kde-format
 msgid "Warn User %1?"
 msgstr "Benutzer %1 verwarnen?"
 
-#: protocols/oscar/aim/aimcontact.cpp:230
+#: protocols/oscar/aim/aimcontact.cpp:226
 msgid "Warn Anonymously"
 msgstr "Anonym verwarnen"
 
-#: protocols/oscar/aim/aimcontact.cpp:230
+#: protocols/oscar/aim/aimcontact.cpp:226
 msgid "Warn"
 msgstr "Verwarnen"
 
@@ -15608,7 +15617,7 @@ msgstr "AIM-Chatraum beitreten"
 
 #: protocols/oscar/aim/aimprotocol.cpp:182
 #: protocols/oscar/icq/icqstatusmanager.cpp:94
-#: protocols/oscar/oscaraccount.cpp:1238 protocols/yahoo/yahooprotocol.cpp:76
+#: protocols/oscar/oscaraccount.cpp:1238 protocols/yahoo/yahooprotocol.cpp:77
 msgid "AIM"
 msgstr "AIM"
 
@@ -15674,26 +15683,26 @@ msgstr "Mobiltelefon"
 #: protocols/oscar/aim/aimstatusmanager.cpp:87
 #: protocols/oscar/icq/icqprotocol.cpp:120
 #: protocols/oscar/icq/ui/icqeditaccountwidget.cpp:326
-#: protocols/oscar/oscaraccount.cpp:1238 protocols/yahoo/yahooprotocol.cpp:77
+#: protocols/oscar/oscaraccount.cpp:1238 protocols/yahoo/yahooprotocol.cpp:78
 msgid "ICQ"
 msgstr "ICQ"
 
 #: protocols/oscar/aim/aimuserinfo.cpp:42
-#: protocols/oscar/aim/aimuserinfo.cpp:143
-#: protocols/oscar/aim/aimuserinfo.cpp:160
+#: protocols/oscar/aim/aimuserinfo.cpp:138
+#: protocols/oscar/aim/aimuserinfo.cpp:155
 #, kde-format
 msgid "User Information on %1"
 msgstr "Benutzerinformationen über %1"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:95
+#: protocols/oscar/aim/aimuserinfo.cpp:90
 msgid "&Save Profile"
 msgstr "Profil s&peichern"
 
-#: protocols/oscar/aim/aimuserinfo.cpp:122
+#: protocols/oscar/aim/aimuserinfo.cpp:117
 msgid "Requesting User Profile, please wait..."
 msgstr "Benutzerprofil wird angefordert, bitte warten ..."
 
-#: protocols/oscar/aim/aimuserinfo.cpp:205
+#: protocols/oscar/aim/aimuserinfo.cpp:200
 msgid "<html><body><I>No user information provided</I></body></html>"
 msgstr "<html><body><I>Keine Benutzerinformationen angegeben</I></body></html>"
 
@@ -16062,44 +16071,44 @@ msgid "E&xchange:"
 msgstr "&Austausch:"
 
 #: protocols/oscar/icq/aimcontact.cpp:59
-#: protocols/oscar/icq/icqcontact.cpp:592
+#: protocols/oscar/icq/icqcontact.cpp:578
 msgid "&Ignore"
 msgstr "&Ignorieren"
 
 #: protocols/oscar/icq/aimcontact.cpp:71
-#: protocols/oscar/icq/icqcontact.cpp:604
+#: protocols/oscar/icq/icqcontact.cpp:590
 msgid "Select Encoding..."
 msgstr "Kodierung auswählen ..."
 
-#: protocols/oscar/icq/icqaccount.cpp:192
+#: protocols/oscar/icq/icqaccount.cpp:191
 #: protocols/oscar/icq/ui/xtrazicqstatusdialog.cpp:29
 msgid "Set Xtraz Status"
 msgstr "Xtraz-Status setzen"
 
-#: protocols/oscar/icq/icqaccount.cpp:194
+#: protocols/oscar/icq/icqaccount.cpp:193
 msgid "Set Status..."
 msgstr "Status setzen ..."
 
-#: protocols/oscar/icq/icqaccount.cpp:356
+#: protocols/oscar/icq/icqaccount.cpp:355
 #, kde-format
 msgid "User %1 is reading your status message"
 msgstr "Benutzer %1 liest Ihre Statusnachricht"
 
-#: protocols/oscar/icq/icqcontact.cpp:278 protocols/oscar/oscarcontact.cpp:424
+#: protocols/oscar/icq/icqcontact.cpp:272 protocols/oscar/oscarcontact.cpp:422
 msgid "Request Authorization"
 msgstr "Autorisierung erfordern"
 
-#: protocols/oscar/icq/icqcontact.cpp:279
+#: protocols/oscar/icq/icqcontact.cpp:273
 msgid "Reason for requesting authorization:"
 msgstr "Grund der Autorisierungsanfrage"
 
-#: protocols/oscar/icq/icqcontact.cpp:280 protocols/oscar/oscarcontact.cpp:425
+#: protocols/oscar/icq/icqcontact.cpp:274 protocols/oscar/oscarcontact.cpp:423
 msgid "Please authorize me so I can add you to my contact list"
 msgstr ""
 "Bitte autorisieren Sie mich, damit ich Sie zu meiner Kontaktliste hinzufügen "
 "kann"
 
-#: protocols/oscar/icq/icqcontact.cpp:308
+#: protocols/oscar/icq/icqcontact.cpp:302
 #, kde-format
 msgid ""
 "User %1 has granted your authorization request.\n"
@@ -16108,7 +16117,7 @@ msgstr ""
 "%1 hat Ihre Autorisierungsanfrage genehmigt.\n"
 "Grund: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:317
+#: protocols/oscar/icq/icqcontact.cpp:311
 #, kde-format
 msgid ""
 "User %1 has rejected the authorization request.\n"
@@ -16117,25 +16126,25 @@ msgstr ""
 "%1 hat Ihre Autorisierungsanfrage abgelehnt.\n"
 "Grund: %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:468
+#: protocols/oscar/icq/icqcontact.cpp:454
 #, kde-format
 msgctxt "Translators: client-name client-version"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: protocols/oscar/icq/icqcontact.cpp:477 protocols/oscar/oscarcontact.cpp:251
+#: protocols/oscar/icq/icqcontact.cpp:463 protocols/oscar/oscarcontact.cpp:249
 msgid "UTF-8"
 msgstr "UTF-8"
 
-#: protocols/oscar/icq/icqcontact.cpp:479
+#: protocols/oscar/icq/icqcontact.cpp:465
 msgid "RTF-Messages"
 msgstr "RTF-Nachrichten"
 
-#: protocols/oscar/icq/icqcontact.cpp:481 protocols/oscar/oscarcontact.cpp:259
+#: protocols/oscar/icq/icqcontact.cpp:467 protocols/oscar/oscarcontact.cpp:257
 msgid "DirectIM/IMImage"
 msgstr "DirectIM/IMImage"
 
-#: protocols/oscar/icq/icqcontact.cpp:554
+#: protocols/oscar/icq/icqcontact.cpp:540
 msgid ""
 "<qt>You must be logged on to ICQ before you can send a message to a user.</"
 "qt>"
@@ -16143,15 +16152,15 @@ msgstr ""
 "<qt>Sie müssen bei ICQ angemeldet sein, bevor Sie eine Nachricht an einen "
 "anderen Benutzer senden können.</qt>"
 
-#: protocols/oscar/icq/icqcontact.cpp:556
+#: protocols/oscar/icq/icqcontact.cpp:542
 msgid "Not Signed On"
 msgstr "Nicht angemeldet"
 
-#: protocols/oscar/icq/icqcontact.cpp:582
+#: protocols/oscar/icq/icqcontact.cpp:568
 msgid "&Request Authorization"
 msgstr "A&utorisierung erfordern"
 
-#: protocols/oscar/icq/icqcontact.cpp:587
+#: protocols/oscar/icq/icqcontact.cpp:573
 msgid "&Grant Authorization"
 msgstr "Autorisierung &senden"
 
@@ -16625,7 +16634,7 @@ msgid "Fitness"
 msgstr "Fitness"
 
 #: protocols/oscar/icq/icqprotocol.cpp:616
-#: protocols/oscar/oscarcontact.cpp:265
+#: protocols/oscar/oscarcontact.cpp:263
 msgid "Games"
 msgstr "Spiele"
 
@@ -17422,9 +17431,7 @@ msgstr ""
 "Den eigenen Status über das ICQ-Unified-Messaging-Center &zugänglich machen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, edtServerEncrypted)
-#. i18n: ectx: property (text), widget (QCheckBox, edtProxyServerEncrypted)
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:299
-#: protocols/oscar/icq/ui/icqeditaccountui.ui:430
 msgid "Use SSL encryption"
 msgstr "SSL-Verschlüsselung verwenden"
 
@@ -17483,9 +17490,13 @@ msgstr "slogin.icq.com"
 
 #. i18n: ectx: property (text), widget (QCheckBox, optionEnableProxy)
 #: protocols/oscar/icq/ui/icqeditaccountui.ui:418
-#: protocols/wlm/ui/wlmaccountpreferences.ui:380
-msgid "Enable Proxy"
-msgstr "Proxy aktivieren"
+msgid "Override system proxy settings"
+msgstr "Proxy-Einstellungen des Systems überschreiben"
+
+#. i18n: ectx: property (text), widget (QCheckBox, edtProxyServerSocks5)
+#: protocols/oscar/icq/ui/icqeditaccountui.ui:430
+msgid "Proxy server is SOCKS5"
+msgstr "Proxy-Server unterstützt SOCKS5"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblProxyServer)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, edtProxyServerAddress)
@@ -18235,23 +18246,23 @@ msgstr ""
 "Der Zugang %1 wurde auf dem %2-Server wegen Ihres Alters (jünger als 13) "
 "deaktiviert."
 
-#: protocols/oscar/oscarcontact.cpp:249
+#: protocols/oscar/oscarcontact.cpp:247
 msgid "Buddy icons"
 msgstr "Kontakt-Symbole"
 
-#: protocols/oscar/oscarcontact.cpp:255
+#: protocols/oscar/oscarcontact.cpp:253
 msgid "Group chat"
 msgstr "Gruppenchat"
 
-#: protocols/oscar/oscarcontact.cpp:257
+#: protocols/oscar/oscarcontact.cpp:255
 msgid "Voice chat"
 msgstr "Sprachchat"
 
-#: protocols/oscar/oscarcontact.cpp:261
+#: protocols/oscar/oscarcontact.cpp:259
 msgid "Send buddy list"
 msgstr "Kontaktliste senden"
 
-#: protocols/oscar/oscarcontact.cpp:420
+#: protocols/oscar/oscarcontact.cpp:418
 #, kde-format
 msgid ""
 "The user %1 requires authorization before being added to a contact list. Do "
@@ -19106,10 +19117,6 @@ msgstr "Anrufen"
 #: protocols/skype/skypeconference.cpp:44
 msgid "Conference Call"
 msgstr "Konferenz"
-
-#: protocols/skype/skypecontact.cpp:101
-msgid "Call contact"
-msgstr "Kontakt anrufen"
 
 #: protocols/skype/skypecontact.cpp:116
 msgid "Block contact"
@@ -20400,19 +20407,19 @@ msgstr "<qt>LOCALHOST ist als Kontakt nicht erlaubt.</qt>"
 msgid "<qt>You must enter a valid smbclient path.</qt>"
 msgstr "<qt>Es muss ein gültiger Pfad zu smbclient angeben werden.</qt>"
 
-#: protocols/winpopup/wpprotocol.cpp:146
+#: protocols/winpopup/wpprotocol.cpp:153
 msgid "The Samba configuration file has been modified."
 msgstr "Die Samba-Konfiguration wurde verändert."
 
-#: protocols/winpopup/wpprotocol.cpp:146
+#: protocols/winpopup/wpprotocol.cpp:153
 msgid "Configuration Successful"
 msgstr "Einrichtung erfolgreich"
 
-#: protocols/winpopup/wpprotocol.cpp:148
+#: protocols/winpopup/wpprotocol.cpp:155
 msgid "Updating the Samba configuration file failed."
 msgstr "Das Aktualisieren der Samba-Einrichtungsdatei ist fehlgeschlagen."
 
-#: protocols/winpopup/wpprotocol.cpp:148
+#: protocols/winpopup/wpprotocol.cpp:155
 msgid "Configuration Failed"
 msgstr "Einrichtung fehlgeschlagen"
 
@@ -20486,6 +20493,11 @@ msgstr "Verbindungseinstellungen (für erfahrene Benutzer)"
 #: protocols/wlm/ui/wlmaccountpreferences.ui:349
 msgid "messenger.hotmail.com"
 msgstr "messenger.hotmail.com"
+
+#. i18n: ectx: property (text), widget (QCheckBox, optionEnableProxy)
+#: protocols/wlm/ui/wlmaccountpreferences.ui:380
+msgid "Enable Proxy"
+msgstr "Proxy aktivieren"
 
 #. i18n: ectx: property (text), widget (QLabel, m_labelProxyHost)
 #: protocols/wlm/ui/wlmaccountpreferences.ui:410
@@ -20624,7 +20636,7 @@ msgstr ""
 "wählen.\n"
 "Der Spitzname wurde <b>nicht</b> geändert.</qt>"
 
-#: protocols/wlm/wlmaccount.cpp:1159
+#: protocols/wlm/wlmaccount.cpp:1157
 #, kde-format
 msgid "You have one unread message in your Hotmail inbox."
 msgid_plural "You have %1 unread messages in your Hotmail inbox."
@@ -20633,12 +20645,12 @@ msgstr[0] ""
 msgstr[1] ""
 "Es befinden sich %1 ungelesene Nachrichten in Ihrem Hotmail-Posteingang."
 
-#: protocols/wlm/wlmaccount.cpp:1161 protocols/wlm/wlmaccount.cpp:1180
+#: protocols/wlm/wlmaccount.cpp:1159 protocols/wlm/wlmaccount.cpp:1178
 msgctxt "@action"
 msgid "Open Inbox"
 msgstr "Posteingang öffnen"
 
-#: protocols/wlm/wlmaccount.cpp:1179
+#: protocols/wlm/wlmaccount.cpp:1177
 #, kde-format
 msgid "New message from %1 in your Hotmail inbox.<p>Subject: %2"
 msgstr ""
@@ -20680,11 +20692,11 @@ msgstr "Die maximale Aufnahmezeit beträgt 15 Sekunden"
 msgid "The voice clip must be longer"
 msgstr "Die Sprachnachricht muss länger sein"
 
-#: protocols/wlm/wlmchatsession.cpp:696
+#: protocols/wlm/wlmchatsession.cpp:706
 msgid "has sent a nudge"
 msgstr "hat Sie angestupst"
 
-#: protocols/wlm/wlmchatsession.cpp:1119
+#: protocols/wlm/wlmchatsession.cpp:1129
 msgid "has sent you a nudge"
 msgstr "hat Sie angestupst"
 
@@ -21524,165 +21536,201 @@ msgstr "Yahoo"
 msgid "<qt>You must enter a valid password.</qt>"
 msgstr "<qt>Sie müssen ein gültiges Passwort angeben.</qt>"
 
-#: protocols/yahoo/yahooprotocol.cpp:46
+#: protocols/yahoo/yahooprotocol.cpp:47
 msgid "Be right back"
 msgstr "Bin gleich zurück"
 
-#: protocols/yahoo/yahooprotocol.cpp:48
+#: protocols/yahoo/yahooprotocol.cpp:49
 msgid "Not at home"
 msgstr "Nicht zu Hause"
 
-#: protocols/yahoo/yahooprotocol.cpp:49
+#: protocols/yahoo/yahooprotocol.cpp:50
 msgid "Not at my desk"
 msgstr "Nicht am Schreibtisch"
 
-#: protocols/yahoo/yahooprotocol.cpp:50
+#: protocols/yahoo/yahooprotocol.cpp:51
 msgid "Not in the office"
 msgstr "Nicht im Büro"
 
-#: protocols/yahoo/yahooprotocol.cpp:51
+#: protocols/yahoo/yahooprotocol.cpp:52
 msgid "On the phone"
 msgstr "Am Telefon"
 
-#: protocols/yahoo/yahooprotocol.cpp:52
+#: protocols/yahoo/yahooprotocol.cpp:53
 msgid "On vacation"
 msgstr "Im Urlaub"
 
-#: protocols/yahoo/yahooprotocol.cpp:53
+#: protocols/yahoo/yahooprotocol.cpp:54
 msgid "Out to lunch"
 msgstr "Zum Mittagessen"
 
-#: protocols/yahoo/yahooprotocol.cpp:54
+#: protocols/yahoo/yahooprotocol.cpp:55
 msgid "Stepped out"
 msgstr "Bin nicht da"
 
-#: protocols/yahoo/yahooprotocol.cpp:55
+#: protocols/yahoo/yahooprotocol.cpp:56
 msgid "I'm On SMS"
 msgstr "Per SMS erreichbar"
 
-#: protocols/yahoo/yahooprotocol.cpp:57
+#: protocols/yahoo/yahooprotocol.cpp:58
 msgid "Custom"
 msgstr "Benutzerdefiniert"
 
-#: protocols/yahoo/yahooprotocol.cpp:60
+#: protocols/yahoo/yahooprotocol.cpp:61
 msgid "Buddy Icon Checksum"
 msgstr "Prüfsumme des Kontakt-Symbols"
 
-#: protocols/yahoo/yahooprotocol.cpp:61
+#: protocols/yahoo/yahooprotocol.cpp:62
 msgid "Buddy Icon Expires"
 msgstr "Ablauf des Kontakt-Symbols"
 
-#: protocols/yahoo/yahooprotocol.cpp:62
+#: protocols/yahoo/yahooprotocol.cpp:63
 msgid "Buddy Icon Remote URL"
 msgstr "Remote-Adresse des Kontakt-Symbols"
 
-#: protocols/yahoo/yahooprotocol.cpp:70
+#: protocols/yahoo/yahooprotocol.cpp:71
 msgid "YAB Id"
 msgstr "YAB-ID"
 
-#: protocols/yahoo/yahooprotocol.cpp:71
+#: protocols/yahoo/yahooprotocol.cpp:72
 msgid "Pager number"
 msgstr "Seitennummer"
 
-#: protocols/yahoo/yahooprotocol.cpp:72
+#: protocols/yahoo/yahooprotocol.cpp:73
 msgid "Fax number"
 msgstr "Faxnummer"
 
-#: protocols/yahoo/yahooprotocol.cpp:73
+#: protocols/yahoo/yahooprotocol.cpp:74
 msgid "Additional number"
 msgstr "Zusätzliche Nummer"
 
-#: protocols/yahoo/yahooprotocol.cpp:74 protocols/yahoo/yahooprotocol.cpp:75
+#: protocols/yahoo/yahooprotocol.cpp:75 protocols/yahoo/yahooprotocol.cpp:76
 msgid "Alternative email 1"
 msgstr "Alternative E-Mail 1"
 
-#: protocols/yahoo/yahooprotocol.cpp:78
+#: protocols/yahoo/yahooprotocol.cpp:79
 msgid "MSN"
 msgstr "MSN"
 
-#: protocols/yahoo/yahooprotocol.cpp:79
+#: protocols/yahoo/yahooprotocol.cpp:80
 msgid "GoogleTalk"
 msgstr "GoogleTalk"
 
-#: protocols/yahoo/yahooprotocol.cpp:80
+#: protocols/yahoo/yahooprotocol.cpp:81
 msgid "Skype"
 msgstr "Skype"
 
-#: protocols/yahoo/yahooprotocol.cpp:82
+#: protocols/yahoo/yahooprotocol.cpp:83
 msgid "QQ"
 msgstr "QQ"
 
-#: protocols/yahoo/yahooprotocol.cpp:83
+#: protocols/yahoo/yahooprotocol.cpp:84
 msgid "Private Address"
 msgstr "Adresse (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:84
+#: protocols/yahoo/yahooprotocol.cpp:85
 msgid "Private City"
 msgstr "Stadt (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:85
+#: protocols/yahoo/yahooprotocol.cpp:86
 msgid "Private State"
 msgstr "Bundesland (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:86
+#: protocols/yahoo/yahooprotocol.cpp:87
 msgid "Private ZIP"
 msgstr "PLZ (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:87
+#: protocols/yahoo/yahooprotocol.cpp:88
 msgid "Private Country"
 msgstr "Land (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:89
+#: protocols/yahoo/yahooprotocol.cpp:90
 msgid "Private URL"
 msgstr "URL (Privat)"
 
-#: protocols/yahoo/yahooprotocol.cpp:90
+#: protocols/yahoo/yahooprotocol.cpp:91
 msgid "Corporation"
 msgstr "Unternehmen"
 
-#: protocols/yahoo/yahooprotocol.cpp:91
+#: protocols/yahoo/yahooprotocol.cpp:92
 msgid "Work Address"
 msgstr "Adresse (Arbeitsplatz)"
 
-#: protocols/yahoo/yahooprotocol.cpp:93
+#: protocols/yahoo/yahooprotocol.cpp:94
 msgid "Work State"
 msgstr "Bundesland (Arbeitsplatz)"
 
-#: protocols/yahoo/yahooprotocol.cpp:94
+#: protocols/yahoo/yahooprotocol.cpp:95
 msgid "Work ZIP"
 msgstr "PLZ (Arbeitsplatz)"
 
-#: protocols/yahoo/yahooprotocol.cpp:97
+#: protocols/yahoo/yahooprotocol.cpp:98
 msgid "Work URL"
 msgstr "URL (Arbeitsplatz)"
 
-#: protocols/yahoo/yahooprotocol.cpp:99
+#: protocols/yahoo/yahooprotocol.cpp:100
 msgid "Anniversary"
 msgstr "Jahrestag"
 
-#: protocols/yahoo/yahooprotocol.cpp:100
+#: protocols/yahoo/yahooprotocol.cpp:101
 msgid "Notes"
 msgstr "Notizen"
 
-#: protocols/yahoo/yahooprotocol.cpp:101
+#: protocols/yahoo/yahooprotocol.cpp:102
 msgid "Additional 1"
 msgstr "Zusatz 1"
 
-#: protocols/yahoo/yahooprotocol.cpp:102
+#: protocols/yahoo/yahooprotocol.cpp:103
 msgid "Additional 2"
 msgstr "Zusatz 2"
 
-#: protocols/yahoo/yahooprotocol.cpp:103
+#: protocols/yahoo/yahooprotocol.cpp:104
 msgid "Additional 3"
 msgstr "Zusatz 3"
 
-#: protocols/yahoo/yahooprotocol.cpp:104
+#: protocols/yahoo/yahooprotocol.cpp:105
 msgid "Additional 4"
 msgstr "Zusatz 4"
 
 #: protocols/yahoo/yahooverifyaccount.cpp:44
 msgid "Account Verification - Yahoo"
 msgstr "Zugangsüberprüfung – Yahoo"
+
+#~ msgid "Cannot Map Nickname to Account"
+#~ msgstr "Spitzname kann keinem Zugang zugeordnet werden"
+
+#~ msgid "Did you use \"%1\" as nickname in history?"
+#~ msgstr "Haben Sie im Verlauf „%1“ als Spitznamen verwendet?"
+
+#~ msgid "Use old inline PGP format for signed and encrypted messages"
+#~ msgstr ""
+#~ "Altes Inline-PGP-Format für signierte und verschlüsselte Nachrichten "
+#~ "verwenden"
+
+#~ msgid "Google Talk Voice Call"
+#~ msgstr "Google-Talk-Sprachanruf"
+
+#~ msgid "Call Google Talk contact"
+#~ msgstr "Google-Talk-Kontakt anrufen"
+
+#~ msgid "&Google Talk"
+#~ msgstr "&Google Talk"
+
+#~ msgid "Enable Google Talk libjingle support (only for GTalk/Gmail accounts)"
+#~ msgstr ""
+#~ "Unterstützung für „Google Talk“ mit libjingle aktivieren (nur für GTalk/"
+#~ "GMail-Zugänge)"
+
+#~ msgid ""
+#~ "Google Talk libjingle support is only for GTalk/Gmail account, which "
+#~ "connect to server talk.google.com."
+#~ msgstr ""
+#~ "Die Unterstützung für Google Talk mit Hilfe von libjingle, kann nur mit "
+#~ "GTalk/GMail-Konten genutzt werden, welche sich mit dem Server talk.google."
+#~ "com verbinden."
+
+#~ msgid "Invalid Google Talk"
+#~ msgstr "Ungültiger Google Talk"
 
 #~ msgid "<b>Authentication successful. The conversation is now secure.</b>"
 #~ msgstr ""

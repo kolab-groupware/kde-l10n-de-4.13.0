@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaccessibleapp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 04:28+0200\n"
+"POT-Creation-Date: 2014-04-27 14:03+0000\n"
 "PO-Revision-Date: 2012-01-14 17:44+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -135,18 +135,18 @@ msgstr "Beschreibung"
 msgid "Logs"
 msgstr "Protokolle"
 
-#: kaccessibleapp.cpp:709 kaccessibleapp.cpp:710
+#: kaccessibleapp.cpp:706 kaccessibleapp.cpp:707
 msgid "KDE Accessible"
 msgstr "KDE-Zugangshilfe"
 
-#: kaccessibleapp.cpp:711
+#: kaccessibleapp.cpp:708
 msgid "(c) 2010, 2011 Sebastian Sauer"
 msgstr "© 2010, 2011 Sebastian Sauer"
 
-#: kaccessibleapp.cpp:712
+#: kaccessibleapp.cpp:709
 msgid "Sebastian Sauer"
 msgstr "Sebastian Sauer"
 
-#: kaccessibleapp.cpp:712
+#: kaccessibleapp.cpp:709
 msgid "Maintainer"
 msgstr "Betreuer"

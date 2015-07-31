@@ -1195,6 +1195,24 @@
 ><guimenu
 >Einstellungen</guimenu
 ><guimenuitem
+>Alle Meldungen wieder anzeigen</guimenuitem
+></menuchoice
+></term>
+				<listitem
+><para
+><action
+>Aktiviert die Anzeige aller Meldungen, die durch Ankreuzen von <guilabel
+>Diese Meldung nicht mehr anzeigen</guilabel
+> in den Bestätigungsdialogen von &palapeli; abgeschltet wurden.</action
+></para
+></listitem>
+			</varlistentry>
+			<varlistentry>
+				<term
+><menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
 >Statusleiste anzeigen</guimenuitem
 ></menuchoice
 ></term>

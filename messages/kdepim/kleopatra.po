@@ -5,7 +5,7 @@
 # Matthias Kalle Dalheimer <kalle@kdab.net>, 2004.
 # Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2007, 2008, 2009.
 # Frank Osterfeld <osterfeld@kde.org>, 2008.
-# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013.
+# Burkhard Lück <lueck@hube-lueck.de>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
 # Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012, 2013.
 # Panagiotis Papadopoulos <pano_90@gmx.net>, 2010.
 # Björn Ricks <bjoern.ricks@intevation.de>, 2010, 2011.
@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-29 07:07+0000\n"
-"PO-Revision-Date: 2013-10-04 22:35+0200\n"
+"POT-Creation-Date: 2015-01-28 17:17+0100\n"
+"PO-Revision-Date: 2014-04-18 17:49+0200\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -96,10 +96,14 @@ msgid "Kleopatra"
 msgstr "Kleopatra"
 
 #: aboutdata.cpp:90
+#, fuzzy
+#| msgid ""
+#| "(c) 2002 Steffen Hansen, Matthias Kalle Dalheimer, "
+#| "Klarälvdalens Datakonsult AB\n"
+#| "(c) 2004, 2007, 2008, 2009 Marc Mutz, Klarälvdalens Datakonsult AB"
 msgid ""
-"(c) 2002 Steffen Hansen, Matthias Kalle Dalheimer, "
-"Klarälvdalens Datakonsult AB\n"
-"(c) 2004, 2007, 2008, 2009 Marc Mutz, Klarälvdalens Datakonsult AB"
+"(c) 2002 Steffen Hansen, Matthias Kallelheimer, Klarälvdalenstakonsult«\n"
+"(c) 2004, 2007, 2008, 2009 Marc Mutz, Klarälvdalenstakonsult«"
 msgstr ""
 "© 2002 Steffen Hansen, Matthias Kalle Dalheimer, "
 "Klarälvdalens Datakonsult AB\n"
@@ -291,7 +295,7 @@ msgstr ""
 "werden: %2"
 
 #: commands/changeroottrustcommand.cpp:321
-#: crypto/createchecksumscontroller.cpp:582
+#: crypto/createchecksumscontroller.cpp:559
 #, kde-format
 msgid "Failed to move file %1 to its final destination, %2: %3"
 msgstr "Verschieben der Datei %1 nach %2 fehlgeschlagen: %3"
@@ -1769,27 +1773,27 @@ msgid "The GpgSM process ended prematurely because of an unexpected error."
 msgstr ""
 "Der GpgSM-Prozess wurde wegen eines unerwarteten Fehlers vorzeitig beendet."
 
-#: crypto/createchecksumscontroller.cpp:86
+#: crypto/createchecksumscontroller.cpp:84
 msgctxt "@info"
 msgid "No checksum files have been created."
 msgstr "Es wurden keine Prüfsummen erstellt."
 
-#: crypto/createchecksumscontroller.cpp:87
+#: crypto/createchecksumscontroller.cpp:85
 msgctxt "@info"
 msgid "These checksum files have been successfully created:"
 msgstr "Diese Prüfsummen-Dateien wurden erfolgreich erstellt:"
 
-#: crypto/createchecksumscontroller.cpp:90
+#: crypto/createchecksumscontroller.cpp:88
 msgctxt "@info"
 msgid "There were no errors."
 msgstr "Keine Fehler aufgetreten."
 
-#: crypto/createchecksumscontroller.cpp:91
+#: crypto/createchecksumscontroller.cpp:89
 msgctxt "@info"
 msgid "The following errors were encountered:"
 msgstr "Die folgenden Fehler sind aufgetreten:"
 
-#: crypto/createchecksumscontroller.cpp:303
+#: crypto/createchecksumscontroller.cpp:280
 msgid ""
 "Create Checksums: input files must be either all checksum files or all files "
 "to be checksummed, not a mixture of both."
@@ -1798,57 +1802,57 @@ msgstr ""
 "Prüfsummendateien sein, oder nur Dateien, für die die Prüfsumme berechnet "
 "werden soll. Eine Mischung von beiden ist nicht möglich."
 
-#: crypto/createchecksumscontroller.cpp:325 mainwindow_desktop.cpp:500
+#: crypto/createchecksumscontroller.cpp:302 mainwindow_desktop.cpp:500
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: crypto/createchecksumscontroller.cpp:325
+#: crypto/createchecksumscontroller.cpp:302
 msgid "Initializing..."
 msgstr "Wird initialisiert ..."
 
-#: crypto/createchecksumscontroller.cpp:329
+#: crypto/createchecksumscontroller.cpp:306
 msgctxt "@title:window"
 msgid "Create Checksum Progress"
 msgstr "Fortschritt der Prüfsummen-Erstellung"
 
-#: crypto/createchecksumscontroller.cpp:559
+#: crypto/createchecksumscontroller.cpp:536
 #, kde-format
 msgid "Failed to open file \"%1\" for reading and writing: %2"
 msgstr "Die Datei „%1“ lässt sich nicht zum Lesen und Schreiben öffnen: %2"
 
-#: crypto/createchecksumscontroller.cpp:575
+#: crypto/createchecksumscontroller.cpp:552
 #: crypto/verifychecksumscontroller.cpp:558 utils/output.cpp:476
 #, kde-format
 msgid "Error while running %1: %2"
 msgstr "Fehler während der Ausführung von %1: %2"
 
-#: crypto/createchecksumscontroller.cpp:578
+#: crypto/createchecksumscontroller.cpp:555
 #: crypto/verifychecksumscontroller.cpp:561 utils/input.cpp:322
 #: utils/output.cpp:479
 #, kde-format
 msgid "Failed to execute %1: %2"
 msgstr "%1 kann nicht ausgeführt werden: %2"
 
-#: crypto/createchecksumscontroller.cpp:609
+#: crypto/createchecksumscontroller.cpp:586
 msgid "No checksum programs defined."
 msgstr "Keine Programme zur Erstellung von Prüfsummen angegeben."
 
-#: crypto/createchecksumscontroller.cpp:621
+#: crypto/createchecksumscontroller.cpp:598
 #: crypto/verifychecksumscontroller.cpp:594
 msgid "Scanning directories..."
 msgstr "Ordner werden eingelesen ..."
 
-#: crypto/createchecksumscontroller.cpp:636
+#: crypto/createchecksumscontroller.cpp:613
 #: crypto/verifychecksumscontroller.cpp:607
 msgid "Calculating total size..."
 msgstr "Gesamtgröße wird berechnet ..."
 
-#: crypto/createchecksumscontroller.cpp:653
+#: crypto/createchecksumscontroller.cpp:630
 #, kde-format
 msgid "Checksumming (%2) in %1"
 msgstr "Prüfsumme (%2) in %1 wird erstellt"
 
-#: crypto/createchecksumscontroller.cpp:664
+#: crypto/createchecksumscontroller.cpp:641
 #: crypto/verifychecksumscontroller.cpp:635
 msgid "Done."
 msgstr "Fertig."
@@ -3595,11 +3599,11 @@ msgstr "An diesem Tag:"
 msgid "Export"
 msgstr "Exportieren"
 
-#: dialogs/exportcertificatesdialog.cpp:73
+#: dialogs/exportcertificatesdialog.cpp:71
 msgid " OpenPGP export file:"
 msgstr " OpenPGP-Exportdatei:"
 
-#: dialogs/exportcertificatesdialog.cpp:79
+#: dialogs/exportcertificatesdialog.cpp:77
 msgid "S/MIME export file:"
 msgstr "S/MIME-Exportdatei:"
 
@@ -3914,12 +3918,12 @@ msgid "Continue"
 msgstr "Fortfahren"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SelfTestDialog)
-#: dialogs/selftestdialog.ui:14
+#: dialogs/selftestdialog.ui:13
 msgid "Kleopatra Self-Test Results"
 msgstr "Ergebnisse des Kleopatra-Selbsttests"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/selftestdialog.ui:23
+#: dialogs/selftestdialog.ui:22
 msgctxt "@info"
 msgid ""
 "<para>These are the results of the Kleopatra self-test suite. Click on a "
@@ -3931,27 +3935,27 @@ msgstr ""
 "Fehler durch frühere Fehler verursacht sein können.</para>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showAllCB)
-#: dialogs/selftestdialog.ui:62
+#: dialogs/selftestdialog.ui:61
 msgid "Show all test results"
 msgstr "Alle Test-Resultate anzeigen"
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGB)
-#: dialogs/selftestdialog.ui:76 models/keylistmodel.cpp:252
+#: dialogs/selftestdialog.ui:69 models/keylistmodel.cpp:252
 msgid "Details"
 msgstr "Details"
 
 #. i18n: ectx: property (title), widget (QGroupBox, proposedCorrectiveActionGB)
-#: dialogs/selftestdialog.ui:133
+#: dialogs/selftestdialog.ui:117
 msgid "Proposed Corrective Action"
 msgstr "Vorgeschlagene Korrekturmaßnahme"
 
 #. i18n: ectx: property (text), widget (QPushButton, doItPB)
-#: dialogs/selftestdialog.ui:207
+#: dialogs/selftestdialog.ui:182
 msgid "Do It"
 msgstr "Korrektur durchführen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, runAtStartUpCB)
-#: dialogs/selftestdialog.ui:220
+#: dialogs/selftestdialog.ui:195
 msgid "Run these tests at startup"
 msgstr "Diese Tests bei jedem Programmstart ausführen"
 
@@ -7077,6 +7081,15 @@ msgstr "Unterfenster umbenennen"
 #: view/tabwidget.cpp:534
 msgid "New tab title:"
 msgstr "Name des neuen Unterfensters:"
+
+#~ msgid "Set Focus to Quick Search"
+#~ msgstr "Fokus auf die Schnellsuche einstellen"
+
+#~ msgid "Search..."
+#~ msgstr "Suchen ..."
+
+#~ msgid "Search...<%1>"
+#~ msgstr "Suchen ...<%1>"
 
 #~ msgid "Search Toolbar"
 #~ msgstr "Suchen-Werkzeugleiste"

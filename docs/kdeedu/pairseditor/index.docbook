@@ -200,7 +200,7 @@
 ><para
 >Fügen Sie einen <guilabel
 >Treffer-Klang</guilabel
-> hinzu. Dieser Klang wird abgespielt, wenn paasende Paare in <application
+> hinzu. Dieser Klang wird abgespielt, wenn passende Paare in <application
 >Pairs</application
 > aufgedeckt werden. Für jedes Element gibt es nur einen Klang für diese Aktion.</para
 ></listitem>
@@ -244,7 +244,7 @@
 <itemizedlist>
   <listitem
 ><para
->Nach diesen Schritten Speichern Sie Ihr Design und drücken auf den Knopf <guilabel
+>Nach diesen Schritten speichern Sie Ihr Design und drücken auf den Knopf <guilabel
 >Ausprobieren</guilabel
 >. Dann wird <application
 >Pairs</application
