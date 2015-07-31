@@ -1,0 +1,1400 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN"
+ "dtd/kdex.dtd" [
+  <!ENTITY kappname "&khangman;">
+  <!ENTITY package "kdeedu">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE"
+><!-- change language only here -->
+]>
+
+<book id="khangman" lang="&language;">
+
+<bookinfo>
+<title
+>Das Handbuch zu &khangman;</title>
+
+<authorgroup>
+<author
+><firstname
+>Anne-Marie</firstname
+> <surname
+>Mahfouf</surname
+> <affiliation
+> <address
+>&Anne-Marie.Mahfouf.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+
+
+<copyright>
+<year
+>2001</year
+><year
+>2009</year>
+<holder
+>&Anne-Marie.Mahfouf;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+
+<date
+>2013-05-31</date>
+<releaseinfo
+>2.5 (&kde; 4.11)</releaseinfo>
+
+<abstract>
+<para
+>&khangman; ist ein klassisches Galgenmännchenspiel für Kinder, angepasst für &kde;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdeedu</keyword>
+<keyword
+>KHangMan</keyword>
+<keyword
+>Galgenmännchen</keyword>
+<keyword
+>Spiel</keyword>
+<keyword
+>Kind</keyword>
+<keyword
+>Wörter</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Einleitung</title>
+
+<para
+>&khangman; ist ein Spiel, das auf dem wohlbekannten Galgenmännchen basiert. Es ist ein Spiel für Kinder ab 6 Jahren mit verschiedenen Wort-Kategorien,darunter <guimenuitem
+>Tiere</guimenuitem
+> (Tiernamen) und weitere drei Kategorien mit unterschiedlichen Schwierigkeitsstufen: <guimenuitem
+>Leicht</guimenuitem
+>, <guimenuitem
+>Mittel</guimenuitem
+> und <guimenuitem
+>Schwer</guimenuitem
+>. Ein Wort wird zufällig ausgewählt, die Buchstaben verdeckt und Sie müssen das Wort raten, indem Sie einen Buchstaben nach dem anderen eingeben. Jedesmal, wenn Sie einen falschen Buchstaben eingeben, wird ein weiterer Teil des Galgenmännchens gezeichnet. Sie müssen das gesuchte Wort erraten, ehe das Galgenmännchen fertig gezeichnet ist! Dafür haben Sie 10 Versuche. </para>
+
+</chapter>
+
+<chapter id="using-khangman">
+<title
+>&khangman; spielen</title>
+
+<screenshot>
+<screeninfo
+>Hier ist ein Bildschirmfoto von &khangman;, wenn Sie es zum ersten Mal starten</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="khangman-main.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>Bildschirmfoto von &khangman;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Hier können Sie &khangman; sehen, wenn Sie es das erste Mal starten. Die Kategorie ist <quote
+>Tiere</quote
+>, die Sprache ist Standard (hier: Englisch, Standard ist Ihre aktuell eingestellte Sprache für &kde;, wenn es dafür übersetzte Daten gibt) und das Meer-Design ist der Hintergrund. Änderungen in der Kategorie, der Sprache oder dem Design (Hintergrund) werden in der Konfigurationsdatei gespeichert und beim nächsten Spiel wiederhergestellt. </para>
+
+<para
+>Bitte beachten Sie, wie einfach es ist, den Hintergrund zu verändern, benutzen Sie dazu die Auswahlfelder in der Werkzeugleiste. Ein neues Spiel zu beginnen oder das Spiel zu beenden ist ebenso einfach, auch dafür sind Knöpfe in der Werkzeugleiste zu finden. </para>
+
+<sect1 id="general-usage">
+<title
+>Einführung</title>
+
+<para
+>Ein Wort wird angezeigt, die einzelnen Buchstaben werden aber nur als Unterstrich (_) dargestellt. So sehen Sie, wie viele Buchstaben das Wort hat. Sie müssen das Wort raten, indem Sie einen Buchstaben nach dem anderen ausprobieren. Sie geben die Buchstaben im Textfeld ein und drücken entweder die &Enter;taste oder klicken auf <guibutton
+>Raten</guibutton
+>, um zu sehen, ob der Buchstabe im gesuchten Wort enthalten ist. </para>
+
+<para
+>Das Wort wird zufällig ausgesucht, bei jedem Spiel ein anderes Wort. </para>
+
+<important
+><para
+>Alle Wörter sind Nomen (keine Verben, keine Adjektive, &etc;).</para
+></important>
+
+<para
+>Wenn Sie Hilfe beim Erraten des Wortes benötigen, können Sie auf das Symbol <guiicon
+>Tipps anzeigen</guiicon
+><inlinemediaobject
+><imageobject
+> <imagedata fileref="games-hint.png" format="PNG"/></imageobject
+></inlinemediaobject
+> in der Werkzeugleiste klicken. Daraufhin wird ein Hinweis angezeigt, der Tipps zum gesuchten Wort beinhaltet. Wenn Sie erneut auf das Symbol <guiicon
+>Tipp anzeigen</guiicon
+> klicken, verschwindet der Hinweis wieder. </para>
+
+<para
+>Tipps werden in der Standardstellung nicht angezeigt. </para>
+
+<para
+>Normalerweise ist es unwichtig, ob Sie kleine oder große Buchstaben eingeben. Das Programm wandelt alle Eingaben in Kleinbuchstaben um, außer in den deutschen Worten, die mit einem Großbuchstaben beginnen. Diese Umwandlung erfolgt automatisch im Programm. </para>
+
+<para
+>Die aktuelle Kategorie sowie die Anzahl der richtig und falsch geratenen Wörter werden in der Statusleiste angezeigt. </para>
+
+<para
+>Jedesmal, wenn Sie einen Buchstaben probieren, der nicht im Wort enthalten ist, wird das Galgenmännchen ein wenig weiter gezeichnet. Sie haben 10 Versuche, das Wort zu erraten. Danach wird das gesuchte Wort angezeigt. </para>
+
+<para
+>Es gibt 4 Kategorien: <quote
+>Leicht</quote
+>, <quote
+>Mittel</quote
+>, <quote
+>Schwer</quote
+> und <quote
+>Tiere</quote
+>, und zusätzliche Stufen für andere Themen in einigen Sprachen. Das Programm sucht alle Datendateien in allen Sprachen und benutzt auch Wortdateien von &kanagram;. </para>
+ 
+<para
+>In der leichten Spielstufe sind die Wörter recht einfach und beziehen sich auf das alltägliche Leben. Diese Spielstufe ist gut geeignet für Kinder von 6 bis 9 Jahren. Die Kategorie <quote
+>Tiere</quote
+> enthält nur Namen von Tieren. Einige sind einfach, andere sind schwerer zu erraten. In der mittleren Kategorie sind die Wörter länger und schwieriger. Sie ist für Kinder ab 9 Jahren geeignet. In der Kategorie <quote
+>Schwer</quote
+> sind die Wörter schwierig zu buchstabieren und nicht so bekannt. Auch für Erwachsene herausfordernd. </para>
+
+<para
+>Nachdem Sie ein Wort erraten haben (oder das Galgenmännchen ganz gezeichnet ist), werden Sie gefragt, ob Sie mit einem neuen Wort weiterspielen möchten. Sie können dann entweder auf <guilabel
+>Nochmals spielen</guilabel
+> klicken, um ein weiteres Wort zu erraten oder eine neue <guimenu
+>Kategorie</guimenu
+> auswählen. Um das Spiel zu beenden, wählen Sie <menuchoice
+><guimenu
+>Spiel</guimenu
+><guimenuitem
+>Beenden</guimenuitem
+></menuchoice
+> oder klicken Sie auf das Symbol <guiicon
+>Beenden</guiicon
+> in der Werkzeugleiste. </para>
+
+<para
+>Sie geben den Buchstaben,den Sie probieren wollen, in das Textfeld ein (der Mauszeiger steht bereits da drin) und drücken die &Enter;taste oder den Knopf <guibutton
+>Raten</guibutton
+>. Falls der Buchstabe im Wort enthalten ist, wird er an den passenden Stellen im Wort angezeigt. Wenn der Buchstabe nicht im Wort vorkommt, erscheint er im Feld <guilabel
+>Falsche Buchstaben</guilabel
+> und ein weiterer Teil des Galgenmännchens wird gezeichnet. Sie haben zehn Versuche, dann ist das Spiel beendet und das gesuchte Wort wird angezeigt. </para>
+
+<para
+>Während des Spiels können Sie ein neues Spiel starten, wenn Sie aus dem Menü <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Neu</guimenuitem
+> auswählen oder das Symbol <guiicon
+>Neu</guiicon
+> <inlinemediaobject
+><imageobject
+><imagedata fileref="document-new.png" format="PNG"/></imageobject
+></inlinemediaobject
+>in der Werkzeugleiste benutzen. Sie können auch die Wortkategorie im Menü <guimenu
+>Kategorie</guimenu
+> ändern. (Das liefert Ihnen auch eines neues Wort in der neuen Kategorie).</para>
+
+<para
+>Das Erscheinungsbild kann im Auswahlfeld in der Werkzeugleiste <guimenuitem
+>Aussehen</guimenuitem
+> schnell geändert werden.</para>
+
+<para
+>Mit dem Symbol <guiicon
+>Beenden</guiicon
+> in der Werkzeugleiste <inlinemediaobject
+><imageobject
+><imagedata fileref="application-exit.png" format="PNG"/></imageobject
+></inlinemediaobject
+> können Sie das Spiel ganz einfach beenden.</para>
+
+<para
+>Sie können auch mit Wortdateien auf Ihrem Rechner spielen, um diese Dateien zu öfnnen, wählen Sie im Menü <guimenu
+>Spiel</guimenu
+> den Eintrag <guimenuitem
+>Öffnen</guimenuitem
+>.</para>
+
+</sect1>
+
+<sect1 id="languages">
+<title
+>Spielen in unterschiedlichen Sprachen</title>
+<para
+>Sie können &khangman; in vielen Sprachen spielen, darunter brasilianisches Portugiesisch, Bulgarisch, Katalanisch, Tschechisch, Dänisch, Niederländisch, Englisch (US und GB), Finnisch, Französisch, Deutsch, Ungarisch, Irisch (Gälisch), Italienisch, Norwegisch (Bokm&#229;l), Norwegisch (Bokm&#229;l), orwegisch (Nynorsk), Polnisch, Portugiesisch, Rumänisch, Spanisch, Serbisch (Latein und Kyrillisch), Slowenisch, Tadschikisch, Schwedisch, Russisch und Türkisch. Sie können sogar Chinesisch ausprobieren, wenn Sie die Dateien von &kanagram; installieren. </para>
+
+<para
+>Nach der ersten Installation von &khangman; wird als Standard nur Englisch und Ihre &kde;-Sprache installiert, wenn Ihre Sprache in dieser Liste aufgeführt ist und Sie das Sprachpaket installiert haben. Wenn Sie zum Beispiel Däne sind und Ihr &kde; auf dänisch eingestellt haben, sehen Sie unter <guimenu
+>Sprache</guimenu
+> zwei Einträge: Englisch und Dänisch, dabei ist Dänisch Ihre Standardeinstellung. </para>
+
+<para
+>Sie können &khangman; aber auch in anderen Sprachen spielen. Neue Sprachen können Sie sehr leicht zu &khangman; hinzufügen. Sie brauchen nur eine Verbindung zum Internet. Klicken Sie im Menü auf <guimenu
+>Spiel</guimenu
+> und dann auf <guimenu
+>Wörter für eine neue Sprache herunterladen ...</guimenu
+>, es wird der folgende Dialog angezeigt: </para>
+
+<screenshot>
+<screeninfo
+>Der Dialog <quote
+>Neue Sachen abholen</quote
+> für &khangman;</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="getnewstuff.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>Der Dialog <quote
+>Neue Sachen abholen</quote
+> für &khangman;</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Klicken Sie auf den Namen der gewünschten Sprache und dann auf den Knopf <guibutton
+>Installieren</guibutton
+>. Wurde die Sprache richtig installiert, wird dies durch einen grünen Haken vor dem Namen der Sprache angezeigt und der Knopf <guibutton
+>Installieren</guibutton
+> ändert sich zu <guibutton
+>Deinstallieren</guibutton
+>. Die Daten sind in &khangman; sofort verfügbar. Für weitere Sprachen müssen Sie diese Schritte wiederholen. Mit dem Knopf <guibutton
+>Schließen</guibutton
+> verlassen Sie den Dialog <quote
+>Neue Sachen abholen</quote
+>.  </para>
+
+<para
+>Jetzt können Sie die neuen Sprachen im Menü <guimenu
+>Sprache</guimenu
+> auswählen. </para>
+
+<para
+>Bitte beachten Sie, dass Sie jetzt auch die Sonderzeichen einer Sprache mit der Werkzeugleiste <interface
+>Sonderzeichen</interface
+> eingeben können. Diese Werkzeugleiste enthält Knöpfe mit einem Bild für jedes Sonderzeichen einer Sprache wie zum Beispiel &eacute; in Französisch. Ein Klick auf einen solchen Knopf schreibt den entsprechenden Buchstaben in die Eingabezeile und Sie können dann dieses Sonderzeichen mit der &Enter;taste ausprobieren. Sie können natürlich auch eine Tastaturbelegung für Ihre Sprache einstellen. Diese Werkzeugleiste kann angezeigt oder ausgeblendet werden. Die Einstellung wird beim nächsten Spielen mit &khangman; wiederhergestellt. </para>
+
+<important
+><para
+>Beachten Sie, dass Sie die Schriftarten Arial und URW Bookman für die korrekte Anzeige der Sonderzeichen einiger Sprachen benötigen. Sind diese Schriftarten installiert, werden sie von &khangman; automatisch verwendet. Sehen Sie nur kleine Rechtecke an Stelle der Buchstaben, fehlt eine dieser Schriftarten. Geben Sie <command
+>fonts:/</command
+> in die Adressleiste im &konqueror; ein, um alle installierten Schriften auzuzeigen. </para
+></important>
+
+</sect1>
+<sect1 id="few-tips">
+<title
+>Ein paar Tipps</title>
+<para
+>Versuchen Sie es im Englischen zuerst mit Vokalen. Dann testen Sie die oft benutzten Konsonanten: l, t, r, n, s </para>
+<para
+>Wenn Sie <quote
+>io</quote
+> sehen, versuchen Sie es im Englischen oder Französischen (natürlich auch im Deutschen, d. Übers.) danach mit <quote
+>n</quote
+>. </para>
+<para
+>In Brasilianischem Portugiesisch, Katalanisch, Spanisch und Portugiesisch werden akzentuierte Vokale automatisch erkannt, wenn Sie den nicht akzentuierten entsprechenden Vokal eingeben. Zum Beispiel werden alle <quote
+>a</quote
+> mit einem Akzent im Wort angezeigt, wenn Sie ein <quote
+>a</quote
+> eingeben. Das gilt nur, wenn <guilabel
+>Buchstaben mit Akzenten eingeben</guilabel
+> auf der Seite <guilabel
+>Sprachen</guilabel
+> im Einrichtungsdialog von &khangman; nicht ausgewählt ist. Falls <guimenuitem
+>Buchstaben mit Akzenten eingeben</guimenuitem
+> ausgewählt ist, müssen Sie die akzentuierten Buchstaben selbst eingeben. Wenn Sie dann ein <quote
+>a</quote
+> eingeben, wird nur das <quote
+>a</quote
+> angezeigt, Sie müssen zum Beispiel ein &atilde; eingeben, damit dieser Buchstabe auch angezeigt wird. </para>
+<para
+>Wussten Sie schon, dass im Englischen der häufigste Buchstabe das e (12,7&nbsp;%) ist, gefolgt vom t (9,1&nbsp;%), dann das a (8,2&nbsp;%), i (7,0&nbsp;%) und n (6,7&nbsp;%).  </para>
+</sect1>
+
+
+</chapter>
+
+<chapter id="menus">
+<title
+>Menüleiste und Werkzeugleisten</title>
+
+<sect1 id="mainwindow">
+<title
+>Das Hauptfenster von &khangman;</title>
+
+<para
+>Das Menü <guimenu
+>Spiel</guimenu
+> hat 3 Einträge: <guimenuitem
+>Neu</guimenuitem
+>, <guimenuitem
+>Wörter für eine neue Sprache herunterladen ...</guimenuitem
+> und <guimenuitem
+>Beenden</guimenuitem
+>.</para>
+
+<para
+><guimenuitem
+>Neu</guimenuitem
+> startet ein neues Spiel, &ie; ein neues Wort zum Raten in der aktuellen Kategorie. <guimenuitem
+>Wörter für eine neue Sprache herunterladen ...</guimenuitem
+> öffnet den Dialog <quote
+>Neue Sachen herunterladen</quote
+> und ermöglicht Ihnen, die Daten für eine neue Sprache herunterzuladen. <guimenuitem
+>Beenden</guimenuitem
+> beendet das Spiel, schließt das Hauptfenster und schreibt die aktuellen Einstellungen in die Konfigurationsdatei.</para>
+
+<para
+>Im Menü <guimenu
+>Kategorie</guimenu
+> können Sie die gewünschte Kategorie unterschiedlich schwierige Kategorien für die gesuchten Wörter einstellen. </para>
+
+<para
+>Im Menü <guimenu
+>Sprache</guimenu
+> können Sie die Sprache für die gesuchten Worte einstellen. </para>
+
+<para
+>Das Menü <guimenu
+>Aussehen</guimenu
+> enthält vier Designs, das <guimenuitem
+>Meer-Design</guimenuitem
+>, das <guimenuitem
+>Winter-Design</guimenuitem
+>, das <guimenuitem
+>Bienen-Design</guimenuitem
+> und das <guimenuitem
+>Wüsten-Design</guimenuitem
+>. Hintergrund und Farbe der Schrift sind in jedem Design unterschiedlich.  </para>
+
+<para
+>Im Menü <guimenu
+>Einstellungen</guimenu
+> können Sie &khangman; einrichten. Mit <guimenuitem
+>Werkzeugleisten</guimenuitem
+>,<guimenuitem
+>Tipp anzeigen</guimenuitem
+> und <guimenuitem
+>Statusleiste anzeigen</guimenuitem
+> können Sie einstellen, ob Werkzeugleisten, Tipps und die Statusleiste angezeigt oder ausgeblendet werden. </para>
+
+<para
+>Es gibt vier Werkzeugleisten: <guimenuitem
+>Haupt-Werkzeugleiste</guimenuitem
+>, <guimenuitem
+>Aussehen</guimenuitem
+>, und <guimenuitem
+>Sprache</guimenuitem
+>, die oben angezeigt werden und die Knöpfe und Auswahlfelder enthalten und die Werkzeugleiste <guilabel
+>Sonderzeichen</guilabel
+>, die unten angezeigt wird. Diese Werkzeugleiste hat Knöpfe mit Sonderzeichen für jede Sprache: akzentuierte Buchstaben und sonstige Sonderzeichen. Damit Können Sie mit anderen Sprachen zu experimentieren, ohne ein neues Tastaturlayout einstellen zu müssen. Sie klicken auf ein Sonderzeichen und es wird im Textfeld angezeigt. Beim Druck auf die &Enter;taste prüft das Programm, ob der Buchstabe im Wort vorkommt. Diese Werkzeugleiste kann ausgeblendet werden, wenn Sie sie nicht brauchen. Das wird in der Konfigurationsdatei gespeichert, wenn die Werkzeugleiste also ausgeblendet, bleibt diese Einstellungen auch beim nächsten Start von &khangman; erhalten. </para>
+
+<tip>
+<para
+>Es ist natürlich möglich, die Werkzeugleisten zu verschieben. Stellen Sie den Mauszeiger über den kleinen Griff auf der linken Seite der Werkzeugleiste, drücken Sie die &LMB; und ziehen Sie die Werkzeugleiste auf den gewünschten Platz auf dem Bildschirm. Wenn Sie mit der Maus auf eine Werkzeugleiste zeigen und die <mousebutton
+>rechte Maustaste</mousebutton
+> drücken, erscheint ein Menü, in dem verschiedenen Einstellungen für die Werkzeugleiste wählen können. </para>
+</tip>
+
+<para
+><guimenuitem
+>Kurzbefehle festlegen ...</guimenuitem
+> öffnet den Standard-&kde;-Dialog zur Einstellung verschiedener Tastaturkürzel für Aktionen. Zum Beispiel ist <keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+> der Standardkurzbefehl für <guimenuitem
+>Beenden</guimenuitem
+>.</para>
+<para
+><guimenuitem
+>Werkzeugleisten einrichten ...</guimenuitem
+> ist auch ein Standard &kde;-Menüeintrag, der Ihnen erlaubt, Einträge aus der Werkzeugleiste zu entfernen oder hinzuzufügen.  </para>
+
+<screenshot>
+<screeninfo
+>&khangman; Wüsten-Design</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="khangman-desert.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&khangman; Wüsten-Design</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Hier sehen Sie &khangman; mit dem Wüsten-Design, in französischer Sprache und der Kategorie <quote
+>Leicht</quote
+>. Die Werkzeugleiste <interface
+>Sonderzeichen</interface
+> wird angezeigt.</para>
+
+<para
+>Die Kategorie können Sie in einem Auswahlfeld in der Werkzeugleiste oder in der Menüleiste mit <guimenu
+>Kategorie</guimenu
+> einstellen. Es gibt die Kategorien <guimenuitem
+>Leicht</guimenuitem
+>, <guimenuitem
+>Mittel</guimenuitem
+>, <guimenuitem
+>Tiere</guimenuitem
+>, <guimenuitem
+>Schwer</guimenuitem
+> und noch weitere. <guimenuitem
+>Leicht</guimenuitem
+> bezieht sich auf übliche Worte, die ein Kind im Alter von sechs oder sieben Jahren kennt. <guimenuitem
+>Mittel</guimenuitem
+> enthält Nomen, die etwas schwieriger sind, <guimenuitem
+>Schwer</guimenuitem
+> ist wirklich schwierig und <guimenuitem
+>Tiere</guimenuitem
+> beinhaltet nur Tiernamen. Abhängig von der Sprache gibt es weitere Kategorien von Wörtern. </para>
+
+<para
+>Alle Wörter sind Nomen. Keine Verben, keine Adjektive. Die gewählte Kategorie wird in der Statusleiste angezeigt.</para>
+<para
+>Nur Buchstaben können in das Textfeld eingegeben werden.</para>
+</sect1>
+
+<sect1 id="settings">
+<title
+>Einstellungsmöglichkeiten</title>
+<para
+>Eine Werkzeugleiste erlaubt den direkten Zugriff auf einige Einstellungen. Sie können mit Klicken auf einen Knopf ein neues Spiel (d. h. ein neues Wort) beginnen, einen Hinweis anzeigen lassen oder das Programm beenden. Das Design können Sie einfach im Auswahlfeld in der Werkzeugleiste ändern. </para>
+<para
+>Im Menü <menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>&khangman; einrichten ...</guimenuitem
+></menuchoice
+> finden Sie drei Seiten, die erste mit <guilabel
+>Allgemein</guilabel
+>en Einstellungen. </para>
+
+<sect2 id="general-settings">
+<title
+>Allgemeine Einstellungen</title>
+
+<screenshot>
+<screeninfo
+>&khangman; Allgemeine Einstellungen</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="settings-general.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&khangman; Allgemeine Einstellungen</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+><guilabel
+>Mehrere Versuche für doppelte Buchstaben verlangen</guilabel
+> ist in der Voreinstellung ausgeschaltet. Wenn Sie mit dieser Einstellung ein <quote
+>a</quote
+> eingeben und das Wort mehrere <quote
+>a</quote
+>‚s enthält, werden alle angezeigt. Wenn Sie zum Beispiel das Wort <quote
+>Schokolade</quote
+> raten sollen und ein <quote
+>o</quote
+> eingeben,werden beide <quote
+>o</quote
+>‘s angezeigt. Wenn Sie jedoch diese Einstellung auswählen, wird nur das erste <quote
+>o</quote
+> angezeigt und Sie müssen das zweite <quote
+>o</quote
+> noch raten. Dann ist das Spiel schwieriger. </para>
+
+<para
+><guilabel
+>Animationen aktivieren</guilabel
+> ist in der Voreinstellung eingeschaltet. Wenn Sie ein Wort erraten haben, erscheint mit dieser Einstellung ein Dialog, in dem Ihnen mitgeteilt wird, das Sie gewonnen haben und fragt, ob Sie weiterspielen möchten. Wenn Sie diese Einstellung nicht aktivieren, wird diese Meldung nicht angezeigt und nach drei Sekunden startet automatisch ein neues Spiel. </para>
+
+<para
+><guilabel
+>Tipps global aktivieren</guilabel
+> ist in der Standardeinstellung ausgeschaltet, Tipps werden nicht gezeigt. Wird diese Einstellung hier aktiviert, wird als Hilfe zum Raten ein Tipp über dem Ratewort angezeigt. Diese Einstellung kann auch mit dem Symbol <guilabel
+>Tipp anzeigen</guilabel
+> in der Werkzeugleiste, im Menu <menuchoice
+><guimenu
+>Einstellungen</guimenu
+><guimenuitem
+>Tipp anzeigen</guimenuitem
+></menuchoice
+> oder mit dem Kurzbefehl <keycombo action="simul"
+>&Ctrl;<keycap
+>H</keycap
+></keycombo
+> aktiviert werden. </para>
+
+<para
+>Kreuzen Sie im Abschnitt <guilabel
+>Töne</guilabel
+> die Einstellung <guimenu
+>Töne aktivieren</guimenu
+> an, hören Sie beim Start des Spiels einen Klang und einen weiteren Klang, wenn Sie das Wort erraten haben. </para>
+
+</sect2>
+<sect2 id="languages-settings">
+<title
+>Spracheneinstellungen</title>
+<para
+>Auf der Seite <guilabel
+>Sprachen</guilabel
+> finden Sie zusätzliche Einstellungen für einige Sprachen. Diese Einstellungen sind nur für bestimmte Sprachen nötig, spielen Sie gerade in einer anderen Sprache, können Sie diese Einträge nicht auswählen. </para>
+
+<screenshot>
+<screeninfo
+>&khangman; Spracheneinstellungen</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="settings-languages.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&khangman; Spracheneinstellungen</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Die Einstellung <guilabel
+>Buchstaben mit Akzenten eingeben</guilabel
+> können Sie nur für Spanisch, Portugiesisch und Katalanisch im Einrichtungsdialog von &khangman; auswählen. Haben Sie <guimenu
+>Buchstaben mit Akzenten eingeben</guimenu
+> angekreuzt, müssen Sie alle entsprechenden Buchstaben mit Akzenten (wie &atilde;) eingeben. Ist dieser Eintrag nicht ausgewählt, werden die Akzenten bei den entsprechenden Vokalen automatisch ergänzt. </para>
+
+</sect2>
+
+<sect2 id="timers-settings">
+<title
+>Einstellungen für die Zeiten</title>
+<para
+>Auf der Seite <guilabel
+>Zeiten</guilabel
+> können Sie die <guilabel
+>Zeit für die Anzeige des Tipps</guilabel
+> und die <guilabel
+>Zeit für die Anzeige der bereits geratenen Buchstaben</guilabel
+> einstellen. </para>
+
+<screenshot>
+<screeninfo
+>&khangman; Einstellungen für die Zeiten</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="settings-timers.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&khangman; Einstellungen für die Zeiten</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Mit <guilabel
+>Zeit für die Anzeige der bereits geratenen Buchstaben</guilabel
+> können Sie den Zeitraum für die Anzeige der Kurzinfo für bereits geratene Buchstaben verändern. Dieser Hinweis wird angezeigt, wenn Sie bereits geratene Buchstaben nochmal eingeben. Kinder brauchen länger, um den Hinweis zu lesen, daher sollten Sie in diesem Fall eine längere Anzeige einstellen. </para>
+
+</sect2>
+
+</sect1>
+
+</chapter>
+
+<chapter id="commands">
+<title
+>Befehlsreferenz</title>
+
+<sect1 id="khangman-mainwindow">
+<title
+>Menüs und Kurzbefehle</title>
+
+<sect2>
+<title
+>Das Menü Spiel</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>N</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Neu</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Neues</action
+> Spiel (also ein neues Wort)</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>O</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Öffnen</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Öffnet</action
+> eine Datei auf Ihren Rechner zum Spielen.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>G</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Wörter für eine neue Sprache herunterladen ...</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Öffnet</action
+> den Dialog <guilabel
+>Neue Sachen herunterladen</guilabel
+> mit einer Liste aller verfügbaren Daten für die verschiedenen Sprachen. </para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+> <keycombo action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+> </shortcut
+> <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Beenden</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Beendet</action
+> &khangman;</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
+
+<sect2>
+<title
+>Das Menü Kategorie</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Kategorie</guimenu
+> <guimenuitem
+>Tiere</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Wählt</action
+> die Liste mit Tiernamen für das Spiel</para>
+<para
+>Alle weiteren installierten Kategorien werden ebenfalls in diesem Menü als Einträge angezeigt.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Kategorie</guimenu
+> <guimenuitem
+>Leicht</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Wählt</action
+> die Liste mit einfachen Worten für das Spiel</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Kategorie</guimenu
+> <guimenuitem
+>Mittel</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Wählt</action
+> die Liste der mittelschweren Worte für das Spiel</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Kategorie</guimenu
+> <guimenuitem
+>Schwer</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Wählt</action
+> die Liste der schwierigen Worte für das Spiel</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
+
+<sect2>
+<title
+>Das Menü Sprache</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Sprache</guimenu
+> <guimenuitem
+>Englisch</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Stellt</action
+> Englisch als Sprache für die Rateworte ein.</para>
+<para
+>Alle weiteren installierten Sprachen werden ebenfalls in diesem Menü als Einträge angezeigt.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+</sect2>
+
+<sect2>
+<title
+>Das Menü Aussehen</title>
+
+<variablelist>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Aussehen</guimenu
+> <guimenuitem
+>Meer-Design</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Stellt</action
+> als Hintergrundbild das Meer und die dazu passenden Schriftfarben ein.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Aussehen</guimenu
+> <guimenuitem
+>Winter-Design</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Stellt</action
+> als Hintergrundbild den Winter und die dazu passenden Schriftfarben ein.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Aussehen</guimenu
+> <guimenuitem
+>Bienen-Design</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Stellt</action
+> als Hintergrund ein Bienenbild und die dazu passenden Schriftfarben ein.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><menuchoice
+><guimenu
+>Aussehen</guimenu
+> <guimenuitem
+>Wüsten-Design</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+><action
+>Stellt</action
+> als Hintergrundbild die Wüste und die dazu passenden Schriftfarben ein.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Zusätzlich hat &khangman; die bekannten &kde;-Einträge im Menü <guimenu
+>Einstellungen</guimenu
+> und <guimenu
+>Hilfe</guimenu
+>, weitere Informationen dazu finden Sie in den Abschnitten über die Menüs <ulink url="help:/fundamentals/ui.html#menus-settings"
+>Einstellungen</ulink
+> und <ulink url="help:/fundamentals/uihtml#menus-help"
+>Hilfe</ulink
+> der &kde;-Grundlagen. </para>
+
+</sect2>
+
+</sect1>
+</chapter>
+
+<chapter id="developers">
+<title
+>Entwicklerdokumentation für &khangman;</title>
+
+<sect1 id="changing-words">
+<title
+>Wörter für eine neue Sprache für das Spiel</title>
+
+<para
+>Bitte folgen Sie dem Ablauf und schicken Sie die Dateien getarred und gezippt an &Anne-Marie.Mahfouf.mail;. </para>
+<para
+>Bitte schauen sie in &khangman; im Menü <menuchoice
+><guimenu
+>Spiel</guimenu
+><guimenuitem
+>Wörter für eine neue Sprache herunterladen ...</guimenuitem
+></menuchoice
+> nach, ob Ihre Sprache bereits verfügbar ist. Wenn dies der Fall ist, können sie prüfen, ob diese <emphasis
+>Tipps</emphasis
+> enthält. </para>
+<para
+>Die Wörter der Standardkategorien werden in 4 einzelnen Dateien gespeichert, um verschiedene Spielstufen anzulegen. Die Dateien finden Sie in <filename class="directory"
+>/khangman/data/</filename
+>. Die Datei <filename
+>easy.kvtml</filename
+> ist für die Stufe <quote
+>Einfach</quote
+>, die Datei <filename
+>medium.kvtml</filename
+> für die Stufe <quote
+>Mittel</quote
+>, die Datei <filename
+>animals.kvtml</filename
+> für die Stufe <quote
+>Tiere</quote
+> und die Datei <filename
+>hard.kvtml</filename
+> für die Stufe <quote
+>Schwer</quote
+>.</para>
+<para
+>Englisch ist die Standardsprache und wird daher als einzige Sprache mit &khangman; installiert. Alle weiteren Sprachdateien sind in den entsprechenden Sprachpaketen kde-l10n enthalten. </para>
+<procedure>
+<step>
+<para
+>Die Wortdateien haben das <quote
+>kvtml</quote
+>-Format. Das Tag <sgmltag class="starttag"
+>text</sgmltag
+> ist für ein Wort und <sgmltag class="starttag"
+>comment</sgmltag
+> für den Tipp. Diese sind in einem Tag <sgmltag class="starttag"
+>entry</sgmltag
+> zusammengefasst. Versuchen Sie den Tipp an den Schwierigkeitsgrad anzupassen. Die Kategorie <guimenuitem
+>Leicht</guimenuitem
+> braucht auch einen einfachen Tipp, aber für <guimenuitem
+>Schwer</guimenuitem
+> sollten Sie eine Definition aus dem Wörterbuch verwenden. Versuchen Sie keine Wörter derselben Sprachfamilie zu benutzen, das könnte das Wort zu einfach verraten!</para>
+
+<para
+>Beachten Sie, dass Sie beim Bearbeiten die Kodierung <emphasis role="bold"
+>UTF-8</emphasis
+> benutzen müssen. Wenn Ihr Editor dies nicht kann, benutzen Sie &kwrite; oder &kate;. Wenn Sie eine Datei in &kwrite; oder &kate; öffnen, können Sie die Kodierung <quote
+>utf8</quote
+> in der Auswahlbox am oberen Rand des Öffnen-Dialogs auswählen.</para>
+
+<para
+>Eine Beispieldatei im <quote
+>kvtml</quote
+>-Format sieht wie folgt aus:</para>
+<programlisting
+><markup>
+&lt;?xml version="1.0"?&gt; 
+&lt;DOCTYPE kvtml PUBLIC "kvtml2.dtd"
+"http://edu.kde.org/kanagram/kvtml2.dtd"&gt; 
+&lt;kvtml version="2.0"&gt; 
+&lt;information&gt;
+    &lt;generator&gt;converter&lt;/generator&gt;
+    &lt;title&gt;Animals&lt;/title&gt;&lt;!--Translate tag content--&gt;
+    &lt;comment&gt;Animals from across the
+planet&lt;/comment&gt;&lt;!--Translate tag content--&gt;
+  &lt;/information&gt;
+  &lt;identifiers&gt;
+    &lt;identifier id="0" &gt;
+      &lt;locale&gt;en&lt;/locale&gt;
+    &lt;/identifier&gt;
+  &lt;/identifiers&gt;
+...
+&lt;entry id="0" &gt;
+      &lt;inactive&gt;false&lt;/inactive&gt;
+      &lt;inquery&gt;false&lt;/inquery&gt;
+      &lt;translation id="0" &gt;
+        &lt;text&gt;bear&lt;/text&gt;&lt;!--Translate all text tags
+content--&gt;
+        &lt;comment&gt;Large heavy animal with thick
+fur&lt;/comment&gt;&lt;!--Translate all comment tags content--&gt;
+      &lt;/translation&gt;
+    &lt;/entry&gt;
+...
+&lt;/kvtml&gt;
+</markup
+></programlisting>
+</step>
+<step>
+<para
+>Am Anfang der Datei sollten Sie den Inhalt der Tags <sgmltag class="starttag"
+>title</sgmltag
+> und <sgmltag class="starttag"
+>comment</sgmltag
+>, die vom Tag <sgmltag class="starttag"
+>information</sgmltag
+> umschlossen sind, übersetzen. Der Inhalt von title erscheint im Menü Kategorie (wo der Benutzer die Datei auswählt). </para>
+</step>
+<step>
+<para
+>Im Tag <sgmltag class="starttag"
+>identifier</sgmltag
+> ersetzen Sie den Inhalt en des Tags <sgmltag class="starttag"
+>locale</sgmltag
+> durch Ihren Ländercode, &eg; de.</para>
+
+<para
+>Bitte übersetzen Sie nicht die Dateinamen, da Dateinamen keine Sonderzeichen enthalten dürfen. Speichern Sie Ihre Datei darum bitte mit demselben englischen Dateinamen ab.</para>
+</step>
+<step>
+<para
+>Bearbeiten Sie alle angegebenen kvtml-Dateien in einem Texteditor (verwenden Sie zur Erleichterung eine Hervorhebung für &XML;) und ersetzen Sie jedes Wort innerhalb der Marke <sgmltag class="starttag"
+>text</sgmltag
+> durch ein übersetztes Wort und jeden Tipp innerhalb der Marke <sgmltag class="starttag"
+>comment</sgmltag
+> durch einen übersetzten Tipp. Sie müssen die Tipps nicht direkt übersetzen, aber versuchen Sie die Länge und die Schwierigkeit der Worte etwa beizubehalten. </para
+> 
+
+<para
+>Sie können Wörter mit Leerzeichen oder Bindestrich (-) einfügen. In diesem Fall wird anstelle des _ das Leerzeichen oder der Bindestrich angezeigt. Bitte kontaktieren Sie mich, wenn es in Ihrer Sprache Besonderheiten gibt (&eg; Sonderzeichen und Zeichen mit Akzenten), sodass das Programm an Ihre Bedürfnisse angepasst werden kann. </para>
+</step
+>	
+
+<step>
+<para
+>Sie können die Worte einfach übersetzen, oder auch gemäß der Schwierigkeit neue hinzufügen oder anpassen. Zum Beispiel ist <quote
+>Tisch</quote
+> im Deutschen ein <quote
+>leichtes</quote
+> Wort, aber in Ihrer Sprache könnte es schwerer sein. Passen Sie die Wörter ruhig auf die Bedürfnisse Ihrer Sprache an. Die Anzahl der Wörter in einer Datei ist nicht wichtig, Sie können so viele Wörter hinzufügen, wie Sie möchten.</para>
+
+<para
+>Beachten Sie, dass alle Wörter Nomen sind.</para>
+
+</step>
+
+<step>
+<para
+>Sie können Ihre Dateien dann mit svn in <emphasis
+>l10n-kde4/&lt;lang_code&gt;/data/kdeedu/khangman</emphasis
+> einspielen. Bitte vergessen Sie nicht die Datei CMakeLists.txt anzupassen. Wenn Sie weitere Informationen benötigen, nehmen Sie Kontakt mit mir auf.Wenn Sie mir Ihre Dateien schicken, geben Sie mir auch alle <emphasis role="bold"
+>Sonderzeichen</emphasis
+> für Ihre Sprache an (Schreiben Sie diese Sonderzeichen in eine Textdatei und schicken Sie diese Datei im Tar-Paket mit) und erwähnen die sonstigen Besonderheiten Ihrer Sprache.</para>
+<para
+><emphasis
+>Spielen Sie niemals die Dateien im BRANCH ein, das könnte das Spiel unbrauchbar machen.</emphasis
+></para>
+</step>
+</procedure>
+<para
+>Vielen Dank für Ihre Mithilfe!</para>
+</sect1>
+
+<sect1 id="internal">
+<title
+>Speicherung der Daten von &khangman;</title>
+<para
+>Wenn Sie eine neue Sprache im Menü <menuchoice
+> <guimenu
+>Spiel</guimenu
+> <guimenuitem
+>Wörter für neue Sprache herunterladen ...</guimenuitem
+></menuchoice
+> herunterladen, werden diese Dateien in <filename class="directory"
+>$KDEHOME/share/apps/kvtml</filename
+> im Ordner für Ihre Sprache gespeichert. Die Namen für die vorhandenen Sprachenordner werden auch in der Konfigurationsdatei von &khangman; in <filename
+>$KDEHOME/share/config/khangmanrc</filename
+> gespeichert. </para>
+<para
+>Die Adresse des Anbieters (d. h. die Adresse der Internetseite, von der Sie die neue Sprache heruntergeladen haben) wird in der Datei <filename
+>$KDEDIR/share/apps/khangman/khangmanrc</filename
+> gespeichert. </para>
+<para
+>Die englischen Dateien (Standard) und die Dateien für die Sprache des Benutzers aus seinem Sprachpaket (wenn vorhanden) werden im Ordner <filename class="directory"
+>$KDEDIR/share/apps/kvtml</filename
+> gespeichert. </para>
+<para
+>In der Konfigurationsdatei, getrennt für jeden Benutzer unter <filename
+>$KDEHOME/share/config/khangmanrc</filename
+>, werden die Einstellungen des Spiels wie der Hintergrund und die Kategorie gespeichert, außerdem die Sprachen, die im Dialog <guilabel
+>Neue Sachen herunterladen</guilabel
+> heruntergeladen wurden. </para>
+</sect1>
+</chapter>
+
+<chapter id="faq">
+<title
+>Fragen und Antworten</title>
+&reporting.bugs; &updating.documentation; <qandaset id="faqlist">
+<qandaentry>
+<question>
+<para
+>Ich erhalte eine Fehlermeldung, das die Bilder nicht gefunden wurden.</para>
+</question>
+<answer>
+<para
+>Als Standard wird das Spiel wird in <filename class="directory"
+>/usr/local/kde</filename
+> installiert, also fügen Sie <filename class="directory"
+>/usr/local/kde/bin</filename
+> zu Ihrem Pfad hinzu und setzen Sie die <envar
+>KDEDIR</envar
+> Variable auf <filename class="directory"
+>/usr/local/kde</filename
+> vor dem Starten des Spiels. Ein einfacher Weg ist, &khangman; mit der Option <option
+>--prefix</option
+> =$<envar
+>KDEDIR</envar
+>  zu konfigurieren, wobei $<envar
+>KDEDIR</envar
+> auf den Pfad gesetzt werden sollte, wo der Rest von &kde; installiert ist. Der Wert variiert sehr und hängt von Ihrer Distribution und Ihrem Betriebssystem ab. Installieren &khangman; am Besten von Ihrer Distribution.</para>
+</answer>
+</qandaentry>
+<qandaentry>
+<question>
+<para
+>&khangman; startet nicht richtig, nachdem ich es auf eine &kde; 4 Version aktualisiert habe</para>
+</question>
+<answer>
+<para
+>Das Problem könnte mit der neuen Konfigurationsdatei zusammenhängen. Bitte löschen Sie <filename
+>khangmanrc</filename
+> aus dem Verzeichnis <filename class="directory"
+>$KDEHOME/share/config</filename
+>. </para>
+</answer>
+</qandaentry>
+</qandaset>
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Danksagungen und Lizenz</title>
+
+<para
+>&khangman; </para>
+<para
+>Programm Copyright 2001-2007 &Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail; </para>
+<para
+>Mitwirkende: <itemizedlist>
+<listitem
+><para
+>Galgenmännchen-Grafiken: Renaud Blanchard <email
+>kisukuma@chez.com</email
+></para
+> </listitem>
+<listitem
+><para
+>Töne: Ludovic Grossard <email
+>ludovic.grossard@libertysurf.fr</email
+></para
+> </listitem>
+<listitem
+><para
+>Ehemaliger Betreuer: &Primoz.Anzur; &Primoz.Anzur.mail;</para
+> </listitem>
+<listitem
+><para
+>Schwedischen Datendateien, Programmierhilfe, transparente Bilder und Hilfe bei der Internationalisierung: Stefan Asserhäll <email
+>stefan.asserhall@telia.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Spanische Datendateien: eXParTaKus <email
+>expartakus@expartakus.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Tipps für die spanischen Datendateien: Rafael Beccar <email
+>rafael.beccar@kdemail.net </email
+></para
+> </listitem>
+<listitem
+><para
+>Dänische Datendateien: Erik Kjaer Pedersen <email
+>erik@mpim-bonn.mpg.de </email
+></para
+> </listitem>
+<listitem
+><para
+>Finnische Datendateien: Niko Lewman <email
+>niko.lewman@edu.hel.fi </email
+></para
+> </listitem>
+<listitem
+><para
+>Brasilianisches Portugiesische Datendateien: João Sebastião de Oliveira Bueno <email
+>gwidion@mpc.com.br </email
+></para
+> </listitem>
+<listitem
+><para
+>Katalanische Datendateien: Antoni Bella <email
+>bella5@teleline.es </email
+></para
+> </listitem>
+<listitem
+><para
+>Italienische Datendateien: Giovanni Venturi <email
+>jumpyj@tiscali.it </email
+></para
+> </listitem>
+<listitem
+><para
+>Holländische Datendateien: Rinse <email
+>rinse@kde.nl </email
+></para
+> </listitem>
+<listitem
+><para
+>Portugiesische Datendateien: Pedro Morais <email
+>morais@kde.org </email
+></para
+> </listitem>
+<listitem
+><para
+>Serbische (Kyrillisch und Latein) Datendateien: Chusslove Illich <email
+>chaslav@sezampro.yu </email
+></para
+> </listitem>
+<listitem
+><para
+>Slowenische Datendateien: Jure Repinc <email
+>jlp@holodeck1.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Tschechische Datendateien: Luk&aacute;&scaron; Tinkl <email
+>lukas@kde.org </email
+></para
+> </listitem>
+<listitem
+><para
+>Tadschikische Datendateien: Roger Kovacs <email
+>rkovacs@khujand.org </email
+></para
+> </listitem>
+<listitem
+><para
+>Norwegische (Bokm&#229;l) Datendateien: Torger &#197;ge Sinnes <email
+>torg-a-s@online.no </email
+></para
+> </listitem>
+<listitem
+><para
+>Ungarische Datendateien: Tamas Szanto <email
+>tszanto@mol.hu </email
+></para
+> </listitem>
+<listitem
+><para
+>Norwegische (Nynorsk) Datendateien: Gaute Hvoslef Kvalnes <email
+>gaute@verdsveven.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Türkische Datendateien: Mehmet &Ouml;zel <email
+>mehmet_ozel2003@hotmail.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Bulgarische Datendateien: Radostin Radnev <email
+>radnev@yahoo.com </email
+></para
+> </listitem>
+<listitem
+><para
+>Irische (Gälische) Datendateien: Kevin Patrick Scannell <email
+>scannell@slu.edu </email
+></para
+> </listitem>
+<listitem
+><para
+>Hilfe beim Programmieren: &Robert.Gogolok; &Robert.Gogolok.mail;</para
+> </listitem>
+<listitem
+><para
+>Programmierhilfe: Benjamin Meyer <email
+>ben @meyerhome.net</email
+></para
+> </listitem>
+<listitem
+><para
+>Programmfehler beseitigt durch: Lubos Lun&agrave;k <email
+>l.lunak@kde.org</email
+></para
+> </listitem>
+<listitem
+><para
+>Programmfehler beseitigt durch: Albert Astals Cid &Albert.Astals.Cid.mail;</para
+> </listitem>
+<listitem
+><para
+>Studie über die Bedienbarkeit: Celeste Paul <email
+>seele@obso1337.org</email
+></para
+> </listitem>
+</itemizedlist>
+</para>
+
+<para
+>Copyright der Dokumentation 2001-2007 &Anne-Marie.Mahfouf;&Anne-Marie.Mahfouf.mail; </para>
+
+<para
+>Übersetzung Burkhard Lück<email
+>lueck@hube-lueck.de</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+<appendix id="installation">
+<title
+>Installation</title>
+
+<sect1 id="getting-khangman">
+<title
+>Woher Sie &khangman; bekommen</title>
+&install.intro.documentation; </sect1>
+
+<sect1 id="compilation">
+<title
+>Kompilierung und Installation</title>
+&install.compile.documentation; </sect1>
+</appendix>
+
+&documentation.index;
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes: nil
+sgml-general-insert-case: lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+-->

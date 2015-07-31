@@ -1,0 +1,83 @@
+# Burkhard Lück <lueck@hube-lueck.de>, 2012, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kanagram-harmattan\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 04:47+0200\n"
+"PO-Revision-Date: 2013-01-14 20:44+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: GamePage.qml:126
+msgid "No hint available"
+msgstr "Kein Tipp verfügbar"
+
+#: MainPage.qml:48
+msgid "Play Game"
+msgstr "Spiel starten"
+
+#: MainPage.qml:55
+msgid "Resume Game"
+msgstr "Spiel fortsetzen"
+
+#: MainPage.qml:62
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: MainPage.qml:79
+msgid "About"
+msgstr "Über"
+
+#: MainSettingsPage.qml:30
+msgid ""
+"<b>Anagram resolve time</b>: Maximum allowed time for resolving the anagram"
+msgstr ""
+"<b>Zeit für das Lösen des Anagramms</b>: Maximal erlaubte Zeit für die "
+"Auflösung des Anagramms"
+
+#: MainSettingsPage.qml:35
+msgid ""
+"<b>Hint show duration:</b> The duration for showing the hint for the current "
+"anagram"
+msgstr ""
+"<b>Tipp-Anzeigedauer:</b> Die Dauer der Anzeige des Tipps für das aktuelle "
+"Anagramm"
+
+#: MainSettingsPage.qml:40
+msgid "<b>Sounds:</b> Turn all the sounds on or off inside the game"
+msgstr "<b>Klänge:</b> Schaltet alle Klänge im Spiels ein bzw. aus"
+
+#: MainSettingsPage.qml:53
+msgid "Select a language"
+msgstr "Wählen Sie eine Sprache"
+
+#: MainSettingsPage.qml:109
+msgid "Kanagram Settings"
+msgstr "Kanagram-Einstellungen"
+
+#: MainSettingsPage.qml:137
+msgid "Hint show duration in seconds"
+msgstr "Tipp-Anzeigedauer in Sekunden"
+
+#: MainSettingsPage.qml:194
+msgid "Anagram resolve time in seconds"
+msgstr "Zeit für das Lösen des Anagramms in Sekunden"
+
+#: MainSettingsPage.qml:245
+msgid "Sounds"
+msgstr "Klänge"
+
+#: MainSettingsPage.qml:285
+msgid "Language"
+msgstr "Sprache"
+
+#~ msgctxt "@item:inlistbox no language for that locale"
+#~ msgid "None"
+#~ msgstr "Keine"

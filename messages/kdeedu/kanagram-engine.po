@@ -1,0 +1,79 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Burkhard Lück <lueck@hube-lueck.de>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-05-04 05:57+0000\n"
+"PO-Revision-Date: 2014-03-19 08:53+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: label, entry (currentCategory), group (kanagram)
+#: kanagram.kcfg:9
+msgid "This setting stores the currently selected Category."
+msgstr "Diese Einstellung speichert die gerade ausgewählte Kategorie"
+
+#. i18n: ectx: label, entry (hintHideTime), group (kanagram)
+#: kanagram.kcfg:13
+msgid ""
+"This setting allows you to set in seconds how long Kanagram's hint bubble is "
+"shown."
+msgstr ""
+"Hier stellen Sie ein, wie lange der Tipp in Kanagram angezeigt werden soll."
+
+#. i18n: ectx: label, entry (resolveTime), group (kanagram)
+#: kanagram.kcfg:17
+msgid ""
+"This setting allows you to set in seconds how much time is available for "
+"resolving the anagram."
+msgstr ""
+"Mit dieser Einstellung können Sie festlegen, wie viele Sekunden für die "
+"Lösung des Anagramms zur Verfügung stehen."
+
+#. i18n: ectx: label, entry (useSounds), group (kanagram)
+#: kanagram.kcfg:21
+msgid "Turns sounds on/off."
+msgstr "Schaltet die Klänge des Spiels ein bzw. aus."
+
+#. i18n: ectx: label, entry (uppercaseOnly), group (kanagram)
+#: kanagram.kcfg:25
+msgid "Use uppercase."
+msgstr "Großschreibung verwenden"
+
+#. i18n: ectx: label, entry (defaultVocabulary), group (kanagram)
+#: kanagram.kcfg:29
+msgid "Set the default vocabulary"
+msgstr "Legt das standardmäßige Vokabular fest"
+
+#. i18n: ectx: label, entry (dataLanguage), group (kanagram)
+#: kanagram.kcfg:33
+msgid "Set the default translation"
+msgstr "Legt die Standardübersetzung fest"
+
+#: kanagramgame.cpp:222
+msgid "No hint"
+msgstr "Kein Tipp"
+
+#: kanagramgame.cpp:314
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "Kein"
+
+#~| msgid ""
+#~| "This setting allows you to set in seconds how much time is available for "
+#~| "resolving the anagram."
+#~ msgid ""
+#~ "This setting allows you to set in seconds the time interval of the score "
+#~ "timer."
+#~ msgstr ""
+#~ "Mit dieser Einstellung können Sie das Zeitintervall in Sekunden für den "
+#~ "Bewertungszeitmesser festlegen."

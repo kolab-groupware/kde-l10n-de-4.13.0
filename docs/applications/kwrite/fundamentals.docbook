@@ -1,0 +1,1200 @@
+<chapter id="on-screen-fundamentals">
+<title
+>Grundsätzliches</title>
+
+<para
+>&kwrite; ist sehr einfach zu nutzen. Keiner, der schon einen Texteditor benutzt hat, sollte Probleme damit haben. </para>
+
+<sect1 id="drag-and-drop">
+<title
+>Ziehen und Ablegen (Drag and Drop)</title>
+
+<para
+>&kwrite; nutzt das Drag-and-Drop-Protokoll von &kde;. Dateien können gezogen und auf &kwrite; abgelegt werden; von der Arbeitsoberfläche, vom Dateimanager &dolphin;, oder einer &FTP;-Seite, die in einem &dolphin;-Fenster geöffnet ist. </para>
+</sect1>
+
+<sect1 id="command-line-options">
+<title
+>Befehlszeilenargumente</title>
+
+<para
+>Auch wenn &kwrite; meistens vom &kde;-Menü oder über ein Arbeitsflächensymbol geöffnet wird, kann es von einer Befehlszeile in einem Terminalfenster gestartet werden. Es gibt hierbei einige nützliche Optionen. </para>
+
+<sect2 id="specify-a-file">
+<title
+>Angabe eines Dateinamens</title>
+
+<para
+>Der Benutzer kann Pfad und Dateinamen einer Datei angeben, die dann beim Starten von &kwrite; geöffnet (oder erzeugt) wird. Hierzu ein Beispiel:</para>
+
+<informalexample
+><screen
+><prompt
+>%</prompt
+> <userinput
+><command
+>kwrite</command>
+<option
+><replaceable
+>/home/myhome/docs/myfile.txt</replaceable
+></option>
+</userinput
+>
+</screen>
+</informalexample>
+</sect2>
+<sect2 id="editing-files-on-the-internet">
+<title
+>Angabe eines Dateinamens im Internet</title>
+
+<para
+>Die oben genannte Methode kann auch benutzt werden, um Dateien im Internet zu öffnen (wenn der Benutzer eine aktive Verbindung hat). Hierzu wieder ein Beispiel:</para>
+
+<informalexample
+><screen
+><prompt
+>%</prompt
+> <userinput
+><command
+>kwrite</command>
+<option
+><replaceable
+>ftp://ftp.kde.org/pub/kde/Welcome.msg</replaceable>
+</option
+></userinput
+>
+</screen>
+</informalexample>
+
+</sect2>
+
+<sect2 id="other-command-line-options">
+<title
+>Andere Befehlszeilenargumente</title>
+
+<para
+>Die folgenden Hilfe-Möglichkeiten sind über die Befehlszeile verfügbar</para>
+
+<variablelist>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--help</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt die grundsätzlichen Optionen für die Befehlszeile an.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--help-qt</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt die Optionen für die Einstellung der Zusammenarbeit von &kwrite; mit &Qt; an.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--help-kde</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt die Optionen für die Einstellung der Zusammenarbeit von &kwrite; mit &kde; an.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--help-all</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt alle Optionen der Befehlszeile an.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--author</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt die Autoren von &kwrite; im Terminalfenster an.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>-v, --version</option
+></userinput
+></term>
+<listitem
+><para
+>Zeigt Versionsinformation für &Qt;, &kde; und &kwrite; an. Auch verfügbar durch: <userinput
+><command
+>kwrite</command
+> <option
+>-v</option
+></userinput
+> </para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>&kwrite;</command
+> <option
+>--license</option
+></userinput
+></term>
+<listitem>
+<para
+>Zeigt Informationen zu den Lizenzbestimmungen.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--stdin</option
+></userinput
+></term>
+<listitem
+><para
+>Weist &kwrite; an, den Inhalt des zu bearbeitenden Dokuments von STDIN zu lesen. Dies ähnelt der Option <option
+>-</option
+>, die in vielen Befehlszeilenprogrammen benutzt wird und erlaubt das Einfügen einer Programmausgabe in &kwrite;.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--encoding</option
+> <parameter
+>encoding</parameter
+> <parameter
+>&URL;</parameter
+></userinput
+></term>
+<listitem
+><para
+>Weist &kwrite; an, die angegebene Kodierung für das Dokument zu benutzen. </para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--line</option
+> <parameter
+>line</parameter
+> <parameter
+>&URL;</parameter
+></userinput
+></term>
+<listitem
+><para
+>Setzt den Cursor nach dem Öffnen des Dokuments auf die angegebene Zeile. </para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><userinput
+><command
+>kwrite</command
+> <option
+>--column</option
+> <parameter
+>column</parameter
+> <parameter
+>&URL;</parameter
+></userinput
+></term>
+<listitem
+><para
+>Setzt den Cursor nach dem Öffnen des Dokuments auf die angegebene Spalte. </para
+></listitem>
+</varlistentry>
+
+</variablelist>
+</sect2>
+</sect1>
+
+<sect1 id="keybindings"
+> <!--60 shortcuts here and 4.4.63 has 89 lueck
+missing ctrl+6,7,8,9,T,Home,End
+ctrl+shift+O,Home,End,PgUp,Left,Right,PgDown
+Shift+Home
+-->
+<title
+>Kurzbefehle</title>
+
+<para
+>Viele der Tastenfunktionen (Tastenkürzel) sind einstellbar im Menü <link linkend="settings"
+>Einstellungen</link
+>. In der Grundeinstellung hat &kwrite; die folgenden Tastenfunktionen.</para>
+<informaltable>
+<tgroup cols="2">
+<tbody>
+
+<row
+><entry
+><para
+><keycombo
+action="simul"
+><keycap
+>Einfg</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Umschaltung zwischen Einfüge- und Überschreibmodus. Im Einfügemodus werden alle Zeichen an der Cursor-Position eingefügt und alle Zeichen rechts vom Cursor nach rechts verschoben. Im Überschreibmodus werden die Zeichen rechts vom Cursor sofort durch die neu geschriebenen Zeichen ersetzt.</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Pfeil links</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor ein Zeichen nach links </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Pfeil rechts</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor ein Zeichen nach rechts </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Pfeil hoch</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor um eine Zeile nach oben </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Pfeil runter</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor um eine Zeile nach unten </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Bild auf</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor um eine Seite nach oben </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+>&Alt;<keycap
+>Bild auf</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Voriges Lesezeichen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+><keycap
+>Bild ab</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Bewegt den Cursor um eine Seite nach unten </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+>&Alt;<keycap
+>Bild ab</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Nächstes Lesezeichen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Backspace;</keycombo
+></para
+></entry>
+<entry
+><para
+>Löscht das Zeichen links vom Cursor </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>Pos1</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Setzt den Cursor an den Zeilenanfang </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>Ende</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Setzt den Cursor an das Zeilenende </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>Löschen</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Löscht das Zeichen rechts vom Cursor (oder den markierten Text)</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+>&Shift;&Enter;</keycombo
+></para
+></entry>
+<entry
+><para
+>Fügt eine neue Zeile mit allen Zeichen der aktuellen Zeile vom Zeilenanfang bis zum ersten Buchstaben oder bis zur ersten Zahl. Dies kann &eg; verwendet werden, um Kommentare in einen Quelltext einzufügen. Am Ende der aktuellen Zeile mit dem Inhalt <quote
+>// ein Text// </quote
+> drücken Sie diese Kurzwahl und eine neue Zeile mit <quote
+>// </quote
+> wird eingefügt. Die Kommentarzeichen am Beginn einer neuen Zeile für Kommentare müssen dann nicht mehr zusätzlich eingegeben werden.</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+>&Shift;<keycap
+>Pfeil links</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Markiert Text ein Zeichen nach links </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo action="simul"
+>&Shift;<keycap
+>Pfeil rechts</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Markiert Text ein Zeichen nach rechts </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F1</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Hilfe</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Shift;<keycap
+>F1</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Was ist das?</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F3</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="find-again"
+>Weitersuchen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Shift;<keycap
+>F3</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="find-previous"
+>Frühere suchen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>H</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="find-selected"
+>Auswahl suchen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>H</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="find-selected-backwards"
+>Auswahl suchen (rückwärts)</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Alles auswählen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>A</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Auswahl aufheben</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>B</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Blockauswahlmodus</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>B</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Lesezeichen hinzufügen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>C</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Kopiert den markierten Text in die Zwischenablage. </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>D</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Kommentar</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>D</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Kommentar entfernen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>F</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="find"
+>Suchen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>G</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Gehe zu Zeile ...</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>I</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Einrücken</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>I</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Einrücken rückgängig</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>J</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Zeilen zusammenführen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>N</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="new"
+>Neue</link
+> Datei</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>O</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="open"
+>Öffnen eines Dokuments</link
+> </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>P</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="print"
+>Drucken</link
+> </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>Q</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Beenden - Aktives Editorfenster schließen </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>R</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="replace"
+>Ersetzen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>S</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Führt den Befehl <link linkend="save"
+><guilabel
+>Sichern</guilabel
+></link
+> aus.</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>U</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Großschreibung</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>U</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Kleinschreibung</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Alt;<keycap
+>U</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Großschreibung am Wortanfang</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>V</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Inhalt der Zwischenablage in die aktuelle Zeile einfügen. </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>W</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="close"
+>Schließen</link
+> </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>X</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Markierten Text löschen und in die Zwischenablage kopieren. </para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>Z</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="undo"
+>Rückgängig</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>Z</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="redo"
+>Wiederherstellen</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>-</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Eine lokale Ebene einklappen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>-</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Oberste Ebene einklappen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Eine lokale Ebene ausklappen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;&Shift;<keycap
+>+</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Oberste Ebene ausklappen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keysym
+>Meta</keysym
+>&Ctrl;<keycap
+>V</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>VI-Eingabemodus</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+>&Ctrl;<keycap
+>Leertaste</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Quelltextvervollständigung aufrufen</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F5</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+><link linkend="reload"
+>Erneut laden</link
+></para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F6</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Symbolspalte anzeige/ausblenden</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F7</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Auf Befehlszeile umschalten</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F9</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Markierungen für Quelltextausblendungen anzeigen/ausblenden</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F10</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Dynamischer Zeilenumbruch</para
+></entry>
+</row>
+<row>
+<entry
+><para
+><keycombo
+action="simul"
+><keycap
+>F11</keycap
+></keycombo
+></para
+></entry>
+<entry
+><para
+>Zeilennummern anzeigen/ausblenden</para
+></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</sect1>
+</chapter>

@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN"
+"dtd/kdex.dtd" [
+  <!ENTITY kappname "&kwrite;">
+  <!ENTITY package "kdebase">
+  <!ENTITY imgpath "../kate/">
+  <!ENTITY rcfile "kwriterc">
+  <!ENTITY fundamentals-chapter SYSTEM "fundamentals.docbook">
+  <!ENTITY configuring-chapter SYSTEM "configuring.docbook">
+  <!ENTITY configuring-part-sections SYSTEM "../kate/configuring-part.docbook">
+  <!ENTITY menus-chapter SYSTEM "menus.docbook">
+  <!ENTITY part-chapter SYSTEM "../kate/part.docbook">
+  <!ENTITY plugins-part-sections SYSTEM "../kate/plugins-part.docbook">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE"
+> <!-- change language only here -->
+]>
+
+<book id="kwrite" lang="&language;">
+
+<bookinfo>
+<title
+>Das Handbuch zu &kwrite;</title>
+<authorgroup>
+<author
+>&Thad.McGinnis; &Thad.McGinnis.mail;</author>
+<author
+>&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;</author>
+<author
+>&Anders.Lund; &Anders.Lund.mail;</author>
+<author
+>&TC.Hollingsworth; &TC.Hollingsworth.mail;</author>
+<othercredit role="developer"
+>&Christoph.Cullmann; &Christoph.Cullmann.mail; </othercredit>
+
+<othercredit role="reviewer"
+>&Lauri.Watts; &Lauri.Watts.mail; </othercredit>
+
+<othercredit role="translator"
+><firstname
+>Matthias</firstname
+><surname
+>Schulz</surname
+><affiliation
+><address
+><email
+>matthias.schulz@kdemail.net</email
+></address
+></affiliation
+><contrib
+>Übersetzer</contrib
+></othercredit
+> 
+
+</authorgroup>
+
+<copyright>
+<year
+>2000</year
+><year
+>2001</year>
+<holder
+>&Thad.McGinnis;</holder>
+</copyright>
+<copyright>
+<year
+>2005</year>
+<holder
+>&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;</holder>
+<holder
+>&Anders.Lund; &Anders.Lund.mail;</holder>
+</copyright>
+<copyright>
+<year
+>2011</year
+><year
+>2012</year
+><year
+>2013</year>
+<holder
+>&TC.Hollingsworth; &TC.Hollingsworth.mail;</holder>
+</copyright>
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2013-11-28</date>
+<releaseinfo
+>4.12 (&kde; 4.12)</releaseinfo>
+
+<abstract>
+<para
+>&kwrite; ist ein Texteditor für &kde;, mit dem Sie jede einzelne Datei in einem eigenen Fenster bearbeiten.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>KWrite</keyword>
+<keyword
+>text</keyword>
+<keyword
+>editor</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Einleitung</title>
+
+<para
+>&kwrite; ist mehr als ein Texteditor für die &kde;-Arbeitsumgebung. Es ist als Programmiereditor gedacht und könnte mindestens als teilweise Alternative zu leistungsfähigeren Editoren betrachtet werden. Es kann am besten in Verbindung mit &konqueror; oder &dolphin; für das Darstellen von Quelltext verschiedener Sprachen benutzt werden. &kwrite; ist auch sehr gut als einfacher Texteditor zu verwenden. Eine der Haupteigenschaften von &kwrite; ist die farbige Darstellung von Quelltext, angepasst für viele verschiedene Programmiersprachen wie: C/C++, &Java;, Python, Perl, Bash, Modula 2, &HTML; und Ada. </para>
+<para
+>&kwrite; verwendet eine sog. Ein-Dokument-Oberfläche (<acronym
+>SDI</acronym
+>, single document interface), mit der Sie jeweils ein Dokument je Fenster gleichzeitig bearbeiten können. </para>
+</chapter>
+
+&fundamentals-chapter;
+
+&part-chapter;
+
+&menus-chapter;
+
+&configuring-chapter;
+
+<chapter id="credits">
+<title
+>Danksagungen und Lizenz</title>
+
+<para
+>&kwrite; Copyright 2001 das &kate;-Team.</para>
+
+<para
+>Basiert auf dem Original-&kwrite;, das Copyright 2000 von Jochen Wilhelmy <email
+>digisnap@cs.tu-berlin.de</email
+> </para>
+
+<para
+>Mitarbeit:</para>
+
+<itemizedlist>
+<listitem>
+<para
+>&Christoph.Cullmann; &Christoph.Cullmann.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>Michael Bartl <email
+>michael.bartl1@chello.at</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Phlip <email
+>phlip_cpp@my-deja.com</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>&Anders.Lund; &Anders.Lund.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>Matt Newell <email
+>newellm@proaxis.com</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>&Joseph.Wenninger; &Joseph.Wenninger.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>Jochen Wilhelmy <email
+>digisnap@cs.tu-berlin.de</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>&Michael.Koch; &Michael.Koch.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>&Christian.Gebauer; &Christian.Gebauer.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>&Simon.Hausmann; &Simon.Hausmann.mail;</para>
+</listitem>
+
+<listitem>
+<para
+>Glen Parker <email
+>glenebob@nwlink.com</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>Scott Manson <email
+>sdmanson@altel.net</email
+></para>
+</listitem>
+
+<listitem>
+<para
+>&John.Firebaugh; &John.Firebaugh.mail;</para>
+</listitem>
+</itemizedlist>
+
+<para
+>Die Originaldokumentation wurde von &Thad.McGinnis; &Thad.McGinnis.mail; erstellt. </para>
+
+<para
+>Auf den neuesten Stand gebracht durch &Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail; und &Anders.Lund; &Anders.Lund.mail; </para>
+
+<para
+>Dieser Version des &kwrite;-Handbuchs liegt das Original von &Cristian.Tibirna; &Cristian.Tibirna.mail; zugrunde. </para>
+
+<para
+>In das Docbook-Format überführt und Korrektur gelesen wurde dieses Handbuch von &Lauri.Watts; &Lauri.Watts.mail; </para>
+
+<para
+>Übersetzungen von:</para
+><itemizedlist
+><listitem
+><para
+>Thomas Diehl <email
+>thd@kde.org</email
+>, GUI-Übersetzung</para
+></listitem
+><listitem
+><para
+>Matthias Schulz<email
+>matthias.schulz@kdemail.net</email
+>, Übersetzung der Dokumentation</para
+></listitem
+></itemizedlist
+> 
+&underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-namecase-general: t
+sgml-namecase-entity: nil
+sgml-general-insert-case: lower
+sgml-minimize-attributes: nil
+sgml-omittag: nil
+End:
+-->
+

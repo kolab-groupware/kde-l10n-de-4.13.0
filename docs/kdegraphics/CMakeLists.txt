@@ -1,0 +1,6 @@
+add_subdirectory( gwenview )
+add_subdirectory( kcontrol )
+add_subdirectory( kolourpaint )
+add_subdirectory( kruler )
+add_subdirectory( ksnapshot )
+add_subdirectory( okular )

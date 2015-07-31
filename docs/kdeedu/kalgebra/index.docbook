@@ -1,0 +1,733 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.2-Based Variant V1.1//EN" "dtd/kdex.dtd" [
+  <!ENTITY kappname "&kalgebra;">
+  <!ENTITY package "kdeedu">
+
+  <!ENTITY commands SYSTEM "commands.docbook">
+
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % German "INCLUDE">
+]>
+
+<book id="kalgebra" lang="&language;">
+
+<bookinfo>
+<title
+>Das Handbuch zu &kalgebra;</title>
+
+<authorgroup>
+<author
+><firstname
+>Aleix</firstname
+> <surname
+>Pol</surname
+> <affiliation
+> <address
+>&Aleix.Pol.mail;</address>
+</affiliation>
+</author>
+<othercredit role="translator"
+><firstname
+>Burkhard</firstname
+><surname
+>Lück</surname
+><affiliation
+><address
+><email
+>lueck@hube-lueck.de</email
+></address
+></affiliation
+><contrib
+>Übersetzung</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2007</year>
+<holder
+>&Aleix.Pol;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+
+<date
+>2013-06-27</date>
+<releaseinfo
+>0.11 (&kde; 4.11)</releaseinfo>
+
+<abstract>
+<para
+>&kalgebra; ist eine Anwendung, die Ihren grafischen Taschenrechner ersetzt. &kalgebra; hat numerische, logische, symbolische und analytische Fähigkeiten mit denen Sie mathematische Ausdrücke in der Konsole auswerten und die Ergebnisse zwei- oder dreidimensional darstellen können. &kalgebra; basiert auf der Sprache „Mathematical Markup Language“ (MathML), es sind jedoch keine Kenntnisse von MathML erforderlich, um &kalgebra; erfolgreich einsetzen zu können. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>kdeedu</keyword>
+<keyword
+>graph</keyword>
+<keyword
+>Mathematik</keyword>
+<keyword
+>2D</keyword>
+<keyword
+>3D</keyword>
+<keyword
+>mathML</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Einführung</title>
+
+<para
+>&kalgebra; bietet zahlreiche Möglichkeiten, um alle Arten von mathematischen Operationen auszuführen und deren Ausgaben graphisch darzustellen. Früher war dieses Programm stark an MathML ausgerichtet, heute kann es von Personen mit ein wenig mathematischem Verständnis benutzt werden, um sowohl einfache als auch schwierige mathematische Aufgaben zu lösen.  </para>
+<!--FIXME Ask Burkhard where to put tutorials and if it is worth efforts to do. Example from UB page: http://swiftscythe.blogspot.de/2011/02/how-to-work-with-complex-numbers-in.html-->
+<para
+>Das Programm bietet folgende Funktionsmerkmale: </para>
+
+
+<itemizedlist>
+<listitem
+><para
+>Eine Konsole für die schnelle und leichte Auswertung von mathematischen Funktionen. </para
+></listitem>
+<listitem
+><para
+>Skript-Fähigkeiten für erweiterte Folgen von Berechnungen </para
+></listitem>
+<listitem
+><para
+>Funktionsdefinitionen und automatische Syntax-Vervollständigung </para
+></listitem>
+<listitem
+><para
+>Kalkülfunktionen einschließlich symbolischer Differentiation, Vektorkalkül und Listenbearbeitung. </para
+></listitem>
+<listitem
+><para
+>Grafische Darstellung von Funktionen mit der Möglichkeit, mit dem Cursor die Nullstellen zu finden und weitere Arten von Analysen. </para
+></listitem>
+<listitem
+><para
+>3D-Grafik zur Visualisierung von dreidimensionalen Funktionen. </para
+></listitem>
+<listitem
+><para
+>Ein Funktionsverzeichnis für die schnelle Referenz zu allen vorhandenen Funktionen. </para
+></listitem>
+</itemizedlist>
+
+<para
+>Hier sehen Sie ein Bildschirmfoto vom &kalgebra;-Programm: </para>
+
+<screenshot>
+<screeninfo
+>Hier sehen Sie ein Bildschirmfoto vom &kalgebra;-Hauptfenster</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="kalgebra-main-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&kalgebra;-Hauptfenster</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+<para
+>Das Hauptfenster von &kalgebra; besteht aus den Karteikarten <guilabel
+>Konsole</guilabel
+>, <guilabel
+>2D-Graph</guilabel
+>, <guilabel
+>3D-Graph</guilabel
+> und <guilabel
+>Funktionen</guilabel
+>. Auf jeder Karteikarte befindet sich ein Textfeld zur Eingabe von Funktionen oder Berechnungen und ein Bereich für die Anzeige der Ergebnisse. </para>
+
+<para
+>Sitzungen können jederzeit mit den Aktionen im Menü <guilabel
+>Sitzungen</guilabel
+> verwaltet werden:</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>N</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Sitzung</guimenu
+><guimenuitem
+>Neu</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Öffnet ein neues &kalgebra;-Hauptfenster</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;&Shift; <keycap
+>F</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Sitzung</guimenu
+><guimenuitem
+>Vollbildmodus</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Schaltet den Vollbildmodus für das &kalgebra;-Fenster ein und aus. Dies kann auch mit dem Knopf <inlinemediaobject
+> <imageobject
+> <imagedata fileref="view-fullscreen.png" format="PNG"/> </imageobject
+> </inlinemediaobject
+> rechts oben im &kalgebra;-Fenster ausgeführt werden.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>Q</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Sitzung</guimenu
+><guimenuitem
+>Beenden</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Beendet das Programm.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</chapter>
+
+<chapter id="syntax">
+<title
+>Syntax</title>
+<para
+>&kalgebra; verwendet eine intuitive algebraische Syntax für die Eingabe von benutzerdefinierten Funktionen, Eine ähnliche Syntax wird für die meisten modernen grafischen Rechner verwendet. In diesem Abschnitt werden alle in &kalgebra; verfügbaren eingebauten Operatoren aufgeführt. Die Syntax von &kalgebra; wurde  in Anlehnung an die mathematischen Anwendungen <ulink url="http://maxima.sourceforge.net/"
+>Maxima</ulink
+> und <ulink url="http://www.maplesoft.com/products/maple/"
+>maple</ulink
+> entwickelt und sollte daher allen Benutzern dieser Programme vertraut sein. </para>
+
+<para
+>In &kalgebra; werden die eingegebenen Ausdrücke in MathML für das Hintergrundprogramm umgewandelt. Ein grundsätzliches Verständnis der durch MathML unterstützten Fähigkeiten ist hilfreich, um die Möglichkeiten von &kalgebra; zu entdecken. </para>
+
+<para
+>Folgende Operatoren sind in dieser Version enthalten:</para>
+<itemizedlist>
+<listitem
+><para
+>+ - * / : Addition, Subtraktion, Multiplikation und Division.</para
+> </listitem>
+<listitem
+><para
+>^, ** : Potenzen, beide Schreibweisen und auch das Unicodezeichen  ² sind erlaubt. Potenzen können auch als Wurzel benutzt werden, zum Beispiel:  a**(1/b)</para
+></listitem>
+<listitem
+><para
+>-&gt;: Lambda-Funktion. Die Möglichkeit, eine oder mehrere freie Variablen zu definieren, die an eine Funktion gebunden werden. Im Ausdruck <userinput
+>length:=(x,y)->(x*x+y*y)^0.5</userinput
+> zum Beispiel wird der Lambda-Operator zur Kennzeichnung benutzt, dass x und y als gebundene Variablen bei der Funktion „length“ verwendet werden. </para
+></listitem>
+<listitem
+><para
+>x=a..b : Einschränkung eines Wertebereichs (beschränkte Variable mit unterer und oberer Grenze). Die Variable x kann in diesem Beispiel nur Werte von a bis b annehmen.</para
+></listitem>
+<listitem
+><para
+>() : Klammern bestimmen den Vorrang einer auszuführenden Rechenoperation vor anderen in der Rechenreihenfolge.</para
+></listitem>
+<listitem
+><para
+>abc(parameter) : Funktionen. Beim Einlesen von Funktionen wird überprüft, ob „abc“ ein Operator ist. Wenn ja, dann wird es als Operator behandelt, ansonsten als benutzerdefinierte Funktion.</para
+></listitem>
+<listitem
+><para
+>:= : Definition des Wertes einer Variablen. Definitionen wie x:=3, x:=y sind möglich, auch wenn y noch nicht definiert ist, oder zum Beispiel umfang:=r->2*pi*r. </para
+></listitem>
+<listitem
+><para
+>? : Abschnittsweise definierte Bedingungen. Damit können bedingte Operationen in &kalgebra; definiert werden. Anders ausgedrückt ist das eine Möglichkeit „if, elseif, else“ -Bedingungen zu definieren. Das Ergebnis einer abschnittsweise definierten Funktion ist der Ausdruck nach dem '?' der ersten wahre Bedingung. Trifft keine Bedingung zu, wird der Ausdruck nach dem letzten '?' ohne vorangestellte Bedingung zurückgegeben. Beispiel: piecewise { x=0 ? 0, x=1 ? x+1, ? x**2 } </para
+></listitem>
+<listitem
+><para
+>{ } : Damit werden MathML-Container definiert, die hauptsächlich bei abschnittsweise definierten Bedingungen verwendet werden. </para
+></listitem>
+<listitem
+><para
+>= &gt; &gt;= &lt; &lt;= : Vergleichsoperatoren für gleich, größer, größer oder gleich, kleiner und kleiner oder gleich.</para
+></listitem>
+</itemizedlist>
+
+<para
+>Mit diese MathML-ähnlichen Syntax kann mit Funktionen wie cos(), sin(), jeder beliebigen trigonometrischen Funktion, sum() oder product() gearbeitet werden. Sie können Funktionen wie plus(), mal() und jede beliebige Funktion mit Operator verwenden. Auch Boolesche Funktionen sind implementiert, Sie können zum Beispiel mit Ausdrücke wie or(1,0,0,0,0) arbeiten.</para>
+
+</chapter>
+
+<chapter id="using-console">
+<title
+>Arbeiten mit der Konsole</title>
+<para
+>&kalgebra;s Konsole ist ein Rechner mit erweiterten Fähigkeiten. Es können Ausdrücke im Modus <guimenu
+>Berechnen</guimenu
+> oder <guimenu
+>Auswerten</guimenu
+> eingeben werden, je nach Auswahl im Menü <guimenu
+>Konsole</guimenu
+>. </para>
+<para
+>Im Auswertungsmodus vereinfacht &kalgebra; Ausdrücke, auch wenn sie eine nicht definierte Variable enthalten. Im Berechnungsmodus wird alles berechnet und bei einer nicht definierte Variablen eine Fehlermeldung angezeigt. </para>
+<para
+>Zusätzlich zur Anzeige der vom Benutzer eingegebenen Ausdrücke und deren Ergebnissen in der Karteikarte Konsole werden alle deklarierten Variablen in einer  Liste rechts angezeigt. Durch Doppelklicken auf eine Variable in der Liste öffnen Sie einen Dialog, in dem Sie den Wert der Variablen ändern oder Sie entfernen können. </para>
+
+<para
+>„ans“ ist eine besondere Variable, sie enthält immer das Ergebnis der Auswertung des zuletzt eingegeben Ausdrucks. </para>
+
+<para
+>Als Beispiel folgen einige Funktionen, die in das Eingabefeld der Karteikarte <guilabel
+>Konsole</guilabel
+> eingetragen werden können:</para>
+<itemizedlist>
+<listitem
+><para
+>sin(pi)</para
+></listitem>
+<listitem
+><para
+>k:=33</para
+></listitem>
+<listitem
+><para
+>sum(k*x : x=0..10)</para
+></listitem>
+<listitem
+><para
+>f:=p->p*k</para
+></listitem>
+<listitem
+><para
+>f(pi)</para
+></listitem>
+</itemizedlist>
+
+<para
+>Das folgende Bildschirmfoto zeigt die Karteikarte Konsole nach der Eingabe der oben genannten Beispiel-Ausdrücke: </para>
+<screenshot>
+<screeninfo
+>Bildschirmfoto der &kalgebra;-Konsole mit den Beispiel-Ausdrücken</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="kalgebra-console-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&kalgebra;-Karteikarte Konsole</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+
+<para
+>Mit den Aktionen für Skripte im Menü <guimenu
+>Konsole</guimenu
+> kann die Ausführung einer Folge von Berechnungen gesteuert werden:</para>
+
+<variablelist>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>L</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Konsole</guimenu
+><guimenuitem
+>Skript laden</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Führt alle Anweisungen in der Skriptdatei nacheinander aus. Damit können Sie zum Beispiel mathematische Funktionen aus Bibliotheken oder Ihre vorher erstellte Arbeit wieder laden.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>G</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Konsole</guimenu
+><guimenuitem
+>Skript speichern</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Speichert alle Anweisungen, die seit Beginn der Sitzung eingegeben wurden, in eine Datei. Diese Textdatei kann dann zum Beispiel mit einem Editor wie Kate korrigiert oder bearbeitet werden.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl; <keycap
+>S</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Konsole</guimenu
+><guimenuitem
+>Protokoll speichern</guimenuitem
+> </menuchoice
+></term>
+<listitem
+><para
+>Speichert das Protokoll mit allen Ergebnissen in einer &HTML;-Datei, um sie ausdrucken oder weiterzugeben.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</chapter>
+
+<chapter id="two-D-graphs">
+<title
+>2D-Graphen</title>
+<para
+>Um einen neuen 2D-Graphen in &kalgebra; einzugeben, wechseln Sie zur Karteikarte <guilabel
+>2D-Graph</guilabel
+>. Klicken Sie dann auf den Karteireiter <guilabel
+>Hinzufügen</guilabel
+> und geben Sie im Textfeld oben die neue Funktion ein. </para>
+
+<sect1 id="two-D-syntax">
+<title
+>Syntax</title>
+<para
+>Eine Funktion des Typs f(x) können Sie direkt so eingeben. Für Funktionen des Typs f(y) oder für polare Funktionen müssen Sie y-&gt; und q-&gt; als die gebundenen Variablen hinzufügen.</para>
+
+<para
+>Beispiele:</para>
+<itemizedlist>
+<listitem
+><para
+>sin(x)</para
+></listitem>
+<listitem
+><para
+>x²</para
+></listitem>
+<listitem
+><para
+>y->sin(y)</para
+></listitem>
+<listitem
+><para
+>q->3*sin(7*q)</para
+></listitem>
+<listitem
+><para
+>t->vector{sin t, t**2}</para
+></listitem>
+</itemizedlist>
+<para
+>Wenn Sie eine Funktion eingegeben haben, klicken Sie auf den Knopf <guibutton
+>OK</guibutton
+>, um den Graphen der Funktion auf der Karteikarte anzuzeigen.</para>
+
+</sect1>
+
+<sect1 id="two-D-features">
+<title
+>Eigenschaften</title>
+<para
+>Mehrere Graphen können in derselben Ansicht angezeigt werden. Wechseln Sie dazu auf die Karteikarte <guilabel
+>Hinzufügen</guilabel
+>. Jeder Graph kann in einer eigenen Farbe dargestellt werden.</para>
+
+<para
+>Die Ansicht kann mit dem Mausrad vergrößert oder verkleinert werden. Mit der linken Maustaste können Sie Bereiche in der Ansicht zur Vergrößerung auswählen. Mit den Pfeiltasten kann die Ansicht verschoben werden.</para>
+
+<note>
+ <para
+>Das Darstellungsfeld für einen <guilabel
+>2D-Graph</guilabel
+> kann auf der Karteikarte <guilabel
+>Darstellungsfeld</guilabel
+> definiert werden.</para>
+</note>
+ 
+<para
+>Auf der Karteikarte <guilabel
+>Liste</guilabel
+> können Sie mit Doppelklick auf eine Funktion die Karteikarte <guilabel
+>Bearbeiten</guilabel
+> öffnen. Dort kann die Funktion geändert werden. Verwenden Sie das Ankreuzfeld links neben dem Funktionsnamen, um die Anzeige der Funktion ein- und auszuschalten.</para>
+<para
+>Im Menü <guimenu
+>2D-Graph</guimenu
+> sind diese Einträge vorhanden:</para>
+<itemizedlist>
+<listitem
+><para
+>Gitternetzlinien anzeigen oder ausblenden</para
+></listitem>
+<listitem
+><para
+>Seitenverhältnis bei Größenänderung beibehalten</para
+></listitem>
+<listitem
+><para
+>Vergrößern (<keycombo action="simul"
+>&Ctrl; <keycap
+>+</keycap
+></keycombo
+>) und Verkleinern (<keycombo action="simul"
+>&Ctrl; <keycap
+>-</keycap
+></keycombo
+>) der Ansicht</para
+></listitem>
+<listitem
+><para
+>Den Graphen als Bilddatei speichern (<keycombo action="simul"
+>&Ctrl; <keycap
+>S</keycap
+></keycombo
+>) </para
+></listitem>
+<listitem
+><para
+>Ansicht wieder auf die Originalgröße zurücksetzen</para
+></listitem>
+<listitem
+><para
+>Auflösung des Graphen einstellen</para
+></listitem>
+</itemizedlist>
+
+<para
+>Das folgende Bildschirmfoto zeigt die Funktion sin(1/x) mit dem Cursor an der rechten Nullstelle der Funktion. Es wird eine sehr hohe Auflösung zur Anzeige verwendet, da die Funktion mit immer höherer Frequenz in der Nähe des Koordinatenursprungs schwingt. Folgen Sie mit dem Cursor dem Verlauf der Funktion, dann wird für jeden Punkt der x- und y-Wert der Funktion links unten angezeigt und diese Anzeige laufend aktualisiert. Gleichzeitig wird die Tangente der Funktion am aktuellen Schnittpunkt mit dem Cursor gezeichnet. </para>
+
+<screenshot>
+<screeninfo
+>Hier sehen Sie ein Bildschirmfoto von der &kalgebra;-Karteikarte „2D-Graph“</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="kalgebra-2dgraph-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&kalgebra;-Karteikarte „2D-Graph“</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+
+</sect1>
+
+</chapter>
+
+<chapter id="three-D-graphs">
+<title
+>3D-Graphen</title>
+
+<para
+>Wechseln Sie zur Karteikarte <guilabel
+>3D-Graph</guilabel
+> und geben Sie im Textfeld unten eine Funktion ein. Zurzeit kann noch kein Funktionswert für die Z-Achse eingegeben werden. &kalgebra; erlaubt nur 3D-Funktionen abhängig von x und y, wie (x,y)->x*y, dabei ist z=x*y. </para>
+
+<para
+>Beispiele:</para>
+<itemizedlist>
+<listitem
+><para
+>(x,y)->sin(x)*sin(y)</para
+></listitem>
+<listitem
+><para
+>(x,y)->x/y</para
+></listitem>
+</itemizedlist>
+
+<para
+>Die Ansicht kann mit dem Mauszeiger verschoben und mit dem Mausrad vergrößert oder verkleinert werden. Mit der &LMBn; können Bereiche in der Ansicht zur Vergrößerung ausgewählt werden. </para>
+
+ <para
+>Die Pfeiltasten links und rechts drehen die Grafik um die senkrechte Z-Achse, die Pfeiltasten auf und ab drehen die Grafik um die horizontale Achse der Ansicht. Drücken Sie die Taste <keycap
+>W</keycap
+> zum Vergrößern und die Taste <keycap
+>S</keycap
+> zum Verkleinern der Ansicht.</para>
+
+<para
+>Im Menü <guimenu
+>3D-Graph</guimenu
+> sind diese Einträge vorhanden:</para>
+<itemizedlist>
+<!-- not in master for 4.11
+<listitem
+><para
+>Enable or disable transparency in the 3D graph menu</para
+></listitem>
+-->
+<listitem
+><para
+>Den Graphen als Bilddatei speichern (<keycombo action="simul"
+>&Ctrl; <keycap
+>S</keycap
+></keycombo
+>) </para
+></listitem>
+<listitem
+><para
+>Ansicht wieder auf die Originalgröße zurücksetzen</para
+></listitem>
+<listitem
+><para
+>Anzeige der Grafik als Gitternetz aus Punkten, Linien oder als gefüllte Fläche mit einem Liniengitter. </para
+></listitem>
+</itemizedlist>
+
+<para
+>Hier sehen Sie ein Bildschirmfoto der sogenannten „Sombrero“-Funktion, die 3D-Grafik wird im Liniengitter-Stil angezeigt. </para>
+
+<screenshot>
+<screeninfo
+>Hier sehen Sie ein Bildschirmfoto von der &kalgebra;-Karteikarte „3D-Graph“</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="kalgebra-3dgraph-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&kalgebra;-Karteikarte „3D-Graph“</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+</chapter>
+
+<chapter id="dictionary">
+<title
+>Funktionen</title>
+
+<para
+>Auf der Karteikarte <guilabel
+>Funktionen</guilabel
+> finden Sie eine Liste aller in &kalgebra; verfügbaren Funktionen. Wählen Sie eine Funktion aus der Liste oder im Suchfeld, dann wird die Beschreibung, die Parameter und ein Beispiel dieser Funktion mit dem Graphen links angezeigt.  </para>
+
+ <para
+>Hier sehen Sie ein Bildschirmfoto der &kalgebra;-Karteikarte „Funktionen“ mit der Anzeige der Cosinus-Funktion. </para>
+
+<screenshot>
+<screeninfo
+>Hier sehen Sie ein Bildschirmfoto von der &kalgebra;-Karteikarte „Funktionen“</screeninfo>
+	<mediaobject>
+	  <imageobject>
+	    <imagedata fileref="kalgebra-dictionary-window.png" format="PNG"/>
+	  </imageobject>
+	    <textobject>
+	    <phrase
+>&kalgebra;-Karteikarte „Funktionen“</phrase>
+	  </textobject>
+	</mediaobject>
+</screenshot>
+
+
+</chapter>
+
+&commands;
+
+<chapter id="credits">
+<title
+>Danksagungen und Lizenz</title>
+
+<itemizedlist>
+<listitem
+><para
+>Program copyright 2005-2009 &Aleix.Pol;</para>
+</listitem>
+</itemizedlist>
+
+<para
+>Dokumentation Copyright 2007 &Aleix.Pol; &Aleix.Pol.mail; </para>
+
+<para
+>Übersetzung Burkhard Lück<email
+>lueck@hube-lueck.de</email
+></para
+> 
+&underFDL; &underGPL; </chapter>
+
+
+<appendix id="installation">
+<title
+>Installation</title>
+
+<sect1 id="getting-kapptemplate">
+<title
+>Woher Sie &kalgebra; erhalten</title>
+&install.intro.documentation; </sect1>
+
+<sect1 id="compilation">
+<title
+>Kompilierung und Installation</title>
+&install.compile.documentation; </sect1>
+
+</appendix>
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+-->

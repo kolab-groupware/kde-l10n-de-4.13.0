@@ -1,0 +1,38 @@
+<chapter id="config-dialog">
+<title
+>Einrichten von &kappname;</title>
+
+<para
+>Die Auswahl von <menuchoice
+><guimenu
+>Einstellungen</guimenu
+> <guimenuitem
+>Kwrite einrichten ...</guimenuitem
+></menuchoice
+> im Menü öffnet das Dialogfenster Einrichten - &kwrite;. In diesem Dialogfenster können eine ganze Reihe von Einstellungen vorgenommen werden. Die angezeigten Einstellungsmöglichkeiten hängen von der Auswahl eines links in der Liste angezeigten Symbols ab. Die drei Knöpfe am unteren Rand des Dialogfeldes rufen die <guilabel
+>Hilfe</guilabel
+> auf, machen die aktuellen Einstellungen mit <guibutton
+>OK</guibutton
+> gütig, oder brechen mit <guibutton
+>Abbrechen</guibutton
+> den Einstellungs-Prozess ab. </para>
+
+<para
+>Sie können das <guilabel
+>Hilfe</guilabel
+>system aufrufen, die aktuellen Einstellungen mit <guibutton
+>OK</guibutton
+> übernehmen und das Dialogfeld schließen, oder den Knopf <guibutton
+>Abbrechen</guibutton
+> benutzen, um das Dialogfeld zu schließen, ohne Änderungen zu speichern.  Die zur Auswahl stehenden Kategorien - <guilabel
+>Erscheinungsbild</guilabel
+>, <guilabel
+>Schriften &amp; Farben</guilabel
+>, <guilabel
+>Bearbeitung</guilabel
+>, <guilabel
+>Öffnen/Speichern</guilabel
+> und <guilabel
+>Erweiterungen</guilabel
+> sind nachfolgend erläutert. </para>
+&configuring-part-sections; &plugins-part-sections; </chapter>

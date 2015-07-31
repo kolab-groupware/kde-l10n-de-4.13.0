@@ -1,0 +1,532 @@
+# Thorsten Mürell <thorsten@muerell.de>, 2005, 2006, 2007.
+# Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2006.
+# Stephan Johach <hunsum@gmx.de>, 2005.
+# Burkhard Lück <lueck@hube-lueck.de>, 2006, 2008, 2009, 2011, 2012, 2013, 2014.
+# Martin Ereth <martin.ereth@arcor.de>, 2008.
+# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2011, 2012.
+# Rolf Eike Beer <kde@opensource.sf-tec.de>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kanagram\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-03-19 04:11+0000\n"
+"PO-Revision-Date: 2014-03-19 08:53+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Thorsten Mürell"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "thorsten@muerell.de"
+
+#: kanagram.cpp:51
+msgid "reveal word"
+msgstr "Wort aufdecken"
+
+#: kanagram.cpp:52
+msgid "hint"
+msgstr "Tipp"
+
+#: kanagram.cpp:53
+msgid "picture hint"
+msgstr "Bilderhinweis"
+
+#: kanagram.cpp:54
+msgid "Next Anagram"
+msgstr "Nächstes Anagramm"
+
+#: kanagram.cpp:229
+msgid "Show Hint"
+msgstr "Tipp anzeigen"
+
+#: kanagram.cpp:235
+msgid "Reveal Anagram"
+msgstr "Anagramm aufdecken"
+
+#: kanagram.cpp:241
+msgid "Previous Vocabulary"
+msgstr "Vorherige Vokabelsammlung"
+
+#: kanagram.cpp:246
+msgid "Next Vocabulary"
+msgstr "Nächste Vokabelsammlung"
+
+#: kanagram.cpp:425
+msgid "About Kanagram"
+msgstr "Über Kanagram"
+
+#: kanagram.cpp:440
+msgid "About KDE"
+msgstr "Über KDE"
+
+#: kanagram.cpp:455
+msgid "Kanagram Handbook"
+msgstr "Handbuch zu Kanagram"
+
+#: kanagram.cpp:471
+msgid "Configure Kanagram"
+msgstr "Kanagram einrichten ..."
+
+#: kanagram.cpp:475
+msgid "Quit Kanagram"
+msgstr "Kanagram beenden"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainSettingsWidget)
+#: kanagram.cpp:932 mainsettingswidget.ui:13
+msgctxt "@title:group main settings page name"
+msgid "General"
+msgstr "Allgemein"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VocabSettingsWidget)
+#: kanagram.cpp:936 vocabsettingswidget.ui:20
+msgid "Vocabularies"
+msgstr "Vokabeln"
+
+#: kanagram.cpp:940
+msgid "Shortcuts"
+msgstr "Kurzbefehle"
+
+#: kanagram.cpp:1033
+#, kde-format
+msgid ""
+"File %1 cannot be found.\n"
+" Please ensure that Kanagram is properly installed."
+msgstr ""
+"Die Datei %1 ist nicht auffindbar.\n"
+"Bitte vergewissern Sie sich, dass Kanagram richtig installiert ist."
+
+#: kanagram.cpp:1034
+msgid "Error"
+msgstr "Fehler"
+
+#: main.cpp:31
+msgid "Kanagram"
+msgstr "Kanagram"
+
+#: main.cpp:31
+msgid "An anagram game"
+msgstr "Ein Buchstabenrätsel"
+
+#: main.cpp:33
+msgid ""
+"© 2005 Joshua Keel\n"
+"© 2005 Danny Allen\n"
+"© 2007 Jeremy Whiting"
+msgstr ""
+"© 2005 Joshua Keel\n"
+"© 2005 Danny Allen\n"
+"© 2007 Jeremy Whiting"
+
+#: main.cpp:34
+msgid "Joshua Keel"
+msgstr "Joshua Keel"
+
+#: main.cpp:34
+msgid "Coding"
+msgstr "Programmieren"
+
+#: main.cpp:35
+msgid "Danny Allen"
+msgstr "Danny Allen"
+
+#: main.cpp:35
+msgid "Design, Graphics and many Vocabularies"
+msgstr "Design, Grafiken und viele Vokabeln"
+
+#: main.cpp:36
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#: main.cpp:36
+msgid "Maintainer"
+msgstr "Betreuer"
+
+#: main.cpp:37
+msgid "Laszlo Papp"
+msgstr "Laszlo Papp"
+
+#: main.cpp:37
+msgid "Modularization and porting to Mobile"
+msgstr "Modularisierung und Portierung aus Mobile Geräte"
+
+#: main.cpp:38
+msgid "Artemiy Pavlov"
+msgstr "Artemiy Pavlov"
+
+#: main.cpp:38
+msgid "Sound effects"
+msgstr "Toneffekte"
+
+#: main.cpp:39
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: main.cpp:39
+msgid "Italian Data Files"
+msgstr "Italienische Datendateien"
+
+#: main.cpp:40
+msgid "Kris Thomsen"
+msgstr "Kris Thomsen"
+
+#: main.cpp:40
+msgid "Danish Data Files"
+msgstr "Dänische Datendateien"
+
+#: main.cpp:41
+msgid "Patrick Spendrin"
+msgstr "Patrick Spendrin"
+
+#: main.cpp:41
+msgid "German Data Files"
+msgstr "Deutsche Datendateien"
+
+#: main.cpp:42
+msgid "Eric Krüse"
+msgstr "Eric Krüse"
+
+#: main.cpp:42
+msgid "British English Data Files"
+msgstr "Britisch-Englische Datendateien"
+
+#: main.cpp:43
+msgid "Hanna Scott"
+msgstr "Hanna Scott"
+
+#: main.cpp:43
+msgid "Swedish Data Files"
+msgstr "Dänische Datendateien"
+
+#: main.cpp:44
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: main.cpp:44
+msgid "Slovenian Data Files"
+msgstr "Slowenische Datendateien"
+
+#: main.cpp:45
+msgid "Yuri Chornoivan"
+msgstr "Yuri Chornoivan"
+
+#: main.cpp:45
+msgid "Ukranian Data Files"
+msgstr "Ukrainische Datendateien"
+
+#: main.cpp:46
+msgid "Kristóf Kiszel"
+msgstr "Kristóf Kiszel"
+
+#: main.cpp:46
+msgid "Hungarian Data Files"
+msgstr "Ungarische Datendateien"
+
+#: mainsettings.cpp:75
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "Keine"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, MainSettingsWidget)
+#: mainsettingswidget.ui:16
+msgid ""
+"This setting allows you to set the length of time Kanagram's hint bubble is "
+"shown."
+msgstr ""
+"Diese Einstellung ermöglicht Ihnen, einzustellen, wie lange die Tipp-Blase "
+"von Kanagram angezeigt werden soll."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: mainsettingswidget.ui:22
+msgid "Hints"
+msgstr "Tipps"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: mainsettingswidget.ui:28
+msgid "Auto-hide hints after:"
+msgstr "Tipps ausblenden nach:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: mainsettingswidget.ui:36
+msgid "Do Not Auto-Hide Hints"
+msgstr "Tipps nicht automatisch ausblenden."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: mainsettingswidget.ui:41
+msgid "3 Seconds"
+msgstr "3 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: mainsettingswidget.ui:46
+msgid "5 Seconds"
+msgstr "5 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: mainsettingswidget.ui:51
+msgid "7 Seconds"
+msgstr "7 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: mainsettingswidget.ui:56
+msgid "9 Seconds"
+msgstr "9 Sekunden"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelResolveTime)
+#: mainsettingswidget.ui:64
+msgid "Time for resolving the anagram:"
+msgstr "Zeit für das Lösen des Anagramms:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#: mainsettingswidget.ui:72
+msgid "No time limit"
+msgstr "Keine Zeitbegrenzung"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#: mainsettingswidget.ui:77
+msgid "15 Seconds"
+msgstr "15 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#: mainsettingswidget.ui:82
+msgid "30 Seconds"
+msgstr "30 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#: mainsettingswidget.ui:87
+msgid "45 Seconds"
+msgstr "45 Sekunden"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#: mainsettingswidget.ui:92
+msgid "60 Seconds"
+msgstr "60 Sekunden"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: mainsettingswidget.ui:103
+msgid "Vocabulary Options"
+msgstr "Vokabeloptionen"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: mainsettingswidget.ui:111
+msgid "Play using:"
+msgstr "Spielen in:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useSounds)
+#: mainsettingswidget.ui:129
+msgid "Turns sounds on/off."
+msgstr "Schaltet die Töne ein/aus"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSounds)
+#: mainsettingswidget.ui:132
+msgid "Use sou&nds"
+msgstr "Tö&ne benutzen"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uppercaseOnly)
+#: mainsettingswidget.ui:139
+msgid "Use Uppercase."
+msgstr "Großschreibung verwenden"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uppercaseOnly)
+#: mainsettingswidget.ui:142
+msgid "Use only uppercase letters"
+msgstr "Es werden nur groß geschriebene Zeichen benutzt."
+
+#: vocabedit.cpp:110
+msgid "Would you like to save your changes?"
+msgstr "Möchten Sie die Änderungen speichern?"
+
+#: vocabedit.cpp:110
+msgid "Save Changes Dialog"
+msgstr "Dialog zum Speichern von Änderungen"
+
+#: vocabedit.cpp:125
+msgid "New Item"
+msgstr "Neuer Eintrag"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, VocabEditWidget)
+#: vocabeditwidget.ui:13
+msgid "Vocabulary Editor"
+msgstr "Vokabeleditor"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnSave)
+#: vocabeditwidget.ui:74
+msgid "&Save"
+msgstr "&Speichern"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClose)
+#: vocabeditwidget.ui:81
+msgid "&Close"
+msgstr "S&chließen"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#: vocabeditwidget.ui:127
+msgid ""
+"The description of the vocabulary. If you are creating a new vocabulary, add "
+"a description so that users of your vocabulary will know what kinds of words "
+"it contains."
+msgstr ""
+"Die Beschreibung der Vokabel. Wenn Sie eine neue Vokabeldatei erstellen, "
+"fügen Sie die Beschreibung hinzu, sodass Benutzer der neuen Vokabeln wissen, "
+"welche Wörter sie enthält."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: vocabeditwidget.ui:130
+msgid "&Description:"
+msgstr "&Beschreibung:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: vocabeditwidget.ui:143
+msgid "The name of the vocabulary you are editing."
+msgstr "Der Name der Vokabeldatei, die Sie bearbeiten."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: vocabeditwidget.ui:146
+msgid "Vocabulary &name:"
+msgstr "&Name der Vokabeldatei:"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemoveWord)
+#: vocabeditwidget.ui:195
+msgid "Removes the selected word."
+msgstr "Entfernt das ausgewählte Wort."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemoveWord)
+#: vocabeditwidget.ui:198
+msgid "&Remove Word"
+msgstr "Wort entfe&rnen"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnNewWord)
+#: vocabeditwidget.ui:205
+msgid "Creates a new word."
+msgstr "Erzeugt ein neues Wort."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnNewWord)
+#: vocabeditwidget.ui:208
+msgid "&New Word"
+msgstr "&Neues Wort"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, lboxWords)
+#: vocabeditwidget.ui:217
+msgid "The list of words in the vocabulary."
+msgstr "Die Liste der Wörter in der Vokabeldatei."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#: vocabeditwidget.ui:246
+msgid "The selected word. This box allows you to edit the selected word."
+msgstr ""
+"Das ausgewählte Wort. Diese Box ermöglicht Ihnen, das aktuelle Wort zu "
+"bearbeiten."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: vocabeditwidget.ui:249
+msgid "&Word:"
+msgstr "&Wort:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#: vocabeditwidget.ui:265
+msgid "The selected hint. Add a hint to aid in guessing the word."
+msgstr "Der ausgewählte Tipp. Fügen Sie einen Tipp zum Raten des Wortes hinzu."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: vocabeditwidget.ui:268
+msgid "&Hint:"
+msgstr "&Tipp:"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateNew)
+#: vocabsettingswidget.ui:48
+msgid "Creates a new vocabulary."
+msgstr "Erstellt eine neue Vokabeldatei"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateNew)
+#: vocabsettingswidget.ui:51
+msgid "Create &New"
+msgstr "&Neu erstellen"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnDownloadNew)
+#: vocabsettingswidget.ui:58
+msgid "Download new vocabulary from \"Get hot new Stuff\""
+msgstr "Neue Vokabelsammlungen über „Neue Erweiterungen“ herunterladen"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnDownloadNew)
+#: vocabsettingswidget.ui:61
+msgid "Download new vocabulary"
+msgstr "Neue Vokabelsammlungen herunterladen"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
+#: vocabsettingswidget.ui:73
+msgid "Edits the selected vocabulary."
+msgstr "Bearbeitet die ausgewählte Vokabeldatei."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#: vocabsettingswidget.ui:76
+msgid "&Edit"
+msgstr "B&earbeiten"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, lviewVocab)
+#: vocabsettingswidget.ui:83
+msgid "The list of installed vocabularies."
+msgstr "Die Liste der installierten Vokabeldateien"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#: vocabsettingswidget.ui:90
+msgid "Title"
+msgstr "Titel"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#: vocabsettingswidget.ui:95
+msgid "Description"
+msgstr "Beschreibung"
+
+#~ msgid "start timer"
+#~ msgstr "Zeitmesser starten"
+
+#~| msgid "Description"
+#~ msgid "Scoring Options"
+#~ msgstr "Bewertungs-Einstellungen"
+
+#~ msgid "Set timer for scoring purpose : "
+#~ msgstr "Zeitmesser für die Bewertung einstellen:"
+
+#~ msgid "120 Seconds"
+#~ msgstr "120 Sekunden"
+
+#~ msgid "300 Seconds"
+#~ msgstr "300 Sekunden"
+
+#~ msgid "No hint"
+#~ msgstr "Kein Tipp"
+
+#~ msgid ""
+#~ "This setting allows you to set how long Kanagram's hint bubble is shown."
+#~ msgstr ""
+#~ "Diese Einstellung ermöglicht Ihnen, einzustellen, wie lange die Tipp-"
+#~ "Blase von Kanagram angezeigt werden soll."
+
+#~ msgid "Set the default vocabulary"
+#~ msgstr "Legt das standardmäßige Vokabular fest"
+
+#~ msgid "Set the default translation"
+#~ msgstr "Standardübersetzung festlegen"
+
+#~ msgid "New Stuff"
+#~ msgstr "Neue Daten"
+
+#~ msgid ""
+#~ "Kanagram allows you to download\n"
+#~ "new data from the Internet.\n"
+#~ "\n"
+#~ "If you are connected to the Internet, press \n"
+#~ "the button to get new vocabulary files."
+#~ msgstr ""
+#~ "Kanagram ermöglicht Ihnen, neue Daten\n"
+#~ "aus dem Internet herunterzuladen.\n"
+#~ "\n"
+#~ "Wenn Sie mit dem Internet verbunden sind, drücken Sie\n"
+#~ "den Knopf, um neue Vokabeldateien herunterzuladen."

@@ -1,0 +1,805 @@
+# Frank Schütte <F.Schuette@t-online.de>, 2003, 2004.
+# Thomas Reitelbach <tr@erdfunkstelle.de>, 2004, 2005, 2007, 2008.
+# Stephan Johach <hunsum@gmx.de>, 2005.
+# Rolf Eike Beer <kde@opensource.sf-tec.de>, 2009.
+# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2010, 2011, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2009, 2010.
+# Panagiotis Papadopoulos <pano_90@gmx.net>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: krfb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-03-30 03:37+0100\n"
+"PO-Revision-Date: 2013-04-01 22:07+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Schütte"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "F.Schuette@t-online.de"
+
+#: connectiondialog.cpp:35
+msgid "New Connection"
+msgstr "Neue Verbindung"
+
+#: connectiondialog.cpp:48
+msgid "Accept Connection"
+msgstr "Verbindung &akzeptieren"
+
+#: connectiondialog.cpp:52
+msgid "Refuse Connection"
+msgstr "Verbindung &verweigern"
+
+#: connectiondialog.cpp:81
+#, kde-format
+msgid ""
+"You have requested to share your desktop with %1. If you proceed, you will "
+"allow the remote user to watch your desktop."
+msgstr ""
+"Sie haben Ihre Arbeitsfläche für „%1“ freigegeben. Wenn Sie fortfahren, kann "
+"dieser Benutzer alles auf Ihrem Bildschirm sehen."
+
+#: invitationsrfbclient.cpp:60 invitationsrfbclient.cpp:63
+#, kde-format
+msgid "Failed login attempt from %1: wrong password"
+msgstr "Fehlgeschlagener Anmeldeversuch von %1: Falsches Passwort"
+
+#: invitationsrfbclient.cpp:80
+#, kde-format
+msgid "Refused uninvited connection attempt from %1"
+msgstr "Uneingeladene Verbindungsanfrage von %1 wurde abgelehnt"
+
+#: invitationsrfbclient.cpp:84 pendingrfbclient.cpp:57 tubesrfbclient.cpp:57
+#, kde-format
+msgid "Accepted connection from %1"
+msgstr "Verbindungsanfrage von %1 wurde akzeptiert"
+
+#: invitationsrfbclient.cpp:88 pendingrfbclient.cpp:61 tubesrfbclient.cpp:61
+#, kde-format
+msgid "Received connection from %1, on hold (waiting for confirmation)"
+msgstr "Uneingeladene Verbindungsanfrage von %1 wartet auf Bestätigung"
+
+#: invitationsrfbserver.cpp:52
+msgid ""
+"Failed to start the krfb server. Invitation-based sharing will not work. Try "
+"setting another port in the settings and restart krfb."
+msgstr ""
+"Das Starten des krfb-Servers ist fehlgeschlagen. Auf Einladungen beruhende "
+"Freigaben werden nicht funktionieren. Versuchen Sie in den Einstellungen "
+"einen anderen Port einzugeben und starten Sie krfb neu."
+
+#: invitationsrfbserver.cpp:58
+#, kde-format
+msgid "%1@%2 (shared desktop)"
+msgstr "%1@%2 (freigegebene Arbeitsfläche)"
+
+#: invitedialog.cpp:34
+msgid "Invitation"
+msgstr "Einladung"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnManageInvite)
+#: invitedialog.cpp:72 ui/invitewidget.ui:125
+#, no-c-format, kde-format
+msgid "&Manage Invitations (%1)..."
+msgstr "Einladungen &bearbeiten (%1) ..."
+
+#: invitedialog.cpp:78
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+" The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+" restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+" mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"Eine Einladung erzeugt ein Einmalpasswort, das dem Empfänger \n"
+"die Verbindung zur eigenen Arbeitsfläche erlaubt. Dieses Passwort kann \n"
+"nur einmal verwendet werden und verfällt nach der ersten erfolgreichen "
+"Verbindung \n"
+"oder spätestens nach einer Stunde. \n"
+"Wenn jemand die Verbindung zu Ihrem Rechner herstellen will, erhalten Sie \n"
+"einen Bestätigungsdialog. Die Verbindung kommt erst nach Ihrer Bestätigung \n"
+"zustande. In diesem Dialog können außerdem Einschränkungen angegeben "
+"werden,\n"
+" ob z. B. die Arbeitsfläche nur angesehen oder auch der Mauszeiger und \n"
+"die Tastatur bedient werden kann.\n"
+"\n"
+"Für dauerhafte Passwörter zur Freigabe der Arbeitsfläche müssen Sie \n"
+"„Verbindungen ohne Einladung“ in diesem Dialog zulassen."
+
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
+#: krfb.kcfg:8
+msgid "Use the default port for VNC (5900)"
+msgstr "Standard-Port für VNC verwenden (5900)"
+
+#. i18n: ectx: label, entry (port), group (TCP)
+#: krfb.kcfg:12
+msgid "This is the port on which krfb will listen."
+msgstr "Dies ist der Port, auf dem krfb auf Anfragen wartet."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
+#. i18n: ectx: label, entry (publishService), group (TCP)
+#: krfb.kcfg:16 ui/configtcp.ui:22
+msgid "Announce the service on the local network"
+msgstr "Dienst im lokalen Netzwerk veröffentlichen"
+
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
+#: krfb.kcfg:22
+msgid "Allow remote connections to manage the desktop."
+msgstr "Entfernten Verbindungen erlauben, die Arbeitsfläche zu kontrollieren."
+
+#. i18n: ectx: label, entry (askOnConnect), group (Security)
+#: krfb.kcfg:26
+msgid "Ask before allowing a remote connection."
+msgstr "Fragen, bevor eine entfernte Verbindung akzeptiert wird."
+
+#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
+#: krfb.kcfg:30
+msgid "Allow connections without an invitation."
+msgstr "Uneingeladene Verbindungen erlauben."
+
+#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
+#: krfb.kcfg:34
+msgid "Password for uninvited connections."
+msgstr "Passwort für uneingeladene Verbindungen."
+
+#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
+#: krfb.kcfg:39
+msgid "Preferred Frame Buffer Plugin"
+msgstr "Bevorzugtes Framebuffer-Modul"
+
+#: main.cpp:42
+msgid "VNC-compatible server to share KDE desktops"
+msgstr "VNC-kompatibler Server zur Freigabe der KDE-Arbeitsfläche"
+
+#: main.cpp:53
+msgid ""
+"Your X11 Server does not support the required XTest extension version 2.2. "
+"Sharing your desktop is not possible."
+msgstr ""
+"Der X11-Server unterstützt nicht die zur Freigabe notwendige XTest-"
+"Erweiterung Version 2.2. Daher ist eine Freigabe der Arbeitsfläche nicht "
+"möglich."
+
+#: main.cpp:55
+msgid "Desktop Sharing Error"
+msgstr "Fehler bei der Freigabe der Arbeitsfläche"
+
+#: main.cpp:64
+msgid "Desktop Sharing"
+msgstr "Freigabe der Arbeitsfläche"
+
+#: main.cpp:66
+msgid ""
+"(c) 2009-2010, Collabora Ltd.\n"
+"(c) 2007, Alessandro Praduroux\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2001, Johannes E. Schindelin\n"
+"(c) 2000-2001, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+msgstr ""
+"© 2009-2010, Collabora Ltd.\n"
+"© 2007, Alessandro Praduroux\n"
+"© 2001-2003, Tim Jansen\n"
+"© 2001, Johannes E. Schindelin\n"
+"© 2000-2001, Const Kaplinsky\n"
+"© 2000, Tridia Corporation\n"
+"© 1999, AT&T Laboratories Boston\n"
+
+#: main.cpp:73
+msgid "George Goldberg"
+msgstr "George Goldberg"
+
+#: main.cpp:74
+msgid "Telepathy tubes support"
+msgstr "Unterstützung für Telepathy-Tunnel"
+
+#: main.cpp:76
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: main.cpp:79
+msgid "Alessandro Praduroux"
+msgstr "Alessandro Praduroux"
+
+#: main.cpp:79
+msgid "KDE4 porting"
+msgstr "KDE-4-Portierung"
+
+#: main.cpp:80
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
+
+#: main.cpp:80
+msgid "Original author"
+msgstr "Ursprünglicher Autor"
+
+#: main.cpp:81
+msgid "Johannes E. Schindelin"
+msgstr "Johannes E. Schindelin"
+
+#: main.cpp:82
+msgid "libvncserver"
+msgstr "libvncserver"
+
+#: main.cpp:83
+msgid "Const Kaplinsky"
+msgstr "Const Kaplinsky"
+
+#: main.cpp:84
+msgid "TightVNC encoder"
+msgstr "TightVNC-Kodierer"
+
+#: main.cpp:85
+msgid "Tridia Corporation"
+msgstr "Tridia Corporation"
+
+#: main.cpp:86
+msgid "ZLib encoder"
+msgstr "ZLib-Kodierer"
+
+#: main.cpp:87
+msgid "AT&T Laboratories Boston"
+msgstr "AT&T Laboratories Boston"
+
+#: main.cpp:88
+msgid "original VNC encoders and protocol design"
+msgstr "Ursprüngliche VNC-Kodierung und Protokollstruktur"
+
+#: main.cpp:93
+msgid "Do not show the invitations management dialog at startup"
+msgstr "Den Dialog zur Verwaltung von Einladungen beim Start nicht anzeigen"
+
+#: manageinvitationsdialog.cpp:86
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+"The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+"restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+"mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"Eine Einladung erzeugt ein Einmalpasswort, das dem Empfänger \n"
+"die Verbindung zur eigenen Arbeitsfläche erlaubt. Dieses Passwort kann \n"
+"nur einmal verwendet werden und verfällt nach der ersten erfolgreichen "
+"Verbindung \n"
+"oder spätestens nach einer Stunde. \n"
+"Wenn jemand die Verbindung zu Ihrem Rechner herstellen will, erhalten Sie \n"
+"einen Bestätigungsdialog. Die Verbindung kommt erst nach Ihrer Bestätigung \n"
+"zustande. In diesem Dialog können außerdem Einschränkungen angegeben "
+"werden,\n"
+" ob z. B. die Arbeitsfläche nur angesehen oder auch der Mauszeiger und \n"
+"die Tastatur bedient werden kann.\n"
+"\n"
+"Für dauerhafte Passwörter zur Freigabe der Arbeitsfläche müssen Sie \n"
+"„Verbindungen ohne Einladung“ in diesem Dialog zulassen."
+
+#: manageinvitationsdialog.cpp:108
+msgid ""
+"When sending an invitation by email, note that everybody who reads this "
+"email will be able to connect to your computer for one hour, or until the "
+"first successful connection took place, whichever comes first. \n"
+"You should either encrypt the email or at least send it only in a secure "
+"network, but not over the Internet."
+msgstr ""
+"Für die Einladung per E-Mail ist folgendes zu beachten: Jeder, der die E-"
+"Mail liest, ist für eine Stunde oder bis zur ersten erfolgreichen Verbindung "
+"in der Lage, sich mit Ihrem Rechner zu verbinden. \n"
+"Daher sollten Sie die E-Mail verschlüsseln oder sie nur über ein lokales "
+"Netzwerk, keinesfalls aber über das Internet versenden."
+
+#: manageinvitationsdialog.cpp:113
+msgid "Send Invitation via Email"
+msgstr "Einladen per E-Mail"
+
+#: manageinvitationsdialog.cpp:140
+msgid "Desktop Sharing (VNC) invitation"
+msgstr "Freigabe der Arbeitsfläche (VNC) – Einladung"
+
+#: manageinvitationsdialog.cpp:141
+#, kde-format
+msgid ""
+"You have been invited to a VNC session. If you have the KDE Remote Desktop "
+"Connection installed, just click on the link below.\n"
+"\n"
+"%1\n"
+"\n"
+"Otherwise you can use any VNC client with the following parameters:\n"
+"\n"
+"Host: %2:%3\n"
+"Password: %4\n"
+"\n"
+"For security reasons this invitation will expire at %5 (%6)."
+msgstr ""
+"Sie wurden zu einer VNC-Verbindung eingeladen. Falls Sie das Programm zur "
+"Freigabe der KDE-Arbeitsfläche installiert haben, müssen Sie lediglich auf "
+"die Verknüpfung unten klicken.\n"
+"\n"
+"%1\n"
+"\n"
+"Ansonsten können Sie jedes VNC-Programm mit folgenden Einstellungen "
+"verwenden:\n"
+"\n"
+"Rechner: %2:%3\n"
+"Passwort: %4\n"
+"\n"
+"Aus Sicherheitsgründen verfällt diese Einladung um %5 (%6)."
+
+#: manageinvitationsdialog.cpp:180
+msgid "Network"
+msgstr "Netzwerk"
+
+#: manageinvitationsdialog.cpp:181
+msgid "Security"
+msgstr "Sicherheit"
+
+#: manageinvitationsdialog.cpp:189
+msgid "<qt>Are you sure you want to delete all invitations?</qt>"
+msgstr "<qt>Möchten Sie wirkliche alle Einladungen löschen?</qt>"
+
+#: manageinvitationsdialog.cpp:190 manageinvitationsdialog.cpp:205
+msgid "Confirm delete Invitations"
+msgstr "Alle Einladungen entfernen"
+
+#: manageinvitationsdialog.cpp:204
+msgid "<qt>Are you sure you want to delete this invitation?</qt>"
+msgstr "<qt>Möchten Sie diese Einladung wirklich entfernen?</qt>"
+
+#: personalinvitedialog.cpp:35
+msgid "Personal Invitation"
+msgstr "Persönliche Einladung"
+
+#: personalinvitedialog.cpp:90
+msgid ""
+"Desktop Sharing uses the VNC protocol. You can use any VNC client to "
+"connect. \n"
+"In KDE the client is called 'Remote Desktop Connection'. Enter the host "
+"information\n"
+"into the client and it will connect.."
+msgstr ""
+"Die Freigabe der Arbeitsfläche verwendet das VNC-Protokoll. Zur Verbindung\n"
+"kann jedes VNC-Programm verwendet werden. Das KDE-Programm heißt "
+"„Verbindung\n"
+"zu Fremdrechnern“. Geben Sie die Rechnerinformationen in das Programm ein,\n"
+"um die Verbindung herzustellen."
+
+#: personalinvitedialog.cpp:95
+msgid ""
+"This field contains the address of your computer and the port number, "
+"separated by a colon.\n"
+"The address is just a hint - you can use any address that can reach your "
+"computer. \n"
+"Desktop Sharing tries to guess your address from your network configuration, "
+"but does\n"
+"not always succeed in doing so. If your computer is behind a firewall it may "
+"have a\n"
+"different address or be unreachable for other computers."
+msgstr ""
+"Dieses Feld enthält die Rechneradresse und dahinter, nach einem "
+"Doppelpunkt,\n"
+"die Portnummer. Die Adresse ist nur ein Beispiel – jede Adresse, unter\n"
+"der der eigene Rechner erreichbar ist, kann verwendet werden. Das Programm\n"
+"„Freigabe der Arbeitsfläche“ versucht, die Adresse aus der\n"
+"Netzwerkkonfiguration zu ermitteln. Das gelingt nicht in allen Fällen. "
+"Falls\n"
+"sich der Rechner hinter einer Firewall befindet, kann sich die Adresse\n"
+"unterscheiden oder für andere Rechner unerreichbar sein."
+
+#: rfbservermanager.cpp:216
+#, kde-format
+msgid "The remote user %1 is now connected."
+msgstr "Der entfernte Benutzer „%1“ ist nun verbunden."
+
+#: rfbservermanager.cpp:230
+#, kde-format
+msgid "The remote user %1 disconnected."
+msgstr "Der entfernte Benutzer „%1“ hat die Verbindung getrennt."
+
+#: trayicon.cpp:55
+msgid "Disconnect"
+msgstr "Verbindung trennen"
+
+#: trayicon.cpp:61
+msgid "Enable Remote Control"
+msgstr "Fernsteuerung aktivieren"
+
+#: trayicon.cpp:102 trayicon.cpp:138
+msgid "Desktop Sharing - disconnected"
+msgstr "Freigabe der Arbeitsfläche – nicht verbunden"
+
+#: trayicon.cpp:120 trayicon.cpp:142
+#, kde-format
+msgid "Desktop Sharing - connected with %1"
+msgstr "Freigabe der Arbeitsfläche – verbunden mit %1"
+
+#: trayicon.cpp:123
+msgid "Desktop Sharing - connected"
+msgstr "Freigabe der Arbeitsfläche – verbunden"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
+#: ui/configsecurity.ui:20
+msgid "Ask before accepting connections"
+msgstr "Vor dem Akzeptieren von Verbindungen nachfragen"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
+#: ui/configsecurity.ui:30
+msgid "Allow remote connections to control your desktop"
+msgstr "Steuerung von Maus und Tastatur durch die Gegenstelle erlauben"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
+#: ui/configsecurity.ui:40
+msgid "Allow uninvited connections"
+msgstr "Uneingeladene Verbindungen akzeptieren"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configsecurity.ui:50
+msgid "Uninvited connections password:"
+msgstr "Passwort für uneingeladene Verbindungen:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
+#: ui/configtcp.ui:32
+msgid "Use default port"
+msgstr "Standardport verwenden"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configtcp.ui:50
+msgid "Listening port:"
+msgstr "Dienst-Port:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: ui/connectionwidget.ui:47
+msgid "Attention"
+msgstr "Achtung"
+
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: ui/connectionwidget.ui:72
+msgid ""
+"Somebody is requesting a connection to your computer. Granting this will "
+"allow the remote user to watch your desktop. "
+msgstr ""
+"Jemand fordert eine Verbindung zu Ihrem Rechner an. Akzeptieren Sie diese "
+"Verbindung, kann dieser Benutzer alles auf Ihrem Bildschirm sehen. "
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: ui/connectionwidget.ui:102
+msgid "Remote system:"
+msgstr "Entfernter Rechner:"
+
+#. i18n: ectx: property (text), widget (QLabel, remoteHost)
+#: ui/connectionwidget.ui:118
+msgid "123.234.123.234"
+msgstr "123.234.123.234"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
+#: ui/connectionwidget.ui:136 ui/tubesconnectionwidget.ui:101
+msgid ""
+"If you turn this option on, the remote user can enter keystrokes and use "
+"your mouse pointer. This gives them full control over your computer, so be "
+"careful. When the option is disabled the remote user can only watch your "
+"screen."
+msgstr ""
+"Falls Sie diese Option aktivieren, kann der entfernte Benutzer "
+"Tastatureingaben machen und den Mauszeiger steuern. Damit hat er die volle "
+"Kontrolle über Ihren Rechner. Ist die Option deaktiviert, kann der entfernte "
+"Benutzer lediglich Ihren Bildschirminhalt sehen."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
+#: ui/connectionwidget.ui:139 ui/tubesconnectionwidget.ui:104
+msgid "Allow remote user to &control keyboard and mouse"
+msgstr "Dem entfernten Benutzer die &Steuerung von Tastatur und Maus erlauben"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: ui/invitewidget.ui:40 ui/manageinvitations.ui:25
+msgid "Welcome to KDE Desktop Sharing"
+msgstr "Willkommen zur Freigabe der KDE-Arbeitsfläche"
+
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: ui/invitewidget.ui:50
+msgid ""
+"KDE Desktop Sharing allows you to invite somebody at a remote location to "
+"watch and possibly control your desktop. <a href=\"whatsthis\">More about "
+"invitations...</a>"
+msgstr ""
+"Mit der Freigabe der KDE-Arbeitsfläche können Sie andere Personen einladen, "
+"Ihre Arbeitsfläche über eine Netzwerkverbindung anzusehen und zu verwenden. "
+"<a href=\"whatsthis\">Mehr über Einladungen ...</a>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateInvite)
+#: ui/invitewidget.ui:105
+msgid ""
+"Create a new invitation and display the connection data. Use this option if "
+"you want to invite somebody personally, for example, to give the connection "
+"data over the phone."
+msgstr ""
+"Eine neue Einladung erstellen und anzeigen. Diese Option sollten Sie "
+"verwenden, falls Sie jemanden persönlich einladen möchten, z. B. wenn Sie "
+"die Verbindungsdaten über das Telefon mitteilen."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateInvite)
+#: ui/invitewidget.ui:108
+msgid "Create &Personal Invitation..."
+msgstr "&Persönlich einladen ..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEmailInvite)
+#: ui/invitewidget.ui:115
+msgid ""
+"This button will start your email application with a pre-configured text "
+"that explains to the recipient how to connect to your computer. "
+msgstr ""
+"Dieser Knopf startet das E-Mail-Programm und erstellt eine Nachricht mit "
+"einem vorbereiteten Text, der für den Einzuladenden Erläuterungen zur "
+"Verbindung mit Ihrem Rechner enthält. "
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEmailInvite)
+#: ui/invitewidget.ui:118
+msgid "Invite via &Email..."
+msgstr "Einladen per &E-Mail ..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ManageInvitationsDialog)
+#: ui/manageinvitations.ui:13
+msgid "Manage Invitations - Desktop Sharing"
+msgstr "Einladungen bearbeiten – Freigabe der Arbeitsfläche"
+
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: ui/manageinvitations.ui:38
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">KDE Desktop Sharing allows "
+"you to invite somebody at a remote location to watch and possibly control "
+"your desktop. <a href=\"whatsthis\">More about invitations...</a></p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Mit der Freigabe der KDE-"
+"Arbeitsfläche können Sie andere Personen einladen, Ihre Arbeitsfläche über "
+"eine Netzwerkverbindung anzusehen und zu kontrollieren. <a href=\"whatsthis"
+"\">Mehr über Einladungen ...</a></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: ui/manageinvitations.ui:95
+msgid "Creation Time"
+msgstr "Erstellungszeit"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: ui/manageinvitations.ui:100
+msgid "Expire Time"
+msgstr "Ablaufzeit"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:124
+msgid "Create a new personal invitation..."
+msgstr "Eine neue persönliche Einladung erstellen ..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:127
+msgid "Click this button to create a new personal invitation."
+msgstr ""
+"Klicken Sie auf diesen Knopf, um eine neue persönliche Einladung zu "
+"erstellen."
+
+#. i18n: ectx: property (text), widget (QPushButton, newPersonalInvitationButton)
+#: ui/manageinvitations.ui:130
+msgid "New &Personal Invitation..."
+msgstr "Neue &persönliche Einladung ..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:137
+msgid "Send a new invitation via email..."
+msgstr "Eine neue Einladung per E-Mail versenden ..."
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:140
+msgid "Click this button to send a new invitation via email."
+msgstr ""
+"Klicken Sie auf diesen Knopf, um eine neue Einladung per E-Mail zu versenden."
+
+#. i18n: ectx: property (text), widget (QPushButton, newEmailInvitationButton)
+#: ui/manageinvitations.ui:143
+msgid "&New Email Invitation..."
+msgstr "&Neue Einladung per E-Mail ..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:153
+msgid "Delete all invitations"
+msgstr "Alle Einladungen entfernen"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:156
+msgid "Deletes all open invitations."
+msgstr "Entfernt alle offenen Einladungen."
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: ui/manageinvitations.ui:159
+msgid "Delete All"
+msgstr "Alle entfernen"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:169
+msgid "Delete the selected invitation"
+msgstr "Ausgewählte Einladung entfernen"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:172
+msgid ""
+"Delete the selected invitation. The invited person will not be able to "
+"connect using this invitation anymore."
+msgstr ""
+"Entfernt die ausgewählte Einladung. Damit kann die eingeladene Person keine "
+"Verbindung mehr herstellen."
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteOneButton)
+#: ui/manageinvitations.ui:175
+msgid "&Delete"
+msgstr "&Entfernen"
+
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: ui/personalinvitewidget.ui:47
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Personal Invitation</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Give the information below "
+"to the person that you want to invite (<a href=\"htc\">how to connect</a>). "
+"Note that everybody who gets the password can connect, so be careful.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Persönliche Einladung</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Übergeben Sie die unten "
+"stehenden Informationen an die eingeladene Person (<a href=\"htc\">wie man "
+"eine Verbindung herstellt</a>). Beachten Sie: Jeder, der das Passwort "
+"erfährt, kann eine Verbindung zu Ihrer Arbeitsfläche herstellen. Bitte gehen "
+"Sie sorgsam damit um.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel5)
+#: ui/personalinvitewidget.ui:81
+msgid "<b>Host:</b>"
+msgstr "<b>Rechner:</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, hostHelpLabel)
+#: ui/personalinvitewidget.ui:116
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Help</a></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Hilfe</"
+"a></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel6)
+#: ui/personalinvitewidget.ui:129
+msgid "<b>Password:</b>"
+msgstr "<b>Passwort:</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel7)
+#: ui/personalinvitewidget.ui:161
+msgid "<b>Expiration time:</b>"
+msgstr "<b>Verfallszeit:</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: ui/tubesconnectionwidget.ui:48
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#~ msgid "An error occurred sharing your desktop."
+#~ msgstr "Beim Freigeben Ihrer Arbeitsfläche ist ein Fehler aufgetreten."
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "An unknown error occurred sharing your desktop."
+#~ msgstr ""
+#~ "Beim Freigeben Ihrer Arbeitsfläche ist ein unbekannter Fehler aufgetreten."
+
+#~ msgid "Failed to activate the rfb server."
+#~ msgstr "Der RFB-Server kann nicht aktiviert werden."
+
+#~ msgid ""
+#~ "An error occurred sharing your desktop. The person you are trying to "
+#~ "share your desktop with does not have the required software installed to "
+#~ "access it."
+#~ msgstr ""
+#~ "Beim Freigeben Ihrer Arbeitsfläche ist ein Fehler aufgetreten. Die "
+#~ "Person, für die Sie die Freigabe eingerichtet haben, hat die "
+#~ "erforderliche Software für den Zugriff nicht installiert."
+
+#~ msgid "Address already in use"
+#~ msgstr "Adresse wird bereits verwendet"
+
+#~ msgid "Ian Reinhart Geiser"
+#~ msgstr "Ian Reinhart Geiser"
+
+#~ msgid "DCOP interface"
+#~ msgstr "DCOP-Schnittstelle"
+
+#~ msgid "Jens Wagner (heXoNet Support GmbH)"
+#~ msgstr "Jens Wagner (heXoNet Support GmbH)"
+
+#~ msgid "X11 update scanner, original code base"
+#~ msgstr "X11-Aktualisierungsprogramm, ursprüngliche Quelltexte"
+
+#~ msgid "Jason Spisak"
+#~ msgstr "Jason Spisak"
+
+#~ msgid "Connection side image"
+#~ msgstr "Verbindungsseitige Ansicht"
+
+#~ msgid "Karl Vogel"
+#~ msgstr "Karl Vogel"
+
+#~ msgid "KDesktop background deactivation"
+#~ msgstr "Deaktivierung des KDesktop-Hintergrunds"
+
+#~ msgid "Disable Remote Control"
+#~ msgstr "Fernsteuerung deaktivieren"
+
+#~ msgid "The remote user has closed the connection."
+#~ msgstr "Der entfernte Benutzer hat die Verbindung beendet."
+
+#~ msgid "The remote user has been authenticated and is now connected."
+#~ msgstr ""
+#~ "Der entfernte Benutzer wurde authentifiziert und ist jetzt verbunden."
+
+#~ msgid "Attepted uninvited connection from %1: connection refused"
+#~ msgstr "Verbindungsversuch ohne Einladung von %1: Verbindung abgelehnt"

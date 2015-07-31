@@ -1,0 +1,81 @@
+# Stephan Johach <hunsum@gmx.de>, 2004.
+# Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2007.
+# Burkhard Lück <lueck@hube-lueck.de>, 2009, 2013.
+# Frederik Schwarzer <schwarzer@kde.org>, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: messageviewer_text_vcard_plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-19 01:33+0000\n"
+"PO-Revision-Date: 2013-01-04 16:22+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: attendeeselector.ui:24
+msgid "Add"
+msgstr "Hinzufügen"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: attendeeselector.ui:37
+msgid "Remove"
+msgstr "Entfernen"
+
+#: text_vcard.cpp:112
+msgid "Attached business card"
+msgid_plural "Attached business cards"
+msgstr[0] "Angehängte Visitenkarte"
+msgstr[1] "Angehängte Visitenkarten"
+
+#: text_vcard.cpp:157
+msgid "[Add this contact to the address book]"
+msgstr "[Diesen Kontakt zum Adressbuch hinzufügen]"
+
+#: text_vcard.cpp:166
+msgid "[Update this contact to the address book]"
+msgstr "[Diesen Kontakt im Adressbuch aktualisieren]"
+
+#: text_vcard.cpp:174
+msgid "[This contact is already in addressbook]"
+msgstr "[Dieser Kontakt ist bereits im Adressbuch]"
+
+#: text_vcard.cpp:249
+msgid "View Business Card"
+msgstr "Visitenkarten anzeigen"
+
+#: text_vcard.cpp:251
+msgid "Save Business Card As..."
+msgstr "Visitenkarten speichern unter ..."
+
+#: text_vcard.cpp:268
+msgid "Add this contact to the address book."
+msgstr "Diesen Kontakt zum Adressbuch hinzufügen."
+
+#: text_vcard.cpp:268
+msgid "Update this contact to the address book."
+msgstr "Diesen Kontakt im Adressbuch aktualisieren."
+
+#: text_vcard.cpp:270
+#, kde-format
+msgid "Add \"%1\" to the address book."
+msgstr "Kontakt „%1“ zum Adressbuch hinzufügen."
+
+#: text_vcard.cpp:270
+#, kde-format
+msgid "Update \"%1\" to the address book."
+msgstr "Kontakt „%1“ im Adressbuch aktualisieren."
+
+#: text_vcard.cpp:297
+msgid "Save Business Card"
+msgstr "Visitenkarten speichern"
+
+#: text_vcard.cpp:302
+#, kde-format
+msgid "%1 already exists. Do you want to overwrite it?"
+msgstr "%1 existiert bereits. Möchten Sie es überschreiben?"

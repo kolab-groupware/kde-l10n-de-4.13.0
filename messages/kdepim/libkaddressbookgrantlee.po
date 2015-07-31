@@ -1,0 +1,99 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Burkhard Lück <lueck@hube-lueck.de>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-09 01:34+0000\n"
+"PO-Revision-Date: 2013-11-09 13:45+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: formatter/grantleecontactformatter.cpp:147
+#, kde-format
+msgctxt ""
+"@title:row label for an Instant Messaging address, %1 is I18Ned protocol name"
+msgid "IM (%1)"
+msgstr "IM (%1)"
+
+#: formatter/grantleecontactformatter.cpp:258
+#, kde-format
+msgid "(One year old)"
+msgid_plural "(%1 years old)"
+msgstr[0] "(Ein Jahr alt)"
+msgstr[1] "(%1 Jahre alt)"
+
+#: formatter/grantleecontactformatter.cpp:452
+msgctxt "Boolean value"
+msgid "yes"
+msgstr "Ja"
+
+#: formatter/grantleecontactformatter.cpp:454
+msgctxt "Boolean value"
+msgid "no"
+msgstr "Nein"
+
+#: formatter/grantleecontactutils.cpp:26
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: formatter/grantleecontactutils.cpp:28
+msgctxt "The wedding anniversary of a contact"
+msgid "Anniversary"
+msgstr "Jahrestag"
+
+#: formatter/grantleecontactutils.cpp:30
+msgid "Emails"
+msgstr "E-Mails"
+
+#: formatter/grantleecontactutils.cpp:32
+msgid "Website"
+msgstr "Webseite"
+
+#: formatter/grantleecontactutils.cpp:34
+msgid "Blog Feed"
+msgstr "Blog-Quelle"
+
+#: formatter/grantleecontactutils.cpp:36
+msgid "Address Book"
+msgstr "Adressbuch"
+
+#: formatter/grantleecontactutils.cpp:38
+msgid "Note"
+msgstr "Anmerkung"
+
+#: formatter/grantleecontactutils.cpp:40
+msgid "Department"
+msgstr "Abteilung"
+
+#: formatter/grantleecontactutils.cpp:42
+msgid "Profession"
+msgstr "Beruf"
+
+#: formatter/grantleecontactutils.cpp:44
+msgid "Office"
+msgstr "Büro"
+
+#: formatter/grantleecontactutils.cpp:46
+msgid "Manager's Name"
+msgstr "Name des Managers"
+
+#: formatter/grantleecontactutils.cpp:48
+msgid "Assistant's Name"
+msgstr "Name des Assistenten"
+
+#: formatter/grantleecontactutils.cpp:50
+msgid "Partner's Name"
+msgstr "Name des Partners"
+
+#: formatter/grantleecontactutils.cpp:52
+msgid "IM Address"
+msgstr "IM-Adresse"
